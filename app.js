@@ -226,4 +226,91 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleBtn.textContent = "Expand";
     }
   });
+  /***********************************
+   * 7) Fuzzy Search Integration (Fuse.js)
+   ***********************************/
+
+  // Utility function to get candidate objects from characterData.
+  function getSearchCandidates() {
+    return characterData.map(item => {
+      return {
+        name: item.name, // Character name.
+        title: item.category, // Title/Category.
+        display: `${item.name} (${item.category})`,
+        raw: item
+      };
+    });
+  }
+
+  // Initialize Fuse.js with candidate data.
+  let fuse = createFuse(getSearchCandidates());
+
+  const searchInput = document.getElementById("character-search");
+  const suggestionsContainer = document.getElementById("search-suggestions");
+
+  searchInput.addEventListener("input", function () {
+    const query = this.value.trim();
+    suggestionsContainer.innerHTML = "";
+    if (!query) return;
+
+    // If candidate data might change, update the Fuse collection.
+    fuse.setCollection(getSearchCandidates());
+
+    // Perform the fuzzy search.
+    const results = fuseSearch(query, fuse);
+
+    // Limit to top 10 results.
+    results.slice(0, 10).forEach(result => {
+      // Optionally, filter out any unwanted title-only items here.
+      const itemDiv = document.createElement("div");
+      itemDiv.className = "suggestion-item";
+      itemDiv.textContent = result.display;
+
+      itemDiv.addEventListener("click", function () {
+        // Update the search box with the chosen result.
+        searchInput.value = result.display;
+        suggestionsContainer.innerHTML = "";
+
+        // Approach B: Directly call update functions.
+
+        // 1) Add a new character block.
+        addCharacterBlock();
+        const blockId = characterCount; // The new block's id.
+
+        // 2) Populate the Media dropdown.
+        const mediaSelect = document.getElementById("media-select-" + blockId);
+        if (mediaSelect) {
+          mediaSelect.value = result.raw.mediaType;
+          updateTitleOptions(blockId, result.raw.mediaType);
+        }
+
+        // 3) Populate the Title dropdown.
+        const titleSelect = document.getElementById("title-select-" + blockId);
+        if (titleSelect) {
+          titleSelect.value = result.raw.category;
+          updateCharacterDropdown(blockId, result.raw.mediaType, result.raw.category);
+        }
+
+        // 4) Set the Character dropdown.
+        const charSelect = document.getElementById("char-select-" + blockId);
+        if (charSelect) {
+          charSelect.value = result.raw.name;
+          charSelect.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+
+        // 5) Finally, clear the search box.
+        searchInput.value = "";
+      });
+
+      suggestionsContainer.appendChild(itemDiv);
+    });
+  });
+
+  // Hide suggestions when clicking outside the search input.
+  document.addEventListener("click", function (e) {
+    if (!searchInput.contains(e.target)) {
+      suggestionsContainer.innerHTML = "";
+    }
+  });
+
 });
