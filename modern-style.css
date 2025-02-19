@@ -209,6 +209,36 @@ option {
     box-sizing: border-box;
 }
 
+/* Suggestions List Container */
+.suggestions-list {
+    position: absolute; /* ensures it can float below the search input */
+    top: 100%; /* place it just under the input */
+    left: 0;
+    width: 100%;
+    max-height: 300px; /* limit the vertical space */
+    overflow-y: auto; /* enable scrolling if needed */
+    background: var(--container-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    z-index: 9999; /* ensure it appears on top of other elements */
+    margin-top: 4px; /* slight gap under the search bar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Each suggestion item */
+.suggestions-list .suggestion-item {
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+.suggestions-list .suggestion-item:hover {
+    background-color: var(--border-color);
+    color: var(--highlight-color);
+    cursor: pointer;
+}
+
 /* Search Icon (🔍) on the Left */
 .search-icon {
     position: absolute;
