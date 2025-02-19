@@ -1,12 +1,19 @@
+// Modified: Populate scene dropdown with sorted scene themes.
 function populateSceneDropdown() {
     const sceneSelect = document.getElementById("scene");
+
+    // Add special items first.
     ["NONE", "RANDOM"].forEach(val => {
         const option = document.createElement("option");
         option.value = val;
         option.textContent = val;
         sceneSelect.appendChild(option);
     });
-    scenes.forEach(sceneItem => {
+
+    // Sort the scenes (assumed to be objects with a 'theme' property)
+    const sortedScenes = scenes.slice().sort((a, b) => a.theme.localeCompare(b.theme));
+
+    sortedScenes.forEach(sceneItem => {
         const option = document.createElement("option");
         option.value = sceneItem.theme;
         option.textContent = sceneItem.theme;

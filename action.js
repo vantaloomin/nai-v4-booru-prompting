@@ -82,12 +82,15 @@ function addActionBlock(bypassCheck) {
     defaultActionOption.value = "";
     defaultActionOption.textContent = "-- Select Action --";
     actionSelect.appendChild(defaultActionOption);
-    actionTags.forEach(act => {
+    // Populate the action dropdown with sorted actions.
+    const sortedActions = actionTags.slice().sort((a, b) => a.localeCompare(b));
+    sortedActions.forEach(act => {
         const option = document.createElement("option");
         option.value = act;
         option.textContent = act.charAt(0).toUpperCase() + act.slice(1);
         actionSelect.appendChild(option);
     });
+
     div.appendChild(actionSelect);
 
     // Mode selection: radio buttons.
@@ -113,7 +116,7 @@ function addActionBlock(bypassCheck) {
     mutualLabel.appendChild(document.createTextNode(" Mutual"));
     modeDiv.appendChild(mutualLabel);
 
-    mutualRadio.addEventListener("change", function() {
+    mutualRadio.addEventListener("change", function () {
         if (this.checked) {
             checkMutualAutoAssign(actionId);
         }
@@ -147,7 +150,7 @@ function addActionBlock(bypassCheck) {
     const removeBtn = document.createElement("button");
     removeBtn.type = "button";
     removeBtn.textContent = "Remove Act";
-    removeBtn.addEventListener("click", function() {
+    removeBtn.addEventListener("click", function () {
         container.removeChild(div);
         actionCount--;
     });
@@ -243,7 +246,7 @@ function showActionSelectionPopup(sourceBlockId, targetBlockId) {
     const closeButton = document.createElement('span');
     closeButton.textContent = '×';
     closeButton.classList.add('modal-close');
-    closeButton.addEventListener('click', function() {
+    closeButton.addEventListener('click', function () {
         document.body.removeChild(modalOverlay);
     });
     modalContainer.appendChild(closeButton);
@@ -277,7 +280,7 @@ function showActionSelectionPopup(sourceBlockId, targetBlockId) {
     modeToggleContainer.appendChild(toggleLabel);
 
     // Update label text on toggle change.
-    toggleInput.addEventListener('change', function() {
+    toggleInput.addEventListener('change', function () {
         if (this.checked) {
             toggleLabel.textContent = 'Source→Target';
         } else {
@@ -318,7 +321,7 @@ function showActionSelectionPopup(sourceBlockId, targetBlockId) {
             const btn = document.createElement('button');
             btn.textContent = action.charAt(0).toUpperCase() + action.slice(1);
             btn.classList.add('action-btn');
-            btn.addEventListener('click', function() {
+            btn.addEventListener('click', function () {
                 const selectedMode = toggleInput.checked ? 'st' : 'mutual';
                 chooseActionForDrag(sourceBlockId, targetBlockId, action, selectedMode);
                 document.body.removeChild(modalOverlay);
@@ -332,13 +335,13 @@ function showActionSelectionPopup(sourceBlockId, targetBlockId) {
     renderActionButtons('');
 
     // Update list on search input changes
-    searchInput.addEventListener('input', function() {
+    searchInput.addEventListener('input', function () {
         renderActionButtons(this.value);
     });
 
     // Append container to overlay and handle click-outside-to-close
     modalOverlay.appendChild(modalContainer);
-    modalOverlay.addEventListener('click', function(e) {
+    modalOverlay.addEventListener('click', function (e) {
         if (e.target === modalOverlay) {
             document.body.removeChild(modalOverlay);
         }
