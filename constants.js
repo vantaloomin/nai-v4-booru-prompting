@@ -13119,6 +13119,7 @@ const actionTags = [
     "stacking",
     "standing",
     "staring",
+    "hug",
     "stepping",
     "stomping",
     "strangling",

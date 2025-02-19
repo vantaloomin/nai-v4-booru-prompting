@@ -154,6 +154,7 @@ function addActionBlock(bypassCheck) {
     div.appendChild(removeBtn);
 
     container.appendChild(div);
+    return actionId;
 }
 
 // Function to update (refresh) the character options in all action blocks.
@@ -224,4 +225,158 @@ function getActionTags() {
         tags = tags.concat(assignments[charId]);
     }
     return tags;
+}
+
+// Displays a modal pop-up allowing the user to select an action.
+function showActionSelectionPopup(sourceBlockId, targetBlockId) {
+    // Create the modal overlay
+    const modalOverlay = document.createElement('div');
+    modalOverlay.id = 'action-modal-overlay';
+    modalOverlay.classList.add('modal-overlay');
+
+    // Create the modal container
+    const modalContainer = document.createElement('div');
+    modalContainer.id = 'action-modal-container';
+    modalContainer.classList.add('modal-container');
+
+    // Close button ("×" in top-right corner)
+    const closeButton = document.createElement('span');
+    closeButton.textContent = '×';
+    closeButton.classList.add('modal-close');
+    closeButton.addEventListener('click', function() {
+        document.body.removeChild(modalOverlay);
+    });
+    modalContainer.appendChild(closeButton);
+
+    // Title
+    const title = document.createElement('h3');
+    title.textContent = 'Select Action';
+    modalContainer.appendChild(title);
+
+    // -- Mode Toggle using slider switch --
+    const modeToggleContainer = document.createElement('div');
+    modeToggleContainer.classList.add('mode-toggle-container');
+
+    // Create the toggle switch
+    const toggleSwitch = document.createElement('label');
+    toggleSwitch.classList.add('toggle-switch');
+    const toggleInput = document.createElement('input');
+    toggleInput.type = 'checkbox';
+    toggleInput.id = 'mode-toggle';
+    toggleInput.checked = true; // Default to Source→Target
+    const slider = document.createElement('span');
+    slider.classList.add('slider');
+    toggleSwitch.appendChild(toggleInput);
+    toggleSwitch.appendChild(slider);
+    modeToggleContainer.appendChild(toggleSwitch);
+
+    // Toggle label text. We'll update the text based on toggle state.
+    const toggleLabel = document.createElement('span');
+    toggleLabel.classList.add('toggle-label');
+    toggleLabel.textContent = 'Source→Target';
+    modeToggleContainer.appendChild(toggleLabel);
+
+    // Update label text on toggle change.
+    toggleInput.addEventListener('change', function() {
+        if (this.checked) {
+            toggleLabel.textContent = 'Source→Target';
+        } else {
+            toggleLabel.textContent = 'Mutual';
+        }
+    });
+
+    modalContainer.appendChild(modeToggleContainer);
+
+    // -- Search Bar --
+    const searchInput = document.createElement('input');
+    searchInput.type = 'text';
+    searchInput.placeholder = 'Search actions...';
+    searchInput.classList.add('action-search');
+    modalContainer.appendChild(searchInput);
+
+    // -- Action Buttons Container --
+    const actionsContainer = document.createElement('div');
+    actionsContainer.id = 'actions-container-modal';
+    actionsContainer.classList.add('actions-container-modal');
+    modalContainer.appendChild(actionsContainer);
+
+    // Render action buttons filtered by search text
+    function renderActionButtons(filterText) {
+        actionsContainer.innerHTML = '';
+        // Filter and sort actions alphabetically.
+        const filtered = actionTags
+            .filter(act => act.toLowerCase().includes(filterText.toLowerCase()))
+            .sort((a, b) => a.localeCompare(b));
+        if (filtered.length === 0) {
+            const noResult = document.createElement('div');
+            noResult.textContent = 'No actions found.';
+            noResult.classList.add('no-actions-found');
+            actionsContainer.appendChild(noResult);
+            return;
+        }
+        filtered.forEach(action => {
+            const btn = document.createElement('button');
+            btn.textContent = action.charAt(0).toUpperCase() + action.slice(1);
+            btn.classList.add('action-btn');
+            btn.addEventListener('click', function() {
+                const selectedMode = toggleInput.checked ? 'st' : 'mutual';
+                chooseActionForDrag(sourceBlockId, targetBlockId, action, selectedMode);
+                document.body.removeChild(modalOverlay);
+            });
+            actionsContainer.appendChild(btn);
+        });
+    }
+
+
+    // Initial render (all actions)
+    renderActionButtons('');
+
+    // Update list on search input changes
+    searchInput.addEventListener('input', function() {
+        renderActionButtons(this.value);
+    });
+
+    // Append container to overlay and handle click-outside-to-close
+    modalOverlay.appendChild(modalContainer);
+    modalOverlay.addEventListener('click', function(e) {
+        if (e.target === modalOverlay) {
+            document.body.removeChild(modalOverlay);
+        }
+    });
+    document.body.appendChild(modalOverlay);
+}
+
+
+// Called after the user selects an action from the pop-up.
+// This function creates a new action block and automatically sets its source, target, and action.
+function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode) {
+    const newActionId = addActionBlock(true);
+    const newActionBlock = document.getElementById("action-block-" + newActionId);
+    if (!newActionBlock) return;
+
+    // Set the action dropdown
+    const actionSelect = newActionBlock.querySelector(".action-select");
+    if (actionSelect) {
+        actionSelect.value = action;
+    }
+
+    // Set source and target characters
+    const sourceCharSelect = document.getElementById("char-select-" + sourceBlockId);
+    const targetCharSelect = document.getElementById("char-select-" + targetBlockId);
+    if (sourceCharSelect && targetCharSelect) {
+        const sourceVal = sourceCharSelect.value;
+        const targetVal = targetCharSelect.value;
+        const sourceSelect = newActionBlock.querySelector(".action-source");
+        const targetSelect = newActionBlock.querySelector(".action-target");
+        if (sourceSelect) sourceSelect.value = sourceVal;
+        if (targetSelect) targetSelect.value = targetVal;
+    }
+
+    // Set the mode radio based on the toggle value
+    const radios = newActionBlock.querySelectorAll(`input[name="action-mode-${newActionId}"]`);
+    radios.forEach(radio => {
+        if (radio.value === mode) {
+            radio.checked = true;
+        }
+    });
 }

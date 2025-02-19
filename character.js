@@ -107,6 +107,38 @@ function addCharacterBlock() {
     toggleIcon.textContent = "▼"; // content is initially visible
     headerDiv.appendChild(toggleIcon);
 
+    // --- New: Add Action Drag Handle ---
+    const actionDragHandle = document.createElement('span');
+    actionDragHandle.className = 'action-drag-handle';
+    actionDragHandle.textContent = "🡆"; // Use an arrow icon to indicate action assignment
+    actionDragHandle.setAttribute("draggable", "true");
+    // When dragging starts from the action handle, record this character block's id
+    actionDragHandle.addEventListener('dragstart', function(e) {
+        // Use the block id (number) as the transferable data.
+        e.dataTransfer.setData("text/plain", blockId.toString());
+        e.dataTransfer.effectAllowed = "move";
+        // Prevent the sortable drag from also triggering.
+        e.stopPropagation();
+    });
+    headerDiv.appendChild(actionDragHandle);
+
+    // --- Make the entire character block a drop target for action assignments ---
+    div.addEventListener('dragover', function(e) {
+        // Allow drop.
+        e.preventDefault();
+    });
+    div.addEventListener('drop', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const sourceId = e.dataTransfer.getData("text/plain");
+        const targetId = blockId.toString();
+        // Only proceed if the drop is coming from a different character block.
+        if (sourceId && sourceId !== targetId) {
+            // Call the pop-up to choose an action – this function is defined in action.js.
+            showActionSelectionPopup(sourceId, targetId);
+        }
+    });
+
     // Collapsible content container
     const contentDiv = document.createElement('div');
     contentDiv.className = 'block-content';
