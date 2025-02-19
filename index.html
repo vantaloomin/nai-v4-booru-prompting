@@ -64,7 +64,8 @@
         <h2>Random Prompt</h2>
         <div>
             <label for="random-char-slider">Number of Random Characters:</label>
-            <input type="range" id="random-char-slider" min="1" max="4" value="2" oninput="document.getElementById('random-char-count').textContent = this.value">
+            <input type="range" id="random-char-slider" min="1" max="4" value="2"
+                oninput="document.getElementById('random-char-count').textContent = this.value">
             <span id="random-char-count">2</span>
         </div>
         <div>
@@ -78,19 +79,23 @@
         <button id="generate-btn">Generate Prompt</button>
         <button id="copy-prompt-btn" type="button">Copy Prompt</button>
         <h2>Generated Prompt</h2>
-        <textarea id="output" rows="4" readonly></textarea>
-    </div>
-    <!-- Include JavaScript Files -->
-    <script src="constants.js"></script>
-    <script src="artist.js"></script>
-    <script src="scene.js"></script>
-    <script src="character.js"></script>
-    <script src="action.js"></script>
-    <script src="prompt.js"></script>
-    <script src="full-random.js"></script>
-    <script src="app.js"></script>
-    <!-- Include Sortable.js from a free CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <div id="output-container">
+            <div id="output-preview" contenteditable="true"></div>
+            <button id="toggle-expand">Expand</button>
+        </div>
+
+        <!-- Include JavaScript Files -->
+        <script src="constants.js"></script>
+        <script src="artist.js"></script>
+        <script src="scene.js"></script>
+        <script src="character.js"></script>
+        <script src="action.js"></script>
+        <script src="prompt.js"></script>
+        <script src="full-random.js"></script>
+        <script src="app.js"></script>
+        <!-- Include Sortable.js from a free CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js" crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

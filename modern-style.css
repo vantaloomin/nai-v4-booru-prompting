@@ -211,17 +211,23 @@ option {
 
 /* Suggestions List Container */
 .suggestions-list {
-    position: absolute; /* ensures it can float below the search input */
-    top: 100%; /* place it just under the input */
+    position: absolute;
+    /* ensures it can float below the search input */
+    top: 100%;
+    /* place it just under the input */
     left: 0;
     width: 100%;
-    max-height: 300px; /* limit the vertical space */
-    overflow-y: auto; /* enable scrolling if needed */
+    max-height: 300px;
+    /* limit the vertical space */
+    overflow-y: auto;
+    /* enable scrolling if needed */
     background: var(--container-bg);
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    z-index: 9999; /* ensure it appears on top of other elements */
-    margin-top: 4px; /* slight gap under the search bar */
+    z-index: 9999;
+    /* ensure it appears on top of other elements */
+    margin-top: 4px;
+    /* slight gap under the search bar */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
@@ -434,52 +440,103 @@ option {
 
 /* ================== TOGGLE SWITCH STYLES ================== */
 .toggle-switch {
-  display: inline-block;
-  position: relative;
-  width: 60px;
-  height: 30px;
-  margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 .toggle-switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0; left: 0;
-  right: 0; bottom: 0;
-  background-color: #ccc;
-  transition: 0.4s;
-  border-radius: 30px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 30px;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 2px;
-  bottom: 2px;
-  background-color: white;
-  transition: 0.4s;
-  border-radius: 50%;
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
 }
 
-.toggle-switch input:checked + .slider {
-  background-color: var(--highlight-color);
+.toggle-switch input:checked+.slider {
+    background-color: var(--highlight-color);
 }
 
-.toggle-switch input:checked + .slider:before {
-  transform: translateX(30px);
+.toggle-switch input:checked+.slider:before {
+    transform: translateX(30px);
 }
 
 /* Label text for the toggle */
 .toggle-label {
-  font-weight: bold;
-  vertical-align: middle;
-  user-select: none;
+    font-weight: bold;
+    vertical-align: middle;
+    user-select: none;
+}
+
+/* New Prompt Preview Container */
+#output-container {
+    position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--input-bg);
+    color: var(--text-color);
+    padding: 14px;
+    max-height: 150px;
+    /* Initial height when collapsed */
+    overflow-y: auto;
+    transition: max-height 0.3s ease;
+}
+
+/* Expanded state: remove max-height limit */
+#output-container.expanded {
+    max-height: none;
+}
+
+/* Styling for the content-editable prompt preview */
+#output-preview {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    outline: none;
+    /* Remove default focus outline */
+}
+
+/* Toggle Expand/Collapse Button */
+#toggle-expand {
+    display: block;
+    margin-top: 10px;
+    background: var(--highlight-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background var(--transition-speed), transform var(--transition-speed);
+}
+
+#toggle-expand:hover {
+    background: #ff99ff;
+    transform: scale(1.03);
+}
+
+#toggle-expand:active {
+    transform: scale(0.98);
 }
