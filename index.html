@@ -53,7 +53,7 @@
         <!-- Character Cards -->
         <div id="characters-container"></div>
         <hr>
-        <!-- Actions Section -->
+        <!-- Actions Section  -->
         <h2>Actions</h2>
         <div id="actions-container">
             <!-- Action blocks will be added here -->
@@ -79,10 +79,18 @@
         <button id="generate-btn">Generate Prompt</button>
         <button id="copy-prompt-btn" type="button">Copy Prompt</button>
         <h2>Generated Prompt</h2>
-        <div id="output-container" class="expanded">
+        <div id="output-container">
             <div id="output-preview" contenteditable="true"></div>
         </div>
         <button id="toggle-expand">Expand</button>
+        <!-- Toggle Coloring Slider -->
+        <div id="color-toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="color-toggle" checked>
+                <span class="slider round"></span>
+            </label>
+            <span id="color-toggle-label">Coloring Enabled</span>
+        </div>
 
 
         <!-- Include JavaScript Files -->

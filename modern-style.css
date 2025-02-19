@@ -22,6 +22,10 @@ body {
     line-height: 1.6;
 }
 
+.hide {
+    display: none !important;
+}
+
 /* Container Styling */
 .container {
     max-width: 900px;
@@ -539,4 +543,129 @@ option {
 
 #toggle-expand:active {
     transform: scale(0.98);
+}
+
+/* Toggle Slider Styles */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 24px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  #color-toggle-container {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  #color-toggle-label {
+    font-size: 0.9rem;
+    color: var(--text-color);
+  }
+  
+
+
+/* Header / Default Elements */
+.highlight-default {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.highlight-artist {
+    color: #ff77ff;
+    font-weight: bold;
+}
+
+.highlight-consistent {
+    color: #77ddff;
+    font-style: italic;
+}
+
+.highlight-subject {
+    color: #aec6cf;
+    font-weight: bold;
+}
+
+.highlight-scene {
+    color: #ffd700;
+}
+
+.highlight-quality {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.highlight-other {
+    color: #aaa;
+}
+
+/* Character Info Colors (cycle through 4 blue shades) */
+.highlight-character-1 {
+    color: #aec6cf;
+    /* light blue */
+}
+
+.highlight-character-2 {
+    color: #6baed6;
+    /* medium light blue */
+}
+
+.highlight-character-3 {
+    color: #3182bd;
+    /* medium blue */
+}
+
+.highlight-character-4 {
+    color: #08519c;
+    /* dark blue */
+}
+
+/* Action Colors for each character block */
+.highlight-action-1,
+.highlight-action-2,
+.highlight-action-3,
+.highlight-action-4 {
+    color: #ff99ff;
+    font-weight: bold;
 }
