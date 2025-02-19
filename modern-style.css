@@ -1,0 +1,144 @@
+/* modern-style.css */
+
+/* Base Variables for Dark Mode & Synthwave Colors */
+:root {
+    --bg-color: #121212;
+    --container-bg: #1e1e1e;
+    --input-bg: #252525;
+    --border-color: #444;
+    --highlight-color: #ff77ff;
+    --text-color: #f5f5f5;
+    --label-color: #e0e0e0;
+    --shadow-color: rgba(0, 0, 0, 0.7);
+    --transition-speed: 0.3s;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background: var(--container-bg);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px var(--shadow-color);
+}
+
+/* Headings */
+h1,
+h2 {
+    color: var(--highlight-color);
+    text-shadow: 0 0 12px var(--highlight-color);
+    margin-bottom: 20px;
+}
+
+/* Spacing for Form Elements */
+.container div {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: 600;
+    color: var(--label-color);
+    margin-bottom: 8px;
+}
+
+/* Inputs, Selects, and Textareas */
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--input-bg);
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: border-color var(--transition-speed), box-shadow var(--transition-speed);
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border-color: var(--highlight-color);
+    box-shadow: 0 0 10px var(--highlight-color);
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background: var(--highlight-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 8px;
+    padding: 14px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background var(--transition-speed), transform var(--transition-speed);
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff99ff;
+    transform: scale(1.03);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Character Block Styling */
+.character-block {
+    background: var(--input-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 30px 0;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Custom Dropdown Arrow */
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%226%22%20viewBox%3D%220%200%2010%206%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200l5%206%205-6z%22%20fill%3D%22%23ff77ff%22/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px 7px;
+}
+
+/* Additional spacing for dropdown options */
+select,
+option {
+    padding: 10px;
+}
