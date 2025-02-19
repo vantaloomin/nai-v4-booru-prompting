@@ -70,37 +70,48 @@ function addCharacterBlock() {
     }
 
     characterCount++;
-    const blockId = characterCount; // capture current block id
+    const blockId = characterCount;
     const container = document.getElementById('characters-container');
 
-    // Create main block container.
+    // Main card element (now a flex column).
     const div = document.createElement('div');
     div.className = 'character-block';
     div.id = 'character-' + blockId;
 
-    // Create header with dynamic title and collapse/expand button.
+    // Header (collapsible).
     const headerDiv = document.createElement('div');
     headerDiv.className = 'block-header';
     headerDiv.style.display = 'flex';
     headerDiv.style.justifyContent = 'space-between';
     headerDiv.style.alignItems = 'center';
 
+    // Drag handle
+    const dragHandle = document.createElement('span');
+    dragHandle.className = 'drag-handle';
+    dragHandle.textContent = "≡";
+    // Prevent clicking the handle from toggling collapse.
+    dragHandle.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+    headerDiv.appendChild(dragHandle);
+
+    // Header title
     const headerTitle = document.createElement('span');
     headerTitle.className = 'block-title';
     headerTitle.textContent = `Character ${blockId}`;
     headerDiv.appendChild(headerTitle);
 
-    const collapseBtn = document.createElement('button');
-    collapseBtn.type = "button";
-    collapseBtn.className = "collapse-btn";
-    collapseBtn.textContent = "Collapse";
-    headerDiv.appendChild(collapseBtn);
+    // Toggle icon (▼ / ▲)
+    const toggleIcon = document.createElement('span');
+    toggleIcon.className = 'toggle-icon';
+    toggleIcon.textContent = "▼"; // content is initially visible
+    headerDiv.appendChild(toggleIcon);
 
-    // Create container for block content.
+    // Collapsible content container
     const contentDiv = document.createElement('div');
     contentDiv.className = 'block-content';
 
-    // --- Media Type Dropdown ---
+    // --- Media Type ---
     const mediaTypeLabel = document.createElement('label');
     mediaTypeLabel.textContent = 'Select Media Type:';
     contentDiv.appendChild(mediaTypeLabel);
@@ -111,6 +122,7 @@ function addCharacterBlock() {
     defaultMediaOption.value = "";
     defaultMediaOption.textContent = "-- Select Media Type --";
     mediaTypeSelect.appendChild(defaultMediaOption);
+
     const mediaTypes = [...new Set(characterData.map(item => item.mediaType))];
     mediaTypes.forEach(media => {
         const option = document.createElement('option');
@@ -120,7 +132,7 @@ function addCharacterBlock() {
     });
     contentDiv.appendChild(mediaTypeSelect);
 
-    // --- Title Dropdown (using Category as Title) ---
+    // --- Title (Game/Show) ---
     const titleLabel = document.createElement('label');
     titleLabel.textContent = 'Select Title (Game/Show):';
     contentDiv.appendChild(titleLabel);
@@ -133,7 +145,7 @@ function addCharacterBlock() {
     titleSelect.appendChild(defaultTitleOption);
     contentDiv.appendChild(titleSelect);
 
-    // --- Character Dropdown ---
+    // --- Character ---
     const charSelectLabel = document.createElement('label');
     charSelectLabel.textContent = 'Select Character:';
     contentDiv.appendChild(charSelectLabel);
@@ -146,21 +158,24 @@ function addCharacterBlock() {
     charSelect.appendChild(defaultCharOption);
     contentDiv.appendChild(charSelect);
 
-    // --- Gender Toggle container (if applicable) ---
+    // --- Gender Toggle Container ---
     const genderDiv = document.createElement('div');
     genderDiv.id = 'gender-div-' + blockId;
     contentDiv.appendChild(genderDiv);
 
-    // --- Enhancer Dropdown container ---
+    // --- Enhancer Dropdown Container ---
     const enhancerDiv = document.createElement('div');
     enhancerDiv.id = 'enhancer-div-' + blockId;
     contentDiv.appendChild(enhancerDiv);
 
-    // Append content container to main block.
+    // Append header + content to the card
     div.appendChild(headerDiv);
     div.appendChild(contentDiv);
 
-    // --- Remove Button ---
+    // --- Remove Button pinned at bottom ---
+    const removeBtnContainer = document.createElement('div');
+    removeBtnContainer.className = 'remove-btn-container';
+
     const removeBtn = document.createElement('button');
     removeBtn.textContent = "Remove Character";
     removeBtn.type = "button";
@@ -168,9 +183,21 @@ function addCharacterBlock() {
         container.removeChild(div);
         characterCount--;
     });
-    div.appendChild(removeBtn);
+    removeBtnContainer.appendChild(removeBtn);
+    div.appendChild(removeBtnContainer);
 
-    // --- Event Listeners ---
+    // Collapsible toggle on header click
+    headerDiv.addEventListener('click', function() {
+        if (contentDiv.style.display === "none") {
+            contentDiv.style.display = "";
+            toggleIcon.textContent = "▼";
+        } else {
+            contentDiv.style.display = "none";
+            toggleIcon.textContent = "▲";
+        }
+    });
+
+    // Event listeners
     mediaTypeSelect.addEventListener('change', function() {
         updateTitleOptions(blockId, this.value);
         resetCharacterDropdown(blockId);
@@ -188,29 +215,18 @@ function addCharacterBlock() {
         updateGenderToggle(blockId, this.value);
         updateEnhancerDropdown(blockId, this.value);
         if (this.value) {
-            // Update header title dynamically.
             const selectedTitle = titleSelect.value;
             headerTitle.textContent = `${cleanDisplayName(this.value)} (${cleanDisplayName(selectedTitle)})`;
-            // Auto-collapse the content.
-            contentDiv.style.display = "none";
-            collapseBtn.textContent = "Expand";
         } else {
             headerTitle.textContent = `Character ${blockId}`;
         }
     });
 
-    collapseBtn.addEventListener('click', function() {
-        if (contentDiv.style.display === "none") {
-            contentDiv.style.display = "";
-            this.textContent = "Collapse";
-        } else {
-            contentDiv.style.display = "none";
-            this.textContent = "Expand";
-        }
-    });
-
+    // Finally, append the card to the container
     container.appendChild(div);
 }
+
+
 
 function addRandomCharacterBlock(type) {
     // type: "all", "vg", or "media"
@@ -425,3 +441,131 @@ function getCharacterSubjects() {
     }
     return { subjects, subjectCountObj };
 }
+document.addEventListener("DOMContentLoaded", function() {
+    const searchInput = document.getElementById("character-search");
+    const clearButton = document.getElementById("clear-search");
+    const suggestionsContainer = document.getElementById("search-suggestions");
+
+    // Extract character names and titles
+    const characterNames = characterData.map(c => c.name.toLowerCase());
+    const titleNames = [...new Set(characterData.map(c => c.category.toLowerCase()))];
+
+    function filterSearchResults(query) {
+        if (query.length < 3) {
+            suggestionsContainer.innerHTML = "";
+            clearButton.style.display = "none"; // Hide clear button if empty
+            return;
+        }
+
+        query = query.toLowerCase();
+        let results = [];
+
+        // Always search both characters and titles
+        results = characterNames.filter(name => name.includes(query))
+            .map(name => ({ type: "Character", value: name }));
+
+        results = results.concat(titleNames.filter(title => title.includes(query))
+            .map(title => ({ type: "Title", value: title })));
+
+        displaySearchSuggestions(results);
+        clearButton.style.display = "block"; // Show clear button when typing
+    }
+
+    function displaySearchSuggestions(results) {
+        suggestionsContainer.innerHTML = "";
+        if (results.length === 0) return;
+
+        results.forEach(result => {
+            const div = document.createElement("div");
+            div.className = "suggestion-item";
+            div.textContent = `${result.value} (${result.type})`;
+            div.addEventListener("click", function() {
+                searchInput.value = result.value;
+                suggestionsContainer.innerHTML = "";
+                clearButton.style.display = "block"; // Show clear button after selecting
+                autofillCharacter(result.value);
+            });
+            suggestionsContainer.appendChild(div);
+        });
+    }
+
+    function autofillCharacter(selectedValue) {
+        let foundCharacter = characterData.find(c => c.name.toLowerCase() === selectedValue.toLowerCase());
+        let foundTitle = characterData.find(c => c.category.toLowerCase() === selectedValue.toLowerCase());
+
+        if (foundCharacter) {
+            addCharacterBlock();
+            const blockId = characterCount;
+
+            // Set Media Type dropdown
+            const mediaSelect = document.getElementById(`media-select-${blockId}`);
+            mediaSelect.value = foundCharacter.mediaType;
+            mediaSelect.dispatchEvent(new Event("change", { bubbles: true }));
+
+            // Set Title dropdown
+            setTimeout(() => {
+                const titleSelect = document.getElementById(`title-select-${blockId}`);
+                titleSelect.value = foundCharacter.category;
+                titleSelect.dispatchEvent(new Event("change", { bubbles: true }));
+
+                // Set Character dropdown
+                setTimeout(() => {
+                    const charSelect = document.getElementById(`char-select-${blockId}`);
+                    charSelect.value = foundCharacter.name;
+                    charSelect.dispatchEvent(new Event("change", { bubbles: true }));
+                }, 100);
+            }, 100);
+        } else if (foundTitle) {
+            addCharacterBlock();
+            const blockId = characterCount;
+
+            // Set Media Type dropdown
+            const mediaSelect = document.getElementById(`media-select-${blockId}`);
+            mediaSelect.value = foundTitle.mediaType;
+            mediaSelect.dispatchEvent(new Event("change", { bubbles: true }));
+
+            // Set Title dropdown
+            setTimeout(() => {
+                const titleSelect = document.getElementById(`title-select-${blockId}`);
+                titleSelect.value = foundTitle.category;
+                titleSelect.dispatchEvent(new Event("change", { bubbles: true }));
+            }, 100);
+        }
+    }
+
+    searchInput.addEventListener("input", function() {
+        filterSearchResults(this.value);
+    });
+
+    // Clear search when clicking ✖
+    clearButton.addEventListener("click", function() {
+        searchInput.value = "";
+        suggestionsContainer.innerHTML = "";
+        clearButton.style.display = "none"; // Hide clear button
+    });
+
+    document.addEventListener("click", function(event) {
+        if (!searchInput.contains(event.target) && !suggestionsContainer.contains(event.target)) {
+            suggestionsContainer.innerHTML = "";
+        }
+    });
+});
+
+/*function //updateCharacterCardsLayout() {
+    const container = document.getElementById('characters-container');
+    const cards = container.querySelectorAll('.character-block');
+    const count = cards.length;
+    let widthValue = "100%"; // default for 1 card
+
+    if (count === 2) {
+        widthValue = "calc(50% - 5px)"; // subtract half the gap (10px/2)
+    } else if (count === 3) {
+        widthValue = "calc(33.33% - 7px)";
+    } else if (count === 4) {
+        widthValue = "calc(25% - 7px)";
+    }
+
+    cards.forEach(card => {
+        card.style.flex = `0 0 ${widthValue}`;
+    });
+}*/

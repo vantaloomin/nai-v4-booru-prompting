@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booru Stable Diffusion Prompt Builder</title>
     <!-- Link to the modern-style.css file -->
     <link rel="stylesheet" href="modern-style.css">
@@ -11,26 +12,39 @@
 <body>
     <div class="container">
         <h1>Booru Stable Diffusion Prompt Builder</h1>
-        <!-- Artist Selection -->
-        <div>
-            <label>Artists:</label>
-            <div id="artists-container">
-                <!-- Multi-artist blocks will be added here -->
+        <!-- Artist Selection (Collapsible) -->
+        <div class="collapsible-container">
+            <div class="collapsible-header">Artists ▼</div>
+            <div class="collapsible-content">
+                <label>Artists:</label>
+                <div id="artists-container"></div>
+                <button id="add-artist-btn" type="button">Add Artist</button>
             </div>
-            <button id="add-artist-btn" type="button">Add Artist</button>
         </div>
-        <!-- Scene Description -->
-        <div>
-            <label for="scene">Scene Description:</label>
-            <select id="scene">
-                <!-- Options will be populated dynamically -->
-            </select>
+        <!-- Scene Description (Collapsible) -->
+        <div class="collapsible-container">
+            <div class="collapsible-header">Scene Description ▼</div>
+            <div class="collapsible-content">
+                <label for="scene">Scene Description:</label>
+                <select id="scene">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
         </div>
         <!-- Characters Section -->
         <h2>Characters</h2>
-        <div id="characters-container">
-            <!-- Character blocks will be dynamically added here -->
+        <!-- Search Box with Icons -->
+        <div id="character-search-container">
+            <label for="character-search">Search:</label>
+            <div class="search-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="character-search" placeholder="Start typing..." autocomplete="off">
+                <span class="clear-icon" id="clear-search">✖</span>
+            </div>
+            <div id="search-suggestions" class="suggestions-list"></div>
         </div>
+        <!-- Character Selection Section -->
+        <div id="characters-container"></div>
         <button id="add-character-btn">Add Character</button>
         <button id="add-rand-char-btn" type="button">Rand Char</button>
         <button id="add-rand-vg-btn" type="button">Rand VG</button>
@@ -43,6 +57,7 @@
         </div>
         <button id="add-action-btn" type="button">Add Action</button>
         <hr>
+        <!-- Random Prompt Section -->
         <h2>Random Prompt</h2>
         <div>
             <label for="random-char-slider">Number of Random Characters:</label>
@@ -55,13 +70,14 @@
         </div>
         <button id="full-random-btn" type="button">Full Random Prompt</button>
         <hr>
+        <!-- Prompting Section -->
         <h2>Prompting</h2>
         <button id="generate-btn">Generate Prompt</button>
         <button id="copy-prompt-btn" type="button">Copy Prompt</button>
         <h2>Generated Prompt</h2>
         <textarea id="output" rows="4" readonly></textarea>
     </div>
-    <!-- Include constants and main scripts -->
+    <!-- Include JavaScript Files -->
     <script src="constants.js"></script>
     <script src="artist.js"></script>
     <script src="scene.js"></script>
@@ -70,6 +86,11 @@
     <script src="prompt.js"></script>
     <script src="full-random.js"></script>
     <script src="app.js"></script>
+    <!-- Include Sortable.js from a free CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
 </body>
 
 </html>

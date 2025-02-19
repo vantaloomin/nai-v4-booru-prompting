@@ -105,7 +105,47 @@ button:active {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
+    box-shadow: 0 4px 12px var(--shadow-color);
     animation: fadeIn 0.5s ease-out;
+}
+
+.drag-handle {
+    cursor: move;
+    font-size: 1.2rem;
+    margin-right: 8px;
+    user-select: none;
+    color: var(--highlight-color);
+    z-index: 10;
+    /* Ensure the handle stays on top */
+    pointer-events: auto;
+    /* Make sure clicks are registered */
+}
+
+
+/* Collapsible Sections */
+.collapsible-container {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.collapsible-header {
+    background: var(--input-bg);
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background var(--transition-speed);
+}
+
+.collapsible-header:hover {
+    background: var(--border-color);
+}
+
+.collapsible-content {
+    padding: 10px;
+    display: block;
+    transition: all var(--transition-speed) ease-out;
 }
 
 /* Horizontal Rule */
@@ -141,4 +181,105 @@ select {
 select,
 option {
     padding: 10px;
+}
+
+/* Search Box Styling */
+#character-search-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Search Input */
+#character-search {
+    width: 100%;
+    padding: 12px 40px;
+    /* Space for icons */
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--input-bg);
+    color: var(--text-color);
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Search Icon (🔍) on the Left */
+.search-icon {
+    position: absolute;
+    left: 10px;
+    color: var(--text-color);
+    font-size: 1rem;
+    pointer-events: none;
+    /* Prevent clicking */
+}
+
+/* Clear Icon (✖) on the Right */
+.clear-icon {
+    position: absolute;
+    right: 10px;
+    color: var(--text-color);
+    font-size: 1rem;
+    cursor: pointer;
+    display: none;
+    /* Hidden by default */
+}
+
+.clear-icon:hover {
+    color: var(--highlight-color);
+}
+
+/* Space for icons inside the input */
+#character-search:focus {
+    outline: none;
+    border-color: var(--highlight-color);
+}
+
+/* Container that holds all character cards */
+#characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* allow wrapping to a new line */
+    gap: 10px;
+    /* spacing between cards */
+    width: 100%;
+    /* fill available width */
+    box-sizing: border-box;
+    /* This forces items in each row to match the height of the tallest item */
+    align-items: stretch;
+}
+
+/* Each card is 50% wide minus half the gap (5px), and is a vertical flex layout */
+.character-block {
+    /* Two cards per row (minus half the gap) */
+    flex: 0 0 calc(50% - 5px);
+
+    /* Internal flex so content can stretch and the remove button pins at bottom */
+    display: flex;
+    flex-direction: column;
+
+    /* Existing styling for the card’s look */
+    background: var(--input-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    animation: fadeIn 0.5s ease-out;
+    box-sizing: border-box;
+}
+
+/* The main content area can grow in height, pushing the button down */
+.block-content {
+    flex: 1 1 auto;
+    /* or simply flex: 1; */
+}
+
+/* Place remove button at bottom */
+.remove-btn-container {
+    margin-top: auto;
 }
