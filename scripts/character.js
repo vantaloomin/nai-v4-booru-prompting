@@ -534,11 +534,18 @@ function getCharacterSubjects() {
     for (let i = 1; i <= maxCharacters; i++) {
         const block = document.getElementById('character-' + i);
         if (block) {
-            const charDisplay = block.querySelector('.custom-dropdown:nth-child(3) .selected-display');
-            const selectedName = charDisplay.textContent;
-            if (selectedName === "-- Select Character --") continue;
+            // Find all custom-dropdowns in this block
+            const dropdowns = block.querySelectorAll('.custom-dropdown');
+            // The character dropdown should be the third one
+            const charDisplay = dropdowns[2]?.querySelector('.selected-display');
 
-            const selectedData = characterData.find(item => item.name === selectedName);
+            if (!charDisplay || charDisplay.textContent === "-- Select Character --") continue;
+
+            const selectedName = charDisplay.textContent;
+            const selectedData = characterData.find(item => cleanDisplayName(item.name) === selectedName);
+
+            if (!selectedData) continue;
+
             let finalTags = selectedData.mainTags;
 
             let gender = "";
