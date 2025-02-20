@@ -1,106 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booru Stable Diffusion Prompt Builder</title>
-    <!-- Link to the modern-style.css file -->
-    <link rel="stylesheet" href="modern-style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booru Stable Diffusion Prompt Builder</title>
+  <!-- Link to the modern-style.css file -->
+  <link rel="stylesheet" href="modern-style.css">
 </head>
-
 <body>
-    <div class="container">
-        <h1>Booru Stable Diffusion Prompt Builder</h1>
-        <!-- Characters Section -->
-        <h2>Characters</h2>
-        <!-- Search Box with Icons -->
-        <div id="character-search-container">
-            <label for="character-search">Search:</label>
-            <div class="search-wrapper">
-                <span class="search-icon">🔍</span>
-                <input type="text" id="character-search" placeholder="Start typing..." autocomplete="off">
-                <span class="clear-icon" id="clear-search">✖</span>
-            </div>
-            <div id="search-suggestions" class="suggestions-list"></div>
-        </div>
-        <!-- Character CTA Buttons -->
-        <div id="character-ctas">
-            <button id="add-character-btn">Add Character</button>
-            <button id="add-rand-char-btn" type="button">Rand Char</button>
-            <button id="add-rand-vg-btn" type="button">Rand VG</button>
-            <button id="add-rand-media-btn" type="button">Rand Media</button>
-        </div>
-        <!-- Character Cards -->
-        <div id="characters-container"></div>
-        <hr>
-        <!-- Combined Artist/Scene Section -->
-        <div id="artist-scene-section">
-            <div id="artist-scene-controls" style="display: flex; gap: 10px; margin-top: 10px;">
-                <button id="add-artist-btn" type="button">Add Artist</button>
-                <button id="add-scene-btn" type="button">Add Scene</button>
-            </div>
-            <!-- Container for selection cards; cards will appear inline (each ~33% width) -->
-            <div id="artist-scene-container" style="display: flex; flex-wrap: wrap; gap: 10px;">
-                <!-- Dynamically added Artist and Scene cards will be appended here -->
-            </div>
-            <!-- Controls for adding new cards -->
-        </div>
-        <!-- Hidden Actions Section (prototype removed from visual display) -->
-        <div id="actions-section" style="display: none;">
-            <button id="add-action-btn" type="button">Add Action</button>
-            <button id="add-scene-btn" type="button">Add Scene</button>
-            <div id="actions-container">
-                <!-- Action blocks will be added here internally -->
-            </div>
-        </div>
-        <hr>
-        <!-- Random Prompt Section -->
-        <h2>Random Prompt</h2>
-        <div>
-            <label for="random-char-slider">Number of Random Characters:</label>
-            <input type="range" id="random-char-slider" min="1" max="4" value="2"
-                oninput="document.getElementById('random-char-count').textContent = this.value">
-            <span id="random-char-count">2</span>
-        </div>
-        <div>
-            <label><input type="checkbox" id="ignore-artist-checkbox"> Ignore Artist</label>
-            <label><input type="checkbox" id="ignore-scene-checkbox"> Ignore Scene</label>
-        </div>
-        <button id="full-random-btn" type="button">Full Random Prompt</button>
-        <hr>
-        <!-- Prompting Section -->
-        <h2>Prompting</h2>
-        <button id="generate-btn">Generate Prompt</button>
-        <button id="copy-prompt-btn" type="button">Copy Prompt</button>
-        <h2>Generated Prompt</h2>
-        <div id="output-container">
-            <div id="output-preview" contenteditable="true"></div>
-        </div>
-        <button id="toggle-expand">Expand</button>
-        <!-- Toggle Coloring Slider -->
-        <div id="color-toggle-container">
-            <label class="switch">
-                <input type="checkbox" id="color-toggle" checked>
-                <span class="slider round"></span>
-            </label>
-            <span id="color-toggle-label">Coloring Enabled</span>
-        </div>
-
-        <!-- Load external libraries from CDN -->
-        <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
-        <!-- Include Local JavaScript Files -->
-        <script src="constants.js"></script>
-        <script src="artist.js"></script>
-        <script src="scene.js"></script>
-        <script src="character.js"></script>
-        <script src="action.js"></script>
-        <script src="prompt.js"></script>
-        <script src="full-random.js"></script>
-        <script src="fuzzySearch.js"></script>
-        <script src="app.js"></script>
+  <div class="container">
+    <h1>Booru Stable Diffusion Prompt Builder</h1>
+    <!-- Characters Section -->
+    <h2>Characters</h2>
+    <!-- Search Box with Icons -->
+    <div id="character-search-container">
+      <label for="character-search">Search:</label>
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="character-search" placeholder="Start typing..." autocomplete="off">
+        <span class="clear-icon" id="clear-search">✖</span>
+      </div>
+      <div id="search-suggestions" class="suggestions-list"></div>
     </div>
+    <!-- Character CTA Buttons -->
+    <div id="character-ctas">
+      <button id="add-character-btn">Add Character</button>
+      <button id="add-rand-char-btn" type="button">Rand Char</button>
+      <button id="add-rand-vg-btn" type="button">Rand VG</button>
+      <button id="add-rand-media-btn" type="button">Rand Media</button>
+    </div>
+    <!-- Character Cards -->
+    <div id="characters-container"></div>
+    <hr>
+    <!-- Combined Artist/Scene Section -->
+    <div id="artist-scene-section">
+      <div id="artist-scene-controls" style="display: flex; gap: 10px; margin-top: 10px;">
+        <button id="add-artist-btn" type="button">Add Artist</button>
+        <button id="add-scene-btn" type="button">Add Scene</button>
+      </div>
+      <!-- Container for selection cards; cards will appear inline (each ~33% width) -->
+      <div id="artist-scene-container" style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <!-- Dynamically added Artist and Scene cards will be appended here -->
+      </div>
+    </div>
+    <!-- Hidden Actions Section (prototype removed from visual display) -->
+    <div id="actions-section" style="display: none;">
+      <button id="add-action-btn" type="button">Add Action</button>
+      <button id="add-scene-btn" type="button">Add Scene</button>
+      <div id="actions-container">
+        <!-- Action blocks will be added here internally -->
+      </div>
+    </div>
+    <hr>
+    <!-- Random Prompt Section -->
+    <h2>Random Prompt</h2>
+    <div>
+      <label for="random-char-slider">Number of Random Characters:</label>
+      <input type="range" id="random-char-slider" min="1" max="4" value="2" oninput="document.getElementById('random-char-count').textContent = this.value">
+      <span id="random-char-count">2</span>
+    </div>
+    <div>
+      <label><input type="checkbox" id="ignore-artist-checkbox"> Ignore Artist</label>
+      <label><input type="checkbox" id="ignore-scene-checkbox"> Ignore Scene</label>
+    </div>
+    <button id="full-random-btn" type="button">Full Random Prompt</button>
+    <hr>
+    <!-- Generated Prompt Section -->
+    <h2>Generated Prompt</h2>
+    <div id="output-container">
+      <div id="output-preview" contenteditable="true"></div>
+    </div>
+    <button id="toggle-expand" style="display: none;">Expand</button>
+    <!-- Toggle Coloring Slider -->
+    <div id="color-toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="color-toggle" checked>
+        <span class="slider round"></span>
+      </label>
+      <span id="color-toggle-label">Coloring Enabled</span>
+    </div>
+    <!-- Load external libraries from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+    <!-- Include Local JavaScript Files -->
+    <script src="constants.js"></script>
+    <script src="artist.js"></script>
+    <script src="scene.js"></script>
+    <script src="character.js"></script>
+    <script src="action.js"></script>
+    <script src="prompt.js"></script>
+    <script src="full-random.js"></script>
+    <script src="fuzzySearch.js"></script>
+    <script src="app.js"></script>
+  </div>
+  <!-- Floating Buttons for Prompting -->
+  <div id="floating-buttons">
+    <button id="generate-btn">Generate Prompt</button>
+    <button id="copy-prompt-btn" type="button">Copy Prompt</button>
+  </div>
 </body>
-
 </html>

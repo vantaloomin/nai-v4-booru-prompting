@@ -674,15 +674,17 @@ input:checked+.slider:before {
 #artist-scene-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* This is the horizontal and vertical space between cards */
+    gap: 10px;
+    /* This is the horizontal and vertical space between cards */
     /* Optionally, ensure the container has no extra padding that reduces usable width. */
     padding: 0;
     margin: 0 auto;
-  }
+}
 
 .selection-card {
     flex: 0 0 calc(33.333% - 15px);
-    box-sizing: border-box; /* ensures padding/border don't add extra width */
+    box-sizing: border-box;
+    /* ensures padding/border don't add extra width */
     background: #2a2a2a;
     border: 1px solid #444;
     border-radius: 8px;
@@ -716,15 +718,27 @@ input:checked+.slider:before {
 
 .custom-artist-input,
 .custom-scene-input {
-  /* Force the text input to fit inside the card */
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-  padding: 8px;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  background-color: var(--input-bg);
-  color: var(--text-color);
-  /* Optional: margin-top if you want spacing above it */
-  /* margin-top: 8px; */
+    /* Force the text input to fit inside the card */
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    /* Optional: margin-top if you want spacing above it */
+    /* margin-top: 8px; */
+}
+
+/* Floating Buttons Container */
+#floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
