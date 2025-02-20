@@ -14,10 +14,10 @@ function processEnhancers(enhancers) {
         token = token.trim();
         if (token.startsWith("[")) {
             inGroup = true;
-            // Remove leading bracket.
+            // Remove leading bracket
             token = token.replace(/^\[/, "").trim();
             group.push(token);
-            // If it also ends with ']', complete the group.
+            // If it also ends with ']', complete the group
             if (token.endsWith("]")) {
                 token = token.replace(/\]$/, "").trim();
                 group[group.length - 1] = token;
@@ -39,29 +39,27 @@ function processEnhancers(enhancers) {
             processed.push(token);
         }
     });
-    // If there's an unfinished group, join it.
+    // If there's an unfinished group, join it
     if (group.length > 0) {
         processed.push(group.join(", "));
     }
     return processed;
 }
 
-
 function cleanDisplayName(name) {
-    // Remove any text after the first comma.
+    // Remove any text after the first comma
     let firstPart = name.split(",")[0].trim();
     // Remove prefixes "artist:" or "by" (case-insensitive)
     firstPart = firstPart.replace(/^(artist:|by\s+)/i, "").trim();
-    // Remove any parentheses and their content.
+    // Remove any parentheses and their content
     firstPart = firstPart.replace(/\s*\([^)]*\)/g, "").trim();
-    // Title-case each word and any hyphenated parts.
+    // Title-case each word and any hyphenated parts
     return firstPart.split(" ").map(word => {
         return word.split("-").map(part => {
             return part.charAt(0).toUpperCase() + part.slice(1).toLowerCase();
         }).join("-");
     }).join(" ");
 }
-
 
 function addCharacterBlock() {
     if (characterCount >= maxCharacters) {
@@ -73,12 +71,12 @@ function addCharacterBlock() {
     const blockId = characterCount;
     const container = document.getElementById('characters-container');
 
-    // Main card element (now a flex column).
+    // Main card element
     const div = document.createElement('div');
     div.className = 'character-block';
     div.id = 'character-' + blockId;
 
-    // Header (collapsible).
+    // Header (collapsible)
     const headerDiv = document.createElement('div');
     headerDiv.className = 'block-header';
     headerDiv.style.display = 'flex';
@@ -106,7 +104,7 @@ function addCharacterBlock() {
     toggleIcon.textContent = "▼";
     headerDiv.appendChild(toggleIcon);
 
-    // New: Add Action Drag Handle (for assigning actions via drag/drop)
+    // Action Drag Handle
     const actionDragHandle = document.createElement('span');
     actionDragHandle.className = 'action-drag-handle';
     actionDragHandle.textContent = "🡆";
@@ -118,66 +116,85 @@ function addCharacterBlock() {
     });
     headerDiv.appendChild(actionDragHandle);
 
-    // Make the entire character block a drop target for action assignments.
-    div.addEventListener('dragover', function (e) {
-        e.preventDefault();
-    });
-    div.addEventListener('drop', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        const sourceId = e.dataTransfer.getData("text/plain");
-        const targetId = blockId.toString();
-        if (sourceId && sourceId !== targetId) {
-            showActionSelectionPopup(sourceId, targetId);
-        }
-    });
-
-    // Collapsible content container.
+    // Collapsible content container
     const contentDiv = document.createElement('div');
     contentDiv.className = 'block-content';
 
-    // Media Type
+    // Media Type Dropdown
     const mediaTypeLabel = document.createElement('label');
     mediaTypeLabel.textContent = 'Select Media Type:';
     contentDiv.appendChild(mediaTypeLabel);
-    const mediaTypeSelect = document.createElement('select');
-    mediaTypeSelect.id = 'media-select-' + blockId;
-    const defaultMediaOption = document.createElement('option');
-    defaultMediaOption.value = "";
-    defaultMediaOption.textContent = "-- Select Media Type --";
-    mediaTypeSelect.appendChild(defaultMediaOption);
+
+    const mediaTypeContainer = document.createElement('div');
+    mediaTypeContainer.className = 'custom-dropdown';
+
+    const mediaTypeDisplay = document.createElement('div');
+    mediaTypeDisplay.className = 'selected-display';
+    mediaTypeDisplay.textContent = "-- Select Media Type --";
+
+    const mediaTypeList = document.createElement('div');
+    mediaTypeList.className = 'dropdown-list suggestions-list';
+
     const mediaTypes = [...new Set(characterData.map(item => item.mediaType))];
     mediaTypes.forEach(media => {
-        const option = document.createElement('option');
-        option.value = media;
-        option.textContent = media;
-        mediaTypeSelect.appendChild(option);
+        const item = document.createElement('div');
+        item.className = 'suggestion-item';
+        item.textContent = media;
+        item.dataset.value = media;
+        item.addEventListener('click', () => {
+            mediaTypeDisplay.textContent = media;
+            updateTitleOptions(blockId, media);
+            resetCharacterDropdown(blockId);
+            enhancerDiv.innerHTML = "";
+            genderDiv.innerHTML = "";
+            mediaTypeList.style.display = 'none';
+        });
+        mediaTypeList.appendChild(item);
     });
-    contentDiv.appendChild(mediaTypeSelect);
 
-    // Title (Game/Show)
+    mediaTypeContainer.appendChild(mediaTypeDisplay);
+    mediaTypeContainer.appendChild(mediaTypeList);
+    contentDiv.appendChild(mediaTypeContainer);
+
+    // Title Dropdown
     const titleLabel = document.createElement('label');
     titleLabel.textContent = 'Select Title (Game/Show):';
     contentDiv.appendChild(titleLabel);
-    const titleSelect = document.createElement('select');
-    titleSelect.id = 'title-select-' + blockId;
-    const defaultTitleOption = document.createElement('option');
-    defaultTitleOption.value = "";
-    defaultTitleOption.textContent = "-- Select Title --";
-    titleSelect.appendChild(defaultTitleOption);
-    contentDiv.appendChild(titleSelect);
 
-    // Character
+    const titleContainer = document.createElement('div');
+    titleContainer.className = 'custom-dropdown';
+
+    const titleDisplay = document.createElement('div');
+    titleDisplay.className = 'selected-display';
+    titleDisplay.textContent = "-- Select Title --";
+
+    const titleList = document.createElement('div');
+    titleList.className = 'dropdown-list suggestions-list';
+    titleList.id = `title-list-${blockId}`;
+
+    titleContainer.appendChild(titleDisplay);
+    titleContainer.appendChild(titleList);
+    contentDiv.appendChild(titleContainer);
+
+    // Character Dropdown
     const charSelectLabel = document.createElement('label');
     charSelectLabel.textContent = 'Select Character:';
     contentDiv.appendChild(charSelectLabel);
-    const charSelect = document.createElement('select');
-    charSelect.id = 'char-select-' + blockId;
-    const defaultCharOption = document.createElement('option');
-    defaultCharOption.value = "";
-    defaultCharOption.textContent = "-- Select Character --";
-    charSelect.appendChild(defaultCharOption);
-    contentDiv.appendChild(charSelect);
+
+    const charContainer = document.createElement('div');
+    charContainer.className = 'custom-dropdown';
+
+    const charDisplay = document.createElement('div');
+    charDisplay.className = 'selected-display';
+    charDisplay.textContent = "-- Select Character --";
+
+    const charList = document.createElement('div');
+    charList.className = 'dropdown-list suggestions-list';
+    charList.id = `char-list-${blockId}`;
+
+    charContainer.appendChild(charDisplay);
+    charContainer.appendChild(charList);
+    contentDiv.appendChild(charContainer);
 
     // Gender Toggle Container
     const genderDiv = document.createElement('div');
@@ -187,18 +204,28 @@ function addCharacterBlock() {
     // Enhancer Dropdown Container
     const enhancerDiv = document.createElement('div');
     enhancerDiv.id = 'enhancer-div-' + blockId;
+
+    // Create the label container that will be shown/hidden with the dropdown
+    const enhancerLabelContainer = document.createElement('div');
+    enhancerLabelContainer.style.display = 'none';
+
+    const enhancerLabel = document.createElement('label');
+    enhancerLabel.textContent = 'Select Optional Enhancer:';
+    enhancerLabelContainer.appendChild(enhancerLabel);
+
+    enhancerDiv.appendChild(enhancerLabelContainer);
     contentDiv.appendChild(enhancerDiv);
 
-    // NEW: Assigned Actions Display (this will show inline any actions assigned to this character)
+    // NEW: Assigned Actions Display
     const actionsDisplayDiv = document.createElement('div');
     actionsDisplayDiv.className = 'assigned-actions';
     actionsDisplayDiv.style.marginTop = "8px";
     actionsDisplayDiv.style.fontStyle = "italic";
-    actionsDisplayDiv.style.color = "#ff99ff"; // or any suitable color
-    actionsDisplayDiv.textContent = ""; // initially empty
+    actionsDisplayDiv.style.color = "#ff99ff";
+    actionsDisplayDiv.textContent = "";
     contentDiv.appendChild(actionsDisplayDiv);
 
-    // Append header + content.
+    // Append header + content
     div.appendChild(headerDiv);
     div.appendChild(contentDiv);
 
@@ -211,7 +238,6 @@ function addCharacterBlock() {
     removeBtn.addEventListener('click', function () {
         container.removeChild(div);
         characterCount--;
-        // Update action assignments display when a character is removed.
         if (typeof updateAssignedActionsDisplay === "function") {
             updateAssignedActionsDisplay();
         }
@@ -219,7 +245,22 @@ function addCharacterBlock() {
     removeBtnContainer.appendChild(removeBtn);
     div.appendChild(removeBtnContainer);
 
-    // Collapsible toggle on header click.
+    // Make the entire character block a drop target for action assignments
+    div.addEventListener('dragover', function (e) {
+        e.preventDefault();
+    });
+
+    div.addEventListener('drop', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const sourceId = e.dataTransfer.getData("text/plain");
+        const targetId = blockId.toString();
+        if (sourceId && sourceId !== targetId) {
+            showActionSelectionPopup(sourceId, targetId);
+        }
+    });
+
+    // Collapsible toggle on header click
     headerDiv.addEventListener('click', function () {
         if (contentDiv.style.display === "none") {
             contentDiv.style.display = "";
@@ -230,175 +271,164 @@ function addCharacterBlock() {
         }
     });
 
-    // Event listeners for dropdown changes (existing logic).
-    mediaTypeSelect.addEventListener('change', function () {
-        updateTitleOptions(blockId, this.value);
-        resetCharacterDropdown(blockId);
-        enhancerDiv.innerHTML = "";
-        genderDiv.innerHTML = "";
+    // Toggle dropdown display
+    mediaTypeDisplay.addEventListener('click', (e) => {
+        e.stopPropagation();
+        closeAllDropdowns();
+        mediaTypeList.style.display = mediaTypeList.style.display === 'block' ? 'none' : 'block';
     });
-    titleSelect.addEventListener('change', function () {
-        updateCharacterDropdown(blockId, mediaTypeSelect.value, this.value);
-        enhancerDiv.innerHTML = "";
-        genderDiv.innerHTML = "";
+
+    titleDisplay.addEventListener('click', (e) => {
+        e.stopPropagation();
+        closeAllDropdowns();
+        titleList.style.display = titleList.style.display === 'block' ? 'none' : 'block';
     });
-    charSelect.addEventListener('change', function () {
-        updateGenderToggle(blockId, this.value);
-        updateEnhancerDropdown(blockId, this.value);
-        if (this.value) {
-            const selectedTitle = titleSelect.value;
-            headerTitle.textContent = `${cleanDisplayName(this.value)} (${cleanDisplayName(selectedTitle)})`;
-        } else {
-            headerTitle.textContent = `Character ${blockId}`;
-        }
-        // Update inline assigned actions (in case the character value changed).
-        if (typeof updateAssignedActionsDisplay === "function") {
-            updateAssignedActionsDisplay();
+
+    charDisplay.addEventListener('click', (e) => {
+        e.stopPropagation();
+        closeAllDropdowns();
+        charList.style.display = charList.style.display === 'block' ? 'none' : 'block';
+    });
+
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.custom-dropdown')) {
+            const allLists = document.querySelectorAll('.dropdown-list');
+            allLists.forEach(list => list.style.display = 'none');
         }
     });
 
     container.appendChild(div);
 }
 
-function addRandomCharacterBlock(type) {
-    // type: "all", "vg", or "media"
-    // Create a new blank character block.
-    addCharacterBlock();
-    const blockId = characterCount; // the newly added block's id
-
-    // Filter characterData based on type.
-    let filtered = characterData;
-    if (type === "vg") {
-        filtered = characterData.filter(item => item.mediaType === "Video Games");
-    } else if (type === "media") {
-        filtered = characterData.filter(item => item.mediaType === "Shows or Movies");
-    }
-
-    if (filtered.length === 0) return; // safety check
-
-    // Pick a random character from filtered list.
-    const randomCharacter = filtered[Math.floor(Math.random() * filtered.length)];
-
-    // Set Media Type dropdown.
-    const mediaSelect = document.getElementById('media-select-' + blockId);
-    mediaSelect.value = randomCharacter.mediaType;
-    mediaSelect.dispatchEvent(new Event('change', { bubbles: true }));
-
-    // Set Title (Category) dropdown.
-    const titleSelect = document.getElementById('title-select-' + blockId);
-    // Wait a moment for updateTitleOptions to populate, then set value.
-    setTimeout(() => {
-        titleSelect.value = randomCharacter.category;
-        titleSelect.dispatchEvent(new Event('change', { bubbles: true }));
-
-        // Set Character dropdown.
-        const charSelect = document.getElementById('char-select-' + blockId);
-        // Wait for updateCharacterDropdown to finish.
-        setTimeout(() => {
-            charSelect.value = randomCharacter.name;
-            charSelect.dispatchEvent(new Event('change', { bubbles: true }));
-
-            // Optionally randomly toggle gender swap if available.
-            if (randomCharacter.genderswapAvailable) {
-                const genderCheckbox = document.getElementById('genderswap-' + blockId);
-                if (genderCheckbox) {
-                    // 50% chance.
-                    genderCheckbox.checked = Math.random() < 0.5;
-                }
-            }
-        }, 100);
-    }, 100);
+function closeAllDropdowns() {
+    const allLists = document.querySelectorAll('.dropdown-list');
+    allLists.forEach(list => list.style.display = 'none');
 }
 
-
 function updateTitleOptions(id, selectedMedia) {
-    const titleSelect = document.getElementById('title-select-' + id);
-    titleSelect.innerHTML = "";
-    const defaultTitleOption = document.createElement('option');
-    defaultTitleOption.value = "";
-    defaultTitleOption.textContent = "-- Select Title --";
-    titleSelect.appendChild(defaultTitleOption);
+    const titleList = document.getElementById(`title-list-${id}`);
+    const titleDisplay = titleList.previousElementSibling;
+    titleList.innerHTML = "";
 
-    // Get unique titles (categories) for the selected media.
     let titles = [...new Set(characterData
         .filter(item => item.mediaType === selectedMedia)
         .map(item => item.category))];
 
-    // Sort titles alphabetically using the cleaned display value.
     titles = sortAlphabetically(titles, t => cleanDisplayName(t));
 
     titles.forEach(title => {
-        const option = document.createElement('option');
-        option.value = title;
-        option.textContent = cleanDisplayName(title);
-        titleSelect.appendChild(option);
+        const item = document.createElement('div');
+        item.className = 'suggestion-item';
+        item.textContent = cleanDisplayName(title);
+        item.dataset.value = title;
+        item.addEventListener('click', () => {
+            titleDisplay.textContent = cleanDisplayName(title);
+            updateCharacterDropdown(id, selectedMedia, title);
+            titleList.style.display = 'none';
+        });
+        titleList.appendChild(item);
     });
+
+    titleDisplay.textContent = "-- Select Title --";
 }
 
-
 function updateCharacterDropdown(id, selectedMedia, selectedTitle) {
-    const charSelect = document.getElementById('char-select-' + id);
-    charSelect.innerHTML = "";
-    const defaultCharOption = document.createElement('option');
-    defaultCharOption.value = "";
-    defaultCharOption.textContent = "-- Select Character --";
-    charSelect.appendChild(defaultCharOption);
+    const charList = document.getElementById(`char-list-${id}`);
+    const charDisplay = charList.previousElementSibling;
+    charList.innerHTML = "";
 
-    // Filter characters based on media and category.
     let characters = characterData.filter(item =>
         item.mediaType === selectedMedia && item.category === selectedTitle
     );
 
-    // Sort characters alphabetically by cleaned name.
     characters = sortAlphabetically(characters, item => cleanDisplayName(item.name));
 
     characters.forEach(item => {
-        const option = document.createElement('option');
-        option.value = item.name;
-        option.textContent = cleanDisplayName(item.name);
-        charSelect.appendChild(option);
+        const charItem = document.createElement('div');
+        charItem.className = 'suggestion-item';
+        charItem.textContent = cleanDisplayName(item.name);
+        charItem.dataset.value = item.name;
+        charItem.addEventListener('click', () => {
+            charDisplay.textContent = cleanDisplayName(item.name);
+            updateGenderToggle(id, item.name);
+            updateEnhancerDropdown(id, item.name);
+            charList.style.display = 'none';
+            // Update the character block title
+            const blockTitle = document.querySelector(`#character-${id} .block-title`);
+            if (blockTitle) {
+                blockTitle.textContent = `${cleanDisplayName(item.name)} (${cleanDisplayName(selectedTitle)})`;
+            }
+        });
+        charList.appendChild(charItem);
     });
-}
 
-
-function resetCharacterDropdown(id) {
-    const charSelect = document.getElementById('char-select-' + id);
-    charSelect.innerHTML = "";
-    const defaultCharOption = document.createElement('option');
-    defaultCharOption.value = "";
-    defaultCharOption.textContent = "-- Select Character --";
-    charSelect.appendChild(defaultCharOption);
+    charDisplay.textContent = "-- Select Character --";
 }
 
 function updateEnhancerDropdown(id, selectedCharacterName) {
     const enhancerDiv = document.getElementById('enhancer-div-' + id);
-    enhancerDiv.innerHTML = "";
+    const labelContainer = enhancerDiv.querySelector('div');
+    enhancerDiv.innerHTML = ''; // Clear previous content
+    enhancerDiv.appendChild(labelContainer); // Re-add label container
+
     const selectedData = characterData.find(item => item.name === selectedCharacterName);
     if (selectedData && selectedData.enhancers && selectedData.enhancers.length > 0) {
-        const enhancerLabel = document.createElement('label');
-        enhancerLabel.textContent = 'Select Optional Enhancer:';
-        enhancerDiv.appendChild(enhancerLabel);
+        labelContainer.style.display = 'block';
 
-        const enhancerSelect = document.createElement('select');
-        enhancerSelect.id = 'enhancer-select-' + id;
-        const defaultEnhancerOption = document.createElement('option');
-        defaultEnhancerOption.value = "";
-        defaultEnhancerOption.textContent = "-- None --";
-        enhancerSelect.appendChild(defaultEnhancerOption);
+        const enhancerContainer = document.createElement('div');
+        enhancerContainer.className = 'custom-dropdown';
 
+        const enhancerDisplay = document.createElement('div');
+        enhancerDisplay.className = 'selected-display';
+        enhancerDisplay.textContent = "-- None --";
+
+        const enhancerList = document.createElement('div');
+        enhancerList.className = 'dropdown-list suggestions-list';
+
+        // Process and add enhancer options
         let processedEnhancers = processEnhancers(selectedData.enhancers);
         processedEnhancers.forEach(enh => {
-            const option = document.createElement('option');
-            option.value = enh;
-            // For enhancer dropdowns, you might want to display them as-is.
-            option.textContent = enh;
-            enhancerSelect.appendChild(option);
+            const item = document.createElement('div');
+            item.className = 'suggestion-item';
+            item.textContent = enh;
+            item.addEventListener('click', () => {
+                enhancerDisplay.textContent = enh;
+                enhancerList.style.display = 'none';
+                if (typeof updateAssignedActionsDisplay === "function") {
+                    updateAssignedActionsDisplay();
+                }
+            });
+            enhancerList.appendChild(item);
         });
 
-        enhancerDiv.appendChild(enhancerSelect);
+        // Add "None" option at the top
+        const noneOption = document.createElement('div');
+        noneOption.className = 'suggestion-item';
+        noneOption.textContent = "-- None --";
+        noneOption.addEventListener('click', () => {
+            enhancerDisplay.textContent = "-- None --";
+            enhancerList.style.display = 'none';
+            if (typeof updateAssignedActionsDisplay === "function") {
+                updateAssignedActionsDisplay();
+            }
+        });
+        enhancerList.insertBefore(noneOption, enhancerList.firstChild);
+
+        // Toggle dropdown display
+        enhancerDisplay.addEventListener('click', (e) => {
+            e.stopPropagation();
+            closeAllDropdowns();
+            enhancerList.style.display = enhancerList.style.display === 'block' ? 'none' : 'block';
+        });
+
+        enhancerContainer.appendChild(enhancerDisplay);
+        enhancerContainer.appendChild(enhancerList);
+        enhancerDiv.appendChild(enhancerContainer);
+    } else {
+        labelContainer.style.display = 'none';
     }
 }
-
 
 function updateGenderToggle(id, selectedCharacterName) {
     const genderDiv = document.getElementById('gender-div-' + id);
@@ -416,19 +446,98 @@ function updateGenderToggle(id, selectedCharacterName) {
     }
 }
 
+function addRandomCharacterBlock(type) {
+    // type: "all", "vg", or "media"
+    addCharacterBlock();
+    const blockId = characterCount;
+
+    // Filter characterData based on type
+    let filtered = characterData;
+    if (type === "vg") {
+        filtered = characterData.filter(item => item.mediaType === "Video Games");
+    } else if (type === "media") {
+        filtered = characterData.filter(item => item.mediaType === "Shows or Movies");
+    }
+
+    if (filtered.length === 0) return;
+
+    // Pick a random character
+    const randomCharacter = filtered[Math.floor(Math.random() * filtered.length)];
+
+    // Get the character block
+    const characterBlock = document.getElementById(`character-${blockId}`);
+    if (!characterBlock) return;
+
+    // Find the correct dropdowns (more specific selectors)
+    const mediaTypeContainer = characterBlock.querySelector('.custom-dropdown');
+    const titleContainer = characterBlock.querySelectorAll('.custom-dropdown')[1];
+    const charContainer = characterBlock.querySelectorAll('.custom-dropdown')[2];
+
+    const mediaTypeDisplay = mediaTypeContainer?.querySelector('.selected-display');
+    const titleDisplay = titleContainer?.querySelector('.selected-display');
+    const charDisplay = charContainer?.querySelector('.selected-display');
+
+    // Set Media Type and trigger updates
+    if (mediaTypeDisplay) {
+        mediaTypeDisplay.textContent = randomCharacter.mediaType;
+        // Trigger title update
+        updateTitleOptions(blockId, randomCharacter.mediaType);
+    }
+
+    // Set Title after a short delay to ensure title options are populated
+    setTimeout(() => {
+        if (titleDisplay) {
+            titleDisplay.textContent = cleanDisplayName(randomCharacter.category);
+            // Trigger character update
+            updateCharacterDropdown(blockId, randomCharacter.mediaType, randomCharacter.category);
+        }
+
+        // Set Character after another short delay
+        setTimeout(() => {
+            if (charDisplay) {
+                charDisplay.textContent = cleanDisplayName(randomCharacter.name);
+                // Update gender and enhancer options
+                updateGenderToggle(blockId, randomCharacter.name);
+                updateEnhancerDropdown(blockId, randomCharacter.name);
+
+                // Update the character block title
+                const blockTitle = characterBlock.querySelector('.block-title');
+                if (blockTitle) {
+                    blockTitle.textContent = `${cleanDisplayName(randomCharacter.name)} (${cleanDisplayName(randomCharacter.category)})`;
+                }
+
+                // Randomly toggle gender swap if available
+                if (randomCharacter.genderswapAvailable) {
+                    const genderCheckbox = document.getElementById('genderswap-' + blockId);
+                    if (genderCheckbox) {
+                        genderCheckbox.checked = Math.random() < 0.5;
+                    }
+                }
+
+                // Trigger any necessary updates
+                if (typeof updateAssignedActionsDisplay === "function") {
+                    updateAssignedActionsDisplay();
+                }
+            }
+        }, 100);
+    }, 100);
+}
+
+
 function getCharacterSubjects() {
     let subjects = [];
     let subjectCountObj = { girl: 0, boy: 0 };
 
-    // Get action assignments mapping.
+    // Get action assignments mapping
     const actionAssignments = getActionAssignments();
 
     for (let i = 1; i <= maxCharacters; i++) {
         const block = document.getElementById('character-' + i);
         if (block) {
-            const charSelect = document.getElementById('char-select-' + i);
-            const selectedName = charSelect.value;
-            if (!selectedName) continue;
+            const charDisplay = block.querySelector('.custom-dropdown:nth-child(3) .selected-display');
+            const selectedName = charDisplay.textContent;
+            if (selectedName === "-- Select Character --") continue;
+
             const selectedData = characterData.find(item => item.name === selectedName);
             let finalTags = selectedData.mainTags;
 
@@ -451,153 +560,39 @@ function getCharacterSubjects() {
                 gender = selectedData.defaultGender || "girl";
             }
 
-            // Process enhancer selection.
-            const enhancerSelect = document.getElementById('enhancer-select-' + i);
-            if (enhancerSelect && enhancerSelect.value) {
+            // Process enhancer selection
+            const enhancerDisplay = block.querySelector('#enhancer-div-' + i + ' .selected-display');
+            if (enhancerDisplay && enhancerDisplay.textContent !== "-- None --") {
                 let tagsArray = finalTags.split(",").map(t => t.trim()).filter(t => t !== "");
                 if (tagsArray.length >= 2) {
-                    tagsArray.splice(tagsArray.length - 1, 0, enhancerSelect.value);
+                    tagsArray.splice(tagsArray.length - 1, 0, enhancerDisplay.textContent);
                 } else {
-                    tagsArray.push(enhancerSelect.value);
+                    tagsArray.push(enhancerDisplay.textContent);
                 }
                 finalTags = tagsArray.join(", ");
             }
 
-            // Append any action tags assigned to this character block.
+            // Append any action tags assigned to this character block
             if (actionAssignments[selectedName]) {
                 finalTags += ", " + actionAssignments[selectedName].join(", ");
             }
+
             subjectCountObj[gender] = (subjectCountObj[gender] || 0) + 1;
             subjects.push(`${gender} ${finalTags}`);
         }
     }
     return { subjects, subjectCountObj };
 }
+
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("character-search");
     const clearButton = document.getElementById("clear-search");
     const suggestionsContainer = document.getElementById("search-suggestions");
 
-    // Extract character names and titles
-    const characterNames = characterData.map(c => c.name.toLowerCase());
-    const titleNames = [...new Set(characterData.map(c => c.category.toLowerCase()))];
-
-    function filterSearchResults(query) {
-        if (query.length < 3) {
-            suggestionsContainer.innerHTML = "";
-            clearButton.style.display = "none"; // Hide clear button if empty
-            return;
-        }
-
-        query = query.toLowerCase();
-        let results = [];
-
-        // Always search both characters and titles
-        results = characterNames.filter(name => name.includes(query))
-            .map(name => ({ type: "Character", value: name }));
-
-        results = results.concat(titleNames.filter(title => title.includes(query))
-            .map(title => ({ type: "Title", value: title })));
-
-        displaySearchSuggestions(results);
-        clearButton.style.display = "block"; // Show clear button when typing
-    }
-
-    function displaySearchSuggestions(results) {
-        suggestionsContainer.innerHTML = "";
-        if (results.length === 0) return;
-
-        results.forEach(result => {
-            const div = document.createElement("div");
-            div.className = "suggestion-item";
-            div.textContent = `${result.value} (${result.type})`;
-            div.addEventListener("click", function () {
-                searchInput.value = result.value;
-                suggestionsContainer.innerHTML = "";
-                clearButton.style.display = "block"; // Show clear button after selecting
-                autofillCharacter(result.value);
-            });
-            suggestionsContainer.appendChild(div);
-        });
-    }
-
-    function autofillCharacter(selectedValue) {
-        let foundCharacter = characterData.find(c => c.name.toLowerCase() === selectedValue.toLowerCase());
-        let foundTitle = characterData.find(c => c.category.toLowerCase() === selectedValue.toLowerCase());
-
-        if (foundCharacter) {
-            addCharacterBlock();
-            const blockId = characterCount;
-
-            // Set Media Type dropdown
-            const mediaSelect = document.getElementById(`media-select-${blockId}`);
-            mediaSelect.value = foundCharacter.mediaType;
-            mediaSelect.dispatchEvent(new Event("change", { bubbles: true }));
-
-            // Set Title dropdown
-            setTimeout(() => {
-                const titleSelect = document.getElementById(`title-select-${blockId}`);
-                titleSelect.value = foundCharacter.category;
-                titleSelect.dispatchEvent(new Event("change", { bubbles: true }));
-
-                // Set Character dropdown
-                setTimeout(() => {
-                    const charSelect = document.getElementById(`char-select-${blockId}`);
-                    charSelect.value = foundCharacter.name;
-                    charSelect.dispatchEvent(new Event("change", { bubbles: true }));
-                }, 100);
-            }, 100);
-        } else if (foundTitle) {
-            addCharacterBlock();
-            const blockId = characterCount;
-
-            // Set Media Type dropdown
-            const mediaSelect = document.getElementById(`media-select-${blockId}`);
-            mediaSelect.value = foundTitle.mediaType;
-            mediaSelect.dispatchEvent(new Event("change", { bubbles: true }));
-
-            // Set Title dropdown
-            setTimeout(() => {
-                const titleSelect = document.getElementById(`title-select-${blockId}`);
-                titleSelect.value = foundTitle.category;
-                titleSelect.dispatchEvent(new Event("change", { bubbles: true }));
-            }, 100);
-        }
-    }
-
-    searchInput.addEventListener("input", function () {
-        filterSearchResults(this.value);
-    });
-
-    // Clear search when clicking ✖
-    clearButton.addEventListener("click", function () {
-        searchInput.value = "";
-        suggestionsContainer.innerHTML = "";
-        clearButton.style.display = "none"; // Hide clear button
-    });
-
-    document.addEventListener("click", function (event) {
-        if (!searchInput.contains(event.target) && !suggestionsContainer.contains(event.target)) {
-            suggestionsContainer.innerHTML = "";
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.custom-dropdown')) {
+            closeAllDropdowns();
         }
     });
 });
-
-/*function //updateCharacterCardsLayout() {
-    const container = document.getElementById('characters-container');
-    const cards = container.querySelectorAll('.character-block');
-    const count = cards.length;
-    let widthValue = "100%"; // default for 1 card
-
-    if (count === 2) {
-        widthValue = "calc(50% - 5px)"; // subtract half the gap (10px/2)
-    } else if (count === 3) {
-        widthValue = "calc(33.33% - 7px)";
-    } else if (count === 4) {
-        widthValue = "calc(25% - 7px)";
-    }
-
-    cards.forEach(card => {
-        card.style.flex = `0 0 ${widthValue}`;
-    });
-}*/

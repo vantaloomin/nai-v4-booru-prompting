@@ -19,21 +19,21 @@ body {
     max-width: var(--width-container);
     margin: var(--space-xxl) auto;
     padding: var(--container-padding);
-    background: 
+    background:
         linear-gradient(var(--color-bg-surface), var(--color-bg-surface)),
-        repeating-linear-gradient(45deg, 
-            rgba(156, 39, 176, 0.05) 0px, 
+        repeating-linear-gradient(45deg,
+            rgba(156, 39, 176, 0.05) 0px,
             rgba(156, 39, 176, 0.05) 1px,
-            transparent 1px, 
-            transparent 10px
-        );
+            transparent 1px,
+            transparent 10px);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
 }
 
 
 /* Headings */
-h1, h2 {
+h1,
+h2 {
     background: linear-gradient(135deg, var(--color-primary), var(--color-primary-variant));
     -webkit-background-clip: text;
     background-clip: text;
@@ -61,14 +61,13 @@ label {
 }
 
 /* Inputs, Selects, and Textareas */
-input[type="text"],
-select,
-textarea {
+/* Text Inputs */
+input[type="text"] {
     width: var(--width-input);
     padding: var(--input-padding);
     transition: all var(--transition-default);
     border: 2px solid transparent;
-    background: 
+    background:
         linear-gradient(var(--color-bg-input), var(--color-bg-input)) padding-box,
         linear-gradient(to right, var(--color-primary-variant), transparent) border-box;
     border-radius: var(--radius-input);
@@ -77,12 +76,245 @@ textarea {
     font-family: var(--font-primary);
 }
 
-input[type="text"]:focus,
-select:focus,
+input[type="text"]:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(156, 39, 176, 0.15);
+    outline: none;
+}
+
+/* Textareas */
+textarea {
+    width: var(--width-input);
+    padding: var(--input-padding);
+    transition: all var(--transition-default);
+    border: 2px solid transparent;
+    background:
+        linear-gradient(var(--color-bg-input), var(--color-bg-input)) padding-box,
+        linear-gradient(to right, var(--color-primary-variant), transparent) border-box;
+    border-radius: var(--radius-input);
+    color: var(--text-on-surface);
+    font-size: var(--text-base);
+    font-family: var(--font-primary);
+    resize: vertical;
+}
+
 textarea:focus {
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(156, 39, 176, 0.15);
     outline: none;
+}
+
+/* Dropdown Select Styling */
+select {
+    appearance: none;
+    background-color: var(--color-bg-input);
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%226%22%20viewBox%3D%220%200%2010%206%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200l5%206%205-6z%22%20fill%3D%22%23ff77ff%22/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right var(--space-sm) center;
+    background-size: 12px 7px;
+    width: var(--width-input);
+    padding: var(--input-padding);
+    color: var(--text-on-surface);
+    border: 2px solid transparent;
+    border-radius: var(--radius-input);
+    font-size: var(--text-base);
+    font-family: var(--font-primary);
+    cursor: pointer;
+    transition: all var(--transition-default);
+}
+
+/* Dropdown Options Styling - Matching Search Suggestions */
+select option {
+    background-color: var(--color-bg-surface);
+    color: var(--text-on-surface);
+    padding: var(--space-sm);
+}
+
+select option:hover,
+select option:focus,
+select option:active,
+select option:checked {
+    background: var(--color-bg-surface);
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+/* Selected background color */
+select option:checked {
+    background-color: var(--color-bg-surface);
+}
+
+/* For Firefox specifically */
+select {
+    scrollbar-color: var(--color-primary) var(--color-bg-surface);
+    scrollbar-width: thin;
+}
+
+/* For Webkit browsers */
+select::-webkit-scrollbar {
+    width: 8px;
+}
+
+select::-webkit-scrollbar-track {
+    background: var(--color-bg-surface);
+}
+
+select::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: var(--radius-sm);
+}
+
+/* Make the dropdown list background match */
+select:focus option {
+    background-color: var(--color-bg-surface) !important;
+}
+
+select option:hover {
+    background-color: var(--color-bg-surface) !important;
+    color: var(--color-primary) !important;
+}
+
+/* Custom Dropdown Styling */
+.custom-dropdown {
+    position: relative;
+    width: 100%;
+}
+
+.selected-display {
+    background-color: var(--color-bg-input);
+    padding: var(--space-sm) var(--space-lg);
+    border: 2px solid transparent;
+    border-radius: var(--radius-input);
+    color: var(--text-on-surface);
+    cursor: pointer;
+    font-size: var(--text-base);
+    font-family: var(--font-primary);
+    position: relative;
+    transition: all var(--transition-default);
+}
+
+.selected-display::after {
+    content: '▼';
+    position: absolute;
+    right: var(--space-sm);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-primary);
+    font-size: 0.8em;
+}
+
+.selected-display:hover {
+    border-color: var(--color-primary-variant);
+}
+
+.dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    z-index: var(--z-dropdown);
+    display: none;
+    margin-top: 4px;
+    box-shadow: var(--shadow-md);
+}
+
+.suggestion-item {
+    padding: var(--space-sm);
+    cursor: pointer;
+    transition: all var(--transition-default);
+}
+
+.suggestion-item:hover {
+    color: var(--color-primary);
+    background-color: var(--color-bg-surface);
+}
+
+/* Character Block Dropdown Styling */
+.character-block .custom-dropdown {
+    position: relative;
+    width: 100%;
+    margin-bottom: var(--space-sm);
+}
+
+.character-block .selected-display {
+    background-color: var(--color-bg-input);
+    padding: var(--space-sm) var(--space-lg);
+    border: 2px solid transparent;
+    border-radius: var(--radius-input);
+    color: var(--text-on-surface);
+    cursor: pointer;
+    font-size: var(--text-base);
+    font-family: var(--font-primary);
+    position: relative;
+    transition: all var(--transition-default);
+}
+
+.character-block .selected-display::after {
+    content: '▼';
+    position: absolute;
+    right: var(--space-sm);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-primary);
+    font-size: 0.8em;
+}
+
+.character-block .selected-display:hover {
+    border-color: var(--color-primary-variant);
+}
+
+.character-block .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    z-index: var(--z-dropdown);
+    display: none;
+    margin-top: 4px;
+    box-shadow: var(--shadow-md);
+}
+
+.character-block .suggestion-item {
+    padding: var(--space-sm);
+    cursor: pointer;
+    transition: all var(--transition-default);
+}
+
+.character-block .suggestion-item:hover {
+    color: var(--color-primary);
+    background-color: var(--color-bg-surface);
+}
+
+/* Enhancer Dropdown Specific Styling */
+#enhancer-div {
+    margin-top: var(--space-sm);
+}
+
+#enhancer-div label {
+    display: block;
+    margin-bottom: var(--space-xs);
+    color: var(--text-on-surface);
+    font-weight: var(--font-medium);
+}
+
+/* Make enhancer dropdown match other dropdowns */
+#enhancer-div .custom-dropdown {
+    margin-top: var(--space-xs);
+}
+
+/* Style for the None option */
+#enhancer-div .suggestion-item:first-child {
+    border-bottom: 1px solid var(--color-border);
 }
 
 
@@ -115,7 +347,7 @@ button:hover::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(255,255,255,0.1), transparent);
+    background: linear-gradient(rgba(255, 255, 255, 0.1), transparent);
     pointer-events: none;
 }
 
@@ -129,7 +361,7 @@ button:active {
     position: relative;
     border: none;
     background: linear-gradient(var(--color-bg-surface), var(--color-bg-surface)) padding-box,
-                linear-gradient(135deg, var(--color-primary-variant), transparent) border-box;
+        linear-gradient(135deg, var(--color-primary-variant), transparent) border-box;
     border: 1px solid transparent;
     border-radius: var(--radius-card);
     padding: var(--space-lg);
@@ -170,9 +402,17 @@ button:active {
 }
 
 @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 
@@ -686,10 +926,21 @@ option {
 }
 
 /* Character Info Colors */
-.highlight-character-1 { color: var(--highlight-char-1); }
-.highlight-character-2 { color: var(--highlight-char-2); }
-.highlight-character-3 { color: var(--highlight-char-3); }
-.highlight-character-4 { color: var(--highlight-char-4); }
+.highlight-character-1 {
+    color: var(--highlight-char-1);
+}
+
+.highlight-character-2 {
+    color: var(--highlight-char-2);
+}
+
+.highlight-character-3 {
+    color: var(--highlight-char-3);
+}
+
+.highlight-character-4 {
+    color: var(--highlight-char-4);
+}
 
 /* Action Colors */
 .highlight-action-1,
