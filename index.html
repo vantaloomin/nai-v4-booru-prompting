@@ -12,25 +12,6 @@
 <body>
     <div class="container">
         <h1>Booru Stable Diffusion Prompt Builder</h1>
-        <!-- Artist Selection (Collapsible) -->
-        <div class="collapsible-container">
-            <div class="collapsible-header">Artists ▼</div>
-            <div class="collapsible-content">
-                <label>Artists:</label>
-                <div id="artists-container"></div>
-                <button id="add-artist-btn" type="button">Add Artist</button>
-            </div>
-        </div>
-        <!-- Scene Description (Collapsible) -->
-        <div class="collapsible-container">
-            <div class="collapsible-header">Scene Description ▼</div>
-            <div class="collapsible-content">
-                <label for="scene">Scene Description:</label>
-                <select id="scene">
-                    <!-- Options will be populated dynamically -->
-                </select>
-            </div>
-        </div>
         <!-- Characters Section -->
         <h2>Characters</h2>
         <!-- Search Box with Icons -->
@@ -53,12 +34,32 @@
         <!-- Character Cards -->
         <div id="characters-container"></div>
         <hr>
-        <!-- Actions Section  -->
-        <h2>Actions</h2>
-        <div id="actions-container">
-            <!-- Action blocks will be added here -->
+        <!-- Artist Selection (Collapsible) -->
+        <div class="collapsible-container">
+            <div class="collapsible-header">Artists ▼</div>
+            <div class="collapsible-content">
+                <label>Artists:</label>
+                <div id="artists-container"></div>
+                <button id="add-artist-btn" type="button">Add Artist</button>
+            </div>
         </div>
-        <button id="add-action-btn" type="button">Add Action</button>
+        <!-- Scene Description (Collapsible) -->
+        <div class="collapsible-container">
+            <div class="collapsible-header">Scene Description ▼</div>
+            <div class="collapsible-content">
+                <label for="scene">Scene Description:</label>
+                <select id="scene">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+        </div>
+        <!-- Hidden Actions Section (prototype removed from visual display) -->
+        <div id="actions-section" style="display: none;">
+            <div id="actions-container">
+                <!-- Action blocks will be added here internally -->
+            </div>
+            <button id="add-action-btn" type="button">Add Action</button>
+        </div>
         <hr>
         <!-- Random Prompt Section -->
         <h2>Random Prompt</h2>
@@ -92,13 +93,9 @@
             <span id="color-toggle-label">Coloring Enabled</span>
         </div>
 
-
-        <!-- Load Fuse.js from a CDN -->
+        <!-- Load external libraries from CDN -->
         <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
-
-        <!-- Include Sortable.js from a free CDN -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
-
         <!-- Include Local JavaScript Files -->
         <script src="constants.js"></script>
         <script src="artist.js"></script>
@@ -109,10 +106,7 @@
         <script src="full-random.js"></script>
         <script src="fuzzySearch.js"></script>
         <script src="app.js"></script>
-
-</body>
-
-</html>
+    </div>
 </body>
 
 </html>

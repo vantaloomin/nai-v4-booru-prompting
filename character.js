@@ -89,8 +89,7 @@ function addCharacterBlock() {
     const dragHandle = document.createElement('span');
     dragHandle.className = 'drag-handle';
     dragHandle.textContent = "≡";
-    // Prevent clicking the handle from toggling collapse.
-    dragHandle.addEventListener('click', function(e) {
+    dragHandle.addEventListener('click', function (e) {
         e.stopPropagation();
     });
     headerDiv.appendChild(dragHandle);
@@ -104,57 +103,49 @@ function addCharacterBlock() {
     // Toggle icon (▼ / ▲)
     const toggleIcon = document.createElement('span');
     toggleIcon.className = 'toggle-icon';
-    toggleIcon.textContent = "▼"; // content is initially visible
+    toggleIcon.textContent = "▼";
     headerDiv.appendChild(toggleIcon);
 
-    // --- New: Add Action Drag Handle ---
+    // New: Add Action Drag Handle (for assigning actions via drag/drop)
     const actionDragHandle = document.createElement('span');
     actionDragHandle.className = 'action-drag-handle';
-    actionDragHandle.textContent = "🡆"; // Use an arrow icon to indicate action assignment
+    actionDragHandle.textContent = "🡆";
     actionDragHandle.setAttribute("draggable", "true");
-    // When dragging starts from the action handle, record this character block's id
-    actionDragHandle.addEventListener('dragstart', function(e) {
-        // Use the block id (number) as the transferable data.
+    actionDragHandle.addEventListener('dragstart', function (e) {
         e.dataTransfer.setData("text/plain", blockId.toString());
         e.dataTransfer.effectAllowed = "move";
-        // Prevent the sortable drag from also triggering.
         e.stopPropagation();
     });
     headerDiv.appendChild(actionDragHandle);
 
-    // --- Make the entire character block a drop target for action assignments ---
-    div.addEventListener('dragover', function(e) {
-        // Allow drop.
+    // Make the entire character block a drop target for action assignments.
+    div.addEventListener('dragover', function (e) {
         e.preventDefault();
     });
-    div.addEventListener('drop', function(e) {
+    div.addEventListener('drop', function (e) {
         e.preventDefault();
         e.stopPropagation();
         const sourceId = e.dataTransfer.getData("text/plain");
         const targetId = blockId.toString();
-        // Only proceed if the drop is coming from a different character block.
         if (sourceId && sourceId !== targetId) {
-            // Call the pop-up to choose an action – this function is defined in action.js.
             showActionSelectionPopup(sourceId, targetId);
         }
     });
 
-    // Collapsible content container
+    // Collapsible content container.
     const contentDiv = document.createElement('div');
     contentDiv.className = 'block-content';
 
-    // --- Media Type ---
+    // Media Type
     const mediaTypeLabel = document.createElement('label');
     mediaTypeLabel.textContent = 'Select Media Type:';
     contentDiv.appendChild(mediaTypeLabel);
-
     const mediaTypeSelect = document.createElement('select');
     mediaTypeSelect.id = 'media-select-' + blockId;
     const defaultMediaOption = document.createElement('option');
     defaultMediaOption.value = "";
     defaultMediaOption.textContent = "-- Select Media Type --";
     mediaTypeSelect.appendChild(defaultMediaOption);
-
     const mediaTypes = [...new Set(characterData.map(item => item.mediaType))];
     mediaTypes.forEach(media => {
         const option = document.createElement('option');
@@ -164,11 +155,10 @@ function addCharacterBlock() {
     });
     contentDiv.appendChild(mediaTypeSelect);
 
-    // --- Title (Game/Show) ---
+    // Title (Game/Show)
     const titleLabel = document.createElement('label');
     titleLabel.textContent = 'Select Title (Game/Show):';
     contentDiv.appendChild(titleLabel);
-
     const titleSelect = document.createElement('select');
     titleSelect.id = 'title-select-' + blockId;
     const defaultTitleOption = document.createElement('option');
@@ -177,11 +167,10 @@ function addCharacterBlock() {
     titleSelect.appendChild(defaultTitleOption);
     contentDiv.appendChild(titleSelect);
 
-    // --- Character ---
+    // Character
     const charSelectLabel = document.createElement('label');
     charSelectLabel.textContent = 'Select Character:';
     contentDiv.appendChild(charSelectLabel);
-
     const charSelect = document.createElement('select');
     charSelect.id = 'char-select-' + blockId;
     const defaultCharOption = document.createElement('option');
@@ -190,36 +179,48 @@ function addCharacterBlock() {
     charSelect.appendChild(defaultCharOption);
     contentDiv.appendChild(charSelect);
 
-    // --- Gender Toggle Container ---
+    // Gender Toggle Container
     const genderDiv = document.createElement('div');
     genderDiv.id = 'gender-div-' + blockId;
     contentDiv.appendChild(genderDiv);
 
-    // --- Enhancer Dropdown Container ---
+    // Enhancer Dropdown Container
     const enhancerDiv = document.createElement('div');
     enhancerDiv.id = 'enhancer-div-' + blockId;
     contentDiv.appendChild(enhancerDiv);
 
-    // Append header + content to the card
+    // NEW: Assigned Actions Display (this will show inline any actions assigned to this character)
+    const actionsDisplayDiv = document.createElement('div');
+    actionsDisplayDiv.className = 'assigned-actions';
+    actionsDisplayDiv.style.marginTop = "8px";
+    actionsDisplayDiv.style.fontStyle = "italic";
+    actionsDisplayDiv.style.color = "#ff99ff"; // or any suitable color
+    actionsDisplayDiv.textContent = ""; // initially empty
+    contentDiv.appendChild(actionsDisplayDiv);
+
+    // Append header + content.
     div.appendChild(headerDiv);
     div.appendChild(contentDiv);
 
-    // --- Remove Button pinned at bottom ---
+    // Remove Button Container
     const removeBtnContainer = document.createElement('div');
     removeBtnContainer.className = 'remove-btn-container';
-
     const removeBtn = document.createElement('button');
     removeBtn.textContent = "Remove Character";
     removeBtn.type = "button";
-    removeBtn.addEventListener('click', function() {
+    removeBtn.addEventListener('click', function () {
         container.removeChild(div);
         characterCount--;
+        // Update action assignments display when a character is removed.
+        if (typeof updateAssignedActionsDisplay === "function") {
+            updateAssignedActionsDisplay();
+        }
     });
     removeBtnContainer.appendChild(removeBtn);
     div.appendChild(removeBtnContainer);
 
-    // Collapsible toggle on header click
-    headerDiv.addEventListener('click', function() {
+    // Collapsible toggle on header click.
+    headerDiv.addEventListener('click', function () {
         if (contentDiv.style.display === "none") {
             contentDiv.style.display = "";
             toggleIcon.textContent = "▼";
@@ -229,21 +230,19 @@ function addCharacterBlock() {
         }
     });
 
-    // Event listeners
-    mediaTypeSelect.addEventListener('change', function() {
+    // Event listeners for dropdown changes (existing logic).
+    mediaTypeSelect.addEventListener('change', function () {
         updateTitleOptions(blockId, this.value);
         resetCharacterDropdown(blockId);
         enhancerDiv.innerHTML = "";
         genderDiv.innerHTML = "";
     });
-
-    titleSelect.addEventListener('change', function() {
+    titleSelect.addEventListener('change', function () {
         updateCharacterDropdown(blockId, mediaTypeSelect.value, this.value);
         enhancerDiv.innerHTML = "";
         genderDiv.innerHTML = "";
     });
-
-    charSelect.addEventListener('change', function() {
+    charSelect.addEventListener('change', function () {
         updateGenderToggle(blockId, this.value);
         updateEnhancerDropdown(blockId, this.value);
         if (this.value) {
@@ -252,13 +251,14 @@ function addCharacterBlock() {
         } else {
             headerTitle.textContent = `Character ${blockId}`;
         }
+        // Update inline assigned actions (in case the character value changed).
+        if (typeof updateAssignedActionsDisplay === "function") {
+            updateAssignedActionsDisplay();
+        }
     });
 
-    // Finally, append the card to the container
     container.appendChild(div);
 }
-
-
 
 function addRandomCharacterBlock(type) {
     // type: "all", "vg", or "media"
@@ -473,7 +473,7 @@ function getCharacterSubjects() {
     }
     return { subjects, subjectCountObj };
 }
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("character-search");
     const clearButton = document.getElementById("clear-search");
     const suggestionsContainer = document.getElementById("search-suggestions");
@@ -511,7 +511,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const div = document.createElement("div");
             div.className = "suggestion-item";
             div.textContent = `${result.value} (${result.type})`;
-            div.addEventListener("click", function() {
+            div.addEventListener("click", function () {
                 searchInput.value = result.value;
                 suggestionsContainer.innerHTML = "";
                 clearButton.style.display = "block"; // Show clear button after selecting
@@ -565,18 +565,18 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    searchInput.addEventListener("input", function() {
+    searchInput.addEventListener("input", function () {
         filterSearchResults(this.value);
     });
 
     // Clear search when clicking ✖
-    clearButton.addEventListener("click", function() {
+    clearButton.addEventListener("click", function () {
         searchInput.value = "";
         suggestionsContainer.innerHTML = "";
         clearButton.style.display = "none"; // Hide clear button
     });
 
-    document.addEventListener("click", function(event) {
+    document.addEventListener("click", function (event) {
         if (!searchInput.contains(event.target) && !suggestionsContainer.contains(event.target)) {
             suggestionsContainer.innerHTML = "";
         }
