@@ -1,0 +1,290 @@
+/* variables.css */
+
+:root {
+    /*******************************
+     * COLOR PALETTE - MATERIAL DESIGN
+     *******************************/
+
+    /* Primary Colors */
+    --color-primary: #9C27B0;
+    /* Soft Purple Haze */
+    --color-primary-variant: #7B1FA2;
+    /* Deep Indigo Dusk */
+    --color-secondary: #4DB6AC;
+    /* Cool Cyan Whisper */
+    --color-secondary-variant: #26A69A;
+    /* Slate Teal Shade */
+    --color-error: #B71C1C;
+    /* Subtle Crimson Alert */
+
+    /* Background Colors */
+    --color-bg-void: #212121;
+    /* Deep Charcoal Void - Main background */
+    --color-bg-surface: #303030;
+    /* Dark Gray Nebula - Cards & elevated surfaces */
+    --color-bg-input: #424242;
+    /* Input fields & form elements */
+
+    /* Text Colors */
+    --color-text-primary: #FAFAFA;
+    /* Soft White Glow - Primary text */
+    --color-text-secondary: #BDBDBD;
+    /* Medium Gray Grid Lines - Secondary text */
+
+    /*******************************
+     * FUNCTIONAL COLOR ASSIGNMENTS
+     *******************************/
+
+    /* UI Element Colors */
+    --color-border: var(--color-bg-input);
+    --color-shadow: rgba(0, 0, 0, 0.7);
+    --color-overlay: rgba(0, 0, 0, 0.7);
+
+    /*******************************
+     * HIGHLIGHTING COLORS
+     *******************************/
+    
+    /* Syntax Highlighting */
+    --highlight-yellow: #FFE066;    /* Warm yellow for default/quality */
+    --highlight-purple: #FF9EFF;    /* Bright purple for artist/actions */
+    --highlight-cyan: #80FFFF;      /* Bright cyan for consistent tags */
+    --highlight-peach: #FFE5B4;     /* Peach for scene elements */
+    --highlight-gray: #E0E0E0;      /* Light gray for other elements */
+    
+    /* Character Blues (Brighter Scale) */
+    --highlight-blue-1: #B3E0FF;    /* Lightest blue */
+    --highlight-blue-2: #80C1FF;    /* Light blue */
+    --highlight-blue-3: #4DA9FF;    /* Medium blue */
+    --highlight-blue-4: #1A8CFF;    /* Darker blue */
+    
+    /* Functional Highlight Assignments */
+    --highlight-default: var(--highlight-yellow);
+    --highlight-artist: var(--highlight-purple);
+    --highlight-consistent: var(--highlight-cyan);
+    --highlight-subject: var(--highlight-blue-1);
+    --highlight-scene: var(--highlight-peach);
+    --highlight-quality: var(--highlight-yellow);
+    --highlight-other: var(--highlight-gray);
+    
+    /* Character Highlights */
+    --highlight-char-1: var(--highlight-blue-1);
+    --highlight-char-2: var(--highlight-blue-2);
+    --highlight-char-3: var(--highlight-blue-3);
+    --highlight-char-4: var(--highlight-blue-4);
+    
+    /* Action Highlights */
+    --highlight-action: var(--highlight-purple);
+
+    /*******************************
+     * SPACING & SIZING
+     *******************************/
+
+    /* Base Spacing Units */
+    --space-xxs: 4px;
+    --space-xs: 8px;
+    --space-sm: 12px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-xxl: 48px;
+
+    /* Component Specific Spacing */
+    --container-padding: var(--space-xl);
+    --card-padding: var(--space-md);
+    --input-padding: var(--space-sm);
+
+    /* Margins */
+    --margin-default: var(--space-md);
+    --margin-section: var(--space-xl);
+
+    /* Layout */
+    --gap-default: var(--space-xs);
+    --gap-large: var(--space-md);
+
+    /*******************************
+     * BORDERS & RADIUSES
+     *******************************/
+
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-round: 50%;
+
+    /* Component Specific Radius */
+    --radius-card: var(--radius-md);
+    --radius-button: var(--radius-sm);
+    --radius-input: var(--radius-sm);
+
+    /*******************************
+     * ELEVATION & SHADOWS
+     *******************************/
+
+    /* Shadow Levels */
+    --shadow-sm: 0 2px 4px var(--color-shadow);
+    --shadow-md: 0 4px 8px var(--color-shadow);
+    --shadow-lg: 0 8px 16px var(--color-shadow);
+    --shadow-xl: 0 12px 24px var(--color-shadow);
+
+    /*******************************
+     * TRANSITIONS & ANIMATIONS
+     *******************************/
+
+    /* Transitions */
+    --transition-fast: 0.2s;
+    --transition-default: 0.3s;
+    --transition-slow: 0.4s;
+
+    /* Easings */
+    --ease-default: ease;
+    --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /*******************************
+     * Z-INDEX LAYERS
+     *******************************/
+
+    --z-base: 1;
+    --z-dropdown: 1000;
+    --z-sticky: 1200;
+    --z-modal: 1500;
+    --z-popup: 1700;
+    --z-tooltip: 1900;
+
+    /*******************************
+     * LAYOUT CONSTRAINTS
+     *******************************/
+
+    /* Maximum Widths */
+    --width-container: 900px;
+    --width-card: 100%;
+    --width-input: 100%;
+
+    /* Heights */
+    --height-input: 40px;
+    --height-button: 40px;
+    --height-toggle: 24px;
+
+    /* Fixed Heights */
+    --height-modal-content: 300px;
+    --height-dropdown: 300px;
+
+    /*******************************
+     * TYPOGRAPHY
+     *******************************/
+
+    /* Font Families */
+    --font-primary: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        'Helvetica Neue', Arial, sans-serif;
+    --font-monospace: 'Roboto Mono', 'Courier New', Courier, monospace;
+    --font-interface: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        'Helvetica Neue', Arial, sans-serif;
+
+    /* Font Sizes - Major Third Scale (1.25) */
+    --text-xs: 0.64rem;
+    /* 10.24px */
+    --text-sm: 0.8rem;
+    /* 12.80px */
+    --text-base: 1rem;
+    /* 16.00px */
+    --text-lg: 1.25rem;
+    /* 20.00px */
+    --text-xl: 1.563rem;
+    /* 25.00px */
+    --text-2xl: 1.953rem;
+    /* 31.25px */
+    --text-3xl: 2.441rem;
+    /* 39.06px */
+    --text-4xl: 3.052rem;
+    /* 48.83px */
+
+    /* Font Weights */
+    --font-thin: 100;
+    --font-extralight: 200;
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+    --font-black: 900;
+
+    /* Line Heights */
+    --leading-none: 1;
+    --leading-tight: 1.25;
+    --leading-snug: 1.375;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.625;
+    --leading-loose: 2;
+
+    /* Letter Spacing */
+    --tracking-tighter: -0.05em;
+    --tracking-tight: -0.025em;
+    --tracking-normal: 0;
+    --tracking-wide: 0.025em;
+    --tracking-wider: 0.05em;
+    --tracking-widest: 0.1em;
+
+    /* Component-Specific Typography */
+    --font-heading: {
+        font-family: var(--font-primary);
+        font-weight: var(--font-bold);
+        line-height: var(--leading-tight);
+        letter-spacing: var(--tracking-tight);
+    }
+
+    --font-body: {
+        font-family: var(--font-primary);
+        font-weight: var(--font-normal);
+        line-height: var(--leading-normal);
+        letter-spacing: var(--tracking-normal);
+    }
+
+    --font-button: {
+        font-family: var(--font-primary);
+        font-weight: var(--font-medium);
+        line-height: var(--leading-none);
+        letter-spacing: var(--tracking-wide);
+    }
+
+    --font-input: {
+        font-family: var(--font-primary);
+        font-weight: var(--font-normal);
+        line-height: var(--leading-normal);
+        letter-spacing: var(--tracking-normal);
+    }
+
+    --font-caption: {
+        font-family: var(--font-primary);
+        font-weight: var(--font-normal);
+        font-size: var(--text-sm);
+        line-height: var(--leading-snug);
+        letter-spacing: var(--tracking-normal);
+    }
+
+    --font-code: {
+        font-family: var(--font-monospace);
+        font-weight: var(--font-normal);
+        line-height: var(--leading-normal);
+        letter-spacing: var(--tracking-normal);
+    }
+
+    /* Text Colors Based on Background */
+    --text-on-primary: var(--color-text-primary);
+    --text-on-secondary: var(--color-text-primary);
+    --text-on-surface: var(--color-text-secondary);
+    --text-on-error: var(--color-text-primary);
+
+    /* Text Emphasis */
+    --text-emphasis-high: 1;
+    --text-emphasis-medium: 0.87;
+    --text-emphasis-low: 0.6;
+
+    /* Text Decoration */
+    --link-decoration: none;
+    --link-decoration-hover: underline;
+
+    /* Text Shadow */
+    --text-shadow-sm: 0 1px 2px var(--color-shadow);
+    --text-shadow-md: 0 2px 4px var(--color-shadow);
+    --text-shadow-lg: 0 4px 8px var(--color-shadow);
+}
