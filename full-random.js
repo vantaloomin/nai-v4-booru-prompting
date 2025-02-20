@@ -18,12 +18,14 @@ function generateFullRandomPrompt() {
         addRandomCharacterBlock("all");
     }
 
-    // Clear and add one random artist block.
-    const artistContainer = document.getElementById("artists-container");
-    artistContainer.innerHTML = "";
+    // Clear and add one random artist block in the new combined container.
+    const artistContainer = document.getElementById("artist-scene-container");
+    // Remove existing artist cards.
+    const existingArtists = artistContainer.querySelectorAll(".artist-card");
+    existingArtists.forEach(card => card.remove());
     artistCount = 0;
-    addArtistBlock();
-    const artistSelect = document.getElementById("artist-select-1");
+    createArtistCard();
+    const artistSelect = document.getElementById("artist-select-" + artistCount);
     if (artistSelect) {
         const validArtists = artists.filter(a => a !== "NONE" && a !== "RANDOM");
         const randomArtist = validArtists[Math.floor(Math.random() * validArtists.length)];
@@ -38,8 +40,7 @@ function generateFullRandomPrompt() {
 
     // If there are at least 2 characters, add a random action block.
     if (numCharacters >= 2) {
-        addActionBlock(true); // bypass check in full random mode
-        // For the first action block, set random action values.
+        addActionBlock(true);
         const actionBlock = document.getElementById("action-block-1");
         if (actionBlock) {
             const actionSelect = actionBlock.querySelector(".action-select");
@@ -47,14 +48,11 @@ function generateFullRandomPrompt() {
                 const randomAction = actionTags[Math.floor(Math.random() * actionTags.length)];
                 actionSelect.value = randomAction;
             }
-            // Randomly choose mode.
             const radios = actionBlock.querySelectorAll(`input[name="action-mode-1"]`);
             radios.forEach(radio => {
                 radio.checked = (Math.random() < 0.5 && radio.value === "mutual") ? true : (radio.value === "st");
             });
-            checkMutualAutoAssign(1); // if the random action block gets id "action-block-1"
-
-            // Populate source and target assignments.
+            checkMutualAutoAssign(1);
             const sourceSelect = actionBlock.querySelector(".action-source");
             const targetSelect = actionBlock.querySelector(".action-target");
             const options = getCharacterOptions();
@@ -70,9 +68,7 @@ function generateFullRandomPrompt() {
         }
     }
 
-    // Wait for asynchronous updates to finish.
     setTimeout(() => {
-        // Refresh action character assignments.
         updateAllActionAssignments();
         const prompt = generatePrompt();
         document.getElementById('output').value = prompt;

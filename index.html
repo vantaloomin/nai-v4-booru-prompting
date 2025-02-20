@@ -34,31 +34,25 @@
         <!-- Character Cards -->
         <div id="characters-container"></div>
         <hr>
-        <!-- Artist Selection (Collapsible) -->
-        <div class="collapsible-container">
-            <div class="collapsible-header">Artists ▼</div>
-            <div class="collapsible-content">
-                <label>Artists:</label>
-                <div id="artists-container"></div>
+        <!-- Combined Artist/Scene Section -->
+        <div id="artist-scene-section">
+            <div id="artist-scene-controls" style="display: flex; gap: 10px; margin-top: 10px;">
                 <button id="add-artist-btn" type="button">Add Artist</button>
+                <button id="add-scene-btn" type="button">Add Scene</button>
             </div>
-        </div>
-        <!-- Scene Description (Collapsible) -->
-        <div class="collapsible-container">
-            <div class="collapsible-header">Scene Description ▼</div>
-            <div class="collapsible-content">
-                <label for="scene">Scene Description:</label>
-                <select id="scene">
-                    <!-- Options will be populated dynamically -->
-                </select>
+            <!-- Container for selection cards; cards will appear inline (each ~33% width) -->
+            <div id="artist-scene-container" style="display: flex; flex-wrap: wrap; gap: 10px;">
+                <!-- Dynamically added Artist and Scene cards will be appended here -->
             </div>
+            <!-- Controls for adding new cards -->
         </div>
         <!-- Hidden Actions Section (prototype removed from visual display) -->
         <div id="actions-section" style="display: none;">
+            <button id="add-action-btn" type="button">Add Action</button>
+            <button id="add-scene-btn" type="button">Add Scene</button>
             <div id="actions-container">
                 <!-- Action blocks will be added here internally -->
             </div>
-            <button id="add-action-btn" type="button">Add Action</button>
         </div>
         <hr>
         <!-- Random Prompt Section -->

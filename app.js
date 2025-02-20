@@ -4,38 +4,32 @@
  * wire up buttons, and render the final prompt from
  * structured data returned by generatePromptData() in prompt.js.
  *******************************************************/
-
 document.addEventListener("DOMContentLoaded", function () {
   /***********************************
-   * 1) Initialize Scene & Collapsible Sections *
+   * 1) Initialize Scene & Combined Selection Sections *
    ***********************************/
-
-  // Populate the scene dropdown (from scene.js)
-  populateSceneDropdown();
-
-  // Set up collapsible sections so that clicking a header toggles its content.
-  document.querySelectorAll(".collapsible-header").forEach(header => {
-    header.addEventListener("click", function () {
-      const content = this.nextElementSibling;
-      if (content.style.display === "none" || content.style.display === "") {
-        content.style.display = "block";
-        this.textContent = this.textContent.replace("▼", "▲");
-      } else {
-        content.style.display = "none";
-        this.textContent = this.textContent.replace("▲", "▼");
-      }
+  // NOTE: We no longer auto-create a Scene Card.
+  // The user can now add one via the "Add Scene" button.
+  
+  // Initialize Sortable for the combined Artist/Scene container.
+  const selectionContainer = document.getElementById("artist-scene-container");
+  if (selectionContainer) {
+    Sortable.create(selectionContainer, {
+      animation: 150,
+      handle: '.drag-handle'
     });
-    header.nextElementSibling.style.display = "none";
-  });
+  }
 
-  /*******************************************
-   * 2) Wire Up Artist, Character, & Action UI *
-   *******************************************/
+  /***********************************
+   * 2) Wire Up Artist, Scene, Character, & Action UI *
+   ***********************************/
+  // "Add Artist" button (creates a new artist card)
+  document.getElementById('add-artist-btn').addEventListener('click', createArtistCard);
 
-  // Artist block (artist.js)
-  document.getElementById('add-artist-btn').addEventListener('click', addArtistBlock);
+  // "Add Scene" button (creates a new scene card without auto-populating a value)
+  document.getElementById('add-scene-btn').addEventListener('click', createSceneCard);
 
-  // Character blocks (character.js)
+  // Character blocks (from character.js)
   document.getElementById('add-character-btn').addEventListener('click', function () {
     addCharacterBlock();
     refreshActionCharacterOptions(); // update available options for actions
@@ -50,29 +44,23 @@ document.addEventListener("DOMContentLoaded", function () {
     addRandomCharacterBlock("media");
   });
 
-  // Action blocks (action.js)
+  // Action blocks (from action.js)
   document.getElementById('add-action-btn').addEventListener('click', function () {
     addActionBlock();
   });
 
-  /****************************************
-   * 3) Full Random Prompt (full-random.js) *
-   ****************************************/
-
+  /***********************************
+   * 3) Full Random Prompt *
+   ***********************************/
   document.getElementById('full-random-btn').addEventListener('click', function () {
     generateFullRandomPrompt();
   });
 
-  /**************************************************
-   * 4) Prompt Generation & Output (Structured Data) *
-   **************************************************/
-
-  // Global variable to hold the current structured prompt data.
+  /***********************************
+   * 4) Prompt Generation & Output *
+   ***********************************/
   let currentPromptData = null;
 
-  // Function to render the prompt from structured data.
-  // If 'colored' is true, it renders HTML with highlighting;
-  // otherwise, it builds a plain text string.
   function renderPrompt(colored, promptData) {
     if (!promptData) return;
 
@@ -81,15 +69,12 @@ document.addEventListener("DOMContentLoaded", function () {
       const headerHTML = promptData.header
         .map(part => `<span class="${getCssClass(part.type)}">${part.text}</span>`)
         .join(", ");
-
       // Build character blocks.
       const charactersHTML = promptData.characters
         .map((characterParts, index) => {
           let infoText = "";
           if (characterParts.length >= 2) {
-            // Force a comma between gender and name.
             infoText = characterParts[0].text.trim() + ", " + characterParts[1].text.trim();
-            // Append any additional tokens (such as tags) with a comma separator.
             if (characterParts.length > 2) {
               infoText += ", " + characterParts.slice(2)
                 .filter(p => p.type !== "action")
@@ -99,13 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
           } else {
             infoText = characterParts.map(p => p.text.trim()).join(", ");
           }
-          // Build the action tokens for this character.
           const actionText = characterParts
             .filter(p => p.type === "action")
             .map(p => p.text.trim())
             .join(", ");
-
-          // Render info using a uniform color for this character.
           const infoHTML = `<span class="highlight-character-${((index % 4) + 1)}">${infoText}</span>`;
           let actionHTML = "";
           if (actionText) {
@@ -118,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const finalHTML = headerHTML + " | " + charactersHTML;
       document.getElementById("output-preview").innerHTML = finalHTML;
     } else {
-      // Plain text rendering: similar logic without HTML tags.
+      // Build plain text prompt.
       const headerText = promptData.header
         .map(part => part.text)
         .join(", ");
@@ -143,13 +125,11 @@ document.addEventListener("DOMContentLoaded", function () {
           return infoText + (actionText ? ", " + actionText : "");
         })
         .join(" | ");
-
       const finalText = headerText + " | " + charactersText;
       document.getElementById("output-preview").innerText = finalText;
     }
   }
 
-  // Utility function to assign CSS classes for header parts.
   function getCssClass(type) {
     switch (type) {
       case "default":
@@ -169,16 +149,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // "Generate Prompt" button: generate prompt data, store it, and render based on toggle.
   document.getElementById("generate-btn").addEventListener("click", function () {
     const colorEnabled = document.getElementById("color-toggle").checked;
-    currentPromptData = generatePromptData(); // defined in prompt.js
-    // Log the structured prompt data for debugging.
+    currentPromptData = generatePromptData();
     console.log("Structured Prompt Data:", currentPromptData);
     renderPrompt(colorEnabled, currentPromptData);
   });
 
-  // When the slider toggle changes, re-render the CURRENT prompt (if available).
   document.getElementById("color-toggle").addEventListener("change", function () {
     const colorEnabled = this.checked;
     document.getElementById("color-toggle-label").textContent = colorEnabled ? "Coloring Enabled" : "Coloring Disabled";
@@ -187,7 +164,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // "Copy Prompt" button: copy plain text (without HTML markup) from the preview.
   document.getElementById("copy-prompt-btn").addEventListener("click", function () {
     const promptText = document.getElementById("output-preview").innerText;
     if (promptText) {
@@ -199,10 +175,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  /**************************************************
-   * 5) Initialize Sortable for Character Blocks  *
-   **************************************************/
-
+  /***********************************
+   * 5) Initialize Sortable for Character Blocks *
+   ***********************************/
   const characterContainer = document.getElementById("characters-container");
   if (characterContainer) {
     Sortable.create(characterContainer, {
@@ -211,31 +186,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  /***********************************************************
-   * 6) Expandable Prompt Preview (Toggle Expand/Collapse)    *
-   ***********************************************************/
-
+  /***********************************
+   * 6) Expandable Prompt Preview (Toggle Expand/Collapse) *
+   ***********************************/
   const toggleBtn = document.getElementById("toggle-expand");
   const outputContainer = document.getElementById("output-container");
-
   toggleBtn.addEventListener("click", function () {
     outputContainer.classList.toggle("expanded");
-    if (outputContainer.classList.contains("expanded")) {
-      toggleBtn.textContent = "Collapse";
-    } else {
-      toggleBtn.textContent = "Expand";
-    }
+    toggleBtn.textContent = outputContainer.classList.contains("expanded") ? "Collapse" : "Expand";
   });
-  /***********************************
-   * 7) Fuzzy Search Integration (Fuse.js)
-   ***********************************/
 
+  /***********************************
+   * 7) Fuzzy Search Integration (Fuse.js) *
+   ***********************************/
   // Utility function to get candidate objects from characterData.
   function getSearchCandidates() {
     return characterData.map(item => {
       return {
-        name: item.name, // Character name.
-        title: item.category, // Title/Category.
+        name: item.name,
+        title: item.category,
         display: `${item.name} (${item.category})`,
         raw: item
       };
@@ -253,55 +222,42 @@ document.addEventListener("DOMContentLoaded", function () {
     suggestionsContainer.innerHTML = "";
     if (!query) return;
 
-    // If candidate data might change, update the Fuse collection.
+    // Update the Fuse collection in case characterData has changed.
     fuse.setCollection(getSearchCandidates());
 
-    // Perform the fuzzy search.
+    // Perform fuzzy search.
     const results = fuseSearch(query, fuse);
 
     // Limit to top 10 results.
     results.slice(0, 10).forEach(result => {
-      // Optionally, filter out any unwanted title-only items here.
       const itemDiv = document.createElement("div");
       itemDiv.className = "suggestion-item";
       itemDiv.textContent = result.display;
-
       itemDiv.addEventListener("click", function () {
-        // Update the search box with the chosen result.
+        // Update search input and clear suggestions.
         searchInput.value = result.display;
         suggestionsContainer.innerHTML = "";
 
-        // Approach B: Directly call update functions.
-
-        // 1) Add a new character block.
+        // Add a new character block and populate its fields based on search result.
         addCharacterBlock();
-        const blockId = characterCount; // The new block's id.
-
-        // 2) Populate the Media dropdown.
-        const mediaSelect = document.getElementById("media-select-" + blockId);
+        const blockId = characterCount;
+        const mediaSelect = document.getElementById(`media-select-${blockId}`);
         if (mediaSelect) {
           mediaSelect.value = result.raw.mediaType;
           updateTitleOptions(blockId, result.raw.mediaType);
         }
-
-        // 3) Populate the Title dropdown.
-        const titleSelect = document.getElementById("title-select-" + blockId);
+        const titleSelect = document.getElementById(`title-select-${blockId}`);
         if (titleSelect) {
           titleSelect.value = result.raw.category;
           updateCharacterDropdown(blockId, result.raw.mediaType, result.raw.category);
         }
-
-        // 4) Set the Character dropdown.
-        const charSelect = document.getElementById("char-select-" + blockId);
+        const charSelect = document.getElementById(`char-select-${blockId}`);
         if (charSelect) {
           charSelect.value = result.raw.name;
           charSelect.dispatchEvent(new Event("change", { bubbles: true }));
         }
-
-        // 5) Finally, clear the search box.
         searchInput.value = "";
       });
-
       suggestionsContainer.appendChild(itemDiv);
     });
   });
@@ -312,5 +268,4 @@ document.addEventListener("DOMContentLoaded", function () {
       suggestionsContainer.innerHTML = "";
     }
   });
-
 });

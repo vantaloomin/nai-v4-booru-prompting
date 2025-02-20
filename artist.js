@@ -3,23 +3,17 @@ let artistCount = 0;
 const maxArtists = 4; // adjust as needed
 
 // Helper: Clean display name for artists.
-// This function will use only the text before the first comma and remove prefixes like "artist:" or "by".
-// It will not affect the underlying full string.
 function cleanArtistDisplay(name) {
   if (name === "NONE" || name === "RANDOM") return name;
-  // Split on the first comma.
   let firstPart = name.split(",")[0].trim();
-  // Remove "artist:" or "by" prefixes (case-insensitive).
   firstPart = firstPart.replace(/^(artist:|by\s+)/i, "").trim();
-  // Remove any parentheses and their content.
   firstPart = firstPart.replace(/\s*\([^)]*\)/g, "").trim();
-  // Title-case each word.
   return firstPart.split(/\s+/)
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(" ");
 }
 
-// Modified: Populate a given dropdown with sorted artist options.
+// Populate a given dropdown with sorted artist options.
 function populateArtistOption(dropdown) {
   dropdown.innerHTML = "";
   const defaultOption = document.createElement("option");
@@ -27,10 +21,7 @@ function populateArtistOption(dropdown) {
   defaultOption.textContent = "-- Select Artist --";
   dropdown.appendChild(defaultOption);
 
-  // Define special items.
   const specialItems = ["NONE", "RANDOM"];
-
-  // Add special items at the top.
   specialItems.forEach(val => {
     const option = document.createElement("option");
     option.value = val;
@@ -38,7 +29,6 @@ function populateArtistOption(dropdown) {
     dropdown.appendChild(option);
   });
 
-  // Filter out the special items, sort the rest, and add them.
   const sortedArtists = artists
     .filter(a => !specialItems.includes(a))
     .slice()
@@ -52,50 +42,81 @@ function populateArtistOption(dropdown) {
   });
 }
 
-// Create and add an artist block.
-function addArtistBlock() {
+// Updated: Create an Artist Card with a custom input field.
+function createArtistCard() {
   if (artistCount >= maxArtists) {
     alert("Maximum of " + maxArtists + " artists reached.");
     return;
   }
   artistCount++;
-  const container = document.getElementById("artists-container");
-  const div = document.createElement("div");
-  div.className = "artist-block";
-  div.id = "artist-block-" + artistCount;
+  const container = document.getElementById("artist-scene-container");
+  const card = document.createElement("div");
+  card.className = "selection-card artist-card";
+  card.id = "artist-card-" + artistCount;
 
-  // Create dropdown for artist selection.
+  // Card header with drag handle and title.
+  const header = document.createElement("div");
+  header.className = "card-header";
+  const dragHandle = document.createElement("span");
+  dragHandle.className = "drag-handle";
+  dragHandle.textContent = "≡";
+  header.appendChild(dragHandle);
+  const title = document.createElement("span");
+  title.textContent = "Artist";
+  header.appendChild(title);
+  card.appendChild(header);
+
+  // Card content with dropdown, custom input, and remove button.
+  const content = document.createElement("div");
+  content.className = "card-content";
+  
+  // Dropdown for artist selection.
   const select = document.createElement("select");
   select.id = "artist-select-" + artistCount;
   populateArtistOption(select);
-  div.appendChild(select);
+  content.appendChild(select);
 
-  // Add a remove button.
+  // Custom artist input.
+  const customInput = document.createElement("input");
+  customInput.type = "text";
+  customInput.placeholder = "-- Custom Artist --";
+  customInput.className = "custom-artist-input";
+  content.appendChild(customInput);
+
+  // Remove Artist button.
   const removeBtn = document.createElement("button");
   removeBtn.type = "button";
   removeBtn.textContent = "Remove Artist";
   removeBtn.addEventListener("click", function () {
-    container.removeChild(div);
+    container.removeChild(card);
     artistCount--;
   });
-  div.appendChild(removeBtn);
-
-  container.appendChild(div);
+  content.appendChild(removeBtn);
+  
+  card.appendChild(content);
+  container.appendChild(card);
 }
 
+// Updated: Get selected artists from all artist cards.
 function getSelectedArtists() {
   let selectedArtists = [];
-  for (let i = 1; i <= artistCount; i++) {
-    const select = document.getElementById("artist-select-" + i);
-    if (select && select.value) {
-      let value = select.value;
-      if (value === "RANDOM") {
-        // Pick a random artist from the global artists array, excluding "NONE" and "RANDOM"
-        const validArtists = artists.filter(a => a !== "NONE" && a !== "RANDOM");
-        value = validArtists[Math.floor(Math.random() * validArtists.length)];
+  const cards = document.querySelectorAll("#artist-scene-container .artist-card");
+  cards.forEach(card => {
+    // Use custom artist if provided.
+    const customInput = card.querySelector("input.custom-artist-input");
+    if (customInput && customInput.value.trim() !== "") {
+      selectedArtists.push(customInput.value.trim());
+    } else {
+      const select = card.querySelector("select[id^='artist-select-']");
+      if (select && select.value) {
+        let value = select.value;
+        if (value === "RANDOM") {
+          const validArtists = artists.filter(a => a !== "NONE" && a !== "RANDOM");
+          value = validArtists[Math.floor(Math.random() * validArtists.length)];
+        }
+        selectedArtists.push(value);
       }
-      selectedArtists.push(value);
     }
-  }
+  });
   return selectedArtists;
 }
