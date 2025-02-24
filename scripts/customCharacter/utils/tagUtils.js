@@ -76,7 +76,13 @@ export function searchTags(query, limit = 5) {
 export function createTagPill(tagText, pillContainer, onRemoveCallback) {
     const pill = document.createElement('span');
     pill.className = 'custom-tag-pill';
-    pill.textContent = tagText;
+    
+    // Store the original tag text as a data attribute
+    pill.dataset.originalTag = tagText;
+    
+    // Display the formatted version (spaces instead of underscores)
+    const displayText = formatTag(tagText);
+    pill.textContent = displayText;
 
     // Remove 'X' button
     const removeX = document.createElement('span');
@@ -113,4 +119,43 @@ export function getAllTags() {
  */
 export function getCustomTagFuse() {
     return customTagFuse;
+}
+
+/**
+ * Formats a tag by replacing underscores with spaces
+ * 
+ * @param {string} tag - The tag to format
+ * @return {string} - The formatted tag
+ */
+export function formatTag(tag) {
+    // Replace underscores with spaces
+    return tag.replace(/_/g, ' ').trim();
+}
+
+/**
+ * Detects if a tag contains gender information (e.g., "1boy", "2girls")
+ * 
+ * @param {string} tag - The tag to check
+ * @return {Object|null} - Object with gender and count if found, null otherwise
+ */
+export function detectGenderFromTag(tag) {
+    // Match patterns like "1boy", "2girls", etc.
+    const genderMatch = tag.match(/^(\d+)(boy|girl)(s?)$/i);
+    
+    if (genderMatch) {
+        const count = parseInt(genderMatch[1], 10);
+        const gender = genderMatch[2].toLowerCase();
+        return { gender, count };
+    }
+    
+    // Also check for just "boy" or "girl" without numbers
+    if (/^boy$/i.test(tag)) {
+        return { gender: 'boy', count: 1 };
+    }
+    
+    if (/^girl$/i.test(tag)) {
+        return { gender: 'girl', count: 1 };
+    }
+    
+    return null;
 } 

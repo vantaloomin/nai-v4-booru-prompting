@@ -10,7 +10,11 @@ import {
     getCurrentCustomCharacterCount,
     getMaxCustomCharacters
 } from './customCharacterManager.js';
-import { loadAllTags } from './utils/tagUtils.js';
+import { 
+    loadAllTags, 
+    formatTag, 
+    detectGenderFromTag 
+} from './utils/tagUtils.js';
 
 // Export variables to the global scope for backward compatibility
 window.characterCount = 0; // This will be managed internally by the module
@@ -18,6 +22,10 @@ window.maxCharacters = 4;  // This is now a constant in the module
 
 // Export functions to the global scope for backward compatibility
 window.addCustomCharacterBlock = addCustomCharacterBlock;
+
+// Export tag utility functions to global scope
+window.formatTag = formatTag;
+window.detectGenderFromTag = detectGenderFromTag;
 
 // Initialize the module
 document.addEventListener('DOMContentLoaded', function() {

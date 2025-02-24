@@ -428,22 +428,50 @@ export function getCharacterSubjects() {
     // Process custom character blocks
     const customBlocks = document.querySelectorAll('.custom-character-block');
     customBlocks.forEach(block => {
-        // Default to "girl" gender for custom characters
-        // This could be enhanced with a gender selector in the custom character UI
-        const gender = "girl";
+        // Default gender is "girl" unless we detect otherwise from tags
+        let gender = "girl";
         
         // Find the pill container with the custom tags
         const pillContainer = block.querySelector('.custom-pill-container');
         if (pillContainer) {
-            // Get all tag pills and remove the "×" from each pill's text
+            // Get all tag pills and extract the original tag value from data attribute
+            // If not available, fall back to the text content minus the "×"
             const tags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
-                .map(pill => pill.textContent.replace('×', '').trim())
+                .map(pill => {
+                    // Try to get the original tag from data attribute
+                    const originalTag = pill.dataset.originalTag;
+                    if (originalTag) return originalTag;
+                    
+                    // Fall back to text content with "×" removed
+                    return pill.textContent.replace('×', '').trim();
+                })
                 .filter(tag => tag.length > 0);
             
             if (tags.length > 0) {
-                // Add the gender and join the tags with commas
+                // Process tags to detect gender and format them
+                let processedTags = [];
+                let genderDetected = false;
+                
+                for (const tag of tags) {
+                    // Try to detect gender from this tag
+                    const genderInfo = window.detectGenderFromTag ? window.detectGenderFromTag(tag) : null;
+                    
+                    if (genderInfo) {
+                        // We found a gender tag
+                        gender = genderInfo.gender;
+                        genderDetected = true;
+                        // Don't include the gender tag in the processed tags
+                        continue;
+                    }
+                    
+                    // Format the tag (replace underscores with spaces)
+                    const formattedTag = window.formatTag ? window.formatTag(tag) : tag;
+                    processedTags.push(formattedTag);
+                }
+                
+                // Add the gender and join the processed tags with commas
                 subjectCountObj[gender] = (subjectCountObj[gender] || 0) + 1;
-                subjects.push(`${gender} ${tags.join(', ')}`);
+                subjects.push(`${gender} ${processedTags.join(', ')}`);
             }
         }
     });
