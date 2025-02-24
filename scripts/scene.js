@@ -1,3 +1,12 @@
+// Import scene tag utilities
+import { loadContextTags } from './sceneTagUtils.js';
+import { initSceneTagAutocomplete, addSceneAutocompleteStyling } from './sceneAutocomplete.js';
+
+// Access the scenes array from the global scope (defined in constants.js)
+const { scenes } = window;
+
+let sceneExists = false;
+
 // Ensure populateSceneDropdown is defined in the global scope
 function populateSceneDropdown() {
     const sceneSelect = document.getElementById("scene");
@@ -28,9 +37,23 @@ function populateSceneDropdown() {
     });
 }
 
-let sceneExists = false;
+// Initialize scene tag utilities when the document is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Load context tags
+    loadContextTags()
+        .then(() => {
+            console.log("Scene tag module initialized");
+        })
+        .catch(error => {
+            console.error("Error initializing Scene tag module:", error);
+        });
+});
 
-function createSceneCard() {
+// Export functions to global scope for backward compatibility
+window.createSceneCard = createSceneCard;
+window.getSelectedSceneTags = getSelectedSceneTags;
+
+export function createSceneCard() {
     // Prevent creating more than one scene card.
     if (sceneExists) return;
     sceneExists = true;
@@ -84,7 +107,28 @@ function createSceneCard() {
     });
     searchWrapper.appendChild(clearIcon);
     
+    // Add suggestions container for autocomplete
+    const suggestionContainer = document.createElement('div');
+    suggestionContainer.className = 'scene-suggestions-list';
+    searchWrapper.appendChild(suggestionContainer);
+    
     content.appendChild(searchWrapper);
+    
+    // Add pill container for selected tags
+    const pillContainer = document.createElement('div');
+    pillContainer.className = 'scene-pill-container';
+    content.appendChild(pillContainer);
+    
+    // Initialize tag autocomplete
+    initSceneTagAutocomplete(
+        customInput,
+        suggestionContainer,
+        pillContainer,
+        updateSceneTagsCallback
+    );
+    
+    // Add autocomplete styling
+    addSceneAutocompleteStyling();
 
     // Remove Scene button.
     const removeBtn = document.createElement("button");
@@ -104,12 +148,27 @@ function createSceneCard() {
     populateSceneDropdown();
 }
 
-function getSelectedSceneTags() {
+// Callback function when scene tags are updated
+function updateSceneTagsCallback() {
+    // This function can be used to update any UI or state when scene tags change
+    console.log("Scene tags updated");
+}
+
+export function getSelectedSceneTags() {
     // Get the scene select element.
     const sceneSelect = document.getElementById("scene");
     // Look for a custom scene input within the scene card.
     const customInput = document.querySelector("#scene-card .custom-scene-input");
+    // Look for pill container to get all selected tags
+    const pillContainer = document.querySelector("#scene-card .scene-pill-container");
 
+    // If there are pills, collect their tags
+    if (pillContainer && pillContainer.children.length > 0) {
+        const pills = pillContainer.querySelectorAll('.custom-tag-pill');
+        const tagTexts = Array.from(pills).map(pill => pill.dataset.originalTag);
+        return tagTexts.join(", ");
+    }
+    
     // If custom input has a value, use that.
     if (customInput && customInput.value.trim() !== "") {
         return customInput.value.trim();
