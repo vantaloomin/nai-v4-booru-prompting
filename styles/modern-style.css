@@ -992,3 +992,163 @@ option {
     transition: opacity var(--transition-default) var(--ease-default),
         transform var(--transition-default) var(--ease-default);
 }
+
+/* custom-character-block: main container styling */
+.custom-character-block {
+    position: relative;
+    border: none;
+    background: linear-gradient(var(--color-bg-surface), var(--color-bg-surface)) padding-box,
+        linear-gradient(135deg, var(--color-primary-variant), transparent) border-box;
+    border: 1px solid transparent;
+    border-radius: var(--radius-card);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    box-shadow: 0 4px 12px rgba(156, 39, 176, 0.1);
+    animation: fadeIn var(--transition-default) var(--ease-default);
+    flex: 0 0 calc(50% - var(--gap-default));
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  /* Header styling */
+  .custom-block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: var(--space-sm);
+  }
+  
+  .custom-drag-handle {
+    font-size: var(--text-lg);
+    color: var(--color-primary);
+    cursor: move;
+    user-select: none;
+    margin-right: var(--space-xs);
+  }
+  
+  .custom-block-title {
+    font-weight: var(--font-semibold);
+    font-size: var(--text-base);
+    color: var(--color-text-primary);
+  }
+  
+  .custom-toggle-icon {
+    color: var(--color-primary);
+    font-size: var(--text-lg);
+  }
+  
+  /* Content container */
+  .custom-block-content {
+    display: block;
+    /* If you want to hide by default, do so here or use JS */
+  }
+  
+  /* Custom search wrapper for the input + icons */
+  .custom-search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: var(--space-xs);
+    margin-bottom: var(--space-xs);
+  }
+  
+  .custom-search-icon {
+    position: absolute;
+    left: var(--space-xs);
+    font-size: var(--text-base);
+    color: var(--color-primary);
+    pointer-events: none;
+  }
+  
+  .custom-tag-input {
+    width: 100%;
+    padding: var(--space-sm) var(--space-xl);
+    padding-left: calc(var(--space-xl) + 12px); /* extra left to accommodate icon */
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-input);
+    background: var(--color-bg-input);
+    color: var(--color-text-primary);
+    font-size: var(--text-base);
+    box-sizing: border-box;
+  }
+  
+  .custom-clear-icon {
+    position: absolute;
+    right: var(--space-xs);
+    font-size: var(--text-base);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+  }
+  
+  /* Suggestions list container */
+  .custom-suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    z-index: var(--z-dropdown);
+    margin-top: var(--space-xxs);
+    box-shadow: var(--shadow-md);
+  }
+  
+  /* Individual suggestion item */
+  .custom-suggestion-item {
+    padding: var(--space-xs) var(--space-sm);
+    cursor: pointer;
+    transition: background-color var(--transition-default), color var(--transition-default);
+  }
+  
+  .custom-suggestion-item:hover {
+    background-color: var(--color-border);
+    color: var(--color-primary);
+  }
+  
+  /* Pill container + pills */
+  .custom-pill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-top: var(--space-xs);
+    margin-bottom: var(--space-sm);
+  }
+  
+  .custom-tag-pill {
+    background-color: var(--highlight-cyan);
+    color: var(--color-bg-void);
+    padding: var(--space-xxs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--text-sm);
+  }
+  
+  .custom-pill-remove {
+    margin-left: var(--space-xxs);
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Remove button container */
+  .custom-remove-btn-container {
+    margin-top: var(--space-sm);
+  }
+  
+  /* Fade-in animation (if you want it) */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

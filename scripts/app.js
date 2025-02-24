@@ -44,6 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
     addRandomCharacterBlock("media");
   });
 
+  document.getElementById('add-custom-character-btn').addEventListener('click', function() {
+    addCustomCharacterBlock();
+    refreshActionCharacterOptions(); // Update available action options if necessary.
+});
+
   // Action blocks (from action.js)
   document.getElementById('add-action-btn').addEventListener('click', function () {
     addActionBlock();

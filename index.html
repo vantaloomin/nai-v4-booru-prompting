@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="styles/variables.css">
   <link rel="stylesheet" href="styles/modern-style.css">
 </head>
+
 <body>
   <div class="container">
     <h1>Booru Stable Diffusion Prompt Builder</h1>
@@ -29,6 +31,7 @@
       <button id="add-rand-char-btn" type="button">Rand Char</button>
       <button id="add-rand-vg-btn" type="button">Rand VG</button>
       <button id="add-rand-media-btn" type="button">Rand Media</button>
+      <button id="add-custom-character-btn">Add Custom Character</button>
     </div>
     <!-- Character Cards -->
     <div id="characters-container"></div>
@@ -57,7 +60,8 @@
     <h2>Random Prompt</h2>
     <div>
       <label for="random-char-slider">Number of Random Characters:</label>
-      <input type="range" id="random-char-slider" min="1" max="4" value="2" oninput="document.getElementById('random-char-count').textContent = this.value">
+      <input type="range" id="random-char-slider" min="1" max="4" value="2"
+        oninput="document.getElementById('random-char-count').textContent = this.value">
       <span id="random-char-count">2</span>
     </div>
     <div>
@@ -85,6 +89,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
     <!-- Include Local JavaScript Files -->
     <script src="scripts/constants.js"></script>
+    <script src="scripts/fuzzySearch.js"></script>
+    <script src="scripts/customCharacter.js"></script>
     <script src="scripts/artist.js"></script>
     <script src="scripts/scene.js"></script>
     <script src="scripts/character.js"></script>
@@ -92,7 +98,6 @@
     <script src="scripts/prompt.js"></script>
     <script src="scripts/custom-dropdown.js"></script>
     <script src="scripts/full-random.js"></script>
-    <script src="scripts/fuzzySearch.js"></script>
     <script src="scripts/app.js"></script>
   </div>
   <!-- Floating Buttons for Prompting -->
@@ -101,4 +106,5 @@
     <button id="copy-prompt-btn" type="button">Copy Prompt</button>
   </div>
 </body>
+
 </html>
