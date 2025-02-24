@@ -1,0 +1,104 @@
+name,category,explicit,count
+cowboy_shot,Perspective,False,581980
+on_back,Perspective,False,261032
+from_behind,Perspective,False,240098
+from_side,Perspective,False,230966
+multiple_views,Perspective,False,172839
+upper_teeth_only,Perspective,False,161839
+feet_out_of_frame,Perspective,False,157255
+profile,Perspective,False,133678
+pov,Perspective,False,129035
+dutch_angle,Perspective,False,122080
+from_above,Perspective,False,102190
+back,Perspective,False,94717
+on_side,Perspective,False,91798
+portrait,Perspective,False,86050
+from_below,Perspective,False,85594
+on_stomach,Perspective,False,67609
+facing_viewer,Perspective,False,65038
+foreshortening,Perspective,False,54738
+close-up,Perspective,False,47845
+cropped_torso,Perspective,False,45695
+one_eye_covered,Perspective,False,41864
+out_of_frame,Perspective,False  ,34402
+upskirt,Perspective,True  ,33736
+straight-on,Perspective,False  ,31265
+foot_out_of_frame,Perspective,False  ,26538
+pov_hands,Perspective,False  ,25142
+selfie,Perspective,False  ,21714
+top-down_bottom-up,Perspective,False  ,21348
+head_out_of_frame,Perspective,False  ,21309
+back-to-back,Perspective,False  ,18097
+wide_shot,Perspective,False  ,16487
+hip_focus,Perspective,False  ,15383
+face-to-face,Perspective,False  ,13972
+pov_crotch,Perspective,True  ,13441
+over_shoulder,Perspective,False,12563
+cross-section,Perspective,False,12385
+side-by-side,Perspective,False,10956
+between_fingers,Perspective,False,8888
+perspective,Perspective,False,8091
+three_quarter_view,Perspective,False,7335
+v_over_eye,Perspective,False,6721
+viewfinder,Perspective,False,6398
+fisheye,Perspective,False,5343
+female_pov,Perspective,False,4959
+column_lineup,Perspective,False,2691
+projected_inset,Perspective,False,2573
+photo_inset,Perspective,False,2566
+inset,Perspective,False,2515
+round_image,Perspective,False,2382
+object_through_head,Perspective,False,2344
+inset_border,Perspective,False,2344
+head_only,Perspective,False,2215
+in_the_face,Perspective,False,2171
+back_focus,Perspective,False,2121
+pov_doorway,Perspective,False,2071
+split_screen,Perspective,False,1862
+from_outside,Perspective,False,1535
+through_medium,Perspective,False,1527
+very_wide_shot,Perspective,False,1477
+finger_frame,Perspective,False,1454
+vanishing_point,Perspective,False,1285
+facing_up,Perspective,False,1245
+cropped_head,Perspective,False,1202
+knees_out_of_frame,Perspective,False,1149
+behind-the-head_headphones,Perspective,False,1103
+facing_down,Perspective,False,1087
+facing_ahead,Perspective,False,1058
+isometric,Perspective,False,1057
+through_screen,Perspective,False,1054
+pov_across_table,Perspective,False,1023
+right-to-left_comic,Perspective,False,825
+front-to-back,Perspective,False,705
+pov_across_bed,Perspective,False,689
+three_quarter_profile,Perspective,False,651
+footwear_focus,Perspective,False,564
+outstretched_legs,Perspective,False,531
+facing_back,Perspective,False,514
+view_between_legs,Perspective,True,490
+sky_focus,Perspective,False,477
+taker_pov,Perspective,False,459
+pov_peephole,Perspective,True,430
+headshot,Perspective,False,391
+through_window,Perspective,False,389
+a-pose,Perspective,False,360
+mirror_image,Perspective,False,289
+under_shot,Perspective,False,283
+eyes_out_of_frame,Perspective,False,282
+side-view_mirror,Perspective,False,279
+pov_cheek_warming_(meme),Perspective,False,271
+looking_through_scope,Perspective,False,268
+looking_past_viewer,Perspective,False,254
+oval_image,Perspective,False,237
+mouth_focus,Perspective,False,235
+around_corner,Perspective,False,228
+pov_breasts,Perspective,True,225
+looking_inside,Perspective,False,219
+forced_perspective,Perspective,False,218
+eyewear_view,Perspective,False,199
+screen_zoom,Perspective,False,186
+from_inside,Perspective,False,130
+pov_legs,Perspective,False,128
+lap_pov,Perspective,False,125
+fixed-point_camera,Perspective,False,100

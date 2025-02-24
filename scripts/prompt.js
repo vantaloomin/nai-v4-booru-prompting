@@ -13,7 +13,7 @@
 function generatePromptData() {
     // (Header code remains the same.)
     const selectedArtists = getSelectedArtists(); // e.g. ["r1"]
-    const artistTag = selectedArtists.length > 0 ? `{{${selectedArtists.join(", ")}}}` : "";
+    const artistTag = selectedArtists.length > 0 ? `${selectedArtists.join(", ")}` : "";
   
     const defaultText = "The image is a highly finished digital illustration, with expert shading.";
     const consistentTags1 = "{{{best quality, amazing quality, very aesthetic}}}";
