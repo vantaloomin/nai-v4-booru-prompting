@@ -252,8 +252,8 @@ function addCharacterBlock() {
     removeBtn.addEventListener('click', function () {
         container.removeChild(div);
         characterCount--;
-        if (typeof updateAssignedActionsDisplay === "function") {
-            updateAssignedActionsDisplay();
+        if (typeof updateAllActionAssignments === "function") {
+            updateAllActionAssignments();
         }
     });
     removeBtnContainer.appendChild(removeBtn);
@@ -313,6 +313,11 @@ function addCharacterBlock() {
     });
 
     container.appendChild(div);
+    
+    // Update action assignments whenever a character is added
+    if (typeof updateAllActionAssignments === "function") {
+        setTimeout(updateAllActionAssignments, 100);
+    }
 }
 
 function closeAllDropdowns() {
@@ -372,6 +377,11 @@ function updateCharacterDropdown(id, selectedMedia, selectedTitle) {
             const blockTitle = document.querySelector(`#character-${id} .block-title`);
             if (blockTitle) {
                 blockTitle.textContent = `${cleanDisplayName(item.name)} (${cleanDisplayName(selectedTitle)})`;
+                
+                // After updating the title, refresh action assignments to maintain connections
+                if (typeof updateAllActionAssignments === "function") {
+                    setTimeout(updateAllActionAssignments, 100);
+                }
             }
         });
         charList.appendChild(charItem);
@@ -409,8 +419,8 @@ function updateEnhancerDropdown(id, selectedCharacterName) {
             item.addEventListener('click', () => {
                 enhancerDisplay.textContent = enh;
                 enhancerList.style.display = 'none';
-                if (typeof updateAssignedActionsDisplay === "function") {
-                    updateAssignedActionsDisplay();
+                if (typeof updateAllActionAssignments === "function") {
+                    updateAllActionAssignments();
                 }
             });
             enhancerList.appendChild(item);
@@ -423,8 +433,8 @@ function updateEnhancerDropdown(id, selectedCharacterName) {
         noneOption.addEventListener('click', () => {
             enhancerDisplay.textContent = "-- None --";
             enhancerList.style.display = 'none';
-            if (typeof updateAssignedActionsDisplay === "function") {
-                updateAssignedActionsDisplay();
+            if (typeof updateAllActionAssignments === "function") {
+                updateAllActionAssignments();
             }
         });
         enhancerList.insertBefore(noneOption, enhancerList.firstChild);
@@ -529,8 +539,8 @@ function addRandomCharacterBlock(type) {
                 }
 
                 // Trigger any necessary updates
-                if (typeof updateAssignedActionsDisplay === "function") {
-                    updateAssignedActionsDisplay();
+                if (typeof updateAllActionAssignments === "function") {
+                    updateAllActionAssignments();
                 }
             }
         }, 100);

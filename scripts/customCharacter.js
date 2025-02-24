@@ -217,6 +217,11 @@ function addCustomCharacterBlock() {
             createTagPill(text, pillContainer);
             tagInput.value = '';
             suggestionContainer.innerHTML = '';
+            
+            // Update action assignments when tags are added
+            if (typeof updateAllActionAssignments === 'function') {
+                setTimeout(updateAllActionAssignments, 100);
+            }
         }
     });
 
@@ -231,9 +236,6 @@ function addCustomCharacterBlock() {
     removeBtn.addEventListener('click', () => {
         container.removeChild(blockDiv);
         characterCount--;
-        if (typeof updateAssignedActionsDisplay === 'function') {
-            updateAssignedActionsDisplay();
-        }
         if (typeof updateAllActionAssignments === 'function') {
             updateAllActionAssignments();
         }
@@ -270,9 +272,9 @@ function addCustomCharacterBlock() {
         }
     });
 
-    // Update action assignments if the function exists
+    // After appending to DOM, make sure to update action assignments
     if (typeof updateAllActionAssignments === 'function') {
-        updateAllActionAssignments();
+        setTimeout(updateAllActionAssignments, 100);
     }
 
     // Update the CSS for suggestions positioning
@@ -318,14 +320,20 @@ function createTagPill(tagText, pillContainer) {
     pill.className = 'custom-tag-pill';
     pill.textContent = tagText;
 
+    // Remove 'X' button
     const removeX = document.createElement('span');
-    removeX.className = 'custom-pill-remove';
-    removeX.textContent = ' ✖'; // leading space for separation
+    removeX.className = 'custom-tag-remove';
+    removeX.textContent = '×';
     removeX.addEventListener('click', () => {
         pillContainer.removeChild(pill);
+        
+        // Update action assignments when a tag is removed
+        if (typeof updateAllActionAssignments === 'function') {
+            setTimeout(updateAllActionAssignments, 100);
+        }
     });
+    
     pill.appendChild(removeX);
-
     pillContainer.appendChild(pill);
 }
   

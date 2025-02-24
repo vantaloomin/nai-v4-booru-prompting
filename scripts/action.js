@@ -10,9 +10,37 @@ function getCharacterOptions() {
     // Get regular character blocks
     const charBlocks = document.querySelectorAll(".character-block");
     charBlocks.forEach(block => {
-        const charSelect = block.querySelector("select[id^='char-select-']");
-        if (charSelect && charSelect.value) {
-            options.push({ value: charSelect.value, display: block.querySelector(".block-title").textContent });
+        const blockId = block.id.split("-")[1];
+        
+        // Try to find the character value via the title or selected character
+        let charValue = "";
+        let charDisplay = "";
+        
+        // First check the block title - it contains the character name and game
+        const blockTitle = block.querySelector(".block-title");
+        if (blockTitle && blockTitle.textContent) {
+            // The title should contain the character name
+            charDisplay = blockTitle.textContent.trim();
+            
+            // Extract the character name from the display text (before the parenthesis)
+            const nameMatch = charDisplay.match(/^(.*?)\s*\(/);
+            if (nameMatch && nameMatch[1]) {
+                charValue = nameMatch[1].trim();
+            } else {
+                charValue = charDisplay;
+            }
+        }
+        
+        // Create a unique identifier for this character that we can use in the mapping
+        const uniqueId = `standard-${blockId}`;
+        
+        if (charValue) {
+            options.push({ 
+                value: uniqueId, // Use a unique ID format
+                realValue: charValue, // Store the actual character name
+                display: charDisplay,
+                blockId: blockId
+            });
         }
     });
     
@@ -20,9 +48,18 @@ function getCharacterOptions() {
     const customCharBlocks = document.querySelectorAll(".custom-character-block");
     customCharBlocks.forEach(block => {
         const blockId = block.id.split("-")[2];
-        const blockTitle = block.querySelector(".custom-block-title").textContent;
+        const blockTitle = block.querySelector(".custom-block-title");
+        const titleText = blockTitle ? blockTitle.textContent.trim() : `Custom Character ${blockId}`;
+        
         if (blockId) {
-            options.push({ value: `custom-${blockId}`, display: blockTitle });
+            const customCharId = `custom-${blockId}`;
+            options.push({ 
+                value: customCharId, 
+                realValue: titleText,
+                display: titleText,
+                blockId: blockId,
+                isCustom: true
+            });
         }
     });
     
@@ -58,6 +95,7 @@ function populateCharacterOptions(selectElement) {
         const option = document.createElement("option");
         option.value = opt.value;
         option.textContent = opt.display;
+        option.dataset.realValue = opt.realValue;
         selectElement.appendChild(option);
     });
 }
@@ -163,8 +201,42 @@ function addActionBlock(bypassCheck) {
 function refreshActionCharacterOptions() {
     const allSourceSelects = document.querySelectorAll(".action-source");
     const allTargetSelects = document.querySelectorAll(".action-target");
+    
+    // Save the current selections before repopulating
+    const savedSelections = [];
+    allSourceSelects.forEach((sourceSelect, index) => {
+        const targetSelect = allTargetSelects[index];
+        savedSelections.push({
+            sourceValue: sourceSelect.value,
+            targetValue: targetSelect ? targetSelect.value : null
+        });
+    });
+    
+    // Repopulate all selects
     allSourceSelects.forEach(select => populateCharacterOptions(select));
     allTargetSelects.forEach(select => populateCharacterOptions(select));
+    
+    // Restore selections where possible
+    allSourceSelects.forEach((sourceSelect, index) => {
+        const targetSelect = allTargetSelects[index];
+        const saved = savedSelections[index];
+        
+        if (saved.sourceValue) {
+            // Try to find the option with the same value
+            let foundSourceOption = Array.from(sourceSelect.options).find(opt => opt.value === saved.sourceValue);
+            if (foundSourceOption) {
+                sourceSelect.value = saved.sourceValue;
+            }
+        }
+        
+        if (targetSelect && saved.targetValue) {
+            let foundTargetOption = Array.from(targetSelect.options).find(opt => opt.value === saved.targetValue);
+            if (foundTargetOption) {
+                targetSelect.value = saved.targetValue;
+            }
+        }
+    });
+    
     updateAssignedActionsDisplay();
 }
 
@@ -178,21 +250,28 @@ function updateAllActionAssignments() {
 function getActionAssignments() {
     let assignments = {};
     const actionBlocks = document.querySelectorAll(".action-block");
+    
+    // Get the current character options to map between IDs and names
+    const characterOptions = getCharacterOptions();
+    
     actionBlocks.forEach(block => {
         const parts = block.id.split("-");
         const actionId = parts[2];
         const actionSelect = block.querySelector(".action-select");
         const selectedAction = actionSelect.value;
         if (!selectedAction) return;
+        
         const radios = block.querySelectorAll(`input[name="action-mode-${actionId}"]`);
         let mode = "st";
         radios.forEach(radio => {
             if (radio.checked) mode = radio.value;
         });
+        
         const sourceSelect = block.querySelector(".action-source");
         const targetSelect = block.querySelector(".action-target");
         const sourceVal = sourceSelect.value;
         const targetVal = targetSelect.value;
+        
         if (mode === "st") {
             if (sourceVal) {
                 if (!assignments[sourceVal]) assignments[sourceVal] = [];
@@ -213,6 +292,7 @@ function getActionAssignments() {
             }
         }
     });
+    
     return assignments;
 }
 
@@ -225,11 +305,37 @@ function getActionTags() {
     return tags;
 }
 
-// NEW: Function to update each character block with its assigned actions.
+// Helper function to find a character ID from a display name
+function findCharacterIdByName(name) {
+    const options = getCharacterOptions();
+    const match = options.find(opt => opt.realValue === name || opt.display === name);
+    return match ? match.value : null;
+}
+
+// Helper function to get the real display name for a character by ID
+function getRealNameById(charId) {
+    const options = getCharacterOptions();
+    const char = options.find(c => c.value === charId);
+    return char ? (char.realValue || char.display) : charId;
+}
+
+// Function to update each character block with its assigned actions.
 function updateAssignedActionsDisplay() {
     // Build a mapping: for each character (by its raw value), an array of linking messages.
     const messageMapping = {};
     const actionBlocks = document.querySelectorAll('.action-block');
+    
+    // Get all character options to help with name resolution
+    const allCharOptions = getCharacterOptions();
+    
+    // Debug: Console log character options to check what we're working with
+    console.log("All character options:", allCharOptions);
+    
+    // Function to find the real name from character ID
+    function getRealName(charId) {
+        const char = allCharOptions.find(c => c.value === charId);
+        return char ? (char.realValue || char.display) : charId;
+    }
 
     actionBlocks.forEach(block => {
         const actionSelect = block.querySelector('.action-select');
@@ -250,24 +356,27 @@ function updateAssignedActionsDisplay() {
         const targetSelect = block.querySelector('.action-target');
         const sourceName = sourceSelect ? sourceSelect.value : "";
         const targetName = targetSelect ? targetSelect.value : "";
+        
+        // Debug log the selections
+        console.log(`Action ${actionId}: ${mode} action:${actionValue} source:${sourceName} target:${targetName}`);
 
         if (mode === "st") {
             if (sourceName) {
-                const cleanTarget = targetName ? cleanDisplayName(targetName) : "N/A";
+                const cleanTarget = targetName ? cleanDisplayName(getRealName(targetName)) : "N/A";
                 const msg = `source#${actionValue} → To ${cleanTarget}`;
                 if (!messageMapping[sourceName]) messageMapping[sourceName] = [];
                 messageMapping[sourceName].push(msg);
             }
             if (targetName) {
-                const cleanSource = sourceName ? cleanDisplayName(sourceName) : "N/A";
+                const cleanSource = sourceName ? cleanDisplayName(getRealName(sourceName)) : "N/A";
                 const msg = `target#${actionValue} ← From ${cleanSource}`;
                 if (!messageMapping[targetName]) messageMapping[targetName] = [];
                 messageMapping[targetName].push(msg);
             }
         } else if (mode === "mutual") {
             if (sourceName && targetName) {
-                const cleanSource = cleanDisplayName(sourceName);
-                const cleanTarget = cleanDisplayName(targetName);
+                const cleanSource = cleanDisplayName(getRealName(sourceName));
+                const cleanTarget = cleanDisplayName(getRealName(targetName));
                 const msgForSource = `mutual#${actionValue} ↔ With ${cleanTarget}`;
                 const msgForTarget = `mutual#${actionValue} ↔ With ${cleanSource}`;
                 if (!messageMapping[sourceName]) messageMapping[sourceName] = [];
@@ -277,19 +386,51 @@ function updateAssignedActionsDisplay() {
             }
         }
     });
+    
+    // Debug log the message mapping
+    console.log("Message mapping:", messageMapping);
 
     // Update the inline display on each character block.
     const characterBlocks = document.querySelectorAll('.character-block');
     characterBlocks.forEach(block => {
-        const charSelect = block.querySelector("select[id^='char-select-']");
-        const actionsDisplay = block.querySelector('.assigned-actions');
-        if (charSelect && actionsDisplay) {
-            const charName = charSelect.value;
-            if (charName && messageMapping[charName] && messageMapping[charName].length > 0) {
-                actionsDisplay.textContent = "Actions: " + messageMapping[charName].join(" ; ");
+        // Get the block ID
+        const blockId = block.id.split("-")[1];
+        const uniqueId = `standard-${blockId}`;
+        
+        // Create or find the actions display element
+        let actionsDisplay = block.querySelector('.assigned-actions');
+        if (!actionsDisplay) {
+            actionsDisplay = document.createElement('div');
+            actionsDisplay.className = 'assigned-actions';
+            actionsDisplay.style.marginTop = "8px";
+            actionsDisplay.style.fontStyle = "italic";
+            actionsDisplay.style.color = "#ff99ff";
+            
+            // Insert after the enhancer div if it exists, otherwise append to content
+            const contentDiv = block.querySelector('.block-content');
+            if (contentDiv) {
+                const enhancerDiv = contentDiv.querySelector('#enhancer-div-' + blockId);
+                if (enhancerDiv) {
+                    enhancerDiv.parentNode.insertBefore(actionsDisplay, enhancerDiv.nextSibling);
+                } else {
+                    contentDiv.appendChild(actionsDisplay);
+                }
             } else {
-                actionsDisplay.textContent = "";
+                block.appendChild(actionsDisplay);
             }
+        }
+        
+        // Debug log
+        console.log(`Checking for actions for standard-${blockId}`);
+        
+        // Update the display with actions for this character
+        if (messageMapping[uniqueId] && messageMapping[uniqueId].length > 0) {
+            actionsDisplay.textContent = "Actions: " + messageMapping[uniqueId].join(" ; ");
+            actionsDisplay.style.display = "";
+            console.log(`Found actions for standard-${blockId}:`, messageMapping[uniqueId]);
+        } else {
+            actionsDisplay.textContent = "";
+            actionsDisplay.style.display = "none";
         }
     });
     
@@ -304,27 +445,54 @@ function updateAssignedActionsDisplay() {
         if (!actionsDisplay) {
             actionsDisplay = document.createElement('div');
             actionsDisplay.className = 'assigned-actions';
+            actionsDisplay.style.marginTop = "8px";
+            actionsDisplay.style.fontStyle = "italic";
+            actionsDisplay.style.color = "#ff99ff";
+            
             // Insert after the pill container
             const pillContainer = block.querySelector('.custom-pill-container');
             if (pillContainer && pillContainer.parentNode) {
                 pillContainer.parentNode.insertBefore(actionsDisplay, pillContainer.nextSibling);
             } else {
-                block.querySelector('.custom-block-content').appendChild(actionsDisplay);
+                const contentDiv = block.querySelector('.custom-block-content');
+                if (contentDiv) {
+                    contentDiv.appendChild(actionsDisplay);
+                } else {
+                    block.appendChild(actionsDisplay);
+                }
             }
         }
+        
+        // Debug log
+        console.log(`Checking for actions for custom-${blockId}`);
         
         // Update the display
         if (customCharId && messageMapping[customCharId] && messageMapping[customCharId].length > 0) {
             actionsDisplay.textContent = "Actions: " + messageMapping[customCharId].join(" ; ");
+            actionsDisplay.style.display = "";
+            console.log(`Found actions for custom-${blockId}:`, messageMapping[customCharId]);
         } else {
             actionsDisplay.textContent = "";
+            actionsDisplay.style.display = "none";
         }
     });
+    
+    // Force a refresh of the UI
+    setTimeout(() => {
+        document.querySelectorAll('.assigned-actions').forEach(display => {
+            // Force a reflow to make sure the element is visible
+            if (display.parentNode && display.textContent.trim()) {
+                display.style.display = 'none';
+                display.offsetHeight; // Force reflow
+                display.style.display = '';
+            }
+        });
+    }, 100);
 }
 
 // Displays a modal pop-up allowing the user to select an action.
 function showActionSelectionPopup(sourceBlockId, targetBlockId) {
-    // (Modal pop-up code remains unchanged)
+    // Create a modal popup for selecting an action
     const modalOverlay = document.createElement('div');
     modalOverlay.id = 'action-modal-overlay';
     modalOverlay.classList.add('modal-overlay');
@@ -408,9 +576,12 @@ function showActionSelectionPopup(sourceBlockId, targetBlockId) {
 
 // Called after the user selects an action from the pop-up.
 function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode) {
+    console.log(`Creating action: ${sourceBlockId} -> ${targetBlockId} (${action}) mode: ${mode}`);
+    
     const newActionId = addActionBlock(true);
     const newActionBlock = document.getElementById("action-block-" + newActionId);
     if (!newActionBlock) return;
+    
     const actionSelect = newActionBlock.querySelector(".action-select");
     if (actionSelect) {
         actionSelect.value = action;
@@ -422,10 +593,7 @@ function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode) {
     // Check if source is a regular character or custom character
     if (document.getElementById(`character-${sourceBlockId}`)) {
         // Regular character
-        const sourceCharSelect = document.getElementById("char-select-" + sourceBlockId);
-        if (sourceCharSelect) {
-            sourceVal = sourceCharSelect.value;
-        }
+        sourceVal = `standard-${sourceBlockId}`;
     } else if (document.getElementById(`custom-character-${sourceBlockId}`)) {
         // Custom character
         sourceVal = `custom-${sourceBlockId}`;
@@ -434,14 +602,13 @@ function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode) {
     // Check if target is a regular character or custom character
     if (document.getElementById(`character-${targetBlockId}`)) {
         // Regular character
-        const targetCharSelect = document.getElementById("char-select-" + targetBlockId);
-        if (targetCharSelect) {
-            targetVal = targetCharSelect.value;
-        }
+        targetVal = `standard-${targetBlockId}`;
     } else if (document.getElementById(`custom-character-${targetBlockId}`)) {
         // Custom character
         targetVal = `custom-${targetBlockId}`;
     }
+    
+    console.log(`Resolved to: source=${sourceVal}, target=${targetVal}`);
     
     // Set the source and target values
     const sourceSelect = newActionBlock.querySelector(".action-source");
@@ -456,5 +623,7 @@ function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode) {
             radio.checked = true;
         }
     });
+    
+    // Update the display
     updateAssignedActionsDisplay();
 }
