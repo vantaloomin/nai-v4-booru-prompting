@@ -4,7 +4,7 @@
  * Provides functionality for scene tag autocompletion and suggestion management.
  */
 
-import { searchTags, createTagPill } from './sceneTagUtils.js';
+import { searchTags, createTagPill } from './tagUtils.js';
 
 /**
  * Initialize autocomplete functionality for a scene tag input

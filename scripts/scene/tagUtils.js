@@ -17,7 +17,7 @@ let sceneTagFuse = null;
  * @return {Promise} - Promise that resolves when tags are loaded
  */
 export function loadContextTags() {
-    return fetch('scripts/allTags.json')
+    return fetch('../scripts/allTags.json')
         .then(response => response.json())
         .then(data => {
             // Filter to only include tags with category "context"

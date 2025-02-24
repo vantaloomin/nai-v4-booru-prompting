@@ -1,6 +1,6 @@
 // Import scene tag utilities
-import { loadContextTags } from './sceneTagUtils.js';
-import { initSceneTagAutocomplete, addSceneAutocompleteStyling } from './sceneAutocomplete.js';
+import { loadContextTags } from './tagUtils.js';
+import { initSceneTagAutocomplete, addSceneAutocompleteStyling } from './autocomplete.js';
 
 // Access the scenes array from the global scope (defined in constants.js)
 const { scenes } = window;
@@ -184,4 +184,4 @@ export function getSelectedSceneTags() {
     }
     const found = scenes.find(s => s.theme === selected);
     return found ? found.tags : "";
-}
+} 
