@@ -150,6 +150,18 @@ function addCustomCharacterBlock() {
     toggleIcon.textContent = '▼';
     headerDiv.appendChild(toggleIcon);
 
+    // Action Drag Handle
+    const actionDragHandle = document.createElement('span');
+    actionDragHandle.className = 'action-drag-handle';
+    actionDragHandle.textContent = "🡆";
+    actionDragHandle.setAttribute("draggable", "true");
+    actionDragHandle.addEventListener('dragstart', function (e) {
+        e.dataTransfer.setData("text/plain", blockId.toString());
+        e.dataTransfer.effectAllowed = "move";
+        e.stopPropagation();
+    });
+    headerDiv.appendChild(actionDragHandle);
+
     blockDiv.appendChild(headerDiv);
 
     // --- Content Section ---
@@ -222,12 +234,30 @@ function addCustomCharacterBlock() {
         if (typeof updateAssignedActionsDisplay === 'function') {
             updateAssignedActionsDisplay();
         }
+        if (typeof updateAllActionAssignments === 'function') {
+            updateAllActionAssignments();
+        }
     });
     removeBtnContainer.appendChild(removeBtn);
     blockDiv.appendChild(removeBtnContainer);
 
     // Append to the DOM
     container.appendChild(blockDiv);
+
+    // Make the entire character block a drop target for action assignments
+    blockDiv.addEventListener('dragover', function (e) {
+        e.preventDefault();
+    });
+
+    blockDiv.addEventListener('drop', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const sourceId = e.dataTransfer.getData("text/plain");
+        const targetId = blockId.toString();
+        if (sourceId && sourceId !== targetId) {
+            showActionSelectionPopup(sourceId, targetId);
+        }
+    });
 
     // Collapsible logic
     headerDiv.addEventListener('click', () => {
@@ -239,6 +269,11 @@ function addCustomCharacterBlock() {
             toggleIcon.textContent = '▲';
         }
     });
+
+    // Update action assignments if the function exists
+    if (typeof updateAllActionAssignments === 'function') {
+        updateAllActionAssignments();
+    }
 
     // Update the CSS for suggestions positioning
     if (!document.getElementById('custom-suggestions-style')) {

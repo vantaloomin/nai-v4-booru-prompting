@@ -6,6 +6,8 @@ const maxActions = 4; // Adjust as needed
 // Helper: Get current character options (only those with a valid selection).
 function getCharacterOptions() {
     let options = [];
+    
+    // Get regular character blocks
     const charBlocks = document.querySelectorAll(".character-block");
     charBlocks.forEach(block => {
         const charSelect = block.querySelector("select[id^='char-select-']");
@@ -13,6 +15,17 @@ function getCharacterOptions() {
             options.push({ value: charSelect.value, display: block.querySelector(".block-title").textContent });
         }
     });
+    
+    // Get custom character blocks
+    const customCharBlocks = document.querySelectorAll(".custom-character-block");
+    customCharBlocks.forEach(block => {
+        const blockId = block.id.split("-")[2];
+        const blockTitle = block.querySelector(".custom-block-title").textContent;
+        if (blockId) {
+            options.push({ value: `custom-${blockId}`, display: blockTitle });
+        }
+    });
+    
     return options;
 }
 
@@ -279,6 +292,34 @@ function updateAssignedActionsDisplay() {
             }
         }
     });
+    
+    // Update the custom character blocks
+    const customCharBlocks = document.querySelectorAll('.custom-character-block');
+    customCharBlocks.forEach(block => {
+        const blockId = block.id.split("-")[2];
+        const customCharId = `custom-${blockId}`;
+        
+        // Create or get the actions display element
+        let actionsDisplay = block.querySelector('.assigned-actions');
+        if (!actionsDisplay) {
+            actionsDisplay = document.createElement('div');
+            actionsDisplay.className = 'assigned-actions';
+            // Insert after the pill container
+            const pillContainer = block.querySelector('.custom-pill-container');
+            if (pillContainer && pillContainer.parentNode) {
+                pillContainer.parentNode.insertBefore(actionsDisplay, pillContainer.nextSibling);
+            } else {
+                block.querySelector('.custom-block-content').appendChild(actionsDisplay);
+            }
+        }
+        
+        // Update the display
+        if (customCharId && messageMapping[customCharId] && messageMapping[customCharId].length > 0) {
+            actionsDisplay.textContent = "Actions: " + messageMapping[customCharId].join(" ; ");
+        } else {
+            actionsDisplay.textContent = "";
+        }
+    });
 }
 
 // Displays a modal pop-up allowing the user to select an action.
@@ -374,16 +415,41 @@ function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode) {
     if (actionSelect) {
         actionSelect.value = action;
     }
-    const sourceCharSelect = document.getElementById("char-select-" + sourceBlockId);
-    const targetCharSelect = document.getElementById("char-select-" + targetBlockId);
-    if (sourceCharSelect && targetCharSelect) {
-        const sourceVal = sourceCharSelect.value;
-        const targetVal = targetCharSelect.value;
-        const sourceSelect = newActionBlock.querySelector(".action-source");
-        const targetSelect = newActionBlock.querySelector(".action-target");
-        if (sourceSelect) sourceSelect.value = sourceVal;
-        if (targetSelect) targetSelect.value = targetVal;
+    
+    // Get source and target values
+    let sourceVal, targetVal;
+    
+    // Check if source is a regular character or custom character
+    if (document.getElementById(`character-${sourceBlockId}`)) {
+        // Regular character
+        const sourceCharSelect = document.getElementById("char-select-" + sourceBlockId);
+        if (sourceCharSelect) {
+            sourceVal = sourceCharSelect.value;
+        }
+    } else if (document.getElementById(`custom-character-${sourceBlockId}`)) {
+        // Custom character
+        sourceVal = `custom-${sourceBlockId}`;
     }
+    
+    // Check if target is a regular character or custom character
+    if (document.getElementById(`character-${targetBlockId}`)) {
+        // Regular character
+        const targetCharSelect = document.getElementById("char-select-" + targetBlockId);
+        if (targetCharSelect) {
+            targetVal = targetCharSelect.value;
+        }
+    } else if (document.getElementById(`custom-character-${targetBlockId}`)) {
+        // Custom character
+        targetVal = `custom-${targetBlockId}`;
+    }
+    
+    // Set the source and target values
+    const sourceSelect = newActionBlock.querySelector(".action-source");
+    const targetSelect = newActionBlock.querySelector(".action-target");
+    if (sourceSelect && sourceVal) sourceSelect.value = sourceVal;
+    if (targetSelect && targetVal) targetSelect.value = targetVal;
+    
+    // Set the mode
     const radios = newActionBlock.querySelectorAll(`input[name="action-mode-${newActionId}"]`);
     radios.forEach(radio => {
         if (radio.value === mode) {

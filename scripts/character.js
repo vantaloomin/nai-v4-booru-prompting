@@ -47,6 +47,20 @@ function processEnhancers(enhancers) {
 }
 
 function cleanDisplayName(name) {
+    // Handle custom character IDs
+    if (name && name.startsWith('custom-')) {
+        const customId = name.split('-')[1];
+        const customBlock = document.getElementById(`custom-character-${customId}`);
+        if (customBlock) {
+            const title = customBlock.querySelector('.custom-block-title');
+            if (title) {
+                return title.textContent;
+            }
+            return `Custom Character ${customId}`;
+        }
+    }
+    
+    // Regular character name processing
     // Remove any text after the first comma
     let firstPart = name.split(",")[0].trim();
     // Remove prefixes "artist:" or "by" (case-insensitive)
