@@ -3,6 +3,97 @@
 let actionCount = 0;
 const maxActions = 4; // Adjust as needed
 
+// Helper function to check if we're in NovelAI mode
+function isNovelAIMode() {
+    const modeToggle = document.getElementById('mode-toggle');
+    return modeToggle ? !modeToggle.checked : true; // Default to NovelAI mode if toggle not found
+}
+
+// Helper function to show a styled modal warning when attempting to add actions in Stable Diffusion mode
+function showSDModeActionWarning() {
+    // Create modal overlay
+    const modalOverlay = document.createElement('div');
+    modalOverlay.className = 'modal-overlay';
+    modalOverlay.style.position = 'fixed';
+    modalOverlay.style.top = '0';
+    modalOverlay.style.left = '0';
+    modalOverlay.style.width = '100%';
+    modalOverlay.style.height = '100%';
+    modalOverlay.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+    modalOverlay.style.display = 'flex';
+    modalOverlay.style.justifyContent = 'center';
+    modalOverlay.style.alignItems = 'center';
+    modalOverlay.style.zIndex = '1000';
+    
+    // Create modal container - using darker gray like the reset modal
+    const modalContainer = document.createElement('div');
+    modalContainer.className = 'modal-container';
+    modalContainer.style.backgroundColor = '#333';
+    modalContainer.style.borderRadius = '8px';
+    modalContainer.style.padding = '20px';
+    modalContainer.style.maxWidth = '400px';
+    modalContainer.style.width = '90%';
+    modalContainer.style.position = 'relative';
+    
+    // Create close button
+    const closeButton = document.createElement('span');
+    closeButton.textContent = '×';
+    closeButton.style.position = 'absolute';
+    closeButton.style.top = '10px';
+    closeButton.style.right = '15px';
+    closeButton.style.fontSize = '24px';
+    closeButton.style.cursor = 'pointer';
+    closeButton.style.color = 'white';
+    closeButton.onclick = function() {
+        document.body.removeChild(modalOverlay);
+    };
+    
+    // Create modal title
+    const modalTitle = document.createElement('h3');
+    modalTitle.textContent = 'Feature Not Available';
+    modalTitle.style.margin = '0 0 15px 0';
+    modalTitle.style.color = 'white';
+    
+    // Create modal message
+    const modalMessage = document.createElement('p');
+    modalMessage.textContent = 'Actions are only available in NovelAI mode. Please switch to NovelAI mode to add actions.';
+    modalMessage.style.color = 'white';
+    modalMessage.style.marginBottom = '20px';
+    
+    // Create action button
+    const actionButton = document.createElement('button');
+    actionButton.textContent = 'OK';
+    actionButton.style.backgroundColor = '#aa55ee';
+    actionButton.style.color = 'white';
+    actionButton.style.border = 'none';
+    actionButton.style.borderRadius = '4px';
+    actionButton.style.padding = '8px 20px';
+    actionButton.style.cursor = 'pointer';
+    actionButton.onclick = function() {
+        document.body.removeChild(modalOverlay);
+    };
+    
+    // Add everything to the modal
+    modalContainer.appendChild(closeButton);
+    modalContainer.appendChild(modalTitle);
+    modalContainer.appendChild(modalMessage);
+    modalContainer.appendChild(actionButton);
+    
+    // Add the modal to the overlay
+    modalOverlay.appendChild(modalContainer);
+    
+    // Add click event to close when clicking outside the modal
+    modalOverlay.addEventListener('click', function(event) {
+        if (event.target === modalOverlay) {
+            document.body.removeChild(modalOverlay);
+        }
+    });
+    
+    // Add to body
+    document.body.appendChild(modalOverlay);
+    return false;
+}
+
 // Helper: Get current character options (only those with a valid selection).
 function getCharacterOptions() {
     let options = [];
@@ -102,6 +193,11 @@ function populateCharacterOptions(selectElement) {
 
 // Add a new Action Block.
 function addActionBlock(bypassCheck) {
+    // Check if in Stable Diffusion mode and show warning if trying to add actions
+    if (!isNovelAIMode()) {
+        return showSDModeActionWarning();
+    }
+    
     if (!bypassCheck && getCharacterOptions().length < 2) {
         alert("At least two characters must be added before assigning actions.");
         return;
@@ -297,6 +393,11 @@ function getActionAssignments() {
 }
 
 function getActionTags() {
+    // If in Stable Diffusion mode, don't include action tags
+    if (!isNovelAIMode()) {
+        return [];
+    }
+    
     const assignments = getActionAssignments();
     let tags = [];
     for (const charId in assignments) {
@@ -492,6 +593,11 @@ function updateAssignedActionsDisplay() {
 
 // Displays a modal pop-up allowing the user to select an action.
 function showActionSelectionPopup(sourceBlockId, targetBlockId) {
+    // Check if in Stable Diffusion mode and show warning if trying to add actions
+    if (!isNovelAIMode()) {
+        return showSDModeActionWarning();
+    }
+    
     // Create a modal popup for selecting an action
     const modalOverlay = document.createElement('div');
     modalOverlay.id = 'action-modal-overlay';
@@ -576,9 +682,13 @@ function showActionSelectionPopup(sourceBlockId, targetBlockId) {
 
 // Called after the user selects an action from the pop-up.
 function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode) {
+    // This is called after showActionSelectionPopup, which already checks for NovelAI mode
     console.log(`Creating action: ${sourceBlockId} -> ${targetBlockId} (${action}) mode: ${mode}`);
     
     const newActionId = addActionBlock(true);
+    // If addActionBlock returns false (due to being in SD mode), don't continue
+    if (!newActionId) return;
+    
     const newActionBlock = document.getElementById("action-block-" + newActionId);
     if (!newActionBlock) return;
     
