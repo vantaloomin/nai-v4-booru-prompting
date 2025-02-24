@@ -5,6 +5,10 @@
  * structured data returned by generatePromptData() in prompt.js.
  *******************************************************/
 document.addEventListener("DOMContentLoaded", function () {
+  // Initialize current state
+  let currentPromptData = null;
+  let isStableDiffusionMode = false; // Default is NovelAI mode
+
   /***********************************
    * 1) Initialize Scene & Combined Selection Sections *
    ***********************************/
@@ -62,17 +66,37 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   /***********************************
-   * 4) Prompt Generation & Output *
+   * 4) Mode Toggle (NovelAI vs Stable Diffusion) *
    ***********************************/
-  let currentPromptData = null;
+  document.getElementById('mode-toggle').addEventListener('change', function() {
+    isStableDiffusionMode = this.checked;
+    
+    // Update toggle label
+    document.getElementById('mode-toggle-label').textContent = 
+      isStableDiffusionMode ? 'Stable Diffusion Mode' : 'NovelAI Mode';
+    
+    // Update page title and h1
+    document.title = isStableDiffusionMode ? 
+      'Booru Stable Diffusion Prompt Builder' : 
+      'NovelAI V4 Prompt Builder';
+    document.querySelector('h1').textContent = document.title;
+    
+    // Re-render current prompt with new format if it exists
+    if (currentPromptData !== null) {
+      renderPrompt(document.getElementById("color-toggle").checked, currentPromptData);
+    }
+  });
 
+  /***********************************
+   * 5) Prompt Generation & Output *
+   ***********************************/
   function renderPrompt(colored, promptData) {
     if (!promptData) return;
 
     if (colored) {
       // Build header HTML: join header parts with a comma and space.
       const headerHTML = promptData.header
-        .map(part => `<span class="${getCssClass(part.type)}">${part.text}</span>`)
+        .map(part => `<span class="${getCssClass(part.type)}">${formatTextForMode(part.text)}</span>`)
         .join(", ");
       // Build character blocks.
       const charactersHTML = promptData.characters
@@ -93,10 +117,10 @@ document.addEventListener("DOMContentLoaded", function () {
             .filter(p => p.type === "action")
             .map(p => p.text.trim())
             .join(", ");
-          const infoHTML = `<span class="highlight-character-${((index % 4) + 1)}">${infoText}</span>`;
+          const infoHTML = `<span class="highlight-character-${((index % 4) + 1)}">${formatTextForMode(infoText)}</span>`;
           let actionHTML = "";
           if (actionText) {
-            actionHTML = `, <span class="highlight-action-${((index % 4) + 1)}">${actionText}</span>`;
+            actionHTML = `, <span class="highlight-action-${((index % 4) + 1)}">${formatTextForMode(actionText)}</span>`;
           }
           return infoHTML + actionHTML;
         })
@@ -107,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       // Build plain text prompt.
       const headerText = promptData.header
-        .map(part => part.text)
+        .map(part => formatTextForMode(part.text))
         .join(", ");
       const charactersText = promptData.characters
         .map(characterParts => {
@@ -127,12 +151,50 @@ document.addEventListener("DOMContentLoaded", function () {
             .filter(p => p.type === "action")
             .map(p => p.text)
             .join(", ");
-          return infoText + (actionText ? ", " + actionText : "");
+          return formatTextForMode(infoText + (actionText ? ", " + actionText : ""));
         })
         .join(" | ");
+      
       const finalText = headerText + " | " + charactersText;
       document.getElementById("output-preview").innerText = finalText;
     }
+  }
+
+  // Function to format text based on current mode
+  function formatTextForMode(text) {
+    if (!isStableDiffusionMode) {
+      return text; // NovelAI mode: keep as is
+    }
+    
+    // Stable Diffusion mode: format according to requirements
+    let result = '';
+    let inBraces = false;
+    let inBrackets = false;
+    
+    for (let i = 0; i < text.length; i++) {
+      const char = text[i];
+      
+      // Track if we're inside braces or brackets
+      if (char === '{') inBraces = true;
+      else if (char === '}') inBraces = false;
+      else if (char === '[') inBrackets = true;
+      else if (char === ']') inBrackets = false;
+      
+      // Handle special characters that need escaping (except {}, [], and _)
+      if (char === '(' || char === ')' || char === '/' || char === '\\') {
+        result += '\\' + char;
+      }
+      // Handle spaces - convert to underscore only outside of {} and []
+      else if (char === ' ') {
+        result += (inBraces || inBrackets) ? ' ' : '_';
+      }
+      // Everything else is kept as is
+      else {
+        result += char;
+      }
+    }
+    
+    return result;
   }
 
   function getCssClass(type) {
@@ -181,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   /***********************************
-   * 5) Initialize Sortable for Character Blocks *
+   * 6) Initialize Sortable for Character Blocks *
    ***********************************/
   const characterContainer = document.getElementById("characters-container");
   if (characterContainer) {
@@ -192,7 +254,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   /***********************************
-   * 6) Expandable Prompt Preview (Toggle Expand/Collapse) *
+   * 7) Expandable Prompt Preview (Toggle Expand/Collapse) *
    ***********************************/
   const toggleBtn = document.getElementById("toggle-expand");
   const outputContainer = document.getElementById("output-container");
@@ -202,7 +264,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   /***********************************
-   * 7) Fuzzy Search Integration (Fuse.js) *
+   * 8) Fuzzy Search Integration (Fuse.js) *
    ***********************************/
   // Utility function to get candidate objects from characterData.
   function getSearchCandidates() {

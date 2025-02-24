@@ -4,15 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Booru Stable Diffusion Prompt Builder</title>
+  <title id="page-title">NovelAI V4 Prompt Builder</title>
   <!-- Link to the CSS files -->
   <link rel="stylesheet" href="styles/variables.css">
   <link rel="stylesheet" href="styles/modern-style.css">
+  <!-- Custom styles to swap mode toggle colors -->
+  <style>
+    /* Override for mode toggle to swap colors */
+    #mode-toggle-container .slider {
+      background-color: var(--color-primary); /* NovelAI mode (default/unchecked) */
+    }
+
+    #mode-toggle-container input:checked + .slider {
+      background-color: var(--color-bg-input); /* Stable Diffusion mode (checked) */
+    }
+  </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>Booru Stable Diffusion Prompt Builder</h1>
+    <h1 id="page-heading">NovelAI V4 Prompt Builder</h1>
     <!-- Characters Section -->
     <h2>Characters</h2>
     <!-- Search Box with Icons -->
@@ -76,14 +87,28 @@
       <div id="output-preview" contenteditable="true"></div>
     </div>
     <button id="toggle-expand" style="display: none;">Expand</button>
-    <!-- Toggle Coloring Slider -->
-    <div id="color-toggle-container">
-      <label class="switch">
-        <input type="checkbox" id="color-toggle" checked>
-        <span class="slider round"></span>
-      </label>
-      <span id="color-toggle-label">Coloring Enabled</span>
+
+    <!-- Toggle Switches Section -->
+    <div class="toggle-section">
+      <!-- Toggle Coloring Slider -->
+      <div id="color-toggle-container">
+        <label class="switch">
+          <input type="checkbox" id="color-toggle" checked>
+          <span class="slider round"></span>
+        </label>
+        <span id="color-toggle-label">Coloring Enabled</span>
+      </div>
+      
+      <!-- Toggle Mode Slider (NovelAI/Stable Diffusion) -->
+      <div id="mode-toggle-container">
+        <label class="switch">
+          <input type="checkbox" id="mode-toggle">
+          <span class="slider round"></span>
+        </label>
+        <span id="mode-toggle-label">NovelAI Mode</span>
+      </div>
     </div>
+    
     <!-- Load external libraries from CDN -->
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
