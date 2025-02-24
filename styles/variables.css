@@ -16,6 +16,8 @@
     /* Slate Teal Shade */
     --color-error: #B71C1C;
     /* Subtle Crimson Alert */
+    --color-danger: #F44336;
+    /* Bright Red for dangerous actions */
 
     /* Background Colors */
     --color-bg-void: #212121;

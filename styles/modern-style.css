@@ -106,6 +106,16 @@ hr {
         transform var(--transition-default) var(--ease-default);
 }
 
+/* Reset Button Styling */
+#reset-btn {
+    background: linear-gradient(135deg, var(--color-danger), #D32F2F);
+    border-color: var(--color-danger);
+}
+
+#reset-btn:hover {
+    box-shadow: 0 0 12px rgba(244, 67, 54, 0.5);
+}
+
 /* =========================================================
    4. TYPOGRAPHY
    ========================================================= */

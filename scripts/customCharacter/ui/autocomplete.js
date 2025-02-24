@@ -63,6 +63,14 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
     inputEl.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
+            
+            // First, check if there's a suggestion to select
+            const firstSuggestion = suggestionContainer.querySelector('.first-suggestion');
+            if (firstSuggestion && suggestionContainer.children.length > 0) {
+                // Auto-select the first suggestion
+                inputEl.value = firstSuggestion.textContent;
+            }
+            
             const text = inputEl.value.trim();
             if (!text) return;
             
