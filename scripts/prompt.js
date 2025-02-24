@@ -1,38 +1,4 @@
 /**
- * getCharacterSubjects
- *
- * Iterates over all character blocks and extracts the subject string.
- * For a custom character block (detected by presence of a .custom-tag-container),
- * it gathers all custom tag pills and joins their text content.
- * For standard blocks, it calls the existing extraction logic.
- */
-function getCharacterSubjects() {
-  let subjects = [];
-  let subjectCountObj = { girl: 0, boy: 0 };
-
-  // Loop through all character blocks.
-  document.querySelectorAll('.character-block').forEach(block => {
-      // If the block is a custom character block, extract its tags.
-      const customTagContainer = block.querySelector('.custom-tag-container');
-      if (customTagContainer) {
-          // Get all tag pills and remove the trailing "✖" (if any).
-          const tags = Array.from(customTagContainer.querySelectorAll('.custom-tag-pill'))
-              .map(pill => pill.textContent.replace('✖', '').trim())
-              .filter(tag => tag.length > 0);
-          if (tags.length > 0) {
-              subjects.push(tags.join(', '));
-          }
-      } else {
-          // For standard character blocks, use existing logic.
-          if (typeof getStandardCharacterSubject === 'function') {
-              subjects.push(getStandardCharacterSubject(block));
-          }
-      }
-  });
-  return { subjects, subjectCountObj };
-}
-
-/**
  * generatePromptData
  *
  * Returns structured data for building the prompt.

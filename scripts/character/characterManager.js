@@ -366,6 +366,7 @@ export function getCharacterSubjects() {
     // Get action assignments mapping
     const actionAssignments = getActionAssignments();
 
+    // Process standard character blocks
     for (let i = 1; i <= maxCharacters; i++) {
         const block = document.getElementById('character-' + i);
         if (block) {
@@ -423,6 +424,30 @@ export function getCharacterSubjects() {
             subjects.push(`${gender} ${finalTags}`);
         }
     }
+
+    // Process custom character blocks
+    const customBlocks = document.querySelectorAll('.custom-character-block');
+    customBlocks.forEach(block => {
+        // Default to "girl" gender for custom characters
+        // This could be enhanced with a gender selector in the custom character UI
+        const gender = "girl";
+        
+        // Find the pill container with the custom tags
+        const pillContainer = block.querySelector('.custom-pill-container');
+        if (pillContainer) {
+            // Get all tag pills and remove the "×" from each pill's text
+            const tags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
+                .map(pill => pill.textContent.replace('×', '').trim())
+                .filter(tag => tag.length > 0);
+            
+            if (tags.length > 0) {
+                // Add the gender and join the tags with commas
+                subjectCountObj[gender] = (subjectCountObj[gender] || 0) + 1;
+                subjects.push(`${gender} ${tags.join(', ')}`);
+            }
+        }
+    });
+
     return { subjects, subjectCountObj };
 }
 
