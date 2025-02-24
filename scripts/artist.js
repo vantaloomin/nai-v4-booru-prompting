@@ -76,12 +76,26 @@ function createArtistCard() {
   populateArtistOption(select);
   content.appendChild(select);
 
-  // Custom artist input.
+  // Custom artist input with wrapper and clear icon
+  const searchWrapper = document.createElement("div");
+  searchWrapper.className = "custom-search-wrapper";
+  
   const customInput = document.createElement("input");
   customInput.type = "text";
   customInput.placeholder = "-- Custom Artist --";
-  customInput.className = "custom-artist-input";
-  content.appendChild(customInput);
+  customInput.className = "custom-tag-input custom-artist-input";
+  searchWrapper.appendChild(customInput);
+  
+  // Add clear icon
+  const clearIcon = document.createElement("span");
+  clearIcon.className = "custom-clear-icon";
+  clearIcon.textContent = "✖";
+  clearIcon.addEventListener("click", function() {
+      customInput.value = "";
+  });
+  searchWrapper.appendChild(clearIcon);
+  
+  content.appendChild(searchWrapper);
 
   // Remove Artist button.
   const removeBtn = document.createElement("button");
@@ -103,7 +117,7 @@ function getSelectedArtists() {
   const cards = document.querySelectorAll("#artist-scene-container .artist-card");
   cards.forEach(card => {
     // Use custom artist if provided.
-    const customInput = card.querySelector("input.custom-artist-input");
+    const customInput = card.querySelector(".custom-artist-input");
     if (customInput && customInput.value.trim() !== "") {
       selectedArtists.push(customInput.value.trim());
     } else {

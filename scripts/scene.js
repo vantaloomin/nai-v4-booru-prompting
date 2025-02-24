@@ -65,12 +65,26 @@ function createSceneCard() {
     select.id = "scene";
     content.appendChild(select);
 
-    // Custom scene input.
+    // Custom scene input with wrapper and clear icon
+    const searchWrapper = document.createElement("div");
+    searchWrapper.className = "custom-search-wrapper";
+    
     const customInput = document.createElement("input");
     customInput.type = "text";
     customInput.placeholder = "-- Custom Scene --";
-    customInput.className = "custom-scene-input";
-    content.appendChild(customInput);
+    customInput.className = "custom-tag-input custom-scene-input";
+    searchWrapper.appendChild(customInput);
+    
+    // Add clear icon
+    const clearIcon = document.createElement("span");
+    clearIcon.className = "custom-clear-icon";
+    clearIcon.textContent = "✖";
+    clearIcon.addEventListener("click", function() {
+        customInput.value = "";
+    });
+    searchWrapper.appendChild(clearIcon);
+    
+    content.appendChild(searchWrapper);
 
     // Remove Scene button.
     const removeBtn = document.createElement("button");
@@ -94,7 +108,7 @@ function getSelectedSceneTags() {
     // Get the scene select element.
     const sceneSelect = document.getElementById("scene");
     // Look for a custom scene input within the scene card.
-    const customInput = document.querySelector("#scene-card input.custom-scene-input");
+    const customInput = document.querySelector("#scene-card .custom-scene-input");
 
     // If custom input has a value, use that.
     if (customInput && customInput.value.trim() !== "") {

@@ -780,6 +780,11 @@ button:active {
     box-sizing: border-box;
 }
 
+/* Custom styles for scene and artist inputs */
+.custom-scene-input, .custom-artist-input {
+    padding-left: var(--space-sm); /* Reset left padding since we don't have a search icon */
+}
+
 .custom-clear-icon {
     position: absolute;
     right: var(--space-xs);
@@ -866,6 +871,22 @@ button:active {
 .selection-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(156, 39, 176, 0.2);
+}
+
+/* Card header and content styling */
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: var(--space-xs);
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: var(--space-xs);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-xs);
 }
 
 /* 7.4 Collapsible Sections
