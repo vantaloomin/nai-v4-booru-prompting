@@ -5165,10 +5165,19 @@ const characterData = [{
         mediaType: "Shows or Movies"
     },
     {
-        name: "inoue orihime",
+        name: "kouzuki kallen",
         category: "Code Geass",
-        mainTags: "inoue orihime, code geass",
-        enhancers: [],
+        mainTags: "kouzuki kallen, code geass",
+        enhancers: ["[red headband", "red bodysuit", "silver jacket", "knee boots]", "[red headband", "red crop top", "brown vest", "brown shorts", "detached sleeves", "red thighhighs]", "[yellow jacket", "black skirt", "blue thighhighs", "necktie]", "[red headband", "shiny black jacket", "black shorts", "thigh boots]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "inoue orihime",
+        category: "Bleach",
+        mainTags: "inoue orihime, bleach",
+        enhancers: ["karakura high school uniform", "[karakura high school uniform", "grey jacket]", "[white dress", "two-sided cape]", "[pink shirt", "grey pants with red stripe]", "[sleeveless pink hoodie", "brown shorts", "blue thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -5176,8 +5185,8 @@ const characterData = [{
     {
         name: "tsunade (naruto)",
         category: "Naruto",
-        mainTags: "tsunade (naruto)",
-        enhancers: [],
+        mainTags: "tsunade (naruto), naruto (series)",
+        enhancers: ["[green jacket", "grey shirt", "blue pants", "blue belt]", "[aged down, ponytail, green dress", "bracers]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -5185,8 +5194,8 @@ const characterData = [{
     {
         name: "yamanaka ino",
         category: "Naruto",
-        mainTags: "yamanaka ino, naruto (series)",
-        enhancers: [],
+        mainTags: "yamanaka ino, green eyes, naruto (series)",
+        enhancers: ["[purple crop top", "purple skirt", "knee pads", "elbow pads]", "[puffy green vest", "black shirt", "black pants]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -5194,8 +5203,8 @@ const characterData = [{
     {
         name: "mitarashi anko",
         category: "Naruto",
-        mainTags: "mitarashi anko, naruto (series)",
-        enhancers: [],
+        mainTags: "mitarashi anko, brown eyes, naruto (series)",
+        enhancers: ["[trench coat, orange skirt, fishnet top]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -5203,8 +5212,8 @@ const characterData = [{
     {
         name: "haruno sakura",
         category: "Naruto",
-        mainTags: "haruno sakura, naruto (series)",
-        enhancers: [],
+        mainTags: "haruno sakura, green eyes, naruto (series)",
+        enhancers: ["[red headband", "red shirt", "black shorts", "pink skirt", "gloves", "thigh holster]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -5212,8 +5221,8 @@ const characterData = [{
     {
         name: "hyuuga hinata",
         category: "Naruto",
-        mainTags: "hyuuga hinata, naruto (series)",
-        enhancers: [],
+        mainTags: "hyuuga hinata, blank eyes, long hair, naruto (series)",
+        enhancers: ["[grey shirt", "grey shorts", "thighhighs", "thigh holster]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
