@@ -92,71 +92,277 @@ document.addEventListener("DOMContentLoaded", function () {
    ***********************************/
   function renderPrompt(colored, promptData) {
     if (!promptData) return;
+    
+    const isSD = isStableDiffusionMode;
 
     if (colored) {
-      // Build header HTML: join header parts with a comma and space.
-      const headerHTML = promptData.header
-        .map(part => `<span class="${getCssClass(part.type)}">${formatTextForMode(part.text)}</span>`)
-        .join(", ");
-      // Build character blocks.
-      const charactersHTML = promptData.characters
-        .map((characterParts, index) => {
-          let infoText = "";
-          if (characterParts.length >= 2) {
-            infoText = characterParts[0].text.trim() + ", " + characterParts[1].text.trim();
-            if (characterParts.length > 2) {
-              infoText += ", " + characterParts.slice(2)
-                .filter(p => p.type !== "action")
-                .map(p => p.text.trim())
-                .join(", ");
+      if (isSD) {
+        // Stable Diffusion format
+        // 1. Get consistent quality tags 1
+        const consistentTags1 = promptData.header.find(part => part.type === "consistent");
+        
+        // 2. Get artist
+        const artist = promptData.header.find(part => part.type === "artist");
+        
+        // 3. Get subject count
+        const subjectCount = promptData.header.find(part => part.type === "subjectCount");
+        
+        // 4. Build character information without 'girl_' prefix
+        const charactersHTML = promptData.characters
+          .map((characterParts, index) => {
+            // Make sure we have at least a name and handle edge cases
+            if (characterParts.length < 2) {
+              return `<span class="highlight-character-${((index % 4) + 1)}">${formatTextForMode(characterParts.map(p => p.text.trim()).join(", "))}</span>`;
             }
-          } else {
-            infoText = characterParts.map(p => p.text.trim()).join(", ");
-          }
-          const actionText = characterParts
-            .filter(p => p.type === "action")
-            .map(p => p.text.trim())
-            .join(", ");
-          const infoHTML = `<span class="highlight-character-${((index % 4) + 1)}">${formatTextForMode(infoText)}</span>`;
-          let actionHTML = "";
-          if (actionText) {
-            actionHTML = `, <span class="highlight-action-${((index % 4) + 1)}">${formatTextForMode(actionText)}</span>`;
-          }
-          return infoHTML + actionHTML;
-        })
-        .join(" | ");
-
-      const finalHTML = headerHTML + " | " + charactersHTML;
-      document.getElementById("output-preview").innerHTML = finalHTML;
+            
+            // Skip the gender part
+            const name = characterParts[1].text.trim();
+            
+            // Extract the additional tags (excluding actions)
+            const additionalTags = characterParts.slice(2)
+              .filter(p => p.type !== "action")
+              .map(p => p.text.trim())
+              .join(", ");
+            
+            // Extract any action tags
+            const actionText = characterParts
+              .filter(p => p.type === "action")
+              .map(p => p.text.trim())
+              .join(", ");
+            
+            // Build character HTML: Name + Tags + Actions
+            let charHTML = `<span class="highlight-character-${((index % 4) + 1)}">`;
+            charHTML += formatTextForMode(name);
+            if (additionalTags) {
+              charHTML += `, ${formatTextForMode(additionalTags)}`;
+            }
+            charHTML += `</span>`;
+            
+            // Add actions if they exist
+            if (actionText) {
+              charHTML += `, <span class="highlight-action-${((index % 4) + 1)}">${formatTextForMode(actionText)}</span>`;
+            }
+            
+            return charHTML;
+          })
+          .join(", ");
+        
+        // 5. Get scene
+        const scene = promptData.header.find(part => part.type === "scene");
+        
+        // 6. Get consistent quality tags 2
+        const qualityTags = promptData.header.find(part => part.type === "quality");
+        
+        // Build final HTML in the correct order
+        let parts = [];
+        // Use sdText if available, otherwise fall back to text
+        if (consistentTags1) {
+          const consistentTagsText = consistentTags1.sdText || consistentTags1.text;
+          parts.push(`<span class="${getCssClass("consistent")}">${formatTextForMode(consistentTagsText)}</span>`);
+        }
+        
+        if (artist) {
+          const artistText = artist.sdText || artist.text;
+          parts.push(`<span class="${getCssClass("artist")}">${formatTextForMode(artistText)}</span>`);
+        }
+        
+        if (subjectCount) {
+          const countText = subjectCount.sdText || subjectCount.text;
+          parts.push(`<span class="${getCssClass("subjectCount")}">${formatTextForMode(countText)}</span>`);
+        }
+        
+        // Add characters
+        parts.push(charactersHTML);
+        
+        // Add scene
+        if (scene) {
+          const sceneText = scene.sdText || scene.text;
+          parts.push(`<span class="${getCssClass("scene")}">${formatTextForMode(sceneText)}</span>`);
+        }
+        
+        // Add quality tags
+        if (qualityTags) {
+          const qualityText = qualityTags.sdText || qualityTags.text;
+          parts.push(`<span class="${getCssClass("quality")}">${formatTextForMode(qualityText)}</span>`);
+        }
+        
+        // Join everything with commas
+        const finalHTML = parts.join(", ");
+        document.getElementById("output-preview").innerHTML = finalHTML;
+      } else {
+        // NovelAI format - using existing code with the pipe separator
+        // Build header HTML: join header parts with a comma and space.
+        const headerHTML = promptData.header
+          // Use regular text for NovelAI mode, not sdText
+          .filter(part => part.text && part.text.trim() !== "")
+          .map(part => `<span class="${getCssClass(part.type)}">${part.text}</span>`)
+          .join(", ");
+        
+        // Build character blocks.
+        const charactersHTML = promptData.characters
+          .map((characterParts, index) => {
+            let infoText = "";
+            if (characterParts.length >= 2) {
+              infoText = characterParts[0].text.trim() + ", " + characterParts[1].text.trim();
+              if (characterParts.length > 2) {
+                infoText += ", " + characterParts.slice(2)
+                  .filter(p => p.type !== "action")
+                  .map(p => p.text.trim())
+                  .join(", ");
+              }
+            } else {
+              infoText = characterParts.map(p => p.text.trim()).join(", ");
+            }
+            const actionText = characterParts
+              .filter(p => p.type === "action")
+              .map(p => p.text.trim())
+              .join(", ");
+            const infoHTML = `<span class="highlight-character-${((index % 4) + 1)}">${infoText}</span>`;
+            let actionHTML = "";
+            if (actionText) {
+              actionHTML = `, <span class="highlight-action-${((index % 4) + 1)}">${actionText}</span>`;
+            }
+            return infoHTML + actionHTML;
+          })
+          .join(" | ");
+        
+        // NovelAI format with pipe separator
+        const separator = " | ";
+        const finalHTML = headerHTML + separator + charactersHTML.replace(/(\| girl)(?=[^,])/g, "$1,");
+        
+        document.getElementById("output-preview").innerHTML = finalHTML;
+      }
     } else {
-      // Build plain text prompt.
-      const headerText = promptData.header
-        .map(part => formatTextForMode(part.text))
-        .join(", ");
-      const charactersText = promptData.characters
-        .map(characterParts => {
-          let infoText = "";
-          if (characterParts.length >= 2) {
-            infoText = characterParts[0].text + ", " + characterParts[1].text;
-            if (characterParts.length > 2) {
-              infoText += ", " + characterParts.slice(2)
-                .filter(p => p.type !== "action")
-                .map(p => p.text)
-                .join(", ");
+      // Plain text version
+      if (isSD) {
+        // Stable Diffusion format
+        // 1. Get consistent quality tags 1
+        const consistentTags1 = promptData.header.find(part => part.type === "consistent");
+        
+        // 2. Get artist
+        const artist = promptData.header.find(part => part.type === "artist");
+        
+        // 3. Get subject count
+        const subjectCount = promptData.header.find(part => part.type === "subjectCount");
+        
+        // 4. Build character information without 'girl_' prefix
+        const charactersText = promptData.characters
+          .map(characterParts => {
+            // Make sure we have at least a name and handle edge cases
+            if (characterParts.length < 2) {
+              return formatTextForMode(characterParts.map(p => p.text.trim()).join(", "));
             }
-          } else {
-            infoText = characterParts.map(p => p.text).join(", ");
-          }
-          const actionText = characterParts
-            .filter(p => p.type === "action")
-            .map(p => p.text)
-            .join(", ");
-          return formatTextForMode(infoText + (actionText ? ", " + actionText : ""));
-        })
-        .join(" | ");
-      
-      const finalText = headerText + " | " + charactersText;
-      document.getElementById("output-preview").innerText = finalText;
+            
+            // Skip the gender part
+            const name = characterParts[1].text.trim();
+            
+            // Extract the additional tags (excluding actions)
+            const additionalTags = characterParts.slice(2)
+              .filter(p => p.type !== "action")
+              .map(p => p.text.trim())
+              .join(", ");
+            
+            // Extract any action tags
+            const actionText = characterParts
+              .filter(p => p.type === "action")
+              .map(p => p.text.trim())
+              .join(", ");
+            
+            // Build character text: Name + Tags + Actions
+            let charText = formatTextForMode(name);
+            if (additionalTags) {
+              charText += `, ${formatTextForMode(additionalTags)}`;
+            }
+            
+            // Add actions if they exist
+            if (actionText) {
+              charText += `, ${formatTextForMode(actionText)}`;
+            }
+            
+            return charText;
+          })
+          .join(", ");
+        
+        // 5. Get scene
+        const scene = promptData.header.find(part => part.type === "scene");
+        
+        // 6. Get consistent quality tags 2
+        const qualityTags = promptData.header.find(part => part.type === "quality");
+        
+        // Build final text in the correct order
+        let parts = [];
+        
+        // Use sdText if available, otherwise fall back to text
+        if (consistentTags1) {
+          const consistentTagsText = consistentTags1.sdText || consistentTags1.text;
+          parts.push(formatTextForMode(consistentTagsText));
+        }
+        
+        if (artist) {
+          const artistText = artist.sdText || artist.text;
+          parts.push(formatTextForMode(artistText));
+        }
+        
+        if (subjectCount) {
+          const countText = subjectCount.sdText || subjectCount.text;
+          parts.push(formatTextForMode(countText));
+        }
+        
+        // Add characters
+        parts.push(charactersText);
+        
+        // Add scene
+        if (scene) {
+          const sceneText = scene.sdText || scene.text;
+          parts.push(formatTextForMode(sceneText));
+        }
+        
+        // Add quality tags
+        if (qualityTags) {
+          const qualityText = qualityTags.sdText || qualityTags.text;
+          parts.push(formatTextForMode(qualityText));
+        }
+        
+        // Join everything with commas
+        const finalText = parts.join(", ");
+        document.getElementById("output-preview").innerText = finalText;
+      } else {
+        // NovelAI format - using existing code with pipe separator
+        // Build plain text prompt.
+        const headerText = promptData.header
+          // Use regular text for NovelAI mode, not sdText
+          .filter(part => part.text && part.text.trim() !== "")
+          .map(part => part.text)
+          .join(", ");
+        
+        const charactersText = promptData.characters
+          .map(characterParts => {
+            let infoText = "";
+            if (characterParts.length >= 2) {
+              infoText = characterParts[0].text + ", " + characterParts[1].text;
+              if (characterParts.length > 2) {
+                infoText += ", " + characterParts.slice(2)
+                  .filter(p => p.type !== "action")
+                  .map(p => p.text)
+                  .join(", ");
+              }
+            } else {
+              infoText = characterParts.map(p => p.text).join(", ");
+            }
+            const actionText = characterParts
+              .filter(p => p.type === "action")
+              .map(p => p.text)
+              .join(", ");
+            return infoText + (actionText ? ", " + actionText : "");
+          })
+          .join(" | ");
+        
+        // NovelAI format with pipe separator
+        const separator = " | ";
+        const finalText = headerText + separator + charactersText.replace(/(\| girl)(?=[^,])/g, "$1,");
+        
+        document.getElementById("output-preview").innerText = finalText;
+      }
     }
   }
 
@@ -167,6 +373,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     
     // Stable Diffusion mode: format according to requirements
+    
+    // Remove any triple braces and double braces that might be in the text (from NovelAI format)
+    text = text.replace(/{{{|}}}/g, '').replace(/{{|}}/g, '');
+    
     let result = '';
     let inBraces = false;
     let inBrackets = false;
@@ -183,6 +393,15 @@ document.addEventListener("DOMContentLoaded", function () {
       // Handle special characters that need escaping (except {}, [], and _)
       if (char === '(' || char === ')' || char === '/' || char === '\\') {
         result += '\\' + char;
+      }
+      // Handle commas - add comma+space without underscores
+      else if (char === ',') {
+        result += ', ';
+        
+        // Skip any whitespace after the comma
+        while (i + 1 < text.length && text[i + 1] === ' ') {
+          i++;
+        }
       }
       // Handle spaces - convert to underscore only outside of {} and []
       else if (char === ' ') {

@@ -11,13 +11,23 @@
  * The first token is the gender, the second the name, and tokens containing "#" are marked as actions.
  */
 function generatePromptData() {
-    // (Header code remains the same.)
+    // Get the current mode
+    const isStableDiffusion = document.getElementById('mode-toggle') && document.getElementById('mode-toggle').checked;
+    
     const selectedArtists = getSelectedArtists(); // e.g. ["r1"]
-    const artistTag = selectedArtists.length > 0 ? `${selectedArtists.join(", ")}` : "";
+    const originalArtistTag = selectedArtists.length > 0 ? `${selectedArtists.join(", ")}` : "";
+    const sdArtistTag = originalArtistTag ? `by_${originalArtistTag}` : "";
   
+    // Different content based on mode
     const defaultText = "The image is a highly finished digital illustration, with expert shading.";
-    const consistentTags1 = "{{{best quality, amazing quality, very aesthetic}}}";
-    const qualityTags = "incredibly absurdres, absurdres, character study, character focus, highly detailed";
+    
+    // Different consistent tags based on mode
+    const naiConsistentTags = "{{{best quality, amazing quality, very aesthetic}}}";
+    const sdConsistentTags = "masterwork, award-winning, masterpiece, hyper-detailed";
+    
+    const naiQualityTags = "incredibly absurdres, absurdres, character study, character focus, highly detailed";
+    const sdQualityTags = "best_quality, amazing quality, very_aesthetic, absurdres, incredibly_absurdres";
+    
     const sceneOutput = getSelectedSceneTags(); // e.g. "desert, sand, arid, dune, scorching"
   
     const { subjects, subjectCountObj } = getCharacterSubjects();
@@ -30,13 +40,54 @@ function generatePromptData() {
       subjectCount += subjectCountObj.boy + (subjectCountObj.boy === 1 ? "boy" : "boys");
     }
   
+    // Build header array with both NAI and SD versions
     let header = [];
-    header.push({ type: "default", text: defaultText });
-    if (artistTag) header.push({ type: "artist", text: artistTag });
-    header.push({ type: "consistent", text: consistentTags1 });
-    if (subjectCount) header.push({ type: "subjectCount", text: subjectCount });
-    if (sceneOutput) header.push({ type: "scene", text: sceneOutput });
-    header.push({ type: "quality", text: qualityTags });
+    
+    // Default text (only for NAI)
+    header.push({ 
+      type: "default", 
+      text: defaultText,
+      sdText: "" // empty for SD
+    });
+    
+    // Consistent tags 1 (different in each mode)
+    header.push({ 
+      type: "consistent", 
+      text: naiConsistentTags, 
+      sdText: sdConsistentTags 
+    });
+    
+    // Artist (with different formatting per mode)
+    header.push({ 
+      type: "artist", 
+      text: originalArtistTag,
+      sdText: sdArtistTag
+    });
+    
+    // Subject count (same in both)
+    if (subjectCount) {
+      header.push({ 
+        type: "subjectCount", 
+        text: subjectCount,
+        sdText: subjectCount
+      });
+    }
+    
+    // Scene (same in both)
+    if (sceneOutput) {
+      header.push({ 
+        type: "scene", 
+        text: sceneOutput,
+        sdText: sceneOutput
+      });
+    }
+    
+    // Quality tags (different in each mode)
+    header.push({ 
+      type: "quality", 
+      text: naiQualityTags,
+      sdText: sdQualityTags
+    });
   
     // Build characters array.
     // Now we split each subject string by comma and classify tokens.
