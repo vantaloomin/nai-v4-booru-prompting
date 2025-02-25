@@ -105,14 +105,72 @@ export function updateGenderToggle(id, selectedCharacterName) {
     genderDiv.innerHTML = "";
     const selectedData = characterData.find(item => item.name === selectedCharacterName);
     if (selectedData && selectedData.genderswapAvailable) {
-        const swapLabel = document.createElement('label');
-        const swapCheckbox = document.createElement('input');
-        swapCheckbox.type = "checkbox";
-        swapCheckbox.id = 'genderswap-' + id;
-        swapLabel.appendChild(swapCheckbox);
-        const newGender = (selectedData.defaultGender === "boy" ? "girl" : "boy");
-        swapLabel.appendChild(document.createTextNode(` Apply Gender Swap (default: ${selectedData.defaultGender} becomes ${newGender})`));
-        genderDiv.appendChild(swapLabel);
+        // Create container for the gender toggle
+        const genderToggleContainer = document.createElement('div');
+        genderToggleContainer.className = 'gender-toggle-container';
+        
+        // Create labels for boy/girl
+        const boyLabel = document.createElement('span');
+        boyLabel.className = 'gender-label boy-label';
+        boyLabel.textContent = 'Boy';
+        
+        const girlLabel = document.createElement('span');
+        girlLabel.className = 'gender-label girl-label';
+        girlLabel.textContent = 'Girl';
+        
+        // Create the toggle switch
+        const toggleLabel = document.createElement('label');
+        toggleLabel.className = 'gender-toggle-switch';
+        
+        const toggleInput = document.createElement('input');
+        toggleInput.type = "checkbox";
+        toggleInput.id = 'genderswap-' + id;
+        
+        // IMPORTANT: In the existing code, checkbox.checked means "apply a gender swap"
+        // So initially we should set this to NOT checked (no swap)
+        toggleInput.checked = false;
+        
+        // The toggle should visually reflect the character's gender
+        // But the toggle state (checked) still means "apply a gender swap"
+        // So we need to style based on whether it matches the default
+        const defaultGender = selectedData.defaultGender || "girl";
+        
+        // Set a data attribute for styling purposes
+        toggleInput.dataset.defaultGender = defaultGender;
+        
+        const sliderSpan = document.createElement('span');
+        sliderSpan.className = 'gender-slider round';
+        
+        // Add elements to the DOM
+        toggleLabel.appendChild(toggleInput);
+        toggleLabel.appendChild(sliderSpan);
+        
+        // Add everything to the container
+        genderToggleContainer.appendChild(boyLabel);
+        genderToggleContainer.appendChild(toggleLabel);
+        genderToggleContainer.appendChild(girlLabel);
+        
+        // Add a label to inform the user about the character's default gender
+        const infoLabel = document.createElement('div');
+        infoLabel.className = 'gender-info-label';
+        infoLabel.textContent = `Default: ${defaultGender.charAt(0).toUpperCase() + defaultGender.slice(1)}`;
+        genderToggleContainer.appendChild(infoLabel);
+        
+        genderDiv.appendChild(genderToggleContainer);
+        
+        // Add an event listener to update the visual state when toggle changes
+        toggleInput.addEventListener('change', function() {
+            // Use data attribute to determine which gender to show as active
+            const isSwapped = this.checked;
+            const defaultIsBoy = defaultGender === 'boy';
+            
+            // Update classes based on whether gender is swapped
+            boyLabel.classList.toggle('active', isSwapped ? !defaultIsBoy : defaultIsBoy);
+            girlLabel.classList.toggle('active', isSwapped ? defaultIsBoy : !defaultIsBoy);
+        });
+        
+        // Trigger change event to set initial active state
+        toggleInput.dispatchEvent(new Event('change'));
     }
 }
 

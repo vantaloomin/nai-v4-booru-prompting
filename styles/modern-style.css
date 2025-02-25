@@ -462,7 +462,7 @@ option {
 }
 
 .toggle-switch input:checked+.slider:before {
-    transform: translateX(26px);
+    transform: translateX(21px);
 }
 
 /* Toggle Switch Base */
@@ -1284,5 +1284,136 @@ button:active {
 
 #color-toggle-container input:checked + .slider {
     background-color: var(--color-primary);
+}
+
+/* Gender Toggle Styles */
+.gender-toggle-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: var(--color-bg-input);
+    transition: all 0.3s ease;
+}
+
+.gender-label {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 10px;
+    transition: all 0.3s ease;
+    color: var(--color-text-secondary);
+}
+
+.gender-label.active {
+    font-weight: bold;
+}
+
+.boy-label.active {
+    color: #6c8bd3;
+}
+
+.girl-label.active {
+    color: #d36c9e;
+}
+
+.gender-info-label {
+    width: 100%;
+    text-align: center;
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--color-text-secondary);
+    opacity: 0.7;
+}
+
+.gender-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+}
+
+.gender-toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.gender-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+    border-radius: 34px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Color based on the actual shown gender, not the checkbox state */
+.gender-toggle-switch input[data-default-gender="boy"]:not(:checked) + .gender-slider,
+.gender-toggle-switch input[data-default-gender="girl"]:checked + .gender-slider {
+    background-color: #6c8bd3; /* Boy color */
+}
+
+.gender-toggle-switch input[data-default-gender="girl"]:not(:checked) + .gender-slider,
+.gender-toggle-switch input[data-default-gender="boy"]:checked + .gender-slider {
+    background-color: #d36c9e; /* Girl color */
+}
+
+.gender-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.gender-toggle-switch input:focus + .gender-slider {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.gender-toggle-switch input:checked + .gender-slider:before {
+    transform: translateX(26px);
+}
+
+.gender-slider.round {
+    border-radius: 34px;
+}
+
+.gender-slider.round:before {
+    border-radius: 50%;
+}
+
+/* Add gender symbols to the slider */
+.gender-toggle-switch input[data-default-gender="boy"]:not(:checked) + .gender-slider:after,
+.gender-toggle-switch input[data-default-gender="girl"]:checked + .gender-slider:after {
+    content: "♂";
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.gender-toggle-switch input[data-default-gender="girl"]:not(:checked) + .gender-slider:after,
+.gender-toggle-switch input[data-default-gender="boy"]:checked + .gender-slider:after {
+    content: "♀";
+    position: absolute;
+    left: 8px;
+    right: auto;
+    top: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: bold;
 }
   
