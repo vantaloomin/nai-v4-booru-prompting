@@ -83,7 +83,7 @@ const characterData = [{
         name: "mei (overwatch)",
         category: "Overwatch",
         mainTags: "mei (overwatch), plump, overwatch",
-        enhancers: ["big ass", "huge ass", "honeydew mei", "jiangshi mei"],
+        enhancers: ["honeydew mei", "jiangshi mei"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -153,7 +153,7 @@ const characterData = [{
     },
     {
         name: "lucca ashtear",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "lucca ashtear, chrono trigger",
         enhancers: [],
         defaultGender: "girl",
@@ -162,7 +162,7 @@ const characterData = [{
     },
     {
         name: "marle (chrono trigger)",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "marle (chrono trigger), chrono trigger",
         enhancers: [],
         defaultGender: "girl",
@@ -171,7 +171,7 @@ const characterData = [{
     },
     {
         name: "ayla (chrono trigger)",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "ayla (chrono trigger), chrono trigger",
         enhancers: [],
         defaultGender: "girl",
@@ -180,7 +180,7 @@ const characterData = [{
     },
     {
         name: "schala zeal",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "schala zeal, chrono trigger",
         enhancers: [],
         defaultGender: "girl",
@@ -189,7 +189,7 @@ const characterData = [{
     },
     {
         name: "crono (chrono trigger)",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "crono (chrono trigger), spiked hair, chrono trigger",
         enhancers: [],
         defaultGender: "boy",
@@ -198,7 +198,7 @@ const characterData = [{
     },
     {
         name: "magus (chrono trigger)",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "magus (chrono trigger), chrono trigger",
         enhancers: [],
         defaultGender: "boy",
@@ -207,7 +207,7 @@ const characterData = [{
     },
     {
         name: "kid (chrono cross)",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "kid (chrono cross), chrono cross",
         enhancers: [],
         defaultGender: "girl",
@@ -216,16 +216,16 @@ const characterData = [{
     },
     {
         name: "serge (chrono cross)",
-        category: "Chrono Trigger / Cross",
-        mainTags: "serge (chrono cross), gender swap, chrono cross",
+        category: "Chrono (Series)",
+        mainTags: "serge (chrono cross), chrono cross",
         enhancers: [],
-        defaultGender: "girl",
+        defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
     },
     {
         name: "harle (chrono cross)",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "harle (chrono cross), chrono cross",
         enhancers: [],
         defaultGender: "girl",
@@ -234,7 +234,7 @@ const characterData = [{
     },
     {
         name: "leena (chrono cross)",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "leena (chrono cross), chrono cross",
         enhancers: [],
         defaultGender: "girl",
@@ -243,7 +243,7 @@ const characterData = [{
     },
     {
         name: "marcy (chrono cross)",
-        category: "Chrono Trigger / Cross",
+        category: "Chrono (Series)",
         mainTags: "marcy (chrono cross), double bun, chrono cross",
         enhancers: [],
         defaultGender: "girl",
@@ -343,7 +343,7 @@ const characterData = [{
     {
         name: "thief (final fantasy)",
         category: "Final Fantasy 1-3",
-        mainTags: "thief (final fantasy), vest, bandana final fantasy",
+        mainTags: "thief (final fantasy), vest, bandana, final fantasy",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -478,7 +478,7 @@ const characterData = [{
     {
         name: "yuffie kisaragi",
         category: "Final Fantasy 7",
-        mainTags: "yuffie kisaragi, single bare shoulder, single shoulder pad, final fantasy vii remake, final fantasy",
+        mainTags: "yuffie kisaragi, final fantasy vii remake, final fantasy",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -550,7 +550,7 @@ const characterData = [{
     {
         name: "eiko carol",
         category: "Final Fantasy 9",
-        mainTags: "eiko carol, {{aged up, mature female}}, final fantasy ix, final fantasy",
+        mainTags: "eiko carol, final fantasy ix, final fantasy",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -559,8 +559,8 @@ const characterData = [{
     {
         name: "freija crescent",
         category: "Final Fantasy 9",
-        mainTags: "freija crescent, oversized hat, mouse girl, mouse tail, final fantasy ix, final fantasy",
-        enhancers: [],
+        mainTags: "freija crescent, mouse girl, mouse tail, final fantasy ix, final fantasy",
+        enhancers: ["oversized hat"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -748,8 +748,8 @@ const characterData = [{
     {
         name: "iris amicitia",
         category: "Final Fantasy 15",
-        mainTags: "iris amicitia, choker, short hair, final fantasy xv, final fantasy",
-        enhancers: [],
+        mainTags: "iris amicitia, final fantasy xv, final fantasy",
+        enhancers: ["[choker", "short hair]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -757,8 +757,8 @@ const characterData = [{
     {
         name: "sora (kingdom hearts)",
         category: "Kingdom Hearts",
-        mainTags: "sora (kingdom hearts), blue belt, hooded jacket, baggy pants, kingdom hearts, disney",
-        enhancers: [],
+        mainTags: "sora (kingdom hearts), kingdom hearts, disney",
+        enhancers: ["[hooded jacket", "blue belt", "baggy pants]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -766,8 +766,8 @@ const characterData = [{
     {
         name: "sora (halloween town) (kingdom hearts)",
         category: "Kingdom Hearts",
-        mainTags: "sora (halloween town) (kingdom hearts), mask over one eye, bat wings, open jacket, glowing eyes, halloween, kingdom hearts, disney",
-        enhancers: [],
+        mainTags: "sora (halloween town) (kingdom hearts), kingdom hearts, disney",
+        enhancers: ["[mask over one eye", "bat wings", "open jacket", "glowing eyes", "halloween]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -775,8 +775,8 @@ const characterData = [{
     {
         name: "kairi (kingdom hearts)",
         category: "Kingdom Hearts",
-        mainTags: "kairi (kingdom hearts), sleeveless dress, belt, kingdom hearts, disney",
-        enhancers: [],
+        mainTags: "kairi (kingdom hearts), kingdom hearts, disney",
+        enhancers: ["[sleeveless dress", "belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -784,8 +784,8 @@ const characterData = [{
     {
         name: "aqua (kingdom hearts)",
         category: "Kingdom Hearts",
-        mainTags: "aqua (kingdom hearts), detached sleeves, fingerless gloves, kingdom hearts, disney",
-        enhancers: [],
+        mainTags: "aqua (kingdom hearts), kingdom hearts, disney",
+        enhancers: ["[sleeveless dress", "fingerless gloves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -793,8 +793,8 @@ const characterData = [{
     {
         name: "xion (kingdom hearts)",
         category: "Kingdom Hearts",
-        mainTags: "xion (kingdom hearts), black dress, black jacket, black belt, pleated skirt, kingdom hearts, disney",
-        enhancers: [],
+        mainTags: "xion (kingdom hearts), kingdom hearts, disney",
+        enhancers: ["[black dress", "black jacket", "black belt", "pleated skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -802,8 +802,8 @@ const characterData = [{
     {
         name: "riku (kingdom hearts)",
         category: "Kingdom Hearts",
-        mainTags: "riku (kingdom hearts), blue pants, single sleeve, vest, kingdom hearts, disney",
-        enhancers: [],
+        mainTags: "riku (kingdom hearts), kingdom hearts, disney",
+        enhancers: ["[blue pants", "single sleeve", "vest]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -811,8 +811,8 @@ const characterData = [{
     {
         name: "axel (kingdom hearts)",
         category: "Kingdom Hearts",
-        mainTags: "axel (kingdom hearts), black robe, zipper, face mark, kingdom hearts, disney",
-        enhancers: [],
+        mainTags: "axel (kingdom hearts), kingdom hearts, disney",
+        enhancers: ["[black robe", "zipper", "face mark]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -874,8 +874,8 @@ const characterData = [{
     {
         name: "v (devil may cry)",
         category: "Devil May Cry",
-        mainTags: "v (devil may cry), tattoo, arm tattoo, chest tattoo, devil may cry (series)",
-        enhancers: [],
+        mainTags: "v (devil may cry), devil may cry (series)",
+        enhancers: ["[tattoo", "arm tattoo", "chest tattoo]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -892,8 +892,8 @@ const characterData = [{
     {
         name: "claire redfield",
         category: "Resident Evil (Series)",
-        mainTags: "claire redfield, choker, red vest, fingerless gloves, pants, resident evil 2, resident evil",
-        enhancers: [],
+        mainTags: "claire redfield, resident evil 2, resident evil",
+        enhancers: ["[red vest", "choker", "pants", "fingerless gloves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -928,8 +928,8 @@ const characterData = [{
     {
         name: "leon s. kennedy",
         category: "Resident Evil (Series)",
-        mainTags: "leon s. kennedy, bulletproof vest, resident evil 4, resident evil",
-        enhancers: [],
+        mainTags: "leon s. kennedy, resident evil 4, resident evil",
+        enhancers: ["bulletproof vest"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -937,8 +937,8 @@ const characterData = [{
     {
         name: "ashley graham",
         category: "Resident Evil (Series)",
-        mainTags: "ashley graham, orange sweater, plaid skirt, resident evil 4, resident evil",
-        enhancers: [],
+        mainTags: "ashley graham, resident evil 4, resident evil",
+        enhancers: ["[orange sweater", "plaid skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -946,8 +946,8 @@ const characterData = [{
     {
         name: "jack krauser",
         category: "Resident Evil (Series)",
-        mainTags: "jack krauser, cigarette, beret, brown military shirt, holster, resident evil 4, resident evil",
-        enhancers: [],
+        mainTags: "jack krauser, resident evil 4, resident evil",
+        enhancers: ["[cigarette", "beret", "brown military shirt", "holster]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -955,8 +955,8 @@ const characterData = [{
     {
         name: "chris redfield",
         category: "Resident Evil (Series)",
-        mainTags: "chris redfield, short hair, green shirt, jeans, fingerless gloves, resident evil 5, resident evil",
-        enhancers: [],
+        mainTags: "chris redfield, short hair, resident evil 5, resident evil",
+        enhancers: ["[green shirt", "jeans", "fingerless gloves]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -964,8 +964,8 @@ const characterData = [{
     {
         name: "sheva alomar",
         category: "Resident Evil (Series)",
-        mainTags: "sheva alomar, dark skin, dark-skinned female, purple shirt, brown pants, ponytail, resident evil 5, resident evil",
-        enhancers: [],
+        mainTags: "sheva alomar, dark skin, dark-skinned female, resident evil 5, resident evil",
+        enhancers: ["[purple shirt", "ponytail", "brown pants]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -973,8 +973,8 @@ const characterData = [{
     {
         name: "sherry birkin",
         category: "Resident Evil (Series)",
-        mainTags: "sherry birkin, scarf, white shirt, black pants, resident evil 6, resident evil",
-        enhancers: [],
+        mainTags: "sherry birkin, resident evil 6, resident evil",
+        enhancers: ["[scarf", "white shirt", "black pants]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1018,8 +1018,8 @@ const characterData = [{
     {
         name: "albert wesker",
         category: "Resident Evil (Series)",
-        mainTags: "albert wesker, sunglasses, hair slicked back, black pants, black shirt, shoulder holster, resident evil",
-        enhancers: [],
+        mainTags: "albert wesker, resident evil",
+        enhancers: ["[sunglasses", "hair slicked back", "black pants", "black shirt", "shoulder holster]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1081,8 +1081,8 @@ const characterData = [{
     {
         name: "mario",
         category: "Super Mario",
-        mainTags: "mario, overalls, red shirt, cleavage cutout, mario (series)",
-        enhancers: [],
+        mainTags: "mario, mario (series)",
+        enhancers: ["[overalls", "red shirt]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1090,8 +1090,8 @@ const characterData = [{
     {
         name: "luigi",
         category: "Super Mario",
-        mainTags: "luigi, overalls, green shirt, cleavage cutout, mario (series)",
-        enhancers: [],
+        mainTags: "luigi, mario (series)",
+        enhancers: ["[overalls", "green shirt]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1108,8 +1108,8 @@ const characterData = [{
     {
         name: "kitana",
         category: "Mortal Kombat",
-        mainTags: "kitana, mouth mask, mortal kombat (series)",
-        enhancers: [],
+        mainTags: "kitana, mortal kombat (series)",
+        enhancers: ["[mouth mask]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1117,8 +1117,8 @@ const characterData = [{
     {
         name: "mileena (mortal kombat)",
         category: "Mortal Kombat",
-        mainTags: "mileena (mortal kombat), mouth mask, mortal kombat 1 (2023), mortal kombat (series)",
-        enhancers: [],
+        mainTags: "mileena (mortal kombat), mortal kombat 1 (2023), mortal kombat (series)",
+        enhancers: ["[mouth mask]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1126,8 +1126,8 @@ const characterData = [{
     {
         name: "jade (mortal kombat)",
         category: "Mortal Kombat",
-        mainTags: "jade (mortal kombat), mouth mask, green tunic, mortal kombat (series)",
-        enhancers: [],
+        mainTags: "jade (mortal kombat), mortal kombat (series)",
+        enhancers: ["[mouth mask", "green tunic]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1135,8 +1135,8 @@ const characterData = [{
     {
         name: "scorpion (mortal kombat)",
         category: "Mortal Kombat",
-        mainTags: "scorpion (mortal kombat), yellow tunic, mouth mask, mortal kombat (series)",
-        enhancers: [],
+        mainTags: "scorpion (mortal kombat), mortal kombat (series)",
+        enhancers: ["[yellow tunic", "mouth mask]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1144,8 +1144,8 @@ const characterData = [{
     {
         name: "sub-zero",
         category: "Mortal Kombat",
-        mainTags: "sub-zero, blue tunic, mouth mask, mortal kombat (series)",
-        enhancers: [],
+        mainTags: "sub-zero, mortal kombat (series)",
+        enhancers: ["[blue tunic", "mouth mask]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1207,8 +1207,8 @@ const characterData = [{
     {
         name: "b.b. hood",
         category: "Darkstalkers",
-        mainTags: "b.b. hood, red hooded cape, darkstalkers",
-        enhancers: [],
+        mainTags: "b.b. hood, darkstalkers",
+        enhancers: ["red hooded cape"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1270,7 +1270,7 @@ const characterData = [{
     {
         name: "elena (street fighter)",
         category: "Street Fighter",
-        mainTags: "elena (street fighter), street fighter, anim",
+        mainTags: "elena (street fighter), street fighter",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1306,7 +1306,7 @@ const characterData = [{
     {
         name: "ibuki (street fighter)",
         category: "Street Fighter",
-        mainTags: "ibuki (street fighter), street fighter, ninja",
+        mainTags: "ibuki (street fighter), ninja, street fighter,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1324,8 +1324,8 @@ const characterData = [{
     {
         name: "ken masters",
         category: "Street Fighter",
-        mainTags: "ken masters, red tunic, red pants, street fighter",
-        enhancers: [],
+        mainTags: "ken masters, street fighter",
+        enhancers: ["[red tunic", "red pants]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1333,8 +1333,8 @@ const characterData = [{
     {
         name: "ryu (street fighter)",
         category: "Street Fighter",
-        mainTags: "ryu (street fighter), white tunic, white pants, short hair, spiked hair, street fighter",
-        enhancers: [],
+        mainTags: "ryu (street fighter), street fighter",
+        enhancers: ["[white tunic", "white pants]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1342,8 +1342,8 @@ const characterData = [{
     {
         name: "akuma (street fighter)",
         category: "Street Fighter",
-        mainTags: "akuma (street fighter), dark skin, dark-skinned female, white hair, wrapped breasts, glowing eyes, muscular female, white pants, rope belt, street fighter",
-        enhancers: [],
+        mainTags: "akuma (street fighter), dark skin, dark-skinned male, white hair, muscular male, street fighter",
+        enhancers: ["[chest sarashi", "white pants", "rope belt", "glowing eyes]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1351,8 +1351,8 @@ const characterData = [{
     {
         name: "m. bison",
         category: "Street Fighter",
-        mainTags: "m. bison, latex bodysuit, thighhigh boots, street fighter",
-        enhancers: [],
+        mainTags: "m. bison, muscular male, street fighter",
+        enhancers: ["[military hat", "shoulder armor", "lightning bolt symbol", "cape", "bracers]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1360,8 +1360,8 @@ const characterData = [{
     {
         name: "guile",
         category: "Street Fighter",
-        mainTags: "guile, camouflage pants, tall hair, muscular female, street fighter",
-        enhancers: [],
+        mainTags: "guile, muscular male, tall hair, american flag tattoo, street fighter",
+        enhancers: ["[camouflage pants" "green tank top]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1414,8 +1414,8 @@ const characterData = [{
     {
         name: "sally whitemane",
         category: "Warcraft / Starcraft",
-        mainTags: "sally whitemane, red leotard, staff, warcraft, world of warcraft",
-        enhancers: [],
+        mainTags: "sally whitemane, warcraft, world of warcraft",
+        enhancers: ["[red leotard", "staff]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1495,8 +1495,8 @@ const characterData = [{
     {
         name: "paya (zelda)",
         category: "Zelda",
-        mainTags: "paya (zelda), puffy sleeves, shirt, brown hat, large hat, the legend of zelda",
-        enhancers: [],
+        mainTags: "paya (zelda), the legend of zelda",
+        enhancers: ["[puffy sleeves", "shirt", "brown hat", "large hat]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1531,7 +1531,7 @@ const characterData = [{
     {
         name: "saria (zelda)",
         category: "Zelda",
-        mainTags: "saria (zelda), the legend of zelda, {{aged up, mature female}}",
+        mainTags: "saria (zelda), the legend of zelda,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1567,7 +1567,7 @@ const characterData = [{
     {
         name: "young zelda",
         category: "Zelda",
-        mainTags: "young zelda, the legend of zelda, {{aged up, mature female}}",
+        mainTags: "young zelda, the legend of zelda,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1675,8 +1675,8 @@ const characterData = [{
     {
         name: "talim",
         category: "Soulcalibur",
-        mainTags: "talim, arabian clothes, see-through clothes, soulcalibur",
-        enhancers: [],
+        mainTags: "talim, soulcalibur",
+        enhancers: ["[arabian clothes", "see-through clothes]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1711,8 +1711,8 @@ const characterData = [{
     {
         name: "setsuka",
         category: "Soulcalibur",
-        mainTags: "setsuka, kimono, blonde hair, hair bun, soulcalibur",
-        enhancers: [],
+        mainTags: "setsuka, blonde hair, soulcalibur",
+        enhancers: ["[kimono", "hair bun]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1810,7 +1810,7 @@ const characterData = [{
     {
         name: "annie (league of legends)",
         category: "League of Legends",
-        mainTags: "annie (league of legends), league of legends, {{aged up, mature female}}",
+        mainTags: "annie (league of legends), league of legends,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1819,7 +1819,7 @@ const characterData = [{
     {
         name: "zoe (league of legends)",
         category: "League of Legends",
-        mainTags: "zoe (league of legends), {{aged up, mature female}}, league of legends",
+        mainTags: "zoe (league of legends), league of legends",
         enhancers: ["star guardian zoe", "[pool party zoe", "blue hair]"],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1855,8 +1855,8 @@ const characterData = [{
     {
         name: "miss fortune (league of legends)",
         category: "League of Legends",
-        mainTags: "miss fortune (league of legends), pirate, league of legends",
-        enhancers: ["star guardian miss fortune", "arcade miss fortune", "battle bunny miss fortune", "crime city miss fortune", "[pool party miss fortune", "sun hat]", "[gun goddess miss fortune", "forehead protector]"],
+        mainTags: "miss fortune (league of legends), league of legends",
+        enhancers: ["[pirate", "pirate hat,", "hoop earrings]", "star guardian miss fortune", "arcade miss fortune", "battle bunny miss fortune", "crime city miss fortune", "[pool party miss fortune", "sun hat]", "[gun goddess miss fortune", "forehead protector]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1864,8 +1864,8 @@ const characterData = [{
     {
         name: "poppy (league of legends)",
         category: "League of Legends",
-        mainTags: "poppy (league of legends), yellow hair, twintails, big hair, league of legends",
-        enhancers: ["[star guardian poppy", "armored dress", "blue hair]"],
+        mainTags: "poppy (league of legends), yordle, yellow hair, twintails, big hair, league of legends",
+        enhancers: ["[--yellow hair, star guardian poppy", "armored dress", "blue hair]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1901,7 +1901,7 @@ const characterData = [{
         name: "evelynn (league of legends)",
         category: "League of Legends",
         mainTags: "evelynn (league of legends), purple skin, yellow eyes, league of legends",
-        enhancers: ["[--purple skin, --yellow eyes, k/da all out evelynn]", "k/da evelynn", "the baddest evelynn", "blood moon evelynn", "soul fighter evelynn", "spirit blossom evelynn", "coven evelynn", "[sugar rush evelynn, multicolor hair, black hair, pink hair, twin drills, gold eyes]"],
+        enhancers: ["[--purple skin, --yellow eyes, k/da all out evelynn]", "k/da evelynn", "the baddest evelynn", "blood moon evelynn", "soul fighter evelynn", "spirit blossom evelynn", "coven evelynn", "[--yellow eyes, sugar rush evelynn, multicolor hair, black hair, pink hair, twin drills, gold eyes]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1909,8 +1909,8 @@ const characterData = [{
     {
         name: "irelia",
         category: "League of Legends",
-        mainTags: "irelia, crown, silver hair ornament, league of legends",
-        enhancers: ["[divine sword irelia", "black hair]", "[frost blade irelia", "blue hair", "short hair]", "[mythmaker irelia", "hair bun", "white hair]"],
+        mainTags: "irelia, league of legends",
+        enhancers: ["[crown", "silver hair ornament]", "[divine sword irelia", "black hair]", "[frost blade irelia", "blue hair", "short hair]", "[mythmaker irelia", "hair bun", "white hair]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -1990,8 +1990,8 @@ const characterData = [{
     {
         name: "seraphine (league of legends)",
         category: "League of Legends",
-        mainTags: "seraphine (league of legends), pink hair, star tattoo, league of legends",
-        enhancers: ["[star guardian seraphine", "blonde hair", "magical girl]"],
+        mainTags: "seraphine (league of legends), league of legends",
+        enhancers: ["[purple dress", "pink hair", "star tattoo]", "[star guardian seraphine", "blonde hair", "magical girl]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2098,8 +2098,8 @@ const characterData = [{
     {
         name: "kayle (league of legends)",
         category: "League of Legends",
-        mainTags: "kayle (league of legends), glowing eyes, boobplate, feathered wings, multiple wings, league of legends",
-        enhancers: [],
+        mainTags: "kayle (league of legends), league of legends",
+        enhancers: ["[armor", "boobplate", "glowing eyes", "feathered wings", "white hair", "multiple wings]", "[helmet", "angel wings", "armor]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2161,7 +2161,7 @@ const characterData = [{
     {
         name: "2p (nier:automata)",
         category: "Nier",
-        mainTags: "2p (nier:automata), nier (series), soulcalibur, dark skin",
+        mainTags: "2p (nier:automata), dark skin, dark-skinned female, nier (series), soulcalibur",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2170,8 +2170,8 @@ const characterData = [{
     {
         name: "rosa (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "rosa (pokemon), double bun, two-tone shirt, yellow skirt, black pants, pokemon bw, pokemon bw2, pokemon",
-        enhancers: [],
+        mainTags: "rosa (pokemon), pokemon bw, pokemon bw2, pokemon",
+        enhancers: ["[double bun", "two-tone shirt", "yellow skirt", "black pants]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2179,8 +2179,8 @@ const characterData = [{
     {
         name: "erika (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "erika (pokemon), headband, hakama, cleavage, pokemon frlg, pokemon",
-        enhancers: [],
+        mainTags: "erika (pokemon), pokemon frlg, pokemon",
+        enhancers: ["[headband", "hakama]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2188,8 +2188,8 @@ const characterData = [{
     {
         name: "carmine (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "carmine (pokemon), yellow headwear, two-tone hair, open jacket, blue pants, pokemon sv, pokemon",
-        enhancers: [],
+        mainTags: "carmine (pokemon), pokemon sv, pokemon",
+        enhancers: ["[yellow headwear", "two-tone hair", "open jacket", "blue pants]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2197,8 +2197,8 @@ const characterData = [{
     {
         name: "whitney (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "whitney (pokemon), blue shorts, white shirt, cleavage, short twintails, pokemon hgss, pokemon",
-        enhancers: [],
+        mainTags: "whitney (pokemon), pokemon hgss, pokemon",
+        enhancers: ["[blue shorts", "white shirt", "short twintails]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2206,8 +2206,8 @@ const characterData = [{
     {
         name: "skyla (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "skyla (pokemon), blue shorts, blue gloves, blue crop top, hair ornament, thigh holster, pokemon bw, pokemon",
-        enhancers: [],
+        mainTags: "skyla (pokemon), pokemon bw, pokemon",
+        enhancers: ["[blue shorts", "blue gloves", "blue crop top", "hair ornament", "thigh holster]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2215,8 +2215,8 @@ const characterData = [{
     {
         name: "lillie (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "lillie (pokemon), white dress, hat, cleavage, pokemon sm, pokemon",
-        enhancers: [],
+        mainTags: "lillie (pokemon), pokemon sm, pokemon",
+        enhancers: ["[white dress", "hat]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2224,8 +2224,8 @@ const characterData = [{
     {
         name: "hilda (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "hilda (pokemon), hat, jean shorts, vest, pokemon bw, pokemon",
-        enhancers: [],
+        mainTags: "hilda (pokemon), pokemon bw, pokemon",
+        enhancers: ["[hat", "jean shorts", "vest]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2233,8 +2233,8 @@ const characterData = [{
     {
         name: "selene (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "selene (pokemon), yellow shirt, red hat, white shorts, pokemon sm, pokemon",
-        enhancers: [],
+        mainTags: "selene (pokemon), pokemon sm, pokemon",
+        enhancers: ["[yellow shirt", "red hat", "white shorts]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2242,8 +2242,8 @@ const characterData = [{
     {
         name: "marnie (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "marnie (pokemon), pink dress, black jacket, open jacket, medium hair, pokemon swsh, pokemon",
-        enhancers: [],
+        mainTags: "marnie (pokemon), pokemon swsh, pokemon",
+        enhancers: ["[pink dress", "black jacket", "open jacket", "medium hair]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2251,8 +2251,8 @@ const characterData = [{
     {
         name: "piers (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "piers (pokemon), multicolored hair, two-tone shirt, white jacket, open jacket, pink shorts, white belt, gloves, pokemon swsh, pokemon",
-        enhancers: [],
+        mainTags: "piers (pokemon), multicolored hair, pokemon swsh, pokemon",
+        enhancers: ["[two-tone shirt", "white jacket", "open jacket", "pink shorts", "white belt", "gloves]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2260,8 +2260,8 @@ const characterData = [{
     {
         name: "lacey (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "lacey (pokemon), pink hair, hair ornament, pink sweater, red tie, blue skirt, white shirt, pokemon sv, pokemon",
-        enhancers: [],
+        mainTags: "lacey (pokemon), pink hair, pokemon sv, pokemon",
+        enhancers: ["[hair ornament", "pink sweater", "red tie", "blue skirt", "white shirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2269,8 +2269,8 @@ const characterData = [{
     {
         name: "gloria (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "gloria (pokemon), green hat, pink collared dress, hooded cardigan, hood down, puffy sleeves, pokemon swsh, pokemon",
-        enhancers: [],
+        mainTags: "gloria (pokemon), pokemon swsh, pokemon",
+        enhancers: ["[green hat", "pink collared dress", "hooded cardigan", "hood down", "puffy sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2278,8 +2278,8 @@ const characterData = [{
     {
         name: "cynthia (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "cynthia (pokemon), blonde hair, black pants, black coat, fur trim, pokemon dppt, pokemon",
-        enhancers: [],
+        mainTags: "cynthia (pokemon), blonde hair, pokemon dppt, pokemon",
+        enhancers: ["[black pants", "black coat", "fur trim]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2287,8 +2287,8 @@ const characterData = [{
     {
         name: "iono (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "iono (pokemon), multicolor hair, yellow jacket, grey shirt, single leg pantyhose, pokemon sv, pokemon",
-        enhancers: [],
+        mainTags: "iono (pokemon), multicolor hair, pokemon sv, pokemon",
+        enhancers: ["[yellow jacket", "grey shirt", "single leg pantyhose]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2296,8 +2296,8 @@ const characterData = [{
     {
         name: "nessa (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "nessa (pokemon), gym trainer (pokemon), dark skin, dark-skinned female, black hair, crop top, bikini shorts, hoop earrings, pokemon swsh, pokemon",
-        enhancers: [],
+        mainTags: "nessa (pokemon), ark skin, dark-skinned female, gym trainer (pokemon), pokemon swsh, pokemon",
+        enhancers: ["[crop top", "bikini shorts", "hoop earrings]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2305,8 +2305,8 @@ const characterData = [{
     {
         name: "akari (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "akari (pokemon), blue kimono, blue pants, headscarf, loose socks, pokemon legends: arceus, pokemon",
-        enhancers: [],
+        mainTags: "akari (pokemon), pokemon legends: arceus, pokemon",
+        enhancers: ["[blue kimono", "blue pants", "headscarf", "loose socks]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2314,8 +2314,8 @@ const characterData = [{
     {
         name: "bea (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "bea (pokemon), silver hair, black hairband, black leotard under clothes, white crop top, white shorts, single glove, pokemon swsh, pokemon",
-        enhancers: [],
+        mainTags: "bea (pokemon), silver hair, pokemon swsh, pokemon",
+        enhancers: ["[black hairband", "black leotard under clothes", "white crop top", "white shorts", "single glove]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2323,8 +2323,8 @@ const characterData = [{
     {
         name: "lyra (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "lyra (pokemon), brown hair, blue overalls, white hat, bow, red shirt, pokemon hgss, pokemon",
-        enhancers: [],
+        mainTags: "lyra (pokemon), brown hair, pokemon hgss, pokemon",
+        enhancers: ["[blue overalls", "white hat", "bow", "red shirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2332,8 +2332,8 @@ const characterData = [{
     {
         name: "juliana (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "juliana (pokemon), brown hair, blue hat, white shirt, orange tie, orange shorts, backpack, pokemon sv, pokemon",
-        enhancers: [],
+        mainTags: "juliana (pokemon), brown hair, pokemon sv, pokemon",
+        enhancers: ["[blue hat", "white shirt", "orange tie", "orange shorts", "backpack]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2341,8 +2341,8 @@ const characterData = [{
     {
         name: "leaf (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "leaf (pokemon), brown hair, white hat, red skirt, blue shirt, yellow bag, pokemon frlg, pokemon",
-        enhancers: [],
+        mainTags: "leaf (pokemon), brown hair, pokemon frlg, pokemon",
+        enhancers: ["[white hat", "red skirt", "blue shirt", "yellow bag]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2350,8 +2350,8 @@ const characterData = [{
     {
         name: "hex maniac (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "hex maniac (pokemon), black hair, crazy eyes, crazy grin, purple sleeveless dress, black thighhighs, elbow gloves, pokemon xy, pokemon",
-        enhancers: [],
+        mainTags: "hex maniac (pokemon), black hair, pokemon xy, pokemon",
+        enhancers: ["[crazy eyes", "crazy grin", "purple sleeveless dress", "black thighhighs", "elbow gloves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2359,8 +2359,8 @@ const characterData = [{
     {
         name: "melony (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "melony (pokemon), big hair, white hair, streaked hair, white hat, white coat, fur trim, wide sleeves, teal pants, knee boots, curvy, plump, pokemon swsh, pokemon",
-        enhancers: [],
+        mainTags: "melony (pokemon), big hair, white hair, streaked hair, pokemon swsh, pokemon",
+        enhancers: ["[white hat", "white coat", "fur trim", "wide sleeves", "teal pants", "knee boots", "curvy", "plump]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2368,8 +2368,8 @@ const characterData = [{
     {
         name: "lusamine (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "lusamine (pokemon), long blonde hair, white sleeveless dress, pantyhose, pokemon sm, pokemon",
-        enhancers: [],
+        mainTags: "lusamine (pokemon), long blonde hair, pokemon sm, pokemon",
+        enhancers: ["[white sleeveless dress", "pantyhose]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2377,8 +2377,8 @@ const characterData = [{
     {
         name: "sonia (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "sonia (pokemon), red hair, glasses on head, jacket, blue pants, green shirt, single wrist cuff, black bag, pokemon masters ex, pokemon",
-        enhancers: [],
+        mainTags: "sonia (pokemon), red hair, pokemon masters ex, pokemon",
+        enhancers: ["[glasses on head", "jacket", "blue pants", "green shirt", "single wrist cuff", "black bag]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2386,8 +2386,8 @@ const characterData = [{
     {
         name: "irida (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "irida (pokemon), blonde hair, white shorts, two-tone shirt, hair ornament, necklace, pokemon legends: arceus, pokemon",
-        enhancers: [],
+        mainTags: "irida (pokemon), blonde hair, pokemon legends: arceus, pokemon",
+        enhancers: ["[white shorts", "two-tone shirt", "hair ornament", "necklace]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2395,8 +2395,8 @@ const characterData = [{
     {
         name: "mallow (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "mallow (pokemon), dark skin, dark-skinned female, green hair, hair ornament, grey overalls, grey shorts, pink shirt, pokemon sm, pokemon",
-        enhancers: [],
+        mainTags: "mallow (pokemon), dark skin, dark-skinned female, green hair,pokemon sm, pokemon",
+        enhancers: ["[hair ornament", "grey overalls", "grey shorts", "pink shirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2404,8 +2404,8 @@ const characterData = [{
     {
         name: "elesa (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "elesa (pokemon), black hair, headphones, yellow coat, puffy sleeves, two-tone shorts, two-tone crop top, pokemon bw2, pokemon",
-        enhancers: [],
+        mainTags: "elesa (pokemon), black hair, pokemon bw2, pokemon",
+        enhancers: ["[headphones", "yellow coat", "puffy sleeves", "two-tone shorts", "two-tone crop top]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2413,8 +2413,8 @@ const characterData = [{
     {
         name: "bianca (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "bianca (pokemon), yellow hair, green hat, white dress, puffy short sleeves, orange vest, green bag, pokemon bw2, pokemon",
-        enhancers: [],
+        mainTags: "bianca (pokemon), yellow hair, pokemon bw2, pokemon",
+        enhancers: ["[green hat", "white dress", "puffy short sleeves", "orange vest", "green bag]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2422,8 +2422,8 @@ const characterData = [{
     {
         name: "green (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "green (pokemon), brown hair, blue shorts, black shirt, yellow bag, pokemon lgpe, pokemon",
-        enhancers: [],
+        mainTags: "green (pokemon), brown hair, pokemon lgpe, pokemon",
+        enhancers: ["[blue shorts", "black shirt", "yellow bag]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2431,8 +2431,8 @@ const characterData = [{
     {
         name: "allister (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "allister (pokemon), black hair, mask, striped shirt, wide sleeves, polka dot shorts, one glove, pokemon swsh, pokemon",
-        enhancers: [],
+        mainTags: "allister (pokemon), black hair, pokemon swsh, pokemon",
+        enhancers: ["[mask", "striped shirt", "wide sleeves", "polka dot shorts", "one glove]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2440,8 +2440,8 @@ const characterData = [{
     {
         name: "grusha (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "grusha (pokemon), blue hair, yellow winter coat, two-tone scarf, blue pants, mittens, pokemon, pokemon sv",
-        enhancers: [],
+        mainTags: "grusha (pokemon), blue hair, pokemon sv",
+        enhancers: ["[yellow winter coat", "two-tone scarf", "blue pants", "mittens]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2449,8 +2449,8 @@ const characterData = [{
     {
         name: "serena (pokemon)",
         category: "Pokemon (Game)",
-        mainTags: "serena (pokemon), red hat, black shirt, red pleated skirt, black thighhighs, pokemon xy",
-        enhancers: [],
+        mainTags: "serena (pokemon), pokemon xy",
+        enhancers: ["[red hat", "black shirt", "red pleated skirt", "black thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2467,8 +2467,8 @@ const characterData = [{
     {
         name: "queen marika the eternal",
         category: "Elden Ring",
-        mainTags: "queen marika the eternal, black dress, belts, long blonde hair, tiara, cleavage, elden ring",
-        enhancers: [],
+        mainTags: "queen marika the eternal, long blonde hair, elden ring",
+        enhancers: ["[black dress", "belts", "tiara", "cleavage]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2476,8 +2476,8 @@ const characterData = [{
     {
         name: "melina (elden ring)",
         category: "Elden Ring",
-        mainTags: "melina (elden ring), hooded cloak, hood down, elden ring",
-        enhancers: [],
+        mainTags: "melina (elden ring), elden ring",
+        enhancers: ["[hooded cloak", "hood down]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2485,8 +2485,8 @@ const characterData = [{
     {
         name: "miquella (elden ring)",
         category: "Elden Ring",
-        mainTags: "miquella (elden ring), long blonde hair, multiple braids, white dress, elden ring",
-        enhancers: [],
+        mainTags: "miquella (elden ring), long blonde hair, multiple braids, elden ring",
+        enhancers: ["white dress"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2494,8 +2494,8 @@ const characterData = [{
     {
         name: "malenia blade of miquella",
         category: "Elden Ring",
-        mainTags: "malenia blade of miquella, red hair, armor, mechanical arm, helmet, elden ring",
-        enhancers: [],
+        mainTags: "malenia blade of miquella, red hair, elden ring",
+        enhancers: ["[armor", "mechanical arm", "helmet]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2503,8 +2503,8 @@ const characterData = [{
     {
         name: "malenia goddess of rot",
         category: "Elden Ring",
-        mainTags: "malenia goddess of rot, absurdly long hair, red hair, wings, the wings are rotted, single shoulder pad, single gauntlet, single thighhigh, elden ring",
-        enhancers: [],
+        mainTags: "malenia goddess of rot, absurdly long hair, red hair, elden ring",
+        enhancers: ["[wings", "the wings are rotted", "single shoulder pad", "single gauntlet", "single thighhigh]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2512,8 +2512,8 @@ const characterData = [{
     {
         name: "messmer the impaler",
         category: "Elden Ring",
-        mainTags: "messmer the impaler, red hair, helmet, chainmail, red shawl, animal, red snakes, elden ring",
-        enhancers: [],
+        mainTags: "messmer the impaler, red hair, animal, red snakes, elden ring",
+        enhancers: ["[helmet", "chainmail", "red shawl]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2530,8 +2530,8 @@ const characterData = [{
     {
         name: "blaidd the half-wolf",
         category: "Elden Ring",
-        mainTags: "blaidd the half-wolf, fur cape, armor, furry, wolf boy, elden ring",
-        enhancers: [],
+        mainTags: "blaidd the half-wolf, furry, wolf boy, elden ring",
+        enhancers: ["[fur cape", "armor]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2539,8 +2539,8 @@ const characterData = [{
     {
         name: "starscourge radahn",
         category: "Elden Ring",
-        mainTags: "starscourge radahn, full armor, helmet, horse, elden ring",
-        enhancers: [],
+        mainTags: "starscourge radahn, elden ring",
+        enhancers: ["[full armor", "helmet", "horse]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2548,8 +2548,8 @@ const characterData = [{
     {
         name: "mohg lord of blood",
         category: "Elden Ring",
-        mainTags: "mohg lord of blood, monster, multiple horns, staff, elden ring",
-        enhancers: [],
+        mainTags: "mohg lord of blood, monster, multiple horns, elden ring",
+        enhancers: ["staff"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2557,8 +2557,8 @@ const characterData = [{
     {
         name: "rennala queen of the full moon",
         category: "Elden Ring",
-        mainTags: "rennala queen of the full moon, black robe, epaulettes, tall hat, elden ring",
-        enhancers: [],
+        mainTags: "rennala queen of the full moon, elden ring",
+        enhancers: ["[black robe", "epaulettes", "tall hat]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2566,8 +2566,8 @@ const characterData = [{
     {
         name: "radagon of the golden order",
         category: "Elden Ring",
-        mainTags: "radagon of the golden order, long red hair, no shirt, tattoo, black skirt, cracked skin, false arm, hole on body, elden ring",
-        enhancers: [],
+        mainTags: "radagon of the golden order, long red hair, elden ring",
+        enhancers: ["[no shirt", "tattoo", "black skirt", "cracked skin", "false arm", "hole on body]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2575,8 +2575,8 @@ const characterData = [{
     {
         name: "millicent (elden ring)",
         category: "Elden Ring",
-        mainTags: "millicent (elden ring), mechanical arm, red hair, grey dress, elden ring",
-        enhancers: [],
+        mainTags: "millicent (elden ring), red hair, elden ring",
+        enhancers: ["[mechanical arm", "grey dress]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2584,8 +2584,8 @@ const characterData = [{
     {
         name: "sorceress sellen",
         category: "Elden Ring",
-        mainTags: "sorceress sellen, stone mask, helmet, crystal, elden ring",
-        enhancers: [],
+        mainTags: "sorceress sellen, elden ring",
+        enhancers: ["[stone mask", "helmet", "crystal]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2593,8 +2593,8 @@ const characterData = [{
     {
         name: "fia the deathbed companion",
         category: "Elden Ring",
-        mainTags: "fia the deathbed companion, black dress, black veil, fringe trim, hooded dress, elden ring",
-        enhancers: [],
+        mainTags: "fia the deathbed companion, elden ring",
+        enhancers: ["[black dress", "black veil", "fringe trim", "hooded dress]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2602,8 +2602,8 @@ const characterData = [{
     {
         name: "needle knight leda",
         category: "Elden Ring",
-        mainTags: "needle knight leda, full armor, white cloak, no hood, holding helmet, elden ring",
-        enhancers: [],
+        mainTags: "needle knight leda, elden ring",
+        enhancers: ["[full armor", "white cloak", "no hood", "holding helmet]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2611,8 +2611,8 @@ const characterData = [{
     {
         name: "rellana twin moon knight",
         category: "Elden Ring",
-        mainTags: "rellana twin moon knight, full armor, chest armor, armored, holding helmet, blue sash, elden ring",
-        enhancers: [],
+        mainTags: "rellana twin moon knight, elden ring",
+        enhancers: ["[full armor", "chest armor", "armored", "holding helmet", "blue sash]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2629,8 +2629,8 @@ const characterData = [{
     {
         name: "morgott the omen king",
         category: "Elden Ring",
-        mainTags: "morgott the omen king, asymmetric horns, simple robe, torn robe, elden ring",
-        enhancers: [],
+        mainTags: "morgott the omen king, elden ring",
+        enhancers: ["[asymmetric horns", "simple robe", "torn robe]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2638,8 +2638,8 @@ const characterData = [{
     {
         name: "white-faced varre",
         category: "Elden Ring",
-        mainTags: "white-faced varre, mask, hooded robe, cowl, blood on mask, blood stain, blood on clothes, belt pouch, elden ring",
-        enhancers: [],
+        mainTags: "white-faced varre, elden ring",
+        enhancers: ["[mask", "hooded robe", "cowl", "belt pouch]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2647,8 +2647,8 @@ const characterData = [{
     {
         name: "st. trina (elden ring)",
         category: "Elden Ring",
-        mainTags: "st. trina (elden ring), long hair, purple hair, floating hair, white tunic, short sleeves, long skirt, elden ring",
-        enhancers: [],
+        mainTags: "st. trina (elden ring), long hair, purple hair, floating hair, elden ring",
+        enhancers: ["[white tunic", "short sleeves", "long skirt", "belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2656,8 +2656,8 @@ const characterData = [{
     {
         name: "godwyn the golden",
         category: "Elden Ring",
-        mainTags: "godwyn the golden, blonde hair, long hair, black armor, golden trim, elden ring",
-        enhancers: [],
+        mainTags: "godwyn the golden, blonde hair, long hair, elden ring",
+        enhancers: ["[black armor", "golden trim", "golden armor]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2665,8 +2665,8 @@ const characterData = [{
     {
         name: "roderika (elden ring)",
         category: "Elden Ring",
-        mainTags: "roderika (elden ring), grey dress, red hooded cape, brown gloves, elden ring",
-        enhancers: [],
+        mainTags: "roderika (elden ring), elden ring",
+        enhancers: ["[grey dress", "red hooded cape", "brown gloves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2674,8 +2674,8 @@ const characterData = [{
     {
         name: "lunar princess ranni",
         category: "Elden Ring",
-        mainTags: "lunar princess ranni, red hair, braid, black robe, ornate clothes, black cape, halo, brooch, elden ring",
-        enhancers: [],
+        mainTags: "lunar princess ranni, red hair, braid,  elden ring",
+        enhancers: ["[black robe", "ornate clothes", "black cape", "halo", "brooch]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2683,8 +2683,8 @@ const characterData = [{
     {
         name: "sir ansbach",
         category: "Elden Ring",
-        mainTags: "sir ansbach, full beard, long white hair, black robe, elden ring",
-        enhancers: [],
+        mainTags: "sir ansbach, full beard, long white hair, elden ring",
+        enhancers: ["[black robe", "cloak]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2692,8 +2692,8 @@ const characterData = [{
     {
         name: "godfrey first elden lord",
         category: "Elden Ring",
-        mainTags: "godfrey first elden lord, armor, full armor, armored boots, cape, braided beard, elden ring",
-        enhancers: [],
+        mainTags: "godfrey first elden lord, braided beard, elden ring",
+        enhancers: ["[armor", "full armor", "armored boots", "cape]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2701,8 +2701,8 @@ const characterData = [{
     {
         name: "finger maiden hyetta",
         category: "Elden Ring",
-        mainTags: "finger maiden hyetta, brown robe, bandages, cloak, elden ring",
-        enhancers: [],
+        mainTags: "finger maiden hyetta, elden ring",
+        enhancers: ["[brown robe", "bandages", "cloak]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2710,8 +2710,8 @@ const characterData = [{
     {
         name: "godrick the grafted",
         category: "Elden Ring",
-        mainTags: "godrick the grafted, colored skin, grey skin, brown cloak, giant, crown, elden ring, {{{{{{multiple arms, extra arms, extra legs}}}}}}",
-        enhancers: [],
+        mainTags: "godrick the grafted, colored skin, grey skin, giant, elden ring, {{{{{{multiple arms, extra arms, extra legs}}}}}}",
+        enhancers: ["[brown cloak", "crown]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2719,8 +2719,8 @@ const characterData = [{
     {
         name: "thiollier (elden ring)",
         category: "Elden Ring",
-        mainTags: "thiollier (elden ring), black robe, white cloak, mask, brown gloves, elden ring",
-        enhancers: [],
+        mainTags: "thiollier (elden ring), elden ring",
+        enhancers: ["[black robe", "white cloak", "mask", "brown gloves]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2728,8 +2728,8 @@ const characterData = [{
     {
         name: "gideon ofnir",
         category: "Elden Ring",
-        mainTags: "gideon ofnir, full armor, helmet, cloak, elden ring",
-        enhancers: [],
+        mainTags: "gideon ofnir, elden ring",
+        enhancers: ["[full armor", "helmet", "cloak]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2737,8 +2737,8 @@ const characterData = [{
     {
         name: "nepheli loux",
         category: "Elden Ring",
-        mainTags: "nepheli loux, black hair, bandeau, very dark skin, dark-skinned female, fur-trimmed armor, elden ring",
-        enhancers: [],
+        mainTags: "nepheli loux, black hair, very dark skin, dark-skinned female, elden ring",
+        enhancers: ["[bandeau", "fur-trimmed armor", "fur-trimmed armor]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2746,8 +2746,8 @@ const characterData = [{
     {
         name: "sorcerer rogier",
         category: "Elden Ring",
-        mainTags: "sorcerer rogier, brown mage hat, had ornament, white hood, leather tunic, puffy sleeves, brown cloak, frills, white gloves, grey pants",
-        enhancers: [],
+        mainTags: "sorcerer rogier, elden ring",
+        enhancers: ["[brown wizard hat", "hat ornament", "white hood", "leather tunic", "puffy sleeves", "brown cloak", "frills", "white gloves", "grey pants]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2755,8 +2755,8 @@ const characterData = [{
     {
         name: "cleanrot knight finlay",
         category: "Elden Ring",
-        mainTags: "cleanrot knight finlay, full armor, holding helmet, short red hair, face mark, scar, elden ring",
-        enhancers: [],
+        mainTags: "cleanrot knight finlay, short red hair, face mark, scar, elden ring",
+        enhancers: ["[full armor", "holding helmet]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2764,8 +2764,8 @@ const characterData = [{
     {
         name: "war counselor iji",
         category: "Elden Ring",
-        mainTags: "war counselor iji, giant, helmet, white hair, long hair, elden ring",
-        enhancers: [],
+        mainTags: "war counselor iji, giant, white hair, long hair, elden ring",
+        enhancers: ["helmet"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2782,8 +2782,8 @@ const characterData = [{
     {
         name: "preceptor seluvis",
         category: "Elden Ring",
-        mainTags: "preceptor seluvis, mage hat, mask, brown hood, hat over hood, brown robe, elden ring",
-        enhancers: [],
+        mainTags: "preceptor seluvis, elden ring",
+        enhancers: ["[mage hat", "mask", "brown hood", "hat over hood", "brown robe]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2791,8 +2791,8 @@ const characterData = [{
     {
         name: "praetor rykard",
         category: "Elden Ring",
-        mainTags: "praetor rykard, crown, cape, long hair, full beard, ornate clothes, ring, elden ring",
-        enhancers: [],
+        mainTags: "praetor rykard, elden ring",
+        enhancers: ["[crown", "cape", "long hair", "full beard", "ornate clothes]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2809,8 +2809,8 @@ const characterData = [{
     {
         name: "karlach",
         category: "Baldur's Gate 3",
-        mainTags: "karlach, muscular female, colored skin, dark red skin, asymmetric horns, multicolored hair, leather armor, baldur's gate 3, baldur's gate",
-        enhancers: [],
+        mainTags: "karlach, muscular female, colored skin, dark red skin, asymmetric horns, multicolored hair, baldur's gate 3, baldur's gate",
+        enhancers: ["leather armor"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2818,8 +2818,8 @@ const characterData = [{
     {
         name: "astarion",
         category: "Baldur's Gate 3",
-        mainTags: "astarion, white hair, red eyes, fangs, vampire, ornate clothes, baldur's gate 3, baldur's gate",
-        enhancers: [],
+        mainTags: "astarion, white hair, red eyes, fangs, vampire, baldur's gate 3, baldur's gate",
+        enhancers: ["ornate clothes"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2827,8 +2827,8 @@ const characterData = [{
     {
         name: "orin the red",
         category: "Baldur's Gate 3",
-        mainTags: "orin the red, blonde hair, black lips, red bodysuit, baldur's gate 3, baldur's gate",
-        enhancers: [],
+        mainTags: "orin the red, blonde hair, black lips, baldur's gate 3, baldur's gate",
+        enhancers: ["red bodysuit"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2836,8 +2836,8 @@ const characterData = [{
     {
         name: "lae'zel",
         category: "Baldur's Gate 3",
-        mainTags: "lae'zel, colored skin, green skin, gith (d&d), full armor, boobplate, greaves, cuisses, baldur's gate 3, baldur's gate",
-        enhancers: [],
+        mainTags: "lae'zel, colored skin, green skin, gith (d&d), baldur's gate 3, baldur's gate",
+        enhancers: ["[full armor", "boobplate", "greaves", "cuisses]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2845,8 +2845,8 @@ const characterData = [{
     {
         name: "minthara",
         category: "Baldur's Gate 3",
-        mainTags: "minthara, dark elf, white hair, red eyes, black skin, dark-skinned female, full armor, baldur's gate 3, baldur's gate",
-        enhancers: [],
+        mainTags: "minthara, dark elf, white hair, red eyes, colored skin,black skin, dark-skinned female, baldur's gate 3, baldur's gate",
+        enhancers: ["full armor"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2854,8 +2854,8 @@ const characterData = [{
     {
         name: "gale (baldur's gate)",
         category: "Baldur's Gate 3",
-        mainTags: "gale (baldur's gate), brown hair, purple robe, baldur's gate 3, baldur's gate",
-        enhancers: [],
+        mainTags: "gale (baldur's gate), brown hair, baldur's gate 3, baldur's gate",
+        enhancers: ["purple robe"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2863,8 +2863,8 @@ const characterData = [{
     {
         name: "the dark urge (baldur's gate)",
         category: "Baldur's Gate 3",
-        mainTags: "the dark urge (baldur's gate), dragon girl, dragon, white scales, animal nose, furry, black armor, baldur's gate 3, baldur's gate",
-        enhancers: [],
+        mainTags: "the dark urge (baldur's gate), dragon girl, dragon, white scales, animal nose, furry, baldur's gate 3, baldur's gate",
+        enhancers: ["black armor"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2872,8 +2872,8 @@ const characterData = [{
     {
         name: "mizora (baldur's gate)",
         category: "Baldur's Gate 3",
-        mainTags: "mizora (baldur's gate), demon girl, colored skin, grey skin, horns, long red hair, red eyes, black sclera, blue dress, cape, baldur's gate 3, baldur's gate",
-        enhancers: [],
+        mainTags: "mizora (baldur's gate), demon girl, colored skin, grey skin, horns, long red hair, red eyes, black sclera, baldur's gate 3, baldur's gate",
+        enhancers: ["[blue dress, cape]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2881,8 +2881,8 @@ const characterData = [{
     {
         name: "raphael (baldur's gate)",
         category: "Baldur's Gate 3",
-        mainTags: "raphael (baldur's gate), colored skin, red skin, demon horns, multiple horns, black armor, demon wings, demon tail, demon girl, baldur's gate 3, baldur's gate",
-        enhancers: [],
+        mainTags: "raphael (baldur's gate), colored skin, red skin, demon horns, multiple horns, demon wings, demon tail, demon boy, baldur's gate 3, baldur's gate",
+        enhancers: ["black armor", "ornate clothes"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2890,8 +2890,8 @@ const characterData = [{
     {
         name: "stelle (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "stelle (honkai: star rail), grey hair, long hair, golden eyes, white shirt, open jacket, bike shorts, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "stelle (honkai: star rail), grey hair, long hair, golden eyes, honkai: star rail, honkai (series)",
+        enhancers: ["[white shirt", "open jacket", "bike shorts]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2899,8 +2899,8 @@ const characterData = [{
     {
         name: "firefly (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "firefly (honkai: star rail), grey hair, gradient hair, long hair, headband, hair decoration, grey eyes, white dress, black jacket, orange bow, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "firefly (honkai: star rail), grey hair, gradient hair, long hair, grey eyes, honkai: star rail, honkai (series)",
+        enhancers: ["[headband", "hair decoration", "white dress", "black jacket", "orange bow]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2908,8 +2908,8 @@ const characterData = [{
     {
         name: "kafka (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "kafka (honkai: star rail), red hair, medium hair, glasses on head, black jacket, belts, pantyhose, black shorts, white shirt, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "kafka (honkai: star rail), red hair, medium hair, honkai: star rail, honkai (series)",
+        enhancers: ["[black jacket", "glasses on head", "belts", "pantyhose", "black shorts", "white shirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2917,8 +2917,8 @@ const characterData = [{
     {
         name: "acheron (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "acheron (honkai: star rail), blue hair, black halter top, black shorts, belt, jacket, wide sleeves, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "acheron (honkai: star rail), blue hair, honkai: star rail, honkai (series)",
+        enhancers: ["[black halter top", "black shorts", "belt", "jacket", "wide sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2926,8 +2926,8 @@ const characterData = [{
     {
         name: "march 7th (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "march 7th (honkai: star rail), pink hair, medium hair, two-tone dress, blue jacket, thigh belt, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "march 7th (honkai: star rail), pink hair, medium hair, honkai: star rail, honkai (series)",
+        enhancers: ["[two-tone dress", "blue jacket", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2935,8 +2935,8 @@ const characterData = [{
     {
         name: "sparkle (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "sparkle (honkai: star rail), black hair, twintails, mask on head, pink eyes, red dress, chinese clothes, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "sparkle (honkai: star rail), black hair, twintails, honkai: star rail, honkai (series)",
+        enhancers: ["[mask on head", "red dress", "chinese clothes]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2944,8 +2944,8 @@ const characterData = [{
     {
         name: "robin (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "robin (honkai: star rail), blue hair, gradient hair, halo, two-tone dress, gloves, bracelet, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "robin (honkai: star rail), blue hair, gradient hair, honkai: star rail, honkai (series)",
+        enhancers: ["[halo", "two-tone dress", "gloves", "bracelet]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2953,8 +2953,8 @@ const characterData = [{
     {
         name: "silver wolf (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "silver wolf (honkai: star rail), grey hair, bow, glasses on head, fur-trimmed jacket, crop top, bike shorts, leg belt, holster, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "silver wolf (honkai: star rail), grey hair, honkai: star rail, honkai (series)",
+        enhancers: ["[bow", "glasses on head", "fur-trimmed jacket", "crop top", "bike shorts", "leg belt", "holster]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2962,8 +2962,8 @@ const characterData = [{
     {
         name: "herta (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "herta (honkai: star rail), big witch hat, grey hair, long hair, choker, white dress, black corset, detached sleeves, necklace, puffy sleeves, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "herta (honkai: star rail), big witch hat, grey hair, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[choker", "white dress", "black corset", "detached sleeves", "necklace", "puffy sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2971,8 +2971,8 @@ const characterData = [{
     {
         name: "black swan (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "black swan (honkai: star rail), grey hair, absurdly long hair, hood, detached collar, detached sleeves, halter dress, bike shorts, pantyhose, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "black swan (honkai: star rail), grey hair, honkai: star rail, honkai (series)",
+        enhancers: ["[hood", "detached collar", "detached sleeves", "halter dress", "bike shorts", "pantyhose]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2980,8 +2980,8 @@ const characterData = [{
     {
         name: "ruan mei (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "ruan mei (honkai: star rail), black hair, green eyes, hair flower, green dress, chinese clothes, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "ruan mei (honkai: star rail), black hair, green eyes, honkai: star rail, honkai (series)",
+        enhancers: ["[hair flower", "green dress", "chinese clothes]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2989,8 +2989,8 @@ const characterData = [{
     {
         name: "topaz (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "topaz (honkai: star rail), grey hair, streaked hair, black jumper, detached sleeves, one elbow glove, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "topaz (honkai: star rail), grey hair, streaked hair, honkai: star rail, honkai (series)",
+        enhancers: ["[black jumper", "detached sleeves", "one elbow glove]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -2998,8 +2998,8 @@ const characterData = [{
     {
         name: "himeko (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "himeko (honkai: star rail), red hair, long hair, hair ornament, white dress, two-sided cloak, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "himeko (honkai: star rail), red hair, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[hair ornament", "white dress", "two-sided cloak]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3007,8 +3007,8 @@ const characterData = [{
     {
         name: "feixiao (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "feixiao (honkai: star rail), grey hair, long hair, fox girl, fox ears, white jacket, green shirt, black shorts, belts, thigh belt, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "feixiao (honkai: star rail), grey hair, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[white jacket", "green shirt", "black shorts", "belts", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3016,8 +3016,8 @@ const characterData = [{
     {
         name: "jingliu (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "jingliu (honkai: star rail), grey hair, long hair, hat, multicolored dress, detached sleeves, single gauntlet, knee boots, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "jingliu (honkai: star rail), grey hair, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[hat", "multicolored dress", "detached sleeves", "single gauntlet", "knee boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3025,8 +3025,8 @@ const characterData = [{
     {
         name: "fu xuan (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "fu xuan (honkai: star rail), pink hair, long hair, face mark, hair ornament, black dress, white skirt, detached sleeves, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "fu xuan (honkai: star rail), pink hair, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[face mark", "hair ornament", "black dress", "white skirt", "detached sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3034,8 +3034,8 @@ const characterData = [{
     {
         name: "tingyun (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "tingyun (honkai: star rail), fox girl, fox ears, fox tail, brown hair, multicolored dress, detached sleeves, collar, knee boots, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "tingyun (honkai: star rail), fox girl, fox ears, fox tail, honkai: star rail, honkai (series)",
+        enhancers: ["[brown hair", "multicolored dress", "detached sleeves", "collar", "knee boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3043,8 +3043,8 @@ const characterData = [{
     {
         name: "bronya rand",
         category: "Honkai: Star Rail",
-        mainTags: "bronya rand, grey hair, long hair, white dress, pantyhose, thigh boots, elbow gloves, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "bronya rand, grey hair, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[white dress", "pantyhose", "thigh boots", "elbow gloves", "belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3052,8 +3052,8 @@ const characterData = [{
     {
         name: "seele (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "seele (honkai: star rail), purple hair, gradient hair, white leotard, black shorts, detached sleeves, single gauntlet, thigh belt, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "seele (honkai: star rail), purple hair, gradient hair, honkai: star rail, honkai (series)",
+        enhancers: ["[white leotard", "black shorts", "detached sleeves", "single gauntlet", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3061,8 +3061,8 @@ const characterData = [{
     {
         name: "yunli (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "yunli (honkai: star rail), black hair, short hair, tiara, white dress, green dress, detached sleeves, red cape, bracers, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "yunli (honkai: star rail), black hair, short hair, honkai: star rail, honkai (series)",
+        enhancers: ["[tiara", "white dress", "green dress", "detached sleeves", "red cape", "bracers]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3070,8 +3070,8 @@ const characterData = [{
     {
         name: "lingsha (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "lingsha (honkai: star rail), black hair, long hair, hair ornament, black dress, white leotard under dress, thigh belt, gloves, single bracer, tattoo, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "lingsha (honkai: star rail), black hair, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[hair ornament", "black dress", "white leotard under dress", "thigh belt", "gloves", "single bracer", "tattoo]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3079,8 +3079,8 @@ const characterData = [{
     {
         name: "qingque (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "qingque (honkai: star rail), grey hair, hairclip, green eyes, brown sweater, shoulder cutouts, multicolor dress, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "qingque (honkai: star rail), grey hair, honkai: star rail, honkai (series)",
+        enhancers: ["[hairclip", "green eyes", "brown sweater", "shoulder cutouts", "multicolor dress]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3088,8 +3088,8 @@ const characterData = [{
     {
         name: "huohuo (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "huohuo (honkai: star rail), green hair, hat, hat ornament, earrings, blue eyes, shirt, brown shorts, brown sash, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "huohuo (honkai: star rail), green hair, honkai: star rail, honkai (series)",
+        enhancers: ["[hat", "hat ornament", "earrings", "blue eyes", "shirt", "brown shorts", "brown sash]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3097,8 +3097,8 @@ const characterData = [{
     {
         name: "jade (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "jade (honkai: star rail), purple hair, long hair, black hat, big hat, multicolored dress, bra peek, black bra, gold belt, open sleeves, thigh belt, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "jade (honkai: star rail), purple hair, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[black hat", "big hat", "multicolored dress", "gold belt", "open sleeves", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3106,8 +3106,8 @@ const characterData = [{
     {
         name: "rappa (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "rappa (honkai: star rail), pink hair, hat, fake horns, red jacket, single sleeve, white croptop, bra peek, short shorts, belt, knee boot, thigh boot, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "rappa (honkai: star rail), pink hair, honkai: star rail, honkai (series)",
+        enhancers: ["[hat", "fake horns", "red jacket", "single sleeve", "white croptop", "short shorts", "belt", "single knee boot", "single thigh boot]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3115,8 +3115,8 @@ const characterData = [{
     {
         name: "clara (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "clara (honkai: star rail), white hair, long hair, pink eyes, red jacket, fur-trimmed jacket, white dress, detached collar, thigh belt, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "clara (honkai: star rail), white hair, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[pink eyes", "red jacket", "fur-trimmed jacket", "white dress", "detached collar", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3124,8 +3124,8 @@ const characterData = [{
     {
         name: "sushang (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "sushang (honkai: star rail), brown hair, long hair, twintails, multiple hair bows, hair ornament, white dress, detached sleeves, yellow sleeves, thigh belt, purple cape, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "sushang (honkai: star rail), brown hair, long hair, twintails, honkai: star rail, honkai (series)",
+        enhancers: ["[multiple hair bows", "hair ornament", "white dress", "detached sleeves", "yellow sleeves", "thigh belt", "purple cape]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3133,8 +3133,8 @@ const characterData = [{
     {
         name: "pela (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "pela (honkai: star rail), glasses, purple hair, black hat, hat ornaments, white dress, black dress, blue bow, white cape, ribbons, panyhose, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "pela (honkai: star rail), glasses, purple hair, honkai: star rail, honkai (series)",
+        enhancers: ["[black hat", "hat ornaments", "white dress", "black dress", "blue bow", "white cape", "ribbons", "pantyhose]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3142,8 +3142,8 @@ const characterData = [{
     {
         name: "fugue (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "fugue (honkai: star rail), fox girl, fox ears, fox tail, ninetales, black off-shoulder dress, belt, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "fugue (honkai: star rail), fox girl, fox ears, fox tail, ninetales, honkai: star rail, honkai (series)",
+        enhancers: ["[black off-shoulder dress", "belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3151,8 +3151,8 @@ const characterData = [{
     {
         name: "asta (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "asta (honkai: star rail), pink hair, hairclip, blue eyes, white shirt, detached sleeves, bowtie, lanyard, multicolor skirt, thigh belt, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "asta (honkai: star rail), pink hair, blue eyes, honkai: star rail, honkai (series)",
+        enhancers: ["[white shirt", "hairclip", "detached sleeves", "bowtie", "lanyard", "multicolor skirt", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3160,8 +3160,8 @@ const characterData = [{
     {
         name: "hanya (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "hanya (honkai: star rail), grey hair, gradient hair, hair feathers, earring, choker, mesh leotard, green dress, detached sleeves, tattoo, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "hanya (honkai: star rail), grey hair, gradient hair, honkai: star rail, honkai (series)",
+        enhancers: ["[hair feathers", "earring", "choker", "mesh leotard", "green dress", "detached sleeves", "tattoo", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3169,8 +3169,8 @@ const characterData = [{
     {
         name: "guinaifen (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "guinaifen (honkai: star rail), red hair, ponytail, hair ornament, earrings, dress, corset, gloves, pantyhose, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "guinaifen (honkai: star rail), red hair, ponytail, honkai: star rail, honkai (series)",
+        enhancers: ["[hair ornament", "earrings", "dress", "corset", "gloves", "pantyhose", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3178,8 +3178,8 @@ const characterData = [{
     {
         name: "serval landau",
         category: "Honkai: Star Rail",
-        mainTags: "serval landau, blonde hair, streaked hair, black crop top, white jacket, detached sleeves, blue skirt, pantyhose, single thigh boot, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "serval landau, blonde hair, streaked hair, honkai: star rail, honkai (series)",
+        enhancers: ["[black crop top", "white jacket", "detached sleeves", "blue skirt", "pantyhose", "single thigh boot", "belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3187,8 +3187,8 @@ const characterData = [{
     {
         name: "lynx landau",
         category: "Honkai: Star Rail",
-        mainTags: "lynx landau, blonde hair, blue eyes, fake cat ears, blue bandana, black dress, multicolored jacket, blue leggings, thigh belt, shoulder bag, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "lynx landau, blonde hair, blue eyes, honkai: star rail, honkai (series)",
+        enhancers: ["[fake cat ears", "blue bandana", "black dress", "multicolored jacket", "blue leggings", "thigh belt", "shoulder bag", "belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3196,8 +3196,8 @@ const characterData = [{
     {
         name: "yukong (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "yukong (honkai: star rail), teal hair, fox girl, fox ears, fox tail, multicolored dress, shoulder cutout, fur collar, detached collar, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "yukong (honkai: star rail), teal hair, fox girl, fox ears, fox tail, honkai: star rail, honkai (series)",
+        enhancers: ["[multicolored dress", "shoulder cutout", "fur collar", "detached collar]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3205,8 +3205,8 @@ const characterData = [{
     {
         name: "hook (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "hook (honkai: star rail), blonde hair, hat, brown coat, fur-trimmed coat, yellow shirt, brown shorts, kneehighs, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "hook (honkai: star rail), blonde hair, honkai: star rail, honkai (series)",
+        enhancers: ["[hat", "brown coat", "fur-trimmed coat", "yellow shirt", "brown shorts", "kneehighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3214,8 +3214,8 @@ const characterData = [{
     {
         name: "natasha (honkai: star rail)",
         category: "Honkai: Star Rail",
-        mainTags: "natasha (honkai: star rail), teal hair, purple eyes, long hair, white jacket, single elbow glove, blue dress, black leotard, leggings, honkai: star rail, honkai (series)",
-        enhancers: [],
+        mainTags: "natasha (honkai: star rail), teal hair, purple eyes, long hair, honkai: star rail, honkai (series)",
+        enhancers: ["[white jacket", "single elbow glove", "blue dress", "black leotard", "leggings]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3223,8 +3223,8 @@ const characterData = [{
     {
         name: "ganyu (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "ganyu (genshin impact), horns, ahoge, multicolor dress, pantyhose, detached sleeves, black gloves, thigh belts, genshin impact",
-        enhancers: [],
+        mainTags: "ganyu (genshin impact), horns, ahoge,genshin impact",
+        enhancers: ["[multicolored dress", "pantyhose", "detached sleeves", "black gloves", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3232,8 +3232,8 @@ const characterData = [{
     {
         name: "lumine (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "lumine (genshin impact), blonde hair, brown eyes, short hair, hair flower, white dress, black trim, thighhighs, genshin impact",
-        enhancers: [],
+        mainTags: "lumine (genshin impact), blonde hair, brown eyes, short hair, genshin impact",
+        enhancers: ["[hair flower", "white dress", "black trim", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3241,8 +3241,8 @@ const characterData = [{
     {
         name: "raiden shogun",
         category: "Genshin Impact",
-        mainTags: "raiden shogun, purple hair, hair ornament, purple eyes, japanese clothes, kimono, collar, belts, thighhighs, genshin impact",
-        enhancers: [],
+        mainTags: "raiden shogun, purple hair, purple eyes, genshin impact",
+        enhancers: ["[japanese clothes", "hair ornament", "kimono", "collar", "belts", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3250,8 +3250,8 @@ const characterData = [{
     {
         name: "hu tao (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "hu tao (genshin impact), brown hair, short hair, hat, hat flower, black dress, black shorts, wide sleeves, collar, kneehighs, genshin impact",
-        enhancers: [],
+        mainTags: "hu tao (genshin impact), brown hair, short hair, genshin impact",
+        enhancers: ["[hat", "hat flower", "black dress", "black shorts", "wide sleeves", "collar", "kneehighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3259,8 +3259,8 @@ const characterData = [{
     {
         name: "furina (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "furina (genshin impact), white hair, mini top hat, blue eyes, black dress, black shorts, blue jacket, gloves, thigh belts, genshin impact",
-        enhancers: [],
+        mainTags: "furina (genshin impact), white hair, genshin impact",
+        enhancers: ["[mini top hat", "blue eyes", "black dress", "black shorts", "blue jacket", "gloves", "thigh belts]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3268,8 +3268,8 @@ const characterData = [{
     {
         name: "yae miko",
         category: "Genshin Impact",
-        mainTags: "yae miko, pink hair, long hair, japanese clothes, nontraditional miko, detached sleeves, genshin impact",
-        enhancers: [],
+        mainTags: "yae miko, pink hair, long hair,genshin impact",
+        enhancers: ["[japanese clothes", "nontraditional miko", "detached sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3277,8 +3277,8 @@ const characterData = [{
     {
         name: "nahida (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "nahida (genshin impact), white hair, green eyes, pointy ears, ponytail, hair ornament, white dress, green cape, single bangle, detached sleeves, genshin impact",
-        enhancers: [],
+        mainTags: "nahida (genshin impact), white hair, green eyes, pointy ears, ponytail,genshin impact",
+        enhancers: ["[hair ornament", "white dress", "green cape", "single bangle", "detached sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3286,8 +3286,8 @@ const characterData = [{
     {
         name: "keqing (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "keqing (genshin impact), grey hair, cone hair bun, red eyes, purple collared dress, detached sleeves, gloves, pantyhose, genshin impact",
-        enhancers: [],
+        mainTags: "keqing (genshin impact), grey hair, cone hair bun, red eyes,genshin impact",
+        enhancers: ["[purple collared dress", "detached sleeves", "gloves", "pantyhose]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3295,8 +3295,8 @@ const characterData = [{
     {
         name: "mona (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "mona (genshin impact), black hair, twintails, mage hat, grey eyes, leotard, long sleeves, elbow gloves, pantyhose, thigh belt, genshin impact",
-        enhancers: [],
+        mainTags: "mona (genshin impact), black hair, twintails,genshin impact",
+        enhancers: ["[mage hat", "grey eyes", "leotard", "long sleeves", "elbow gloves", "pantyhose", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3304,8 +3304,8 @@ const characterData = [{
     {
         name: "kamisato ayaka",
         category: "Genshin Impact",
-        mainTags: "kamisato ayaka, blue hair, hair ornament, necklace, japanese armor, blue dress, elbow gloves, rope belt, genshin impact",
-        enhancers: [],
+        mainTags: "kamisato ayaka, blue hair, genshin impact",
+        enhancers: ["[hair ornament", "necklace", "japanese armor", "blue dress", "elbow gloves", "rope belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3313,8 +3313,8 @@ const characterData = [{
     {
         name: "klee (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "klee (genshin impact), blonde hair, red eyes, hat, hat ornament, red dress, gloves, kneehighs, genshin impact",
-        enhancers: [],
+        mainTags: "klee (genshin impact), blonde hair, red eyes, genshin impact",
+        enhancers: ["[hat", "hat ornament", "red dress", "gloves", "kneehighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3322,8 +3322,8 @@ const characterData = [{
     {
         name: "paimon (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "paimon (genshin impact), white hair, glowing eyes, halo, white dress, wide sleeves, single thighhigh, genshin impact",
-        enhancers: [],
+        mainTags: "paimon (genshin impact), white hair, glowing eyes, genshin impact",
+        enhancers: ["[halo", "white dress", "wide sleeves", "single thighhigh]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3331,8 +3331,8 @@ const characterData = [{
     {
         name: "eula (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "eula (genshin impact), blue hair, short hair, feather hair ornament, black dress, white jacket, wide sleeves, gloves, thighhighs, thigh belts, blue tie, genshin impact",
-        enhancers: [],
+        mainTags: "eula (genshin impact), blue hair, short hair, genshin impact",
+        enhancers: ["[feather hair ornament", "black dress", "white jacket", "wide sleeves", "gloves", "thighhighs", "thigh belt", "blue tie]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3340,8 +3340,8 @@ const characterData = [{
     {
         name: "shenhe (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "shenhe (genshin impact), white hair, hair over one eye, blue eye, hair ornament, black bodysuit, white shirt, breast curtains, detached sleeves, gloves, genshin impact",
-        enhancers: [],
+        mainTags: "shenhe (genshin impact), white hair, hair over one eye, blue eye, genshin impact",
+        enhancers: ["[hair ornament", "black bodysuit", "white shirt", "breast curtains", "detached sleeves", "gloves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3349,8 +3349,8 @@ const characterData = [{
     {
         name: "yelan (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "yelan (genshin impact), black hair, gradeitn hair, blue eyes, black bodysuit, white jacket, fur-trimmed jacket, chocker, single elbow glove, single glove, leggings, genshin impact",
-        enhancers: [],
+        mainTags: "yelan (genshin impact), black hair, gradient hair, blue eyes, genshin impact",
+        enhancers: ["[black bodysuit", "white jacket", "fur-trimmed jacket", "chocker", "single elbow glove", "single glove", "leggings]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3358,8 +3358,8 @@ const characterData = [{
     {
         name: "nilou (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "nilou (genshin impact), horns, red hair, blue eyes, long sleeves, crop top, skirt, belt, leg belt, navel, genshin impact",
-        enhancers: [],
+        mainTags: "nilou (genshin impact), horns, red hair, blue eyes, genshin impact",
+        enhancers: ["[long sleeves", "crop top", "skirt", "belt", "leg belt", "navel]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3367,8 +3367,8 @@ const characterData = [{
     {
         name: "arlecchino (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "arlecchino (genshin impact), hgrey hair, streaked hair, red eyes, aristocratic clothes, grey jacket, black pants, cape, collar, genshin impact",
-        enhancers: [],
+        mainTags: "arlecchino (genshin impact), grey hair, streaked hair, red eyes, genshin impact",
+        enhancers: ["[aristocratic clothes", "grey jacket", "black pants", "cape", "collar]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3376,8 +3376,8 @@ const characterData = [{
     {
         name: "sangonomiya kokomi",
         category: "Genshin Impact",
-        mainTags: "sangonomiya kokomi, blonde hair, bow, hair ornament, long hair, collar, off-shoulder dress, bow, wide sleeves, white shorts, thighhighs, genshin impact",
-        enhancers: [],
+        mainTags: "sangonomiya kokomi, blonde hair, genshin impact",
+        enhancers: ["[bow", "hair ornament", "long hair", "collar", "off-shoulder dress", "bow", "wide sleeves", "white shorts", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3385,8 +3385,8 @@ const characterData = [{
     {
         name: "barbara (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "barbara (genshin impact), blonde hair, twin drills, hat, detached collar, off-shoulder dress, white dress, frills, white leggings, genshin impact",
-        enhancers: [],
+        mainTags: "barbara (genshin impact), blonde hair, twin drills,genshin impact",
+        enhancers: ["[hat", "detached collar", "off-shoulder dress", "white dress", "frills", "white leggings]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3394,8 +3394,8 @@ const characterData = [{
     {
         name: "fischl (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "fischl (genshin impact), blonde hair, long hair, hair over one eye, neck bow, detached sleeves, single glove, black dress, pantyhose, single legwear garter, genshin impact",
-        enhancers: [],
+        mainTags: "fischl (genshin impact), blonde hair, long hair, hair over one eye, genshin impact",
+        enhancers: ["[neck bow", "detached sleeves", "single glove", "black dress", "pantyhose", "single legwear garter]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3403,8 +3403,8 @@ const characterData = [{
     {
         name: "jean (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "jean (genshin impact), blonde hair, long hair, ponytail, blue jacket, white shirt, white pants, belt, gauntlets, detached collar, knee boots, genshin impact",
-        enhancers: [],
+        mainTags: "jean (genshin impact), blonde hair, long hair, genshin impact",
+        enhancers: ["[ponytail", "blue jacket", "white shirt", "white pants", "belt", "gauntlets", "detached collar", "knee boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3412,8 +3412,8 @@ const characterData = [{
     {
         name: "amber (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "amber (genshin impact), brown hair, long hair, hair bow, brown eyes, goggles, red sleeves, white shirt, black corset, brown shorts, thighhighs, thigh belt, holster, genshin impact",
-        enhancers: [],
+        mainTags: "amber (genshin impact), brown hair, long hair, genshin impact",
+        enhancers: ["[hair bow", "brown eyes", "goggles", "red sleeves", "white shirt", "black corset", "brown shorts", "thighhighs", "thigh belt", "holster]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3421,8 +3421,8 @@ const characterData = [{
     {
         name: "ningguang (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "ningguang (genshin impact), white hair, parted bangs, red eyes, chinese hairpin, tassel hair ornament, chinese clothes, claw ring, elbow gloves, fur collar, genshin impact",
-        enhancers: [],
+        mainTags: "ningguang (genshin impact), white hair, parted bangs, red eyes, genshin impact",
+        enhancers: ["[chinese hairpin", "tassel hair ornament", "chinese clothes", "claw ring", "elbow gloves", "fur collar]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3430,8 +3430,8 @@ const characterData = [{
     {
         name: "yoimiya (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "yoimiya (genshin impact), red hair, brown eyes, short hair, hair ornament, sarashi, single bare shoulder, single thighhigh, single glove, choker, genshin impact",
-        enhancers: [],
+        mainTags: "yoimiya (genshin impact), red hair, brown eyes, short hair, genshin impact",
+        enhancers: ["[hair ornament", "sarashi", "single bare shoulder", "single thighhigh", "single glove", "choker]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3439,8 +3439,8 @@ const characterData = [{
     {
         name: "qiqi (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "qiqi (genshin impact), grey hair, pink eyes, hat, ofuda, purple dress, wide sleeves, necklace, thighhighs, genshin impact",
-        enhancers: [],
+        mainTags: "qiqi (genshin impact), grey hair, pink eyes, genshin impact",
+        enhancers: ["[hat", "ofuda", "purple dress", "wide sleeves", "necklace", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3448,8 +3448,8 @@ const characterData = [{
     {
         name: "clorinde (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "clorinde (genshin impact), black hair, purple ascot, hat, hat feather, epaulettes, black skirt, cape, black corset, framed breasts, white shirt, fold-over gloves, black pantyhose, thigh belts, genshin impact",
-        enhancers: [],
+        mainTags: "clorinde (genshin impact), black hair, genshin impact",
+        enhancers: ["[purple ascot", "hat", "hat feather", "epaulettes", "black skirt", "cape", "black corset", "framed breasts", "white shirt", "fold-over gloves", "black pantyhose", "thigh belts]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3457,8 +3457,8 @@ const characterData = [{
     {
         name: "kujou sara",
         category: "Genshin Impact",
-        mainTags: "kujou sara, black hair, brown eyes, mask on head, black bodysuit, white shirt, breast curtain, shoulder cutout, gloves, black leggings, multicolored skirt, bow belt, genshin impact",
-        enhancers: [],
+        mainTags: "kujou sara, black hair, brown eyes, genshin impact",
+        enhancers: ["[mask on head", "black bodysuit", "white shirt", "breast curtain", "shoulder cutout", "gloves", "black leggings", "multicolored skirt", "bow belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3466,8 +3466,8 @@ const characterData = [{
     {
         name: "noelle (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "noelle (genshin impact), grey hair, short hair, hat, hair flower, rose, armored dress, belt, single shoulderpad, single elbow glove, single glove, greaves, genshin impact",
-        enhancers: [],
+        mainTags: "noelle (genshin impact), grey hair, short hair, genshin impact",
+        enhancers: ["[hat", "hair flower", "rose", "armored dress", "belt", "single shoulderpad", "single elbow glove", "single glove", "greaves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3475,8 +3475,8 @@ const characterData = [{
     {
         name: "beidou (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "beidou (genshin impact), brown hair, one eye, eyepatch, hairpin, fur-trimmed cape, fingerless gloves, chinese clothes, sleeveless turtleneck leotard, thighhighs, pelvic curtain, genshin impact",
-        enhancers: [],
+        mainTags: "beidou (genshin impact), brown hair, one eye, genshin impact",
+        enhancers: ["[eyepatch", "hairpin", "fur-trimmed cape", "fingerless gloves", "chinese clothes", "sleeveless turtleneck leotard", "thighhighs", "pelvic curtain]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3484,8 +3484,8 @@ const characterData = [{
     {
         name: "lynette (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "lynette (genshin impact), grey hair, very long hair, animal ear fluff, animal ears, cat ears, cat tail, cat girl, purple eyes, hair ribbon, white shirt, pantyhose, black leotard, genshin impact",
-        enhancers: [],
+        mainTags: "lynette (genshin impact), grey hair, very long hair, animal ear fluff, animal ears, cat ears, cat tail, cat girl, purple eyes, genshin impact",
+        enhancers: ["[hair ribbon", "white shirt", "pantyhose", "black leotard]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3493,8 +3493,8 @@ const characterData = [{
     {
         name: "dehya (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "dehya (genshin impact), brown hair, long hair, blue eyes, fingerless gloves, claw ring, belt, single shoulder pad, bandeau, black shorts, knee boots, genshin impact",
-        enhancers: [],
+        mainTags: "dehya (genshin impact), brown hair, long hair, blue eyes, genshin impact",
+        enhancers: ["[fingerless gloves", "claw ring", "belt", "single shoulder pad", "bandeau", "black shorts", "knee boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3502,8 +3502,8 @@ const characterData = [{
     {
         name: "lisa (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "lisa (genshin impact), brown hair, green eyes, big mage hat, thighband pantyhose, purple dress, puffy short sleeves, black elbow gloves, genshin impact",
-        enhancers: [],
+        mainTags: "lisa (genshin impact), brown hair, green eyes, genshin impact",
+        enhancers: ["[witch hat", "thighband pantyhose", "purple dress", "puffy short sleeves", "black elbow gloves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3511,8 +3511,8 @@ const characterData = [{
     {
         name: "navia (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "navia (genshin impact), blonde hair, blue eyes, long hair, black hat, hat flower, black rose, steampunk dress, thigh boots, genshin impact",
-        enhancers: [],
+        mainTags: "navia (genshin impact), blonde hair, blue eyes, long hair, genshin impact",
+        enhancers: ["[black hat", "hat flower", "black rose", "steampunk dress", "thigh boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3520,8 +3520,8 @@ const characterData = [{
     {
         name: "yanfei (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "yanfei (genshin impact), red hair, green eyes, hat, crop top, detached sleeves, puffy sleeves, sash, black bloomers, belt, red skirt, fur-trimmed boots, genshin impact",
-        enhancers: [],
+        mainTags: "yanfei (genshin impact), red hair, green eyes, genshin impact",
+        enhancers: ["[hat", "crop top", "detached sleeves", "puffy sleeves", "sash", "black bloomers", "belt", "red skirt", "fur-trimmed boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3529,8 +3529,8 @@ const characterData = [{
     {
         name: "mavuika (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "mavuika (genshin impact), red hair, multicolored hair, red eyes, choker, black bikesuit, red trim, zipper, cleavage, genshin impact",
-        enhancers: [],
+        mainTags: "mavuika (genshin impact), red hair, multicolored hair, red eyes, genshin impact",
+        enhancers: ["[choker", "black bikesuit", "red trim", "zipper]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3538,8 +3538,8 @@ const characterData = [{
     {
         name: "citlali (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "citlali (genshin impact), pink hair, pink eyes, long hair, floating headgear, braid, purple necktie, black ribbed leotard, black ribbed sleeves, asymmetric sleeves, fingerless gloves, purple skirt, genshin impact",
-        enhancers: [],
+        mainTags: "citlali (genshin impact), pink hair, pink eyes, long hair, genshin impact",
+        enhancers: ["[floating headgear", "braid", "purple necktie", "black ribbed leotard", "black ribbed sleeves", "asymmetric sleeves", "fingerless gloves", "purple skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3547,8 +3547,8 @@ const characterData = [{
     {
         name: "xiangling (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "xiangling (genshin impact), black hair, short hair, hairclip, yellow eyes, chinese clothes, fingerless gloves, ribbon, genshin impact",
-        enhancers: [],
+        mainTags: "xiangling (genshin impact), black hair, short hair, genshin impact",
+        enhancers: ["[hairclip", "yellow eyes", "chinese clothes", "fingerless gloves", "ribbon]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3556,8 +3556,8 @@ const characterData = [{
     {
         name: "kuki shinobu",
         category: "Genshin Impact",
-        mainTags: "kuki shinobu, green hair, ninja, mask, miniskirt, black gloves, jacket, genshin impact",
-        enhancers: [],
+        mainTags: "kuki shinobu, green hair, genshin impact",
+        enhancers: ["[ninja", "mask", "miniskirt", "black gloves", "jacket]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3565,8 +3565,8 @@ const characterData = [{
     {
         name: "kirara (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "kirara (genshin impact), blonde hair, long hair, green eyes, animal girl, animal ears, cat ears, cat tail, two tails, cat girl, bare shoulders, black sleeves, crop top, black shorts, blue skirt, genshin impact",
-        enhancers: [],
+        mainTags: "kirara (genshin impact), blonde hair, long hair, green eyes, animal girl, animal ears, cat ears, cat tail, two tails, cat girl, genshin impact",
+        enhancers: ["[bare shoulders", "black sleeves", "crop top", "black shorts", "blue skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3574,8 +3574,8 @@ const characterData = [{
     {
         name: "rosaria (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "rosaria (genshin impact), nun, red hair, purple eyes, bare shoulders, short hair, viel, hat, white tanktop leotard, black skirt, belts, white elbow gloves, claw ring, fishnet pantyhose, genshin impact",
-        enhancers: [],
+        mainTags: "rosaria (genshin impact), red hair, purple eyes, genshin impact",
+        enhancers: ["[nun", "bare shoulders", "short hair", "viel", "hat", "white tanktop leotard", "black skirt", "belts", "white elbow gloves", "claw ring", "fishnet pantyhose]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3583,8 +3583,8 @@ const characterData = [{
     {
         name: "chiori (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "chiori (genshin impact), brown hair, long hair, hair ornament, choker, grey kimono, yellow skirt, gloves, sash, thighhighs over pantyhose, genshin impact",
-        enhancers: [],
+        mainTags: "chiori (genshin impact), brown hair, long hair, genshin impact",
+        enhancers: ["[hair ornament", "choker", "grey kimono", "yellow skirt", "gloves", "sash", "thighhighs over pantyhose]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3592,8 +3592,8 @@ const characterData = [{
     {
         name: "layla (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "layla (genshin impact), blue hair, very long hair, twin drills, yellow eyes, blue hood, choker, crown, detached sleeves, black gloves, white pantyhose, genshin impact",
-        enhancers: [],
+        mainTags: "layla (genshin impact), blue hair, very long hair, twin drills, yellow eyes, genshin impact",
+        enhancers: ["[blue hood", "choker", "crown", "detached sleeves", "black gloves", "white pantyhose]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3601,8 +3601,8 @@ const characterData = [{
     {
         name: "sucrose (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "sucrose (genshin impact), green hair, streaked hair, glasses, hat, blue dress, white gloves, thighhighs, genshin impact",
-        enhancers: [],
+        mainTags: "sucrose (genshin impact), green hair, streaked hair, glasses, genshin impact",
+        enhancers: ["[hat", "blue dress", "white gloves", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3610,8 +3610,8 @@ const characterData = [{
     {
         name: "xianyun (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "xianyun (genshin impact), black hair, gradient hair, glasses, hairpin, ponytail, black bodysuit, fine fabric emphasis, fishnet pantyhose, yellow tassel, genshin impact",
-        enhancers: [],
+        mainTags: "xianyun (genshin impact), black hair, gradient hair, glasses, genshin impact",
+        enhancers: ["[hairpin", "ponytail", "black bodysuit", "fine fabric emphasis", "fishnet pantyhose", "yellow tassel]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3619,8 +3619,8 @@ const characterData = [{
     {
         name: "mualani (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "mualani (genshin impact), white hair, hairband, halterneck, skirt, fingerless gloves, tattoo, genshin impact",
-        enhancers: [],
+        mainTags: "mualani (genshin impact), white hair, genshin impact",
+        enhancers: ["[hairband", "halterneck", "skirt", "fingerless gloves", "tattoo]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3628,8 +3628,8 @@ const characterData = [{
     {
         name: "sigewinne (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "sigewinne (genshin impact), blue hair, red eyes, nurse cap, hair ornament, blue jacket, white shirt, shorts, white leggings, red bow, waist bow, genshin impact",
-        enhancers: [],
+        mainTags: "sigewinne (genshin impact), blue hair, red eyes, genshin impact",
+        enhancers: ["[nurse cap", "hair ornament", "blue jacket", "white shirt", "shorts", "white leggings", "red bow", "waist bow]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3637,8 +3637,8 @@ const characterData = [{
     {
         name: "faruzan (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "faruzan (genshin impact), aqua hair, hair ornament, green eyes, multicolored dress, bangles, genshin impact",
-        enhancers: [],
+        mainTags: "faruzan (genshin impact), aqua hair, genshin impact",
+        enhancers: ["[hair ornament", "green eyes", "multicolored dress", "bangles]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3646,8 +3646,8 @@ const characterData = [{
     {
         name: "yun jin (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "yun jin (genshin impact), purple hair, long hair, red eyes, hat, lolita fashion, two-tone skirt, puffy sleeves, genshin impact",
-        enhancers: [],
+        mainTags: "yun jin (genshin impact), purple hair, long hair, red eyes, genshin impact",
+        enhancers: ["[hat", "lolita fashion", "two-tone skirt", "puffy sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3655,8 +3655,8 @@ const characterData = [{
     {
         name: "columbina (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "columbina (genshin impact), purple hair, eyes closed, head wings, ribbon, fur-trimmed coat, strap slip, white dress, thigh belt, genshin impact",
-        enhancers: [],
+        mainTags: "columbina (genshin impact), purple hair, eyes closed, genshin impact",
+        enhancers: ["[head wings", "ribbon", "fur-trimmed coat", "strap slip", "white dress", "thigh belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3664,8 +3664,8 @@ const characterData = [{
     {
         name: "signora (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "signora (genshin impact), blonde hair, blue eyes, one eye covered, mask over one eye, long hair, lace-trimmed eyepatch, dress, strapless dress, studded elbow gloves, fur trim, genshin impact",
-        enhancers: [],
+        mainTags: "signora (genshin impact), blonde hair, blue eyes, one eye covered, genshin impact",
+        enhancers: ["[mask over one eye", "long hair", "lace-trimmed eyepatch", "dress", "strapless dress", "studded elbow gloves", "fur trim]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3673,8 +3673,8 @@ const characterData = [{
     {
         name: "focalors (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "focalors (genshin impact), white hair, very long hair, streaked hair, blue eyes, blue dress, gradient clothes, genshin impact",
-        enhancers: [],
+        mainTags: "focalors (genshin impact), white hair, very long hair, streaked hair, blue eyes, genshin impact",
+        enhancers: ["[blue dress", "gradient clothes]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3682,8 +3682,8 @@ const characterData = [{
     {
         name: "candace (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "candace (genshin impact), dark skin, dark-skinned female, purple hair, long hair, headband, hair ornament, halter crop top, ankh necklace, shorts, pelvic curtain, genshin impact",
-        enhancers: [],
+        mainTags: "candace (genshin impact), dark skin, dark-skinned female, purple hair, long hair, genshin impact",
+        enhancers: ["[headband", "hair ornament", "halter crop top", "ankh necklace", "shorts", "pelvic curtain]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3691,8 +3691,8 @@ const characterData = [{
     {
         name: "sayu (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "sayu (genshin impact), blonde hair, animal hood, pink eyes, half-closed eyes, fake animal ears, fake animal tail, japanese armor, thigh belt, fingerless gloves, belt pouch, genshin impact",
-        enhancers: [],
+        mainTags: "sayu (genshin impact), blonde hair, animal hood, pink eyes, genshin impact",
+        enhancers: ["[half-closed eyes", "fake animal ears", "fake animal tail", "japanese armor", "thigh belt", "fingerless gloves", "belt pouch]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3700,8 +3700,8 @@ const characterData = [{
     {
         name: "diona (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "diona (genshin impact), animal girl, cat girl, cat ears, animal ear fluff, cat tail, pink hair, short hair, hat detached sleeves, cape, shirt, shorts, belt pouch, genshin impact",
-        enhancers: [],
+        mainTags: "diona (genshin impact), animal girl, cat girl, cat ears, animal ear fluff, cat tail, pink hair, short hair, genshin impact",
+        enhancers: ["[hat", "detached sleeves", "cape", "shirt", "shorts", "belt pouch]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3709,8 +3709,8 @@ const characterData = [{
     {
         name: "charlotte (genshin impact)",
         category: "Genshin Impact",
-        mainTags: "charlotte (genshin impact), pink hair, blue eyes, short hair, cabbie hat, ribbon, choker, detached long sleeves, white gloves, bowtie, monocle, suspenders, red miniskirt, thigh strap, genshin impact",
-        enhancers: [],
+        mainTags: "charlotte (genshin impact), pink hair, blue eyes, short hair, genshin impact",
+        enhancers: ["[cabbie hat", "ribbon", "choker", "detached long sleeves", "white gloves", "bowtie", "monocle", "suspenders", "red miniskirt", "thigh strap]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3718,8 +3718,8 @@ const characterData = [{
     {
         name: "ellen joe",
         category: "Zenless Zone Zero",
-        mainTags: "ellen joe, black hair, multicolored hair, maid apron, maid headdress, shark girl, shark tail, sharp teeth, zenless zone zero",
-        enhancers: [],
+        mainTags: "ellen joe, black hair, multicolored hair, shark girl, shark tail, sharp teeth, zenless zone zero",
+        enhancers: ["[maid apron", "maid headdress]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3727,8 +3727,8 @@ const characterData = [{
     {
         name: "hoshimi miyabi",
         category: "Zenless Zone Zero",
-        mainTags: "hoshimi miyabi, fox girl, fox ears, black hair, long hair, black necktie, white shirt, black skirt, pantyhose, corset, gauntlets, zenless zone zero",
-        enhancers: [],
+        mainTags: "hoshimi miyabi, fox girl, fox ears, black hair, long hair, zenless zone zero",
+        enhancers: ["[black necktie", "white shirt", "black skirt", "pantyhose", "corset", "gauntlets]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3736,8 +3736,8 @@ const characterData = [{
     {
         name: "jane doe (zenless zone zero)",
         category: "Zenless Zone Zero",
-        mainTags: "jane doe (zenless zone zero), mouse girl, mouse ears, mouse tail, black hair, gradient hair, long hair, black shirt, black shorts, green jacket, zenless zone zero",
-        enhancers: [],
+        mainTags: "jane doe (zenless zone zero), mouse girl, mouse ears, mouse tail, black hair, gradient hair, long hair, zenless zone zero",
+        enhancers: ["[black shirt", "black shorts", "green jacket]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3745,8 +3745,8 @@ const characterData = [{
     {
         name: "nicole demara",
         category: "Zenless Zone Zero",
-        mainTags: "nicole demara, pink hair, green eyes, long hair, twintails, hair bows, black jacket, shoulder cutout, white crop top, black denim shorts, single thighhigh, belts, zenless zone zero",
-        enhancers: [],
+        mainTags: "nicole demara, pink hair, green eyes, long hair, twintails, zenless zone zero",
+        enhancers: ["[hair bows", "black jacket", "shoulder cutout", "white crop top", "black denim shorts", "single thighhigh", "belts]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3754,8 +3754,8 @@ const characterData = [{
     {
         name: "belle (zenless zone zero)",
         category: "Zenless Zone Zero",
-        mainTags: "belle (zenless zone zero), purple hair, gradient hair, hairclip, black shirt, jacket, long sleeves, fingerless gloves, grey shorts, single thighhigh, zenless zone zero",
-        enhancers: [],
+        mainTags: "belle (zenless zone zero), purple hair, gradient hair, zenless zone zero",
+        enhancers: ["[hairclip", "black shirt", "jacket", "long sleeves", "fingerless gloves", "grey shorts", "single thighhigh]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3763,8 +3763,8 @@ const characterData = [{
     {
         name: "tsukishiro yanagi",
         category: "Zenless Zone Zero",
-        mainTags: "tsukishiro yanagi, pink hair, pink eyes, glasses, collared shirt, ribbon, black skirt, single shoulder pad, single gauntlet, zenless zone zero",
-        enhancers: [],
+        mainTags: "tsukishiro yanagi, pink hair, pink eyes, glasses, zenless zone zero",
+        enhancers: ["[collared shirt", "ribbon", "black skirt", "single shoulder pad", "single gauntlet]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3772,8 +3772,8 @@ const characterData = [{
     {
         name: "zhu yuan",
         category: "Zenless Zone Zero",
-        mainTags: "zhu yuan, two-tone hair, streaked hair, police uniform, black pants, jacket, zenless zone zero",
-        enhancers: [],
+        mainTags: "zhu yuan, two-tone hair, streaked hair, zenless zone zero",
+        enhancers: ["[police uniform", "black pants", "jacket]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3781,8 +3781,8 @@ const characterData = [{
     {
         name: "burnice white",
         category: "Zenless Zone Zero",
-        mainTags: "burnice white, blonde hair, twintails, glasses on head, hair ornament, leather jacket, fingerless gloves, black tube top, pleated skirt, belt, thighhighs, zenless zone zero",
-        enhancers: [],
+        mainTags: "burnice white, blonde hair, twintails, zenless zone zero",
+        enhancers: ["[glasses on head", "hair ornament", "leather jacket", "fingerless gloves", "black tube top", "pleated skirt", "belt", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3790,8 +3790,8 @@ const characterData = [{
     {
         name: "luciana de montefio",
         category: "Zenless Zone Zero",
-        mainTags: "luciana de montefio, blonde hair, ponytail, long hair, spiked helmet, red eyes, leather jacket, black denim shorts, belt, knee boots, zenless zone zero",
-        enhancers: [],
+        mainTags: "luciana de montefio, blonde hair, ponytail, long hair, zenless zone zero",
+        enhancers: ["[spiked helmet", "red eyes", "leather jacket", "black denim shorts", "belt", "knee boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3799,8 +3799,8 @@ const characterData = [{
     {
         name: "soukaku (zenless zone zero)",
         category: "Zenless Zone Zero",
-        mainTags: "soukaku (zenless zone zero), demon girl, white hair, horns, colored skin, blue skin, demon tail, green jacket, wrist cuffs, white shirt, black tie, black skirt, thigh holster, zenless zone zero",
-        enhancers: [],
+        mainTags: "soukaku (zenless zone zero), demon girl, white hair, horns, colored skin, blue skin, demon tail, zenless zone zero",
+        enhancers: ["[green jacket", "wrist cuffs", "white shirt", "black tie", "black skirt", "thigh holster]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3808,8 +3808,8 @@ const characterData = [{
     {
         name: "grace howard",
         category: "Zenless Zone Zero",
-        mainTags: "grace howard, black hair, medium hair, glasses on head, black halter top, single sleeve, fingerless gloves, single elbow glove, black pants, holster, knee pads, zenless zone zero",
-        enhancers: [],
+        mainTags: "grace howard, black hair, medium hair, zenless zone zero",
+        enhancers: ["[glasses on head", "black halter top", "single sleeve", "fingerless gloves", "single elbow glove", "black pants", "holster", "knee pads]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3817,8 +3817,8 @@ const characterData = [{
     {
         name: "qingyi (zenless zone zero)",
         category: "Zenless Zone Zero",
-        mainTags: "qingyi (zenless zone zero), green hair, twin tails, long hair, blue shirt, black shorts, knee boots, zenless zone zero",
-        enhancers: [],
+        mainTags: "qingyi (zenless zone zero), green hair, twin tails, long hair, zenless zone zero",
+        enhancers: ["[blue shirt", "black shorts", "knee boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3826,8 +3826,8 @@ const characterData = [{
     {
         name: "caesar king (zenless zone zero)",
         category: "Zenless Zone Zero",
-        mainTags: "caesar king (zenless zone zero), green hair, short hair, yellow eyes, hair ornament, black horns, fur-trimmed red jacket, prosthetic arm, black short shorts, thighhighs, zenless zone zero",
-        enhancers: [],
+        mainTags: "caesar king (zenless zone zero), green hair, short hair, yellow eyes, zenless zone zero",
+        enhancers: ["[hair ornament", "black horns", "fur-trimmed red jacket", "prosthetic arm", "black short shorts", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3835,8 +3835,8 @@ const characterData = [{
     {
         name: "anby demara",
         category: "Zenless Zone Zero",
-        mainTags: "anby demara, grey hair, orange eyes, armored jacket, green jacket, fingerless gloves, black skirt, thighhighs, zenless zone zero",
-        enhancers: [],
+        mainTags: "anby demara, grey hair, orange eyes, zenless zone zero",
+        enhancers: ["[armored jacket", "green jacket", "fingerless gloves", "black skirt", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3844,8 +3844,8 @@ const characterData = [{
     {
         name: "corin wickes",
         category: "Zenless Zone Zero",
-        mainTags: "corin wickes, green hair, purple eyes, maid headdress, maid apron, black dress, black ribbon, wrist cuffs, zenless zone zero",
-        enhancers: [],
+        mainTags: "corin wickes, green hair, purple eyes, zenless zone zero",
+        enhancers: ["[maid headdress", "maid apron", "black dress", "black ribbon", "wrist cuffs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3853,8 +3853,8 @@ const characterData = [{
     {
         name: "alexandrina sebastiane",
         category: "Zenless Zone Zero",
-        mainTags: "alexandrina sebastiane, grey hair, maid headress, red eyes, maid apron, zenless zone zero",
-        enhancers: [],
+        mainTags: "alexandrina sebastiane, grey hair, zenless zone zero",
+        enhancers: ["[maid headress", "red eyes", "maid apron]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3862,8 +3862,8 @@ const characterData = [{
     {
         name: "nekomiya mana",
         category: "Zenless Zone Zero",
-        mainTags: "nekomiya mana, dark skin, dark-skinned female, catgirl, cat ears, animal ear fluff, cat tail, two tails, black hair, very long hair, red eyes, neck bell, red headband, detached red sleeaves, knee boots, thighhighs, zenless zone zero",
-        enhancers: [],
+        mainTags: "nekomiya mana, dark skin, dark-skinned female, catgirl, cat ears, animal ear fluff, cat tail, two tails, black hair, very long hair, red eyes, zenless zone zero",
+        enhancers: ["[neck bell", "red headband", "detached red sleeaves", "knee boots", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -3880,16 +3880,16 @@ const characterData = [{
     {
         name: "koleda belobog",
         category: "Zenless Zone Zero",
-        mainTags: "koleda belobog, red hair, absurdly long hair, twintails, fake animal ears, white pants, goggles around neck, multicolored crop top, zenless zone zero",
-        enhancers: [],
+        mainTags: "koleda belobog, red hair, absurdly long hair, twintails, zenless zone zero",
+        enhancers: ["[fake animal ears", "white pants", "goggles around neck", "multicolored crop top]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
     },
     {
         name: "cortana",
-        category: "Misc",
-        mainTags: "cortana, halo (series), translucent, hologram, blue skin",
+        category: "Other",
+        mainTags: "cortana, translucent, hologram, blue skin, halo (series)",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3897,7 +3897,7 @@ const characterData = [{
     },
     {
         name: "morrigan (dragon age)",
-        category: "Misc",
+        category: "Other",
         mainTags: "morrigan (dragon age), dragon age",
         enhancers: [],
         defaultGender: "girl",
@@ -3906,7 +3906,7 @@ const characterData = [{
     },
     {
         name: "quiet (metal gear)",
-        category: "Misc",
+        category: "Other",
         mainTags: "quiet (metal gear), metal gear (series)",
         enhancers: [],
         defaultGender: "girl",
@@ -3915,7 +3915,7 @@ const characterData = [{
     },
     {
         name: "palutena",
-        category: "Misc",
+        category: "Other",
         mainTags: "palutena, kid icarus",
         enhancers: [],
         defaultGender: "girl",
@@ -3924,7 +3924,7 @@ const characterData = [{
     },
     {
         name: "bloodrayne",
-        category: "Misc",
+        category: "Other",
         mainTags: "bloodrayne, bloodrayne (videogame), leather",
         enhancers: [],
         defaultGender: "girl",
@@ -3933,7 +3933,7 @@ const characterData = [{
     },
     {
         name: "samus aran",
-        category: "Misc",
+        category: "Other",
         mainTags: "samus aran, metroid, bodysuit",
         enhancers: ["varia suit", "power suit", "power armor"],
         defaultGender: "girl",
@@ -3942,16 +3942,16 @@ const characterData = [{
     },
     {
         name: "lara croft",
-        category: "Misc",
+        category: "Other",
         mainTags: "lara croft, tomb raider",
-        enhancers: [],
+        enhancers: ["muscular female", "[brown short shorts", "tank top", "thigh holster]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
     },
     {
         name: "bayonetta",
-        category: "Misc",
+        category: "Other",
         mainTags: "bayonetta, bayonetta (series)",
         enhancers: [],
         defaultGender: "girl",
@@ -3960,7 +3960,7 @@ const characterData = [{
     },
     {
         name: "jeanne (bayonetta)",
-        category: "Misc",
+        category: "Other",
         mainTags: "jeanne (bayonetta), bayonetta (series)",
         enhancers: [],
         defaultGender: "girl",
@@ -3969,7 +3969,7 @@ const characterData = [{
     },
     {
         name: "elizabeth (bioshock infinite)",
-        category: "Misc",
+        category: "Other",
         mainTags: "elizabeth (bioshock infinite), bioshock (series)",
         enhancers: [],
         defaultGender: "girl",
@@ -3978,9 +3978,9 @@ const characterData = [{
     },
     {
         name: "v (cyberpunk)",
-        category: "Misc",
+        category: "Other",
         mainTags: "v (cyberpunk), cyberpunk 2077",
-        enhancers: [],
+        enhancers: ["valerie (cyberpunk)", "vincent (cyberpunk)"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Video Games"
@@ -4015,7 +4015,7 @@ const characterData = [{
     {
         name: "firelight ekko",
         category: "Arcane: League of Legends",
-        mainTags: "firelight ekko, very dark skin, arcane: league of legends",
+        mainTags: "firelight ekko, very dark skin, dark-skinned male, arcane: league of legends",
         enhancers: [],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -4033,7 +4033,7 @@ const characterData = [{
     {
         name: "rebecca (cyberpunk)",
         category: "Cyberpunk: Edgerunners",
-        mainTags: "rebecca (cyberpunk), cyberpunk edgerunners, {{aged up, mature female}}",
+        mainTags: "rebecca (cyberpunk), cyberpunk edgerunners,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4257,7 +4257,7 @@ const characterData = [{
     },
     {
         name: "lust (fma)",
-        category: "Fullmetal Alchemist/Brotherhood",
+        category: "Fullmetal Alchemist",
         mainTags: "lust (fma), fullmetal alchemist",
         enhancers: [],
         defaultGender: "girl",
@@ -4266,7 +4266,7 @@ const characterData = [{
     },
     {
         name: "riza hawkeye",
-        category: "Fullmetal Alchemist/Brotherhood",
+        category: "Fullmetal Alchemist",
         mainTags: "riza hawkeye, fullmetal alchemist",
         enhancers: [],
         defaultGender: "girl",
@@ -4275,7 +4275,7 @@ const characterData = [{
     },
     {
         name: "winry rockbell",
-        category: "Fullmetal Alchemist/Brotherhood",
+        category: "Fullmetal Alchemist",
         mainTags: "winry rockbell, fullmetal alchemist",
         enhancers: [],
         defaultGender: "girl",
@@ -4284,7 +4284,7 @@ const characterData = [{
     },
     {
         name: "olivier mira armstrong",
-        category: "Fullmetal Alchemist/Brotherhood",
+        category: "Fullmetal Alchemist",
         mainTags: "olivier mira armstrong, muscular female, fullmetal alchemist",
         enhancers: [],
         defaultGender: "girl",
@@ -4293,8 +4293,8 @@ const characterData = [{
     },
     {
         name: "may chang",
-        category: "Fullmetal Alchemist/Brotherhood",
-        mainTags: "may chang, twin hair bun, fullmetal alchemist, {{aged up, mature female}}",
+        category: "Fullmetal Alchemist",
+        mainTags: "may chang, twin hair bun, fullmetal alchemist,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4303,8 +4303,8 @@ const characterData = [{
     {
         name: "ash ketchum",
         category: "Pokemon (Anime)",
-        mainTags: "ash ketchum, black hair, jeans, white crop top, blue vest, hat, pokemon (classic anime)",
-        enhancers: [],
+        mainTags: "ash ketchum, black hair, pokemon (classic anime)",
+        enhancers: ["[jeans", "white shirt", "blue vest", "hat]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4312,8 +4312,8 @@ const characterData = [{
     {
         name: "misty (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "misty (pokemon), jean shorts, yellow crop top, suspenders, pokemon (anime)",
-        enhancers: [],
+        mainTags: "misty (pokemon), pokemon (anime)",
+        enhancers: ["[jean shorts", "yellow crop top", "suspenders]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4321,8 +4321,8 @@ const characterData = [{
     {
         name: "jessie (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "jessie (pokemon), long hair, red hair, white skirt, black shirt, shirt under shirt, team rocket uniform, team rocket, pokemon (anime)",
-        enhancers: [],
+        mainTags: "jessie (pokemon), long hair, red hair, pokemon (anime)",
+        enhancers: ["[white skirt", "black shirt", "shirt under shirt", "team rocket uniform", "team rocket]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4330,8 +4330,8 @@ const characterData = [{
     {
         name: "james (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "james (pokemon), purple hair, short hair, white skirt, black shirt, shirt under shirt, team rocket uniform, team rocket, pokemon, pokemon (anime)",
-        enhancers: [],
+        mainTags: "james (pokemon), purple hair, short hair, pokemon, pokemon (anime)",
+        enhancers: ["[white pants", "black shirt", "shirt under shirt", "team rocket uniform", "team rocket]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4339,8 +4339,8 @@ const characterData = [{
     {
         name: "joy (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "joy (pokemon), nurse cap, nurse, apron, pink dress, pink hair, hair loops, pokemon (anime)",
-        enhancers: [],
+        mainTags: "joy (pokemon), pink hair, hair loops, pokemon (anime)",
+        enhancers: ["[nurse", "nurse cap", "apron", "pink dress]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4348,8 +4348,8 @@ const characterData = [{
     {
         name: "jenny (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "jenny (pokemon), teal hair, police woman, police hat, pencil skirt, two-tone shirt, pokemon",
-        enhancers: [],
+        mainTags: "jenny (pokemon), teal hair, pokemon (anime)",
+        enhancers: ["[police woman", "police hat", "pencil skirt", "two-tone shirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4357,8 +4357,8 @@ const characterData = [{
     {
         name: "dawn (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "dawn (pokemon), beanie, black vest, pink skirt, pokemon (anime)",
-        enhancers: [],
+        mainTags: "dawn (pokemon), pokemon (anime)",
+        enhancers: ["[beanie", "black vest", "pink skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4366,8 +4366,8 @@ const characterData = [{
     {
         name: "may (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "may (pokemon), red bandanna, blue shorts, cleavage, shirt under shirt, gloves, pokemon (anime)",
-        enhancers: [],
+        mainTags: "may (pokemon), pokemon (anime)",
+        enhancers: ["[red bandanna", "blue shorts", "shirt under shirt", "gloves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4375,8 +4375,8 @@ const characterData = [{
     {
         name: "jasmine (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "jasmine (pokemon), brown hair, hair ornament, blue dress, white sweater, orange bow, pokemon (anime)",
-        enhancers: ["[white dress", "white bow]"],
+        mainTags: "jasmine (pokemon), brown hair, pokemon (anime)",
+        enhancers: ["[white dress", "white bow]", "[blue dress", "hair ornament", "white sweater", "orange bow]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4384,8 +4384,8 @@ const characterData = [{
     {
         name: "lana (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "lana (pokemon), short blue hair, one-piece swimsuit, swimsuit under clothes, blue pants, white crop top, pokemon (anime)",
-        enhancers: [],
+        mainTags: "lana (pokemon), short blue hair, pokemon (anime)",
+        enhancers: ["[one-piece swimsuit", "swimsuit under clothes", "blue pants", "white crop top]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4393,8 +4393,8 @@ const characterData = [{
     {
         name: "liko (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "liko (pokemon), black hair, hair ornament, blue shorts, white shirt, jacket, yellow bag, pokemon (anime)",
-        enhancers: [],
+        mainTags: "liko (pokemon), black hair, pokemon (anime)",
+        enhancers: ["[hair ornament", "blue shorts", "white shirt", "jacket", "yellow bag]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4402,8 +4402,8 @@ const characterData = [{
     {
         name: "sabrina (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "sabrina (pokemon), green hair, two-tone latex dress, thighhigh boots, pokemon (anime)",
-        enhancers: [],
+        mainTags: "sabrina (pokemon), green hair, pokemon (anime)",
+        enhancers: ["[two-tone latex dress", "thighhigh boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4411,8 +4411,8 @@ const characterData = [{
     {
         name: "iris (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "iris (pokemon), dark skin, dark-skinned female, black hair, crown, pink dress, two-tone dress, bow, wide sleeves, pokemon (anime)",
-        enhancers: [],
+        mainTags: "iris (pokemon), dark skin, dark-skinned female, black hair, pokemon (anime)",
+        enhancers: ["[crown", "pink dress", "two-tone dress", "bow", "wide sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4420,8 +4420,8 @@ const characterData = [{
     {
         name: "dot (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "dot (pokemon), purple hair, striped sweater, black tanktop, green pants, pokemon (anime)",
-        enhancers: [],
+        mainTags: "dot (pokemon), purple hair, pokemon (anime)",
+        enhancers: ["[striped sweater", "black tanktop", "green pants]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4429,8 +4429,8 @@ const characterData = [{
     {
         name: "coral (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "coral (pokemon), multicolored hair, black crop top, long sleeves, black pants, one thigh cutout, kneehigh boots, pokemon (anime)",
-        enhancers: [],
+        mainTags: "coral (pokemon), multicolored hair, pokemon (anime)",
+        enhancers: ["[black crop top", "long sleeves", "black pants", "one thigh cutout", "kneehigh boots]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4438,8 +4438,8 @@ const characterData = [{
     {
         name: "brock (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "brock (pokemon), brown hair, spiked hair, dark skin, dark-skinned female, green vest, orange shirt, brown pants, belt pouch, pokemon (anime)",
-        enhancers: [],
+        mainTags: "brock (pokemon), brown hair, spiked hair, dark skin, dark-skinned male, pokemon (anime)",
+        enhancers: ["[green vest", "orange shirt", "brown pants", "belt pouch]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4645,7 +4645,7 @@ const characterData = [{
     {
         name: "himekawa yoshino",
         category: "Date a Live",
-        mainTags: "himekawa yoshino, date a live, {{aged up, mature female}}",
+        mainTags: "himekawa yoshino, date a live,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4654,7 +4654,7 @@ const characterData = [{
     {
         name: "kyouno natsumi",
         category: "Date a Live",
-        mainTags: "kyouno natsumi, date a live, {{aged up, mature female}}",
+        mainTags: "kyouno natsumi, date a live,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5184,7 +5184,7 @@ const characterData = [{
     },
     {
         name: "hatsune miku",
-        category: "Misc",
+        category: "Other",
         mainTags: "hatsune miku",
         enhancers: [],
         defaultGender: "girl",
@@ -5221,7 +5221,7 @@ const characterData = [{
     {
         name: "wendy marvell",
         category: "Fairy Tail",
-        mainTags: "wendy marvell, fairy tail, {{aged up, mature female}}",
+        mainTags: "wendy marvell, fairy tail,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5428,7 +5428,7 @@ const characterData = [{
     {
         name: "shiro (no game no life)",
         category: "No Game, No Life",
-        mainTags: "shiro (no game no life), no game no life, {{aged up, mature female}}",
+        mainTags: "shiro (no game no life), no game no life,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5446,7 +5446,7 @@ const characterData = [{
     {
         name: "shuvi (no game no life)",
         category: "No Game, No Life",
-        mainTags: "shuvi (no game no life), no game no life, {{aged up, mature female}}",
+        mainTags: "shuvi (no game no life), no game no life,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5455,7 +5455,7 @@ const characterData = [{
     {
         name: "hatsuse izuna",
         category: "No Game, No Life",
-        mainTags: "hatsuse izuna, no game no life, {{aged up, mature female}}",
+        mainTags: "hatsuse izuna, no game no life,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5716,7 +5716,7 @@ const characterData = [{
     {
         name: "edward wong hau pepelu tivrusky iv",
         category: "Cowboy Bebop",
-        mainTags: "edward wong hau pepelu tivrusky iv, cowboy bebop, {{aged up, mature female}}",
+        mainTags: "edward wong hau pepelu tivrusky iv, cowboy bebop,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6552,7 +6552,7 @@ const characterData = [{
     },
     {
         name: "amane misa",
-        category: "Misc",
+        category: "Other",
         mainTags: "amane misa, death note",
         enhancers: [],
         defaultGender: "girl",
@@ -6561,7 +6561,7 @@ const characterData = [{
     },
     {
         name: "holo",
-        category: "Misc",
+        category: "Other",
         mainTags: "holo, spice and wolf",
         enhancers: [],
         defaultGender: "girl",
@@ -6570,7 +6570,7 @@ const characterData = [{
     },
     {
         name: "violet evergarden",
-        category: "Misc",
+        category: "Other",
         mainTags: "violet evergarden, violet evergarden (series)",
         enhancers: [],
         defaultGender: "girl",
@@ -6579,7 +6579,7 @@ const characterData = [{
     },
     {
         name: "princess leia",
-        category: "Misc",
+        category: "Other",
         mainTags: "princess leia, star wars",
         enhancers: [],
         defaultGender: "girl",
@@ -6588,7 +6588,7 @@ const characterData = [{
     },
     {
         name: "queen of hearts (alice in wonderland)",
-        category: "Misc",
+        category: "Other",
         mainTags: "queen of hearts (alice in wonderland), alice in wonderland",
         enhancers: [],
         defaultGender: "girl",
@@ -6597,7 +6597,7 @@ const characterData = [{
     },
     {
         name: "jessica rabbit",
-        category: "Misc",
+        category: "Other",
         mainTags: "jessica rabbit, red sparkly dress, who framed roger rabbit",
         enhancers: [],
         defaultGender: "girl",
@@ -7110,7 +7110,7 @@ const characterData = [{
     {
         name: "hero's daughter (dq5)",
         category: "Dragon Quest (Series)",
-        mainTags: "hero's daughter (dq5), belt pouch, dragon quest v, dragon quest, {{aged up, mature female}}",
+        mainTags: "hero's daughter (dq5), belt pouch, dragon quest v, dragon quest,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7182,7 +7182,7 @@ const characterData = [{
     {
         name: "veronica (dq11)",
         category: "Dragon Quest (Series)",
-        mainTags: "veronica (dq11), red hat, two-tone dress, dragon quest xi, dragon quest, {{aged up, mature female}}",
+        mainTags: "veronica (dq11), red hat, two-tone dress, dragon quest xi, dragon quest,",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7199,7 +7199,7 @@ const characterData = [{
     },
     {
         name: "aya brea",
-        category: "Misc",
+        category: "Other",
         mainTags: "aya brea, black vest, ripped jeans, parasite eve i, parasite eve (series)",
         enhancers: ["[--black vest", "--ripped jeans", "black gown]"],
         defaultGender: "girl",
@@ -7208,7 +7208,7 @@ const characterData = [{
     },
     {
         name: "regina (dino crisis)",
-        category: "Misc",
+        category: "Other",
         mainTags: "regina (dino crisis), dino crisis",
         enhancers: [],
         defaultGender: "girl",
@@ -7217,7 +7217,7 @@ const characterData = [{
     },
     {
         name: "isabelle (animal crossing)",
-        category: "Misc",
+        category: "Other",
         mainTags: "isabelle (animal crossing), dog girl, animal crossing",
         enhancers: [],
         defaultGender: "girl",
@@ -7226,7 +7226,7 @@ const characterData = [{
     },
     {
         name: "ankha (animal crossing)",
-        category: "Misc",
+        category: "Other",
         mainTags: "ankha (animal crossing), cat girl, animal crossing",
         enhancers: [],
         defaultGender: "girl",
@@ -8244,7 +8244,7 @@ const characterData = [{
     {
         name: "next black",
         category: "Neptune (series)",
-        mainTags: "next black, neptune (series), {{aged up, mature female}}",
+        mainTags: "next black, neptune (series),",
         enhancers: [],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10512,7 +10512,7 @@ const characterData = [{
     {
         name: "tsukumo yuma",
         category: "Yu-Gi-Oh",
-        mainTags: "tsukumo yuma, gender swap, yu-gi-oh! zexal, yu-gi-oh!, {{{aged up, mature female}}}",
+        mainTags: "tsukumo yuma, yu-gi-oh! zexal, yu-gi-oh!, {{{aged up, mature female}}}",
         enhancers: ["red jacket"],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12770,7 +12770,7 @@ const characterData = [{
     },
     {
         name: "orphen",
-        category: "Misc",
+        category: "Other",
         mainTags: "orphen, short hair, spiked hair, headband, majutsushi orphen",
         enhancers: ["[blue vest", "necklace", "fingerless gloves]"],
         defaultGender: "boy",
@@ -12779,7 +12779,7 @@ const characterData = [{
     },
     {
         name: "cleo everlastin",
-        category: "Misc",
+        category: "Other",
         mainTags: "cleo everlastin, majutsushi orphen",
         enhancers: ["orange dress"],
         defaultGender: "girl",
@@ -12788,7 +12788,7 @@ const characterData = [{
     },
     {
         name: "kusanagi motoko",
-        category: "Misc",
+        category: "Other",
         mainTags: "kusanagi motoko, ghost in the shell",
         enhancers: ["[leather jacket", "fingerless gloves", "leotard", "thighhighs]", "[orange jacket", "grey pants", "gloves]", "[bodysuit", "belt", "gloves", "long coat]"],
         defaultGender: "girl",
@@ -12797,7 +12797,7 @@ const characterData = [{
     },
     {
         name: "batou (gits)",
-        category: "Misc",
+        category: "Other",
         mainTags: "batou (gits), white hair, very short hair, glasses, ghost in the shell",
         enhancers: ["[brown coat", "white shirt", "gloves", "cargo pants]"],
         defaultGender: "boy",
@@ -12806,7 +12806,7 @@ const characterData = [{
     },
     {
         name: "priscilla asagiri",
-        category: "Misc",
+        category: "Other",
         mainTags: "priscilla asagiri, bubblegum crisis",
         enhancers: ["[red leather jacket", "cleavage cutout", "black pants", "knee boots]", "hardsuit", "[blue skirt", "red tube top", "sleeveless shirt", "red elbow gloves", "gold bangles", "armlet", "brown pantyhose]"],
         defaultGender: "girl",
@@ -12815,7 +12815,7 @@ const characterData = [{
     },
     {
         name: "yamamura sadako",
-        category: "Misc",
+        category: "Other",
         mainTags: "yamamura sadako, wide-eyed, scar on face, scar on mouth, loose hair strand, absurdly long hair, wet",
         enhancers: ["[oversized clothes", "white shirt]", "[maid headdress", "maid bikini]"],
         defaultGender: "girl",
@@ -12824,7 +12824,7 @@ const characterData = [{
     },
     {
         name: "atom eve",
-        category: "Misc",
+        category: "Other",
         mainTags: "atom eve, invincible (series)",
         enhancers: ["[cape", "pink boots", "pink leotard]"],
         defaultGender: "girl",
