@@ -546,6 +546,21 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("character-search");
   const suggestionsContainer = document.getElementById("search-suggestions");
 
+  // Add keydown event listener for Tab and Enter keys
+  searchInput.addEventListener("keydown", function(e) {
+    // Check if there are any suggestion items
+    const firstSuggestion = suggestionsContainer.querySelector('.suggestion-item');
+    
+    // Only proceed if there are suggestions and the key is Tab or Enter
+    if (firstSuggestion && (e.key === 'Tab' || e.key === 'Enter')) {
+      // Prevent default behavior (tab navigation or form submission)
+      e.preventDefault();
+      
+      // Simulate a click on the first suggestion
+      firstSuggestion.click();
+    }
+  });
+
   searchInput.addEventListener("input", function () {
     const query = this.value.trim();
     suggestionsContainer.innerHTML = "";
