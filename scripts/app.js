@@ -24,6 +24,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Add event listener to close dropdowns when clicking outside
+  document.addEventListener('click', function(e) {
+    // Close the random character dropdown if clicking outside
+    if (!e.target.closest('#random-char-dropdown')) {
+      const randomCharOptions = document.getElementById('random-char-options');
+      if (randomCharOptions) {
+        randomCharOptions.style.display = 'none';
+      }
+    }
+  });
+
   /***********************************
    * 2) Wire Up Artist, Scene, Character, & Action UI *
    ***********************************/
@@ -38,20 +49,39 @@ document.addEventListener("DOMContentLoaded", function () {
     addCharacterBlock();
     refreshActionCharacterOptions(); // update available options for actions
   });
+  
+  // Configure Random Character dropdown
+  const randomCharBtn = document.getElementById('random-char-btn');
+  const randomCharOptions = document.getElementById('random-char-options');
+  
+  // Toggle dropdown when button is clicked
+  randomCharBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    const isVisible = randomCharOptions.style.display === 'block';
+    closeAllDropdowns(); // Close any open dropdowns
+    randomCharOptions.style.display = isVisible ? 'none' : 'block';
+  });
+  
+  // Set up the random character option clicks
   document.getElementById('add-rand-char-btn').addEventListener('click', function () {
+    randomCharOptions.style.display = 'none';
     addRandomCharacterBlock("all");
   });
+  
   document.getElementById('add-rand-vg-btn').addEventListener('click', function () {
+    randomCharOptions.style.display = 'none';
     addRandomCharacterBlock("vg");
   });
+  
   document.getElementById('add-rand-media-btn').addEventListener('click', function () {
+    randomCharOptions.style.display = 'none';
     addRandomCharacterBlock("media");
   });
 
   document.getElementById('add-custom-character-btn').addEventListener('click', function() {
     addCustomCharacterBlock();
     refreshActionCharacterOptions(); // Update available action options if necessary.
-});
+  });
 
   // Action blocks (from action.js)
   document.getElementById('add-action-btn').addEventListener('click', function () {

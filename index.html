@@ -18,6 +18,66 @@
     #mode-toggle-container input:checked + .slider {
       background-color: var(--color-bg-input); /* Stable Diffusion mode (checked) */
     }
+    
+    /* Character CTAs container styling */
+    #character-ctas {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
+    
+    /* Make all buttons have consistent width and styling */
+    #character-ctas > button, 
+    #character-ctas > #random-char-dropdown {
+      flex: 1 1 0;
+      box-sizing: border-box;
+    }
+    
+    /* Consistent button styling */
+    #character-ctas > button,
+    #random-char-btn {
+      background-color: var(--color-primary);
+      color: var(--text-on-primary);
+      border: none;
+      border-radius: var(--radius-button);
+      padding: var(--space-sm) var(--space-md);
+      font-size: var(--text-base);
+      cursor: pointer;
+      transition: background var(--transition-default), transform var(--transition-default);
+      height: 40px;
+      line-height: normal;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #character-ctas > button:hover,
+    #random-char-btn:hover {
+      background-color: var(--color-primary-variant);
+      transform: translateY(-2px);
+    }
+    
+    /* Custom styles for random character dropdown */
+    #random-char-dropdown {
+      position: relative;
+      display: flex;
+    }
+    
+    #random-char-btn {
+      width: 100%;
+    }
+    
+    #random-char-options {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+      display: none;
+      margin-top: 4px;
+    }
   </style>
 </head>
 
@@ -39,10 +99,16 @@
     <!-- Character CTA Buttons -->
     <div id="character-ctas">
       <button id="add-character-btn">Add Character</button>
-      <button id="add-rand-char-btn" type="button">Rand Char</button>
-      <button id="add-rand-vg-btn" type="button">Rand VG</button>
-      <button id="add-rand-media-btn" type="button">Rand Media</button>
       <button id="add-custom-character-btn">Add Custom Character</button>
+      <!-- Random Character dropdown -->
+      <div class="custom-dropdown" id="random-char-dropdown">
+        <button id="random-char-btn" class="selected-display">Random Character</button>
+        <div class="dropdown-list suggestions-list" id="random-char-options">
+          <div class="suggestion-item" id="add-rand-char-btn">Random Character</div>
+          <div class="suggestion-item" id="add-rand-vg-btn">Random Game</div>
+          <div class="suggestion-item" id="add-rand-media-btn">Random Media</div>
+        </div>
+      </div>
     </div>
     <!-- Character Cards -->
     <div id="characters-container"></div>
