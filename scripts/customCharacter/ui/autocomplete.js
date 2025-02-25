@@ -4,7 +4,7 @@
  * Provides functionality for custom tag autocompletion and suggestion management.
  */
 
-import { searchTags, createTagPill } from '../utils/tagUtils.js';
+import { searchTags, createTagPill, formatTag } from '../utils/tagUtils.js';
 
 /**
  * Initialize autocomplete functionality for a custom tag input
@@ -46,8 +46,15 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
             if (index === 0) {
                 itemDiv.classList.add('first-suggestion');
             }
-            itemDiv.textContent = result.item.name;
+            
+            // Store the original tag name with underscores as a data attribute
+            itemDiv.dataset.originalTag = result.item.name;
+            
+            // Display the formatted version (with spaces instead of underscores)
+            itemDiv.textContent = formatTag(result.item.name);
+            
             itemDiv.addEventListener('click', function () {
+                // Set the input value to the original tag (with underscores)
                 inputEl.value = result.item.name;
                 suggestionContainer.innerHTML = "";
             });
@@ -61,7 +68,8 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
             e.preventDefault(); // Prevent default tab behavior
             const firstSuggestion = suggestionContainer.querySelector('.first-suggestion');
             if (firstSuggestion) {
-                inputEl.value = firstSuggestion.textContent;
+                // Use the original tag value with underscores from the data attribute
+                inputEl.value = firstSuggestion.dataset.originalTag;
                 suggestionContainer.innerHTML = "";
             }
         }
@@ -76,7 +84,7 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
             const firstSuggestion = suggestionContainer.querySelector('.first-suggestion');
             if (firstSuggestion && suggestionContainer.children.length > 0) {
                 // Auto-select the first suggestion
-                inputEl.value = firstSuggestion.textContent;
+                inputEl.value = firstSuggestion.dataset.originalTag;
             }
             
             const text = inputEl.value.trim();
