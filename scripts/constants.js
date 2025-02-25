@@ -1361,7 +1361,7 @@ const characterData = [{
         name: "guile",
         category: "Street Fighter",
         mainTags: "guile, muscular male, tall hair, american flag tattoo, street fighter",
-        enhancers: ["[camouflage pants" "green tank top]"],
+        enhancers: ["[camouflage pants", "green tank top]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Video Games"
