@@ -26,7 +26,7 @@ function generatePromptData() {
     const sdConsistentTags = "masterwork, award-winning, masterpiece, hyper-detailed";
     
     const naiQualityTags = "incredibly absurdres, absurdres, character study, character focus, highly detailed";
-    const sdQualityTags = "best_quality, amazing quality, very_aesthetic, absurdres, incredibly_absurdres";
+    const sdQualityTags = "best_quality, amazing_quality, very_aesthetic, absurdres, incredibly_absurdres";
     
     const sceneOutput = getSelectedSceneTags(); // e.g. "desert, sand, arid, dune, scorching"
   
