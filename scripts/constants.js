@@ -4745,7 +4745,7 @@ const characterData = [{
         name: "yui (sao)",
         category: "Sword Art Online",
         mainTags: "yui (sao), sword art online",
-        enhancers: ["yui (sao-alo)"],
+        enhancers: ["white dress","[yui (sao-alo)", "pointy ears", "fairy wings", "pink dress", "detached sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4754,16 +4754,7 @@ const characterData = [{
         name: "mito (sao)",
         category: "Sword Art Online",
         mainTags: "mito (sao), sword art online",
-        enhancers: ["mito (sao-alo)"],
-        defaultGender: "girl",
-        genderswapAvailable: true,
-        mediaType: "Shows or Movies"
-    },
-    {
-        name: "pina (sao)",
-        category: "Sword Art Online",
-        mainTags: "pina (sao), sword art online",
-        enhancers: [],
+        enhancers: ["[white cape, bracers, purple dress, black shorts]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4772,7 +4763,7 @@ const characterData = [{
         name: "silica",
         category: "Sword Art Online",
         mainTags: "silica, sword art online",
-        enhancers: ["silica (sao-alo)"],
+        enhancers: ["[red coat, black skirt, thighhighs, fingerless gloves]", "[silica (sao-alo)", "cat girl", "cat ears", "cat tail", "breastplate", "blue jacket", "black skirt", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4781,7 +4772,7 @@ const characterData = [{
         name: "lisbeth (sao)",
         category: "Sword Art Online",
         mainTags: "lisbeth (sao), sword art online",
-        enhancers: ["lisbeth (sao-alo)"],
+        enhancers: ["[breastplate, red maid dress]", "[lisbeth (sao-alo)", "breastplate", "white pants", "gauntlets", "single shoulder pad]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4790,7 +4781,7 @@ const characterData = [{
         name: "leafa (sao)",
         category: "Sword Art Online",
         mainTags: "leafa (sao), sword art online",
-        enhancers: [],
+        enhancers: ["[green jacket, white shirt, brown corset, thigh cutouts]", "[leafa (terraria) (sao)", "detached sleeves", "breastplate", "green dress", "white garter straps]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4799,7 +4790,7 @@ const characterData = [{
         name: "alice zuberg",
         category: "Sword Art Online",
         mainTags: "alice zuberg, sword art online",
-        enhancers: [],
+        enhancers: ["[armor", "armored dress]", "[black eyepatch", "blue dress", "brown coat]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4807,8 +4798,8 @@ const characterData = [{
     {
         name: "elizabeth thompson",
         category: "Soul Eater",
-        mainTags: "elizabeth thompson, soul eater, cowboy hat",
-        enhancers: [],
+        mainTags: "elizabeth thompson, long hair, soul eater",
+        enhancers: ["cowboy hat"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4816,8 +4807,8 @@ const characterData = [{
     {
         name: "patricia thompson",
         category: "Soul Eater",
-        mainTags: "patricia thompson, soul eater, cowboy hat, short hair",
-        enhancers: [],
+        mainTags: "patricia thompson, short hair, soul eater",
+        enhancers: ["cowboy hat"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4826,8 +4817,17 @@ const characterData = [{
         name: "maka albarn",
         category: "Soul Eater",
         mainTags: "maka albarn, soul eater",
-        enhancers: [],
+        enhancers: ["[black coat", "white shirt", "necktie", "plaid skirt]"],
         defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "soul evans",
+        category: "Soul Eater",
+        mainTags: "soul evans, white hair, red eyes, soul eater",
+        enhancers: ["[headband, two-tone jacket, red pants]"],
+        defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
@@ -4835,8 +4835,26 @@ const characterData = [{
         name: "marie mjolnir",
         category: "Soul Eater",
         mainTags: "marie mjolnir, soul eater",
-        enhancers: [],
+        enhancers: ["[eyepatch", "black shirt", "black wide sleeves", "yellow dress]"],
         defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "crona (soul eater)",
+        category: "Soul Eater",
+        mainTags: "crona (soul eater), soul eater",
+        enhancers: ["[black dress", "high collar", "wrist cuffs]"],
+        defaultGender: "girl",
+        genderswapAvailable: false,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "death the kid",
+        category: "Soul Eater",
+        mainTags: "death the kid, soul eater",
+        enhancers: ["[asymmetric hair", "formal clothes", "bolo tie]"],
+        defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
@@ -4844,7 +4862,7 @@ const characterData = [{
         name: "blair (soul eater)",
         category: "Soul Eater",
         mainTags: "blair (soul eater), soul eater",
-        enhancers: [],
+        enhancers: ["[witch hat", "wide sleeves", "black dress", "thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4853,25 +4871,43 @@ const characterData = [{
         name: "nakatsukasa tsubaki",
         category: "Soul Eater",
         mainTags: "nakatsukasa tsubaki, ninja, soul eater",
-        enhancers: [],
+        enhancers: ["[white dress", "single side slit", "detached sleeves", "star symbol]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
     {
-        name: "arachne",
+        name: "black star",
         category: "Soul Eater",
-        mainTags: "arachne, soul eater",
-        enhancers: [],
+        mainTags: "black star, soul eater",
+        enhancers: ["[high collar", "sleeveless black shirt", "two-tone pants", "fingerless gloves]"],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "medusa gorgon",
+        category: "Soul Eater",
+        mainTags: "medusa gorgon, soul eater",
+        enhancers: ["[hooded leotard", "black pants]"],
         defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "midoriya izuku",
+        category: "My Hero Academia",
+        mainTags: "midoriya izuku, boku no hero academia",
+        enhancers: ["[jumpsuit", "belt pouch", "gloves]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
     {
         name: "midnight (boku no hero academia)",
         category: "My Hero Academia",
-        mainTags: "midnight (boku no hero academia)",
-        enhancers: [],
+        mainTags: "midnight (boku no hero academia), boku no hero academia",
+        enhancers: ["[white bodysuit", "black leotard", "thighhighs]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4880,7 +4916,7 @@ const characterData = [{
         name: "yaoyorozu momo",
         category: "My Hero Academia",
         mainTags: "yaoyorozu momo, boku no hero academia",
-        enhancers: [],
+        enhancers: ["[red leotard", "high collar", "yellow belts]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4889,7 +4925,7 @@ const characterData = [{
         name: "shiozaki ibara",
         category: "My Hero Academia",
         mainTags: "shiozaki ibara, boku no hero academia",
-        enhancers: [],
+        enhancers: ["u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4897,9 +4933,18 @@ const characterData = [{
     {
         name: "mirko",
         category: "My Hero Academia",
-        mainTags: "mirko, boku no hero academia",
-        enhancers: [],
+        mainTags: "mirko, dark skin, dark-skinned female, rabbit girl, rabbit ears, boku no hero academia",
+        enhancers: ["[crescent print", "white leotard", "thighhighs", "fur collar]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
         defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "bakugou katsuki",
+        category: "My Hero Academia",
+        mainTags: "bakugou katsuki, boku no hero academia",
+        enhancers: ["[black sleeveless shirt", "gloves", "black pants", "belt", "collar", "eye mask]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
@@ -4907,25 +4952,124 @@ const characterData = [{
         name: "toga himiko",
         category: "My Hero Academia",
         mainTags: "toga himiko, boku no hero academia",
-        enhancers: [],
+        enhancers: ["[mask", "sweater", "sleeves past wrists", "red kerchief", "blue skirt", "thigh holders", "tank (container)s]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
     {
-        name: "lady nagant",
+        name: "asui tsuyu",
         category: "My Hero Academia",
-        mainTags: "lady nagant, boku no hero academia",
-        enhancers: [],
+        mainTags: "asui tsuyu, boku no hero academia",
+        enhancers: ["[green bodysuit", "gloves", "goggles on head]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "hawks (boku no hero academia)",
+        category: "My Hero Academia",
+        mainTags: "hawks (boku no hero academia), boku no hero academia",
+        enhancers: ["[fur-trimmed jacket", "glasses", "black shirt", "gloves", "yellow pants]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "endeavor (boku no hero academia)",
+        category: "My Hero Academia",
+        mainTags: "endeavor (boku no hero academia), boku no hero academia",
+        enhancers: ["[superhero costume", "fingerless gloves", "shoulder armor]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "ashido mina",
+        category: "My Hero Academia",
+        mainTags: " ashido mina, colored skin, pink skin, horns, boku no hero academia",
+        enhancers: ["[multicolored sleeveless leotard", "fur-trimmed vest", "eye mask]", "[purple tank top", "denim shorts]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
     {
-        name: "uraraka ochako",
+        name: "jirou kyoka",
         category: "My Hero Academia",
-        mainTags: "uraraka ochako, boku no hero academia",
-        enhancers: [],
+        mainTags: " jirou kyoka, boku no hero academia",
+        enhancers: ["[pink shirt", "black pants", "white gloves", "black jacket]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "hado nejire",
+        category: "My Hero Academia",
+        mainTags: " hado nejire, boku no hero academia",
+        enhancers: ["[bodysuit", "gloves", "wrist cuffs]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "hagakure toru",
+        category: "My Hero Academia",
+        mainTags: "hagakure toru, green hair, messy hair, long hair, ahoge, green eyes, boku no hero academia",
+        enhancers: ["grey gloves", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "kirishima eijirou",
+        category: "My Hero Academia",
+        mainTags: "kirishima eijirou, boku no hero academia",
+        enhancers: ["[black pants", "black sleeves", "headgear", "belt", "shoulder pads]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "all might",
+        category: "My Hero Academia",
+        mainTags: "all might, boku no hero academia",
+        enhancers: ["[muscular male", "superhero costume]"],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "yagi toshinori",
+        category: "My Hero Academia",
+        mainTags: "yagi toshinori, boku no hero academia",
+        enhancers: ["[black jacket", "black necktie", "white shirt", "black pants]", "[loose white t-shirt", "green pants", "belt buckle]"],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "eraser head (boku no hero academia)",
+        category: "My Hero Academia",
+        mainTags: "eraser head (boku no hero academia), boku no hero academia",
+        enhancers: ["[black jacket", "black pants", "scarf", "utility belt]"],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "dabi (boku no hero academia)",
+        category: "My Hero Academia",
+        mainTags: "dabi (boku no hero academia), boku no hero academia",
+        enhancers: ["[black jacket", "white shirt", "black pants", "belt]"],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "eri (boku no hero academia)",
+        category: "My Hero Academia",
+        mainTags: "eri (boku no hero academia), horn, boku no hero academia",
+        enhancers: ["[red dress", "white shirt", "black leggings", "shoulder bag]", "[long short sleeve white dress", "arm bandages", "leg bandages]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4934,7 +5078,61 @@ const characterData = [{
         name: "hatsume mei",
         category: "My Hero Academia",
         mainTags: "hatsume mei, boku no hero academia",
-        enhancers: [],
+        enhancers: ["[black tanktop", "black pants", "gloves", "goggles on head]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "mount lady",
+        category: "My Hero Academia",
+        mainTags: "mount lady, boku no hero academia",
+        enhancers: ["[superhero costume", "domino mask]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "utsushimi kemii",
+        category: "My Hero Academia",
+        mainTags: "utsushimi kemii, boku no hero academia",
+        enhancers: ["[china dress", "domino mask", "belt]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "kendo itsuka",
+        category: "My Hero Academia",
+        mainTags: "kendo itsuka, boku no hero academia",
+        enhancers: ["[black bodysuit", "police hat", "wrist cuffs]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "bakugou mitsuki",
+        category: "My Hero Academia",
+        mainTags: "bakugou mitsuki, blonde hair, spikey hair, red eyes, boku no hero academia",
+        enhancers: ["[purple sweater", "white shirt", "black skirt]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "lady nagant",
+        category: "My Hero Academia",
+        mainTags: "lady nagant, boku no hero academia",
+        enhancers: ["[purple dress", "belt", "knee boots]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "uraraka ochako",
+        category: "My Hero Academia",
+        mainTags: "uraraka ochako, boku no hero academia",
+        enhancers: ["[headgear", "wrist cuffs", "bodysuit]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4943,7 +5141,16 @@ const characterData = [{
         name: "ryuukyuu",
         category: "My Hero Academia",
         mainTags: "ryuukyuu, boku no hero academia",
-        enhancers: [],
+        enhancers: ["[mask over one eye", "head wings", "red dress", "detached sleeves", "side slit", "thigh holster]"],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "la brava",
+        category: "My Hero Academia",
+        mainTags: "la brava, boku no hero academia",
+        enhancers: ["[white shirt", "blue vest", "pink bow", "white puffy pants", "gloves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4952,7 +5159,7 @@ const characterData = [{
         name: "c.c.",
         category: "Code Geass",
         mainTags: "c.c., code geass",
-        enhancers: [],
+        enhancers: ["[white bodysuit", "sleeves past wrists", "straps]", "[white shorts", "black dress", "thigh boots", "high collar", "detached sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
