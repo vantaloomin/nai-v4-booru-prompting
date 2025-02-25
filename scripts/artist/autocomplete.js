@@ -4,7 +4,8 @@
  * Provides functionality for artist autocompletion and suggestion management.
  */
 
-import { searchArtists, createArtistPill } from './artistUtils.js';
+import { searchArtists, createArtistPill, formatArtist } from './artistUtils.js';
+import { showMaxArtistWarning } from '../utils/modal.js';
 
 /**
  * Initialize autocomplete functionality for an artist input
@@ -83,7 +84,71 @@ export function initArtistAutocomplete(inputEl, suggestionContainer, pillContain
             const text = inputEl.value.trim();
             if (!text) return;
             
-            createArtistPill(text, pillContainer, onChangeCallback);
+            // Get the card container to find and reset the dropdown
+            const card = pillContainer.closest('.artist-card');
+            
+            // Check if this would be the second pill in this card
+            const existingPills = pillContainer.querySelectorAll('.custom-tag-pill');
+            
+            if (existingPills.length > 0) {
+                // There's already at least one pill, create a new artist card if possible
+                if (typeof window.createArtistCard === 'function') {
+                    // Check if we've reached the maximum artists
+                    const artistCards = document.querySelectorAll('.artist-card');
+                    const maxArtists = window.maxArtists || 4; // Default to 4 if not defined
+                    
+                    if (artistCards.length >= maxArtists) {
+                        // Replace alert with modal warning
+                        showMaxArtistWarning(maxArtists);
+                        inputEl.value = '';
+                        suggestionContainer.innerHTML = '';
+                        return;
+                    }
+                    
+                    // Create a new artist card
+                    window.createArtistCard();
+                    
+                    // Get the new card (it should be the last one added)
+                    const newCard = document.querySelector('.artist-card:last-child');
+                    if (newCard) {
+                        // Get the pill container and input of the new card
+                        const newPillContainer = newCard.querySelector('.artist-pill-container');
+                        const newInput = newCard.querySelector('.custom-artist-input');
+                        
+                        if (newPillContainer && newInput) {
+                            // Add the pill to the new card
+                            createArtistPill(text, newPillContainer, onChangeCallback);
+                            // Update the card header
+                            updateCardHeader(newCard, text);
+                            // Clear the input fields
+                            newInput.value = '';
+                            inputEl.value = '';
+                            suggestionContainer.innerHTML = '';
+                            
+                            // Call the callback when artists are added
+                            if (typeof onChangeCallback === 'function') {
+                                onChangeCallback();
+                            }
+                            return;
+                        }
+                    }
+                }
+            }
+            
+            // If we didn't create a new card, or there were no existing pills, proceed normally
+            const pillCreated = createArtistPill(text, pillContainer, onChangeCallback);
+            
+            if (pillCreated && card) {
+                // Reset the dropdown when adding a pill
+                const select = card.querySelector("select[id^='artist-select-']");
+                if (select) {
+                    select.selectedIndex = 0;
+                }
+                
+                // Update the card header with the artist name
+                updateCardHeader(card, text);
+            }
+            
             inputEl.value = '';
             suggestionContainer.innerHTML = '';
             
@@ -100,6 +165,32 @@ export function initArtistAutocomplete(inputEl, suggestionContainer, pillContain
             suggestionContainer.innerHTML = "";
         }
     });
+}
+
+/**
+ * Updates the card header to display the selected artist name
+ *
+ * @param {HTMLElement} card - The artist card element
+ * @param {string} artistName - The name of the selected artist
+ */
+function updateCardHeader(card, artistName) {
+    const header = card.querySelector('.card-header');
+    if (!header) return;
+    
+    // Find or create the title span
+    let title = header.querySelector('span:not(.drag-handle)');
+    if (!title) {
+        title = document.createElement('span');
+        header.appendChild(title);
+    }
+    
+    // Format the artist name for display
+    const formattedName = typeof formatArtist === 'function' ? 
+        formatArtist(artistName) : 
+        artistName.split(',')[0].trim();
+    
+    // Update the title text
+    title.textContent = `Artist: ${formattedName}`;
 }
 
 /**

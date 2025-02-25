@@ -1,10 +1,14 @@
 // Import artist tag utilities
 import { loadArtistDetails, formatArtist } from './artistUtils.js';
 import { initArtistAutocomplete, addArtistAutocompleteStyling } from './autocomplete.js';
+import { showMaxArtistWarning } from '../utils/modal.js';
 
 // Global variable for multi-artist selection
 let artistCount = 0;
 const maxArtists = 4; // adjust as needed
+
+// Export variables to global scope for other modules to use
+window.maxArtists = maxArtists;
 
 // Function to update callback when artist tags change
 function updateArtistTagsCallback() {
@@ -33,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
  */
 export function createArtistCard() {
     if (artistCount >= maxArtists) {
-        alert("Maximum of " + maxArtists + " artists reached.");
+        showMaxArtistWarning(maxArtists);
         return;
     }
     artistCount++;
@@ -67,6 +71,20 @@ export function createArtistCard() {
         const pillContainer = card.querySelector(".artist-pill-container");
         if (pillContainer) {
             pillContainer.innerHTML = "";
+        }
+        
+        // Clear custom input when dropdown is selected
+        const customInput = card.querySelector('.custom-artist-input');
+        if (customInput) {
+            customInput.value = '';
+        }
+        
+        // Update card header with selected artist name
+        if (select.value && select.value !== "") {
+            updateCardHeader(card, select.value, select.options[select.selectedIndex].text);
+        } else {
+            // Reset header if no artist is selected
+            resetCardHeader(card);
         }
     });
     content.appendChild(select);
@@ -195,4 +213,49 @@ export function getSelectedArtists() {
         }
     });
     return selectedArtists;
+}
+
+/**
+ * Updates the card header to display the selected artist name
+ * 
+ * @param {HTMLElement} card - The artist card element
+ * @param {string} artistValue - The value of the selected artist
+ * @param {string} displayText - The display text to show in header
+ */
+function updateCardHeader(card, artistValue, displayText) {
+    const header = card.querySelector('.card-header');
+    if (!header) return;
+    
+    // Find or create the title span
+    let title = header.querySelector('span:not(.drag-handle)');
+    if (!title) {
+        title = document.createElement('span');
+        header.appendChild(title);
+    }
+    
+    // For RANDOM or non-specific selections, use a generic title
+    if (artistValue === 'RANDOM') {
+        title.textContent = 'Artist: Random';
+    } else if (artistValue === 'NONE') {
+        title.textContent = 'Artist: None';
+    } else if (displayText && displayText !== '-- Select Artist --') {
+        title.textContent = `Artist: ${displayText}`;
+    } else {
+        title.textContent = 'Artist';
+    }
+}
+
+/**
+ * Resets the card header to the default text
+ * 
+ * @param {HTMLElement} card - The artist card element
+ */
+function resetCardHeader(card) {
+    const header = card.querySelector('.card-header');
+    if (!header) return;
+    
+    const title = header.querySelector('span:not(.drag-handle)');
+    if (title) {
+        title.textContent = 'Artist';
+    }
 } 
