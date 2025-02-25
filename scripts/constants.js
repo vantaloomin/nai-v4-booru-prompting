@@ -4447,8 +4447,8 @@ const characterData = [{
     {
         name: "chloe (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "chloe (pokemon), brown hair, white dress, blue trim, yellow tie, knee socks, backpack, pokemon (anime)",
-        enhancers: [],
+        mainTags: "chloe (pokemon), brown hair, pokemon (anime)",
+        enhancers: ["[white dress", "blue trim", "yellow tie", "knee socks", "backpack]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4456,8 +4456,8 @@ const characterData = [{
     {
         name: "delia ketchum (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "delia ketchum (pokemon), brown hair, pink jacket, open jacket, yellow shirt, blue skirt, yellow belt, belt buckle, pokemon (anime)",
-        enhancers: [],
+        mainTags: "delia ketchum (pokemon), brown hair, pokemon (anime)",
+        enhancers: ["[pink jacket", "open jacket", "yellow shirt", "blue skirt", "yellow belt", "belt buckle]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4465,8 +4465,8 @@ const characterData = [{
     {
         name: "bonnie (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "bonnie (pokemon), yellow hair, hair ornament, brown shirt, black bow, black shorts, shorts under skirt, white skirt, pokemon (anime)",
-        enhancers: [],
+        mainTags: "bonnie (pokemon), yellow hair, pokemon (anime)",
+        enhancers: ["[hair ornament", "brown shirt", "black bow", "black shorts", "shorts under skirt", "white skirt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4474,8 +4474,8 @@ const characterData = [{
     {
         name: "bugsy (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "bugsy (pokemon), purple hair, green shirt, yellow tie, green shorts, belt, pokemon (anime)",
-        enhancers: [],
+        mainTags: "bugsy (pokemon), purple hair, pokemon (anime)",
+        enhancers: ["[green shirt", "yellow tie", "green shorts", "belt]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4483,8 +4483,8 @@ const characterData = [{
     {
         name: "elesa (pokemon)",
         category: "Pokemon (Anime)",
-        mainTags: "elesa (pokemon), yellow hair, twin tails, two-tone dress, black pants, pokemon (anime)",
-        enhancers: [],
+        mainTags: "elesa (pokemon), yellow hair, twin tails, pokemon (anime)",
+        enhancers: ["[two-tone dress", "black pants]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4492,8 +4492,8 @@ const characterData = [{
     {
         name: "pikachu (cosplay)",
         category: "PokemonCosplay",
-        mainTags: "pikachu (cosplay), two-tone dress, tail, pokemon",
-        enhancers: [],
+        mainTags: "pikachu (cosplay), pokemon",
+        enhancers: ["[two-tone dress", "tail]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4501,8 +4501,8 @@ const characterData = [{
     {
         name: "eevee (cosplay)",
         category: "PokemonCosplay",
-        mainTags: "eevee (cosplay), two-tone dress, tail, pokemon",
-        enhancers: [],
+        mainTags: "eevee (cosplay), pokemon",
+        enhancers: ["[two-tone dress", "tail]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4511,7 +4511,7 @@ const characterData = [{
         name: "bulma",
         category: "Dragon Ball",
         mainTags: "bulma, dragon ball, dragon ball super",
-        enhancers: [],
+        enhancers: ["[rabbit costume", "black headband", "fake animal ears", "detached collar", "red bow", "black leotard", "blue pantyhose]", "[orange dress", "purple neckerchief]", "[red jacket", "brown shorts", "white shirt", "hat]", "[pink shorts", "pink shirt]", "[yellow vest", "black shirt", "pink hairband]", "[red panties", "red tank top]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4520,7 +4520,7 @@ const characterData = [{
         name: "android 18",
         category: "Dragon Ball",
         mainTags: "android 18, dragon ball, dragon ball super",
-        enhancers: [],
+        enhancers: ["[blue vest", "blue skirt", "black pants", "black shirt]", "[black vest", "badge", "white shirt", "jeans]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4529,7 +4529,7 @@ const characterData = [{
         name: "android 21",
         category: "Dragon Ball",
         mainTags: "android 21, dragon ball, dragon ball super",
-        enhancers: [],
+        enhancers: ["[two-tone dress", "white lab coat", "black pants", "black sleeves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4537,17 +4537,17 @@ const characterData = [{
     {
         name: "pan (dragon ball)",
         category: "Dragon Ball",
-        mainTags: "pan (dragon ball), dragon ball, dragon ball super, headband",
-        enhancers: [],
+        mainTags: "pan (dragon ball), dragon ball, dragon ball super",
+        enhancers: ["[pan (xeno) (dragon ball)", "orange headband", "red jacket", "black crop top", "green shorts", "fur-trimmed shorts", "thighhighs]", "[white pants", "red shirt", "backpack", "fingerless gloves", "orange bandana]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
     {
-        name: "cheeli",
+        name: "cheelai",
         category: "Dragon Ball",
-        mainTags: "cheeli, dragon ball, dragon ball super, colored skin, green skin, white hair",
-        enhancers: [],
+        mainTags: "cheelai, dragon ball, dragon ball super, colored skin, green skin, white hair",
+        enhancers: ["[saiyan armor", "purple bodysuit", "white breastplate", "scouter", "white gloves", "kneehighs]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4555,8 +4555,8 @@ const characterData = [{
     {
         name: "majin android 21",
         category: "Dragon Ball",
-        mainTags: "majin android 21, colored skin, red eyes, dragon ball, dragon ball super",
-        enhancers: [],
+        mainTags: "majin android 21, colored skin, pink skin, red eyes, black sclera, dragon ball, dragon ball super",
+        enhancers: ["[white harem pants", "black tube top", "detached sleeves", "wrist cuffs", "choker]", "[{purple skin}", "dark persona", "white harem pants", "black tube top", "detached sleeves", "wrist cuffs", "choker]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4564,8 +4564,8 @@ const characterData = [{
     {
         name: "kefla (dragon ball)",
         category: "Dragon Ball",
-        mainTags: "kefla (dragon ball), dragon ball, dragon ball super",
-        enhancers: [],
+        mainTags: "kefla (dragon ball), black hair, spiked hair, dragon ball, dragon ball super",
+        enhancers: ["[purple shirt", "purple pants", "bracers]", "[--black hair", "green hair", "blue eyes", "purple shirt", "purple pants", "bracers]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4573,17 +4573,26 @@ const characterData = [{
     {
         name: "son goku",
         category: "Dragon Ball",
-        mainTags: "son goku, orange tunic, orange pants, dragon ball, dragon ball super",
-        enhancers: ["super saiyan", "super saiyan 3", "super saiyan blue"],
+        mainTags: "son goku, dragon ball, dragon ball super",
+        enhancers: ["orange dougi", "super saiyan", "super saiyan 3", "super saiyan blue"],
         defaultGender: "boy",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "chi-chi (dragon ball)",
+        category: "Dragon Ball",
+        mainTags: "chi-chi (dragon ball), dragon ball, dragon ball z",
+        enhancers: ["[purple dress", "orange capelet]", "[armor", "helmet", "boobplate]", "[yellow dress", "white sleeves", "blue capelet]"],
+        defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
     {
         name: "vegeta",
         category: "Dragon Ball",
-        mainTags: "vegeta, blue bodysuit, boobplate, dragon ball, dragon ball super",
-        enhancers: ["super saiyan", "super saiyan 3", "super saiyan blue", "[majin vegeta", "face mark]"],
+        mainTags: "vegeta, dragon ball, dragon ball super",
+        enhancers: ["[blue bodysuit, saiyan armor]", "super saiyan", "super saiyan 3", "super saiyan blue", "[majin vegeta", "face mark]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4591,8 +4600,8 @@ const characterData = [{
     {
         name: "piccolo",
         category: "Dragon Ball",
-        mainTags: "piccolo, colored skin, green skin, jumpsuit, turban, dragon ball, dragon ball super",
-        enhancers: [],
+        mainTags: "piccolo, colored skin, green skin,dragon ball, dragon ball super",
+        enhancers: ["[jumpsuit", "turban]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4600,8 +4609,8 @@ const characterData = [{
     {
         name: "son gohan",
         category: "Dragon Ball",
-        mainTags: "son gohan, purple jumpsuit, orange sash, spiked hair, dragon ball, dragon ball super",
-        enhancers: ["super saiyan", "super saiyan blue"],
+        mainTags: "son gohan, spiked hair, dragon ball, dragon ball super",
+        enhancers: ["[purple jumpsuit", "orange sash]", "super saiyan", "super saiyan blue"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4609,8 +4618,8 @@ const characterData = [{
     {
         name: "trunks (dragon ball)",
         category: "Dragon Ball",
-        mainTags: "trunks (dragon ball), black pants, black shirt, cropped jacket, belt, dragon ball, dragon ball z",
-        enhancers: ["[super saiyan", "spiked hair]", "[super saiyan 3", "spiked hair]", "[super saiyan blue", "spiked hair]"],
+        mainTags: "trunks (dragon ball), dragon ball, dragon ball z",
+        enhancers: ["[black pants", "black shirt", "cropped jacket", "belt]", "[super saiyan", "spiked hair]", "[super saiyan 3", "spiked hair]", "[super saiyan blue", "spiked hair]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4619,7 +4628,7 @@ const characterData = [{
         name: "gogeta",
         category: "Dragon Ball",
         mainTags: "gogeta, black hair, spiked hair, vest, pants, sash, dragon ball, dragon ball gt",
-        enhancers: ["[yellow hair", "super saiyan]", "[yellow hair", "super saiyan 3]", "[blue hair", "super saiyan blue]"],
+        enhancers: ["[--black hair", "super saiyan", "yellow hair]", "[--black hair", "super saiyan 3", "yellow hair]", "[--black hair", "super saiyan blue", "blue hair]"],
         defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4670,15 +4679,6 @@ const characterData = [{
         mediaType: "Shows or Movies"
     },
     {
-        name: "itsuka shidou",
-        category: "Date a Live",
-        mainTags: "itsuka shidou, itsuka shiori, date a live",
-        enhancers: [],
-        defaultGender: "girl",
-        genderswapAvailable: true,
-        mediaType: "Shows or Movies"
-    },
-    {
         name: "sonogami rinne",
         category: "Date a Live",
         mainTags: "sonogami rinne, pink hair, date a live",
@@ -4700,8 +4700,17 @@ const characterData = [{
         name: "asuna (sao)",
         category: "Sword Art Online",
         mainTags: "asuna (sao), sword art online",
-        enhancers: ["asuna (sao-alo)", "asuna (stacia) (sao)"],
+        enhancers: ["[knights of blood uniform (sao)", "armor", "white dress]", "[asuna (sao-alo)", "blue hair", "pointy ears", "white dress", "detached sleeves]", "[asuna (stacia) (sao)", "hair ribbons", "armored dress", "hip armor]"],
         defaultGender: "girl",
+        genderswapAvailable: true,
+        mediaType: "Shows or Movies"
+    },
+    {
+        name: "kirito",
+        category: "Sword Art Online",
+        mainTags: "kirito , sword art online",
+        enhancers: ["[black shirt", "black pants", "black coat]", "[kirito_(sao-ggo)", "very long hair", "black jacket", "breastplate", "fingerless gloves]", "[kirito_(sao-alo)", "pointy ears", "fairy wings", "multiple wings", "black jacket", "black pants", "black shirt]"],
+        defaultGender: "boy",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
@@ -4709,7 +4718,7 @@ const characterData = [{
         name: "kirigaya suguha",
         category: "Sword Art Online",
         mainTags: "kirigaya suguha, sword art online",
-        enhancers: [],
+        enhancers: ["grey school uniform", "[red jacket", "blue shorts", "blue shirt]", ],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4718,34 +4727,16 @@ const characterData = [{
         name: "sinon",
         category: "Sword Art Online",
         mainTags: "sinon, sword art online",
-        enhancers: [],
+        enhancers: ["[green pants", "green jacket", "white scarf", "black shorts]", "[sinon (sao-alo)", "cat girl", "cat ears", "cat tail", "black shorts", "green jacket", "breastplate]", "[sinon (solus)", "blue armor", "breastplate", "single shoulder pad", "cape", "sword wing]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
     },
     {
-        name: "sinon (sao-alo)",
+        name: "yuuki (sao)",
         category: "Sword Art Online",
-        mainTags: "sinon (sao-alo), sword art online",
-        enhancers: [],
-        defaultGender: "girl",
-        genderswapAvailable: true,
-        mediaType: "Shows or Movies"
-    },
-    {
-        name: "sinon (solus)",
-        category: "Sword Art Online",
-        mainTags: "sinon (solus), sword art online",
-        enhancers: [],
-        defaultGender: "girl",
-        genderswapAvailable: true,
-        mediaType: "Shows or Movies"
-    },
-    {
-        name: "yuuki (sao-alo)",
-        category: "Sword Art Online",
-        mainTags: "yuuki (sao-alo), sword art online",
-        enhancers: [],
+        mainTags: "yuuki (sao), sword art online",
+        enhancers: ["[breastplate", "detached sleeves", "belts", "fingerless gloves]"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4754,16 +4745,7 @@ const characterData = [{
         name: "yui (sao)",
         category: "Sword Art Online",
         mainTags: "yui (sao), sword art online",
-        enhancers: [],
-        defaultGender: "girl",
-        genderswapAvailable: true,
-        mediaType: "Shows or Movies"
-    },
-    {
-        name: "yui (sao-alo)",
-        category: "Sword Art Online",
-        mainTags: "yui (sao-alo), sword art online",
-        enhancers: [],
+        enhancers: ["yui (sao-alo)"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4772,16 +4754,7 @@ const characterData = [{
         name: "mito (sao)",
         category: "Sword Art Online",
         mainTags: "mito (sao), sword art online",
-        enhancers: [],
-        defaultGender: "girl",
-        genderswapAvailable: true,
-        mediaType: "Shows or Movies"
-    },
-    {
-        name: "mito (sao-alo)",
-        category: "Sword Art Online",
-        mainTags: "mito (sao-alo), sword art online",
-        enhancers: [],
+        enhancers: ["mito (sao-alo)"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4799,16 +4772,7 @@ const characterData = [{
         name: "silica",
         category: "Sword Art Online",
         mainTags: "silica, sword art online",
-        enhancers: [],
-        defaultGender: "girl",
-        genderswapAvailable: true,
-        mediaType: "Shows or Movies"
-    },
-    {
-        name: "silica (sao-alo)",
-        category: "Sword Art Online",
-        mainTags: "silica (sao-alo), sword art online",
-        enhancers: [],
+        enhancers: ["silica (sao-alo)"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
@@ -4817,16 +4781,7 @@ const characterData = [{
         name: "lisbeth (sao)",
         category: "Sword Art Online",
         mainTags: "lisbeth (sao), sword art online",
-        enhancers: [],
-        defaultGender: "girl",
-        genderswapAvailable: true,
-        mediaType: "Shows or Movies"
-    },
-    {
-        name: "lisbeth (sao-alo)",
-        category: "Sword Art Online",
-        mainTags: "lisbeth (sao-alo), sword art online",
-        enhancers: [],
+        enhancers: ["lisbeth (sao-alo)"],
         defaultGender: "girl",
         genderswapAvailable: true,
         mediaType: "Shows or Movies"
