@@ -1592,15 +1592,6 @@ const characterData = [{
         mediaType: "Video Games"
     },
     {
-        name: "ganondorf",
-        category: "Zelda",
-        mainTags: "ganondorf, dark skin, dark-skinned female, the legend of zelda",
-        enhancers: [],
-        defaultGender: "boy",
-        genderswapAvailable: true,
-        mediaType: "Video Games"
-    },
-    {
         name: "ciri",
         category: "Witcher",
         mainTags: "ciri, the witcher (series)",
@@ -1910,7 +1901,7 @@ const characterData = [{
         name: "evelynn (league of legends)",
         category: "League of Legends",
         mainTags: "evelynn (league of legends), purple skin, yellow eyes, league of legends",
-        enhancers: ["remove: [purple skin", "yellow eyes]: k/da all out evelynn", "k/da evelynn", "the baddest evelynn", "blood moon evelynn", "soul fighter evelynn", "spirit blossom evelynn", "coven evelynn", "[sugar rush evelynn", "multicolor hair", "black hair", "pink hair", "twin drills", "gold eyes]"],
+        enhancers: ["[--purple skin, --yellow eyes, k/da all out evelynn]", "k/da evelynn", "the baddest evelynn", "blood moon evelynn", "soul fighter evelynn", "spirit blossom evelynn", "coven evelynn", "[sugar rush evelynn, multicolor hair, black hair, pink hair, twin drills, gold eyes]"],
         defaultGender: "girl",
         genderswapAvailable: false,
         mediaType: "Video Games"
@@ -11099,15 +11090,6 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "mizuno ami, bishoujo senshi sailor moon",
         enhancers: ["[sailor mercury", "circlet", "sailor senshi uniform]", "[super sailor mercury", "circlet]"],
-        defaultGender: "girl",
-        genderswapAvailable: false,
-        mediaType: "Shows or Movies"
-    },
-    {
-        name: "hino rei",
-        category: "Sailor Moon",
-        mainTags: "hino rei, bishoujo senshi sailor moon",
-        enhancers: ["[sailor mars", "circlet", "sailor senshi uniform]", "[super sailor mars", "circlet]"],
         defaultGender: "girl",
         genderswapAvailable: false,
         mediaType: "Shows or Movies"
