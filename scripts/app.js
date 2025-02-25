@@ -7,6 +7,15 @@
 
 // Import modal utilities
 import { showClipboardSuccessModal, showClipboardErrorModal } from './utils/modal.js';
+// Import character UI functions
+import { 
+  updateGenderToggle, 
+  updateEnhancerDropdown,
+  updateTitleOptions,
+  updateCharacterDropdown
+} from './character/ui/dropdowns.js';
+// Import name formatting utility
+import { cleanDisplayName } from './character/utils/nameFormatter.js';
 
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize current state
@@ -559,23 +568,79 @@ document.addEventListener("DOMContentLoaded", function () {
         suggestionsContainer.innerHTML = "";
 
         // Add a new character block and populate its fields based on search result.
-        addCharacterBlock();
-        const blockId = characterCount;
-        const mediaSelect = document.getElementById(`media-select-${blockId}`);
-        if (mediaSelect) {
-          mediaSelect.value = result.raw.mediaType;
-          updateTitleOptions(blockId, result.raw.mediaType);
+        const blockId = addCharacterBlock();
+        if (blockId === null) {
+          // Max characters reached, exit early
+          return;
         }
-        const titleSelect = document.getElementById(`title-select-${blockId}`);
-        if (titleSelect) {
-          titleSelect.value = result.raw.category;
-          updateCharacterDropdown(blockId, result.raw.mediaType, result.raw.category);
-        }
-        const charSelect = document.getElementById(`char-select-${blockId}`);
-        if (charSelect) {
-          charSelect.value = result.raw.name;
-          charSelect.dispatchEvent(new Event("change", { bubbles: true }));
-        }
+        
+        // Use a longer timeout to ensure DOM has been fully updated
+        setTimeout(() => {
+          // First, find the media type dropdown 
+          const mediaTypeContainer = document.querySelector(`#character-${blockId} .custom-dropdown:nth-of-type(1)`);
+          if (!mediaTypeContainer) {
+            console.error(`Media type dropdown for block ${blockId} not found`);
+            return;
+          }
+          const mediaTypeDisplay = mediaTypeContainer.querySelector('.selected-display');
+          
+          // Set media type and update title options
+          const mediaType = result.raw.mediaType;
+          mediaTypeDisplay.textContent = mediaType;
+          
+          // Call updateTitleOptions to populate the title dropdown
+          updateTitleOptions(blockId, mediaType);
+          
+          // After title options are updated, set the title display and update character dropdown
+          setTimeout(() => {
+            const titleContainer = document.querySelector(`#character-${blockId} .custom-dropdown:nth-of-type(2)`);
+            if (!titleContainer) {
+              console.error(`Title dropdown for block ${blockId} not found`);
+              return;
+            }
+            const titleDisplay = titleContainer.querySelector('.selected-display');
+            const category = result.raw.category;
+            titleDisplay.textContent = cleanDisplayName(category);
+            
+            // Call updateCharacterDropdown to populate the character dropdown
+            updateCharacterDropdown(blockId, mediaType, category);
+            
+            // After character dropdown is updated, set the character
+            setTimeout(() => {
+              const charContainer = document.querySelector(`#character-${blockId} .custom-dropdown:nth-of-type(3)`);
+              if (!charContainer) {
+                console.error(`Character dropdown for block ${blockId} not found`);
+                return;
+              }
+              const charDisplay = charContainer.querySelector('.selected-display');
+              const name = result.raw.name;
+              
+              // Update character display
+              charDisplay.textContent = cleanDisplayName(name);
+              
+              // Trigger gender and enhancer updates
+              updateGenderToggle(blockId, name);
+              updateEnhancerDropdown(blockId, name);
+              
+              // Update the character block title
+              const blockTitle = document.querySelector(`#character-${blockId} .block-title`);
+              if (blockTitle) {
+                blockTitle.textContent = `${cleanDisplayName(name)} (${cleanDisplayName(category)})`;
+              }
+              
+              // Refresh action assignments
+              if (typeof updateAllActionAssignments === "function") {
+                setTimeout(updateAllActionAssignments, 100);
+              }
+              
+              // Refresh action character options
+              if (typeof refreshActionCharacterOptions === "function") {
+                refreshActionCharacterOptions();
+              }
+            }, 25);
+          }, 25);
+        }, 25);
+        
         searchInput.value = "";
       });
       suggestionsContainer.appendChild(itemDiv);
