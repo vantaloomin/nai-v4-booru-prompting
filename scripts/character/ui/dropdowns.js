@@ -124,13 +124,28 @@ export function updateGenderToggle(id, selectedCharacterName) {
  */
 export function updateEnhancerDropdown(id, selectedCharacterName) {
     const enhancerDiv = document.getElementById('enhancer-div-' + id);
-    const labelContainer = enhancerDiv.querySelector('div');
+    if (!enhancerDiv) return; // Guard against missing element
+    
+    // Find the label container or create it if it doesn't exist
+    let labelContainer = enhancerDiv.querySelector('div');
+    if (!labelContainer) {
+        labelContainer = document.createElement('div');
+        enhancerDiv.appendChild(labelContainer);
+    }
+    
     enhancerDiv.innerHTML = ''; // Clear previous content
     enhancerDiv.appendChild(labelContainer); // Re-add label container
 
     const selectedData = characterData.find(item => item.name === selectedCharacterName);
     if (selectedData && selectedData.enhancers && selectedData.enhancers.length > 0) {
         labelContainer.style.display = 'block';
+        
+        // Create label if it doesn't exist
+        if (!labelContainer.querySelector('label')) {
+            const enhancerLabel = document.createElement('label');
+            enhancerLabel.textContent = 'Select Optional Enhancer:';
+            labelContainer.appendChild(enhancerLabel);
+        }
 
         const enhancerContainer = document.createElement('div');
         enhancerContainer.className = 'custom-dropdown';
