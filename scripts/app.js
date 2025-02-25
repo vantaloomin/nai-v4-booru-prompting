@@ -588,4 +588,60 @@ document.addEventListener("DOMContentLoaded", function () {
       suggestionsContainer.innerHTML = "";
     }
   });
+
+  // Add the missing function to refresh character options in action blocks
+  function refreshActionCharacterOptions() {
+    // Get all character blocks to extract character names
+    const characterBlocks = document.querySelectorAll('.character-block');
+    const characterOptions = [];
+    
+    // Extract character names from all character blocks
+    characterBlocks.forEach(block => {
+      const charSelect = block.querySelector('select[id^="char-select-"]');
+      if (charSelect && charSelect.value) {
+        characterOptions.push({
+          id: block.id,
+          name: charSelect.value
+        });
+      }
+    });
+    
+    // Update all action blocks with the current character options
+    const actionBlocks = document.querySelectorAll('.action-block');
+    actionBlocks.forEach(block => {
+      const characterSelect = block.querySelector('select[id^="action-character-"]');
+      if (characterSelect) {
+        // Store the currently selected value
+        const currentValue = characterSelect.value;
+        
+        // Clear existing options except the first one (if it's a placeholder)
+        while (characterSelect.options.length > 1 && characterSelect.options[0].value === '') {
+          characterSelect.remove(1);
+        }
+        
+        // If there's no placeholder, clear all options
+        if (characterSelect.options.length > 0 && characterSelect.options[0].value !== '') {
+          characterSelect.innerHTML = '';
+        }
+        
+        // Add character options
+        characterOptions.forEach(char => {
+          const option = document.createElement('option');
+          option.value = char.name;
+          option.textContent = char.name;
+          characterSelect.appendChild(option);
+        });
+        
+        // Restore the previously selected value if it still exists
+        if (currentValue) {
+          for (let i = 0; i < characterSelect.options.length; i++) {
+            if (characterSelect.options[i].value === currentValue) {
+              characterSelect.selectedIndex = i;
+              break;
+            }
+          }
+        }
+      }
+    });
+  }
 });
