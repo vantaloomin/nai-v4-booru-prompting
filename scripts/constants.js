@@ -12877,6 +12877,9 @@ const scenes = [
     { theme: "Beach", tags: "beach, sand, ocean, sun, relaxation" }
 ];
 
+// Make scenes available globally
+window.scenes = scenes;
+
 // List of available action base words.
 const actionTags = [
       "dancing",

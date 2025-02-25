@@ -3,55 +3,78 @@ import { loadContextTags } from './tagUtils.js';
 import { initSceneTagAutocomplete, addSceneAutocompleteStyling } from './autocomplete.js';
 import { showMaxSceneWarning } from '../utils/modal.js';
 
-// Access the scenes array from the global scope (defined in constants.js)
-// Provide a fallback empty array if scenes is undefined
-const scenes = window.scenes || [];
-
+// Track whether a scene card already exists
 let sceneExists = false;
 
-// Ensure populateSceneDropdown is defined in the global scope
-function populateSceneDropdown() {
-    const sceneSelect = document.getElementById("scene");
-    if (!sceneSelect) return;
-    sceneSelect.innerHTML = "";
+// Wait for the constants.js script to load and define window.scenes
+document.addEventListener('DOMContentLoaded', () => {
+  // Check if scenes is defined in constants.js but not attached to window
+  if (typeof scenes !== 'undefined' && !window.scenes) {
+    window.scenes = scenes;
+  }
+  
+  // Access the scenes array from the global scope
+  const scenesArray = window.scenes || [];
+  console.log("Scenes from window:", scenesArray);
+  
+  // Initialize the scene dropdown with the available scenes
+  initSceneDropdown(scenesArray);
+  
+  // ... rest of your initialization code
+});
 
-    // Add default placeholder option
-    const placeholder = document.createElement("option");
-    placeholder.value = "";
-    placeholder.textContent = "-- Select Scene --";
-    sceneSelect.appendChild(placeholder);
-
-    // Add special items first.
-    ["NONE", "RANDOM"].forEach(val => {
-        const option = document.createElement("option");
-        option.value = val;
-        option.textContent = val;
-        sceneSelect.appendChild(option);
-    });
-
-    // Sort and add the scene options if scenes array exists
-    if (scenes && scenes.length > 0) {
-        const sortedScenes = scenes.slice().sort((a, b) => a.theme.localeCompare(b.theme));
-        sortedScenes.forEach(sceneItem => {
-            const option = document.createElement("option");
-            option.value = sceneItem.theme;
-            option.textContent = sceneItem.theme;
-            sceneSelect.appendChild(option);
-        });
-    }
+// Function to initialize the scene dropdown
+function initSceneDropdown(scenes) {
+  const sceneDropdown = document.getElementById('scene-dropdown');
+  if (!sceneDropdown) return;
+  
+  // Clear existing options (except the default ones)
+  while (sceneDropdown.options.length > 3) { // Keep the first 3 options
+    sceneDropdown.remove(3);
+  }
+  
+  // Add scene options
+  scenes.forEach(scene => {
+    const option = document.createElement('option');
+    option.value = scene.theme;
+    option.textContent = scene.theme;
+    sceneDropdown.appendChild(option);
+  });
 }
 
-// Initialize scene tag utilities when the document is loaded
-document.addEventListener('DOMContentLoaded', function() {
-    // Load context tags
-    loadContextTags()
-        .then(() => {
-            console.log("Scene tag module initialized");
-        })
-        .catch(error => {
-            console.error("Error initializing Scene tag module:", error);
-        });
-});
+// Function to populate the scene dropdown
+function populateSceneDropdown() {
+  const sceneSelect = document.getElementById("scene");
+  if (!sceneSelect) return;
+  
+  // Clear existing options
+  while (sceneSelect.options.length > 0) {
+    sceneSelect.remove(0);
+  }
+  
+  // Add default options
+  const defaultOptions = [
+    { value: "", text: "-- Select Scene --" },
+    { value: "NONE", text: "NONE" },
+    { value: "RANDOM", text: "RANDOM" }
+  ];
+  
+  defaultOptions.forEach(option => {
+    const optElement = document.createElement("option");
+    optElement.value = option.value;
+    optElement.textContent = option.text;
+    sceneSelect.appendChild(optElement);
+  });
+  
+  // Add scene options from the global scenes array
+  const scenes = window.scenes || [];
+  scenes.forEach(scene => {
+    const option = document.createElement("option");
+    option.value = scene.theme;
+    option.textContent = scene.theme;
+    sceneSelect.appendChild(option);
+  });
+}
 
 // Export functions to global scope for backward compatibility
 window.createSceneCard = createSceneCard;
