@@ -23,15 +23,23 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
 
         if (!query) return;
 
+        // Get current tags to filter out from suggestions
+        const existingTags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
+            .map(pill => pill.dataset.originalTag);
+
         // Search using tagUtils
         const results = searchTags(query);
         console.log("Search results:", results);
 
+        // Filter out existing tags from results
+        const filteredResults = results.filter(result => 
+            !existingTags.includes(result.item.name));
+
         // Clear any previous positioning
         suggestionContainer.style.display = 'block';
         
-        // Display results
-        results.forEach((result, index) => {
+        // Display filtered results
+        filteredResults.forEach((result, index) => {
             const itemDiv = document.createElement('div');
             itemDiv.className = "custom-suggestion-item";
             // Add a highlighted class to the first item for Tab selection
@@ -74,13 +82,29 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
             const text = inputEl.value.trim();
             if (!text) return;
             
-            createTagPill(text, pillContainer, onChangeCallback);
-            inputEl.value = '';
-            suggestionContainer.innerHTML = '';
+            // Check if tag already exists before adding
+            const existingTags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
+                .map(pill => pill.dataset.originalTag);
             
-            // Call the callback when tags are added
-            if (typeof onChangeCallback === 'function') {
-                onChangeCallback();
+            if (!existingTags.includes(text)) {
+                createTagPill(text, pillContainer, onChangeCallback);
+                inputEl.value = '';
+                suggestionContainer.innerHTML = '';
+                
+                // Call the callback when tags are added
+                if (typeof onChangeCallback === 'function') {
+                    onChangeCallback();
+                }
+            } else {
+                // Optionally provide visual feedback that tag already exists
+                inputEl.classList.add('duplicate-tag');
+                setTimeout(() => {
+                    inputEl.classList.remove('duplicate-tag');
+                }, 500);
+                
+                // Clear the input
+                inputEl.value = '';
+                suggestionContainer.innerHTML = '';
             }
         }
     });
@@ -125,6 +149,15 @@ export function addAutocompleteStyling() {
         }
         .custom-suggestion-item:hover, .first-suggestion {
             background-color: #444;
+        }
+        .duplicate-tag {
+            animation: duplicateShake 0.5s ease-in-out;
+            border-color: #ff6b6b !important;
+        }
+        @keyframes duplicateShake {
+            0%, 100% { transform: translateX(0); }
+            20%, 60% { transform: translateX(-5px); }
+            40%, 80% { transform: translateX(5px); }
         }
     `;
     document.head.appendChild(style);
