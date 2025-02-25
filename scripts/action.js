@@ -3,6 +3,9 @@
 let actionCount = 0;
 const maxActions = 4; // Adjust as needed
 
+// Import modal utilities
+import { showMaxActionWarning, showMinCharacterWarning } from './utils/modal.js';
+
 // Helper function to check if we're in NovelAI mode
 function isNovelAIMode() {
     const modeToggle = document.getElementById('mode-toggle');
@@ -199,11 +202,11 @@ function addActionBlock(bypassCheck) {
     }
     
     if (!bypassCheck && getCharacterOptions().length < 2) {
-        alert("At least two characters must be added before assigning actions.");
+        showMinCharacterWarning();
         return;
     }
     if (actionCount >= maxActions) {
-        alert("Maximum actions reached.");
+        showMaxActionWarning(maxActions);
         return;
     }
     actionCount++;
@@ -343,7 +346,7 @@ function updateAllActionAssignments() {
 }
 
 // Get a mapping of action assignments.
-function getActionAssignments() {
+export function getActionAssignments() {
     let assignments = {};
     const actionBlocks = document.querySelectorAll(".action-block");
     
@@ -737,3 +740,13 @@ function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode) {
     // Update the display
     updateAssignedActionsDisplay();
 }
+
+// Export more functions that might be needed by other modules
+export { addActionBlock, updateAllActionAssignments, showActionSelectionPopup, getActionTags };
+
+// Also expose them to the global scope for backward compatibility with non-module scripts
+window.getActionAssignments = getActionAssignments;
+window.addActionBlock = addActionBlock;
+window.updateAllActionAssignments = updateAllActionAssignments;
+window.showActionSelectionPopup = showActionSelectionPopup;
+window.getActionTags = getActionTags;

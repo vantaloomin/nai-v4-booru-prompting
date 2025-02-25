@@ -5,6 +5,7 @@
  */
 
 import { initCustomTagAutocomplete, addAutocompleteStyling } from './ui/autocomplete.js';
+import { showMaxCharacterWarning } from '../utils/modal.js';
 
 // Custom character state
 let characterCount = 0;
@@ -17,7 +18,7 @@ const maxCharacters = 4;
  */
 export function addCustomCharacterBlock() {
     if (characterCount >= maxCharacters) {
-        alert(`Maximum of ${maxCharacters} characters reached.`);
+        showMaxCharacterWarning(maxCharacters);
         return null;
     }
 

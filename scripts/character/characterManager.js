@@ -13,6 +13,22 @@ import {
     updateEnhancerDropdown,
     resetCharacterDropdown
 } from './ui/dropdowns.js';
+import { showMaxCharacterWarning } from '../utils/modal.js';
+
+// Try to import getActionAssignments from action.js, with a fallback to the global version
+let getActionAssignments;
+try {
+    // Using dynamic import to avoid blocking module loading if this fails
+    import('../action.js').then(module => {
+        getActionAssignments = module.getActionAssignments;
+    }).catch(() => {
+        // Fallback to global version if import fails
+        getActionAssignments = window.getActionAssignments || (() => ({}));
+    });
+} catch (e) {
+    // Final fallback - empty function that returns an empty object
+    getActionAssignments = window.getActionAssignments || (() => ({}));
+}
 
 // Character state
 let characterCount = 0;
@@ -25,7 +41,7 @@ const maxCharacters = 4;
  */
 export function addCharacterBlock() {
     if (characterCount >= maxCharacters) {
-        alert("Maximum of " + maxCharacters + " characters reached.");
+        showMaxCharacterWarning(maxCharacters);
         return null;
     }
 
@@ -363,8 +379,10 @@ export function getCharacterSubjects() {
     let subjects = [];
     let subjectCountObj = { girl: 0, boy: 0 };
 
-    // Get action assignments mapping
-    const actionAssignments = getActionAssignments();
+    // Get action assignments mapping - safely handle case where getActionAssignments might not be available yet
+    const actionAssignments = typeof getActionAssignments === 'function' 
+        ? getActionAssignments() 
+        : (window.getActionAssignments ? window.getActionAssignments() : {});
 
     // Process standard character blocks
     for (let i = 1; i <= maxCharacters; i++) {

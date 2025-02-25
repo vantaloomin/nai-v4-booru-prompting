@@ -111,6 +111,103 @@ export function showMaxArtistWarning(maxCount) {
 }
 
 /**
+ * Show a warning modal specifically for maximum character count
+ * 
+ * @param {number} maxCount - The maximum number of characters allowed
+ * @returns {HTMLElement} The modal element
+ */
+export function showMaxCharacterWarning(maxCount) {
+    return showModal({
+        title: 'Maximum Characters Reached',
+        message: `You've reached the maximum limit of ${maxCount} characters. Please remove a character before adding a new one.`,
+        type: 'warning'
+    });
+}
+
+/**
+ * Show a warning modal specifically for maximum action count
+ * 
+ * @param {number} maxCount - The maximum number of actions allowed
+ * @returns {HTMLElement} The modal element
+ */
+export function showMaxActionWarning(maxCount) {
+    return showModal({
+        title: 'Maximum Actions Reached',
+        message: `You've reached the maximum limit of ${maxCount} actions. Please remove an action before adding a new one.`,
+        type: 'warning'
+    });
+}
+
+/**
+ * Show a success modal for clipboard operations
+ * 
+ * @param {string} message - The success message to display
+ * @returns {HTMLElement} The modal element
+ */
+export function showClipboardSuccessModal(message = 'Prompt copied to clipboard!') {
+    return showModal({
+        title: 'Success',
+        message,
+        type: 'success',
+        autoCloseDelay: 2000
+    });
+}
+
+/**
+ * Show an error modal for clipboard operations
+ * 
+ * @param {string} error - The error message to display
+ * @returns {HTMLElement} The modal element
+ */
+export function showClipboardErrorModal(error) {
+    return showModal({
+        title: 'Copy Failed',
+        message: `Failed to copy prompt: ${error}`,
+        type: 'error'
+    });
+}
+
+/**
+ * Show a success modal for reset operation
+ * 
+ * @returns {HTMLElement} The modal element
+ */
+export function showResetSuccessModal() {
+    return showModal({
+        title: 'Reset Complete',
+        message: 'Page has been reset successfully!',
+        type: 'success',
+        autoCloseDelay: 2000
+    });
+}
+
+/**
+ * Show a warning modal for minimum character requirements for actions
+ * 
+ * @returns {HTMLElement} The modal element
+ */
+export function showMinCharacterWarning() {
+    return showModal({
+        title: 'Minimum Characters Required',
+        message: 'At least two characters must be added before assigning actions.',
+        type: 'warning'
+    });
+}
+
+/**
+ * Show a warning modal when trying to add more than one scene
+ * 
+ * @returns {HTMLElement} The modal element
+ */
+export function showMaxSceneWarning() {
+    return showModal({
+        title: 'Maximum Scene Reached',
+        message: 'Only one scene can be added at a time. Please remove the existing scene before adding a new one.',
+        type: 'warning'
+    });
+}
+
+/**
  * Close a modal dialog
  * 
  * @param {HTMLElement} modalElement - The modal element to close

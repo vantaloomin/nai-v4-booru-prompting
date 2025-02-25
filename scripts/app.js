@@ -4,6 +4,10 @@
  * wire up buttons, and render the final prompt from
  * structured data returned by generatePromptData() in prompt.js.
  *******************************************************/
+
+// Import modal utilities
+import { showClipboardSuccessModal, showClipboardErrorModal } from './utils/modal.js';
+
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize current state
   let currentPromptData = null;
@@ -484,10 +488,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const promptText = document.getElementById("output-preview").innerText;
     if (promptText) {
       navigator.clipboard.writeText(promptText)
-        .then(() => alert("Prompt copied to clipboard!"))
-        .catch(err => alert("Failed to copy prompt: " + err));
+        .then(() => showClipboardSuccessModal())
+        .catch(err => showClipboardErrorModal(err));
     } else {
-      alert("No prompt to copy!");
+      showClipboardErrorModal("No prompt to copy!");
     }
   });
 

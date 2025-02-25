@@ -1,9 +1,11 @@
 // Import scene tag utilities
 import { loadContextTags } from './tagUtils.js';
 import { initSceneTagAutocomplete, addSceneAutocompleteStyling } from './autocomplete.js';
+import { showMaxSceneWarning } from '../utils/modal.js';
 
 // Access the scenes array from the global scope (defined in constants.js)
-const { scenes } = window;
+// Provide a fallback empty array if scenes is undefined
+const scenes = window.scenes || [];
 
 let sceneExists = false;
 
@@ -27,14 +29,16 @@ function populateSceneDropdown() {
         sceneSelect.appendChild(option);
     });
 
-    // Sort and add the scene options.
-    const sortedScenes = scenes.slice().sort((a, b) => a.theme.localeCompare(b.theme));
-    sortedScenes.forEach(sceneItem => {
-        const option = document.createElement("option");
-        option.value = sceneItem.theme;
-        option.textContent = sceneItem.theme;
-        sceneSelect.appendChild(option);
-    });
+    // Sort and add the scene options if scenes array exists
+    if (scenes && scenes.length > 0) {
+        const sortedScenes = scenes.slice().sort((a, b) => a.theme.localeCompare(b.theme));
+        sortedScenes.forEach(sceneItem => {
+            const option = document.createElement("option");
+            option.value = sceneItem.theme;
+            option.textContent = sceneItem.theme;
+            sceneSelect.appendChild(option);
+        });
+    }
 }
 
 // Initialize scene tag utilities when the document is loaded
@@ -55,7 +59,10 @@ window.getSelectedSceneTags = getSelectedSceneTags;
 
 export function createSceneCard() {
     // Prevent creating more than one scene card.
-    if (sceneExists) return;
+    if (sceneExists) {
+        showMaxSceneWarning();
+        return;
+    }
     sceneExists = true;
 
     const container = document.getElementById("artist-scene-container");
@@ -178,10 +185,14 @@ export function getSelectedSceneTags() {
     const selected = sceneSelect.value;
     if (selected === "NONE") return "";
     if (selected === "RANDOM") {
+        // Make sure scenes array exists and has items
+        if (!scenes || scenes.length === 0) return "";
         const randomIndex = Math.floor(Math.random() * scenes.length);
         console.log("Random scene chosen:", scenes[randomIndex].theme);
         return scenes[randomIndex].tags;
     }
+    // Make sure scenes array exists before trying to find a scene
+    if (!scenes || scenes.length === 0) return "";
     const found = scenes.find(s => s.theme === selected);
     return found ? found.tags : "";
 } 

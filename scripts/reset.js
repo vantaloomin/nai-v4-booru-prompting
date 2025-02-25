@@ -3,14 +3,19 @@
  * Handles the reset functionality with a confirmation modal
  *******************************************************/
 
+// Import modal utilities
+import { showResetSuccessModal } from './utils/modal.js';
+
 document.addEventListener("DOMContentLoaded", function () {
   // Get the reset button
   const resetBtn = document.getElementById("reset-btn");
 
   // Add click event listener to the reset button
-  resetBtn.addEventListener("click", function () {
-    showResetConfirmationModal();
-  });
+  if (resetBtn) {
+    resetBtn.addEventListener("click", function () {
+      showResetConfirmationModal();
+    });
+  }
 
   // Function to show the reset confirmation modal
   function showResetConfirmationModal() {
@@ -134,6 +139,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Show confirmation message
-    alert("Page has been reset successfully!");
+    showResetSuccessModal();
   }
 }); 
