@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
               return `<span class="highlight-character-${((index % 4) + 1)}">${formatTextForMode(characterParts.map(p => p.text.trim()).join(", "))}</span>`;
             }
             
-            // Skip the gender part
+            // Get the name (second element, index 1)
             const name = characterParts[1].text.trim();
             
             // Extract the additional tags (excluding actions)
@@ -287,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function () {
               return formatTextForMode(characterParts.map(p => p.text.trim()).join(", "));
             }
             
-            // Skip the gender part
+            // Get the name (second element, index 1)
             const name = characterParts[1].text.trim();
             
             // Extract the additional tags (excluding actions)
