@@ -425,10 +425,15 @@ export function getCharacterSubjects() {
             const enhancerDisplay = block.querySelector('#enhancer-div-' + i + ' .selected-display');
             if (enhancerDisplay && enhancerDisplay.textContent !== "-- None --") {
                 let tagsArray = finalTags.split(",").map(t => t.trim()).filter(t => t !== "");
+                
+                // Use the original enhancer text (with -- tags) from the data attribute if available
+                // Otherwise fall back to the displayed text
+                const enhancerText = enhancerDisplay.dataset.originalEnhancer || enhancerDisplay.textContent;
+                
                 if (tagsArray.length >= 2) {
-                    tagsArray.splice(tagsArray.length - 1, 0, enhancerDisplay.textContent);
+                    tagsArray.splice(tagsArray.length - 1, 0, enhancerText);
                 } else {
-                    tagsArray.push(enhancerDisplay.textContent);
+                    tagsArray.push(enhancerText);
                 }
                 finalTags = tagsArray.join(", ");
             }

@@ -98,20 +98,68 @@ function generatePromptData() {
       let parts = subjectStr.split(",").map(s => s.trim());
       if (parts.length > 0) {
         // Check if the first token starts with "girl" or "boy"
-        if (parts[0].toLowerCase().startsWith("girl") || parts[0].toLowerCase().startsWith("boy")) {
-          // First token is gender.
-          tokens.push({ type: "gender", text: parts[0] });
-          // Second token is the name (if it exists).
-          if (parts.length > 1) {
+        const firstPartLower = parts[0].toLowerCase();
+        if (firstPartLower.startsWith("girl") || firstPartLower.startsWith("boy")) {
+          // Extract just the gender part (girl or boy)
+          const genderOnly = firstPartLower.startsWith("girl") ? "girl" : "boy";
+          tokens.push({ type: "gender", text: genderOnly });
+          
+          // The name is likely the rest of the first part after "girl" or "boy"
+          const nameOnly = parts[0].substring(genderOnly.length).trim();
+          
+          // Skip to the next part after the one containing name
+          let nextPartIndex = 1;
+          
+          // Add the name token
+          if (nameOnly) {
+            tokens.push({ type: "name", text: nameOnly });
+          } else if (parts.length > 1) {
+            // If name wasn't in first part, use the second part
             tokens.push({ type: "name", text: parts[1] });
+            nextPartIndex = 2;
           }
+          
+          // Extract enhancer tags with -- prefix first
+          const enhancerTags = [];
+          for (let i = nextPartIndex; i < parts.length; i++) {
+            const part = parts[i].trim();
+            if (part.includes("--")) {
+              // Split by commas if this part contains multiple -- tags
+              const subParts = part.split(",").map(sp => sp.trim());
+              
+              // Check each subpart for -- prefix
+              for (const subPart of subParts) {
+                if (subPart.startsWith("--")) {
+                  const baseTag = subPart.substring(2).trim();
+                  enhancerTags.push(baseTag);
+                }
+              }
+            } else if (part.startsWith("--")) {
+              // Direct -- tag (not part of a group)
+              const baseTag = part.substring(2).trim();
+              enhancerTags.push(baseTag);
+            }
+          }
+          
           // Any subsequent tokens:
-          for (let i = 2; i < parts.length; i++) {
+          for (let i = nextPartIndex; i < parts.length; i++) {
             // If the token contains a '#' character, consider it an action.
             if (parts[i].includes("#")) {
               tokens.push({ type: "action", text: parts[i] });
+            } else if (parts[i].startsWith("--")) {
+              // Skip enhancer tags with -- prefix (don't add them to output)
+              continue;
             } else {
-              tokens.push({ type: "tag", text: parts[i] });
+              // Check if this tag should be excluded due to an enhancer with --
+              const normalTag = parts[i].trim();
+              const shouldExclude = enhancerTags.some(baseTag => 
+                normalTag.toLowerCase() === baseTag.toLowerCase()
+              );
+              
+              // Only add if there's no matching enhancer
+              if (!shouldExclude) {
+                tokens.push({ type: "tag", text: parts[i] });
+              }
             }
           }
         } else {

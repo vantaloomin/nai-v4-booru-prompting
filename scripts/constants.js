@@ -1883,7 +1883,7 @@ const characterData = [{
         name: "lulu (league of legends)",
         category: "League of Legends",
         mainTags: "lulu (league of legends), colored skin, purple skin, league of legends",
-        enhancers: ["wicked lulu", "[--colored skin", "purple skin]: star guardian lulu", "winter wonder lulu", "[bitter sweet lulu", "candy", "striped thighhighs]"],
+        enhancers: ["wicked lulu", "[--colored skin, --purple skin, star guardian lulu]", "winter wonder lulu", "[bitter sweet lulu", "candy", "striped thighhighs]"],
         defaultGender: "girl",
         genderswapAvailable: false,
         mediaType: "Video Games"

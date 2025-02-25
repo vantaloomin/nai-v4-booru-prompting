@@ -9,12 +9,13 @@
  * marked with square brackets
  * 
  * @param {string[]} enhancers - Array of enhancer tokens
- * @return {string[]} - Array of processed enhancers
+ * @return {Array} - Array of processed enhancers objects with display text and original text
  */
 export function processEnhancers(enhancers) {
     let processed = [];
     let group = [];
     let inGroup = false;
+    
     enhancers.forEach(token => {
         token = token.trim();
         if (token.startsWith("[")) {
@@ -26,7 +27,14 @@ export function processEnhancers(enhancers) {
             if (token.endsWith("]")) {
                 token = token.replace(/\]$/, "").trim();
                 group[group.length - 1] = token;
-                processed.push(group.join(", "));
+                const groupText = group.join(", ");
+                
+                // Create an object with both the original text (with -- tags) and display text (without -- tags)
+                processed.push({
+                    original: groupText,
+                    display: removeDashDashPrefix(groupText)
+                });
+                
                 group = [];
                 inGroup = false;
             }
@@ -36,17 +44,53 @@ export function processEnhancers(enhancers) {
                 let last = group[group.length - 1];
                 last = last.replace(/\]$/, "").trim();
                 group[group.length - 1] = last;
-                processed.push(group.join(", "));
+                const groupText = group.join(", ");
+                
+                // Create an object with both the original text (with -- tags) and display text (without -- tags)
+                processed.push({
+                    original: groupText,
+                    display: removeDashDashPrefix(groupText)
+                });
+                
                 group = [];
                 inGroup = false;
             }
         } else {
-            processed.push(token);
+            // Create an object with both the original text (with -- tags) and display text (without -- tags)
+            processed.push({
+                original: token,
+                display: removeDashDashPrefix(token)
+            });
         }
     });
+    
     // If there's an unfinished group, join it
     if (group.length > 0) {
-        processed.push(group.join(", "));
+        const groupText = group.join(", ");
+        
+        // Create an object with both the original text (with -- tags) and display text (without -- tags)
+        processed.push({
+            original: groupText,
+            display: removeDashDashPrefix(groupText)
+        });
     }
+    
     return processed;
+}
+
+/**
+ * Helper function to remove -- prefixes from text for display purposes
+ * 
+ * @param {string} text - The enhancer text possibly containing -- prefixes
+ * @return {string} - Text with -- prefixes and their tags completely removed for display
+ */
+function removeDashDashPrefix(text) {
+    // Split the text by commas
+    const parts = text.split(',').map(part => part.trim());
+    
+    // Filter out parts that start with --
+    const filteredParts = parts.filter(part => !part.startsWith('--'));
+    
+    // Join the remaining parts
+    return filteredParts.join(', ');
 } 

@@ -162,9 +162,16 @@ export function updateEnhancerDropdown(id, selectedCharacterName) {
         processedEnhancers.forEach(enh => {
             const item = document.createElement('div');
             item.className = 'suggestion-item';
-            item.textContent = enh;
+            // Display the user-friendly version without -- tags
+            item.textContent = enh.display;
+            // Store the original version with -- tags as a data attribute
+            item.dataset.originalEnhancer = enh.original;
+            
             item.addEventListener('click', () => {
-                enhancerDisplay.textContent = enh;
+                // Show user-friendly display version in the UI
+                enhancerDisplay.textContent = enh.display;
+                // Store original version with -- tags for processing
+                enhancerDisplay.dataset.originalEnhancer = enh.original;
                 enhancerList.style.display = 'none';
                 if (typeof updateAllActionAssignments === "function") {
                     updateAllActionAssignments();
@@ -179,6 +186,8 @@ export function updateEnhancerDropdown(id, selectedCharacterName) {
         noneOption.textContent = "-- None --";
         noneOption.addEventListener('click', () => {
             enhancerDisplay.textContent = "-- None --";
+            // Clear the original enhancer data attribute when selecting None
+            delete enhancerDisplay.dataset.originalEnhancer;
             enhancerList.style.display = 'none';
             if (typeof updateAllActionAssignments === "function") {
                 updateAllActionAssignments();
