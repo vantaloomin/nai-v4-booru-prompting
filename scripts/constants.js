@@ -11350,2569 +11350,2098 @@ const characterData = [
     genderswapAvailable: true,
     mediaType: "Shows or Movies"
 },
-  {
+{
     name: "merida (brave)",
     category: "Disney",
-    mainTags: "merida (brave), brave (pixar), disney",
+    mainTags: "merida (brave), blue eyes, red hair, very long hair, brave (pixar), disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "moana waialiki",
     category: "Disney",
-    mainTags:
-      "moana waialiki, moana (movie), disney, {{{aged up, mature female}}}",
+    mainTags: "moana waialiki, brown eyes, brown hair, very long hair, moana (movie), disney, {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "vanellope von schweetz",
     category: "Disney",
-    mainTags: "vanellope von schweetz, large breasts, wreck-it-ralph, disney",
+    mainTags: "vanellope von schweetz, brown eyes, black hair, long hair, ponytail, large breasts, wreck-it-ralph, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tiana (the princess and the frog)",
     category: "Disney",
-    mainTags:
-      "tiana (the princess and the frog), dark skin, dark-skinned female, the princess and the frog, disney",
+    mainTags: "tiana (the princess and the frog), brown eyes, black hair, long hair, dark skin, dark-skinned female, the princess and the frog, disney",
     enhancers: ["green gown"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "dark magician girl",
     category: "Yu-Gi-Oh",
-    mainTags: "dark magician girl, duel monster, yu-gi-oh!",
+    mainTags: "dark magician girl, green eyes, blonde hair, long hair, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "dark magician",
     category: "Yu-Gi-Oh",
-    mainTags:
-      "dark magician, purple hair, purple armor, pelvic curtain, duel monster, yu-gi-oh!",
+    mainTags: "dark magician, green eyes, purple hair, short hair, purple armor, pelvic curtain, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "gagaga girl",
     category: "Yu-Gi-Oh",
-    mainTags: "gagaga girl, duel monster, yu-gi-oh!",
+    mainTags: "gagaga girl, brown eyes, black hair, long hair, twintails, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "silent magician",
     category: "Yu-Gi-Oh",
-    mainTags: "silent magician, hat, duel monster, yu-gi-oh!",
+    mainTags: "silent magician, blue eyes, blonde hair, long hair, hat, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "dogmatika ecclesia the virtuous",
     category: "Yu-Gi-Oh",
-    mainTags: "dogmatika ecclesia the virtuous, horns, duel monster, yu-gi-oh!",
+    mainTags: "dogmatika ecclesia the virtuous, blue eyes, blonde hair, long hair, horns, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "blazing cartesia the virtuous",
     category: "Yu-Gi-Oh",
-    mainTags: "blazing cartesia the virtuous, horns, duel monster, yu-gi-oh!",
+    mainTags: "blazing cartesia the virtuous, red eyes, red hair, long hair, horns, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lovely labrynth of the silver castle",
     category: "Yu-Gi-Oh",
-    mainTags: "lovely labrynth of the silver castle, duel monster, yu-gi-oh!",
+    mainTags: "lovely labrynth of the silver castle, red eyes, white hair, long hair, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "arianna the labrynth servant",
     category: "Yu-Gi-Oh",
-    mainTags:
-      "arianna the labrynth servant, face mark, duel monster, yu-gi-oh!",
+    mainTags: "arianna the labrynth servant, green eyes, green hair, long hair, face mark, duel monster, yu-gi-oh!",
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "laundry dragonmaid",
     category: "Yu-Gi-Oh",
-    mainTags:
-      "laundry dragonmaid, duel monster, yu-gi-oh!, {{{aged up, mature female}}}",
+    mainTags: "laundry dragonmaid, blue eyes, blue hair, long hair, duel monster, yu-gi-oh!, {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kitchen dragonmaid",
     category: "Yu-Gi-Oh",
-    mainTags: "kitchen dragonmaid, duel monster, yu-gi-oh!",
+    mainTags: "kitchen dragonmaid, red eyes, red hair, long hair, duel monster, yu-gi-oh!",
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "parlor dragonmaid",
     category: "Yu-Gi-Oh",
-    mainTags: "parlor dragonmaid, duel monster, yu-gi-oh!",
+    mainTags: "parlor dragonmaid, green eyes, black hair, long hair, duel monster, yu-gi-oh!",
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "chamber dragonmaid",
     category: "Yu-Gi-Oh",
-    mainTags: "chamber dragonmaid, duel monster, yu-gi-oh!",
+    mainTags: "chamber dragonmaid, yellow eyes, black hair, long hair, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "house dragonmaid",
     category: "Yu-Gi-Oh",
-    mainTags: "house dragonmaid, duel monster, yu-gi-oh!",
+    mainTags: "house dragonmaid, blue eyes, grey hair, long hair, duel monster, yu-gi-oh!",
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "nurse dragonmaid",
     category: "Yu-Gi-Oh",
-    mainTags: "nurse dragonmaid, duel monster, yu-gi-oh!",
+    mainTags: "nurse dragonmaid, green eyes, green hair, long hair, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yubel",
     category: "Yu-Gi-Oh",
-    mainTags: "yubel, duel monster, yu-gi-oh!",
+    mainTags: "yubel, blue eyes, black hair, short hair, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "diabellstar the black witch",
     category: "Yu-Gi-Oh",
-    mainTags: "diabellstar the black witch, half mask, duel monster, yu-gi-oh!",
+    mainTags: "diabellstar the black witch, yellow eyes, black hair, long hair, half mask, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sky striker ace - raye",
     category: "Yu-Gi-Oh",
-    mainTags: "sky striker ace - raye, duel monster, yu-gi-oh!",
+    mainTags: "sky striker ace - raye, brown eyes, red hair, short hair, duel monster, yu-gi-oh!",
     enhancers: ["black jacket"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tearlaments kitkallos",
     category: "Yu-Gi-Oh",
-    mainTags: "tearlaments kitkallos, duel monster, yu-gi-oh!",
+    mainTags: "tearlaments kitkallos, blue eyes, blue hair, long hair, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "wynn the wind charmer",
     category: "Yu-Gi-Oh",
-    mainTags: "wynn the wind charmer, duel monster, yu-gi-oh!",
+    mainTags: "wynn the wind charmer, green eyes, green hair, long hair, duel monster, yu-gi-oh!",
     enhancers: ["[tied brown coat", "black skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hiita (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
-    mainTags:
-      "hiita (yu-gi-oh!), hiita the fire charmerduel monster, yu-gi-oh!",
+    mainTags: "hiita (yu-gi-oh!), brown eyes, red hair, long hair, hiita the fire charmer, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "i:p masquerena",
     category: "Yu-Gi-Oh",
-    mainTags: "i:p masquerena, duel monster, yu-gi-oh!",
+    mainTags: "i:p masquerena, purple eyes, black hair, short hair, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "diabellze the original sinkeeper",
     category: "Yu-Gi-Oh",
-    mainTags: "diabellze the original sinkeeper, hat, duel monster, yu-gi-oh!",
+    mainTags: "diabellze the original sinkeeper, red eyes, blonde hair, long hair, hat, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "s-force rappa chiyomaru",
     category: "Yu-Gi-Oh",
-    mainTags: "s-force rappa chiyomaru, duel monster, yu-gi-oh!",
-    enhancers: [
-      "[ninja",
-      "detached sleeves",
-      "pelvic curtain",
-      "black shorts]",
-    ],
+    mainTags: "s-force rappa chiyomaru, brown eyes, black hair, short hair, duel monster, yu-gi-oh!",
+    enhancers: ["[ninja", "detached sleeves", "pelvic curtain", "black shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "harpie lady",
     category: "Yu-Gi-Oh",
-    mainTags: "harpie lady, duel monster, yu-gi-oh!",
+    mainTags: "harpie lady, blue eyes, orange hair, long hair, duel monster, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kitt (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
-    mainTags: "kitt (yu-gi-oh!), duel monster, yu-gi-oh!",
-    enhancers: [
-      "[tri-brigade kitt",
-      "orange tube top",
-      "goggles on head",
-      "jumpsuit around waist]",
-    ],
+    mainTags: "kitt (yu-gi-oh!), green eyes, orange hair, short hair, duel monster, yu-gi-oh!",
+    enhancers: ["[tri-brigade kitt", "orange tube top", "goggles on head", "jumpsuit around waist]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yuki judai",
     category: "Yu-Gi-Oh",
-    mainTags: "yuki judai, yu-gi-oh! gx, yu-gi-oh!",
+    mainTags: "yuki judai, brown eyes, brown hair, short hair, yu-gi-oh! gx, yu-gi-oh!",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tenjouin asuka",
     category: "Yu-Gi-Oh",
-    mainTags: "tenjouin asuka, yu-gi-oh! gx, yu-gi-oh!",
+    mainTags: "tenjouin asuka, blue eyes, blonde hair, long hair, yu-gi-oh! gx, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "manjoume jun",
     category: "Yu-Gi-Oh",
-    mainTags: "manjoume jun, yu-gi-oh! gx, yu-gi-oh!",
+    mainTags: "manjoume jun, grey eyes, black hair, short hair, yu-gi-oh! gx, yu-gi-oh!",
     enhancers: ["[black coat", "black skirt", "belt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "johan andersen",
     category: "Yu-Gi-Oh",
-    mainTags: "johan andersen, yu-gi-oh! gx, yu-gi-oh!",
+    mainTags: "johan andersen, green eyes, blue hair, short hair, yu-gi-oh! gx, yu-gi-oh!",
     enhancers: ["blue vest"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "marufuji ryo",
     category: "Yu-Gi-Oh",
-    mainTags: "marufuji ryo, yu-gi-oh! gx, yu-gi-oh!",
+    mainTags: "marufuji ryo, blue eyes, black hair, short hair, yu-gi-oh! gx, yu-gi-oh!",
     enhancers: ["duel academy uniform (yu-gi-oh! gx)"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "fudo yusei",
     category: "Yu-Gi-Oh",
-    mainTags: "fudo yusei, yu-gi-oh! 5d's, yu-gi-oh!",
+    mainTags: "fudo yusei, blue eyes, black hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "izayoi aki",
     category: "Yu-Gi-Oh",
-    mainTags: "izayoi aki, yu-gi-oh! 5d's, yu-gi-oh!",
+    mainTags: "izayoi aki, red eyes, red hair, long hair, yu-gi-oh! 5d's, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "jack atlas",
     category: "Yu-Gi-Oh",
-    mainTags: "jack atlas, yu-gi-oh! 5d's, yu-gi-oh!",
+    mainTags: "jack atlas, purple eyes, blonde hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "bruno (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
-    mainTags: "bruno (yu-gi-oh!), yu-gi-oh! 5d's, yu-gi-oh!",
+    mainTags: "bruno (yu-gi-oh!), blue eyes, blue hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
     enhancers: ["multicolored coat"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "carly nagisa",
     category: "Yu-Gi-Oh",
-    mainTags: "carly nagisa, yu-gi-oh! 5d's, yu-gi-oh!",
+    mainTags: "carly nagisa, blue eyes, black hair, long hair, yu-gi-oh! 5d's, yu-gi-oh!",
     enhancers: ["glasses", "[orange vest", "glasses]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "luca (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
-    mainTags:
-      "luca (yu-gi-oh!), yu-gi-oh! 5d's, yu-gi-oh!, {{{aged up, mature female}}}",
+    mainTags: "luca (yu-gi-oh!), green eyes, orange hair, long hair, yu-gi-oh! 5d's, yu-gi-oh!, {{{aged up, mature female}}}",
     enhancers: ["[red shirt", "pink jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kaiba seto",
     category: "Yu-Gi-Oh",
-    mainTags: "kaiba seto, yu-gi-oh! duel monsters, yu-gi-oh!",
+    mainTags: "kaiba seto, green eyes, brown hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
     enhancers: ["white collared coat"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "muto yugi",
     category: "Yu-Gi-Oh",
-    mainTags: "muto yugi, yu-gi-oh! duel monsters, yu-gi-oh!",
+    mainTags: "muto yugi, purple eyes, black hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
     enhancers: ["[blue jacket", "millennium puzzle]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yami yugi",
     category: "Yu-Gi-Oh",
-    mainTags: "yami yugi, yu-gi-oh! duel monsters, yu-gi-oh!",
+    mainTags: "yami yugi, purple eyes, black hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
     enhancers: ["[spiked hair", "open blue jacket", "millennium puzzle]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mazaki anzu",
     category: "Yu-Gi-Oh",
-    mainTags: "mazaki anzu, yu-gi-oh! duel monsters, yu-gi-oh!",
+    mainTags: "mazaki anzu, blue eyes, brown hair, medium hair, yu-gi-oh! duel monsters, yu-gi-oh!",
     enhancers: ["[pink jacket", "blue bowtie]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "jonouchi katsuya",
     category: "Yu-Gi-Oh",
-    mainTags: "jonouchi katsuya, yu-gi-oh! duel monsters, yu-gi-oh!",
+    mainTags: "jonouchi katsuya, brown eyes, blonde hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
     enhancers: ["[green coat", "single fingerless glove", "pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ishizu ishtar",
     category: "Yu-Gi-Oh",
-    mainTags: "ishizu ishtar, millennium necklace, veil, yu-gi-oh!",
+    mainTags: "ishizu ishtar, blue eyes, black hair, long hair, millennium necklace, veil, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kujaku mai",
     category: "Yu-Gi-Oh",
-    mainTags: "kujaku mai, yu-gi-oh! duel monsters, yu-gi-oh!",
+    mainTags: "kujaku mai, purple eyes, blonde hair, long hair, yu-gi-oh! duel monsters, yu-gi-oh!",
     enhancers: ["[purple skirt", "corset]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yami bakura",
     category: "Yu-Gi-Oh",
-    mainTags: "yami bakura, yu-gi-oh! duel monsters, yu-gi-oh!",
+    mainTags: "yami bakura, brown eyes, white hair, long hair, yu-gi-oh! duel monsters, yu-gi-oh!",
     enhancers: ["[blue jacket", "millennium ring", "striped shirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kisara (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
-    mainTags: "kisara (yu-gi-oh!), yu-gi-oh! duel monsters, yu-gi-oh!",
+    mainTags: "kisara (yu-gi-oh!), blue eyes, white hair, long hair, yu-gi-oh! duel monsters, yu-gi-oh!",
     enhancers: ["brown tunic"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hiiragi yuzu",
     category: "Yu-Gi-Oh",
-    mainTags: "hiiragi yuzu, yu-gi-oh! arc-v, yu-gi-oh!",
+    mainTags: "hiiragi yuzu, pink eyes, pink hair, long hair, twintails, yu-gi-oh! arc-v, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sakaki yuya",
     category: "Yu-Gi-Oh",
-    mainTags: "sakaki yuya, yu-gi-oh! arc-v, yu-gi-oh!",
+    mainTags: "sakaki yuya, red eyes, red hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
     enhancers: ["goggles on head"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "serena (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
-    mainTags: "serena (yu-gi-oh!), yu-gi-oh! arc-v, yu-gi-oh!",
+    mainTags: "serena (yu-gi-oh!), blue eyes, purple hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
     enhancers: ["red jacket"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kurosaki ruri",
     category: "Yu-Gi-Oh",
-    mainTags: "kurosaki ruri, yu-gi-oh! arc-v, yu-gi-oh!",
+    mainTags: "kurosaki ruri, purple eyes, black hair, long hair, yu-gi-oh! arc-v, yu-gi-oh!",
     enhancers: ["[white vest", "purple shirt", "pants under skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rin (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
-    mainTags: "rin (yu-gi-oh!), yu-gi-oh! arc-v, yu-gi-oh!",
+    mainTags: "rin (yu-gi-oh!), green eyes, green hair, long hair, yu-gi-oh! arc-v, yu-gi-oh!",
     enhancers: ["[pink shorts", "multicolored jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mizuki kotori (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
-    mainTags:
-      "mizuki kotori (yu-gi-oh!), yu-gi-oh! zexal, yu-gi-oh!, {{{aged up, mature female}}}",
+    mainTags: "mizuki kotori (yu-gi-oh!), brown eyes, brown hair, long hair, yu-gi-oh! zexal, yu-gi-oh!, {{{aged up, mature female}}}",
     enhancers: ["[sleeveless shirt", "pink skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tsukumo yuma",
     category: "Yu-Gi-Oh",
-    mainTags:
-      "tsukumo yuma, yu-gi-oh! zexal, yu-gi-oh!, {{{aged up, mature female}}}",
+    mainTags: "tsukumo yuma, red eyes, black hair, short hair, yu-gi-oh! zexal, yu-gi-oh!, {{{aged up, mature female}}}",
     enhancers: ["red jacket"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kamishiro rio",
     category: "Yu-Gi-Oh",
-    mainTags: "kamishiro rio, yu-gi-oh! zexal, yu-gi-oh!",
+    mainTags: "kamishiro rio, purple eyes, purple hair, long hair, yu-gi-oh! zexal, yu-gi-oh!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kirishima romin",
     category: "Yu-Gi-Oh",
-    mainTags:
-      "kirishima romin, yu-gi-oh! sevens, yu-gi-oh!, {{{aged up, mature female}}}",
+    mainTags: "kirishima romin, purple eyes, purple hair, short hair, yu-gi-oh! sevens, yu-gi-oh!, {{{aged up, mature female}}}",
     enhancers: ["[striped shirt", "bow hairband]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "zaizen aoi",
     category: "Yu-Gi-Oh",
-    mainTags:
-      "zaizen aoi, yu-gi-oh! vrains, yu-gi-oh!, {{{aged up, mature female}}}",
+    mainTags: "zaizen aoi, blue eyes, brown hair, long hair, yu-gi-oh! vrains, yu-gi-oh!, {{{aged up, mature female}}}",
     enhancers: ["black jacket"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "blue angel (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
-    mainTags: "blue angel (yu-gi-oh!), wings, yu-gi-oh! vrains, yu-gi-oh!",
+    mainTags: "blue angel (yu-gi-oh!), blue eyes, blonde hair, long hair, wings, yu-gi-oh! vrains, yu-gi-oh!",
     enhancers: ["[blue dress", "white vest]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rem (re:zero)",
     category: "Re: Zero",
-    mainTags: "rem (re:zero), re:zero kara hajimeru isekai seikatsu",
+    mainTags: "rem (re:zero), blue eyes, blue hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ram (re:zero)",
     category: "Re: Zero",
-    mainTags: "ram (re:zero), re:zero kara hajimeru isekai seikatsu",
+    mainTags: "ram (re:zero), red eyes, pink hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "emilia (re:zero)",
     category: "Re: Zero",
-    mainTags: "emilia (re:zero), re:zero kara hajimeru isekai seikatsu",
+    mainTags: "emilia (re:zero), purple eyes, silver hair, long hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["[white dress", "detached sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "natsuki subaru",
     category: "Re: Zero",
-    mainTags:
-      "natsuki subaru, short hair, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "natsuki subaru, brown eyes, black hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["track jacket"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "beatrice (re:zero)",
     category: "Re: Zero",
-    mainTags:
-      "beatrice (re:zero), twin drills, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
+    mainTags: "beatrice (re:zero), blue eyes, blonde hair, long hair, twin drills, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
     enhancers: ["[red dress", "capelet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "echidna (re:zero)",
     category: "Re: Zero",
-    mainTags: "echidna (re:zero), re:zero kara hajimeru isekai seikatsu",
+    mainTags: "echidna (re:zero), black eyes, white hair, long hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["black dress"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "felix argyle",
     category: "Re: Zero",
-    mainTags:
-      "felix argyle, cat girl, cat tail, animal ear fluff, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "felix argyle, yellow eyes, orange hair, short hair, cat girl, cat tail, animal ear fluff, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["[striped dress", "thighhighs]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "felt (re:zero)",
     category: "Re: Zero",
-    mainTags:
-      "felt (re:zero), re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
+    mainTags: "felt (re:zero), red eyes, blonde hair, short hair, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
     enhancers: ["[tube top", "brown vest", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "petra leyte",
     category: "Re: Zero",
-    mainTags:
-      "petra leyte, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
+    mainTags: "petra leyte, brown eyes, orange hair, medium hair, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
     enhancers: ["maid", "[green skirt", "yellow shirt", "green cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "frederica baumann",
     category: "Re: Zero",
-    mainTags: "frederica baumann, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "frederica baumann, green eyes, blonde hair, long hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "elsa granhilte",
     category: "Re: Zero",
-    mainTags: "elsa granhilte, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "elsa granhilte, purple eyes, black hair, long hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["black cocktail dress", "cloak"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "crusch karsten",
     category: "Re: Zero",
-    mainTags: "crusch karsten, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "crusch karsten, green eyes, green hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["military uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "priscilla barielle",
     category: "Re: Zero",
-    mainTags: "priscilla barielle, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "priscilla barielle, red eyes, orange hair, long hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["[aristocratic clothes", "off shoulder red dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "reinhard van astrea",
     category: "Re: Zero",
-    mainTags: "reinhard van astrea, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "reinhard van astrea, blue eyes, red hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["[white coat", "white skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shaula (re:zero)",
     category: "Re: Zero",
-    mainTags: "shaula (re:zero), re:zero kara hajimeru isekai seikatsu",
+    mainTags: "shaula (re:zero), green eyes, black hair, very long hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["[black bikini top", "black shorts", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "otto suewen",
     category: "Re: Zero",
-    mainTags: "otto suewen, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "otto suewen, grey eyes, grey hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["[green cloak", "green hat]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "meili portroute",
     category: "Re: Zero",
-    mainTags:
-      "meili portroute, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
+    mainTags: "meili portroute, blue eyes, blue hair, long hair, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
     enhancers: ["[black dress", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "minerva (re:zero)",
     category: "Re: Zero",
-    mainTags: "minerva (re:zero), re:zero kara hajimeru isekai seikatsu",
+    mainTags: "minerva (re:zero), blue eyes, blonde hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["[white coat", "purple dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "pandora (re:zero)",
     category: "Re: Zero",
-    mainTags:
-      "pandora (re:zero), re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
+    mainTags: "pandora (re:zero), blue eyes, blonde hair, long hair, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "petelgeuse romaneeconti",
     category: "Re: Zero",
-    mainTags:
-      "petelgeuse romaneeconti, short hair, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "petelgeuse romaneeconti, green eyes, black hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["cape"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "anastasia hoshin",
     category: "Re: Zero",
-    mainTags: "anastasia hoshin, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "anastasia hoshin, purple eyes, green hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["gradient dress"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "satella (re:zero)",
     category: "Re: Zero",
-    mainTags: "satella (re:zero), re:zero kara hajimeru isekai seikatsu",
+    mainTags: "satella (re:zero), purple eyes, black hair, long hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["[black dress", "black veil]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "garfiel tinsel",
     category: "Re: Zero",
-    mainTags: "garfiel tinsel, re:zero kara hajimeru isekai seikatsu",
+    mainTags: "garfiel tinsel, green eyes, blonde hair, short hair, re:zero kara hajimeru isekai seikatsu",
     enhancers: ["black vest"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mimi pearlbaton",
     category: "Re: Zero",
-    mainTags:
-      "mimi pearlbaton, cat girl, cat ears, cat tail, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
+    mainTags: "mimi pearlbaton, orange eyes, orange hair, short hair, cat girl, cat ears, cat tail, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
     enhancers: ["[white coat", "white dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "velma dinkley",
     category: "Scooby-Doo (Series)",
-    mainTags: "velma dinkley, scooby-doo",
+    mainTags: "velma dinkley, brown eyes, brown hair, short hair, scooby-doo",
     enhancers: ["orange sweater"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "daphne blake",
     category: "Scooby-Doo (Series)",
-    mainTags: "daphne blake, scooby-doo",
+    mainTags: "daphne blake, purple eyes, orange hair, long hair, scooby-doo",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shaggy rogers",
     category: "Scooby-Doo (Series)",
-    mainTags: "shaggy rogers, short hair, green shirt, brown pants, scooby-doo",
+    mainTags: "shaggy rogers, brown eyes, brown hair, short hair, green shirt, brown pants, scooby-doo",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "fred jones",
     category: "Scooby-Doo (Series)",
-    mainTags: "fred jones, short hair, blonde hair, scooby-doo",
+    mainTags: "fred jones, blue eyes, blonde hair, short hair, scooby-doo",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "thorn (scooby-doo)",
     category: "Scooby-Doo (Series)",
-    mainTags:
-      "thorn (scooby-doo), scooby-doo and the witch's ghost, scooby-doo",
+    mainTags: "thorn (scooby-doo), green eyes, black hair, long hair, scooby-doo and the witch's ghost, scooby-doo",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "guts (berserk)",
     category: "Berserk",
-    mainTags: "guts (berserk), one eye closed, cloak, berserk",
+    mainTags: "guts (berserk), brown eyes, black hair, short hair, one eye closed, cloak, berserk",
     enhancers: ["[armor", "boobplate]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "griffith (berserk)",
     category: "Berserk",
-    mainTags: "griffith (berserk), berserk",
+    mainTags: "griffith (berserk), blue eyes, white hair, long hair, berserk",
     enhancers: ["[armor", "boobplate]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "casca (berserk)",
     category: "Berserk",
-    mainTags:
-      "casca (berserk), dark skin, dark-skinned female, muscular female, berserk",
+    mainTags: "casca (berserk), brown eyes, black hair, short hair, dark skin, dark-skinned female, muscular female, berserk",
     enhancers: ["[armor", "boobplate]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "schierke (berserk)",
     category: "Berserk",
-    mainTags: "schierke (berserk), berserk, {{{aged up, mature female}}}",
+    mainTags: "schierke (berserk), green eyes, brown hair, long hair, berserk, {{{aged up, mature female}}}",
     enhancers: ["[witch hat", "robe]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "farnese (berserk)",
     category: "Berserk",
-    mainTags: "farnese (berserk), berserk",
+    mainTags: "farnese (berserk), blue eyes, blonde hair, long hair, berserk",
     enhancers: ["[armor", "two-sided cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "slan (berserk)",
     category: "Berserk",
-    mainTags:
-      "slan (berserk), aqua hair, tentacle hair, demon girl, demon wings, berserk",
+    mainTags: "slan (berserk), purple eyes, black hair, long hair, aqua hair, tentacle hair, demon girl, demon wings, berserk",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "clare (claymore)",
     category: "Claymore",
-    mainTags: "clare (claymore), claymore (series)",
+    mainTags: "clare (claymore), silver eyes, blonde hair, short hair, claymore (series)",
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "teresa (claymore)",
     category: "Claymore",
-    mainTags: "teresa (claymore), claymore (series)",
+    mainTags: "teresa (claymore), silver eyes, blonde hair, long hair, claymore (series)",
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "miria (claymore)",
     category: "Claymore",
-    mainTags: "miria (claymore), claymore (series)",
+    mainTags: "miria (claymore), silver eyes, brown hair, short hair, claymore (series)",
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "galatea (claymore)",
     category: "Claymore",
-    mainTags: "galatea (claymore), claymore (series)",
+    mainTags: "galatea (claymore), silver eyes, blonde hair, long hair, claymore (series)",
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "helen (claymore)",
     category: "Claymore",
-    mainTags: "helen (claymore), claymore (series)",
+    mainTags: "helen (claymore), silver eyes, brown hair, short hair, claymore (series)",
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "irene (claymore)",
     category: "Claymore",
-    mainTags: "irene (claymore), claymore (series)",
+    mainTags: "irene (claymore), silver eyes, blonde hair, long hair, claymore (series)",
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "deneve",
     category: "Claymore",
-    mainTags: "deneve, short hair, claymore (series)",
+    mainTags: "deneve, silver eyes, blonde hair, short hair, claymore (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ophelia (claymore)",
     category: "Claymore",
-    mainTags: "ophelia (claymore), claymore (series)",
+    mainTags: "ophelia (claymore), silver eyes, blonde hair, long hair, claymore (series)",
     enhancers: ["armor", "[monster girl", "lamia]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lina inverse",
     category: "The Slayers",
-    mainTags: "lina inverse, slayers",
+    mainTags: "lina inverse, red eyes, red hair, long hair, slayers",
     enhancers: ["[armor", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "naga the serpent",
     category: "The Slayers",
-    mainTags: "naga the serpent, slayers",
+    mainTags: "naga the serpent, blue eyes, black hair, very long hair, slayers",
     enhancers: ["[pauldrons", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "amelia wil tesla seyruun",
     category: "The Slayers",
-    mainTags: "amelia wil tesla seyruun, slayers",
+    mainTags: "amelia wil tesla seyruun, blue eyes, purple hair, short hair, slayers",
     enhancers: ["cape"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "xelloss",
     category: "The Slayers",
-    mainTags: "xelloss, slayers",
+    mainTags: "xelloss, purple eyes, black hair, medium hair, slayers",
     enhancers: ["cape"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "zelgadiss graywords",
     category: "The Slayers",
-    mainTags: "zelgadiss graywords, colored skin, blue skin, slayers",
+    mainTags: "zelgadiss graywords, grey eyes, grey hair, short hair, colored skin, blue skin, slayers",
     enhancers: ["cape"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "filia ul copt",
     category: "The Slayers",
-    mainTags: "filia ul copt, slayers",
+    mainTags: "filia ul copt, blue eyes, blonde hair, long hair, slayers",
     enhancers: ["[hat", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sylphiel nels lahda",
     category: "The Slayers",
-    mainTags: "sylphiel nels lahda, slayers",
+    mainTags: "sylphiel nels lahda, blue eyes, black hair, long hair, slayers",
     enhancers: ["cape"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kaname madoka",
     category: "Puella Magi Madoka Magica",
-    mainTags:
-      "kaname madoka, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
-    enhancers: [
-      "[kaname madoka (magical girl)",
-      "frilled dress",
-      "magical girl]",
-      "[plaid skirt",
-      "white shirt",
-      "long sleeves",
-      "white thighhighs]",
-      "ultimate madoka",
-    ],
+    mainTags: "kaname madoka, pink eyes, pink hair, long hair, twintails, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
+    enhancers: ["[kaname madoka (magical girl)", "frilled dress", "magical girl]", "[plaid skirt", "white shirt", "long sleeves", "white thighhighs]", "ultimate madoka"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "akemi homura",
     category: "Puella Magi Madoka Magica",
-    mainTags:
-      "akemi homura, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
-    enhancers: [
-      "[akemi homura (magical girl)",
-      "collared capelet",
-      "magical girl]",
-      "[plaid skirt",
-      "white shirt",
-      "long sleeves",
-      "white thighhighs]",
-      "[akuma homura",
-      "feathered wings",
-      "black dress",
-      "elbow gloves]",
-    ],
+    mainTags: "akemi homura, purple eyes, black hair, long hair, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
+    enhancers: ["[akemi homura (magical girl)", "collared capelet", "magical girl]", "[plaid skirt", "white shirt", "long sleeves", "white thighhighs]", "[akuma homura", "feathered wings", "black dress", "elbow gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "miki sayaka",
     category: "Puella Magi Madoka Magica",
-    mainTags:
-      "miki sayaka, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
-    enhancers: [
-      "[miki sayaka (magical girl)",
-      "cape",
-      "armored dress]",
-      "[plaid skirt",
-      "white shirt",
-      "long sleeves",
-      "black knee socks]",
-    ],
+    mainTags: "miki sayaka, blue eyes, blue hair, short hair, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
+    enhancers: ["[miki sayaka (magical girl)", "cape", "armored dress]", "[plaid skirt", "white shirt", "long sleeves", "black knee socks]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tomoe mami",
     category: "Puella Magi Madoka Magica",
-    mainTags:
-      "tomoe mami, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
-    enhancers: [
-      "[tomoe mami (magical girl)",
-      "puffy short sleeves",
-      "detached sleeves",
-      "corset]",
-      "[plaid skirt",
-      "white shirt",
-      "long sleeves",
-      "red ribbon",
-      "pantyhose]",
-    ],
+    mainTags: "tomoe mami, brown eyes, blonde hair, long hair, twin drills, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
+    enhancers: ["[tomoe mami (magical girl)", "puffy short sleeves", "detached sleeves", "corset]", "[plaid skirt", "white shirt", "long sleeves", "red ribbon", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sakura kyoko",
     category: "Puella Magi Madoka Magica",
-    mainTags:
-      "sakura kyoko, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
-    enhancers: [
-      "[sakura kyoko (magical girl)",
-      "detached sleeves",
-      "magical girl",
-      "red dress]",
-      "[green jacket",
-      "denim shorts",
-      "fur-trimmed shorts]",
-    ],
+    mainTags: "sakura kyoko, red eyes, red hair, long hair, ponytail, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
+    enhancers: ["[sakura kyoko (magical girl)", "detached sleeves", "magical girl", "red dress]", "[green jacket", "denim shorts", "fur-trimmed shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "akuma homura",
     category: "Puella Magi Madoka Magica",
-    mainTags: "akuma homura",
+    mainTags: "akuma homura, purple eyes, black hair, long hair",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shizuki hitomi",
     category: "Puella Magi Madoka Magica",
-    mainTags:
-      "shizuki hitomi, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
-    enhancers: [
-      "[plaid skirt",
-      "white shirt",
-      "long sleeves",
-      "black knee socks]",
-    ],
+    mainTags: "shizuki hitomi, green eyes, green hair, long hair, mahou shoujo madoka magica (anime), {{{aged up, mature female}}}",
+    enhancers: ["[plaid skirt", "white shirt", "long sleeves", "black knee socks]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tsukino usagi",
     category: "Sailor Moon",
-    mainTags: "tsukino usagi, bishoujo senshi sailor moon",
-    enhancers: [
-      "[sailor moon",
-      "circlet",
-      "sailor senshi uniform]",
-      "[princess serenity",
-      "white dress]",
-      "[super sailor moon",
-      "magical girl",
-      "rainbow]",
-      "[neo queen serenity",
-      "white hair",
-      "wings",
-      "white dress]",
-    ],
+    mainTags: "tsukino usagi, blue eyes, blonde hair, long hair, twintails, bishoujo senshi sailor moon",
+    enhancers: ["[sailor moon", "circlet", "sailor senshi uniform]", "[princess serenity", "white dress]", "[super sailor moon", "magical girl", "rainbow]", "[neo queen serenity", "white hair", "wings", "white dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "aino minako",
     category: "Sailor Moon",
-    mainTags: "aino minako, bishoujo senshi sailor moon",
-    enhancers: [
-      "[sailor venus",
-      "circlet",
-      "sailor senshi uniform]",
-      "[super sailor venus",
-      "circlet]",
-      "[sailor v",
-      "glasses",
-      "sailor senshi uniform]",
-    ],
+    mainTags: "aino minako, blue eyes, blonde hair, long hair, bishoujo senshi sailor moon",
+    enhancers: ["[sailor venus", "circlet", "sailor senshi uniform]", "[super sailor venus", "circlet]", "[sailor v", "glasses", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mizuno ami",
     category: "Sailor Moon",
-    mainTags: "mizuno ami, bishoujo senshi sailor moon",
-    enhancers: [
-      "[sailor mercury",
-      "circlet",
-      "sailor senshi uniform]",
-      "[super sailor mercury",
-      "circlet]",
-    ],
+    mainTags: "mizuno ami, blue eyes, blue hair, short hair, bishoujo senshi sailor moon",
+    enhancers: ["[sailor mercury", "circlet", "sailor senshi uniform]", "[super sailor mercury", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kino makoto",
     category: "Sailor Moon",
-    mainTags: "kino makoto, bishoujo senshi sailor moon",
-    enhancers: [
-      "[sailor jupiter",
-      "circlet",
-      "sailor senshi uniform]",
-      "[sailor jupiter",
-      "circlet]",
-    ],
+    mainTags: "kino makoto, green eyes, brown hair, long hair, ponytail, bishoujo senshi sailor moon",
+    enhancers: ["[sailor jupiter", "circlet", "sailor senshi uniform]", "[sailor jupiter", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "chibi usa",
     category: "Sailor Moon",
-    mainTags:
-      "chibi usa, bishoujo senshi sailor moon, {{{aged up, mature female}}}",
-    enhancers: [
-      "small lady serenity",
-      "[sailor chibi moon",
-      "circlet",
-      "sailor senshi uniform]",
-    ],
+    mainTags: "chibi usa, pink eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon, {{{aged up, mature female}}}",
+    enhancers: ["small lady serenity", "[sailor chibi moon", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tomoe hotaru",
     category: "Sailor Moon",
-    mainTags: "tomoe hotaru, bishoujo senshi sailor moon",
-    enhancers: [
-      "[sailor saturn",
-      "circlet]",
-      "[super sailor saturn",
-      "circlet",
-      "sailor senshi uniform]",
-      "[mistress 9",
-      "black dress]",
-    ],
+    mainTags: "tomoe hotaru, purple eyes, black hair, short hair, bishoujo senshi sailor moon",
+    enhancers: ["[sailor saturn", "circlet]", "[super sailor saturn", "circlet", "sailor senshi uniform]", "[mistress 9", "black dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ten'ou haruka",
     category: "Sailor Moon",
-    mainTags: "ten'ou haruka, bishoujo senshi sailor moon",
-    enhancers: [
-      "[sailor uranus",
-      "circlet",
-      "sailor senshi uniform]",
-      "[super sailor uranus",
-      "circlet]",
-    ],
+    mainTags: "ten'ou haruka, blue eyes, blonde hair, short hair, bishoujo senshi sailor moon",
+    enhancers: ["[sailor uranus", "circlet", "sailor senshi uniform]", "[super sailor uranus", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kaiou michiru",
     category: "Sailor Moon",
-    mainTags: "kaiou michiru, bishoujo senshi sailor moon",
-    enhancers: [
-      "[sailor neptune",
-      "circlet",
-      "sailor senshi uniform]",
-      "[super sailor neptune",
-      "circlet]",
-    ],
+    mainTags: "kaiou michiru, green eyes, aqua hair, long hair, bishoujo senshi sailor moon",
+    enhancers: ["[sailor neptune", "circlet", "sailor senshi uniform]", "[super sailor neptune", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "luna (sailor moon) (human)",
     category: "Sailor Moon",
-    mainTags: "luna (sailor moon) (human), bishoujo senshi sailor moon",
+    mainTags: "luna (sailor moon) (human), purple eyes, black hair, long hair, bishoujo senshi sailor moon",
     enhancers: ["[cat girl", "cat ears", "cat tail]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "meiou setsuna",
     category: "Sailor Moon",
-    mainTags: "meiou setsuna, bishoujo senshi sailor moon",
+    mainTags: "meiou setsuna, red eyes, green hair, very long hair, bishoujo senshi sailor moon",
     enhancers: ["[sailor pluto", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "seiya kou",
     category: "Sailor Moon",
-    mainTags: "seiya kou, bishoujo senshi sailor moon",
+    mainTags: "seiya kou, blue eyes, black hair, long hair, ponytail, bishoujo senshi sailor moon",
     enhancers: ["[sailor star fighter", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "black lady (sailor moon)",
     category: "Sailor Moon",
-    mainTags: "black lady (sailor moon), bishoujo senshi sailor moon",
+    mainTags: "black lady (sailor moon), red eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "helios (sailor moon)",
     category: "Sailor Moon",
-    mainTags: "helios (sailor moon), bishoujo senshi sailor moon",
+    mainTags: "helios (sailor moon), blue eyes, white hair, short hair, bishoujo senshi sailor moon",
     enhancers: ["[angel wings", "robe", "tassel]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "chibi chibi",
     category: "Sailor Moon",
-    mainTags:
-      "chibi chibi, bishoujo senshi sailor moon, {{{aged up, mature female}}}",
+    mainTags: "chibi chibi, blue eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon, {{{aged up, mature female}}}",
     enhancers: ["[sailor chibi chibi", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sailor cosmos",
     category: "Sailor Moon",
-    mainTags: "sailor cosmos, bishoujo senshi sailor moon",
+    mainTags: "sailor cosmos, blue eyes, white hair, long hair, twintails, bishoujo senshi sailor moon",
     enhancers: ["[magical girl", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yaten kou",
     category: "Sailor Moon",
-    mainTags: "yaten kou, bishoujo senshi sailor moon",
+    mainTags: "yaten kou, green eyes, silver hair, short hair, bishoujo senshi sailor moon",
     enhancers: ["[sailor star healer", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "taiki kou",
     category: "Sailor Moon",
-    mainTags:
-      "taiki kou, very long hair, ponytail, bishoujo senshi sailor moon",
+    mainTags: "taiki kou, brown eyes, brown hair, very long hair, ponytail, bishoujo senshi sailor moon",
     enhancers: ["[sailor star maker", "circlet]"],
     defaultGender: "girl",
-    genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    genderswapAvailable: "true",
+    mediaType: "Shows or Movies"
+},
+{
     name: "zoisite (sailor moon)",
     category: "Sailor Moon",
-    mainTags: "zoisite (sailor moon), bishoujo senshi sailor moon",
+    mainTags: "zoisite (sailor moon), green eyes, blonde hair, long hair, ponytail, bishoujo senshi sailor moon",
     enhancers: ["[military uniform", "black jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "cerecere (sailor moon)",
     category: "Sailor Moon",
-    mainTags: "cerecere (sailor moon), bishoujo senshi sailor moon",
+    mainTags: "cerecere (sailor moon), pink eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon",
     enhancers: ["[bikini top only", "yellow skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "vesves (sailor moon)",
     category: "Sailor Moon",
-    mainTags: "vesves (sailor moon), bishoujo senshi sailor moon",
+    mainTags: "vesves (sailor moon), red eyes, red hair, long hair, twintails, bishoujo senshi sailor moon",
     enhancers: ["[bikini", "see-through skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "junjun (sailor moon)",
     category: "Sailor Moon",
-    mainTags: "junjun (sailor moon), bishoujo senshi sailor moon",
+    mainTags: "junjun (sailor moon), green eyes, green hair, long hair, ponytail, bishoujo senshi sailor moon",
     enhancers: ["[bandeau", "arabian clothes]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "pallapalla (sailor moon)",
     category: "Sailor Moon",
-    mainTags: "pallapalla (sailor moon), bishoujo senshi sailor moon",
+    mainTags: "pallapalla (sailor moon), blue eyes, blue hair, long hair, twintails, bishoujo senshi sailor moon",
     enhancers: ["[blue leotard", "yellow skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "fish eye (sailor moon)",
     category: "Sailor Moon",
-    mainTags: "fish eye (sailor moon), bishoujo senshi sailor moon",
+    mainTags: "fish eye (sailor moon), blue eyes, blue hair, long hair, ponytail, bishoujo senshi sailor moon",
     enhancers: ["blue bodysuit"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "beruche (sailor moon)",
     category: "Sailor Moon",
-    mainTags: "beruche (sailor moon), bishoujo senshi sailor moon",
+    mainTags: "beruche (sailor moon), blue eyes, white hair, long hair, bishoujo senshi sailor moon",
     enhancers: ["[blue leotard", "thigh boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sailor galaxia",
     category: "Sailor Moon",
-    mainTags: "sailor galaxia, bishoujo senshi sailor moon",
+    mainTags: "sailor galaxia, red eyes, orange hair, long hair, bishoujo senshi sailor moon",
     enhancers: ["[gold armored dress", "gold choker]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "nehelenia (sailor moon)",
     category: "Sailor Moon",
-    mainTags:
-      "nehelenia (sailor moon), absurdly long hair, gradient hair, bishoujo senshi sailor moon",
+    mainTags: "nehelenia (sailor moon), grey eyes, black hair, very long hair, absurdly long hair, gradient hair, bishoujo senshi sailor moon",
     enhancers: ["black dress"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "momomiya ichigo",
     category: "Tokyo Mew Mew",
-    mainTags: "momomiya ichigo, tokyo mew mew",
-    enhancers: [
-      "maid",
-      "[mew ichigo",
-      "cat girl",
-      "animal ear fluff",
-      "cat ears",
-      "cat tail",
-      "pink dress",
-      "puffy detached sleeves]",
-    ],
+    mainTags: "momomiya ichigo, red eyes, pink hair, short hair, tokyo mew mew",
+    enhancers: ["maid", "[mew ichigo", "cat girl", "animal ear fluff", "cat ears", "cat tail", "pink dress", "puffy detached sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "aizawa mint",
     category: "Tokyo Mew Mew",
-    mainTags: "aizawa mint, tokyo mew mew",
-    enhancers: [
-      "maid",
-      "[new mint",
-      "bird girl",
-      "blue wings",
-      "blue parrot tail",
-      "puffy detached sleeves",
-      "dress]",
-    ],
+    mainTags: "aizawa mint, blue eyes, blue hair, short hair, tokyo mew mew",
+    enhancers: ["maid", "[mew mint", "bird girl", "blue wings", "blue parrot tail", "puffy detached sleeves", "dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "fujiwara zakuro",
     category: "Tokyo Mew Mew",
-    mainTags: "fujiwara zakuro, tokyo mew mew",
-    enhancers: [
-      "maid",
-      "[mew zakuro",
-      "wolf girl",
-      "wolf ears",
-      "wolf tail",
-      "puffy detached sleeves",
-      "purple shorts]",
-    ],
+    mainTags: "fujiwara zakuro, purple eyes, purple hair, long hair, tokyo mew mew",
+    enhancers: ["maid", "[mew zakuro", "wolf girl", "wolf ears", "wolf tail", "puffy detached sleeves", "purple shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "midorikawa lettuce",
     category: "Tokyo Mew Mew",
-    mainTags: "midorikawa lettuce, tokyo mew",
-    enhancers: [
-      "[maid",
-      "glasses]",
-      "[mew lettuce",
-      "antennae",
-      "green leotard",
-      "choker",
-      "single hair tube]",
-    ],
+    mainTags: "midorikawa lettuce, green eyes, green hair, long hair, tokyo mew mew",
+    enhancers: ["[maid", "glasses]", "[mew lettuce", "antennae", "green leotard", "choker", "single hair tube]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "fong pudding",
     category: "Tokyo Mew Mew",
-    mainTags: "fong pudding, tokyo mew mew",
-    enhancers: [
-      "maid",
-      "[mew pudding",
-      "monkey girl",
-      "monkey tail",
-      "monkey ears",
-      "detached puffy sleeves",
-      "yellow jumper]",
-    ],
+    mainTags: "fong pudding, brown eyes, yellow hair, long hair, twintails, tokyo mew mew",
+    enhancers: ["maid", "[mew pudding", "monkey girl", "monkey tail", "monkey ears", "detached puffy sleeves", "yellow jumper]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kinomoto sakura",
     category: "Cardcaptor Sakura",
-    mainTags:
-      "kinomoto sakura, cardcaptor sakura, {{{aged up, mature female}}}",
-    enhancers: [
-      "school uniform",
-      "[kinomoto sakura (magic dream costume)",
-      "magical girl",
-      "red pinafore dress]",
-      "[kinomoto sakura (platinum star dress)",
-      "magical girl",
-      "wings]",
-      "[kinomoto sakura (crystal feather dress)",
-      "magical girl]",
-      "[kinomoto sakura (winged egg crown costume)",
-      "magical girl",
-      "wings]",
-      "[kinomoto sakura (pink kitty costume)",
-      "magical girl",
-      "cat ears",
-      "cat tail]",
-      "[kinomoto sakura (princess costume)",
-      "magical girl",
-      "wings",
-      "pink dress]",
-      "[kinomoto sakura (pink ribbon dress)",
-      "magical girl",
-      "pink dress",
-      "pink hat]",
-      "[kinomoto sakura (red hearts costume)",
-      "magical girl",
-      "red dress",
-      "capelet]",
-      "[kinomoto sakura (pink star angel costume)",
-      "magical girl",
-      "pink dress",
-      "pink hat]",
-      "[kinomoto sakura (alice in wonderland costume)",
-      "magical girl",
-      "pink bow]",
-      "[kinomoto sakura (blue jester costume)",
-      "magical girl",
-      "jester cap",
-      "white coattails]",
-      "[kinomoto sakura (red cape costume)",
-      "magical girl",
-      "red hat",
-      "red cape]",
-      "[kinomoto sakura (final judgment costume)",
-      "magical girl",
-      "pink cape",
-      "blue thighhighs]",
-      "[kinomoto sakura (remembrance dress)",
-      "white dress",
-      "white hat",
-      "red skirt]",
-    ],
+    mainTags: "kinomoto sakura, brown eyes, brown hair, short hair, cardcaptor sakura, {{{aged up, mature female}}}",
+    enhancers: ["school uniform", "[kinomoto sakura (magic dream costume)", "magical girl", "red pinafore dress]", "[kinomoto sakura (platinum star dress)", "magical girl", "wings]", "[kinomoto sakura (crystal feather dress)", "magical girl]", "[kinomoto sakura (winged egg crown costume)", "magical girl", "wings]", "[kinomoto sakura (pink kitty costume)", "magical girl", "cat ears", "cat tail]", "[kinomoto sakura (princess costume)", "magical girl", "wings", "pink dress]", "[kinomoto sakura (pink ribbon dress)", "magical girl", "pink dress", "pink hat]", "[kinomoto sakura (red hearts costume)", "magical girl", "red dress", "capelet]", "[kinomoto sakura (pink star angel costume)", "magical girl", "pink dress", "pink hat]", "[kinomoto sakura (alice in wonderland costume)", "magical girl", "pink bow]", "[kinomoto sakura (blue jester costume)", "magical girl", "jester cap", "white coattails]", "[kinomoto sakura (red cape costume)", "magical girl", "red hat", "red cape]", "[kinomoto sakura (final judgment costume)", "magical girl", "pink cape", "blue thighhighs]", "[kinomoto sakura (remembrance dress)", "white dress", "white hat", "red skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "daidouji tomoyo",
     category: "Cardcaptor Sakura",
-    mainTags:
-      "daidouji tomoyo, cardcaptor sakura, {{{aged up, mature female}}}",
+    mainTags: "daidouji tomoyo, purple eyes, black hair, long hair, cardcaptor sakura, {{{aged up, mature female}}}",
     enhancers: ["[hat", "pleated skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "li syaoran",
     category: "Cardcaptor Sakura",
-    mainTags:
-      "li syaoran, short hair, cardcaptor sakura, {{{aged up, mature female}}}",
-    enhancers: [
-      "school uniform",
-      "[green hat",
-      "chinese clothes",
-      "magical girl]",
-    ],
+    mainTags: "li syaoran, brown eyes, brown hair, short hair, cardcaptor sakura, {{{aged up, mature female}}}",
+    enhancers: ["school uniform", "[green hat", "chinese clothes", "magical girl]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "li meiling",
     category: "Cardcaptor Sakura",
-    mainTags: "li meiling, cardcaptor sakura, {{{aged up, mature female}}}",
+    mainTags: "li meiling, red eyes, black hair, long hair, twintails, cardcaptor sakura, {{{aged up, mature female}}}",
     enhancers: ["[chinese clothes", "wide sleeves", "red dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kinomoto touya",
     category: "Cardcaptor Sakura",
-    mainTags: "kinomoto touya, cardcaptor sakura",
+    mainTags: "kinomoto touya, brown eyes, brown hair, short hair, cardcaptor sakura",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sasaki rika",
     category: "Cardcaptor Sakura",
-    mainTags: "sasaki rika, cardcaptor sakura, {{{aged up, mature female}}}",
+    mainTags: "sasaki rika, brown eyes, brown hair, short hair, cardcaptor sakura, {{{aged up, mature female}}}",
     enhancers: ["school uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yanagisawa naoko",
     category: "Cardcaptor Sakura",
-    mainTags:
-      "yanagisawa naoko, glasses, cardcaptor sakura, {{{aged up, mature female}}}",
+    mainTags: "yanagisawa naoko, brown eyes, brown hair, long hair, glasses, cardcaptor sakura, {{{aged up, mature female}}}",
     enhancers: ["school uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mihara chiharu",
     category: "Cardcaptor Sakura",
-    mainTags: "mihara chiharu, cardcaptor sakura, {{{aged up, mature female}}}",
+    mainTags: "mihara chiharu, brown eyes, brown hair, long hair, twintails, cardcaptor sakura, {{{aged up, mature female}}}",
     enhancers: ["school uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rimuru tempest",
     category: "That Time I Got Reincarnated as a Slime",
-    mainTags: "rimuru tempest, tensei shitara slime datta ken",
+    mainTags: "rimuru tempest, blue eyes, blue hair, long hair, tensei shitara slime datta ken",
     enhancers: ["[black shirt", "black pants", "black jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "milim nava",
     category: "That Time I Got Reincarnated as a Slime",
-    mainTags:
-      "milim nava, fang out, tensei shitara slime datta ken, {{{aged up, mature female}}}",
+    mainTags: "milim nava, pink eyes, pink hair, long hair, twintails, fang out, tensei shitara slime datta ken, {{{aged up, mature female}}}",
     enhancers: ["[bikini bottom only", "long sleeves", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shion (tensura)",
     category: "That Time I Got Reincarnated as a Slime",
-    mainTags: "shion (tensura), tensei shitara slime datta ken",
+    mainTags: "shion (tensura), purple eyes, purple hair, long hair, tensei shitara slime datta ken",
     enhancers: ["purple suit"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shuna (tensura)",
     category: "That Time I Got Reincarnated as a Slime",
-    mainTags:
-      "shuna (tensura), oni, horns, pink hair, tensei shitara slime datta ken",
+    mainTags: "shuna (tensura), pink eyes, pink hair, long hair, oni, horns, tensei shitara slime datta ken",
     enhancers: ["[miko", "red hakama]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "raphtalia",
     category: "Rising of the Shield Hero",
-    mainTags: "raphtalia, tate no yuusha no nariagari",
+    mainTags: "raphtalia, brown eyes, brown hair, long hair, tate no yuusha no nariagari",
     enhancers: ["[armor", "layered dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "iwatani naofumi",
     category: "Rising of the Shield Hero",
-    mainTags: "iwatani naofumi, short hair, tate no yuusha no nariagari",
+    mainTags: "iwatani naofumi, green eyes, black hair, short hair, tate no yuusha no nariagari",
     enhancers: ["[armor", "fur-trimmed cape]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "filo (tate no yuusha no nariagari)",
     category: "Rising of the Shield Hero",
-    mainTags:
-      "filo (tate no yuusha no nariagari), tate no yuusha no nariagari, {{{aged up, mature female}}}",
+    mainTags: "filo (tate no yuusha no nariagari), blue eyes, blonde hair, long hair, tate no yuusha no nariagari, {{{aged up, mature female}}}",
     enhancers: ["[blue dress", "long sleeves", "bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "melty q melromarc",
     category: "Rising of the Shield Hero",
-    mainTags:
-      "melty q melromarc, tate no yuusha no nariagari, {{{aged up, mature female}}}",
+    mainTags: "melty q melromarc, blue eyes, blue hair, long hair, tate no yuusha no nariagari, {{{aged up, mature female}}}",
     enhancers: ["[frilled dress", "multicolored dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "malty s melromarc",
     category: "Rising of the Shield Hero",
-    mainTags: "malty s melromarc, tate no yuusha no nariagari",
+    mainTags: "malty s melromarc, green eyes, red hair, long hair, tate no yuusha no nariagari",
     enhancers: ["[armor", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rory mercury",
     category: "GATE",
-    mainTags:
-      "rory mercury, gate - jieitai ka no chi nite kaku tatakaeri, {{{aged up, mature female}}}",
+    mainTags: "rory mercury, red eyes, black hair, long hair, gate - jieitai ka no chi nite kaku tatakaeri, {{{aged up, mature female}}}",
     enhancers: ["frilled headwear", "gothic lolita"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lelei la lalena",
     category: "GATE",
-    mainTags: "lelei la lalena, gate - jieitai ka no chi nite kaku tatakaeri",
+    mainTags: "lelei la lalena, blue eyes, blue hair, long hair, gate - jieitai ka no chi nite kaku tatakaeri",
     enhancers: ["[dress", "cloak]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tuka luna marceau",
     category: "GATE",
-    mainTags:
-      "tuka luna marceau, pointy ears, gate - jieitai ka no chi nite kaku tatakaeri",
-    enhancers: [
-      "[leather arm ribbon",
-      "detached sleeves",
-      "green dress",
-      "wide sleeves]",
-    ],
+    mainTags: "tuka luna marceau, blue eyes, blonde hair, long hair, pointy ears, gate - jieitai ka no chi nite kaku tatakaeri",
+    enhancers: ["[leather arm ribbon", "detached sleeves", "green dress", "wide sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "itami youji",
     category: "GATE",
-    mainTags:
-      "itami youji, short hair, spiked hair, gate - jieitai ka no chi nite kaku tatakaeri",
+    mainTags: "itami youji, brown eyes, black hair, short hair, spiked hair, gate - jieitai ka no chi nite kaku tatakaeri",
     enhancers: ["[camouflage", "military combat uniform]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "souryuu asuka langley",
     category: "Neon Genesis Evangelion",
-    mainTags: "souryuu asuka langley, neon genesis evangelion",
-    enhancers: [
-      "yellow dress",
-      "tokyo-3 middle school uniform",
-      "[white shirt",
-      "denim shorts]",
-      "[red bodysuit",
-      "mecha pilot suit]",
-      "[red bodysuit",
-      "mecha pilot suit",
-      "eyepatch]",
-      "[white bodysuit",
-      "mecha pilot suit",
-      "eyepatch]",
-      "striped bikini",
-    ],
+    mainTags: "souryuu asuka langley, blue eyes, orange hair, long hair, neon genesis evangelion",
+    enhancers: ["yellow dress", "tokyo-3 middle school uniform", "[white shirt", "denim shorts]", "[red bodysuit", "mecha pilot suit]", "[red bodysuit", "mecha pilot suit", "eyepatch]", "[white bodysuit", "mecha pilot suit", "eyepatch]", "striped bikini"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ayanami rei",
     category: "Neon Genesis Evangelion",
-    mainTags: "ayanami rei, neon genesis evangelion",
-    enhancers: [
-      "tokyo-3 middle school uniform",
-      "[white bodysuit",
-      "mecha pilot suit]",
-      "[white bodysuit",
-      "mecha pilot suit",
-      "very long hair]",
-      "black bodysuit",
-    ],
+    mainTags: "ayanami rei, red eyes, blue hair, short hair, neon genesis evangelion",
+    enhancers: ["tokyo-3 middle school uniform", "[white bodysuit", "mecha pilot suit]", "[white bodysuit", "mecha pilot suit", "very long hair]", "black bodysuit"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ikari shinji",
     category: "Neon Genesis Evangelion",
-    mainTags: "ikari shinji, short hair, neon genesis evangelion",
-    enhancers: [
-      "tokyo-3 middle school uniform",
-      "[white shirt",
-      "black pants]",
-      "mecha pilot suit",
-    ],
+    mainTags: "ikari shinji, blue eyes, brown hair, short hair, neon genesis evangelion",
+    enhancers: ["tokyo-3 middle school uniform", "[white shirt", "black pants]", "mecha pilot suit"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "nagisa kaworu",
     category: "Neon Genesis Evangelion",
-    mainTags: "nagisa kaworu, short hair, neon genesis evangelion",
-    enhancers: [
-      "tokyo-3 middle school uniform",
-      "[white shirt",
-      "black pants]",
-    ],
+    mainTags: "nagisa kaworu, red eyes, grey hair, short hair, neon genesis evangelion",
+    enhancers: ["tokyo-3 middle school uniform", "[white shirt", "black pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "makinami mari illustrious",
     category: "Neon Genesis Evangelion",
-    mainTags: "makinami mari illustrious, glasses, neon genesis evangelion",
-    enhancers: [
-      "school uniform",
-      "pink mecha pilot suit",
-      "white mecha pilot suit",
-    ],
+    mainTags: "makinami mari illustrious, green eyes, brown hair, long hair, twintails, glasses, neon genesis evangelion",
+    enhancers: ["school uniform", "pink mecha pilot suit", "white mecha pilot suit"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "katsuragi misato",
     category: "Neon Genesis Evangelion",
-    mainTags: "katsuragi misato, neon genesis evangelion",
-    enhancers: [
-      "[red jacket",
-      "black dress]",
-      "[black military dress uniform",
-      "female service cap",
-      "lanyard]",
-    ],
+    mainTags: "katsuragi misato, brown eyes, purple hair, long hair, neon genesis evangelion",
+    enhancers: ["[red jacket", "black dress]", "[black military dress uniform", "female service cap", "lanyard]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ikari gendou",
     category: "Neon Genesis Evangelion",
-    mainTags:
-      "ikari gendou, short hair, orange-tinted glasses, neon genesis evangelion",
-    enhancers: [
-      "[black jacket",
-      "black skirt",
-      "white gloves",
-      "red turtleneck]",
-    ],
+    mainTags: "ikari gendou, brown eyes, brown hair, short hair, orange-tinted glasses, neon genesis evangelion",
+    enhancers: ["[black jacket", "black skirt", "white gloves", "red turtleneck]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "akagi ritsuko",
     category: "Neon Genesis Evangelion",
-    mainTags: "akagi ritsuko, neon genesis evangelion",
+    mainTags: "akagi ritsuko, brown eyes, blonde hair, short hair, neon genesis evangelion",
     enhancers: ["[blue shirt", "lab coat", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ibuki maya",
     category: "Neon Genesis Evangelion",
-    mainTags: "ibuki maya, neon genesis evangelion",
+    mainTags: "ibuki maya, brown eyes, brown hair, short hair, neon genesis evangelion",
     enhancers: ["[tan jacket", "white pants", "uniform", "black belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "horaki hikari",
     category: "Neon Genesis Evangelion",
-    mainTags: "horaki hikari, neon genesis evangelion",
+    mainTags: "horaki hikari, brown eyes, brown hair, long hair, twintails, neon genesis evangelion",
     enhancers: ["tokyo-3 middle school uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tabris-xx",
     category: "Neon Genesis Evangelion",
-    mainTags: "tabris-xx, neon genesis evangelion",
+    mainTags: "tabris-xx, purple eyes, white hair, long hair, neon genesis evangelion",
     enhancers: ["[angel wings", "multiple wings]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ikari yui",
     category: "Neon Genesis Evangelion",
-    mainTags: "ikari yui, neon genesis evangelion",
+    mainTags: "ikari yui, brown eyes, brown hair, long hair, neon genesis evangelion",
     enhancers: ["[lab coat", "pink shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ahsoka tano",
     category: "Star Wars",
-    mainTags:
-      "ahsoka tano, dark skin, dark-skinned female, star wars: ahsoka, star wars",
+    mainTags: "ahsoka tano, blue eyes, orange skin, dark skin, dark-skinned female, star wars: ahsoka, star wars",
     enhancers: ["[brown tunic", "brown gloves", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "darth vader",
     category: "Star Wars",
-    mainTags: "darth vader, black cape, star wars",
+    mainTags: "darth vader, black hair, short hair, black cape, star wars",
     enhancers: ["[faceless", "helmet]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "obi-wan kenobi",
     category: "Star Wars",
-    mainTags: "obi-wan kenobi, star wars",
+    mainTags: "obi-wan kenobi, blue eyes, brown hair, short hair, star wars",
     enhancers: ["[brown cloak", "jedi]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "princess leia",
     category: "Star Wars",
-    mainTags: "princess leia, star wars",
-    enhancers: [
-      "[white bodysuit",
-      "brown vest",
-      "brown gloves]",
-      "[white pants",
-      "white padded jacket]",
-      "[white crop top",
-      "long sleeves",
-      "pelvic curtain",
-      "white belt]",
-      "huttslayer leia",
-    ],
+    mainTags: "princess leia, brown eyes, brown hair, long hair, twintails, star wars",
+    enhancers: ["[white bodysuit", "brown vest", "brown gloves]", "[white pants", "white padded jacket]", "[white crop top", "long sleeves", "pelvic curtain", "white belt]", "huttslayer leia"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rey (star wars)",
     category: "Star Wars",
-    mainTags: "rey (star wars), star wars",
+    mainTags: "rey (star wars), brown eyes, brown hair, long hair, star wars",
     enhancers: ["[jedi", "brown robe]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "han solo",
     category: "Star Wars",
-    mainTags: "han solo, blue eyes, short hair, star wars",
+    mainTags: "han solo, blue eyes, brown hair, short hair, star wars",
     enhancers: ["[black vest", "white shirt", "denim skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "luke skywalker",
     category: "Star Wars",
-    mainTags: "luke skywalker, star wars",
-    enhancers: [
-      "[huttslayer leia",
-      "princess leia (cosplay)]",
-      "[jedi",
-      "robe",
-      "utility belt]",
-      "[jedi",
-      "robe",
-      "utility belt",
-      "cape]",
-    ],
+    mainTags: "luke skywalker, blue eyes, blonde hair, short hair, star wars",
+    enhancers: ["[huttslayer leia", "princess leia (cosplay)]", "[jedi", "robe", "utility belt]", "[jedi", "robe", "utility belt", "cape]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yoko littner",
     category: "Gurren Lagann",
-    mainTags: "yoko littner, tengen toppa gurren lagann",
-    enhancers: [
-      "[bikini top",
-      "scarf",
-      "short shorts]",
-      "space yoko",
-      "yomako",
-    ],
+    mainTags: "yoko littner, red eyes, red hair, long hair, ponytail, tengen toppa gurren lagann",
+    enhancers: ["[bikini top", "scarf", "short shorts]", "space yoko", "yomako"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "nia teppelin",
     category: "Gurren Lagann",
-    mainTags:
-      "nia teppelin, tengen toppa gurren lagann, {{{aged up, mature female}}}",
+    mainTags: "nia teppelin, blue eyes, blonde hair, long hair, tengen toppa gurren lagann, {{{aged up, mature female}}}",
     enhancers: ["[pink dress", "red necktie", "belt]", "antispiral nia"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "simon (ttgl)",
     category: "Gurren Lagann",
-    mainTags: "simon (ttgl), tengen toppa gurren lagann",
-    enhancers: [
-      "[blue jacket",
-      "sarashi",
-      "brown shorts]",
-      "[long coat",
-      "chest sarashi",
-      "skirt",
-      "corset]",
-    ],
+    mainTags: "simon (ttgl), blue eyes, blue hair, short hair, tengen toppa gurren lagann",
+    enhancers: ["[blue jacket", "sarashi", "brown shorts]", "[long coat", "chest sarashi", "skirt", "corset]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kamina (ttgl)",
     category: "Gurren Lagann",
-    mainTags: "kamina (ttgl), short hair, tengen toppa gurren lagann",
-    enhancers: [
-      "[chest sarashi",
-      "red cape",
-      "brown skirt",
-      "triangular eyewear]",
-    ],
+    mainTags: "kamina (ttgl), blue eyes, blue hair, short hair, tengen toppa gurren lagann",
+    enhancers: ["[chest sarashi", "red cape", "brown skirt", "triangular eyewear]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "viral (ttgl)",
     category: "Gurren Lagann",
-    mainTags: "viral (ttgl), fangs, tengen toppa gurren lagann",
-    enhancers: [
-      "[blue shirt",
-      "red scarf",
-      "multiple belts",
-      "wide sleeves]",
-      "[red sleeveless shirt",
-      "red scarf",
-      "multiple belts",
-      "cape]",
-    ],
+    mainTags: "viral (ttgl), yellow eyes, blonde hair, long hair, fangs, tengen toppa gurren lagann",
+    enhancers: ["[blue shirt", "red scarf", "multiple belts", "wide sleeves]", "[red sleeveless shirt", "red scarf", "multiple belts", "cape]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "darry adai",
     category: "Gurren Lagann",
-    mainTags: "darry adai, tengen toppa gurren lagann",
+    mainTags: "darry adai, brown eyes, orange hair, short hair, tengen toppa gurren lagann",
     enhancers: ["red bodysuit", "[pink dress", "red hair ribbon]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rossiu adai",
     category: "Gurren Lagann",
-    mainTags: "rossiu adai, ponytail, tengen toppa gurren lagann",
+    mainTags: "rossiu adai, brown eyes, brown hair, long hair, ponytail, tengen toppa gurren lagann",
     enhancers: ["white cloak"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kiyal bachika",
     category: "Gurren Lagann",
-    mainTags:
-      "kiyal bachika, tengen toppa gurren lagann, {{{aged up, mature female}}}",
-    enhancers: [
-      "[bike shorts",
-      "tank top",
-      "yellow gloves]",
-      "[pink cheongsam",
-      "long cheongsam",
-      "black shorts]",
-    ],
+    mainTags: "kiyal bachika, brown eyes, brown hair, short hair, tengen toppa gurren lagann, {{{aged up, mature female}}}",
+    enhancers: ["[bike shorts", "tank top", "yellow gloves]", "[pink cheongsam", "long cheongsam", "black shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kinon bachika",
     category: "Gurren Lagann",
-    mainTags: "kinon bachika, glasses tengen toppa gurren lagann",
-    enhancers: [
-      "[uniform",
-      "hat",
-      "pantyhose]",
-      "[sleeveless bodysuit",
-      "yellow gloves",
-      "arm bands",
-      "belt pouch]",
-    ],
+    mainTags: "kinon bachika, brown eyes, brown hair, short hair, glasses, tengen toppa gurren lagann",
+    enhancers: ["[uniform", "hat", "pantyhose]", "[sleeveless bodysuit", "yellow gloves", "arm bands", "belt pouch]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "adiane",
     category: "Gurren Lagann",
-    mainTags: "adiane, scorpion tail, tengen toppa gurren lagann",
+    mainTags: "adiane, blue eyes, blonde hair, long hair, scorpion tail, tengen toppa gurren lagann",
     enhancers: ["[off-shoulder dress", "wide sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kiyoh bachika",
     category: "Gurren Lagann",
-    mainTags: "kiyoh bachika, blonde hair, tengen toppa gurren lagann",
+    mainTags: "kiyoh bachika, brown eyes, blonde hair, short hair, tengen toppa gurren lagann",
     enhancers: ["[black skirt", "black tube top", "yellow gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "gimmy adai",
     category: "Gurren Lagann",
-    mainTags:
-      "gimmy adai, orange hair, spiked hair, tengen toppa gurren lagann",
-    enhancers: [
-      "[high collar",
-      "blue bodysuit",
-      "white bodysuit",
-      "wide sleeves]",
-    ],
+    mainTags: "gimmy adai, brown eyes, orange hair, short hair, spiked hair, tengen toppa gurren lagann",
+    enhancers: ["[high collar", "blue bodysuit", "white bodysuit", "wide sleeves]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "leeron littner",
     category: "Gurren Lagann",
-    mainTags:
-      "leeron littner, teal hair, very short hair, tengen toppa gurren lagann",
+    mainTags: "leeron littner, green eyes, teal hair, short hair, tengen toppa gurren lagann",
     enhancers: ["padded vest"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "leite jokin",
     category: "Gurren Lagann",
-    mainTags: "leite jokin, glasses, tengen toppa gurren lagann",
+    mainTags: "leite jokin, brown eyes, brown hair, short hair, glasses, tengen toppa gurren lagann",
     enhancers: ["[blue shirt", "blue leather apron]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kohaku (dr. stone)",
     category: "Dr. Stone",
-    mainTags: "kohaku (dr. stone), dr. stone",
+    mainTags: "kohaku (dr. stone), blue eyes, blonde hair, long hair, dr. stone",
     enhancers: ["[blue dress", "rope belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ishigami senkuu",
     category: "Dr. Stone",
-    mainTags: "ishigami senkuu, dr. stone",
+    mainTags: "ishigami senkuu, red eyes, green hair, short hair, dr. stone",
     enhancers: ["[grey tunic", "high collar", "belt bag]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "asagiri gen",
     category: "Dr. Stone",
-    mainTags: "asagiri gen, dr. stone",
+    mainTags: "asagiri gen, purple eyes, black hair, medium hair, dr. stone",
     enhancers: ["[layered clothes", "high collar", "purple robe]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ginro (dr. stone)",
     category: "Dr. Stone",
-    mainTags: "ginro (dr. stone), green eyes, dr. stone",
+    mainTags: "ginro (dr. stone), green eyes, blonde hair, short hair, dr. stone",
     enhancers: ["blue dress"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "suika (dr.stone)",
     category: "Dr. Stone",
-    mainTags:
-      "suika (dr.stone), ahoge, dr. stone, {{{aged up, mature female}}}",
+    mainTags: "suika (dr.stone), brown eyes, brown hair, short hair, ahoge, dr. stone, {{{aged up, mature female}}}",
     enhancers: ["[blue dress", "rope necklace]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hanada nikki",
     category: "Dr. Stone",
-    mainTags: "hanada nikki, muscular female, dr. stone",
+    mainTags: "hanada nikki, brown eyes, blonde hair, long hair, muscular female, dr. stone",
     enhancers: ["[green dress", "purple bows", "rope belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "dandy (space dandy)",
     category: "Space Dandy",
-    mainTags: "dandy (space dandy), pompadour, space dandy",
+    mainTags: "dandy (space dandy), brown eyes, black hair, short hair, pompadour, space dandy",
     enhancers: ["[two-tone jacket", "red shirt", "black pants", "lanyard]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "meow (space dandy)",
     category: "Space Dandy",
-    mainTags:
-      "meow (space dandy), personification, cat tail, whiskers, cat ears, space dandy",
+    mainTags: "meow (space dandy), green eyes, brown hair, short hair, personification, cat tail, whiskers, cat ears, space dandy",
     enhancers: ["[red hat", "green dress]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "honey (space dandy)",
     category: "Space Dandy",
-    mainTags: "honey (space dandy), space dandy",
+    mainTags: "honey (space dandy), blue eyes, blonde hair, long hair, space dandy",
     enhancers: ["[choker", "hairband", "pink bikini", "wrist cuffs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "adelie (space dandy)",
     category: "Space Dandy",
-    mainTags: "adelie (space dandy), space dandy",
+    mainTags: "adelie (space dandy), grey eyes, grey hair, short hair, space dandy",
     enhancers: ["[black leotard", "black leggings", "blue shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yuri (dirty pair)",
     category: "Dirty Pair",
-    mainTags: "yuri (dirty pair), dirty pair",
-    enhancers: [
-      "[yellow crop top",
-      "yellow shorts",
-      "single yellow elbow glove]",
-    ],
+    mainTags: "yuri (dirty pair), blue eyes, brown hair, long hair, dirty pair",
+    enhancers: ["[yellow crop top", "yellow shorts", "single yellow elbow glove]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kei (dirty pair)",
     category: "Dirty Pair",
-    mainTags: "kei (dirty pair), dark skin, dark-skinned female, dirty pair",
-    enhancers: [
-      "[green headband",
-      "green crop top",
-      "green shorts",
-      "single green elbow glove]",
-    ],
+    mainTags: "kei (dirty pair), green eyes, red hair, long hair, dark skin, dark-skinned female, dirty pair",
+    enhancers: ["[green headband", "green crop top", "green shorts", "single green elbow glove]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yuri (dirty pair flash)",
     category: "Dirty Pair",
-    mainTags: "yuri (dirty pair flash), dirty pair",
+    mainTags: "yuri (dirty pair flash), blue eyes, brown hair, long hair, dirty pair",
     enhancers: ["[blue leotard", "white vest", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kei (dirty pair flash)",
     category: "Dirty Pair",
-    mainTags: "kei (dirty pair flash), dirty pair",
+    mainTags: "kei (dirty pair flash), green eyes, red hair, long hair, dirty pair",
     enhancers: ["[leotard", "red shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "snow white (mahoiku)",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "snow white (mahoiku), mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    mainTags: "snow white (mahoiku), brown eyes, black hair, long hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
     enhancers: ["[magical girl", "dress", "sailor collar", "red armband]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "la pucelle (mahoiku)",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "la pucelle (mahoiku), antennae, tail, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
-    enhancers: [
-      "[magical girl",
-      "purple leotard",
-      "knee boots",
-      "detached sleeves]",
-    ],
+    mainTags: "la pucelle (mahoiku), blue eyes, blonde hair, short hair, antennae, tail, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    enhancers: ["[magical girl", "purple leotard", "knee boots", "detached sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "swim swim",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "swim swim, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
-    enhancers: [
-      "[magical girl",
-      "swimsuit",
-      "thigh strap",
-      "demon wings",
-      "goggles around neck]",
-    ],
+    mainTags: "swim swim, blue eyes, brown hair, long hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    enhancers: ["[magical girl", "swimsuit", "thigh strap", "demon wings", "goggles around neck]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "nemurin",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "nemurin, blonde hair, hair between eyes, half-closed eyes, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    mainTags: "nemurin, brown eyes, blonde hair, long hair, hair between eyes, half-closed eyes, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
     enhancers: ["[magical girl", "yellow print nightgown", "rabbit print]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ruler (mahoiku)",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "ruler (mahoiku), double bun, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    mainTags: "ruler (mahoiku), purple eyes, purple hair, short hair, double bun, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
     enhancers: ["[black cape", "puffy sleeves", "white shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hardgore alice",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "hardgore alice, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
-    enhancers: [
-      "[magical girl",
-      "lolita hairband",
-      "frilled choker",
-      "striped leggings",
-      "black dress]",
-    ],
+    mainTags: "hardgore alice, brown eyes, black hair, long hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    enhancers: ["[magical girl", "lolita hairband", "frilled choker", "striped leggings", "black dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ripple (mahoiku)",
     category: "Magical Girl Raising Project",
-    mainTags: "ripple (mahoiku), mahou shoujo ikusei keikaku",
-    enhancers: [
-      "[magical girl",
-      "red scarf",
-      "puffy sleeves",
-      "miniskirt",
-      "thighhighs]",
-    ],
+    mainTags: "ripple (mahoiku), brown eyes, black hair, short hair, mahou shoujo ikusei keikaku",
+    enhancers: ["[magical girl", "red scarf", "puffy sleeves", "miniskirt", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "cranberry (mahoiku)",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "cranberry (mahoiku), mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
-    enhancers: [
-      "[magical girl",
-      "frilled white dress",
-      "center frills",
-      "green pantyhose",
-      "belt]",
-    ],
+    mainTags: "cranberry (mahoiku), red eyes, purple hair, long hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    enhancers: ["[magical girl", "frilled white dress", "center frills", "green pantyhose", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shadowgale",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "shadowgale, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
-    enhancers: [
-      "[magical girl",
-      "frilled dress",
-      "black gloves",
-      "thigh strap]",
-    ],
+    mainTags: "shadowgale, grey eyes, grey hair, short hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    enhancers: ["[magical girl", "frilled dress", "black gloves", "thigh strap]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "pfle",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "pfle, very long hair, blonde hair, eyepatch, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
-    enhancers: [
-      "[frilled dress",
-      "pink dress",
-      "purple dress",
-      "multicolored dress",
-      "detached sleeves",
-      "sleeves past wrists",
-      "dress bow]",
-    ],
+    mainTags: "pfle, blue eyes, blonde hair, very long hair, eyepatch, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    enhancers: ["[frilled dress", "pink dress", "purple dress", "multicolored dress", "detached sleeves", "sleeves past wrists", "dress bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "top speed",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "top speed, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    mainTags: "top speed, green eyes, brown hair, short hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
     enhancers: ["[witch hat", "black dress", "black cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lapis lazuline",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "lapis lazuline, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    mainTags: "lapis lazuline, blue eyes, blue hair, short hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
     enhancers: ["[blue dress", "detached sleeves", "tail", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sister nana",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "sister nana, very long hair, drill hair, mahou shoujo ikusei keikaku",
+    mainTags: "sister nana, brown eyes, blonde hair, very long hair, drill hair, mahou shoujo ikusei keikaku",
     enhancers: ["[nun", "elbow gloves", "habit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tama (mahoiku)",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "tama (mahoiku), mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    mainTags: "tama (mahoiku), brown eyes, brown hair, short hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
     enhancers: ["[spiked collar", "paw gloves", "animal ear hood]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "calamity mary",
     category: "Magical Girl Raising Project",
-    mainTags: "calamity mary, mahou shoujo ikusei keikaku",
-    enhancers: [
-      "[magical girl",
-      "bikini top only",
-      "orange skirt",
-      "black belt",
-      "hat",
-      "cape]",
-    ],
+    mainTags: "calamity mary, green eyes, blonde hair, long hair, mahou shoujo ikusei keikaku",
+    enhancers: ["[magical girl", "bikini top only", "orange skirt", "black belt", "hat", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "pechika (mahoiku)",
     category: "Magical Girl Raising Project",
-    mainTags:
-      "pechika (mahoiku), gradient hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
-    enhancers: [
-      "[magical girl",
-      "white dress",
-      "white thighhighs",
-      "white hat",
-      "frilled dress",
-      "frilled thighhighs",
-      "rooster tail]",
-    ],
+    mainTags: "pechika (mahoiku), blue eyes, blonde hair, long hair, gradient hair, mahou shoujo ikusei keikaku, {{{aged up, mature female}}}",
+    enhancers: ["[magical girl", "white dress", "white thighhighs", "white hat", "frilled dress", "frilled thighhighs", "rooster tail]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "gasai yuno",
     category: "The Future Diary",
-    mainTags: "gasai yuno, mirai nikki",
+    mainTags: "gasai yuno, pink eyes, pink hair, long hair, mirai nikki",
     enhancers: [
       "strappy black dress",
       "[blue shirt",
@@ -13921,16 +13450,16 @@ const characterData = [
       "[white collar",
       "yellow shirt",
       "green sweater",
-      "teal skirt]",
+      "teal skirt]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "uryuu minene",
     category: "The Future Diary",
-    mainTags: "uryuu minene, purple eyes, mirai nikki",
+    mainTags: "uryuu minene, purple eyes, purple hair, short hair, mirai nikki",
     enhancers: [
       "[green jacket",
       "green pants",
@@ -13942,16 +13471,16 @@ const characterData = [
       "high collar",
       "cleavage cutout",
       "belt",
-      "black pants]",
+      "black pants]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "amano yukiteru",
     category: "The Future Diary",
-    mainTags: "amano yukiteru, short hair, mirai nikki",
+    mainTags: "amano yukiteru, blue eyes, black hair, short hair, mirai nikki",
     enhancers: [
       "[orange hat",
       "green cropped jacket",
@@ -13961,44 +13490,43 @@ const characterData = [
       "[brown hat",
       "brown jacket",
       "black shirt",
-      "shoulder bag]",
+      "shoulder bag]"
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "akise aru",
     category: "The Future Diary",
-    mainTags: "akise aru, short hair, white hair, red eyes, mirai nikki",
+    mainTags: "akise aru, red eyes, white hair, short hair, mirai nikki",
     enhancers: ["[blue shirt", "necktie", "black pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kasugano tsubaki",
     category: "The Future Diary",
-    mainTags: "kasugano tsubaki, mirai nikki",
+    mainTags: "kasugano tsubaki, red eyes, black hair, long hair, mirai nikki",
     enhancers: ["[red hair bow", "red kimono", "white bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "murmur (mirai nikki)",
     category: "The Future Diary",
-    mainTags:
-      "murmur (mirai nikki), dark skin, dark-skinned female, mirai nikki, {{{aged up, mature female}}}",
+    mainTags: "murmur (mirai nikki), yellow eyes, purple hair, long hair, dark skin, dark-skinned female, mirai nikki, {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lucy (elfen lied)",
     category: "Elfen Lied",
-    mainTags: "lucy (elfen lied), elfen lied, aged up",
+    mainTags: "lucy (elfen lied), red eyes, pink hair, long hair, elfen lied, aged up",
     enhancers: [
       "[pink shirt",
       "black dress",
@@ -14006,68 +13534,65 @@ const characterData = [
       "naked bandage",
       "[nyuu",
       "oversized shirt",
-      "white tank top]",
+      "white tank top]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "nana (elfen lied)",
     category: "Elfen Lied",
-    mainTags: "nana (elfen lied), elfen lied, aged up",
+    mainTags: "nana (elfen lied), purple eyes, pink hair, long hair, elfen lied, aged up",
     enhancers: ["[black dress", "collar", "cuffs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mariko (elfen lied)",
     category: "Elfen Lied",
-    mainTags: "mariko (elfen lied), pink hair, elfen lied, aged up",
+    mainTags: "mariko (elfen lied), purple eyes, pink hair, short hair, elfen lied, aged up",
     enhancers: [
       "[blue bows",
       "blue ribbon",
       "center frills",
       "frilled yellow shirt",
       "plaid skirt",
-      "wheelchair]",
+      "wheelchair]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hiiragi utena",
     category: "Gushing Over Magical Girls",
-    mainTags:
-      "hiiragi utena, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
+    mainTags: "hiiragi utena, green eyes, black hair, short hair, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
     enhancers: ["school uniform", "[magia baiser", "magical girl]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "araga kiwi",
     category: "Gushing Over Magical Girls",
-    mainTags:
-      "araga kiwi, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
+    mainTags: "araga kiwi, yellow eyes, blonde hair, medium hair, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
     enhancers: [
       "[school uniform",
       "oversized yellow jacket",
       "sleeves past wrists]",
       "[leoparde (mahou shoujo ni akogarete)",
-      "magical girl]",
+      "magical girl]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "minakami sayo",
     category: "Gushing Over Magical Girls",
-    mainTags:
-      "minakami sayo, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
+    mainTags: "minakami sayo, blue eyes, blue hair, long hair, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
     enhancers: [
       "school uniform",
       "[magia azure",
@@ -14076,48 +13601,45 @@ const characterData = [
       "magical girl",
       "blue skirt",
       "hakama",
-      "hakama skirt]",
+      "hakama skirt]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hanabishi haruka",
     category: "Gushing Over Magical Girls",
-    mainTags:
-      "hanabishi haruka, twin drills, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
+    mainTags: "hanabishi haruka, brown eyes, orange hair, long hair, twin drills, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
     enhancers: [
       "school uniform",
       "[magia magenta",
       "magical girl",
-      "pink dress]",
+      "pink dress]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "morino korisu",
     category: "Gushing Over Magical Girls",
-    mainTags:
-      "morino korisu, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
+    mainTags: "morino korisu, brown eyes, brown hair, short hair, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
     enhancers: [
       "[blue dress",
       "white shirt",
       "belt]",
       "[nero alice",
-      "magical girl]",
+      "magical girl]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "akoya matama",
     category: "Gushing Over Magical Girls",
-    mainTags:
-      "akoya matama, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
+    mainTags: "akoya matama, blue eyes, pink hair, medium hair, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
     enhancers: [
       "[blue jacket",
       "grey skirt",
@@ -14125,49 +13647,46 @@ const characterData = [
       "red ribbon",
       "white shirt]",
       "[loco musica",
-      "magical girl]",
+      "magical girl]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tenkawa kaoruko",
     category: "Gushing Over Magical Girls",
-    mainTags:
-      "tenkawa kaoruko, blonde hair, long hair, yellow hair bow, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
+    mainTags: "tenkawa kaoruko, green eyes, blonde hair, long hair, yellow hair bow, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
     enhancers: [
       "school uniform",
       "[magia sulfur",
       "yellow dress",
-      "magical girl]",
+      "magical girl]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "anemo nemo",
     category: "Gushing Over Magical Girls",
-    mainTags:
-      "anemo nemo, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
+    mainTags: "anemo nemo, purple eyes, brown hair, long hair, mahou shoujo ni akogarete, {{{aged up, mature female}}}",
     enhancers: [
       "[open blue cardigan",
       "oversized cardigan",
       "white shirt",
       "grey skirt]",
       "[leberblume",
-      "magical girl]",
+      "magical girl]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sister gigant",
     category: "Gushing Over Magical Girls",
-    mainTags:
-      "sister gigant, pink hair, very long hair, mahou shoujo ni akogarete",
+    mainTags: "sister gigant, yellow eyes, pink hair, very long hair, mahou shoujo ni akogarete",
     enhancers: [
       "[nun",
       "coif",
@@ -14176,112 +13695,97 @@ const characterData = [
       "revealing clothes",
       "black dress",
       "star on a lanyard",
-      "]",
+      "]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "eila ilmatar juutilainen",
     category: "Strike Witches",
-    mainTags:
-      "eila ilmatar juutilainen, strike witches, {{{aged up, mature female}}}",
+    mainTags: "eila ilmatar juutilainen, blue eyes, blonde hair, short hair, strike witches, {{{aged up, mature female}}}",
     enhancers: ["[military uniform", "blue jacket", "white pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sanya v. litvyak",
     category: "Strike Witches",
-    mainTags: "sanya v. litvyak, strike witches, {{{aged up, mature female}}}",
+    mainTags: "sanya v. litvyak, green eyes, silver hair, short hair, strike witches, {{{aged up, mature female}}}",
     enhancers: ["[military uniform", "white shirt", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "miyafuji yoshika",
     category: "Strike Witches",
-    mainTags: "miyafuji yoshika, strike witches, {{{aged up, mature female}}}",
-    enhancers: [
-      "[blue one-piece swimsuit",
-      "swimsuit under clothes",
-      "sailor shirt",
-      "sailor collar]",
-    ],
+    mainTags: "miyafuji yoshika, brown eyes, brown hair, medium hair, strike witches, {{{aged up, mature female}}}",
+    enhancers: ["[blue one-piece swimsuit", "swimsuit under clothes", "sailor shirt", "sailor collar]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "erica hartmann",
     category: "Strike Witches",
-    mainTags: "erica hartmann, strike witches, {{{aged up, mature female}}}",
+    mainTags: "erica hartmann, blue eyes, blonde hair, short hair, strike witches, {{{aged up, mature female}}}",
     enhancers: ["[military uniform", "brown jacket", "white skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "gertrud barkhorn",
     category: "Strike Witches",
-    mainTags:
-      "gertrud barkhorn, twintails, strike witches, {{{aged up, mature female}}}",
+    mainTags: "gertrud barkhorn, green eyes, brown hair, long hair, twintails, strike witches, {{{aged up, mature female}}}",
     enhancers: ["[military outfit", "white shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "perrine h. clostermann",
     category: "Strike Witches",
-    mainTags:
-      "perrine h. clostermann, glasses, strike witches, {{{aged up, mature female}}}",
+    mainTags: "perrine h. clostermann, yellow eyes, blonde hair, medium hair, glasses, strike witches, {{{aged up, mature female}}}",
     enhancers: ["[military uniform", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lynette bishop",
     category: "Strike Witches",
-    mainTags:
-      "lynette bishop, braid, strike witches, {{{aged up, mature female}}}",
+    mainTags: "lynette bishop, blue eyes, blonde hair, long hair, braid, strike witches, {{{aged up, mature female}}}",
     enhancers: ["[collared shirt", "blazer", "sweater", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "charlotte e. yeager",
     category: "Strike Witches",
-    mainTags:
-      "charlotte e. yeager, strike witches, {{{aged up, mature female}}}",
+    mainTags: "charlotte e. yeager, blue eyes, orange hair, long hair, strike witches, {{{aged up, mature female}}}",
     enhancers: ["[red jacket", "lapel pin", "white shirt", "no pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sakamoto mio",
     category: "Strike Witches",
-    mainTags:
-      "sakamoto mio, eyepatch, strike witches, {{{aged up, mature female}}}",
-    enhancers: [
-      "[military uniform",
-      "white jacket",
-      "white one-piece swimsuit]",
-    ],
+    mainTags: "sakamoto mio, brown eyes, black hair, short hair, eyepatch, strike witches, {{{aged up, mature female}}}",
+    enhancers: ["[military uniform", "white jacket", "white one-piece swimsuit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "elizabeth liones",
     category: "Seven Mortal Sins",
-    mainTags: "elizabeth liones, nanatsu no taizai",
+    mainTags: "elizabeth liones, blue eyes, silver hair, long hair, nanatsu no taizai",
     enhancers: [
       "[pink sleeveless shirt",
       "frilled shirt",
@@ -14295,31 +13799,25 @@ const characterData = [
       "single thighhigh]",
       "[leotard",
       "detached sleeves",
-      "thigh boots]",
+      "thigh boots]"
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "diane (nanatsu no taizai)",
     category: "Seven Mortal Sins",
-    mainTags: "diane (nanatsu no taizai), nanatsu no taizai",
-    enhancers: [
-      "[orange leotard",
-      "cleavage cutout",
-      "high collar",
-      "gloves",
-      "thigh tattoo]",
-    ],
+    mainTags: "diane (nanatsu no taizai), purple eyes, brown hair, long hair, nanatsu no taizai",
+    enhancers: ["[orange leotard", "cleavage cutout", "high collar", "gloves", "thigh tattoo]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "meliodas",
     category: "Seven Mortal Sins",
-    mainTags: "meliodas, nanatsu no taizai",
+    mainTags: "meliodas, green eyes, blonde hair, short hair, nanatsu no taizai",
     enhancers: [
       "[white shirt",
       "red necktie",
@@ -14331,25 +13829,25 @@ const characterData = [
       "[green cropped jacket",
       "arm band",
       "green pants",
-      "belt chain]",
+      "belt chain]"
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "king (nanatsu no taizai)",
     category: "Seven Mortal Sins",
-    mainTags: "king (nanatsu no taizai), nanatsu no taizai",
+    mainTags: "king (nanatsu no taizai), yellow eyes, orange hair, short hair, nanatsu no taizai",
     enhancers: ["[multicolored coat", "blue pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "gowther",
     category: "Seven Mortal Sins",
-    mainTags: "gowther, glasses, nanatsu no taizai",
+    mainTags: "gowther, pink eyes, pink hair, short hair, glasses, nanatsu no taizai",
     enhancers: [
       "[white shirt",
       "purple sleeves",
@@ -14358,669 +13856,453 @@ const characterData = [
       "[detached collar",
       "black dress",
       "white pants",
-      "white knee boots]",
+      "white knee boots]"
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "elaine",
     category: "Seven Mortal Sins",
-    mainTags: "elaine, nanatsu no taizai",
-    enhancers: [
-      "[off-shoulder white dress",
-      "large bow]",
-      "[fairy wings",
-      "pink dress]",
-    ],
+    mainTags: "elaine, yellow eyes, blonde hair, long hair, nanatsu no taizai",
+    enhancers: ["[off-shoulder white dress", "large bow]", "[fairy wings", "pink dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "merlin (nanatsu no taizai)",
     category: "Seven Mortal Sins",
-    mainTags: "merlin (nanatsu no taizai), nanatsu no taizai",
+    mainTags: "merlin (nanatsu no taizai), red eyes, black hair, short hair, nanatsu no taizai",
     enhancers: ["[fur trim", "purple shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shera l. greenwood",
     category: "How Not to Summon a Demon Lord",
-    mainTags:
-      "shera l. greenwood, isekai maou to shoukan shoujo no dorei majutsu",
+    mainTags: "shera l. greenwood, green eyes, blonde hair, long hair, isekai maou to shoukan shoujo no dorei majutsu",
     enhancers: ["[green dress", "metal collar]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rem galeu",
     category: "How Not to Summon a Demon Lord",
-    mainTags: "rem galeu, isekai maou to shoukan shoujo no dorei majutsu",
+    mainTags: "rem galeu, red eyes, black hair, short hair, isekai maou to shoukan shoujo no dorei majutsu",
     enhancers: ["[metal collar", "purple skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "alicia crystella",
     category: "How Not to Summon a Demon Lord",
-    mainTags:
-      "alicia crystella, glasses, isekai maou to shoukan shoujo no dorei majutsu",
+    mainTags: "alicia crystella, blue eyes, blonde hair, long hair, glasses, isekai maou to shoukan shoujo no dorei majutsu",
     enhancers: ["[armor", "boobplate]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lumachina weselia",
     category: "How Not to Summon a Demon Lord",
-    mainTags:
-      "lumachina weselia, isekai maou to shoukan shoujo no dorei majutsu",
+    mainTags: "lumachina weselia, purple eyes, black hair, long hair, isekai maou to shoukan shoujo no dorei majutsu",
     enhancers: ["[red hat", "detached sleeves", "two-tone dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "terakomari gandezblood",
     category: "Vexations of a Shut-In Vampire Princess",
-    mainTags:
-      "terakomari gandezblood, cone hair bun, hikikomari kyuuketsuki no monmon",
-    enhancers: [
-      "[white skirt",
-      "white thighhighs",
-      "purple bowtie",
-      "red jacket]",
-      "[red bikini",
-      "frilled bikini]",
-    ],
+    mainTags: "terakomari gandezblood, red eyes, blonde hair, short hair, cone hair bun, hikikomari kyuuketsuki no monmon",
+    enhancers: ["[white skirt", "white thighhighs", "purple bowtie", "red jacket]", "[red bikini", "frilled bikini]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "villhaze",
     category: "Vexations of a Shut-In Vampire Princess",
-    mainTags: "villhaze, hikikomari kyuuketsuki no monmon",
+    mainTags: "villhaze, blue eyes, silver hair, short hair, hikikomari kyuuketsuki no monmon",
     enhancers: ["maid", "[black bikini", "eyewear on head]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sakuna memoire",
     category: "Vexations of a Shut-In Vampire Princess",
-    mainTags: "sakuna memoire, hikikomari kyuuketsuki no monmon",
-    enhancers: [
-      "[blue shirt",
-      "blue ascot",
-      "black skirt",
-      "wide sleeves]",
-      "[white two-tone bikini",
-      "frilled bikini bottoms]",
-    ],
+    mainTags: "sakuna memoire, blue eyes, white hair, long hair, hikikomari kyuuketsuki no monmon",
+    enhancers: ["[blue shirt", "blue ascot", "black skirt", "wide sleeves]", "[white two-tone bikini", "frilled bikini bottoms]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tachibana kanade",
     category: "Angel Beats",
-    mainTags: "tachibana kanade, angel beats!, {{{aged up, mature female}}}",
-    enhancers: [
-      "[shinda sekai sensen uniform",
-      "thighhighs] [brown jacket",
-      "black skirt]",
-    ],
+    mainTags: "tachibana kanade, yellow eyes, silver hair, long hair, angel beats!, {{{aged up, mature female}}}",
+    enhancers: ["[shinda sekai sensen uniform", "thighhighs] [brown jacket", "black skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "nakamura yuri",
     category: "Angel Beats",
-    mainTags: "nakamura yuri, angel beats!, {{{aged up, mature female}}}",
-    enhancers: [
-      "[shinda sekai sensen uniform",
-      "thighhighs]",
-      "[pink hoodie",
-      "denim pants]",
-    ],
+    mainTags: "nakamura yuri, green eyes, purple hair, long hair, angel beats!, {{{aged up, mature female}}}",
+    enhancers: ["[shinda sekai sensen uniform", "thighhighs]", "[pink hoodie", "denim pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yui (angel beats!)",
     category: "Angel Beats",
-    mainTags:
-      "yui (angel beats!), twin tails, angel beats!, {{{aged up, mature female}}}",
+    mainTags: "yui (angel beats!), pink eyes, pink hair, long hair, twintails, angel beats!, {{{aged up, mature female}}}",
     enhancers: ["[shinda sekai sensen uniform", "thigh belts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hinata hideki",
     category: "Angel Beats",
-    mainTags: "hinata hideki, angel beats!, {{{aged up, mature female}}}",
+    mainTags: "hinata hideki, blue eyes, blue hair, short hair, angel beats!, {{{aged up, mature female}}}",
     enhancers: ["[shinda sekai sensen uniform", "thighhighs]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hotonashi yuzuru",
     category: "Angel Beats",
-    mainTags: "hotonashi yuzuru, angel beats!, {{{aged up, mature female}}}",
+    mainTags: "hotonashi yuzuru, red eyes, orange hair, short hair, angel beats!, {{{aged up, mature female}}}",
     enhancers: ["[shinda sekai sensen uniform", "thighhighs]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "naoi ayato",
     category: "Angel Beats",
-    mainTags: "naoi ayato, angel beats!, {{{aged up, mature female}}}",
+    mainTags: "naoi ayato, green eyes, brown hair, short hair, angel beats!, {{{aged up, mature female}}}",
     enhancers: ["[shinda sekai sensen uniform", "thighhighs]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "iwasawa masami",
     category: "Angel Beats",
-    mainTags: "iwasawa masami, angel beats!, {{{aged up, mature female}}}",
+    mainTags: "iwasawa masami, red eyes, brown hair, long hair, angel beats!, {{{aged up, mature female}}}",
     enhancers: ["shinda sekai sensen uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yusa (angel beats!)",
     category: "Angel Beats",
-    mainTags: "yusa (angel beats!), angel beats!, {{{aged up, mature female}}}",
+    mainTags: "yusa (angel beats!), yellow eyes, blonde hair, long hair, angel beats!, {{{aged up, mature female}}}",
     enhancers: ["[shinda sekai sensen uniform", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shiina (angel beats!)",
     category: "Angel Beats",
-    mainTags:
-      "shiina (angel beats!), angel beats!, {{{aged up, mature female}}}",
-    enhancers: [
-      "[shinda sekai sensen uniform",
-      "knee boots]",
-      "[shinda sekai sensen uniform",
-      "knee boots",
-      "black scarf",
-      "covering mouth]",
-    ],
+    mainTags: "shiina (angel beats!), blue eyes, black hair, long hair, angel beats!, {{{aged up, mature female}}}",
+    enhancers: ["[shinda sekai sensen uniform", "knee boots]", "[shinda sekai sensen uniform", "knee boots", "black scarf", "covering mouth]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hisako (angel beats!)",
     category: "Angel Beats",
-    mainTags:
-      "hisako (angel beats!), angel beats!, {{{aged up, mature female}}}",
-    enhancers: [
-      "[shinda sekai sensen uniform",
-      "thigh strap]",
-      "[green jacket",
-      "white tank top",
-      "black yoga pants]",
-    ],
+    mainTags: "hisako (angel beats!), brown eyes, purple hair, long hair, angel beats!, {{{aged up, mature female}}}",
+    enhancers: ["[shinda sekai sensen uniform", "thigh strap]", "[green jacket", "white tank top", "black yoga pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sekine shiori",
     category: "Angel Beats",
-    mainTags: "sekine shiori, angel beats!, {{{aged up, mature female}}}",
-    enhancers: [
-      "[shinda sekai sensen uniform",
-      "white thighhighs",
-      "single thigh belt]",
-      "[black leather jacket",
-      "yellow turtleneck",
-      "fur-trimmed shorts]",
-    ],
+    mainTags: "sekine shiori, blue eyes, blonde hair, long hair, angel beats!, {{{aged up, mature female}}}",
+    enhancers: ["[shinda sekai sensen uniform", "white thighhighs", "single thigh belt]", "[black leather jacket", "yellow turtleneck", "fur-trimmed shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "irie miyuki",
     category: "Angel Beats",
-    mainTags: "irie miyuki, angel beats!, {{{aged up, mature female}}}",
-    enhancers: [
-      "[shinda sekai sensen uniform",
-      "white knee socks",
-      "single thigh strap]",
-    ],
+    mainTags: "irie miyuki, brown eyes, pink hair, long hair, angel beats!, {{{aged up, mature female}}}",
+    enhancers: ["[shinda sekai sensen uniform", "white knee socks", "single thigh strap]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ramona flowers",
     category: "Scott Pilgrim",
-    mainTags: "ramona flowers, scott pilgrim (series)",
-    enhancers: [
-      "[black hoodie",
-      "grey jacket",
-      "pink pantyhose",
-      "blue skirt",
-      "shoulder bag]",
-      "[black hoodie",
-      "hood up",
-      "grey jacket",
-      "fishnets",
-      "pink short shorts",
-      "shoulder bag]",
-    ],
+    mainTags: "ramona flowers, blue eyes, blue hair, short hair, scott pilgrim (series)",
+    enhancers: ["[black hoodie", "grey jacket", "pink pantyhose", "blue skirt", "shoulder bag]", "[black hoodie", "hood up", "grey jacket", "fishnets", "pink short shorts", "shoulder bag]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kim pine",
     category: "Scott Pilgrim",
-    mainTags: "kim pine, scott pilgrim (series)",
-    enhancers: [
-      "[green striped jacket",
-      "brown skirt",
-      "pantyhose]",
-      "[black and white striped jacket",
-      "blue pleated skirt",
-      "knee socks]",
-    ],
+    mainTags: "kim pine, green eyes, red hair, short hair, scott pilgrim (series)",
+    enhancers: ["[green striped jacket", "brown skirt", "pantyhose]", "[black and white striped jacket", "blue pleated skirt", "knee socks]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "knives chau",
     category: "Scott Pilgrim",
-    mainTags:
-      "knives chau, hair between eyes, short black hair, black eyes, scott pilgrim (series)",
-    enhancers: [
-      "[leggings",
-      "grey off-shoulder sweater",
-      "boots]",
-      "[ninja",
-      "white and grey striped scarf",
-      "red hair streak",
-      "hair ornament]",
-      "[ninja",
-      "black bodysuit",
-      "grey and white striped scarf",
-      "red hair streak]",
-    ],
+    mainTags: "knives chau, black eyes, black hair, short hair, hair between eyes, scott pilgrim (series)",
+    enhancers: ["[leggings", "grey off-shoulder sweater", "boots]", "[ninja", "white and grey striped scarf", "red hair streak", "hair ornament]", "[ninja", "black bodysuit", "grey and white striped scarf", "red hair streak]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "roxie richter",
     category: "Scott Pilgrim",
-    mainTags: "roxie richter, scott pilgrim (series)",
-    enhancers: [
-      "[white hoodie",
-      "cleavage cutout",
-      "white shorts",
-      "multiple belts",
-      "grey belt",
-      "red belt",
-      "single wrist cuff",
-      "spiked cuff]",
-      "[sleeveless black hoodie",
-      "black shorts",
-      "spiked cuff",
-      "single wrist cuff",
-      "red cloth belt]",
-    ],
+    mainTags: "roxie richter, brown eyes, blonde hair, short hair, scott pilgrim (series)",
+    enhancers: ["[white hoodie", "cleavage cutout", "white shorts", "multiple belts", "grey belt", "red belt", "single wrist cuff", "spiked cuff]", "[sleeveless black hoodie", "black shorts", "spiked cuff", "single wrist cuff", "red cloth belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "envy adams",
     category: "Scott Pilgrim",
-    mainTags: "envy adams, scott pilgrim (series)",
-    enhancers: [
-      "[short black dress",
-      "clothing cutouts",
-      "short sleeves",
-      "single gold bangle]",
-      "[striped shirt",
-      "short sleeves",
-      "denim pants",
-      "belt]",
-    ],
+    mainTags: "envy adams, brown eyes, blonde hair, long hair, scott pilgrim (series)",
+    enhancers: ["[short black dress", "clothing cutouts", "short sleeves", "single gold bangle]", "[striped shirt", "short sleeves", "denim pants", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "julie powers",
     category: "Scott Pilgrim",
-    mainTags: "julie powers, round glasses, scott pilgrim (series)",
-    enhancers: [
-      "[green cargo jacket",
-      "necklace",
-      "black shirt",
-      "jeans]",
-      "[two-stone shirt",
-      "brown waist apron",
-      "brown pants]",
-    ],
+    mainTags: "julie powers, brown eyes, black hair, short hair, round glasses, scott pilgrim (series)",
+    enhancers: ["[green cargo jacket", "necklace", "black shirt", "jeans]", "[two-stone shirt", "brown waist apron", "brown pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "blossom (ppg)",
     category: "Nick Toons",
-    mainTags:
-      "blossom (ppg), ponytail, red hair bow, powerpuff girls, {{{aged up, mature female}}}",
-    enhancers: [
-      "[halterneck",
-      "pink dress",
-      "black corset",
-      "white thighhighs]",
-    ],
+    mainTags: "blossom (ppg), pink eyes, orange hair, long hair, ponytail, red hair bow, powerpuff girls, {{{aged up, mature female}}}",
+    enhancers: ["[halterneck", "pink dress", "black corset", "white thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "bubbles (ppg)",
     category: "Nick Toons",
-    mainTags:
-      "bubbles (ppg), twintails, powerpuff girls, {{{aged up, mature female}}}",
-    enhancers: [
-      "[halterneck",
-      "blue dress",
-      "black corset",
-      "white thighhighs]",
-    ],
+    mainTags: "bubbles (ppg), blue eyes, blonde hair, long hair, twintails, powerpuff girls, {{{aged up, mature female}}}",
+    enhancers: ["[halterneck", "blue dress", "black corset", "white thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "buttercup (ppg)",
     category: "Nick Toons",
-    mainTags:
-      "buttercup (ppg), very short hair, scruffy hair, powerpuff girls, {{{aged up, mature female}}}",
-    enhancers: [
-      "[halterneck",
-      "green dress",
-      "black corset",
-      "white thighhighs]",
-    ],
+    mainTags: "buttercup (ppg), green eyes, black hair, short hair, very short hair, scruffy hair, powerpuff girls, {{{aged up, mature female}}}",
+    enhancers: ["[halterneck", "green dress", "black corset", "white thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "akazutsumi momoko",
     category: "Nick Toons",
-    mainTags:
-      "akazutsumi momoko, red hair bow, ponytail, powerpuff girls z, {{{aged up, mature female}}}",
-    enhancers: [
-      "[white shirt",
-      "cleavage",
-      "striped sleeves",
-      "blue skirt",
-      "belt]",
-    ],
+    mainTags: "akazutsumi momoko, pink eyes, orange hair, long hair, ponytail, red hair bow, powerpuff girls z, {{{aged up, mature female}}}",
+    enhancers: ["[white shirt", "cleavage", "striped sleeves", "blue skirt", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "goutokuji miyako",
     category: "Nick Toons",
-    mainTags:
-      "goutokuji miyako, twintails, hairclip, powerpuff girls z, {{{aged up, mature female}}}",
-    enhancers: [
-      "[blue shirt",
-      "cleavage",
-      "blue necktie",
-      "choker",
-      "plaid skirt",
-      "white belt]",
-    ],
+    mainTags: "goutokuji miyako, blue eyes, blonde hair, long hair, twintails, hairclip, powerpuff girls z, {{{aged up, mature female}}}",
+    enhancers: ["[blue shirt", "cleavage", "blue necktie", "choker", "plaid skirt", "white belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "matsubara kaoru",
     category: "Nick Toons",
-    mainTags:
-      "matsubara kaoru, spiked hair, hair ornaments, powerpuff girls z, {{{aged up, mature female}}}",
-    enhancers: [
-      "[yellow vest",
-      "green dress",
-      "cleavage",
-      "frills",
-      "white belt",
-      "fingerless gloves]",
-    ],
+    mainTags: "matsubara kaoru, green eyes, black hair, short hair, spiked hair, hair ornaments, powerpuff girls z, {{{aged up, mature female}}}",
+    enhancers: ["[yellow vest", "green dress", "cleavage", "frills", "white belt", "fingerless gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mandy (grim adventures)",
     category: "Nick Toons",
-    mainTags:
-      "mandy (grim adventures), blonde hair, hair horns, black eyes, black hairband, the grim adventures of billy & mandy, {{{aged up, mature female}}}",
+    mainTags: "mandy (grim adventures), black eyes, blonde hair, short hair, hair horns, black hairband, the grim adventures of billy & mandy, {{{aged up, mature female}}}",
     enhancers: ["[sleeveless dress", "pink collared dress", "flower print]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "frankie foster",
     category: "Nick Toons",
-    mainTags: "frankie foster, foster's home for imaginary friends",
-    enhancers: [
-      "[green jacket",
-      "hairclip",
-      "black shorts]",
-      "[black dress",
-      "black choker",
-      "gold hoop earrings]",
-    ],
+    mainTags: "frankie foster, green eyes, red hair, long hair, foster's home for imaginary friends",
+    enhancers: ["[green jacket", "hairclip", "black shorts]", "[black dress", "black choker", "gold hoop earrings]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "vicky (fairly oddparents)",
     category: "Nick Toons",
-    mainTags:
-      "vicky (fairly oddparents), red hair, pink eyes, lipstick, the fairly oddparents",
+    mainTags: "vicky (fairly oddparents), pink eyes, red hair, long hair, lipstick, the fairly oddparents",
     enhancers: ["[green shirt", "black pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "trixie tang",
     category: "Nick Toons",
-    mainTags:
-      "trixie tang, black hair, blue eyes, pink hairband, the fairly oddparents",
-    enhancers: [
-      "[pink sweater",
-      "short sleeves",
-      "high collar",
-      "white skirt",
-      "white boots]",
-    ],
+    mainTags: "trixie tang, blue eyes, black hair, long hair, pink hairband, the fairly oddparents",
+    enhancers: ["[pink sweater", "short sleeves", "high collar", "white skirt", "white boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "aizawa azusa",
     category: "Killing Slimes for 300 Years",
-    mainTags:
-      "aizawa azusa, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
+    mainTags: "aizawa azusa, blue eyes, blonde hair, long hair, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
     enhancers: ["[witch hat", "yellow ascot", "black robe]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "laika (slime taoshite 300 nen)",
     category: "Killing Slimes for 300 Years",
-    mainTags:
-      "laika (slime taoshite 300 nen), slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
+    mainTags: "laika (slime taoshite 300 nen), red eyes, red hair, long hair, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
     enhancers: ["[black pantyhose", "red dress", "wide sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shalsha (slime taoshite 300 nen)",
     category: "Killing Slimes for 300 Years",
-    mainTags:
-      "shalsha (slime taoshite 300 nen), green hair, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita, {{{aged up, mature female}}}",
+    mainTags: "shalsha (slime taoshite 300 nen), blue eyes, green hair, short hair, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita, {{{aged up, mature female}}}",
     enhancers: ["yellow apron"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "provato pecora aries",
     category: "Killing Slimes for 300 Years",
-    mainTags:
-      "provato pecora aries, gloves, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita, {{{aged up, mature female}}}",
+    mainTags: "provato pecora aries, yellow eyes, white hair, long hair, gloves, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita, {{{aged up, mature female}}}",
     enhancers: ["[fur trim", "black dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "halkara (slime taoshite 300 nen)",
     category: "Killing Slimes for 300 Years",
-    mainTags:
-      "halkara (slime taoshite 300 nen), blonde hair, blue eyes, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
+    mainTags: "halkara (slime taoshite 300 nen), blue eyes, blonde hair, long hair, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "orphen",
     category: "Other",
-    mainTags: "orphen, short hair, spiked hair, headband, majutsushi orphen",
+    mainTags: "orphen, brown eyes, brown hair, short hair, spiked hair, headband, majutsushi orphen",
     enhancers: ["[blue vest", "necklace", "fingerless gloves]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "cleo everlastin",
     category: "Other",
-    mainTags: "cleo everlastin, majutsushi orphen",
+    mainTags: "cleo everlastin, blue eyes, blonde hair, long hair, majutsushi orphen",
     enhancers: ["orange dress"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kusanagi motoko",
     category: "Other",
-    mainTags: "kusanagi motoko, ghost in the shell",
-    enhancers: [
-      "[leather jacket",
-      "fingerless gloves",
-      "leotard",
-      "thighhighs]",
-      "[orange jacket",
-      "grey pants",
-      "gloves]",
-      "[bodysuit",
-      "belt",
-      "gloves",
-      "long coat]",
-    ],
+    mainTags: "kusanagi motoko, purple eyes, purple hair, short hair, ghost in the shell",
+    enhancers: ["[leather jacket", "fingerless gloves", "leotard", "thighhighs]", "[orange jacket", "grey pants", "gloves]", "[bodysuit", "belt", "gloves", "long coat]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "batou (gits)",
     category: "Other",
-    mainTags:
-      "batou (gits), white hair, very short hair, glasses, ghost in the shell",
+    mainTags: "batou (gits), brown eyes, white hair, very short hair, glasses, ghost in the shell",
     enhancers: ["[brown coat", "white shirt", "gloves", "cargo pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "priscilla asagiri",
     category: "Other",
-    mainTags: "priscilla asagiri, bubblegum crisis",
-    enhancers: [
-      "[red leather jacket",
-      "cleavage cutout",
-      "black pants",
-      "knee boots]",
-      "hardsuit",
-      "[blue skirt",
-      "red tube top",
-      "sleeveless shirt",
-      "red elbow gloves",
-      "gold bangles",
-      "armlet",
-      "brown pantyhose]",
-    ],
+    mainTags: "priscilla asagiri, blue eyes, brown hair, long hair, bubblegum crisis",
+    enhancers: ["[red leather jacket", "cleavage cutout", "black pants", "knee boots]", "hardsuit", "[blue skirt", "red tube top", "sleeveless shirt", "red elbow gloves", "gold bangles", "armlet", "brown pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yamamura sadako",
     category: "Other",
-    mainTags:
-      "yamamura sadako, wide-eyed, scar on face, scar on mouth, loose hair strand, absurdly long hair, wet",
-    enhancers: [
-      "[oversized clothes",
-      "white shirt]",
-      "[maid headdress",
-      "maid bikini]",
-    ],
+    mainTags: "yamamura sadako, black eyes, black hair, very long hair, wide-eyed, scar on face, scar on mouth, loose hair strand, wet",
+    enhancers: ["[oversized clothes", "white shirt]", "[maid headdress", "maid bikini]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "atom eve",
     category: "Other",
-    mainTags: "atom eve, invincible (series)",
+    mainTags: "atom eve, blue eyes, orange hair, long hair, invincible (series)",
     enhancers: ["[cape", "pink boots", "pink leotard]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
+    mediaType: "Shows or Movies"
+}
 ];
 
 // Scenes constant: each theme includes 5 booru tags.
