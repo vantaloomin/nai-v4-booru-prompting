@@ -6391,5316 +6391,4965 @@ const characterData = [
     genderswapAvailable: true,
     mediaType: "Shows or Movies"
 },
-  {
+{
     name: "uzumaki kushina",
     category: "Naruto",
-    mainTags: "uzumaki kushina, naruto (series)",
+    mainTags: "uzumaki kushina, blue eyes, red hair, long hair, naruto (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "uchiha sarada",
     category: "Naruto",
-    mainTags: "uchiha sarada, naruto (series)",
+    mainTags: "uchiha sarada, black eyes, black hair, short hair, naruto (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "makima (chainsaw man)",
     category: "Chainsaw Man",
-    mainTags: "makima (chainsaw man), chainsaw man",
+    mainTags: "makima (chainsaw man), yellow eyes, red hair, long hair, chainsaw man",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "reze (chainsaw man)",
     category: "Chainsaw Man",
-    mainTags: "reze (chainsaw man), chainsaw man",
+    mainTags: "reze (chainsaw man), green eyes, purple hair, short hair, chainsaw man",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yoru (chainsaw man)",
     category: "Chainsaw Man",
-    mainTags: "yoru (chainsaw man), chainsaw man",
+    mainTags: "yoru (chainsaw man), red eyes, black hair, long hair, chainsaw man",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "himeno (chainsaw man)",
     category: "Chainsaw Man",
-    mainTags: "himeno (chainsaw man), chainsaw man",
+    mainTags: "himeno (chainsaw man), brown eyes, black hair, short hair, chainsaw man",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "power (chainsaw man)",
     category: "Chainsaw Man",
-    mainTags: "power (chainsaw man), chainsaw man",
+    mainTags: "power (chainsaw man), yellow eyes, blonde hair, long hair, chainsaw man",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "higashiyama kobeni",
     category: "Chainsaw Man",
-    mainTags: "higashiyama kobeni, chainsaw man",
+    mainTags: "higashiyama kobeni, brown eyes, brown hair, short hair, ponytail, chainsaw man",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "esdeath",
     category: "Akame Ga Kill!",
-    mainTags: "esdeath, akame ga kill",
+    mainTags: "esdeath, blue eyes, blue hair, long hair, akame ga kill",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "akame (akame ga kill!)",
     category: "Akame Ga Kill!",
-    mainTags: "akame (akame ga kill!), akame ga kill!",
+    mainTags: "akame (akame ga kill!), red eyes, black hair, long hair, akame ga kill!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "najenda (akame ga kill!)",
     category: "Akame Ga Kill!",
-    mainTags: "najenda (akame ga kill!), akame ga kill!",
+    mainTags: "najenda (akame ga kill!), purple eyes, silver hair, short hair, akame ga kill!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mine (akame ga kill!)",
     category: "Akame Ga Kill!",
-    mainTags: "mine (akame ga kill!), twintails, akame ga kill!",
+    mainTags: "mine (akame ga kill!), pink eyes, pink hair, long hair, twintails, akame ga kill!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "chelsa (akame ga kill!)",
     category: "Akame Ga Kill!",
-    mainTags: "chelsa (akame ga kill!), akame ga kill!",
+    mainTags: "chelsa (akame ga kill!), brown eyes, orange hair, short hair, akame ga kill!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "leone (akame ga kill!)",
     category: "Akame Ga Kill!",
-    mainTags: "leone (akame ga kill!), akame ga kill!",
+    mainTags: "leone (akame ga kill!), yellow eyes, blonde hair, long hair, akame ga kill!",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hatsune miku",
     category: "Other",
-    mainTags: "hatsune miku",
+    mainTags: "hatsune miku, blue eyes, blue hair, long hair, twin tails",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hinata hajime",
     category: "Danganronpa",
-    mainTags: "hinata hajime, danganronpa (series)",
+    mainTags: "hinata hajime, brown eyes, brown hair, short hair, spiked hair, danganronpa (series)",
     enhancers: [],
-    defaultGender: "girl",
+    defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "erza scarlet",
     category: "Fairy Tail",
-    mainTags: "erza scarlet, fairy tail",
+    mainTags: "erza scarlet, brown eyes, red hair, long hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lucy heartfilia",
     category: "Fairy Tail",
-    mainTags: "lucy heartfilia, fairy tail",
+    mainTags: "lucy heartfilia, brown eyes, blonde hair, long hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "wendy marvell",
     category: "Fairy Tail",
-    mainTags: "wendy marvell, fairy tail,",
+    mainTags: "wendy marvell, brown eyes, blue hair, long hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "juvia lockser",
     category: "Fairy Tail",
-    mainTags: "juvia lockser, fairy tail",
+    mainTags: "juvia lockser, blue eyes, blue hair, long hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lisanna strauss",
     category: "Fairy Tail",
-    mainTags: "lisanna strauss, fairy tail",
+    mainTags: "lisanna strauss, blue eyes, white hair, short hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "cana alberona",
     category: "Fairy Tail",
-    mainTags: "cana alberona, fairy tail",
+    mainTags: "cana alberona, brown eyes, brown hair, long hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mirajane strauss",
     category: "Fairy Tail",
-    mainTags: "mirajane strauss, fairy tail",
+    mainTags: "mirajane strauss, blue eyes, white hair, long hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "levy mcgarden",
     category: "Fairy Tail",
-    mainTags: "levy mcgarden, fairy tail",
+    mainTags: "levy mcgarden, blue eyes, blue hair, short hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mavis vermilion",
     category: "Fairy Tail",
-    mainTags: "mavis vermilion, fairy tail",
+    mainTags: "mavis vermilion, green eyes, blonde hair, long hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "irene belserion",
     category: "Fairy Tail",
-    mainTags: "irene belserion, fairy tail",
+    mainTags: "irene belserion, red eyes, red hair, long hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "evergreen (fairy tail)",
     category: "Fairy Tail",
-    mainTags: "evergreen (fairy tail)",
+    mainTags: "evergreen (fairy tail), brown eyes, green hair, long hair, fairy tail",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "xenovia quarta",
     category: "Highschool DxD",
-    mainTags: "xenovia quarta, high school dxd",
+    mainTags: "xenovia quarta, blue eyes, blue hair, short hair, high school dxd",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rias gremory",
     category: "Highschool DxD",
-    mainTags: "rias gremory, high school dxd",
+    mainTags: "rias gremory, blue eyes, red hair, long hair, high school dxd",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "himejima akeno",
     category: "Highschool DxD",
-    mainTags: "himejima akeno, high school dxd",
+    mainTags: "himejima akeno, purple eyes, black hair, long hair, ponytail, high school dxd",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kuroka (high school dxd)",
     category: "Highschool DxD",
-    mainTags: "kuroka (high school dxd)",
+    mainTags: "kuroka (high school dxd), yellow eyes, black hair, long hair, high school dxd",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rossweisse",
     category: "Highschool DxD",
-    mainTags: "rossweisse, high school dxd",
+    mainTags: "rossweisse, blue eyes, silver hair, long hair, high school dxd",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "toujou koneko",
     category: "Highschool DxD",
-    mainTags: "toujou koneko, high school dxd",
+    mainTags: "toujou koneko, yellow eyes, white hair, short hair, high school dxd",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shidou irina",
     category: "Highschool DxD",
-    mainTags: "shidou irina, high school dxd",
+    mainTags: "shidou irina, purple eyes, brown hair, long hair, twin tails, high school dxd",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kirishima touka",
     category: "Tokyo Ghoul",
-    mainTags: "kirishima touka, tokyo ghoul",
+    mainTags: "kirishima touka, blue eyes, blue hair, short hair, tokyo ghoul",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kamishiro rize",
     category: "Tokyo Ghoul",
-    mainTags: "kamishiro rize, tokyo ghoul",
+    mainTags: "kamishiro rize, purple eyes, purple hair, long hair, tokyo ghoul",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "eto (tokyo ghoul)",
     category: "Tokyo Ghoul",
-    mainTags: "eto (tokyo ghoul), tokyo ghoul, crazy eyes, heterochromia",
+    mainTags: "eto (tokyo ghoul), green eyes, green hair, short hair, crazy eyes, heterochromia, tokyo ghoul",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shiota nagisa",
     category: "Asssassination Classroom",
-    mainTags: "shiota nagisa, ansatsu kyoushitsu",
+    mainTags: "shiota nagisa, blue eyes, blue hair, long hair, twin tails, ansatsu kyoushitsu",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "irina jelavic",
     category: "Asssassination Classroom",
-    mainTags: "irina jelavic, ansatsu kyoushitsu",
+    mainTags: "irina jelavic, blue eyes, blonde hair, long hair, ansatsu kyoushitsu",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "okuda manami",
     category: "Asssassination Classroom",
-    mainTags: "okuda manami, ansatsu kyoushitsu",
+    mainTags: "okuda manami, brown eyes, brown hair, short hair, twin tails, ansatsu kyoushitsu",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kayano kaede",
     category: "Asssassination Classroom",
-    mainTags: "kayano kaede, ansatsu kyoushitsu",
+    mainTags: "kayano kaede, yellow eyes, green hair, short hair, twin tails, ansatsu kyoushitsu",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shiro (no game no life)",
     category: "No Game, No Life",
-    mainTags: "shiro (no game no life), no game no life,",
+    mainTags: "shiro (no game no life), blue eyes, white hair, long hair, no game no life",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "jibril (no game no life)",
     category: "No Game, No Life",
-    mainTags: "jibril (no game no life), no game no life",
+    mainTags: "jibril (no game no life), pink eyes, pink hair, long hair, no game no life",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shuvi (no game no life)",
     category: "No Game, No Life",
-    mainTags: "shuvi (no game no life), no game no life,",
+    mainTags: "shuvi (no game no life), purple eyes, purple hair, long hair, no game no life",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hatsuse izuna",
     category: "No Game, No Life",
-    mainTags: "hatsuse izuna, no game no life,",
+    mainTags: "hatsuse izuna, red eyes, brown hair, short hair, no game no life",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kamado nezuko",
     category: "Demon Slayer",
-    mainTags: "kamado nezuko, kimetsu no yaiba",
+    mainTags: "kamado nezuko, pink eyes, black hair, long hair, kimetsu no yaiba",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kanroji mitsuri",
     category: "Demon Slayer",
-    mainTags: "kanroji mitsuri, kimetsu no yaiba",
+    mainTags: "kanroji mitsuri, green eyes, pink hair, long hair, twin braids, kimetsu no yaiba",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kochou shinobu",
     category: "Demon Slayer",
-    mainTags: "kochou shinobu, kimetsu no yaiba",
+    mainTags: "kochou shinobu, purple eyes, black hair, short hair, kimetsu no yaiba",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "busujima saeko",
     category: "Highschool of the Dead",
-    mainTags: "busujima saeko, highschool of the dead",
+    mainTags: "busujima saeko, purple eyes, purple hair, long hair, highschool of the dead",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "miyamoto rei",
     category: "Highschool of the Dead",
-    mainTags: "miyamoto rei, highschool of the dead",
+    mainTags: "miyamoto rei, brown eyes, orange hair, long hair, highschool of the dead",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "takagi saya",
     category: "Highschool of the Dead",
-    mainTags: "takagi saya, highschool of the dead",
+    mainTags: "takagi saya, brown eyes, pink hair, long hair, twin tails, highschool of the dead",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "marikawa shizuka",
     category: "Highschool of the Dead",
-    mainTags:
-      "marikawa shizuka, blonde hair, blue sweater, highschool of the dead",
+    mainTags: "marikawa shizuka, brown eyes, blonde hair, long hair, blue sweater, highschool of the dead",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hestia (danmachi)",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "hestia (danmachi), dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "hestia (danmachi), blue eyes, black hair, long hair, twin tails, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "bell cranel",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "bell cranel, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "bell cranel, red eyes, white hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ryu lion",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "ryu lion, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "ryu lion, blue eyes, blonde hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "aiz wallenstein",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "aiz wallenstein, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "aiz wallenstein, blue eyes, blonde hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "liliruca arde",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "liliruca arde, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "liliruca arde, brown eyes, brown hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "freya (danmachi)",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "freya (danmachi), dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "freya (danmachi), purple eyes, silver hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tiona hyryute",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "tiona hyryute, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "tiona hyryute, brown eyes, brown hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sanjouno haruhime",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "sanjouno haruhime, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "sanjouno haruhime, green eyes, blonde hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "eina tulle",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "eina tulle, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "eina tulle, green eyes, brown hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yamato mikoto",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "yamato mikoto, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "yamato mikoto, black eyes, black hair, long hair, ponytail, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lefiya viridis",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "lefiya viridis, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "lefiya viridis, blue eyes, yellow hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "riveria ljos alf",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags:
-      "riveria ljos alf, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "riveria ljos alf, green eyes, green hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "wiene",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
-    mainTags: "wiene, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
+    mainTags: "wiene, blue eyes, blue hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "albedo (overlord)",
     category: "Overlord",
-    mainTags: "albedo (overlord), overlord (maruyama)",
+    mainTags: "albedo (overlord), yellow eyes, black hair, long hair, overlord (maruyama)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shalltear bloodfallen",
     category: "Overlord",
-    mainTags: "shalltear bloodfallen, overlord (maruyama)",
+    mainTags: "shalltear bloodfallen, red eyes, silver hair, short hair, overlord (maruyama)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lupusregina beta",
     category: "Overlord",
-    mainTags: "lupusregina beta, overlord (maruyama)",
+    mainTags: "lupusregina beta, yellow eyes, red hair, long hair, twin tails, overlord (maruyama)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "clementine (overlord)",
     category: "Overlord",
-    mainTags: "clementine (overlord), overlord (maruyama)",
+    mainTags: "clementine (overlord), yellow eyes, blonde hair, short hair, overlord (maruyama)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "entoma vasilissa zeta",
     category: "Overlord",
-    mainTags: "entoma vasilissa zeta, overlord (maruyama)",
+    mainTags: "entoma vasilissa zeta, purple eyes, black hair, short hair, overlord (maruyama)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "solution epsilon",
     category: "Overlord",
-    mainTags: "solution epsilon, overlord (maruyama)",
+    mainTags: "solution epsilon, blue eyes, blonde hair, long hair, overlord (maruyama)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yuri alpha",
     category: "Overlord",
-    mainTags: "yuri alpha, overlord (maruyama)",
+    mainTags: "yuri alpha, blue eyes, black hair, short hair, overlord (maruyama)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "faye valentine",
     category: "Cowboy Bebop",
-    mainTags: "faye valentine, cowboy bebop",
+    mainTags: "faye valentine, purple eyes, purple hair, short hair, cowboy bebop",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "edward wong hau pepelu tivrusky iv",
     category: "Cowboy Bebop",
-    mainTags: "edward wong hau pepelu tivrusky iv, cowboy bebop,",
+    mainTags: "edward wong hau pepelu tivrusky iv, brown eyes, orange hair, short hair, cowboy bebop",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "julia (cowboy bebop)",
     category: "Cowboy Bebop",
-    mainTags: "julia (cowboy bebop), cowboy bebop",
+    mainTags: "julia (cowboy bebop), blue eyes, blonde hair, long hair, cowboy bebop",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "yor briar",
     category: "SPY X FAMILY",
-    mainTags: "yor briar, spy x family",
+    mainTags: "yor briar, red eyes, black hair, long hair, spy x family",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "anya (spy x family)",
     category: "SPY X FAMILY",
-    mainTags: "anya (spy x family), {{mature female, aged up}}, spy x family",
+    mainTags: "anya (spy x family), green eyes, pink hair, short hair, {{mature female, aged up}}, spy x family",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "matoi ryuuko",
     category: "Kill la Kill",
-    mainTags: "matoi ryuuko, kill la kill",
+    mainTags: "matoi ryuuko, blue eyes, black hair, short hair, kill la kill",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "senketsu",
     category: "Kill la Kill",
-    mainTags: "senketsu, kill la kill",
+    mainTags: "senketsu, blue eyes, black hair, short hair, kill la kill",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kiryuuin satsuki",
     category: "Kill la Kill",
-    mainTags: "kiryuuin satsuki, kill la kill",
+    mainTags: "kiryuuin satsuki, blue eyes, black hair, long hair, kill la kill",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "junketsu",
     category: "Kill la Kill",
-    mainTags: "junketsu, kill la kill",
+    mainTags: "junketsu, blue eyes, white hair, short hair, kill la kill",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mankanshoku mako",
     category: "Kill la Kill",
-    mainTags: "mankanshoku mako, kill la kill",
+    mainTags: "mankanshoku mako, brown eyes, brown hair, short hair, kill la kill",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sanageyama uzu",
     category: "Kill la Kill",
-    mainTags: "sanageyama uzu, kill la kill",
+    mainTags: "sanageyama uzu, brown eyes, black hair, short hair, kill la kill",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "inumuta houka",
     category: "Kill la Kill",
-    mainTags: "inumuta houka, kill la kill",
+    mainTags: "inumuta houka, blue eyes, blue hair, short hair, kill la kill",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "harime nui",
     category: "Kill la Kill",
-    mainTags: "harime nui, kill la kill, hair bow, big hair, eyepatch",
+    mainTags: "harime nui, blue eyes, blonde hair, long hair, hair bow, big hair, eyepatch, kill la kill",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mikisugi aikurou",
     category: "Kill la Kill",
-    mainTags: "mikisugi aikurou, kill la kill",
+    mainTags: "mikisugi aikurou, blue eyes, purple hair, short hair, kill la kill",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kiryuuin ragyou",
     category: "Kill la Kill",
-    mainTags: "kiryuuin ragyou, kill la kill",
+    mainTags: "kiryuuin ragyou, red eyes, black hair, long hair, kill la kill",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kinagase tsumugu",
     category: "Kill la Kill",
-    mainTags: "kinagase tsumugu, kill la kill",
+    mainTags: "kinagase tsumugu, brown eyes, orange hair, short hair, kill la kill",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "iori shirou",
     category: "Kill la Kill",
-    mainTags: "iori shirou, kill la kill",
+    mainTags: "iori shirou, brown eyes, blonde hair, short hair, kill la kill",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "jakuzure nonon",
     category: "Kill la Kill",
-    mainTags: "jakuzure nonon, kill la kill, hat",
+    mainTags: "jakuzure nonon, brown eyes, pink hair, short hair, hat, kill la kill",
     enhancers: ["jakuzure nonon (symphony regalia)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kim possible",
     category: "Kim Possible",
-    mainTags:
-      "kim possible, red hair, black shirt, cleavage, green cargo pants, kim possible (series)",
+    mainTags: "kim possible, green eyes, red hair, long hair, black shirt, cleavage, green cargo pants, kim possible (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ann possible",
     category: "Kim Possible",
-    mainTags:
-      "ann possible, red hair, purple dress, lab coat, kim possible (series)",
+    mainTags: "ann possible, blue eyes, red hair, long hair, purple dress, lab coat, kim possible (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shego",
     category: "Kim Possible",
-    mainTags:
-      "shego, black hair, black lips, green eyes, cleavage cutout, two-tone leotard, fishnet pantyhose, kim possible (series)",
+    mainTags: "shego, green eyes, black hair, long hair, black lips, cleavage cutout, two-tone leotard, fishnet pantyhose, kim possible (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "scarlet witch",
     category: "Marvel",
-    mainTags: "scarlet witch, headgear, marvel",
+    mainTags: "scarlet witch, green eyes, brown hair, long hair, headgear, marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "she-hulk",
     category: "Marvel",
-    mainTags: "she-hulk, muscular female, green skin, marvel",
+    mainTags: "she-hulk, green eyes, green hair, long hair, muscular female, green skin, marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "spider-gwen",
     category: "Marvel",
-    mainTags: "spider-gwen, marvel",
+    mainTags: "spider-gwen, blue eyes, blonde hair, short hair, marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "spider-woman",
     category: "Marvel",
-    mainTags: "spider-woman, marvel",
+    mainTags: "spider-woman, green eyes, black hair, long hair, marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "loki (marvel)",
     category: "Marvel",
-    mainTags: "loki (marvel), sylvie laufeydottir, marvel",
+    mainTags: "loki (marvel), green eyes, blonde hair, short hair, sylvie laufeydottir, marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "thor (marvel)",
     category: "Marvel",
-    mainTags: "thor (marvel), marvel",
+    mainTags: "thor (marvel), blue eyes, blonde hair, long hair, marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "iron man",
     category: "Marvel",
-    mainTags: "iron man, power armor, marvel",
+    mainTags: "iron man, blue eyes, black hair, short hair, power armor, marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sue storm",
     category: "Marvel",
-    mainTags: "sue storm, blue bodysuit, fantastic four, marvel",
+    mainTags: "sue storm, blue eyes, blonde hair, long hair, blue bodysuit, fantastic four, marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "cyclops (x-men)",
     category: "Marvel",
-    mainTags: "cyclops (x-men), x-men (anime), marvel",
+    mainTags: "cyclops (x-men), brown eyes, brown hair, short hair, x-men (anime), marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "emma frost",
     category: "Marvel",
-    mainTags: "emma frost, fur trim, white cape, x-men, x-men (anime), marvel",
+    mainTags: "emma frost, blue eyes, blonde hair, long hair, fur trim, white cape, x-men, x-men (anime), marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "gambit",
     category: "Marvel",
-    mainTags: "gambit, x-men (anime), marvel",
+    mainTags: "gambit, red eyes, brown hair, short hair, x-men (anime), marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "jean grey",
     category: "Marvel",
-    mainTags:
-      "jean grey, green bodysuit, green headband, yellow gloves, elbow gloves, x-men, marvel",
+    mainTags: "jean grey, green eyes, red hair, long hair, green bodysuit, green headband, yellow gloves, elbow gloves, x-men, marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "jubilee",
     category: "Marvel",
-    mainTags: "jubilee, short hair, x-men, marvel",
+    mainTags: "jubilee, brown eyes, black hair, short hair, x-men, marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "magik (x-men)",
     category: "Marvel",
-    mainTags: "magik (x-men), abs, x-men, marvel",
+    mainTags: "magik (x-men), blue eyes, blonde hair, long hair, abs, x-men, marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "psylocke",
     category: "Marvel",
-    mainTags: "psylocke, facial mark, sword, butterfly, x-men (anime), marvel",
+    mainTags: "psylocke, purple eyes, purple hair, long hair, facial mark, sword, butterfly, x-men (anime), marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rogue (x-men)",
     category: "Marvel",
-    mainTags: "rogue (x-men), x-men (anime), marvel",
+    mainTags: "rogue (x-men), green eyes, brown hair, long hair, x-men (anime), marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "wolverine(x-men)",
     category: "Marvel",
-    mainTags: "wolverine(x-men), x-men (anime), x-men, marvel",
+    mainTags: "wolverine(x-men), blue eyes, black hair, short hair, x-men (anime), x-men, marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "black cat",
     category: "Marvel",
-    mainTags:
-      "black cat, domino mask, fur-trimmed bodysuit, spider-man (series), marvel",
+    mainTags: "black cat, blue eyes, white hair, long hair, domino mask, fur-trimmed bodysuit, spider-man (series), marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "doctor strange",
     category: "Marvel",
-    mainTags: "doctor strange, eye of agamotto, marvel",
+    mainTags: "doctor strange, gray eyes, black hair, short hair, eye of agamotto, marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "deadpool",
     category: "Marvel",
-    mainTags: "deadpool, bodysuit, deadpool (series), marvel",
+    mainTags: "deadpool, brown eyes, black hair, short hair, bodysuit, deadpool (series), marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "gwenpool",
     category: "Marvel",
-    mainTags: "gwenpool, deadpool (series), marvel",
-    enhancers: [
-      "pink leotard",
-      "belt",
-      "belt pouch",
-      "weapon on back",
-      "thigh holster",
-    ],
+    mainTags: "gwenpool, blue eyes, blonde hair, short hair, deadpool (series), marvel",
+    enhancers: ["pink leotard", "belt", "belt pouch", "weapon on back", "thigh holster"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "carnage (marvel)",
     category: "Marvel",
-    mainTags:
-      "carnage (marvel), symbiote, claws, glowing eyes, living clothes, very long hair, spider-man (series), marvel",
+    mainTags: "carnage (marvel), red eyes, red hair, very long hair, symbiote, claws, glowing eyes, living clothes, spider-man (series), marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "octor octopus",
     category: "Marvel",
-    mainTags: "octor octopus, mechanical tentacles, marvel",
+    mainTags: "octor octopus, brown eyes, brown hair, short hair, mechanical tentacles, marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "galactus",
     category: "Marvel",
-    mainTags: "galactus, marvel",
+    mainTags: "galactus, purple eyes, purple hair, short hair, marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "magneto",
     category: "Marvel",
-    mainTags:
-      "magneto, cape, helmet, hair under helmet, white hair, bodysuit, x-men, marvel",
+    mainTags: "magneto, blue eyes, white hair, short hair, cape, helmet, hair under helmet, bodysuit, x-men, marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mystique",
     category: "Marvel",
-    mainTags:
-      "mystique, colored skin, blue skin, white leotard, cleavage cutout, x-men, marvel",
+    mainTags: "mystique, yellow eyes, red hair, short hair, colored skin, blue skin, white leotard, cleavage cutout, x-men, marvel",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "venom (marvel)",
     category: "Marvel",
-    mainTags:
-      "venom (marvel), black bodysuit, very long tongue, open mouth, sharp teeth, tentacles, symbiote, marvel",
+    mainTags: "venom (marvel), white eyes, black hair, short hair, black bodysuit, very long tongue, open mouth, sharp teeth, tentacles, symbiote, marvel",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "superman",
     category: "DC",
-    mainTags: "superman, two-tone leotard, superman (series), dc comics",
+    mainTags: "superman, blue eyes, black hair, short hair, two-tone leotard, superman (series), dc comics",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "supergirl",
     category: "DC",
-    mainTags: "supergirl, two-tone bodysuit, superman (series), dc comics",
+    mainTags: "supergirl, blue eyes, blonde hair, long hair, two-tone bodysuit, superman (series), dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "power girl",
     category: "DC",
-    mainTags: "power girl, superman (series), dc comics",
+    mainTags: "power girl, blue eyes, blonde hair, short hair, superman (series), dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "batman",
     category: "DC",
-    mainTags: "batman, bodysuit, no mask, batman (series), dc comics",
+    mainTags: "batman, blue eyes, black hair, short hair, bodysuit, no mask, batman (series), dc comics",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "batgirl",
     category: "DC",
-    mainTags: "batgirl, grey bodysuit, batman (series), dc comics",
+    mainTags: "batgirl, blue eyes, red hair, long hair, grey bodysuit, batman (series), dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "wonder woman",
     category: "DC",
-    mainTags: "wonder woman, leotard, dc comics",
+    mainTags: "wonder woman, blue eyes, black hair, long hair, leotard, dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "green lantern",
     category: "DC",
-    mainTags:
-      "green lantern, domino mask, leotard, green lantern (series), dc comics",
+    mainTags: "green lantern, brown eyes, black hair, short hair, domino mask, leotard, green lantern (series), dc comics",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "the flash",
     category: "DC",
-    mainTags: "the flash, leotard, thighhigh boots, dc comics",
+    mainTags: "the flash, blue eyes, brown hair, short hair, leotard, thighhigh boots, dc comics",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "zatanna zatara",
     category: "DC",
-    mainTags:
-      "zatanna zatara, fishnet pantyhose, two-tone leotard, black leotard, white leotard, holding wand, thighhigh boots, dc comics",
+    mainTags: "zatanna zatara, blue eyes, black hair, long hair, fishnet pantyhose, two-tone leotard, black leotard, white leotard, holding wand, thighhigh boots, dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "robin (dc)",
     category: "DC",
-    mainTags:
-      "robin (dc), domino mask, spikey hair, two-tone leotard, green gloves, batman (series), dc comics",
+    mainTags: "robin (dc), green eyes, black hair, short hair, spikey hair, domino mask, two-tone leotard, green gloves, batman (series), dc comics",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "nightwing",
     category: "DC",
-    mainTags: "nightwing, bodysuit, domino mask, batman (series), dc comics",
+    mainTags: "nightwing, blue eyes, black hair, short hair, bodysuit, domino mask, batman (series), dc comics",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "cyborg (dc)",
     category: "DC",
-    mainTags: "cyborg (dc), teen titans, dc comics",
+    mainTags: "cyborg (dc), brown eyes, black hair, short hair, teen titans, dc comics",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "beast boy (dc)",
     category: "DC",
-    mainTags:
-      "beast boy (dc), colored skin, green skin, two-tone super hero costume, teen titans, dc comics",
+    mainTags: "beast boy (dc), green eyes, green hair, short hair, colored skin, green skin, two-tone super hero costume, teen titans, dc comics",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "raven (dc)",
     category: "DC",
-    mainTags:
-      "raven (dc), colored skin, grey skin, forehead jewel, belt, black leotard, teen titans, dc comics",
+    mainTags: "raven (dc), purple eyes, purple hair, short hair, colored skin, grey skin, forehead jewel, belt, black leotard, teen titans, dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "starfire",
     category: "DC",
-    mainTags:
-      "starfire, tan skin, green eyes, green scelera, purple crop top, purple shorts, tamaranean, teen titans, dc comics",
+    mainTags: "starfire, green eyes, orange hair, long hair, tan skin, green scelera, purple crop top, purple shorts, tamaranean, teen titans, dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "terra (dc)",
     category: "DC",
-    mainTags:
-      "terra (dc), blonde hair, blue eyes, black shirt, yellow shorts, midriff, utility belt, teen titans, dc comics",
+    mainTags: "terra (dc), blue eyes, blonde hair, long hair, black shirt, yellow shorts, midriff, utility belt, teen titans, dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "joker (dc)",
     category: "DC",
-    mainTags:
-      "joker (dc), facepaint, red lips, purple gloves, bowtie, suit jacket, open mouth, teeth, batman (series), dc comics",
+    mainTags: "joker (dc), green eyes, green hair, short hair, facepaint, red lips, purple gloves, bowtie, suit jacket, open mouth, teeth, batman (series), dc comics",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "harley quinn",
     category: "DC",
-    mainTags:
-      "harley quinn, harley quinn (classic), black bodysuit, red bodysuit, facepaint, white facepaint, domino mask, black lipstick, batman (series), dc comics",
+    mainTags: "harley quinn, blue eyes, blonde hair, long hair, twin tails, harley quinn (classic), black bodysuit, red bodysuit, facepaint, white facepaint, domino mask, black lipstick, batman (series), dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "harley quinn",
     category: "DC",
-    mainTags:
-      "harley quinn, harley quinn (suicide squad), two-tone crop top, fishnet pantyhose, two-tone shorts, suspenders, batman (series), dc comics",
+    mainTags: "harley quinn, blue eyes, blonde hair, long hair, twin tails, harley quinn (suicide squad), two-tone crop top, fishnet pantyhose, two-tone shorts, suspenders, batman (series), dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "catwoman",
     category: "DC",
-    mainTags: "catwoman, latex bodysuit, batman (series), dc comics",
+    mainTags: "catwoman, green eyes, black hair, short hair, latex bodysuit, batman (series), dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "poison ivy",
     category: "DC",
-    mainTags:
-      "poison ivy, colored skin, green skin, tattoo, green eyes, green lips, monster girl, batman (series), dc comics",
+    mainTags: "poison ivy, green eyes, red hair, long hair, colored skin, green skin, tattoo, green lips, monster girl, batman (series), dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "poison ivy",
     category: "DC",
-    mainTags: "poison ivy, panties, batman (series), dc comics",
+    mainTags: "poison ivy, green eyes, red hair, long hair, panties, batman (series), dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "jinx (dc)",
     category: "DC",
-    mainTags:
-      "jinx (dc), colored skin, grey skin, hair horns, pink hair, striped thighhighs, highleg leotard, impossible leotard, teen titans, dc comics",
+    mainTags: "jinx (dc), purple eyes, pink hair, long hair, hair horns, colored skin, grey skin, striped thighhighs, highleg leotard, impossible leotard, teen titans, dc comics",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ariel (disney)",
     category: "Disney",
-    mainTags: "ariel (disney), the little mermaid, disney",
+    mainTags: "ariel (disney), blue eyes, red hair, long hair, the little mermaid, disney",
     enhancers: ["[monster girl", "fish tail", "shell bikini", "mermaid]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "belle (disney)",
     category: "Disney",
-    mainTags: "belle (disney), yellow dress, beauty and the beast, disney",
+    mainTags: "belle (disney), brown eyes, brown hair, long hair, yellow dress, beauty and the beast, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "belle (disney)",
     category: "Disney",
-    mainTags:
-      "belle (disney), hair bow, puffy long sleeves, blue pinafore dress, white apron, long hair, braid, beauty and the beast, disney",
+    mainTags: "belle (disney), brown eyes, brown hair, long hair, hair bow, puffy long sleeves, blue pinafore dress, white apron, braid, beauty and the beast, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "beast (disney)",
     category: "Disney",
-    mainTags:
-      "beast (disney), wolf tail, monster girl, monsterification, aristocractic clothes, neck fur, furry body, furry, beauty and the beast, disney",
+    mainTags: "beast (disney), brown eyes, brown hair, long hair, wolf tail, monster girl, monsterification, aristocractic clothes, neck fur, furry body, furry, beauty and the beast, disney",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "aurora (disney)",
     category: "Disney",
-    mainTags:
-      "aurora (disney), pink dress, off-shoulder dress, sleeping beauty, disney",
+    mainTags: "aurora (disney), blue eyes, blonde hair, long hair, pink dress, off-shoulder dress, sleeping beauty, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "jasmine (disney)",
     category: "Disney",
-    mainTags:
-      "jasmine (disney), dark skin, dark-skinned female, see-through pants, see-through clothes, blue bandeau, harem pants, aladdin (disney), disney",
+    mainTags: "jasmine (disney), brown eyes, black hair, long hair, dark skin, dark-skinned female, see-through pants, see-through clothes, blue bandeau, harem pants, aladdin (disney), disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "rapunzel (disney)",
     category: "Disney",
-    mainTags:
-      "rapunzel (disney), absurdly long hair, single braid, hair flower, off-shoulder dress, tangled, disney",
+    mainTags: "rapunzel (disney), green eyes, blonde hair, very long hair, single braid, absurdly long hair, hair flower, off-shoulder dress, tangled, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "snow white (disney)",
     category: "Disney",
-    mainTags:
-      "snow white (disney), black hair, yellow skirt, two-tone dress, puffy short sleeves, snow white and the seven dwarfs, disney",
+    mainTags: "snow white (disney), brown eyes, black hair, short hair, yellow skirt, two-tone dress, puffy short sleeves, snow white and the seven dwarfs, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "elsa (frozen)",
     category: "Disney",
-    mainTags:
-      "elsa (frozen), off-shoulder dress, long hair, single braid, snowflakes, frozen (disney), disney",
+    mainTags: "elsa (frozen), blue eyes, blonde hair, long hair, single braid, off-shoulder dress, snowflakes, frozen (disney), disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "cinderella (disney)",
     category: "Disney",
-    mainTags:
-      "cinderella (disney), makeup, detached sleeves, corset, elbow gloves, cinderella, disney",
+    mainTags: "cinderella (disney), blue eyes, blonde hair, long hair, hair bun, makeup, detached sleeves, corset, elbow gloves, cinderella, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "cinderella (disney)",
     category: "Disney",
-    mainTags:
-      "cinderella (disney), long brown skirt, teal shirt, long sleeves, black vest, waist apron, cinderella, disney",
+    mainTags: "cinderella (disney), blue eyes, blonde hair, long hair, long brown skirt, teal shirt, long sleeves, black vest, waist apron, cinderella, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tinker bell (disney)",
     category: "Disney",
-    mainTags:
-      "tinker bell (disney), fairy, fairy wings, green dress, peter pan (disney), disney",
+    mainTags: "tinker bell (disney), green eyes, blonde hair, short hair, hair bun, fairy, fairy wings, green dress, peter pan (disney), disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "megara (disney)",
     category: "Disney",
-    mainTags:
-      "megara (disney), roman, greco-roman clothes, sleeveless pink dress, hercules (1997 film), disney",
+    mainTags: "megara (disney), brown eyes, brown hair, long hair, ponytail, roman, greco-roman clothes, sleeveless pink dress, hercules (1997 film), disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hades (disney)",
     category: "Disney",
-    mainTags:
-      "hades (disney), blue hair, fiery hair, greco-roman clothes, off-shoulder dress, colored skin, blue skin, hercules (1997 film), disney",
+    mainTags: "hades (disney), yellow eyes, blue hair, short hair, fiery hair, greco-roman clothes, off-shoulder dress, colored skin, blue skin, hercules (1997 film), disney",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "esmeralda (disney)",
     category: "Disney",
-    mainTags:
-      "esmeralda (disney), very dark skin, dark-skinned female, bracer, white shirt, puffy sleeves, hoop earrings, purple skirt, the hunchback of notre dame, disney",
+    mainTags: "esmeralda (disney), green eyes, black hair, long hair, very dark skin, dark-skinned female, bracer, white shirt, puffy sleeves, hoop earrings, purple skirt, the hunchback of notre dame, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "pocahontas (disney)",
     category: "Disney",
-    mainTags:
-      "pocahontas (disney), dark skin, dark-skinned female, dress, single-shoulder dress, tattoo, feather earring, pocahontas, disney",
+    mainTags: "pocahontas (disney), brown eyes, black hair, long hair, dark skin, dark-skinned female, dress, single-shoulder dress, tattoo, feather earring, pocahontas, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "maid marian (disney)",
     category: "Disney",
-    mainTags:
-      "maid marian (disney), animal nose, fox girl, fox tail, pinafore dress, pink dress, robin hood (disney), disney",
+    mainTags: "maid marian (disney), brown eyes, brown hair, long hair, animal nose, fox girl, fox tail, pinafore dress, pink dress, robin hood (disney), disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hiro hamada",
     category: "Disney",
-    mainTags: "hiro hamada, blue hoodie, red shirt, big hero 6, disney",
+    mainTags: "hiro hamada, brown eyes, black hair, short hair, blue hoodie, red shirt, big hero 6, disney",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "gogo tomago",
     category: "Disney",
-    mainTags:
-      "gogo tomago, short hair, bike shorts, open jacket, big hero 6, disney",
+    mainTags: "gogo tomago, brown eyes, black hair, short hair, bike shorts, open jacket, big hero 6, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "honey lemon",
     category: "Disney",
-    mainTags:
-      "honey lemon, glasses, yellowknit  sweater, sweater dress, big hero 6, disney",
+    mainTags: "honey lemon, green eyes, blonde hair, long hair, glasses, yellow knit sweater, sweater dress, big hero 6, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "cass hamada",
     category: "Disney",
-    mainTags:
-      "cass hamada, green shirt, pants, short hair, cleavage, brown hair, big hero 6, disney",
+    mainTags: "cass hamada, brown eyes, brown hair, short hair, green shirt, pants, cleavage, big hero 6, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "elastigirl",
     category: "Disney",
-    mainTags: "elastigirl, helen parr, bodysuit, the incredibles, disney",
+    mainTags: "elastigirl, brown eyes, brown hair, short hair, helen parr, bodysuit, the incredibles, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "violet parr",
     category: "Disney",
-    mainTags:
-      "violet parr, eye mask, black hair, yellow hair band, red bodysuit, the incredibles, disney",
+    mainTags: "violet parr, blue eyes, black hair, long hair, eye mask, yellow hair band, red bodysuit, the incredibles, disney",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "amane misa",
     category: "Other",
-    mainTags: "amane misa, death note",
+    mainTags: "amane misa, brown eyes, blonde hair, long hair, twintails, death note",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "holo",
     category: "Other",
-    mainTags: "holo, spice and wolf",
+    mainTags: "holo, brown eyes, brown hair, long hair, spice and wolf",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "violet evergarden",
     category: "Other",
-    mainTags: "violet evergarden, violet evergarden (series)",
+    mainTags: "violet evergarden, blue eyes, blonde hair, long hair, violet evergarden (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "princess leia",
     category: "Other",
-    mainTags: "princess leia, star wars",
+    mainTags: "princess leia, brown eyes, brown hair, long hair, star wars",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "queen of hearts (alice in wonderland)",
     category: "Other",
-    mainTags: "queen of hearts (alice in wonderland), alice in wonderland",
+    mainTags: "queen of hearts (alice in wonderland), black eyes, black hair, short hair, alice in wonderland",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "jessica rabbit",
     category: "Other",
-    mainTags: "jessica rabbit, red sparkly dress, who framed roger rabbit",
+    mainTags: "jessica rabbit, green eyes, red hair, long hair, red sparkly dress, who framed roger rabbit",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "amano maya",
     category: "Persona (Series)",
-    mainTags: "amano maya, brown jacket, persona 2, persona",
+    mainTags: "amano maya, brown eyes, black hair, short hair, brown jacket, persona 2, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lisa silverman",
     category: "Persona (Series)",
-    mainTags: "lisa silverman, black jacket, black skirt, persona 2, persona",
+    mainTags: "lisa silverman, blue eyes, blonde hair, long hair, black jacket, black skirt, persona 2, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "fushimi chihiro",
     category: "Persona (Series)",
-    mainTags: "fushimi chihiro, black jacket, black skirt, persona 2, persona",
+    mainTags: "fushimi chihiro, brown eyes, brown hair, long hair, black jacket, black skirt, persona 2, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mishina eikichi",
     category: "Persona (Series)",
-    mainTags: "mishina eikichi, persona 2, persona",
+    mainTags: "mishina eikichi, brown eyes, blue hair, short hair, persona 2, persona",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "shiomi kotone",
     category: "Persona (Series)",
-    mainTags: "shiomi kotone, black jacket, persona 3, persona",
+    mainTags: "shiomi kotone, brown eyes, brown hair, long hair, ponytail, black jacket, persona 3, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "takeba yukari",
     category: "Persona (Series)",
-    mainTags: "takeba yukari, black jacket, persona 3, persona",
+    mainTags: "takeba yukari, brown eyes, brown hair, medium hair, black jacket, persona 3, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kirijou mitsuru",
     category: "Persona (Series)",
-    mainTags: "kirijou mitsuru, black jacket, persona 3, persona",
+    mainTags: "kirijou mitsuru, brown eyes, red hair, long hair, black jacket, persona 3, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "yoshino chidori",
     category: "Persona (Series)",
-    mainTags: "yoshino chidori, white dress, persona 3, persona",
+    mainTags: "yoshino chidori, brown eyes, red hair, short hair, white dress, persona 3, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "metis (persona)",
     category: "Persona (Series)",
-    mainTags:
-      "metis (persona), armored dress, robot joints, persona 3, persona",
+    mainTags: "metis (persona), red eyes, black hair, short hair, armored dress, robot joints, persona 3, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "elizabeth (persona)",
     category: "Persona (Series)",
-    mainTags: "elizabeth (persona), persona 3, persona",
+    mainTags: "elizabeth (persona), yellow eyes, blonde hair, short hair, persona 3, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "yamagishi fuuka",
     category: "Persona (Series)",
-    mainTags: "yamagishi fuuka, black jacket, black skirt, persona 3, persona",
+    mainTags: "yamagishi fuuka, green eyes, teal hair, short hair, black jacket, black skirt, persona 3, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "aigis (persona)",
     category: "Persona (Series)",
-    mainTags: "aigis (persona), persona 3, persona",
+    mainTags: "aigis (persona), blue eyes, blonde hair, short hair, persona 3, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "shirogane naoto",
     category: "Persona (Series)",
-    mainTags: "shirogane naoto, blue coat, plaid pants, persona 4, persona",
+    mainTags: "shirogane naoto, blue eyes, blue hair, short hair, blue coat, plaid pants, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sukuna-hikona (persona 4)",
     category: "Persona (Series)",
-    mainTags: "sukuna-hikona (persona 4), helmet, persona 4, persona",
+    mainTags: "sukuna-hikona (persona 4), red eyes, blue hair, short hair, helmet, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "labrys (persona)",
     category: "Persona (Series)",
-    mainTags: "labrys (persona), mechanical arms, persona 4, persona",
+    mainTags: "labrys (persona), blue eyes, silver hair, long hair, ponytail, mechanical arms, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "satonaka chie",
     category: "Persona (Series)",
-    mainTags: "satonaka chie, persona 4, persona",
+    mainTags: "satonaka chie, brown eyes, brown hair, short hair, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "tomoe (persona 4)",
     category: "Persona (Series)",
-    mainTags: "tomoe (persona 4), persona 4, helmet",
+    mainTags: "tomoe (persona 4), yellow eyes, black hair, short hair, helmet, persona 4",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "margaret (persona)",
     category: "Persona (Series)",
-    mainTags: "margaret (persona), persona 4, persona",
+    mainTags: "margaret (persona), yellow eyes, blonde hair, long hair, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kujikawa rise",
     category: "Persona (Series)",
-    mainTags: "kujikawa rise, black coat, black skirt, persona 4, persona",
+    mainTags: "kujikawa rise, brown eyes, brown hair, long hair, twintails, black coat, black skirt, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "himiko (persona 4)",
     category: "Persona (Series)",
-    mainTags: "himiko (persona 4), helmet",
+    mainTags: "himiko (persona 4), yellow eyes, blonde hair, long hair, helmet",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "amagi yukiko",
     category: "Persona (Series)",
-    mainTags: "amagi yukiko, persona 4, persona",
+    mainTags: "amagi yukiko, brown eyes, black hair, long hair, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "konohana sakuya (persona)",
     category: "Persona (Series)",
-    mainTags: "konohana sakuya (persona), helmet, persona 4, persona",
+    mainTags: "konohana sakuya (persona), red eyes, pink hair, long hair, helmet, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "marie (persona 4)",
     category: "Persona (Series)",
-    mainTags: "marie (persona 4), persona 4, persona",
+    mainTags: "marie (persona 4), green eyes, black hair, short hair, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "konohana sakuya",
     category: "Persona (Series)",
-    mainTags: "konohana sakuya, armored dress, persona 4, persona",
+    mainTags: "konohana sakuya, red eyes, pink hair, long hair, armored dress, persona 4, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "doujima nanako",
     category: "Persona (Series)",
-    mainTags:
-      "doujima nanako, short twintails, three-tone dress, white turtleneck sweater, persona 4, persona, {{mature female, aged up}}",
+    mainTags: "doujima nanako, brown eyes, brown hair, short hair, twintails, short twintails, three-tone dress, white turtleneck sweater, persona 4, persona, {{mature female, aged up}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "takamaki anne",
     category: "Persona (Series)",
-    mainTags: "takamaki anne, persona 5, persona",
+    mainTags: "takamaki anne, blue eyes, blonde hair, long hair, twintails, persona 5, persona",
     enhancers: ["[panther (persona 5)", "red bodysuit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sakura futaba",
     category: "Persona (Series)",
-    mainTags: "sakura futaba, persona 5, persona",
+    mainTags: "sakura futaba, green eyes, orange hair, long hair, persona 5, persona",
     enhancers: ["[oracle (persona 5)", "black bodysuit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "niijima makoto",
     category: "Persona (Series)",
-    mainTags: "niijima makoto, black vest, plaid skirt, persona 5, persona",
+    mainTags: "niijima makoto, brown eyes, brown hair, short hair, black vest, plaid skirt, persona 5, persona",
     enhancers: ["[queen (persona 5)", "bike suit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "okumura haru",
     category: "Persona (Series)",
-    mainTags: "okumura haru, pink coat, plaid skirt, persona 5, persona",
-    enhancers: [
-      "[--pink coat",
-      "--plaid skirt",
-      "noir (persona 5)",
-      "eye mask",
-      "hat",
-      "white ascot",
-      "pink shirt]",
-    ],
+    mainTags: "okumura haru, brown eyes, brown hair, short hair, pink coat, plaid skirt, persona 5, persona",
+    enhancers: ["[--pink coat", "--plaid skirt", "noir (persona 5)", "eye mask", "hat", "white ascot", "pink shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "yoshizawa kasumi",
     category: "Persona (Series)",
-    mainTags: "yoshizawa kasumi, black jacket, plaid skirt, persona 5, persona",
+    mainTags: "yoshizawa kasumi, brown eyes, red hair, long hair, ponytail, black jacket, plaid skirt, persona 5, persona",
     enhancers: ["[violet (persona 5)", "black leotard", "leather jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "amamiya ren",
     category: "Persona (Series)",
-    mainTags: "amamiya ren, black jacket, plaid skirt, persona 5, persona",
+    mainTags: "amamiya ren, gray eyes, black hair, short hair, black jacket, plaid skirt, persona 5, persona",
     enhancers: ["[joker (persona 5)", "long black coat", "eye mask]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kawakami sadayo",
     category: "Persona (Series)",
-    mainTags: "kawakami sadayo, striped shirt, denim skirt, persona 5, persona",
+    mainTags: "kawakami sadayo, brown eyes, brown hair, short hair, striped shirt, denim skirt, persona 5, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sakamoto ryuuji",
     category: "Persona (Series)",
-    mainTags: "sakamoto ryuuji, black jacket, plaid skirt, persona 5, persona",
-    enhancers: [
-      "[--black jacket",
-      "--plaid skirt",
-      "skull (persona 5)",
-      "leather jacket]",
-    ],
+    mainTags: "sakamoto ryuuji, brown eyes, blonde hair, short hair, black jacket, plaid skirt, persona 5, persona",
+    enhancers: ["[--black jacket", "--plaid skirt", "skull (persona 5)", "leather jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kitagawa yuusuke",
     category: "Persona (Series)",
-    mainTags: "kitagawa yuusuke, white shirt, black skirt, persona 5, persona",
+    mainTags: "kitagawa yuusuke, blue eyes, blue hair, short hair, white shirt, black skirt, persona 5, persona",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "takemi tae",
     category: "Persona (Series)",
-    mainTags: "takemi tae, persona 5, persona",
+    mainTags: "takemi tae, brown eyes, black hair, short hair, persona 5, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "yoshizawa sumire",
     category: "Persona (Series)",
-    mainTags: "yoshizawa sumire, black jacket, plaid skirt, persona 5, persona",
+    mainTags: "yoshizawa sumire, brown eyes, red hair, long hair, ponytail, black jacket, plaid skirt, persona 5, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "niijima sae",
     category: "Persona (Series)",
-    mainTags: "niijima sae, persona 5, persona",
+    mainTags: "niijima sae, gray eyes, silver hair, long hair, persona 5, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "tougou hifumi",
     category: "Persona (Series)",
-    mainTags: "tougou hifumi, persona 5, persona",
+    mainTags: "tougou hifumi, brown eyes, black hair, long hair, persona 5, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "caroline (persona 5)",
     category: "Persona (Series)",
-    mainTags: "caroline (persona 5), persona 5, persona",
+    mainTags: "caroline (persona 5), yellow eyes, blonde hair, short hair, persona 5, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "justine (persona 5)",
     category: "Persona (Series)",
-    mainTags: "justine (persona 5), persona 5, persona",
+    mainTags: "justine (persona 5), yellow eyes, blonde hair, short hair, persona 5, persona",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lavenza (persona 5)",
     category: "Persona (Series)",
-    mainTags:
-      "lavenza (persona 5), persona 5, persona, {{mature female, aged up}}",
+    mainTags: "lavenza (persona 5), yellow eyes, blonde hair, very long hair, twintails, persona 5, persona, {{mature female, aged up}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "maam",
     category: "Dragon Quest (Series)",
-    mainTags: "maam, dragon quest dai no daibouken, dragon quest",
+    mainTags: "maam, blue eyes, pink hair, long hair, dragon quest dai no daibouken, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "daisy (dq)",
     category: "Dragon Quest (Series)",
-    mainTags: "daisy (dq), dragon quest dai no daibouken, dragon quest",
+    mainTags: "daisy (dq), brown eyes, blonde hair, long hair, dragon quest dai no daibouken, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "princess laura",
     category: "Dragon Quest (Series)",
-    mainTags: "princess laura, yellow dress, dragon quest i, dragon quest",
+    mainTags: "princess laura, blue eyes, blonde hair, long hair, yellow dress, dragon quest i, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "princess of moonbrook",
     category: "Dragon Quest (Series)",
-    mainTags: "princess of moonbrook, dragon quest ii, dragon quest",
+    mainTags: "princess of moonbrook, blue eyes, purple hair, long hair, dragon quest ii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "warrior (dq3)",
     category: "Dragon Quest (Series)",
-    mainTags:
-      "warrior (dq3), bikini armor, purple hair, red helmet, dragon quest iii, dragon quest",
+    mainTags: "warrior (dq3), brown eyes, purple hair, long hair, bikini armor, purple hair, red helmet, dragon quest iii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sage (dq3)",
     category: "Dragon Quest (Series)",
-    mainTags: "sage (dq3), dragon quest iii, dragon quest",
+    mainTags: "sage (dq3), blue eyes, blonde hair, long hair, dragon quest iii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "priest (dq3)",
     category: "Dragon Quest (Series)",
-    mainTags: "priest (dq3), dragon quest iii, dragon quest",
+    mainTags: "priest (dq3), brown eyes, brown hair, short hair, dragon quest iii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mage (dq3)",
     category: "Dragon Quest (Series)",
-    mainTags: "mage (dq3), dragon quest iii, dragon quest",
+    mainTags: "mage (dq3), green eyes, purple hair, long hair, dragon quest iii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "thief (dq3)",
     category: "Dragon Quest (Series)",
-    mainTags: "thief (dq3), dragon quest iii, dragon quest",
+    mainTags: "thief (dq3), brown eyes, green hair, short hair, dragon quest iii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "gadabout (dq3)",
     category: "Dragon Quest (Series)",
-    mainTags:
-      "gadabout (dq3), blonde hair, blue playboy bunny, dragon quest iii, dragon quest",
+    mainTags: "gadabout (dq3), blue eyes, blonde hair, long hair, blonde hair, blue playboy bunny, dragon quest iii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "merchant (dq3)",
     category: "Dragon Quest (Series)",
-    mainTags: "merchant (dq3), dragon quest iii, dragon quest",
+    mainTags: "merchant (dq3), brown eyes, brown hair, short hair, dragon quest iii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "manya (dq4)",
     category: "Dragon Quest (Series)",
-    mainTags: "manya (dq4), dragon quest iv, dragon quest",
+    mainTags: "manya (dq4), blue eyes, purple hair, long hair, dragon quest iv, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "minea (dq4)",
     category: "Dragon Quest (Series)",
-    mainTags:
-      "minea (dq4), dark skin, dark-skinned female, dragon quest iv, dragon quest",
+    mainTags: "minea (dq4), brown eyes, silver hair, long hair, dark skin, dark-skinned female, dragon quest iv, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "alena (dq4)",
     category: "Dragon Quest (Series)",
-    mainTags:
-      "alena (dq4), yellow dress, blue cape, dragon quest iv, dragon quest",
+    mainTags: "alena (dq4), blue eyes, red hair, short hair, yellow dress, blue cape, dragon quest iv, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "bianca (dq5)",
     category: "Dragon Quest (Series)",
-    mainTags:
-      "bianca (dq5), green dress, orange cape, dragon quest v, dragon quest",
+    mainTags: "bianca (dq5), blue eyes, blonde hair, long hair, green dress, orange cape, dragon quest v, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "hero's daughter (dq5)",
     category: "Dragon Quest (Series)",
-    mainTags:
-      "hero's daughter (dq5), belt pouch, dragon quest v, dragon quest,",
+    mainTags: "hero's daughter (dq5), blue eyes, blonde hair, long hair, belt pouch, dragon quest v, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "flora (dq5)",
     category: "Dragon Quest (Series)",
-    mainTags: "flora (dq5), dragon quest v, dragon quest",
+    mainTags: "flora (dq5), blue eyes, blue hair, long hair, dragon quest v, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "deborah (dq5)",
     category: "Dragon Quest (Series)",
-    mainTags: "deborah (dq5), dragon quest v, dragon quest",
+    mainTags: "deborah (dq5), purple eyes, black hair, long hair, dragon quest v, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "barbara (dq6)",
     category: "Dragon Quest (Series)",
-    mainTags: "barbara (dq6), dragon quest vi, dragon quest",
+    mainTags: "barbara (dq6), green eyes, orange hair, long hair, dragon quest vi, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mireyu",
     category: "Dragon Quest (Series)",
-    mainTags: "mireyu, orange sash, armor, dragon quest vi, dragon quest",
+    mainTags: "mireyu, blue eyes, blonde hair, long hair, orange sash, armor, dragon quest vi, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "maribel (dq7)",
     category: "Dragon Quest (Series)",
-    mainTags: "maribel (dq7), dragon quest vii, dragon quest",
+    mainTags: "maribel (dq7), green eyes, orange hair, long hair, twintails, dragon quest vii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "jessica albert",
     category: "Dragon Quest (Series)",
-    mainTags:
-      "jessica albert, purple shirt, red skirt, dragon quest viii, dragon quest",
+    mainTags: "jessica albert, green eyes, orange hair, long hair, ponytail, purple shirt, red skirt, dragon quest viii, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "martina (dq11)",
     category: "Dragon Quest (Series)",
-    mainTags: "martina (dq11), green halter top, dragon quest xi, dragon quest",
+    mainTags: "martina (dq11), brown eyes, purple hair, long hair, green halter top, dragon quest xi, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "veronica (dq11)",
     category: "Dragon Quest (Series)",
-    mainTags:
-      "veronica (dq11), red hat, two-tone dress, dragon quest xi, dragon quest,",
+    mainTags: "veronica (dq11), blue eyes, blonde hair, long hair, twintails, red hat, two-tone dress, dragon quest xi, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "senya (dq11)",
     category: "Dragon Quest (Series)",
-    mainTags: "senya (dq11), green dress, dragon quest xi, dragon quest",
+    mainTags: "senya (dq11), blue eyes, blonde hair, long hair, green dress, dragon quest xi, dragon quest",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "aya brea",
     category: "Other",
-    mainTags:
-      "aya brea, black vest, ripped jeans, parasite eve i, parasite eve (series)",
+    mainTags: "aya brea, blue eyes, blonde hair, short hair, black vest, ripped jeans, parasite eve i, parasite eve (series)",
     enhancers: ["[--black vest", "--ripped jeans", "black gown]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "regina (dino crisis)",
     category: "Other",
-    mainTags: "regina (dino crisis), dino crisis",
+    mainTags: "regina (dino crisis), green eyes, red hair, short hair, dino crisis",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "isabelle (animal crossing)",
     category: "Other",
-    mainTags: "isabelle (animal crossing), dog girl, animal crossing",
+    mainTags: "isabelle (animal crossing), brown eyes, yellow hair, long hair, twintails, dog girl, animal crossing",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ankha (animal crossing)",
     category: "Other",
-    mainTags: "ankha (animal crossing), cat girl, animal crossing",
+    mainTags: "ankha (animal crossing), blue eyes, yellow hair, short hair, cat girl, animal crossing",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ayane (doa)",
     category: "Dead or Alive",
-    mainTags: "ayane (doa), purple dress, detached sleeves, dead or alive",
+    mainTags: "ayane (doa), purple eyes, purple hair, long hair, purple dress, detached sleeves, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "marie rose",
     category: "Dead or Alive",
-    mainTags: "marie rose, black dress, dead or alive 5, dead or alive",
-    enhancers: [
-      "[--black dress",
-      "marie rose (devilish servant against the splashing waves)]",
-    ],
+    mainTags: "marie rose, blue eyes, blonde hair, long hair, twintails, black dress, dead or alive 5, dead or alive",
+    enhancers: ["[--black dress", "marie rose (devilish servant against the splashing waves)]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kasumi (doa)",
     category: "Dead or Alive",
-    mainTags: "kasumi (doa), japanese clothes, dead or alive 6, dead or alive",
+    mainTags: "kasumi (doa), brown eyes, brown hair, long hair, ponytail, japanese clothes, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "honoka (doa)",
     category: "Dead or Alive",
-    mainTags: "honoka (doa), black jacket, dead or alive 6, dead or alive",
+    mainTags: "honoka (doa), brown eyes, pink hair, long hair, black jacket, dead or alive 6, dead or alive",
     enhancers: ["[--black jacket", "honoka (summer angel on the shore) (doa)]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "nyotengu",
     category: "Dead or Alive",
-    mainTags: "nyotengu, hair cones, wings, dead or alive 6, dead or alive",
+    mainTags: "nyotengu, purple eyes, black hair, long hair, hair cones, wings, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "hitomi (doa)",
     category: "Dead or Alive",
-    mainTags:
-      "hitomi (doa), karate gi, white pants, dead or alive 6, dead or alive",
+    mainTags: "hitomi (doa), blue eyes, brown hair, short hair, karate gi, white pants, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "tina armstrong",
     category: "Dead or Alive",
-    mainTags:
-      "tina armstrong, leather coat, red bikini top, two-tone leather pants, dead or alive 6, dead or alive",
+    mainTags: "tina armstrong, blue eyes, blonde hair, long hair, leather coat, red bikini top, two-tone leather pants, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "helena douglas",
     category: "Dead or Alive",
-    mainTags: "helena douglas, dead or alive 6, dead or alive",
+    mainTags: "helena douglas, blue eyes, blonde hair, long hair, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "christie (doa)",
     category: "Dead or Alive",
-    mainTags:
-      "christie (doa), black sleeveless sweater, black pants, dead or alive 6, dead or alive",
+    mainTags: "christie (doa), gray eyes, silver hair, short hair, black sleeveless sweater, black pants, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kokoro (doa)",
     category: "Dead or Alive",
-    mainTags:
-      "kokoro (doa), chinese clothes, sleeveless pink shirt, detached collar, puffy white pants, dead or alive 6, dead or alive",
+    mainTags: "kokoro (doa), brown eyes, black hair, long hair, chinese clothes, sleeveless pink shirt, detached collar, puffy white pants, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mila (doa)",
     category: "Dead or Alive",
-    mainTags:
-      "mila (doa), red crop top, long black shorts, dead or alive 6, dead or alive",
+    mainTags: "mila (doa), brown eyes, red hair, short hair, red crop top, long black shorts, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lisa hamilton",
     category: "Dead or Alive",
-    mainTags:
-      "lisa hamilton, dark skin, dark-skinned female, bikini top only, wrestling outfit, dead or alive 6, dead or alive",
+    mainTags: "lisa hamilton, brown eyes, brown hair, long hair, dark skin, dark-skinned female, bikini top only, wrestling outfit, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "tamaki (doa)",
     category: "Dead or Alive",
-    mainTags: "tamaki (doa), dead or alive 6, dead or alive",
+    mainTags: "tamaki (doa), brown eyes, brown hair, long hair, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "nico (doa)",
     category: "Dead or Alive",
-    mainTags: "nico (doa), dead or alive 6, dead or alive",
+    mainTags: "nico (doa), blue eyes, blue hair, short hair, dead or alive 6, dead or alive",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "inkling girl",
     category: "Splatoon",
-    mainTags: "inkling girl, splatoon (series)",
+    mainTags: "inkling girl, orange eyes, orange hair, tentacle hair, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "octoling girl",
     category: "Splatoon",
-    mainTags: "octoling girl, splatoon (series)",
+    mainTags: "octoling girl, red eyes, red hair, tentacle hair, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "callie (splatoon)",
     category: "Splatoon",
-    mainTags: "callie (splatoon), splatoon (series)",
-    enhancers: [
-      "[callie (squid sister outfit) (splatoon)",
-      "black dress",
-      "detached collar]",
-      "callie (octo idol outfit) (splatoon)",
-    ],
+    mainTags: "callie (splatoon), yellow eyes, black hair, tentacle hair, splatoon (series)",
+    enhancers: ["[callie (squid sister outfit) (splatoon)", "black dress", "detached collar]", "callie (octo idol outfit) (splatoon)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "marie (splatoon)",
     category: "Splatoon",
-    mainTags: "marie (splatoon), splatoon (series)",
-    enhancers: [
-      "[marie (squid sister outfit) (splatoon)",
-      "black dress",
-      "detached collar]",
-      "marie (octo idol outfit) (splatoon)",
-      "marie (kimono) (splatoon)",
-    ],
+    mainTags: "marie (splatoon), yellow eyes, green hair, tentacle hair, splatoon (series)",
+    enhancers: ["[marie (squid sister outfit) (splatoon)", "black dress", "detached collar]", "marie (octo idol outfit) (splatoon)", "marie (kimono) (splatoon)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "marina (splatoon)",
     category: "Splatoon",
-    mainTags:
-      "marina (splatoon), dark skin, dark-skinned female, splatoon (series)",
+    mainTags: "marina (splatoon), turquoise eyes, teal hair, tentacle hair, dark skin, dark-skinned female, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "shiver (splatoon)",
     category: "Splatoon",
-    mainTags: "shiver (splatoon), splatoon (series)",
+    mainTags: "shiver (splatoon), blue eyes, blue hair, tentacle hair, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "pearl (splatoon)",
     category: "Splatoon",
-    mainTags: "pearl (splatoon), splatoon (series)",
+    mainTags: "pearl (splatoon), yellow eyes, pink hair, tentacle hair, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "frye (splatoon)",
     category: "Splatoon",
-    mainTags: "frye (splatoon), splatoon (series)",
+    mainTags: "frye (splatoon), yellow eyes, yellow hair, tentacle hair, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "agent 3 (splatoon)",
     category: "Splatoon",
-    mainTags: "agent 3 (splatoon), inkling girl, splatoon (series)",
+    mainTags: "agent 3 (splatoon), orange eyes, orange hair, tentacle hair, inkling girl, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "takozonesu",
     category: "Splatoon",
-    mainTags: "takozonesu, gradient hair, splatoon (series)",
+    mainTags: "takozonesu, purple eyes, purple hair, tentacle hair, gradient hair, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "agent 4 (splatoon)",
     category: "Splatoon",
-    mainTags: "agent 4 (splatoon), inkling girl, splatoon (series)",
+    mainTags: "agent 4 (splatoon), yellow eyes, yellow hair, tentacle hair, inkling girl, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kaori (splatoon)",
     category: "Splatoon",
-    mainTags:
-      "kaori (splatoon), orange hair, very long hair, orange eyes, inkling girl, splatoon (series)",
+    mainTags: "kaori (splatoon), orange eyes, orange hair, very long hair, tentacle hair, inkling girl, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "tao blu (splatoon)",
     category: "Splatoon",
-    mainTags:
-      "tao blu (splatoon), dark skin, dark-skinned female, splatoon (series)",
+    mainTags: "tao blu (splatoon), blue eyes, blue hair, tentacle hair, dark skin, dark-skinned female, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "harmony (splatoon)",
     category: "Splatoon",
-    mainTags: "harmony (splatoon), splatoon (series)",
+    mainTags: "harmony (splatoon), pink eyes, pink hair, tentacle hair, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "yoko (splatoon)",
     category: "Splatoon",
-    mainTags: "yoko (splatoon), splatoon (series)",
+    mainTags: "yoko (splatoon), purple eyes, purple hair, tentacle hair, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "dedf1sh",
     category: "Splatoon",
-    mainTags: "dedf1sh, colored skin, green skin, splatoon (series)",
+    mainTags: "dedf1sh, green eyes, green hair, tentacle hair, colored skin, green skin, splatoon (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "roll (mega man)",
     category: "Mega Man",
-    mainTags:
-      "roll (mega man), mega man (series), {{{aged up, mature female}}}",
+    mainTags: "roll (mega man), blue eyes, blonde hair, long hair, mega man (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "roll caskett (mega man)",
     category: "Mega Man",
-    mainTags:
-      "roll caskett (mega man), mega man legends (series), mega man (series)",
+    mainTags: "roll caskett (mega man), green eyes, blonde hair, long hair, mega man legends (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "roll.exe (mega man)",
     category: "Mega Man",
-    mainTags:
-      "roll.exe (mega man), mega man battle network (series), mega man (series)",
+    mainTags: "roll.exe (mega man), green eyes, blonde hair, long hair, mega man battle network (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "zero (mega man)",
     category: "Mega Man",
-    mainTags: "zero (mega man), boobplate, mega man (series)",
+    mainTags: "zero (mega man), blue eyes, blonde hair, long hair, ponytail, boobplate, mega man (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mega man (character)",
     category: "Mega Man",
-    mainTags: "mega man (character), boobplate, mega man (series)",
+    mainTags: "mega man (character), blue eyes, black hair, short hair, boobplate, mega man (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "aile (mega man zx)",
     category: "Mega Man",
-    mainTags: "aile (mega man zx), mega man zx, mega man (series)",
+    mainTags: "aile (mega man zx), green eyes, brown hair, short hair, mega man zx, mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "x (mega man)",
     category: "Mega Man",
-    mainTags: "x (mega man), mega man x, mega man (series)",
+    mainTags: "x (mega man), blue eyes, brown hair, short hair, mega man x, mega man (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "tron bonne (mega man)",
     category: "Mega Man",
-    mainTags:
-      "tron bonne (mega man), mega man legends (series), mega man (series)",
+    mainTags: "tron bonne (mega man), blue eyes, brown hair, short hair, mega man legends (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "zero(z) (mega man)",
     category: "Mega Man",
-    mainTags: "zero(z) (mega man), mega man zero (series), mega man (series)",
+    mainTags: "zero(z) (mega man), blue eyes, blonde hair, long hair, ponytail, mega man zero (series), mega man (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "fairy leviathan (mega man)",
     category: "Mega Man",
-    mainTags:
-      "fairy leviathan (mega man), mega man zero (series), mega man (series)",
+    mainTags: "fairy leviathan (mega man), blue eyes, blue hair, long hair, mega man zero (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "megaman.exe",
     category: "Mega Man",
-    mainTags:
-      "megaman.exe, bodysuit, gederswap, mega man battle network (series), mega man (series)",
+    mainTags: "megaman.exe, blue eyes, black hair, short hair, bodysuit, gederswap, mega man battle network (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ciel (mega man)",
     category: "Mega Man",
-    mainTags:
-      "ciel (mega man), mega man battle zero (series), mega man (series), {{{aged up, mature female}}}",
+    mainTags: "ciel (mega man), blue eyes, blonde hair, long hair, mega man battle zero (series), mega man (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "iris (mega man)",
     category: "Mega Man",
-    mainTags:
-      "iris (mega man), red armor, mega man x (series), mega man (series)",
+    mainTags: "iris (mega man), brown eyes, brown hair, long hair, red armor, mega man x (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "luna platz (mega man)",
     category: "Mega Man",
-    mainTags:
-      "luna platz (mega man), mega man star force (series), mega man (series)",
+    mainTags: "luna platz (mega man), blue eyes, blonde hair, short hair, mega man star force (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "proto man",
     category: "Mega Man",
-    mainTags:
-      "proto man, yellow scarf, red armor, mega man (classic), mega man (series)",
+    mainTags: "proto man, brown eyes, brown hair, short hair, yellow scarf, red armor, mega man (classic), mega man (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sonia strumm (mega man)",
     category: "Mega Man",
-    mainTags:
-      "sonia strumm (mega man), mega man star force (series), mega man (series), {{{aged up, mature female}}}",
+    mainTags: "sonia strumm (mega man), green eyes, brown hair, short hair, mega man star force (series), mega man (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mayl sakurai (mega man)",
     category: "Mega Man",
-    mainTags:
-      "mayl sakurai (mega man), mega man battle network (series), mega man (series), {{{aged up, mature female}}}",
+    mainTags: "mayl sakurai (mega man), green eyes, red hair, long hair, mega man battle network (series), mega man (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "pandora (mega man)",
     category: "Mega Man",
-    mainTags: "pandora (mega man), mega man zx, mega man (series)",
+    mainTags: "pandora (mega man), red eyes, white hair, long hair, mega man zx, mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "alia (mega man)",
     category: "Mega Man",
-    mainTags: "alia (mega man), armor, mega man x, mega man (series)",
+    mainTags: "alia (mega man), blue eyes, blonde hair, short hair, armor, mega man x, mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ashe (mega man)",
     category: "Mega Man",
-    mainTags:
-      "ashe (mega man), orange cropped jacket, mega man zx, mega man (series)",
+    mainTags: "ashe (mega man), blue eyes, gray hair, short hair, orange cropped jacket, mega man zx, mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "rico (mega man)",
     category: "Mega Man",
-    mainTags:
-      "rico (mega man), armored skirt, mega man x (series), mega man (series)",
+    mainTags: "rico (mega man), brown eyes, brown hair, long hair, armored skirt, mega man x (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "layer (mega man)",
     category: "Mega Man",
-    mainTags: "layer (mega man), armor, mega man x (series), mega man (series)",
+    mainTags: "layer (mega man), purple eyes, purple hair, long hair, armor, mega man x (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sage harpuia (mega man)",
     category: "Mega Man",
-    mainTags:
-      "sage harpuia (mega man), armor, mega man zero (series), mega man (series)",
+    mainTags: "sage harpuia (mega man), green eyes, green hair, long hair, armor, mega man zero (series), mega man (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "solid snake",
     category: "Metal Gear (Series)",
-    mainTags: "solid snake, metal gear solid, metal gear (series)",
+    mainTags: "solid snake, blue eyes, brown hair, short hair, metal gear solid, metal gear (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "raiden (metal gear)",
     category: "Metal Gear (Series)",
-    mainTags: "raiden (metal gear), metal gear (series)",
+    mainTags: "raiden (metal gear), blue eyes, blonde hair, long hair, metal gear (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "quiet (metal gear)",
     category: "Metal Gear (Series)",
-    mainTags: "quiet (metal gear), metal gear (series)",
+    mainTags: "quiet (metal gear), green eyes, brown hair, short hair, metal gear (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "shiranui mai",
     category: "King of Fighters / SNK",
-    mainTags: "shiranui mai, the king of fighters",
+    mainTags: "shiranui mai, brown eyes, brown hair, long hair, ponytail, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "angel (kof)",
     category: "King of Fighters / SNK",
-    mainTags: "angel (kof), the king of fighters",
+    mainTags: "angel (kof), blue eyes, silver hair, short hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "leona heidern",
     category: "King of Fighters / SNK",
-    mainTags: "leona heidern, the king of fighters",
+    mainTags: "leona heidern, blue eyes, blue hair, short hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kula diamond",
     category: "King of Fighters / SNK",
-    mainTags: "kula diamond, the king of fighters",
+    mainTags: "kula diamond, blue eyes, blue hair, long hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "yuri sakazaki",
     category: "King of Fighters / SNK",
-    mainTags: "yuri sakazaki, the king of fighters",
+    mainTags: "yuri sakazaki, brown eyes, brown hair, long hair, ponytail, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "asamiya athena",
     category: "King of Fighters / SNK",
-    mainTags: "asamiya athena, long hair, the king of fighters",
+    mainTags: "asamiya athena, purple eyes, purple hair, long hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "shermie (kof)",
     category: "King of Fighters / SNK",
-    mainTags: "shermie (kof), the king of fighters",
+    mainTags: "shermie (kof), brown eyes, brown hair, long hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "terry bogard",
     category: "King of Fighters / SNK",
-    mainTags: "terry bogard, the king of fighters",
+    mainTags: "terry bogard, blue eyes, blonde hair, long hair, ponytail, the king of fighters",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "yagami iori",
     category: "King of Fighters / SNK",
-    mainTags: "yagami iori, the king of fighters",
+    mainTags: "yagami iori, red eyes, red hair, short hair, the king of fighters",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "blue mary",
     category: "King of Fighters / SNK",
-    mainTags: "blue mary, the king of fighters",
+    mainTags: "blue mary, blue eyes, blonde hair, short hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "whip (kof)",
     category: "King of Fighters / SNK",
-    mainTags: "whip (kof), the king of fighters",
+    mainTags: "whip (kof), brown eyes, brown hair, long hair, ponytail, the king of fighters",
     enhancers: ["military outfit"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "king (snk)",
     category: "King of Fighters / SNK",
-    mainTags: "king (snk), the king of fighters",
+    mainTags: "king (snk), blue eyes, blonde hair, short hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "vanessa (kof)",
     category: "King of Fighters / SNK",
-    mainTags: "vanessa (kof), the king of fighters",
+    mainTags: "vanessa (kof), brown eyes, red hair, short hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ryou sakazaki",
     category: "King of Fighters / SNK",
-    mainTags: "ryou sakazaki, orange karate gi, the king of fighters",
+    mainTags: "ryou sakazaki, brown eyes, blonde hair, short hair, orange karate gi, the king of fighters",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ashe crimson",
     category: "King of Fighters / SNK",
-    mainTags: "ashe crimson, the king of fighters",
+    mainTags: "ashe crimson, green eyes, blonde hair, long hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "vice (kof)",
     category: "King of Fighters / SNK",
-    mainTags: "vice (kof), the king of fighters",
+    mainTags: "vice (kof), brown eyes, brown hair, long hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mature (kof)",
     category: "King of Fighters / SNK",
-    mainTags: "mature (kof), the king of fighters",
+    mainTags: "mature (kof), blue eyes, blonde hair, long hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "jenet behrn",
     category: "King of Fighters / SNK",
-    mainTags: "jenet behrn, snk, fatal fury",
+    mainTags: "jenet behrn, blue eyes, blonde hair, long hair, snk, fatal fury",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "billy kane",
     category: "King of Fighters / SNK",
-    mainTags: "billy kane, the king of fighters",
+    mainTags: "billy kane, blue eyes, blonde hair, short hair, the king of fighters",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "elisabeth blanctorche",
     category: "King of Fighters / SNK",
-    mainTags: "elisabeth blanctorche, the king of fighters",
+    mainTags: "elisabeth blanctorche, blue eyes, silver hair, long hair, the king of fighters",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ralf jones",
     category: "King of Fighters / SNK",
-    mainTags: "ralf jones, the king of fighters",
+    mainTags: "ralf jones, brown eyes, brown hair, short hair, the king of fighters",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "neptune (neptunia)",
     category: "Neptune (series)",
-    mainTags:
-      "neptune (neptunia), neptune (series), {{{aged up, mature female}}}",
+    mainTags: "neptune (neptunia), purple eyes, purple hair, short hair, twintails, neptune (series), {{{aged up, mature female}}}",
     enhancers: ["adult neptune"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "noire (neptunia)",
     category: "Neptune (series)",
-    mainTags:
-      "noire (neptunia), hair bows, neptune (series), {{{aged up, mature female}}}",
+    mainTags: "noire (neptunia), red eyes, black hair, long hair, hair bows, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "purple heart (neptunia)",
     category: "Neptune (series)",
-    mainTags: "purple heart (neptunia), hair ornaments, neptune (series)",
+    mainTags: "purple heart (neptunia), purple eyes, purple hair, long hair, hair ornaments, neptune (series)",
     enhancers: ["purple heart (goddesses' promise)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "blanc (neptunia)",
     category: "Neptune (series)",
-    mainTags:
-      "blanc (neptunia), neptune (series), {{{aged up, mature female}}}",
+    mainTags: "blanc (neptunia), blue eyes, brown hair, short hair, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "nepgear",
     category: "Neptune (series)",
-    mainTags:
-      "nepgear, hair ornament, neptune (series), {{{aged up, mature female}}}",
+    mainTags: "nepgear, purple eyes, purple hair, long hair, hair ornament, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "vert (neptunia)",
     category: "Neptune (series)",
-    mainTags: "vert (neptunia), neptune (series)",
+    mainTags: "vert (neptunia), blue eyes, blonde hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "black heart (neptunia)",
     category: "Neptune (series)",
-    mainTags: "black heart (neptunia), neptune (series)",
+    mainTags: "black heart (neptunia), blue eyes, silver hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "uni (neptunia)",
     category: "Neptune (series)",
-    mainTags:
-      "uni (neptunia), hair bows, neptune (series), {{{aged up, mature female}}}",
+    mainTags: "uni (neptunia), red eyes, black hair, long hair, hair bows, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "tennouboshi uzume",
     category: "Neptune (series)",
-    mainTags: "tennouboshi uzume, neptune (series)",
+    mainTags: "tennouboshi uzume, blue eyes, orange hair, short hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "white heart (neptunia)",
     category: "Neptune (series)",
-    mainTags:
-      "white heart (neptunia), neptune (series), {{{aged up, mature female}}}",
+    mainTags: "white heart (neptunia), red eyes, white hair, short hair, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "iris heart (neptunia)",
     category: "Neptune (series)",
-    mainTags: "iris heart (neptunia), neptune (series)",
+    mainTags: "iris heart (neptunia), red eyes, purple hair, very long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "rom (neptunia)",
     category: "Neptune (series)",
-    mainTags: "rom (neptunia), neptune (series), {{{aged up, mature female}}}",
+    mainTags: "rom (neptunia), blue eyes, white hair, short hair, neptune (series), {{{aged up, mature female}}}",
     enhancers: ["white sister rom"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ram (neptunia)",
     category: "Neptune (series)",
-    mainTags: "ram (neptunia), neptune (series), {{{aged up, mature female}}}",
+    mainTags: "ram (neptunia), blue eyes, brown hair, short hair, neptune (series), {{{aged up, mature female}}}",
     enhancers: ["white sister ram"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "green heart (neptunia)",
     category: "Neptune (series)",
-    mainTags: "green heart (neptunia), neptune (series)",
+    mainTags: "green heart (neptunia), green eyes, green hair, very long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "if (neptunia)",
     category: "Neptune (series)",
-    mainTags: "if (neptunia), neptune (series)",
+    mainTags: "if (neptunia), green eyes, brown hair, short hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "purple sister",
     category: "Neptune (series)",
-    mainTags: "purple sister, neptune (series)",
+    mainTags: "purple sister, purple eyes, purple hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "pururut",
     category: "Neptune (series)",
-    mainTags: "pururut, neptune (series), {{{aged up, mature female}}}",
+    mainTags: "pururut, red eyes, orange hair, medium hair, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "histoire",
     category: "Neptune (series)",
-    mainTags:
-      "histoire, hair bows, neptune (series), {{{aged up, mature female}}}",
+    mainTags: "histoire, green eyes, blonde hair, very long hair, hair bows, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "orange heart (neptunia)",
     category: "Neptune (series)",
-    mainTags: "orange heart (neptunia), neptune (series)",
+    mainTags: "orange heart (neptunia), orange eyes, orange hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "black sister",
     category: "Neptune (series)",
-    mainTags: "black sister, neptune (series), {{{aged up, mature female}}}",
+    mainTags: "black sister, red eyes, black hair, long hair, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "compa",
     category: "Neptune (series)",
-    mainTags: "compa, neptune (series)",
+    mainTags: "compa, brown eyes, orange hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "pish",
     category: "Neptune (series)",
-    mainTags:
-      "pish, hair ornament, neptune (series), {{{aged up, mature female}}}",
+    mainTags: "pish, purple eyes, blonde hair, short hair, hair ornament, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ankokuboshi kurome",
     category: "Neptune (series)",
-    mainTags: "ankokuboshi kurome, neptune (series)",
+    mainTags: "ankokuboshi kurome, blue eyes, black hair, medium hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "next purple",
     category: "Neptune (series)",
-    mainTags: "next purple, neptune (series)",
+    mainTags: "next purple, purple eyes, purple hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "yellow heart (neptunia)",
     category: "Neptune (series)",
-    mainTags: "yellow heart (neptunia), neptune (series)",
+    mainTags: "yellow heart (neptunia), blue eyes, blonde hair, medium hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kiseijou rei",
     category: "Neptune (series)",
-    mainTags: "kiseijou rei, neptune (series)",
+    mainTags: "kiseijou rei, blue eyes, blue hair, long hair, neptune (series)",
     enhancers: ["[kiseijou rei (goddess form)", "armored dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "nippon ichi (neptunia)",
     category: "Neptune (series)",
-    mainTags:
-      "nippon ichi (neptunia), red scarf, neptune (series), {{{aged up, mature female}}}",
+    mainTags: "nippon ichi (neptunia), purple eyes, blonde hair, short hair, red scarf, neptune (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "cyberconnect2",
     category: "Neptune (series)",
-    mainTags: "cyberconnect2, neptune (series)",
+    mainTags: "cyberconnect2, green eyes, orange hair, short hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "c-sha",
     category: "Neptune (series)",
-    mainTags: "c-sha, neptune (series)",
+    mainTags: "c-sha, brown eyes, blonde hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "next white",
     category: "Neptune (series)",
-    mainTags: "next white, neptune (series)",
+    mainTags: "next white, red eyes, white hair, short hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "5pb (neptunia)",
     category: "Neptune (series)",
-    mainTags: "5pb (neptunia), neptune (series)",
+    mainTags: "5pb (neptunia), purple eyes, blue hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "red (neptunia)",
     category: "Neptune (series)",
-    mainTags: "red (neptunia), neptune (series)",
+    mainTags: "red (neptunia), red eyes, red hair, short hair, twintails, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "nepgyaa",
     category: "Neptune (series)",
-    mainTags: "nepgyaa, neptune (series)",
+    mainTags: "nepgyaa, purple eyes, purple hair, short hair, twintails, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "k-sha",
     category: "Neptune (series)",
-    mainTags: "k-sha, red headband, neptune (series)",
+    mainTags: "k-sha, brown eyes, blonde hair, long hair, red headband, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "cave (neptunia)",
     category: "Neptune (series)",
-    mainTags: "cave (neptunia), neptune (series)",
+    mainTags: "cave (neptunia), red eyes, brown hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "next black",
     category: "Neptune (series)",
-    mainTags: "next black, neptune (series),",
+    mainTags: "next black, blue eyes, black hair, long hair, neptune (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "pyra (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "pyra (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "pyra (xenoblade), red eyes, red hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: ["pyra (pro swimmer) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mythra (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "mythra (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [
-      "mythra (massive melee) (xenoblade)",
-      "mythra (radiant beach) (xenoblade)",
-    ],
+    mainTags: "mythra (xenoblade), green eyes, blonde hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
+    enhancers: ["mythra (massive melee) (xenoblade)", "mythra (radiant beach) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "nia (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "nia (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "nia (xenoblade), yellow eyes, silver hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: ["nia (blade) (xenoblade)", "nia (fancy sundress) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "rex (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "rex (xenoblade), short hair, spiked hair, xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "rex (xenoblade), brown eyes, brown hair, short hair, spiked hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mio (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "mio (xenoblade), xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "mio (xenoblade), yellow eyes, brown hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "eunie (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "eunie (xenoblade), xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "eunie (xenoblade), green eyes, brown hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "pneuma (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "pneuma (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "pneuma (xenoblade), green eyes, green hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "melia antiqua",
     category: "Xenoblade",
-    mainTags:
-      "melia antiqua, xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "melia antiqua, purple eyes, silver hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "morag ladair (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "morag ladair (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "morag ladair (xenoblade), blue eyes, black hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: ["morag ladair (obligatory leave) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "poppi (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "poppi (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "poppi (xenoblade), orange eyes, orange hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: ["poppi qtpi (xenoblade)", "poppi alpha (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "fiora (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "fiora (xenoblade), xenoblade chronicles 1, xenoblade chronicles (series)",
+    mainTags: "fiora (xenoblade), green eyes, blonde hair, long hair, xenoblade chronicles 1, xenoblade chronicles (series)",
     enhancers: ["mecha-fiora", "mecha-fiora (speed cowling)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "brighid (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "brighid (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "brighid (xenoblade), purple eyes, blue hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: ["brighid (water lily) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sena (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "sena (xenoblade), xenoblade chronicles 3, xenoblade chronicles (series), {{{mature female, aged up}}}",
+    mainTags: "sena (xenoblade), blue eyes, blue hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series), {{{mature female, aged up}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "noah (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "noah (xenoblade), xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "noah (xenoblade), blue eyes, black hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "pandoria (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "pandoria (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "pandoria (xenoblade), green eyes, green hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lora (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "lora (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "lora (xenoblade), green eyes, red hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "fan la norne",
     category: "Xenoblade",
-    mainTags:
-      "fan la norne, xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "fan la norne, blue eyes, purple hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "glimmer (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "glimmer (xenoblade), xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "glimmer (xenoblade), brown eyes, red hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "taion (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "taion (xenoblade), short hair, dark skin, dark-skinned female, xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "taion (xenoblade), green eyes, black hair, short hair, dark skin, dark-skinned female, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ethel (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "ethel (xenoblade), xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "ethel (xenoblade), blue eyes, silver hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "jin (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "jin (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "jin (xenoblade), blue eyes, silver hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "a (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "a (xenoblade), xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "a (xenoblade), red eyes, black hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lanz (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "lanz (xenoblade), short hair, muscular female, xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "lanz (xenoblade), blue eyes, silver hair, short hair, muscular female, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "elma (xenoblade x)",
     category: "Xenoblade",
-    mainTags:
-      "elma (xenoblade x), xenoblade chronicles x, xenoblade chronicles (series)",
+    mainTags: "elma (xenoblade x), blue eyes, red hair, short hair, xenoblade chronicles x, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "na'el (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "na'el (xenoblade), xenoblade chronicles 3, xenoblade chronicles (series)",
+    mainTags: "na'el (xenoblade), green eyes, brown hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sharla (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "sharla (xenoblade), dark skin, dark-skinned female, xenoblade chronicles 1, xenoblade chronicles (series)",
+    mainTags: "sharla (xenoblade), brown eyes, black hair, long hair, dark skin, dark-skinned female, xenoblade chronicles 1, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "praxis (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "praxis (xenoblade), dark skin, dark-skinned female, xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "praxis (xenoblade), purple eyes, blue hair, long hair, dark skin, dark-skinned female, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "theory (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "theory (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series), {{{aged up, mature female}}}",
+    mainTags: "theory (xenoblade), blue eyes, blonde hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "dunban (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "dunban (xenoblade), ahoge, xenoblade chronicles 1, xenoblade chronicles (series)",
+    mainTags: "dunban (xenoblade), brown eyes, brown hair, long hair, ahoge, xenoblade chronicles 1, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "shulk (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "shulk (xenoblade), short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
+    mainTags: "shulk (xenoblade), blue eyes, blonde hair, short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "reyn (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "reyn (xenoblade), short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
+    mainTags: "reyn (xenoblade), brown eyes, brown hair, short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kassandra (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "kassandra (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series), {{{aged up, mature female}}}",
+    mainTags: "kassandra (xenoblade), blue eyes, purple hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kassandra (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "kassandra (xenoblade), horns, xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "kassandra (xenoblade), blue eyes, purple hair, short hair, horns, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "finch (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "finch (xenoblade), body fur, furry female, xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "finch (xenoblade), brown eyes, brown hair, short hair, body fur, furry female, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lin lee koo",
     category: "Xenoblade",
-    mainTags:
-      "lin lee koo, xenoblade chronicles x, xenoblade chronicles (series), {{{aged up, mature female}}}",
+    mainTags: "lin lee koo, brown eyes, black hair, short hair, xenoblade chronicles x, xenoblade chronicles (series), {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "crossette (xenoblade)",
     category: "Xenoblade",
-    mainTags:
-      "crossette (xenoblade), xenoblade chronicles 2, xenoblade chronicles (series)",
+    mainTags: "crossette (xenoblade), green eyes, white hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "celica (xenoblade x)",
     category: "Xenoblade",
-    mainTags:
-      "celica (xenoblade x), xenoblade chronicles x, xenoblade chronicles (series)",
+    mainTags: "celica (xenoblade x), purple eyes, silver hair, long hair, xenoblade chronicles x, xenoblade chronicles (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lucifer (helltaker)",
     category: "Helltaker",
-    mainTags: "lucifer (helltaker), helltaker",
+    mainTags: "lucifer (helltaker), red eyes, white hair, long hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "modeus (helltaker)",
     category: "Helltaker",
-    mainTags: "modeus (helltaker), helltaker",
+    mainTags: "modeus (helltaker), red eyes, white hair, long hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "justice (helltaker)",
     category: "Helltaker",
-    mainTags: "justice (helltaker), helltaker",
+    mainTags: "justice (helltaker), red eyes, white hair, short hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "helltaker (character)",
     category: "Helltaker",
-    mainTags: "helltaker (character), helltaker",
+    mainTags: "helltaker (character), brown eyes, brown hair, short hair, helltaker",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "malina (helltaker)",
     category: "Helltaker",
-    mainTags: "malina (helltaker), helltaker",
+    mainTags: "malina (helltaker), red eyes, white hair, short hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "judgement (helltaker)",
     category: "Helltaker",
-    mainTags:
-      "judgement (helltaker), dark skin, dark-skinned female, helltaker",
+    mainTags: "judgement (helltaker), red eyes, black hair, long hair, dark skin, dark-skinned female, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "azazel (helltaker)",
     category: "Helltaker",
-    mainTags: "azazel (helltaker), halo, helltaker",
+    mainTags: "azazel (helltaker), blue eyes, blonde hair, long hair, halo, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "zdrada (helltaker)",
     category: "Helltaker",
-    mainTags: "zdrada (helltaker), helltaker",
+    mainTags: "zdrada (helltaker), red eyes, purple hair, long hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "pandemonica (helltaker)",
     category: "Helltaker",
-    mainTags: "pandemonica (helltaker), helltaker",
+    mainTags: "pandemonica (helltaker), red eyes, blonde hair, short hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "beelzebub (helltaker)",
     category: "Helltaker",
-    mainTags: "beelzebub (helltaker), helltaker",
+    mainTags: "beelzebub (helltaker), red eyes, black hair, medium hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "loremaster (helltaker)",
     category: "Helltaker",
-    mainTags: "loremaster (helltaker), helltaker",
+    mainTags: "loremaster (helltaker), red eyes, purple hair, long hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "baphomet (grizz)",
     category: "Helltaker",
-    mainTags: "baphomet (grizz), helltaker",
+    mainTags: "baphomet (grizz), red eyes, black hair, short hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "subject 67 (helltaker)",
     category: "Helltaker",
-    mainTags: "subject 67 (helltaker), helltaker",
+    mainTags: "subject 67 (helltaker), brown eyes, brown hair, short hair, helltaker",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "archangel (helltaker)",
     category: "Helltaker",
-    mainTags: "archangel (helltaker), helltaker",
+    mainTags: "archangel (helltaker), blue eyes, blonde hair, long hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "krampus (grizz)",
     category: "Helltaker",
-    mainTags: "krampus (grizz), helltaker",
+    mainTags: "krampus (grizz), red eyes, white hair, short hair, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "police (helltaker)",
     category: "Helltaker",
-    mainTags: "police (helltaker), dark skin, dark-skinned female, helltaker",
+    mainTags: "police (helltaker), red eyes, black hair, short hair, dark skin, dark-skinned female, helltaker",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "dark sun gwyndolin",
     category: "Dark Souls (Series)",
-    mainTags: "dark sun gwyndolin, dark souls i, dark souls (series)",
+    mainTags: "dark sun gwyndolin, blue eyes, blonde hair, long hair, dark souls i, dark souls (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lord's blade ciaran",
     category: "Dark Souls (Series)",
-    mainTags: "lord's blade ciaran, dark souls i, dark souls (series)",
+    mainTags: "lord's blade ciaran, brown eyes, blonde hair, short hair, dark souls i, dark souls (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "artorias the abysswalker",
     category: "Dark Souls (Series)",
-    mainTags: "artorias the abysswalker, dark souls i, dark souls (series)",
+    mainTags: "artorias the abysswalker, blue eyes, black hair, long hair, dark souls i, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "priscilla the crossbreed",
     category: "Dark Souls (Series)",
-    mainTags: "priscilla the crossbreed, dark souls i, dark souls (series)",
+    mainTags: "priscilla the crossbreed, green eyes, white hair, long hair, dark souls i, dark souls (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "solaire of astora",
     category: "Dark Souls (Series)",
-    mainTags: "solaire of astora, helmet, dark souls i, dark souls (series)",
+    mainTags: "solaire of astora, brown eyes, blonde hair, short hair, helmet, dark souls i, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "dragon slayer ornstein",
     category: "Dark Souls (Series)",
-    mainTags:
-      "dragon slayer ornstein, helmet, dark souls i, dark souls (series)",
+    mainTags: "dragon slayer ornstein, brown eyes, blonde hair, long hair, helmet, dark souls i, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "queen of sunlight gwynevere",
     category: "Dark Souls (Series)",
-    mainTags: "queen of sunlight gwynevere, dark souls i, dark souls (series)",
+    mainTags: "queen of sunlight gwynevere, blue eyes, blonde hair, long hair, dark souls i, dark souls (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "emerald herald",
     category: "Dark Souls (Series)",
-    mainTags: "emerald herald, dark souls ii, dark souls (series)",
+    mainTags: "emerald herald, green eyes, brown hair, long hair, dark souls ii, dark souls (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "fire keeper",
     category: "Dark Souls (Series)",
-    mainTags: "fire keeper, dark souls iii, dark souls (series)",
+    mainTags: "fire keeper, grey eyes, brown hair, long hair, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ashen one (dark souls)",
     category: "Dark Souls (Series)",
-    mainTags:
-      "ashen one (dark souls), boobplate, dark souls iii, dark souls (series)",
+    mainTags: "ashen one (dark souls), brown eyes, brown hair, short hair, boobplate, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "nameless king",
     category: "Dark Souls (Series)",
-    mainTags: "nameless king, dark souls iii, dark souls (series)",
+    mainTags: "nameless king, blue eyes, white hair, long hair, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "bearer of the curse",
     category: "Dark Souls (Series)",
-    mainTags: "bearer of the curse, dark souls iii, dark souls (series)",
+    mainTags: "bearer of the curse, green eyes, brown hair, short hair, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "abyss watcher",
     category: "Dark Souls (Series)",
-    mainTags: "abyss watcher, dark souls iii, dark souls (series)",
+    mainTags: "abyss watcher, brown eyes, black hair, long hair, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "aldrich devourer of gods",
     category: "Dark Souls (Series)",
-    mainTags: "aldrich devourer of gods, dark souls iii, dark souls (series)",
+    mainTags: "aldrich devourer of gods, blue eyes, black hair, long hair, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lothric (younger prince)",
     category: "Dark Souls (Series)",
-    mainTags: "lothric (younger prince), dark souls iii, dark souls (series)",
+    mainTags: "lothric (younger prince), blue eyes, blonde hair, long hair, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lorian (elder prince)",
     category: "Dark Souls (Series)",
-    mainTags:
-      "lorian (elder prince), gold armor, dark souls iii, dark souls (series)",
+    mainTags: "lorian (elder prince), blue eyes, blonde hair, short hair, gold armor, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "company captain yorshka",
     category: "Dark Souls (Series)",
-    mainTags:
-      "company captain yorshka, dragon girl, dragon tail, dark souls iii, dark souls (series)",
+    mainTags: "company captain yorshka, blue eyes, white hair, long hair, dragon girl, dragon tail, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sister friede",
     category: "Dark Souls (Series)",
-    mainTags: "sister friede, dark souls iii, dark souls (series)",
+    mainTags: "sister friede, blue eyes, blonde hair, long hair, dark souls iii, dark souls (series)",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "amiya (arknights)",
     category: "Arknights",
-    mainTags: "amiya (arknights), arknights",
-    enhancers: [
-      "amiya (newsgirl) (arknights)",
-      "amiya (fresh fastener) (arknights)",
-      "amiya (act 2) (arknights)",
-    ],
+    mainTags: "amiya (arknights), blue eyes, brown hair, long hair, arknights",
+    enhancers: ["amiya (newsgirl) (arknights)", "amiya (fresh fastener) (arknights)", "amiya (act 2) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "texas (arknights)",
     category: "Arknights",
-    mainTags: "texas (arknights), arknights",
-    enhancers: [
-      "texas (willpower) (arknights)",
-      "texas (winter messenger) (arknights)",
-      "texas (ambience synesthesia) (arknights)",
-      "texas (elite ii) (arknights)",
-      "texas the omertosa (arknights)",
-    ],
+    mainTags: "texas (arknights), brown eyes, black hair, short hair, arknights",
+    enhancers: ["texas (willpower) (arknights)", "texas (winter messenger) (arknights)", "texas (ambience synesthesia) (arknights)", "texas (elite ii) (arknights)", "texas the omertosa (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lappland (arknights)",
     category: "Arknights",
-    mainTags: "lappland (arknights), arknights",
-    enhancers: [
-      "lappland (refined horrormare) (arknights)",
-      "lappland (ambience synesthesia) (arknights)",
-      "lappland (elite ii) (arknights)",
-    ],
+    mainTags: "lappland (arknights), grey eyes, white hair, short hair, arknights",
+    enhancers: ["lappland (refined horrormare) (arknights)", "lappland (ambience synesthesia) (arknights)", "lappland (elite ii) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "skadi (arknights)",
     category: "Arknights",
-    mainTags: "skadi (arknights), arknights",
-    enhancers: [
-      "skadi (elite ii) (arknights)",
-      "skadi the corrupting heart (arknights)",
-      "skadi (waverider) (arknights)",
-      "skadi (the next afternoon tea) (arknights)",
-      "skadi the corrupting heart (sublimation) (arknights)",
-    ],
+    mainTags: "skadi (arknights), red eyes, white hair, long hair, arknights",
+    enhancers: ["skadi (elite ii) (arknights)", "skadi the corrupting heart (arknights)", "skadi (waverider) (arknights)", "skadi (the next afternoon tea) (arknights)", "skadi the corrupting heart (sublimation) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "suzuran (arknights)",
     category: "Arknights",
-    mainTags: "suzuran (arknights), arknights, {{{aged up, mature female}}}",
-    enhancers: [
-      "suzuran (spring praise) (arknights)",
-      "suzuran (yukibare) (arknights)",
-      "suzuran (lostlands flowering) (arknights)",
-      "[suzuran (let's carnival!) (arknights)",
-      "orange dress]",
-      "suzuran (pajamas) (arknights)",
-    ],
+    mainTags: "suzuran (arknights), brown eyes, white hair, long hair, arknights, {{{aged up, mature female}}}",
+    enhancers: ["suzuran (spring praise) (arknights)", "suzuran (yukibare) (arknights)", "suzuran (lostlands flowering) (arknights)", "[suzuran (let's carnival!) (arknights)", "orange dress]", "suzuran (pajamas) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "kal'tsit (arknights)",
     category: "Arknights",
-    mainTags: "kal'tsit (arknights), arknights",
+    mainTags: "kal'tsit (arknights), green eyes, white hair, long hair, arknights",
     enhancers: ["kal'tsit (remnants) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "exusiai (arknights)",
     category: "Arknights",
-    mainTags: "exusiai (arknights), arknights",
-    enhancers: [
-      "[exusiai (city rider) (arknights)",
-      "white jacket]",
-      "exusiai (wild operation) (arknights)",
-      "exusiai (midnight delivery) (arknights)",
-    ],
+    mainTags: "exusiai (arknights), blue eyes, blonde hair, short hair, arknights",
+    enhancers: ["[exusiai (city rider) (arknights)", "white jacket]", "exusiai (wild operation) (arknights)", "exusiai (midnight delivery) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ch'en (arknights)",
     category: "Arknights",
-    mainTags: "ch'en (arknights), arknights",
-    enhancers: [
-      "ch'en (ageless afterglow) (arknights)",
-      "ch'en (after storm) (arknights)",
-      "ch'en (elite ii) (arknights)",
-    ],
+    mainTags: "ch'en (arknights), blue eyes, blue hair, long hair, arknights",
+    enhancers: ["ch'en (ageless afterglow) (arknights)", "ch'en (after storm) (arknights)", "ch'en (elite ii) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mudrock (arknights)",
     category: "Arknights",
-    mainTags: "mudrock (arknights), arknights",
-    enhancers: [
-      "mudrock (elite ii) (arknights)",
-      "mudrock (silent night) (arknights)",
-      "mudrock (obsidian) (arknights)",
-    ],
+    mainTags: "mudrock (arknights), red eyes, white hair, long hair, arknights",
+    enhancers: ["mudrock (elite ii) (arknights)", "mudrock (silent night) (arknights)", "mudrock (obsidian) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "w (arknights)",
     category: "Arknights",
-    mainTags: "w (arknights), arknights",
-    enhancers: [
-      "w (wanted) (arknights)",
-      "w (fugue) (arknights)",
-      "[w (cannot wait for) (arknights)",
-      "yellow jacket]",
-    ],
+    mainTags: "w (arknights), red eyes, white hair, long hair, arknights",
+    enhancers: ["w (wanted) (arknights)", "w (fugue) (arknights)", "[w (cannot wait for) (arknights)", "yellow jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mostima (arknights)",
     category: "Arknights",
-    mainTags: "mostima (arknights), arknights",
+    mainTags: "mostima (arknights), blue eyes, blue hair, long hair, arknights",
     enhancers: ["mostima (spellbreaker) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "saria (arknights)",
     category: "Arknights",
-    mainTags: "saria (arknights), arknights",
-    enhancers: [
-      "saria (the law) (arknights)",
-      "saria (stronghold) (arknights)",
-    ],
+    mainTags: "saria (arknights), orange eyes, white hair, short hair, arknights",
+    enhancers: ["saria (the law) (arknights)", "saria (stronghold) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "specter (arknights)",
     category: "Arknights",
-    mainTags: "specter (arknights), arknights",
-    enhancers: [
-      "specter the unchained (arknights)",
-      "specter (undercurrent) (arknights)",
-    ],
+    mainTags: "specter (arknights), red eyes, white hair, short hair, arknights",
+    enhancers: ["specter the unchained (arknights)", "specter (undercurrent) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "dusk (arknights)",
     category: "Arknights",
-    mainTags: "dusk (arknights), arknights",
-    enhancers: [
-      "dusk (everything is a miracle) (arknights)",
-      "dusk (ambience synesthesia) (arknights)",
-    ],
+    mainTags: "dusk (arknights), green eyes, black hair, long hair, arknights",
+    enhancers: ["dusk (everything is a miracle) (arknights)", "dusk (ambience synesthesia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "nian (arknights)",
     category: "Arknights",
-    mainTags: "nian (arknights), arknights",
-    enhancers: [
-      "nian (unfettered freedom) (arknights)",
-      "nian (thunderbolt director) (arknights)",
-    ],
+    mainTags: "nian (arknights), purple eyes, white hair, long hair, arknights",
+    enhancers: ["nian (unfettered freedom) (arknights)", "nian (thunderbolt director) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "angelina (arknights)",
     category: "Arknights",
-    mainTags: "angelina (arknights), arknights",
-    enhancers: [
-      "angelina (summer flower) (arknights)",
-      "angelina (distinguished visitor) (arknights)",
-      "angelina (sports) (arknights)",
-      "angelina (ambience synesthesia) (arknights)",
-    ],
+    mainTags: "angelina (arknights), brown eyes, orange hair, long hair, arknights",
+    enhancers: ["angelina (summer flower) (arknights)", "angelina (distinguished visitor) (arknights)", "angelina (sports) (arknights)", "angelina (ambience synesthesia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "shu (arknights)",
     category: "Arknights",
-    mainTags: "shu (arknights), arknights",
+    mainTags: "shu (arknights), green eyes, black hair, long hair, arknights",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "goldenglow (arknights)",
     category: "Arknights",
-    mainTags: "goldenglow (arknights), arknights",
-    enhancers: [
-      "goldenglow (maiden for the bright night) (arknights)",
-      "goldenglow (summer flowers) (arknights)",
-      "goldenglow (party in the garden) (arknights)",
-    ],
+    mainTags: "goldenglow (arknights), pink eyes, pink hair, long hair, arknights",
+    enhancers: ["goldenglow (maiden for the bright night) (arknights)", "goldenglow (summer flowers) (arknights)", "goldenglow (party in the garden) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "irene (arknights)",
     category: "Arknights",
-    mainTags: "irene (arknights), arknights",
-    enhancers: [
-      "irene (voyage of feathers) (arknights)",
-      "irene (the adjudicatrix and her resolve) (arknights)",
-    ],
+    mainTags: "irene (arknights), blue eyes, black hair, short hair, arknights",
+    enhancers: ["irene (voyage of feathers) (arknights)", "irene (the adjudicatrix and her resolve) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "blue poison (arknights)",
     category: "Arknights",
-    mainTags: "blue poison (arknights), arknights",
-    enhancers: [
-      "blue poison (shoal beat) (arknights)",
-      "blue poison (elite ii) (arknights)",
-    ],
+    mainTags: "blue poison (arknights), blue eyes, blue hair, long hair, arknights",
+    enhancers: ["blue poison (shoal beat) (arknights)", "blue poison (elite ii) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "schwarz (arknights)",
     category: "Arknights",
-    mainTags: "schwarz (arknights), arknights",
-    enhancers: [
-      "schwarz (skyline) (arknights)",
-      "schwarz (presents) (arknights)",
-    ],
+    mainTags: "schwarz (arknights), yellow eyes, black hair, long hair, arknights",
+    enhancers: ["schwarz (skyline) (arknights)", "schwarz (presents) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "eyjafjalla (arknights)",
     category: "Arknights",
-    mainTags: "eyjafjalla (arknights), arknights",
+    mainTags: "eyjafjalla (arknights), pink eyes, pink hair, long hair, arknights",
     enhancers: ["eyjafjalla (summer flower) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sussurro (arknights)",
     category: "Arknights",
-    mainTags: "sussurro (arknights), arknights, {{{aged up, mature female}}}",
-    enhancers: [
-      "sussurro (summer flower) (arknights)",
-      "[sussurro (travel freely) (arknights)",
-      "red coat]",
-    ],
+    mainTags: "sussurro (arknights), brown eyes, brown hair, short hair, arknights, {{{aged up, mature female}}}",
+    enhancers: ["sussurro (summer flower) (arknights)", "[sussurro (travel freely) (arknights)", "red coat]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "hoshiguma (arknights)",
     category: "Arknights",
-    mainTags: "hoshiguma (arknights), arknights",
-    enhancers: [
-      "hoshiguma (ronin huntress) (arknights)",
-      "hoshiguma (seeker) (arknights)",
-    ],
+    mainTags: "hoshiguma (arknights), green eyes, black hair, long hair, arknights",
+    enhancers: ["hoshiguma (ronin huntress) (arknights)", "hoshiguma (seeker) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mountain (arknights)",
     category: "Arknights",
-    mainTags: "mountain (arknights), furry female, muscular female, arknights",
-    enhancers: [
-      "mountain (book reader) (arknights)",
-      "mountain (dark cloud) (arknights)",
-    ],
+    mainTags: "mountain (arknights), purple eyes, white hair, short hair, furry female, muscular female, arknights",
+    enhancers: ["mountain (book reader) (arknights)", "mountain (dark cloud) (arknights)"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "siege (arknights)",
     category: "Arknights",
-    mainTags: "siege (arknights), arknights",
-    enhancers: [
-      "siege (city destroyer) (arknights)",
-      "siege (legacy) (arknights)",
-      "siege (ambience synesthesia) (arknights)",
-    ],
+    mainTags: "siege (arknights), orange eyes, brown hair, long hair, arknights",
+    enhancers: ["siege (city destroyer) (arknights)", "siege (legacy) (arknights)", "siege (ambience synesthesia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "silence (arknights)",
     category: "Arknights",
-    mainTags: "silence (arknights), arknights",
-    enhancers: [
-      "silence (frosted breath) (arknights)",
-      "silence (lacquer) (arknights)",
-    ],
+    mainTags: "silence (arknights), yellow eyes, brown hair, long hair, arknights",
+    enhancers: ["silence (frosted breath) (arknights)", "silence (lacquer) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ifrit (arknights)",
     category: "Arknights",
-    mainTags: "ifrit (arknights), arknights",
+    mainTags: "ifrit (arknights), yellow eyes, blonde hair, long hair, arknights",
     enhancers: ["ifrit (sunburn) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "blaze (arknights)",
     category: "Arknights",
-    mainTags: "blaze (arknights), arknights",
-    enhancers: [
-      "blaze (burst feline) (arknights)",
-      "blaze the igniting spark (arknights)",
-    ],
+    mainTags: "blaze (arknights), blue eyes, blonde hair, short hair, arknights",
+    enhancers: ["blaze (burst feline) (arknights)", "blaze the igniting spark (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "chongyue (arknights)",
     category: "Arknights",
-    mainTags: "chongyue (arknights), arknights",
+    mainTags: "chongyue (arknights), brown eyes, orange hair, short hair, arknights",
     enhancers: ["chongyue (alighting) (arknights)"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "virtuosa (arknights)",
     category: "Arknights",
-    mainTags: "virtuosa (arknights), arknights",
+    mainTags: "virtuosa (arknights), red eyes, white hair, long hair, arknights",
     enhancers: ["virtuosa (diversity oneness) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "nearl (arknights)",
     category: "Arknights",
-    mainTags: "nearl (arknights), arknights",
-    enhancers: [
-      "[nearl the radiant knight (arknights)",
-      "cape]",
-      "[nearl (shimmering dew) (arknights)",
-      "one-piece swimsuit]",
-    ],
+    mainTags: "nearl (arknights), blue eyes, blonde hair, long hair, arknights",
+    enhancers: ["[nearl the radiant knight (arknights)", "cape]", "[nearl (shimmering dew) (arknights)", "one-piece swimsuit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ho'olheyak (arknights)",
     category: "Arknights",
-    mainTags: "ho'olheyak (arknights), arknights",
+    mainTags: "ho'olheyak (arknights), blue eyes, black hair, long hair, arknights",
     enhancers: ["ho'olheyak (carriage of the winds of time) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "swire (arknights)",
     category: "Arknights",
-    mainTags: "swire (arknights), arknights",
-    enhancers: [
-      "swire the elegant wit (arknights)",
-      "swire (honor and splendor) (arknights)",
-    ],
+    mainTags: "swire (arknights), brown eyes, brown hair, long hair, arknights",
+    enhancers: ["swire the elegant wit (arknights)", "swire (honor and splendor) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "muelsyse (arknights)",
     category: "Arknights",
-    mainTags: "muelsyse (arknights), arknights",
+    mainTags: "muelsyse (arknights), blue eyes, white hair, long hair, arknights",
     enhancers: ["muelsyse (young branch) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ceobe (arknights)",
     category: "Arknights",
-    mainTags: "ceobe (arknights), arknights",
-    enhancers: [
-      "ceobe (unfettered) (arknights)",
-      "ceobe (summer flowers) (arknights)",
-    ],
+    mainTags: "ceobe (arknights), blue eyes, brown hair, short hair, arknights",
+    enhancers: ["ceobe (unfettered) (arknights)", "ceobe (summer flowers) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "fiammetta (arknights)",
     category: "Arknights",
-    mainTags: "fiammetta (arknights), arknights",
+    mainTags: "fiammetta (arknights), red eyes, red hair, long hair, arknights",
     enhancers: ["fiammetta (divine oath) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "utage (arknights)",
     category: "Arknights",
-    mainTags: "utage (arknights), (arknights)",
-    enhancers: [
-      "utage (summer flowers) (arknights)",
-      "utage (disguise) (arknights)",
-    ],
+    mainTags: "utage (arknights), green eyes, brown hair, long hair, arknights",
+    enhancers: ["utage (summer flowers) (arknights)", "utage (disguise) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "jessica (arknights)",
     category: "Arknights",
-    mainTags: "jessica (arknights), (arknights)",
-    enhancers: [
-      "jessica (clivia) (arknights)",
-      "[jessica (iron block) (arknights)",
-      "gas mask]",
-      "[jessica the liberated (arknights)",
-      "tube top]",
-    ],
+    mainTags: "jessica (arknights), green eyes, black hair, short hair, arknights",
+    enhancers: ["jessica (clivia) (arknights)", "[jessica (iron block) (arknights)", "gas mask]", "[jessica the liberated (arknights)", "tube top]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "penance (arknights)",
     category: "Arknights",
-    mainTags: "penance (arknights), (arknights)",
-    enhancers: [
-      "penance (occasionally flushed) (arknights)",
-      "penance (ambience synesthesia) (arknights)",
-    ],
+    mainTags: "penance (arknights), brown eyes, brown hair, long hair, arknights",
+    enhancers: ["penance (occasionally flushed) (arknights)", "penance (ambience synesthesia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "blemishine (arknights)",
     category: "Arknights",
-    mainTags: "blemishine (arknights), (arknights)",
+    mainTags: "blemishine (arknights), blue eyes, blonde hair, long hair, arknights",
     enhancers: ["blemishine (moon catastrborn) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "pramanix (arknights)",
     category: "Arknights",
-    mainTags: "pramanix (arknights), (arknights)",
+    mainTags: "pramanix (arknights), blue eyes, white hair, long hair, arknights",
     enhancers: ["pramanix (caster's frost) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "rosmontis (arknights)",
     category: "Arknights",
-    mainTags: "rosmontis (arknights), arknights, {{{aged up, mature female}}}",
+    mainTags: "rosmontis (arknights), blue eyes, white hair, long hair, arknights, {{{aged up, mature female}}}",
     enhancers: ["rosmontis (become anew) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "platinum (arknights)",
     category: "Arknights",
-    mainTags: "platinum (arknights), arknights",
+    mainTags: "platinum (arknights), blue eyes, silver hair, long hair, arknights",
     enhancers: ["platinum (shimmering dew) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ptilopsis (arknights)",
     category: "Arknights",
-    mainTags: "ptilopsis (arknights), arknights",
-    enhancers: [
-      "ptilopsis (elite ii) (arknights)",
-      "ptilopsis (serenity) (arknights)",
-      "ptilopsis (amongst the clouds) (arknights)",
-    ],
+    mainTags: "ptilopsis (arknights), orange eyes, white hair, long hair, arknights",
+    enhancers: ["ptilopsis (elite ii) (arknights)", "ptilopsis (serenity) (arknights)", "ptilopsis (amongst the clouds) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "la pluma (arknights)",
     category: "Arknights",
-    mainTags: "la pluma (arknights), fur-trimmed coat, arknights",
+    mainTags: "la pluma (arknights), brown eyes, black hair, long hair, fur-trimmed coat, arknights",
     enhancers: ["la pluma (summer flowers) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "tequila (arknights)",
     category: "Arknights",
-    mainTags: "tequila (arknights), arknights",
+    mainTags: "tequila (arknights), yellow eyes, blonde hair, short hair, arknights",
     enhancers: ["tequila (cardwinner) (arknights)"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ling (arknights)",
     category: "Arknights",
-    mainTags: "ling (arknights), arknights",
-    enhancers: [
-      "[ling (it does wash the strings) (arknights)",
-      "two-tone dress]",
-      "ling (towering is cliff of nostalgia) (arknights)",
-    ],
+    mainTags: "ling (arknights), blue eyes, blue hair, long hair, arknights",
+    enhancers: ["[ling (it does wash the strings) (arknights)", "two-tone dress]", "ling (towering is cliff of nostalgia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "frostnova (arknights)",
     category: "Arknights",
-    mainTags: "frostnova (arknights), arknights",
+    mainTags: "frostnova (arknights), blue eyes, white hair, long hair, arknights",
     enhancers: ["white coat"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "saga (arknights)",
     category: "Arknights",
-    mainTags: "saga (arknights), arknights",
+    mainTags: "saga (arknights), orange eyes, brown hair, long hair, arknights",
     enhancers: ["saga (there they be) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "projekt red (arknights)",
     category: "Arknights",
-    mainTags: "projekt red (arknights), arknights",
+    mainTags: "projekt red (arknights), red eyes, red hair, short hair, arknights",
     enhancers: ["projekt red (light breeze) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "lin (arknights)",
     category: "Arknights",
-    mainTags: "lin (arknights), arknights",
+    mainTags: "lin (arknights), grey eyes, black hair, long hair, arknights",
     enhancers: ["lin (heavenly mirage) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "mizuki (arknights)",
     category: "Arknights",
-    mainTags: "mizuki (arknights), arknights, {{{aged up, mature female}}}",
+    mainTags: "mizuki (arknights), blue eyes, white hair, long hair, arknights, {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "bagpipe (arknights)",
     category: "Arknights",
-    mainTags: "bagpipe (arknights), arknights",
+    mainTags: "bagpipe (arknights), orange eyes, blonde hair, long hair, arknights",
     enhancers: ["green jacket", "bagpipe (queen no. 1) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "astesia (arknights)",
     category: "Arknights",
-    mainTags: "astesia (arknights), arknights",
-    enhancers: [
-      "astesia (starseeker) (arknights)",
-      "[astesia (frlibe on the palace) (arknights)",
-      "high-waist dress",
-      "detached sleeves",
-      "thigh strap]",
-      "[astesia (fantastic crafts) (arknights)",
-      "yellow jacket]",
-    ],
+    mainTags: "astesia (arknights), purple eyes, black hair, long hair, arknights",
+    enhancers: ["astesia (starseeker) (arknights)", "[astesia (frlibe on the palace) (arknights)", "high-waist dress", "detached sleeves", "thigh strap]", "[astesia (fantastic crafts) (arknights)", "yellow jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "whislash (arknights)",
     category: "Arknights",
-    mainTags: "whislash (arknights), arknights",
+    mainTags: "whislash (arknights), blue eyes, blonde hair, long hair, arknights",
     enhancers: ["whislash (glory purple) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "magallan (arknights)",
     category: "Arknights",
-    mainTags: "magallan (arknights), arknights",
-    enhancers: [
-      "[multicolored coat",
-      "brown sweater",
-      "black pants]",
-      "magallan (elite ii) (arknights)",
-      "magallan (shaved-ice memories) (arknights)",
-    ],
+    mainTags: "magallan (arknights), blue eyes, blonde hair, short hair, arknights",
+    enhancers: ["[multicolored coat", "brown sweater", "black pants]", "magallan (elite ii) (arknights)", "magallan (shaved-ice memories) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "theresa (arknights)",
     category: "Arknights",
-    mainTags: "theresa (arknights), arknights",
+    mainTags: "theresa (arknights), purple eyes, white hair, long hair, arknights",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "gravel (arknights)",
     category: "Arknights",
-    mainTags: "gravel (arknights), arknights",
+    mainTags: "gravel (arknights), red eyes, blonde hair, short hair, arknights",
     enhancers: ["gravel (modeling night) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "myrtle (arknights)",
     category: "Arknights",
-    mainTags: "myrtle (arknights), arknights, {{{aged up, mature female}}}",
-    enhancers: [
-      "myrtle (summer flowers) (arknights)",
-      "myrtle (light gold celebration) (arknights)",
-    ],
+    mainTags: "myrtle (arknights), green eyes, green hair, short hair, arknights, {{{aged up, mature female}}}",
+    enhancers: ["myrtle (summer flowers) (arknights)", "myrtle (light gold celebration) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "feater (arknights)",
     category: "Arknights",
-    mainTags: "feater (arknights), eyewear on head, arknights",
-    enhancers: [
-      "feater (dojo star) (arknights)",
-      "feater (gourmet) (arknights)",
-    ],
+    mainTags: "feater (arknights), brown eyes, black hair, short hair, eyewear on head, arknights",
+    enhancers: ["feater (dojo star) (arknights)", "feater (gourmet) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "gavial (arknights)",
     category: "Arknights",
-    mainTags: "gavial (arknights), crocodilian tail, arknights",
-    enhancers: [
-      "gavial the invincible (arknights)",
-      "gavial (combat medic) (arknights)",
-    ],
+    mainTags: "gavial (arknights), green eyes, green hair, short hair, crocodilian tail, arknights",
+    enhancers: ["gavial the invincible (arknights)", "gavial (combat medic) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "aurora (arknights)",
     category: "Arknights",
-    mainTags: "aurora (arknights), arknights",
-    enhancers: [
-      "white coat",
-      "aurora (elite ii) (arknights)",
-      "aurora (polar catcher) (arknights)",
-    ],
+    mainTags: "aurora (arknights), blue eyes, white hair, long hair, arknights",
+    enhancers: ["white coat", "aurora (elite ii) (arknights)", "aurora (polar catcher) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "liskarm (arknights)",
     category: "Arknights",
-    mainTags: "liskarm (arknights), arknights",
+    mainTags: "liskarm (arknights), blue eyes, black hair, short hair, arknights",
     enhancers: ["liskarm (overload) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "reed (arknights)",
     category: "Arknights",
-    mainTags: "reed (arknights), arknights",
-    enhancers: [
-      "white jacket",
-      "[reed the flame shadow (arknights)",
-      "open jacket",
-      "white dress]",
-      "[reed the flame shadow (arknights)",
-      "reed the flame shadow (summer flowers) (arknights)]",
-      "reed (emerald holiday) (arknights)",
-    ],
+    mainTags: "reed (arknights), green eyes, white hair, long hair, arknights",
+    enhancers: ["white jacket", "[reed the flame shadow (arknights)", "open jacket", "white dress]", "[reed the flame shadow (arknights)", "reed the flame shadow (summer flowers) (arknights)]", "reed (emerald holiday) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "gladiia (arknights)",
     category: "Arknights",
-    mainTags: "gladiia (arknights), arknights",
-    enhancers: [
-      "hat",
-      "gladiia (return) (arknights)",
-      "gladiia (i am the tides) (arknights)",
-    ],
+    mainTags: "gladiia (arknights), red eyes, white hair, long hair, arknights",
+    enhancers: ["hat", "gladiia (return) (arknights)", "gladiia (i am the tides) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "sora (arknights)",
     category: "Arknights",
-    mainTags: "sora (arknights), arknights",
-    enhancers: [
-      "sora (summer flowers) (arknights)",
-      "sora (melodiosa) (arknights)",
-      "sora (elite ii) (arknights)",
-    ],
+    mainTags: "sora (arknights), blue eyes, blonde hair, long hair, arknights",
+    enhancers: ["sora (summer flowers) (arknights)", "sora (melodiosa) (arknights)", "sora (elite ii) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "gummy (arknights)",
     category: "Arknights",
-    mainTags: "gummy (arknights), arknights, {{{aged up, mature female}}}",
-    enhancers: [
-      "[black jacket",
-      "pleated skirt]",
-      "gummy (summer flowers) (arknights)",
-    ],
+    mainTags: "gummy (arknights), blue eyes, brown hair, short hair, arknights, {{{aged up, mature female}}}",
+    enhancers: ["[black jacket", "pleated skirt]", "gummy (summer flowers) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "tomimi (arknights)",
     category: "Arknights",
-    mainTags: "tomimi (arknights), crocodilian tail, arknights",
+    mainTags: "tomimi (arknights), blue eyes, brown hair, long hair, crocodilian tail, arknights",
     enhancers: ["tomimi (silent night) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "frostleaf (arknights)",
     category: "Arknights",
-    mainTags: "frostleaf (arknights), arknights",
+    mainTags: "frostleaf (arknights), blue eyes, silver hair, short hair, arknights",
     enhancers: ["frostleaf (breaking the ice) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "eunectes (arknights)",
     category: "Arknights",
-    mainTags: "eunectes (arknights), snake tail, arknights",
+    mainTags: "eunectes (arknights), yellow eyes, white hair, long hair, snake tail, arknights",
     enhancers: ["yellow bandeau", "eunectes (forgemaster) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "talulah (arknights)",
     category: "Arknights",
-    mainTags: "talulah (arknights), arknights",
+    mainTags: "talulah (arknights), green eyes, white hair, long hair, arknights",
     enhancers: ["black dress", "talulah the fighter (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "momiji (ninja gaiden)",
     category: "Ninja Gaiden",
-    mainTags: "momiji (ninja gaiden), ninja gaiden",
+    mainTags: "momiji (ninja gaiden), brown eyes, black hair, long hair, ninja gaiden",
     enhancers: ["[red pants", "thigh cutout]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "ryu hayabusa",
     category: "Ninja Gaiden",
-    mainTags: "ryu hayabusa, claw weapon, ninja gaiden",
+    mainTags: "ryu hayabusa, green eyes, brown hair, short hair, claw weapon, ninja gaiden",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "rachel (ninja gaiden)",
     category: "Ninja Gaiden",
-    mainTags: "rachel (ninja gaiden), ninja gaiden",
+    mainTags: "rachel (ninja gaiden), blue eyes, blonde hair, long hair, ninja gaiden",
     enhancers: ["black leotard"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
+    mediaType: "Video Games"
+},
+{
     name: "frieren",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "frieren, sousou no frieren",
+    mainTags: "frieren, green eyes, white hair, long hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "fern (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "fern (sousou no frieren), sousou no frieren",
+    mainTags: "fern (sousou no frieren), purple eyes, purple hair, long hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "stark (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "stark (sousou no frieren), sousou no frieren",
+    mainTags: "stark (sousou no frieren), red eyes, red hair, short hair, sousou no frieren",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ubel (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "ubel (sousou no frieren), sousou no frieren",
+    mainTags: "ubel (sousou no frieren), green eyes, black hair, short hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "himmel (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "himmel (sousou no frieren), sousou no frieren",
+    mainTags: "himmel (sousou no frieren), blue eyes, blue hair, short hair, sousou no frieren",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "aura (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "aura (sousou no frieren), sousou no frieren",
+    mainTags: "aura (sousou no frieren), purple eyes, pink hair, long hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "serie (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "serie (sousou no frieren), sousou no frieren",
+    mainTags: "serie (sousou no frieren), yellow eyes, blonde hair, long hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "land (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "land (sousou no frieren), short hair, sousou no frieren",
+    mainTags: "land (sousou no frieren), green eyes, blonde hair, short hair, sousou no frieren",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "eisen (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "eisen (sousou no frieren), dwarf, sousou no frieren",
+    mainTags: "eisen (sousou no frieren), brown eyes, grey hair, short hair, dwarf, sousou no frieren",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "heiter",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "heiter, short hair, sousou no frieren",
+    mainTags: "heiter, green eyes, blonde hair, short hair, sousou no frieren",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "lawine (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "lawine (sousou no frieren), sousou no frieren",
+    mainTags: "lawine (sousou no frieren), blue eyes, brown hair, short hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kanne (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "kanne (sousou no frieren), sousou no frieren",
+    mainTags: "kanne (sousou no frieren), blue eyes, blonde hair, short hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "laufen (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "laufen (sousou no frieren), sousou no frieren",
+    mainTags: "laufen (sousou no frieren), brown eyes, black hair, short hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sense (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "sense (sousou no frieren), sousou no frieren",
+    mainTags: "sense (sousou no frieren), brown eyes, blonde hair, long hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sein (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "sein (sousou no frieren), sousou no frieren",
+    mainTags: "sein (sousou no frieren), brown eyes, brown hair, short hair, sousou no frieren",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "linie (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "linie (sousou no frieren), sousou no frieren",
+    mainTags: "linie (sousou no frieren), blue eyes, blonde hair, long hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "methode (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "methode (sousou no frieren), sousou no frieren",
+    mainTags: "methode (sousou no frieren), brown eyes, blonde hair, long hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "flamme (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "flamme (sousou no frieren), sousou no frieren",
+    mainTags: "flamme (sousou no frieren), green eyes, red hair, long hair, sousou no frieren",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "wirbel (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
-    mainTags: "wirbel (sousou no frieren), sousou no frieren",
+    mainTags: "wirbel (sousou no frieren), green eyes, brown hair, short hair, sousou no frieren",
     enhancers: ["fur-trimmed coat"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "revy (black lagoon)",
     category: "Black Lagoon",
-    mainTags: "revy (black lagoon), black lagoon",
+    mainTags: "revy (black lagoon), blue eyes, brown hair, long hair, black lagoon",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "balalaika (black lagoon)",
     category: "Black Lagoon",
-    mainTags: "balalaika (black lagoon), black lagoon",
+    mainTags: "balalaika (black lagoon), blue eyes, blonde hair, long hair, black lagoon",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "roberta (black lagoon)",
     category: "Black Lagoon",
-    mainTags: "roberta (black lagoon), black lagoon",
+    mainTags: "roberta (black lagoon), brown eyes, black hair, long hair, black lagoon",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "okajima rokuro",
     category: "Black Lagoon",
-    mainTags: "okajima rokuro, black lagoon",
+    mainTags: "okajima rokuro, brown eyes, black hair, short hair, black lagoon",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "frederica sawyer",
     category: "Black Lagoon",
-    mainTags: "frederica sawyer, black lagoon",
+    mainTags: "frederica sawyer, blue eyes, black hair, short hair, black lagoon",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "eda (black lagoon)",
     category: "Black Lagoon",
-    mainTags: "eda (black lagoon), black lagoon",
+    mainTags: "eda (black lagoon), blue eyes, blonde hair, long hair, black lagoon",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "gretel (black lagoon)",
     category: "Black Lagoon",
-    mainTags:
-      "gretel (black lagoon), black lagoon, {{{aged up, mature female}}}",
+    mainTags: "gretel (black lagoon), blue eyes, white hair, short hair, black lagoon, {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shenhua",
     category: "Black Lagoon",
-    mainTags: "shenhua, black lagoon",
+    mainTags: "shenhua, brown eyes, black hair, long hair, black lagoon",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "fabiola iglesias",
     category: "Black Lagoon",
-    mainTags: "fabiola iglesias, black lagoon, {{{aged up, mature female}}}",
+    mainTags: "fabiola iglesias, green eyes, green hair, long hair, black lagoon, {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hansel (black lagoon)",
     category: "Black Lagoon",
-    mainTags:
-      "hansel (black lagoon), black lagoon, {{{aged up, mature female}}}",
+    mainTags: "hansel (black lagoon), blue eyes, white hair, short hair, black lagoon, {{{aged up, mature female}}}",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ranma-chan",
     category: "Ranma 1/2",
-    mainTags: "ranma-chan, ranma 1/2",
+    mainTags: "ranma-chan, blue eyes, red hair, long hair, ranma 1/2",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "shampoo (ranma 1/2)",
     category: "Ranma 1/2",
-    mainTags: "shampoo (ranma 1/2), ranma 1/2",
+    mainTags: "shampoo (ranma 1/2), purple eyes, purple hair, long hair, ranma 1/2",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tendou akane",
     category: "Ranma 1/2",
-    mainTags: "tendou akane, ranma 1/2",
+    mainTags: "tendou akane, brown eyes, black hair, short hair, ranma 1/2",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "saotome ranma",
     category: "Ranma 1/2",
-    mainTags: "saotome ranma, ranma 1/2",
+    mainTags: "saotome ranma, blue eyes, black hair, short hair, ranma 1/2",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hibiki ryouga",
     category: "Ranma 1/2",
-    mainTags: "hibiki ryouga, ranma 1/2",
+    mainTags: "hibiki ryouga, brown eyes, black hair, short hair, ranma 1/2",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tendou nabiki",
     category: "Ranma 1/2",
-    mainTags: "tendou nabiki, ranma 1/2",
+    mainTags: "tendou nabiki, brown eyes, brown hair, short hair, ranma 1/2",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kuonji ukyou",
     category: "Ranma 1/2",
-    mainTags: "kuonji ukyou, ranma 1/2",
+    mainTags: "kuonji ukyou, brown eyes, brown hair, long hair, ranma 1/2",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mousse (ranma 1/2)",
     category: "Ranma 1/2",
-    mainTags: "mousse (ranma 1/2), ranma 1/2",
+    mainTags: "mousse (ranma 1/2), brown eyes, black hair, long hair, ranma 1/2",
     enhancers: [],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "kunou kodachi",
     category: "Ranma 1/2",
-    mainTags: "kunou kodachi, ranma 1/2",
+    mainTags: "kunou kodachi, purple eyes, black hair, long hair, ranma 1/2",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "tendou kasumi",
     category: "Ranma 1/2",
-    mainTags: "tendou kasumi, ranma 1/2",
+    mainTags: "tendou kasumi, brown eyes, brown hair, long hair, ranma 1/2",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "mikasa ackerman",
     category: "Attack on Titan",
-    mainTags: "mikasa ackerman, shingeki no kyojin",
+    mainTags: "mikasa ackerman, red eyes, black hair, long hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "eren yeager",
     category: "Attack on Titan",
-    mainTags: "eren yeager, shingeki no kyojin",
+    mainTags: "eren yeager, green eyes, brown hair, short hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "levi (shingeki no kyojin)",
     category: "Attack on Titan",
-    mainTags: "levi (shingeki no kyojin), shingeki no kyojin",
+    mainTags: "levi (shingeki no kyojin), grey eyes, black hair, short hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "krista lenz",
     category: "Attack on Titan",
-    mainTags: "krista lenz, shingeki no kyojin",
+    mainTags: "krista lenz, blue eyes, blonde hair, long hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "ymir (shingeki no kyojin)",
     category: "Attack on Titan",
-    mainTags: "ymir (shingeki no kyojin), shingeki no kyojin",
+    mainTags: "ymir (shingeki no kyojin), brown eyes, brown hair, short hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "armin arlert",
     category: "Attack on Titan",
-    mainTags: "armin arlert, shingeki no kyojin",
+    mainTags: "armin arlert, blue eyes, blonde hair, short hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "annie leonhart",
     category: "Attack on Titan",
-    mainTags: "annie leonhart, shingeki no kyojin",
+    mainTags: "annie leonhart, blue eyes, blonde hair, short hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "hange zoe",
     category: "Attack on Titan",
-    mainTags: "hange zoe, shingeki no kyojin",
+    mainTags: "hange zoe, brown eyes, brown hair, long hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "sasha blouse",
     category: "Attack on Titan",
-    mainTags: "sasha blouse, shingeki no kyojin",
+    mainTags: "sasha blouse, brown eyes, brown hair, long hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "erwin smith",
     category: "Attack on Titan",
-    mainTags: "erwin smith, shingeki no kyojin",
+    mainTags: "erwin smith, blue eyes, blonde hair, short hair, shingeki no kyojin",
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
-  {
+    mediaType: "Shows or Movies"
+},
+{
     name: "pieck finger",
     category: "Attack on Titan",
-    mainTags: "pieck finger, shingeki no kyojin",
+    mainTags: "pieck finger, brown eyes, black hair, long hair, shingeki no kyojin",
     enhancers: [],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Shows or Movies",
-  },
+    mediaType: "Shows or Movies"
+},
   {
     name: "merida (brave)",
     category: "Disney",
