@@ -77,6 +77,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -90,6 +91,7 @@ const characterData = [
         "track and field tracer"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -104,6 +106,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -119,6 +122,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -129,6 +133,7 @@ const characterData = [
     enhancers: ["[armor", "mechanical wings]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -142,6 +147,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -154,6 +160,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -166,6 +173,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -178,6 +186,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -198,6 +207,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -205,9 +215,12 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "lucca ashtear, purple eyes, purple hair, short hair, chrono trigger",
-    enhancers: [],
+    enhancers: [
+        "[glasses", "helmet", "orange robe", "black shorts", "belt pouch]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -215,9 +228,12 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "marle (chrono trigger), blue eyes, blonde hair, long hair, ponytail, chrono trigger",
-    enhancers: [],
+    enhancers: [
+        "[white pants", "white shirt", "belt", "collar", "bracers]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -225,18 +241,22 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "ayla (chrono trigger), brown eyes, blonde hair, long hair, chrono trigger",
-    enhancers: [],
+    enhancers: [
+        "[grey fur scarf", "grey fur tube top", "grey fur skirt", "grey wrist cuffs]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "schala zeal",
     category: "Chrono (Series)",
     mainTags: "schala zeal, blue eyes, blue hair, long hair, chrono trigger",
-    enhancers: [],
+    enhancers: ["[ purple robes", "wide sleeves", "sleeves past wrists", "gold earrings,]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -244,9 +264,10 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "crono (chrono trigger), blue eyes, red hair, short hair, spiked hair, chrono trigger",
-    enhancers: [],
+    enhancers: ["[blue tunic", "yellow pants", "yellow kerchief", "belt", "headband]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -254,9 +275,10 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "magus (chrono trigger), red eyes, blue hair, long hair, chrono trigger",
-    enhancers: [],
+    enhancers: ["[breastplate", "purple pants", "red cape", "gloves", "codpiece]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -264,9 +286,10 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "kid (chrono cross), blue eyes, blonde hair, long hair, ponytail, chrono cross",
-    enhancers: [],
+    enhancers: ["[red cropped jacket", "red skirt", "white tube top", "belt", "gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -274,9 +297,10 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "serge (chrono cross), blue eyes, blue hair, short hair, chrono cross",
-    enhancers: [],
+    enhancers: ["[red bandana", "vest", "black shirt", "blue shorts", "black belt", "gloves,]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -284,9 +308,10 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "harle (chrono cross), red eyes, black hair, short hair, chrono cross",
-    enhancers: [],
+    enhancers: ["[two-tone leotard", "harem pants", "see-through pants", "long sleeves", "red gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -294,9 +319,10 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "leena (chrono cross), blue eyes, brown hair, long hair, chrono cross",
-    enhancers: [],
+    enhancers: ["[brown dress", "purple dress", "dress under dress", "green belt", "headband]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -304,69 +330,65 @@ const characterData = [
     category: "Chrono (Series)",
     mainTags:
       "marcy (chrono cross), blue eyes, blue hair, short hair, double bun, chrono cross",
-    enhancers: [],
+    enhancers: ["[pink dress", "breastplate", "fingerless gauntlets","back bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "refia",
     category: "Final Fantasy 1-3",
     mainTags:
-      "refia, brown eyes, red hair, long hair, final fantasy iii, final fantasy",
-    enhancers: [],
+      "refia, brown eyes, red hair, medium hair, final fantasy iii, final fantasy",
+    enhancers: ["[white dress", "blue vest", "pantyhose", "red thigh boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "black mage (final fantasy)",
     category: "Final Fantasy 1-3",
     mainTags:
-      "black mage (final fantasy), yellow eyes, black hair, short hair, final fantasy",
-    enhancers: [],
+      "black mage (final fantasy), yellow eyes, final fantasy",
+    enhancers: ["[brown witch hat", "blue robe", "covered face]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "white mage (final fantasy)",
     category: "Final Fantasy 1-3",
     mainTags:
-      "white mage (final fantasy), blue eyes, brown hair, long hair, final fantasy",
-    enhancers: [],
+      "white mage (final fantasy), final fantasy",
+    enhancers: ["[white hooded robe", "long skirt", "wide sleeves", "sleeves past wrists]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
-    name: "paladin (final fantasy)",
-    category: "Final Fantasy 1-3",
-    mainTags:
-      "paladin (final fantasy), blue eyes, blonde hair, short hair, final fantasy",
-    enhancers: [],
-    defaultGender: "girl",
-    genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "dancer (final fantasy)",
     category: "Final Fantasy 1-3",
     mainTags:
-      "dancer (final fantasy), brown eyes, purple hair, long hair, final fantasy",
-    enhancers: [],
+      "dancer (final fantasy), final fantasy",
+    enhancers: ["[brown sleeveless cropped shirt", "high collar", "wrist bangles", "brown skirt", "belt", "midriff]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "red mage (final fantasy)",
     category: "Final Fantasy 1-3",
     mainTags:
-      "red mage (final fantasy), green eyes, red hair, long hair, final fantasy",
-    enhancers: [],
+      "red mage (final fantasy), final fantasy",
+    enhancers: ["[red hat", "hat feather", "red cloak", "white ascot]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -374,9 +396,10 @@ const characterData = [
     category: "Final Fantasy 1-3",
     mainTags:
       "dark knight (final fantasy), red eyes, black hair, short hair, final fantasy",
-    enhancers: [],
+    enhancers: ["[purple armor", "full armor", "knee pads", "shoulder armor]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -384,9 +407,10 @@ const characterData = [
     category: "Final Fantasy 1-3",
     mainTags:
       "ninja (final fantasy), brown eyes, black hair, short hair, final fantasy",
-    enhancers: [],
+    enhancers: ["[red sleeveless tunic", "brown belt", "belt pouch", "black mask", "covered mouth", "detached sleeves", "elbow gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -394,9 +418,10 @@ const characterData = [
     category: "Final Fantasy 1-3",
     mainTags:
       "dragoon (final fantasy), blue eyes, purple hair, short hair, final fantasy",
-    enhancers: [],
+    enhancers: ["[armor", "horned helmet", "chestplate]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -404,39 +429,43 @@ const characterData = [
     category: "Final Fantasy 1-3",
     mainTags:
       "scholar (final fantasy), brown eyes, brown hair, long hair, final fantasy",
-    enhancers: [],
+    enhancers: ["[mortarboard", "green coat", "black skirt", "yellow dress", "glasses]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "thief (final fantasy)",
     category: "Final Fantasy 1-3",
     mainTags:
-      "thief (final fantasy), green eyes, brown hair, short hair, vest, bandana, final fantasy",
-    enhancers: [],
+      "thief (final fantasy), green eyes, brown hair, short hair, final fantasy",
+    enhancers: ["[green shirt", "green shorts", "green bandana", "brown vest", "fingerless gloves", "long sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "shiva (final fantasy)",
     category: "Final Fantasy 1-3",
     mainTags:
-      "shiva (final fantasy), blue eyes, blue hair, long hair, final fantasy",
-    enhancers: [],
+      "shiva (final fantasy), colored skin, blue skin, blue eyes, blue hair, very long hair, final fantasy",
+    enhancers: ["[forehead jewel", "blue highleg leotard", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "carbuncle (final fantasy)",
     category: "Final Fantasy 1-3",
     mainTags:
-      "carbuncle (final fantasy), red eyes, green hair, short hair, final fantasy",
-    enhancers: [],
+      "carbuncle (final fantasy), fox girl, fox ears, fox tail, animal ear fluff, red eyes, green hair, forehead jewel, final fantasy",
+    enhancers: ["[blue dress", "layered skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -444,9 +473,10 @@ const characterData = [
     category: "Final Fantasy 4",
     mainTags:
       "rydia (ff4), green eyes, green hair, long hair, final fantasy iv, final fantasy",
-    enhancers: [],
+    enhancers: ["[green dress", "cape", "thighhighs", "hair ornament]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -454,9 +484,10 @@ const characterData = [
     category: "Final Fantasy 4",
     mainTags:
       "rosa farrell, blue eyes, blonde hair, long hair, final fantasy iv, final fantasy",
-    enhancers: [],
+    enhancers: ["[white leotard", "cape", "hair ornament", "fingerless gloves", "belts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -464,9 +495,10 @@ const characterData = [
     category: "Final Fantasy 4",
     mainTags:
       "barbariccia, yellow eyes, green hair, long hair, final fantasy iv, final fantasy",
-    enhancers: [],
+    enhancers: ["[bikini top only", "pelvic curtain", "shawl]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -474,9 +506,10 @@ const characterData = [
     category: "Final Fantasy 4",
     mainTags:
       "porom, blue eyes, blonde hair, short hair, final fantasy iv, final fantasy",
-    enhancers: [],
+    enhancers: ["[striped thighhighs", "cape", "sleeveless pink dress", "bracers]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -484,19 +517,21 @@ const characterData = [
     category: "Final Fantasy 5",
     mainTags:
       "lenna charlotte tycoon, blue eyes, blonde hair, long hair, final fantasy v, final fantasy",
-    enhancers: [],
+    enhancers: ["[sleeveless orange dress", "hair ornament", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "faris scherwiz",
     category: "Final Fantasy 5",
     mainTags:
-      "faris scherwiz, purple eyes, purple hair, long hair, headband, final fantasy v, final fantasy",
-    enhancers: [],
+      "faris scherwiz, purple eyes, purple hair, long hair, final fantasy v, final fantasy",
+    enhancers: ["[green headband", "sleeveless blue jacket", "blue tunic", "belt", "green shawl", "bracers]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -504,29 +539,32 @@ const characterData = [
     category: "Final Fantasy 5",
     mainTags:
       "krile mayer baldesion (ff5), blue eyes, blonde hair, short hair, final fantasy v, final fantasy",
-    enhancers: [],
+    enhancers: ["[sleeveless pink leotard", "blue cape", "pink gauntlets", "white thighhighs", "knee boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "terra branford",
     category: "Final Fantasy 6",
     mainTags:
-      "terra branford, blue eyes, green hair, long hair, final fantasy vi, final fantasy",
-    enhancers: [],
+      "terra branford, blue eyes, green hair, long hair, ponytail, final fantasy vi, final fantasy",
+    enhancers: ["[red dress", "purple sash", "yellow cape", "red bracers]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "trance terra branford",
     category: "Final Fantasy 6",
     mainTags:
-      "trance terra branford, purple eyes, blonde hair, long hair, final fantasy vi, final fantasy",
-    enhancers: [],
+      " trance terra branford, purple eyes, pink hair, long hair, monster girl, floating hair, colored skin, pink skin, pointy ears, claws, final fantasy vi, final fantasy",
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -534,9 +572,10 @@ const characterData = [
     category: "Final Fantasy 6",
     mainTags:
       "celes chere, blue eyes, blonde hair, long hair, final fantasy vi, final fantasy",
-    enhancers: [],
+    enhancers: ["[hair ornament", "blue shirt", "yellow pants", "yellow sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -544,19 +583,49 @@ const characterData = [
     category: "Final Fantasy 7",
     mainTags:
       "tifa lockhart, brown eyes, brown hair, long hair, final fantasy vii remake, final fantasy",
-    enhancers: [],
+    enhancers: [
+        "[white cropped shirt", "low tied hair", "suspenders", "black skirt", "detached black sleeves", "red fingerless gloves", "single elbow pad]",
+        "[tifa lockhart (refined dress)", "purple sleeveless dress", "short dress", "neck ribbon", "gold earrings]",
+        "[tifa lockhart (shining spirit)", "multicolored bikini", "bikini skirt", "hair flower", "side locks", "hair bun", "official alternate costume]",
+        "[tifa lockhart (cowgirl)", "cowboy hat", "cropped leather vest", "short leather skirt", "black gloves", "official alternate costume]",
+        "[tifa lockhart (lifeguard)", "low tied hair", "black hat", "bikini under clothes", "fingerless gloves", "see-through shirt", "skirt", "official alternate costume]",
+        "[tifa lockhart (sporty dress)", "china dress", "leopard print", "double bun", "pelvic curtain", "tassel hair ornament", "fishnet thighhighs", "official alternate costume]",
+        "[tifa lockhart (majestic glamour)", "striped crop top", "denim shorts", "pantylines", "front-tie top", "official alternate costume]",
+        "[tifa lockhart (bahamut suit)", "armor", "clawed gauntlets", "dragon wings", "horned headwear", "low tied hair", "shoulder armor", "official alternate costume]",
+        "[tifa lockhart (fairy of the holy flame)", "santa hat", "santa costume", "holly hat ornament", "skirt", "fur-trimmed capelet", "fur-trimmed gloves", "fur-trimmed headwear", "fur-trimmed skirt", "white turtleneck sweater", "official alternate costume]",
+        "[tifa lockhart (exotic dress)", "black kimono", "black thighhighs", "hair flower", "wide sleeves", "zettai ryouiki", "official alternate costume]",
+        "[tifa lockhart (passion mermaid)", "bikini", "bikini skirt", "see-through clothes", "jewelry", "belly chain", "fingerless gloves", "official alternate costume]",
+        "[tifa lockhart (loveless dress)", "white sleeveless dress", "crown", "earrings", "princess rosa costume", "official alternate costume]",
+        "[tifa lockhart (bunny bustier)", "animal ear headband", "rabbit ears", "rabbit tail", "detached collar", "elbow gloves", "blue bow", "black frilled miniskirt", "fishnet pantyhose", "nontraditional playboy bunny", "official alternate costume]",
+        "[tifa lockhart (honey bee inn)", "bee costume", "black hairband", "fake antennae", "fake wings", "fishnet pantyhose", "frills", "sideless leotard", "official alternate costume]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "aerith gainsborough",
     category: "Final Fantasy 7",
     mainTags:
-      "aerith gainsborough, green eyes, brown hair, long hair, final fantasy vii remake, final fantasy",
-    enhancers: [],
+      "aerith gainsborough, green eyes, brown hair, long hair, parted bangs, final fantasy vii remake, final fantasy",
+    enhancers: [
+        "[pink dress", "braided ponytail", "red cropped jacket", "bangles", "hair bow]",
+        "[aerith gainsborough (red dress)", "braided ponytail", "red dress", "flamenco dress", "hair flowers", "official alternate costume]",
+        "[aerith gainsborough (pink mermaid)", "frilled bikini", "official alternate costume]",
+        "[aerith gainsborough (white floral dress)", "white strapless dress", "dress flower", "official alternate costume]",
+        "[aerith gainsborough (prism dress)", "ponytail", "blue hair bow", "white dress", "dress flower", "gold trim", "official alternate costume]",
+        "[aerith gainsborough (sunny robe)", "straw hat", "pink bikini", "white lace swimsuit cover-up]",
+        "[aerith gainsborough (fairy of snowfall)", "white dress", "white hat", "white coat", "winter clothes", "thigh strap", "fur trim", "cable knit", "official alternate costume]",
+        "[aerith gainsborough (bahamut robe)", "armor", "single shoulder pad", "pantyhose", "headdress", "long dress", "official alternate costume]",
+        "[aerith gainsborough (floral delight)", "single braid", "hair flower", "pink crop top", "floral pink sarong", "short sleeves", "midriff", "official alternate costume]",
+        "[aerith gainsborough (citric dress)", "food themed earrings", "half updo", "green ribbon", "strapless dress", "see-through clothes", "official alternate costume]",
+        "[aerith gainsborough (loveless dress)", "princess rosa dress", "white dress", "crown", "single braid", "official alternate costume]",
+        "[aerith gainsborough (honey bee inn)", "bee costume", "fake antennae", "fake wings", "fishnet pantyhose", "sideless leotard", "fur collar", "official alternate costume]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -564,9 +633,16 @@ const characterData = [
     category: "Final Fantasy 7",
     mainTags:
       "yuffie kisaragi, brown eyes, black hair, short hair, final fantasy vii remake, final fantasy",
-    enhancers: [],
+    enhancers: [
+        "[headband", "green shirt", "single shoulder pad", "white shorts]",
+        "[yuffie kisaragi (summer orange)", "orange floral bikini top", "white shorts", "orange hairband", "official alternate costume]",
+        "[moogle (cosplay)", "brown hooded cloak", "hood up", "official alternate costume]",
+        "[yuffie kisaragi (summer moogle)", "orange o-ring bikini top", "white shorts", "orange bikini straps", "thigh strap", "goggles on head", "single elbow pad", "official alternate costume]",
+        "[yuffie kisaragi (bahamut mantle)", "armor", "horned hood", "thighhighs", "fake dragon tail", "purple leotard", "black shorts", "fingerless gloves", "official alternate costume]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -574,9 +650,18 @@ const characterData = [
     category: "Final Fantasy 7",
     mainTags:
       "cloud strife, blue eyes, blonde hair, short hair, spiked hair, final fantasy vii remake, final fantasy",
-    enhancers: [],
+    enhancers: [
+        "[black shirt", "black pants", "single shoulder pad", "gauntlets]",
+        "[cloud strife (blue dress)", "blue dress", "hair bow", "fishnet sleeves", "puffy sleeves", "twin braids", "official alternate costume]",
+        "[cloud strife (bahamut garb)", "armor", "high collar", "single wing", "gauntlets", "see-through shirt", "official alternate costume]",
+        "[cloud strife (ball gown)", "purple dress", "tiara", "ribbon choker", "official alternate costume]",
+        "[cloud strife (maritime sailor)", "black shirt", "black pants", "sailor collar", "single elbow pad", "official alternate costume]",
+        "[cloud strife (wild surf)", "black swim trunks", "suspenders hanging", "official alternate costume]",
+        "[cloud strife (alphreid costume)", "blue cloak", "gloves", "leather armor", "official alternate costume]"
+    ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -584,9 +669,13 @@ const characterData = [
     category: "Final Fantasy 8",
     mainTags:
       "riona heartilly, brown eyes, black hair, long hair, final fantasy viii, final fantasy",
-    enhancers: [],
+    enhancers: [
+        "[long blue sweater", "black shorts", "blue skirt", "blue arm warmers]",
+        "[short white dress", "halter dress", "crossed straps", "official alternate costume]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -594,9 +683,13 @@ const characterData = [
     category: "Final Fantasy 8",
     mainTags:
       "selphie tilmitt, green eyes, brown hair, short hair, final fantasy viii, final fantasy",
-    enhancers: [],
+    enhancers: [
+        "[yellow zipper dress", "knee boots", "necklace]",
+        "[seed uniform (ff8)", "military uniform", "yellow ascot", "official alternate costume]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -604,9 +697,13 @@ const characterData = [
     category: "Final Fantasy 8",
     mainTags:
       "quistis trepe, blue eyes, blonde hair, long hair, final fantasy viii, final fantasy",
-    enhancers: [],
+    enhancers: [
+        "[orange shirt", "orange skirt", "zipper", "detached sleeves", "high collar", "gloves]",
+        "[seed uniform (ff8)", "military outfit", "red necktie", "grey skirt", "grey jacket", "official alternate costume]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -614,9 +711,10 @@ const characterData = [
     category: "Final Fantasy 8",
     mainTags:
       "edea kramer, yellow eyes, black hair, long hair, final fantasy viii, final fantasy",
-    enhancers: [],
+    enhancers: ["[headdress", "feather trim", "dress", "plunging neckline", "black dress", "clawed gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -624,29 +722,37 @@ const characterData = [
     category: "Final Fantasy 8",
     mainTags:
       "ultimecia, yellow eyes, silver hair, long hair, final fantasy viii, final fantasy",
-    enhancers: [],
+    enhancers: ["[red dress", "side slit", "plunging neckline", "feather trim", "black wings", "body markings]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "garnet til alexandros xvii",
     category: "Final Fantasy 9",
     mainTags:
-      "garnet til alexandros xvii, brown eyes, brown hair, long hair, final fantasy ix, final fantasy",
-    enhancers: [],
+      "garnet til alexandros xvii, brown eyes, brown hair, final fantasy ix, final fantasy",
+    enhancers: [
+        "[long hair", "orange overalls", "white shirt", "leg strap", "low tied hair", "red gloves]",
+        "[long hair", "low tied hair", "white strapless dress", "elbow gloves", "hair flower", "headdress", "leaf print", "official alternate costume]",
+        "[short hair", "bob cut", "orange overalls", "white shirt", "wide sleeves]",
+        "[short hair", "bob cut", "white hooded robe", "white mage (final fantasy)", "orange overalls", "wide sleeves]"        
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "eiko carol",
     category: "Final Fantasy 9",
     mainTags:
-      "eiko carol, blue eyes, blue hair, short hair, final fantasy ix, final fantasy",
-    enhancers: [],
+      "eiko carol, blue eyes, single horn, blue hair, short hair, final fantasy ix, final fantasy",
+    enhancers: ["[pink bodysuit", "yellow pants", "red shirt", "puffy sleeves", "hair bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -654,9 +760,10 @@ const characterData = [
     category: "Final Fantasy 9",
     mainTags:
       "freija crescent, green eyes, blonde hair, short hair, mouse girl, mouse tail, final fantasy ix, final fantasy",
-    enhancers: ["oversized hat"],
+    enhancers: ["[oversized red hat", "ascot", "red jacket", "orange bloomers", "knee boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -664,9 +771,10 @@ const characterData = [
     category: "Final Fantasy 9",
     mainTags:
       "kuja, purple eyes, silver hair, long hair, final fantasy ix, final fantasy",
-    enhancers: [],
+    enhancers: ["[jacket", "jockstrap", "cropped jacket", "puffy sleeves", "thighhighs", "waist cape", "feather hair ornament]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -674,9 +782,10 @@ const characterData = [
     category: "Final Fantasy 9",
     mainTags:
       "beatrix (ff9), brown eyes, brown hair, long hair, final fantasy ix, final fantasy",
-    enhancers: [],
+    enhancers: ["[asymmetrical hair", "eyepatch", "one eye covered", "grey sleeveless dress", "brown pantyhose", "oversized belt", "fingerless gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -684,109 +793,129 @@ const characterData = [
     category: "Final Fantasy 10",
     mainTags:
       "paine (ff10), red eyes, black hair, short hair, final fantasy x, final fantasy",
-    enhancers: [],
+    enhancers: ["[black choker", "black leather gloves", "black leather shorts", "black leather crop top", "black thighhighs", "garter straps", "red suspenders]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "yuna (ff10)",
     category: "Final Fantasy 10",
     mainTags:
-      "yuna (ff10), blue eyes, brown hair, long hair, final fantasy x, final fantasy",
-    enhancers: [],
+      "yuna (ff10), heterochromia, blue eye, green eye, brown hair, medium hair, final fantasy x, final fantasy",
+    enhancers: [
+        "[bra peek", "long blue skirt", "hair ornament", "japanese clothes", "nontraditional miko", "obi", "wide sleeves", "detached sleeves]",
+        "[white crop top", "plunging neckline", "pink hood", "hood down", "blue showgirl skirt", "black short shorts", "yellow armbands", "wrist band", "knee boots]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "rikku (ff10)",
     category: "Final Fantasy 10",
     mainTags:
-      "rikku (ff10), green eyes, blonde hair, long hair, final fantasy x, final fantasy",
-    enhancers: [],
+      "rikku (ff10), green eyes, blonde hair, medium hair, half updo, final fantasy x, final fantasy",
+    enhancers: [
+        "[brown shirt", "green shorts", "belt", "gloves", "detached sleeves", "goggles around neck", "thigh strap", "knee boots]",
+        "[blue bandana", "yellow bikini top", "brown skirt", "white detached sleeves", "bikini straps", "gradient scarf]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "lulu (ff10)",
     category: "Final Fantasy 10",
     mainTags:
-      "lulu (ff10), purple eyes, black hair, long hair, belts, final fantasy x, final fantasy",
-    enhancers: [],
+      "lulu (ff10), purple eyes, black hair, braided bun, final fantasy x, final fantasy",
+    enhancers: [
+        "[fur-trimmed black dress", "off-shoulder dress", "multiple belts", "multiple necklaces", "thighhighs]", 
+        "[moogle", "stuffed animal", "fur-trimmed black dress", "off-shoulder dress", "multiple belts", "multiple necklaces", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "lightning farron",
     category: "Final Fantasy 13",
     mainTags:
-      "lightning farron, blue eyes, pink hair, long hair, final fantasy xiii, final fantasy",
-    enhancers: [],
+      "lightning farron, blue eyes, pink hair, medium hair, final fantasy xiii, final fantasy",
+    enhancers: [
+        "[fingerless gloves", "skirt", "white jacket", "high collar", "red cape", "thigh strap]",
+        "[armor", "breastplate", "shoulder armor", "greaves", "arm guards", "leotard", "feather skirt]",
+        "[asymmetrical clothes", "armor", "silver breastplate", "silver shoulder armor", "greaves", "gauntlets", "white feather skirt]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "serah farron",
     category: "Final Fantasy 13",
     mainTags:
-      "serah farron, blue eyes, pink hair, long hair, final fantasy xiii, final fantasy",
-    enhancers: [],
+      "serah farron, blue eyes, pink hair, long hair, side ponytail,final fantasy xiii, final fantasy",
+    enhancers: [
+        "[red plaid miniskirt", "black thighhighs", "see-through clothes", "white sleeveless shirt", "sleeveless jacket", "white jacket", "high collar", "white armband]",
+        "[white dress", "red thighhighs", "zettai ryouiki", "choker", "gloves", "detached sleeves", "belt pouch]",
+        "[pink bikinitop", "pink shorts", "yellow bow", "frilled thigh band", "pink bikini strap", "flowers]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "oerba dia vanille",
     category: "Final Fantasy 13",
     mainTags:
-      "oerba dia vanille, green eyes, red hair, long hair, final fantasy xiii, final fantasy",
-    enhancers: [],
+      "oerba dia vanille, green eyes, red hair, medium hair, twintails,final fantasy xiii, final fantasy",
+    enhancers: ["[pink crop top, orange skirt, belt pouch, bracelets, fur-trimmed waist cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "oerba yun fang",
     category: "Final Fantasy 13",
     mainTags:
-      "oerba yun fang, green eyes, brown hair, long hair, final fantasy xiii, final fantasy",
-    enhancers: [],
+      "oerba yun fang, green eyes, black hair, gradient hair, medium hair, final fantasy xiii, final fantasy",
+    enhancers: ["[indian clothes", "sari", "blue dress", "crop top", "bracers]"],
     defaultGender: "girl",
     genderswapAvailable: true,
-    mediaType: "Video Games",
-  },
-  {
-    name: "lebreau",
-    category: "Final Fantasy 13",
-    mainTags:
-      "lebreau, brown eyes, black hair, short hair, final fantasy xiii, final fantasy",
-    enhancers: [],
-    defaultGender: "girl",
-    genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "y'shtola rhul",
     category: "Final Fantasy 14",
     mainTags:
-      "y'shtola rhul, blue eyes, white hair, long hair, final fantasy xiv, final fantasy",
-    enhancers: [],
+      "y'shtola rhul, miqo'te, blue eyes, white hair, short hair, final fantasy xiv, final fantasy",
+    enhancers: [
+        "[blue cross-laced pants", "white coat", "wide sleeves]",
+        "[white coat", "high collar", "shoulder armor", "pantyhose", "thigh boots]",
+        "[feather-trimmed black dress", "cross-laced footwear", "thigh boots", "wide sleeves", "fingerless gloves]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "venat (ff14)",
     category: "Final Fantasy 14",
     mainTags:
-      "venat (ff14), blue eyes, blonde hair, long hair, final fantasy xiv, final fantasy",
-    enhancers: [],
+      "venat (ff14), blue eyes, white hair, long hair, final fantasy xiv, final fantasy",
+    enhancers: ["[white hooded robe", "hood down", "white capelet", "wide sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -794,9 +923,10 @@ const characterData = [
     category: "Final Fantasy 14",
     mainTags:
       "ryne waters, blue eyes, red hair, long hair, final fantasy xiv, final fantasy",
-    enhancers: [],
+    enhancers: ["[white lace-trimmed dress", "clothing cutout", "puffy sleeves", "thigh boots", "thigh belts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -804,9 +934,10 @@ const characterData = [
     category: "Final Fantasy 14",
     mainTags:
       "gaia (ff14), blue eyes, black hair, long hair, final fantasy xiv, final fantasy",
-    enhancers: [],
+    enhancers: ["[black dress", "choker", "black ascot", "detached sleeves", "wide sleeves", "fishnet thighhighs", "zettai ryouiki]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -814,9 +945,10 @@ const characterData = [
     category: "Final Fantasy 14",
     mainTags:
       "meteion, blue eyes, blue hair, short hair, final fantasy xiv, final fantasy",
-    enhancers: [],
+    enhancers: ["[blue head wings", "feathers", "blue dress", "blue capelet", "thighboots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -824,9 +956,24 @@ const characterData = [
     category: "Final Fantasy 14",
     mainTags:
       "alisaie leveilleur, blue eyes, white hair, short hair, final fantasy xiv, final fantasy",
-    enhancers: [],
+    enhancers: [
+        "[red dress", "cropped jacket", "fur-trimmed jacket", "thigh boots", "utility belt]",
+        "[white shorts", "white shirt", "red jacket", "thigh boots]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games",
+  },
+  {
+    name: "g'raha tia",
+    category: "Final Fantasy 14",
+    mainTags:
+      "g'raha tia, muscular man, final fantasy xiv, final fantasy",
+    enhancers: ["[red sleeveless shirt", "collar", "leather vest", "gauntlets", "belt", "thigh boots", "white pants]"],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -834,9 +981,10 @@ const characterData = [
     category: "Final Fantasy 15",
     mainTags:
       "lunafreya nox fleuret, blue eyes, blonde hair, long hair, final fantasy xv, final fantasy",
-    enhancers: [],
+    enhancers: ["[white sleeveless dress", "crown braid]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -844,9 +992,10 @@ const characterData = [
     category: "Final Fantasy 15",
     mainTags:
       "cindy aurum, green eyes, blonde hair, short hair, final fantasy xv, final fantasy",
-    enhancers: [],
+    enhancers: ["[red hat", "goggles around neck", "yellow jacket", "pink bikini top only", "denim shorts", "belt pouch", "thighhighs", "gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -854,9 +1003,10 @@ const characterData = [
     category: "Final Fantasy 15",
     mainTags:
       "aranea highwind, green eyes, silver hair, short hair, final fantasy xv, final fantasy",
-    enhancers: [],
+    enhancers: ["[armor", "boobplate", "o-ring belt", "black choker", "greaves", "shoulder armor", "gauntlets", "multicolored cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -867,6 +1017,7 @@ const characterData = [
     enhancers: ["[choker", "short hair]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -877,6 +1028,7 @@ const characterData = [
     enhancers: ["[hooded jacket", "blue belt", "baggy pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -893,6 +1045,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -903,6 +1056,7 @@ const characterData = [
     enhancers: ["[sleeveless dress", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -913,6 +1067,7 @@ const characterData = [
     enhancers: ["[sleeveless dress", "fingerless gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -923,6 +1078,7 @@ const characterData = [
     enhancers: ["[black dress", "black jacket", "black belt", "pleated skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -933,6 +1089,7 @@ const characterData = [
     enhancers: ["[blue pants", "single sleeve", "vest]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
@@ -943,60 +1100,67 @@ const characterData = [
     enhancers: ["[black robe", "zipper", "face mark]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games",
   },
   {
     name: "lady (devil may cry)",
     category: "Devil May Cry",
     mainTags: "lady (devil may cry), brown eyes, black hair, short hair, devil may cry (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nico (devil may cry)",
     category: "Devil May Cry",
     mainTags: "nico (devil may cry), brown eyes, brown hair, short hair, devil may cry (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "dante (devil may cry)",
     category: "Devil May Cry",
     mainTags: "dante (devil may cry), blue eyes, white hair, short hair, devil may cry (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "vergil (devil may cry)",
     category: "Devil May Cry",
     mainTags: "vergil (devil may cry), blue eyes, white hair, short hair, devil may cry (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "trish (devil may cry)",
     category: "Devil May Cry",
     mainTags: "trish (devil may cry), green eyes, blonde hair, long hair, devil may cry (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nero (devil may cry)",
     category: "Devil May Cry",
     mainTags: "nero (devil may cry), blue eyes, white hair, short hair, devil may cry (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1006,15 +1170,17 @@ const characterData = [
     enhancers: ["[tattoo", "arm tattoo", "chest tattoo]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "rebecca chambers",
     category: "Resident Evil (Series)",
     mainTags: "rebecca chambers, brown eyes, brown hair, short hair, resident evil 0, resident evil",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1024,33 +1190,37 @@ const characterData = [
     enhancers: ["[red vest", "choker", "pants", "fingerless gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "jill valentine",
     category: "Resident Evil (Series)",
     mainTags: "jill valentine, blue eyes, brown hair, short hair, resident evil 3: nemesis, resident evil",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nemesis (resident evil)",
     category: "Resident Evil (Series)",
     mainTags: "nemesis (resident evil), black eyes, bald, bodysuit, zombie, one-eyed, no pupils, zombie, monster girl, resident evil 3: nemesis, resident evil",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ada wong",
     category: "Resident Evil (Series)",
     mainTags: "ada wong, brown eyes, black hair, short hair, resident evil, resident evil 4 (remake), resident evil 4",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1060,6 +1230,7 @@ const characterData = [
     enhancers: ["bulletproof vest"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1069,6 +1240,7 @@ const characterData = [
     enhancers: ["[orange sweater", "plaid skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1078,6 +1250,7 @@ const characterData = [
     enhancers: ["[cigarette", "beret", "brown military shirt", "holster]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1087,6 +1260,7 @@ const characterData = [
     enhancers: ["[green shirt", "jeans", "fingerless gloves]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1096,6 +1270,7 @@ const characterData = [
     enhancers: ["[purple shirt", "ponytail", "brown pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1105,42 +1280,47 @@ const characterData = [
     enhancers: ["[scarf", "white shirt", "black pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "alcina dimitrescu",
     category: "Resident Evil (Series)",
     mainTags: "alcina dimitrescu, yellow eyes, black hair, long hair, resident evil village, resident evil",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "daniela dimitrescu",
     category: "Resident Evil (Series)",
     mainTags: "daniela dimitrescu, yellow eyes, red hair, long hair, resident evil village, resident evil",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "bela dimitrescu",
     category: "Resident Evil (Series)",
     mainTags: "bela dimitrescu, yellow eyes, blonde hair, long hair, resident evil village, resident evil",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "cassandra dimitrescu",
     category: "Resident Evil (Series)",
     mainTags: "cassandra dimitrescu, yellow eyes, brown hair, long hair, resident evil village, resident evil",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1150,60 +1330,67 @@ const characterData = [
     enhancers: ["[sunglasses", "hair slicked back", "black pants", "black shirt", "shoulder holster]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "rosalina",
     category: "Super Mario",
     mainTags: "rosalina, blue eyes, blonde hair, long hair, mario (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "bowsette",
     category: "Super Mario",
     mainTags: "bowsette, orange eyes, black hair, long hair, mario (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "princess king boo",
     category: "Super Mario",
     mainTags: "princess king boo, purple eyes, white hair, long hair, mario (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "princess peach",
     category: "Super Mario",
     mainTags: "princess peach, blue eyes, blonde hair, long hair, mario (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "princess daisy",
     category: "Super Mario",
     mainTags: "princess daisy, blue eyes, brown hair, long hair, mario (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "warupeach",
     category: "Super Mario",
     mainTags: "warupeach, purple eyes, purple hair, long hair, mario (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1213,6 +1400,7 @@ const characterData = [
     enhancers: ["[overalls", "red shirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1222,15 +1410,17 @@ const characterData = [
     enhancers: ["[overalls", "green shirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "yoshi (cosplay)",
     category: "Super Mario",
     mainTags: "yoshi (cosplay), black eyes, green hair, short hair, mario (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1240,6 +1430,7 @@ const characterData = [
     enhancers: ["[mouth mask]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1249,6 +1440,7 @@ const characterData = [
     enhancers: ["[mouth mask]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1258,6 +1450,7 @@ const characterData = [
     enhancers: ["[mouth mask", "green tunic]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1267,6 +1460,7 @@ const characterData = [
     enhancers: ["[yellow tunic", "mouth mask]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1276,60 +1470,67 @@ const characterData = [
     enhancers: ["[blue tunic", "mouth mask]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sindel",
     category: "Mortal Kombat",
     mainTags: "sindel, white eyes, gray hair, long hair, two-tone hair, purple bodysuit, mortal kombat (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "felicia (darkstalkers)",
     category: "Darkstalkers",
     mainTags: "felicia (darkstalkers), blue eyes, blue hair, long hair, darkstalkers",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "morrigan aensland",
     category: "Darkstalkers",
     mainTags: "morrigan aensland, green eyes, green hair, long hair, darkstalkers",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "hsien-ko",
     category: "Darkstalkers",
     mainTags: "hsien-ko, yellow eyes, blue hair, short hair, darkstalkers",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "q-bee",
     category: "Darkstalkers",
     mainTags: "q-bee, yellow eyes, blonde hair, short hair, darkstalkers",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lilith (darkstalkers)",
     category: "Darkstalkers",
     mainTags: "lilith (darkstalkers), red eyes, purple hair, short hair, darkstalkers",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1339,114 +1540,127 @@ const characterData = [
     enhancers: ["red hooded cape"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "cammy white",
     category: "Street Fighter",
     mainTags: "cammy white, blue eyes, blonde hair, long hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "shiranui mai",
     category: "Street Fighter",
     mainTags: "shiranui mai, brown eyes, brown hair, long hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "han juri",
     category: "Street Fighter",
     mainTags: "han juri, purple eyes, black hair, long hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "marisa (street fighter)",
     category: "Street Fighter",
     mainTags: "marisa (street fighter), brown eyes, red hair, short hair, muscular female, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "chun-li",
     category: "Street Fighter",
     mainTags: "chun-li, brown eyes, brown hair, long hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "rainbow mika",
     category: "Street Fighter",
     mainTags: "rainbow mika, blue eyes, blonde hair, long hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "elena (street fighter)",
     category: "Street Fighter",
     mainTags: "elena (street fighter), brown eyes, white hair, short hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kasugano sakura",
     category: "Street Fighter",
     mainTags: "kasugano sakura, brown eyes, brown hair, short hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kanzuki karin",
     category: "Street Fighter",
     mainTags: "kanzuki karin, brown eyes, blonde hair, long hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "makoto (street fighter)",
     category: "Street Fighter",
     mainTags: "makoto (street fighter), brown eyes, black hair, short hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ibuki (street fighter)",
     category: "Street Fighter",
     mainTags: "ibuki (street fighter), brown eyes, brown hair, long hair, ninja, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "crimson viper",
     category: "Street Fighter",
     mainTags: "crimson viper, green eyes, red hair, long hair, street fighter",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1456,6 +1670,7 @@ const characterData = [
     enhancers: ["[red tunic", "red pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1465,6 +1680,7 @@ const characterData = [
     enhancers: ["[white tunic", "white pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1474,6 +1690,7 @@ const characterData = [
     enhancers: ["[chest sarashi", "white pants", "rope belt", "glowing eyes]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1483,6 +1700,7 @@ const characterData = [
     enhancers: ["[military hat", "shoulder armor", "lightning bolt symbol", "cape", "bracers]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1492,51 +1710,57 @@ const characterData = [
     enhancers: ["[camouflage pants", "green tank top]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sylvanas windrunner",
     category: "Warcraft / Starcraft",
     mainTags: "sylvanas windrunner, red eyes, blonde hair, long hair, world of warcraft, warcraft",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "jaina proudmoore",
     category: "Warcraft / Starcraft",
     mainTags: "jaina proudmoore, blue eyes, blonde hair, long hair, world of warcraft, warcraft",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "tyrande whisperwind",
     category: "Warcraft / Starcraft",
     mainTags: "tyrande whisperwind, white eyes, green hair, long hair, night elf (warcraft), colored skin, purple skin, facial mark, world of warcraft, warcraft",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sarah kerrigan",
     category: "Warcraft / Starcraft",
     mainTags: "sarah kerrigan, green eyes, red hair, long hair, dark skin, tentacle hair, zerg (starcraft), starcraft",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "alexstrasza",
     category: "Warcraft / Starcraft",
     mainTags: "alexstrasza, red eyes, red hair, long hair, world of warcraft, warcraft",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1546,6 +1770,7 @@ const characterData = [
     enhancers: ["[red leotard", "staff]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1565,69 +1790,77 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "malon",
     category: "Zelda",
     mainTags: "malon, blue eyes, red hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nabooru",
     category: "Zelda",
     mainTags: "nabooru, green eyes, orange hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "impa",
     category: "Zelda",
     mainTags: "impa, gray eyes, white hair, short hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "purah",
     category: "Zelda",
     mainTags: "purah, red eyes, white hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mipha",
     category: "Zelda",
     mainTags: "mipha, yellow eyes, red hair, short hair, monster girl, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sheik",
     category: "Zelda",
     mainTags: "sheik, blue eyes, blonde hair, short hair, scarf, covered mouth, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "urbosa",
     category: "Zelda",
     mainTags: "urbosa, green eyes, red hair, long hair, muscular female, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1637,177 +1870,197 @@ const characterData = [
     enhancers: ["[puffy sleeves", "shirt", "brown hat", "large hat]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "midna",
     category: "Zelda",
     mainTags: "midna, yellow eyes, orange hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "midna (true)",
     category: "Zelda",
     mainTags: "midna (true), yellow eyes, orange hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "fi (zelda)",
     category: "Zelda",
     mainTags: "fi (zelda), blue eyes, blue hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "saria (zelda)",
     category: "Zelda",
     mainTags: "saria (zelda), green eyes, green hair, short hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "princess ruto",
     category: "Zelda",
     mainTags: "princess ruto, purple eyes, bald, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "toon zelda",
     category: "Zelda",
     mainTags: "toon zelda, blue eyes, blonde hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "malon",
     category: "Zelda",
     mainTags: "malon, blue eyes, red hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "young zelda",
     category: "Zelda",
     mainTags: "young zelda, blue eyes, blonde hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "link",
     category: "Zelda",
     mainTags: "link, blue eyes, blonde hair, short hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "riju",
     category: "Zelda",
     mainTags: "riju, green eyes, red hair, long hair, the legend of zelda",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ciri",
     category: "Witcher",
     mainTags: "ciri, green eyes, white hair, long hair, the witcher (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "yennefer of vengerberg",
     category: "Witcher",
     mainTags: "yennefer of vengerberg, purple eyes, black hair, long hair, the witcher (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "triss merigold",
     category: "Witcher",
     mainTags: "triss merigold, green eyes, red hair, long hair, the witcher (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "isabella valentine",
     category: "Soulcalibur",
     mainTags: "isabella valentine, green eyes, white hair, long hair, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "cassandra alexandra",
     category: "Soulcalibur",
     mainTags: "cassandra alexandra, blue eyes, blonde hair, short hair, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sophitia alexandra",
     category: "Soulcalibur",
     mainTags: "sophitia alexandra, blue eyes, blonde hair, long hair, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "taki (soulcalibur)",
     category: "Soulcalibur",
     mainTags: "taki (soulcalibur), brown eyes, brown hair, long hair, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "chai xianghua",
     category: "Soulcalibur",
     mainTags: "chai xianghua, brown eyes, black hair, long hair, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "amy sorel",
     category: "Soulcalibur",
     mainTags: "amy sorel, red eyes, blonde hair, long hair, twin drills, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1817,33 +2070,37 @@ const characterData = [
     enhancers: ["[arabian clothes", "see-through clothes]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "pyrrha alexandra",
     category: "Soulcalibur",
     mainTags: "pyrrha alexandra, blue eyes, blonde hair, long hair, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "seong mi-na",
     category: "Soulcalibur",
     mainTags: "seong mi-na, brown eyes, brown hair, long hair, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "tira (soulcalibur)",
     category: "Soulcalibur",
     mainTags: "tira (soulcalibur), green eyes, brown hair, short hair, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1853,15 +2110,17 @@ const characterData = [
     enhancers: ["[kimono", "hair bun]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "viola (soulcalibur)",
     category: "Soulcalibur",
     mainTags: "viola (soulcalibur), purple eyes, white hair, short hair, soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1881,6 +2140,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1890,6 +2150,7 @@ const characterData = [
     enhancers: ["star guardian jinx", "ambitious elf jinx"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1906,6 +2167,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1927,6 +2189,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1936,6 +2199,7 @@ const characterData = [
     enhancers: ["officer vi"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1958,6 +2222,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1967,6 +2232,7 @@ const characterData = [
     enhancers: ["soul fighter gwen", "cafe cuties gwen"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1976,6 +2242,7 @@ const characterData = [
     enhancers: ["officer caitlyn", "[pool party caitlyn", "innertube", "bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -1994,15 +2261,17 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "annie (league of legends)",
     category: "League of Legends",
     mainTags: "annie (league of legends), green eyes, red hair, long hair, league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2012,6 +2281,7 @@ const characterData = [
     enhancers: ["star guardian zoe", "[pool party zoe", "blue hair]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2021,6 +2291,7 @@ const characterData = [
     enhancers: ["pool party leona", "solar eclipse leona"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2030,6 +2301,7 @@ const characterData = [
     enhancers: ["blood moon diana"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2046,6 +2318,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2067,6 +2340,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2080,6 +2354,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2089,6 +2364,7 @@ const characterData = [
     enhancers: ["star guardian janna"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2105,6 +2381,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2128,6 +2405,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2146,6 +2424,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2166,6 +2445,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2181,6 +2461,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2197,6 +2478,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2210,6 +2492,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2219,6 +2502,7 @@ const characterData = [
     enhancers: ["french maid nidalee"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2228,6 +2512,7 @@ const characterData = [
     enhancers: ["soul fighter samira"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2244,6 +2529,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2262,6 +2548,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2271,6 +2558,7 @@ const characterData = [
     enhancers: ["star guardian xayah"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2287,6 +2575,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2296,24 +2585,27 @@ const characterData = [
     enhancers: ["pizza delivery sivir"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "zeri (league of legends)",
     category: "League of Legends",
     mainTags: "zeri (league of legends), green eyes, green hair, long hair, league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "karma (league of legends)",
     category: "League of Legends",
     mainTags: "karma (league of legends), purple eyes, black hair, long hair, league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2323,6 +2615,7 @@ const characterData = [
     enhancers: ["spirit blossom kindred", "porcelain kindred"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2332,6 +2625,7 @@ const characterData = [
     enhancers: ["k/da neeko", "bewitching neeko", "winter wonder neeko"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2345,15 +2639,17 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "briar (league of legends)",
     category: "League of Legends",
     mainTags: "briar (league of legends), red eyes, gray hair, long hair, bound wrists, back decoration, league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2363,6 +2659,7 @@ const characterData = [
     enhancers: ["star nemesis morgana", "coven morgana", "bewitching morgana"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2372,15 +2669,17 @@ const characterData = [
     enhancers: ["coven nami", "splended staff nami"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "vex (league of legends)",
     category: "League of Legends",
     mainTags: "vex (league of legends), yellow eyes, blue hair, long hair, frown, grey skin, yordle, league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2396,6 +2695,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2415,6 +2715,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2424,6 +2725,7 @@ const characterData = [
     enhancers: ["spirit blossom lillia", "shan hai scrolls lillia"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2438,51 +2740,57 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "camille (league of legends)",
     category: "League of Legends",
     mainTags: "camille (league of legends), blue eyes, gray hair, short hair, prosthesis, mechanical legs, league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nilah (league of legends)",
     category: "League of Legends",
     mainTags: "nilah (league of legends), purple eyes, blue hair, long hair, dark skin, tattoos, league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "2b (nier:automata)",
     category: "Nier",
     mainTags: "2b (nier:automata), blue eyes, white hair, short hair, nier (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "a2 (nier:automata)",
     category: "Nier",
     mainTags: "a2 (nier:automata), blue eyes, white hair, long hair, nier (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "2p (nier:automata)",
     category: "Nier",
     mainTags: "2p (nier:automata), blue eyes, black hair, short hair, dark skin, dark-skinned female, nier (series), soulcalibur",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2497,6 +2805,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2506,6 +2815,7 @@ const characterData = [
     enhancers: ["[headband", "hakama]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2520,6 +2830,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2529,6 +2840,7 @@ const characterData = [
     enhancers: ["[blue shorts", "white shirt", "short twintails]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2544,6 +2856,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2553,6 +2866,7 @@ const characterData = [
     enhancers: ["[white dress", "hat]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2562,6 +2876,7 @@ const characterData = [
     enhancers: ["[hat", "jean shorts", "vest]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2571,6 +2886,7 @@ const characterData = [
     enhancers: ["[yellow shirt", "red hat", "white shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2580,6 +2896,7 @@ const characterData = [
     enhancers: ["[pink dress", "black jacket", "open jacket", "medium hair]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2596,6 +2913,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2611,6 +2929,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2626,6 +2945,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2635,6 +2955,7 @@ const characterData = [
     enhancers: ["[black pants", "black coat", "fur trim]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2644,6 +2965,7 @@ const characterData = [
     enhancers: ["[yellow jacket", "grey shirt", "single leg pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2653,6 +2975,7 @@ const characterData = [
     enhancers: ["[crop top", "bikini shorts", "hoop earrings]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2662,6 +2985,7 @@ const characterData = [
     enhancers: ["[blue kimono", "blue pants", "headscarf", "loose socks]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2677,6 +3001,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2686,6 +3011,7 @@ const characterData = [
     enhancers: ["[blue overalls", "white hat", "bow", "red shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2701,6 +3027,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2710,6 +3037,7 @@ const characterData = [
     enhancers: ["[white hat", "red skirt", "blue shirt", "yellow bag]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2725,6 +3053,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2743,6 +3072,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2752,6 +3082,7 @@ const characterData = [
     enhancers: ["[white sleeveless dress", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2768,6 +3099,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2782,6 +3114,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2796,6 +3129,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2811,6 +3145,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2826,6 +3161,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2835,6 +3171,7 @@ const characterData = [
     enhancers: ["[blue shorts", "black shirt", "yellow bag]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2850,6 +3187,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2864,6 +3202,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2878,15 +3217,17 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ranni the witch",
     category: "Elden Ring",
     mainTags: "ranni the witch, blue eyes, blue hair, long hair, colored skin, blue skin, witch hat, elden ring, {{{{{{{extra arms, four arms}}}}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2896,6 +3237,7 @@ const characterData = [
     enhancers: ["[black dress", "belts", "tiara", "cleavage]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2905,6 +3247,7 @@ const characterData = [
     enhancers: ["[hooded cloak", "hood down]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2914,6 +3257,7 @@ const characterData = [
     enhancers: ["white dress"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2923,6 +3267,7 @@ const characterData = [
     enhancers: ["[armor", "mechanical arm", "helmet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2938,6 +3283,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2947,15 +3293,17 @@ const characterData = [
     enhancers: ["[helmet", "chainmail", "red shawl]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "bloody wolf (elden ring)",
     category: "Elden Ring",
     mainTags: "bloody wolf (elden ring), brown eyes, brown hair, short hair, full armor, elden ring",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2965,6 +3313,7 @@ const characterData = [
     enhancers: ["[fur cape", "armor]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2974,6 +3323,7 @@ const characterData = [
     enhancers: ["[full armor", "helmet", "horse]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2983,6 +3333,7 @@ const characterData = [
     enhancers: ["staff"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -2992,6 +3343,7 @@ const characterData = [
     enhancers: ["[black robe", "epaulettes", "tall hat]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3008,6 +3360,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3017,6 +3370,7 @@ const characterData = [
     enhancers: ["[mechanical arm", "grey dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3026,6 +3380,7 @@ const characterData = [
     enhancers: ["[stone mask", "helmet", "crystal]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3035,6 +3390,7 @@ const characterData = [
     enhancers: ["[black dress", "black veil", "fringe trim", "hooded dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3044,6 +3400,7 @@ const characterData = [
     enhancers: ["[full armor", "white cloak", "no hood", "holding helmet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3059,15 +3416,17 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "patches (fromsoftware)",
     category: "Elden Ring",
     mainTags: "patches (fromsoftware), brown eyes, bald, elden ring",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3077,6 +3436,7 @@ const characterData = [
     enhancers: ["[asymmetric horns", "simple robe", "torn robe]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3086,6 +3446,7 @@ const characterData = [
     enhancers: ["[mask", "hooded robe", "cowl", "belt pouch]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3095,6 +3456,7 @@ const characterData = [
     enhancers: ["[white tunic", "short sleeves", "long skirt", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3104,6 +3466,7 @@ const characterData = [
     enhancers: ["[black armor", "golden trim", "golden armor]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3113,6 +3476,7 @@ const characterData = [
     enhancers: ["[grey dress", "red hooded cape", "brown gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3128,6 +3492,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3137,6 +3502,7 @@ const characterData = [
     enhancers: ["[black robe", "cloak]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3146,6 +3512,7 @@ const characterData = [
     enhancers: ["[armor", "full armor", "armored boots", "cape]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3155,6 +3522,7 @@ const characterData = [
     enhancers: ["[brown robe", "bandages", "cloak]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3164,6 +3532,7 @@ const characterData = [
     enhancers: ["[brown cloak", "crown]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3173,6 +3542,7 @@ const characterData = [
     enhancers: ["[black robe", "white cloak", "mask", "brown gloves]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3182,6 +3552,7 @@ const characterData = [
     enhancers: ["[full armor", "helmet", "cloak]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3191,6 +3562,7 @@ const characterData = [
     enhancers: ["[bandeau", "fur-trimmed armor", "fur-trimmed armor]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3210,6 +3582,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3219,6 +3592,7 @@ const characterData = [
     enhancers: ["[full armor", "holding helmet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3228,15 +3602,17 @@ const characterData = [
     enhancers: ["helmet"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "midra lord of frenzied flame",
     category: "Elden Ring",
     mainTags: "midra lord of frenzied flame, yellow eyes, gray hair, long hair, emaciated, flaming head, shawl, elden ring",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3252,6 +3628,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3261,15 +3638,17 @@ const characterData = [
     enhancers: ["[crown", "cape", "long hair", "full beard", "ornate clothes]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "shadowheart (baldur's gate)",
     category: "Baldur's Gate 3",
     mainTags: "shadowheart (baldur's gate), green eyes, black hair, long hair, single braid, baldur's gate 3, baldur's gate",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3279,6 +3658,7 @@ const characterData = [
     enhancers: ["leather armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3288,6 +3668,7 @@ const characterData = [
     enhancers: ["ornate clothes"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3297,6 +3678,7 @@ const characterData = [
     enhancers: ["red bodysuit"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3306,6 +3688,7 @@ const characterData = [
     enhancers: ["[full armor", "boobplate", "greaves", "cuisses]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3315,6 +3698,7 @@ const characterData = [
     enhancers: ["full armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3324,6 +3708,7 @@ const characterData = [
     enhancers: ["purple robe"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3333,6 +3718,7 @@ const characterData = [
     enhancers: ["black armor"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3342,6 +3728,7 @@ const characterData = [
     enhancers: ["[blue dress, cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3351,6 +3738,7 @@ const characterData = [
     enhancers: ["black armor", "ornate clothes"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3360,6 +3748,7 @@ const characterData = [
     enhancers: ["[white shirt", "open jacket", "bike shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3375,6 +3764,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3391,6 +3781,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3406,6 +3797,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3415,6 +3807,7 @@ const characterData = [
     enhancers: ["[two-tone dress", "blue jacket", "thigh belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3424,6 +3817,7 @@ const characterData = [
     enhancers: ["[mask on head", "red dress", "chinese clothes]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3433,6 +3827,7 @@ const characterData = [
     enhancers: ["[halo", "two-tone dress", "gloves", "bracelet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3450,6 +3845,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3466,6 +3862,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3482,6 +3879,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3491,6 +3889,7 @@ const characterData = [
     enhancers: ["[hair flower", "green dress", "chinese clothes]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3500,6 +3899,7 @@ const characterData = [
     enhancers: ["[black jumper", "detached sleeves", "one elbow glove]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3509,6 +3909,7 @@ const characterData = [
     enhancers: ["[hair ornament", "white dress", "two-sided cloak]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3524,6 +3925,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3539,6 +3941,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3554,6 +3957,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3569,6 +3973,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3584,6 +3989,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3599,6 +4005,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3615,6 +4022,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3632,6 +4040,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3647,6 +4056,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3664,6 +4074,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3680,6 +4091,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3699,6 +4111,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3715,6 +4128,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3732,6 +4146,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3750,6 +4165,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3759,6 +4175,7 @@ const characterData = [
     enhancers: ["[black off-shoulder dress", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3776,6 +4193,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3794,6 +4212,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3811,6 +4230,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3828,6 +4248,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3846,6 +4267,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3860,6 +4282,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3876,6 +4299,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3891,6 +4315,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3906,6 +4331,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3915,6 +4341,7 @@ const characterData = [
     enhancers: ["[hair flower", "white dress", "black trim", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3931,6 +4358,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3948,6 +4376,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3965,6 +4394,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3978,6 +4408,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -3993,6 +4424,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4007,6 +4439,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4024,6 +4457,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4040,6 +4474,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4049,6 +4484,7 @@ const characterData = [
     enhancers: ["[hat", "hat ornament", "red dress", "gloves", "kneehighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4058,6 +4494,7 @@ const characterData = [
     enhancers: ["[halo", "white dress", "wide sleeves", "single thighhigh]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4076,6 +4513,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4092,6 +4530,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4109,6 +4548,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4125,6 +4565,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4140,6 +4581,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4159,6 +4601,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4175,6 +4618,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4191,6 +4635,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4209,6 +4654,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4229,6 +4675,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4245,6 +4692,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4261,6 +4709,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4277,6 +4726,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4299,6 +4749,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4318,6 +4769,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4337,6 +4789,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4355,6 +4808,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4364,6 +4818,7 @@ const characterData = [
     enhancers: ["[hair ribbon", "white shirt", "pantyhose", "black leotard]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4381,6 +4836,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4396,6 +4852,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4411,6 +4868,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4430,6 +4888,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4439,6 +4898,7 @@ const characterData = [
     enhancers: ["[choker", "black bikesuit", "red trim", "zipper]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4457,6 +4917,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4472,6 +4933,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4481,6 +4943,7 @@ const characterData = [
     enhancers: ["[ninja", "mask", "miniskirt", "black gloves", "jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4496,6 +4959,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4517,6 +4981,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4534,6 +4999,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4550,6 +5016,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4559,6 +5026,7 @@ const characterData = [
     enhancers: ["[hat", "blue dress", "white gloves", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4575,6 +5043,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4590,6 +5059,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4608,6 +5078,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4622,6 +5093,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4631,6 +5103,7 @@ const characterData = [
     enhancers: ["[hat", "lolita fashion", "two-tone skirt", "puffy sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4647,6 +5120,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4664,6 +5138,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4673,6 +5148,7 @@ const characterData = [
     enhancers: ["[blue dress", "gradient clothes]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4689,6 +5165,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4706,6 +5183,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4722,6 +5200,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4742,6 +5221,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4751,6 +5231,7 @@ const characterData = [
     enhancers: ["[maid apron", "maid headdress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4760,6 +5241,7 @@ const characterData = [
     enhancers: ["[black necktie", "white shirt", "black skirt", "pantyhose", "corset", "gauntlets]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4769,6 +5251,7 @@ const characterData = [
     enhancers: ["[black shirt", "black shorts", "green jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4778,6 +5261,7 @@ const characterData = [
     enhancers: ["[hair bows", "black jacket", "shoulder cutout", "white crop top", "black denim shorts", "single thighhigh", "belts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4787,6 +5271,7 @@ const characterData = [
     enhancers: ["[hairclip", "black shirt", "jacket", "long sleeves", "fingerless gloves", "grey shorts", "single thighhigh]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4796,6 +5281,7 @@ const characterData = [
     enhancers: ["[collared shirt", "ribbon", "black skirt", "single shoulder pad", "single gauntlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4805,6 +5291,7 @@ const characterData = [
     enhancers: ["[police uniform", "black pants", "jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4814,6 +5301,7 @@ const characterData = [
     enhancers: ["[glasses on head", "hair ornament", "leather jacket", "fingerless gloves", "black tube top", "pleated skirt", "belt", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4823,6 +5311,7 @@ const characterData = [
     enhancers: ["[spiked helmet", "red eyes", "leather jacket", "black denim shorts", "belt", "knee boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4832,6 +5321,7 @@ const characterData = [
     enhancers: ["[green jacket", "wrist cuffs", "white shirt", "black tie", "black skirt", "thigh holster]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4841,6 +5331,7 @@ const characterData = [
     enhancers: ["[glasses on head", "black halter top", "single sleeve", "fingerless gloves", "single elbow glove", "black pants", "holster", "knee pads]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4850,6 +5341,7 @@ const characterData = [
     enhancers: ["[blue shirt", "black shorts", "knee boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4859,6 +5351,7 @@ const characterData = [
     enhancers: ["[hair ornament", "black horns", "fur-trimmed red jacket", "prosthetic arm", "black short shorts", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4868,6 +5361,7 @@ const characterData = [
     enhancers: ["[armored jacket", "green jacket", "fingerless gloves", "black skirt", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4877,6 +5371,7 @@ const characterData = [
     enhancers: ["[maid headdress", "maid apron", "black dress", "black ribbon", "wrist cuffs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4886,6 +5381,7 @@ const characterData = [
     enhancers: ["[maid headdress", "red eyes", "maid apron]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4895,15 +5391,17 @@ const characterData = [
     enhancers: ["[neck bell", "red headband", "detached red sleeves", "knee boots", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "piper wheel",
     category: "Zenless Zone Zero",
     mainTags: "piper wheel, blue eyes, brown hair, long hair, zenless zone zero",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4913,51 +5411,57 @@ const characterData = [
     enhancers: ["[fake animal ears", "white pants", "goggles around neck", "multicolored crop top]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "cortana",
     category: "Other",
     mainTags: "cortana, purple eyes, blue hair, short hair, translucent, hologram, blue skin, halo (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "morrigan (dragon age)",
     category: "Other",
     mainTags: "morrigan (dragon age), yellow eyes, black hair, long hair, dragon age",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "quiet (metal gear)",
     category: "Other",
     mainTags: "quiet (metal gear), green eyes, brown hair, short hair, metal gear (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "palutena",
     category: "Other",
     mainTags: "palutena, green eyes, green hair, very long hair, kid icarus",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "bloodrayne",
     category: "Other",
     mainTags: "bloodrayne, green eyes, red hair, long hair, bloodrayne (videogame), leather",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4967,6 +5471,7 @@ const characterData = [
     enhancers: ["varia suit", "power suit", "power armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -4976,33 +5481,37 @@ const characterData = [
     enhancers: ["muscular female", "[brown short shorts", "tank top", "thigh holster]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "bayonetta",
     category: "Other",
     mainTags: "bayonetta, blue eyes, black hair, very long hair, bayonetta (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "jeanne (bayonetta)",
     category: "Other",
     mainTags: "jeanne (bayonetta), red eyes, white hair, very long hair, bayonetta (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "elizabeth (bioshock infinite)",
     category: "Other",
     mainTags: "elizabeth (bioshock infinite), blue eyes, brown hair, long hair, bioshock (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -5012,321 +5521,357 @@ const characterData = [
     enhancers: ["valerie (cyberpunk)", "vincent (cyberpunk)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "arcane vi",
     category: "Arcane: League of Legends",
     mainTags: "arcane vi, blue eyes, pink hair, short hair, arcane: league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "arcane jinx",
     category: "Arcane: League of Legends",
     mainTags: "arcane jinx, blue eyes, blue hair, very long hair, braid, arcane: league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "arcane caitlyn",
     category: "Arcane: League of Legends",
     mainTags: "arcane caitlyn, blue eyes, blue hair, long hair, arcane: league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "firelight ekko",
     category: "Arcane: League of Legends",
     mainTags: "firelight ekko, brown eyes, black hair, short hair, very dark skin, dark-skinned male, arcane: league of legends",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kiwi (cyberpunk)",
     category: "Cyberpunk: Edgerunners",
     mainTags: "kiwi (cyberpunk), blue eyes, blonde hair, short hair, cyberpunk edgerunners",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "rebecca (cyberpunk)",
     category: "Cyberpunk: Edgerunners",
     mainTags: "rebecca (cyberpunk), green eyes, teal hair, short hair, twintails, cyberpunk edgerunners",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "lucy (cyberpunk)",
     category: "Cyberpunk: Edgerunners",
     mainTags: "lucy (cyberpunk), purple eyes, white hair, short hair, multicolored hair, cyberpunk edgerunners",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "darkness (konosuba)",
     category: "Konosuba",
     mainTags: "darkness (konosuba), blue eyes, blonde hair, long hair, kono subarashii sekai ni shukufuku wo!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "aqua (konosuba)",
     category: "Konosuba",
     mainTags: "aqua (konosuba), blue eyes, blue hair, long hair, kono subarashii sekai ni shukufuku wo!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "megumin",
     category: "Konosuba",
     mainTags: "megumin, red eyes, brown hair, long hair, kono subarashii sekai ni shukufuku wo!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "yunyun (konosuba)",
     category: "Konosuba",
     mainTags: "yunyun (konosuba), red eyes, red hair, long hair, twintails, kono subarashii sekai ni shukufuku wo!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "wiz (konosuba)",
     category: "Konosuba",
     mainTags: "wiz (konosuba), purple eyes, brown hair, long hair, kono subarashii sekai ni shukufuku wo!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "iris (konosuba)",
     category: "Konosuba",
     mainTags: "iris (konosuba), blue eyes, blonde hair, long hair, kono subarashii sekai ni shukufuku wo!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "komekko",
     category: "Konosuba",
     mainTags: "komekko, red eyes, red hair, short hair, kono subarashii sekai ni shukufuku wo!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "chris (konosuba)",
     category: "Konosuba",
     mainTags: "chris (konosuba), blue eyes, silver hair, short hair, kono subarashii sekai ni shukufuku wo!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "revy (black lagoon)",
     category: "Black Lagoon",
     mainTags: "revy (black lagoon), blue eyes, black hair, long hair, ponytail, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "balalaika (black lagoon)",
     category: "Black Lagoon",
     mainTags: "balalaika (black lagoon), blue eyes, blonde hair, long hair, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "roberta (black lagoon)",
     category: "Black Lagoon",
     mainTags: "roberta (black lagoon), brown eyes, black hair, long hair, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "nico robin",
     category: "One Piece",
     mainTags: "nico robin, blue eyes, black hair, long hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "nami (one piece)",
     category: "One Piece",
     mainTags: "nami (one piece), brown eyes, orange hair, long hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "law-chan",
     category: "One Piece",
     mainTags: "law-chan, grey eyes, black hair, short hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "boa hancock",
     category: "One Piece",
     mainTags: "boa hancock, blue eyes, black hair, very long hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "miss valentine",
     category: "One Piece",
     mainTags: "miss valentine, brown eyes, blonde hair, short hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "yamato (one piece)",
     category: "One Piece",
     mainTags: "yamato (one piece), blue eyes, white hair, long hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "s-snake",
     category: "One Piece",
     mainTags: "s-snake, blue eyes, black hair, long hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kalifa (one piece)",
     category: "One Piece",
     mainTags: "kalifa (one piece), blue eyes, blonde hair, long hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "uta (one piece)",
     category: "One Piece",
     mainTags: "uta (one piece), purple eyes, red hair, long hair, white hair, two-tone hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "monet (one piece)",
     category: "One Piece",
     mainTags: "monet (one piece), yellow eyes, green hair, long hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "vegapunk lilith",
     category: "One Piece",
     mainTags: "vegapunk lilith, brown eyes, pink hair, long hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "jewelry bonney",
     category: "One Piece",
     mainTags: "jewelry bonney, green eyes, pink hair, long hair, one piece",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "lust (fma)",
     category: "Fullmetal Alchemist",
     mainTags: "lust (fma), purple eyes, black hair, long hair, fullmetal alchemist",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "riza hawkeye",
     category: "Fullmetal Alchemist",
     mainTags: "riza hawkeye, brown eyes, blonde hair, long hair, fullmetal alchemist",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "winry rockbell",
     category: "Fullmetal Alchemist",
     mainTags: "winry rockbell, blue eyes, blonde hair, long hair, ponytail, fullmetal alchemist",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "olivier mira armstrong",
     category: "Fullmetal Alchemist",
     mainTags: "olivier mira armstrong, blue eyes, blonde hair, long hair, muscular female, fullmetal alchemist",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "may chang",
     category: "Fullmetal Alchemist",
     mainTags: "may chang, brown eyes, black hair, long hair, twin hair bun, fullmetal alchemist",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5336,6 +5881,7 @@ const characterData = [
     enhancers: ["[jeans", "white shirt", "blue vest", "hat]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5345,6 +5891,7 @@ const characterData = [
     enhancers: ["[jean shorts", "yellow crop top", "suspenders]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5354,6 +5901,7 @@ const characterData = [
     enhancers: ["[white skirt", "black shirt", "shirt under shirt", "team rocket uniform", "team rocket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5363,6 +5911,7 @@ const characterData = [
     enhancers: ["[white pants", "black shirt", "shirt under shirt", "team rocket uniform", "team rocket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5372,6 +5921,7 @@ const characterData = [
     enhancers: ["[nurse", "nurse cap", "apron", "pink dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5381,6 +5931,7 @@ const characterData = [
     enhancers: ["[police woman", "police hat", "pencil skirt", "two-tone shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5390,6 +5941,7 @@ const characterData = [
     enhancers: ["[beanie", "black vest", "pink skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5399,6 +5951,7 @@ const characterData = [
     enhancers: ["[red bandanna", "blue shorts", "shirt under shirt", "gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5408,6 +5961,7 @@ const characterData = [
     enhancers: ["[white dress", "white bow]", "[blue dress", "hair ornament", "white sweater", "orange bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5417,6 +5971,7 @@ const characterData = [
     enhancers: ["[one-piece swimsuit", "swimsuit under clothes", "blue pants", "white crop top]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5426,6 +5981,7 @@ const characterData = [
     enhancers: ["[hair ornament", "blue shorts", "white shirt", "jacket", "yellow bag]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5435,6 +5991,7 @@ const characterData = [
     enhancers: ["[two-tone latex dress", "thighhigh boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5444,6 +6001,7 @@ const characterData = [
     enhancers: ["[crown", "pink dress", "two-tone dress", "bow", "wide sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5453,6 +6011,7 @@ const characterData = [
     enhancers: ["[striped sweater", "black tanktop", "green pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5462,6 +6021,7 @@ const characterData = [
     enhancers: ["[black crop top", "long sleeves", "black pants", "one thigh cutout", "kneehigh boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5471,6 +6031,7 @@ const characterData = [
     enhancers: ["[green vest", "orange shirt", "brown pants", "belt pouch]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5480,6 +6041,7 @@ const characterData = [
     enhancers: ["[white dress", "blue trim", "yellow tie", "knee socks", "backpack]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5489,6 +6051,7 @@ const characterData = [
     enhancers: ["[pink jacket", "open jacket", "yellow shirt", "blue skirt", "yellow belt", "belt buckle]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5498,6 +6061,7 @@ const characterData = [
     enhancers: ["[hair ornament", "brown shirt", "black bow", "black shorts", "shorts under skirt", "white skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5507,6 +6071,7 @@ const characterData = [
     enhancers: ["[green shirt", "yellow tie", "green shorts", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5516,6 +6081,7 @@ const characterData = [
     enhancers: ["[two-tone dress", "black pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
   {
@@ -5525,6 +6091,7 @@ const characterData = [
     enhancers: ["[two-tone dress", "tail]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies",
   },
   {
@@ -5534,6 +6101,7 @@ const characterData = [
     enhancers: ["[two-tone dress", "tail]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies",
   },
   {
@@ -5550,6 +6118,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5562,6 +6131,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5573,6 +6143,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5585,6 +6156,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5596,6 +6168,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5608,6 +6181,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5620,6 +6194,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5634,6 +6209,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5647,6 +6223,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5662,6 +6239,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5671,6 +6249,7 @@ const characterData = [
     enhancers: ["[jumpsuit", "turban]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5684,6 +6263,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5698,6 +6278,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5711,69 +6292,77 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "tokisaki kurumi",
     category: "Date a Live",
     mainTags: "tokisaki kurumi, red eyes, black hair, long hair, twintails, date a live",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hoshimiya mukuro",
     category: "Date a Live",
     mainTags: "hoshimiya mukuro, purple eyes, blonde hair, very long hair, date a live",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "himekawa yoshino",
     category: "Date a Live",
     mainTags: "himekawa yoshino, blue eyes, blue hair, short hair, date a live",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kyouno natsumi",
     category: "Date a Live",
     mainTags: "kyouno natsumi, green eyes, green hair, long hair, date a live",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "izayoi miku",
     category: "Date a Live",
     mainTags: "izayoi miku, purple eyes, blonde hair, long hair, date a live",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "sonogami rinne",
     category: "Date a Live",
     mainTags: "sonogami rinne, purple eyes, pink hair, long hair, date a live",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "tobiichi origami",
     category: "Date a Live",
     mainTags: "tobiichi origami, blue eyes, white hair, short hair, date a live",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5787,6 +6376,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5800,6 +6390,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5812,6 +6403,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5825,6 +6417,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5836,6 +6429,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5848,6 +6442,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5857,6 +6452,7 @@ const characterData = [
     enhancers: ["[white cape, bracers, purple dress, black shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5869,6 +6465,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5881,6 +6478,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5893,6 +6491,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5905,6 +6504,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5914,6 +6514,7 @@ const characterData = [
     enhancers: ["cowboy hat"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5923,6 +6524,7 @@ const characterData = [
     enhancers: ["cowboy hat"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5932,6 +6534,7 @@ const characterData = [
     enhancers: ["[black coat", "white shirt", "necktie", "plaid skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5941,6 +6544,7 @@ const characterData = [
     enhancers: ["[headband, two-tone jacket, red pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5950,6 +6554,7 @@ const characterData = [
     enhancers: ["[eyepatch", "black shirt", "black wide sleeves", "yellow dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5968,6 +6573,7 @@ const characterData = [
     enhancers: ["[asymmetric hair", "formal clothes", "bolo tie]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5977,6 +6583,7 @@ const characterData = [
     enhancers: ["[witch hat", "wide sleeves", "black dress", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5986,6 +6593,7 @@ const characterData = [
     enhancers: ["[white dress", "single side slit", "detached sleeves", "star symbol]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -5995,6 +6603,7 @@ const characterData = [
     enhancers: ["[high collar", "sleeveless black shirt", "two-tone pants", "fingerless gloves]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6004,6 +6613,7 @@ const characterData = [
     enhancers: ["[hooded leotard", "black pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6013,6 +6623,7 @@ const characterData = [
     enhancers: ["[jumpsuit", "belt pouch", "gloves]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6022,6 +6633,7 @@ const characterData = [
     enhancers: ["[white bodysuit", "black leotard", "thighhighs]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6031,6 +6643,7 @@ const characterData = [
     enhancers: ["[red leotard", "high collar", "yellow belts]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6040,6 +6653,7 @@ const characterData = [
     enhancers: ["u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6049,6 +6663,7 @@ const characterData = [
     enhancers: ["[crescent print", "white leotard", "thighhighs", "fur collar]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6058,6 +6673,7 @@ const characterData = [
     enhancers: ["[black sleeveless shirt", "gloves", "black pants", "belt", "collar", "eye mask]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6067,6 +6683,7 @@ const characterData = [
     enhancers: ["[mask", "sweater", "sleeves past wrists", "red kerchief", "blue skirt", "thigh holders", "tank (container)s]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6076,6 +6693,7 @@ const characterData = [
     enhancers: ["[green bodysuit", "gloves", "goggles on head]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6085,6 +6703,7 @@ const characterData = [
     enhancers: ["[fur-trimmed jacket", "glasses", "black shirt", "gloves", "yellow pants]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6094,6 +6713,7 @@ const characterData = [
     enhancers: ["[superhero costume", "fingerless gloves", "shoulder armor]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6103,6 +6723,7 @@ const characterData = [
     enhancers: ["[multicolored sleeveless leotard", "fur-trimmed vest", "eye mask]", "[purple tank top", "denim shorts]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6112,6 +6733,7 @@ const characterData = [
     enhancers: ["[pink shirt", "black pants", "white gloves", "black jacket]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6121,6 +6743,7 @@ const characterData = [
     enhancers: ["[bodysuit", "gloves", "wrist cuffs]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6130,6 +6753,7 @@ const characterData = [
     enhancers: ["grey gloves", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6139,6 +6763,7 @@ const characterData = [
     enhancers: ["[black pants", "black sleeves", "headgear", "belt", "shoulder pads]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6148,6 +6773,7 @@ const characterData = [
     enhancers: ["[muscular male", "superhero costume]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6157,6 +6783,7 @@ const characterData = [
     enhancers: ["[black jacket", "black necktie", "white shirt", "black pants]", "[loose white t-shirt", "green pants", "belt buckle]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6166,6 +6793,7 @@ const characterData = [
     enhancers: ["[black jacket", "black pants", "scarf", "utility belt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6175,6 +6803,7 @@ const characterData = [
     enhancers: ["[black jacket", "white shirt", "black pants", "belt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6184,6 +6813,7 @@ const characterData = [
     enhancers: ["[red dress", "white shirt", "black leggings", "shoulder bag]", "[long short sleeve white dress", "arm bandages", "leg bandages]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6193,6 +6823,7 @@ const characterData = [
     enhancers: ["[black tanktop", "black pants", "gloves", "goggles on head]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6202,6 +6833,7 @@ const characterData = [
     enhancers: ["[superhero costume", "domino mask]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6211,6 +6843,7 @@ const characterData = [
     enhancers: ["[china dress", "domino mask", "belt]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6220,6 +6853,7 @@ const characterData = [
     enhancers: ["[black bodysuit", "police hat", "wrist cuffs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6229,6 +6863,7 @@ const characterData = [
     enhancers: ["[purple sweater", "white shirt", "black skirt]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6238,6 +6873,7 @@ const characterData = [
     enhancers: ["[purple dress", "belt", "knee boots]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6247,6 +6883,7 @@ const characterData = [
     enhancers: ["[headgear", "wrist cuffs", "bodysuit]", "u.a. school uniform", "[u.a. school uniform", "grey jacket]", "u.a. gym uniform", "[u.a. cheerleader uniform", "orange shirt", "orange skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6256,6 +6893,7 @@ const characterData = [
     enhancers: ["[mask over one eye", "head wings", "red dress", "detached sleeves", "side slit", "thigh holster]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6265,6 +6903,7 @@ const characterData = [
     enhancers: ["[white shirt", "blue vest", "pink bow", "white puffy pants", "gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6283,6 +6922,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6311,6 +6951,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6331,6 +6972,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6347,6 +6989,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6364,6 +7007,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6373,6 +7017,7 @@ const characterData = [
     enhancers: ["[trench coat, orange skirt, fishnet top]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6389,6 +7034,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -6398,807 +7044,897 @@ const characterData = [
     enhancers: ["[grey shirt", "grey shorts", "thighhighs", "thigh holster]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "uzumaki kushina",
     category: "Naruto",
     mainTags: "uzumaki kushina, blue eyes, red hair, long hair, naruto (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "uchiha sarada",
     category: "Naruto",
     mainTags: "uchiha sarada, black eyes, black hair, short hair, naruto (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "makima (chainsaw man)",
     category: "Chainsaw Man",
     mainTags: "makima (chainsaw man), yellow eyes, red hair, long hair, chainsaw man",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "reze (chainsaw man)",
     category: "Chainsaw Man",
     mainTags: "reze (chainsaw man), green eyes, purple hair, short hair, chainsaw man",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "yoru (chainsaw man)",
     category: "Chainsaw Man",
     mainTags: "yoru (chainsaw man), red eyes, black hair, long hair, chainsaw man",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "himeno (chainsaw man)",
     category: "Chainsaw Man",
     mainTags: "himeno (chainsaw man), brown eyes, black hair, short hair, chainsaw man",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "power (chainsaw man)",
     category: "Chainsaw Man",
     mainTags: "power (chainsaw man), yellow eyes, blonde hair, long hair, chainsaw man",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "higashiyama kobeni",
     category: "Chainsaw Man",
     mainTags: "higashiyama kobeni, brown eyes, brown hair, short hair, ponytail, chainsaw man",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "esdeath",
     category: "Akame Ga Kill!",
     mainTags: "esdeath, blue eyes, blue hair, long hair, akame ga kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "akame (akame ga kill!)",
     category: "Akame Ga Kill!",
     mainTags: "akame (akame ga kill!), red eyes, black hair, long hair, akame ga kill!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "najenda (akame ga kill!)",
     category: "Akame Ga Kill!",
     mainTags: "najenda (akame ga kill!), purple eyes, silver hair, short hair, akame ga kill!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "mine (akame ga kill!)",
     category: "Akame Ga Kill!",
     mainTags: "mine (akame ga kill!), pink eyes, pink hair, long hair, twintails, akame ga kill!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "chelsa (akame ga kill!)",
     category: "Akame Ga Kill!",
     mainTags: "chelsa (akame ga kill!), brown eyes, orange hair, short hair, akame ga kill!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "leone (akame ga kill!)",
     category: "Akame Ga Kill!",
     mainTags: "leone (akame ga kill!), yellow eyes, blonde hair, long hair, akame ga kill!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hatsune miku",
     category: "Other",
     mainTags: "hatsune miku, blue eyes, blue hair, long hair, twin tails",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hinata hajime",
     category: "Danganronpa",
     mainTags: "hinata hajime, brown eyes, brown hair, short hair, spiked hair, danganronpa (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "erza scarlet",
     category: "Fairy Tail",
     mainTags: "erza scarlet, brown eyes, red hair, long hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "lucy heartfilia",
     category: "Fairy Tail",
     mainTags: "lucy heartfilia, brown eyes, blonde hair, long hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "wendy marvell",
     category: "Fairy Tail",
     mainTags: "wendy marvell, brown eyes, blue hair, long hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "juvia lockser",
     category: "Fairy Tail",
     mainTags: "juvia lockser, blue eyes, blue hair, long hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "lisanna strauss",
     category: "Fairy Tail",
     mainTags: "lisanna strauss, blue eyes, white hair, short hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "cana alberona",
     category: "Fairy Tail",
     mainTags: "cana alberona, brown eyes, brown hair, long hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "mirajane strauss",
     category: "Fairy Tail",
     mainTags: "mirajane strauss, blue eyes, white hair, long hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "levy mcgarden",
     category: "Fairy Tail",
     mainTags: "levy mcgarden, blue eyes, blue hair, short hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "mavis vermilion",
     category: "Fairy Tail",
     mainTags: "mavis vermilion, green eyes, blonde hair, long hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "irene belserion",
     category: "Fairy Tail",
     mainTags: "irene belserion, red eyes, red hair, long hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "evergreen (fairy tail)",
     category: "Fairy Tail",
     mainTags: "evergreen (fairy tail), brown eyes, green hair, long hair, fairy tail",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "xenovia quarta",
     category: "Highschool DxD",
     mainTags: "xenovia quarta, blue eyes, blue hair, short hair, high school dxd",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "rias gremory",
     category: "Highschool DxD",
     mainTags: "rias gremory, blue eyes, red hair, long hair, high school dxd",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "himejima akeno",
     category: "Highschool DxD",
     mainTags: "himejima akeno, purple eyes, black hair, long hair, ponytail, high school dxd",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kuroka (high school dxd)",
     category: "Highschool DxD",
     mainTags: "kuroka (high school dxd), yellow eyes, black hair, long hair, high school dxd",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "rossweisse",
     category: "Highschool DxD",
     mainTags: "rossweisse, blue eyes, silver hair, long hair, high school dxd",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "toujou koneko",
     category: "Highschool DxD",
     mainTags: "toujou koneko, yellow eyes, white hair, short hair, high school dxd",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "shidou irina",
     category: "Highschool DxD",
     mainTags: "shidou irina, purple eyes, brown hair, long hair, twin tails, high school dxd",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kirishima touka",
     category: "Tokyo Ghoul",
     mainTags: "kirishima touka, blue eyes, blue hair, short hair, tokyo ghoul",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kamishiro rize",
     category: "Tokyo Ghoul",
     mainTags: "kamishiro rize, purple eyes, purple hair, long hair, tokyo ghoul",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "eto (tokyo ghoul)",
     category: "Tokyo Ghoul",
     mainTags: "eto (tokyo ghoul), green eyes, green hair, short hair, crazy eyes, heterochromia, tokyo ghoul",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "shiota nagisa",
     category: "Asssassination Classroom",
     mainTags: "shiota nagisa, blue eyes, blue hair, long hair, twin tails, ansatsu kyoushitsu",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "irina jelavic",
     category: "Asssassination Classroom",
     mainTags: "irina jelavic, blue eyes, blonde hair, long hair, ansatsu kyoushitsu",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "okuda manami",
     category: "Asssassination Classroom",
     mainTags: "okuda manami, brown eyes, brown hair, short hair, twin tails, ansatsu kyoushitsu",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kayano kaede",
     category: "Asssassination Classroom",
     mainTags: "kayano kaede, yellow eyes, green hair, short hair, twin tails, ansatsu kyoushitsu",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "shiro (no game no life)",
     category: "No Game, No Life",
     mainTags: "shiro (no game no life), blue eyes, white hair, long hair, no game no life",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "jibril (no game no life)",
     category: "No Game, No Life",
     mainTags: "jibril (no game no life), pink eyes, pink hair, long hair, no game no life",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "shuvi (no game no life)",
     category: "No Game, No Life",
     mainTags: "shuvi (no game no life), purple eyes, purple hair, long hair, no game no life",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hatsuse izuna",
     category: "No Game, No Life",
     mainTags: "hatsuse izuna, red eyes, brown hair, short hair, no game no life",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kamado nezuko",
     category: "Demon Slayer",
     mainTags: "kamado nezuko, pink eyes, black hair, long hair, kimetsu no yaiba",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kanroji mitsuri",
     category: "Demon Slayer",
     mainTags: "kanroji mitsuri, green eyes, pink hair, long hair, twin braids, kimetsu no yaiba",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kochou shinobu",
     category: "Demon Slayer",
     mainTags: "kochou shinobu, purple eyes, black hair, short hair, kimetsu no yaiba",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "busujima saeko",
     category: "Highschool of the Dead",
     mainTags: "busujima saeko, purple eyes, purple hair, long hair, highschool of the dead",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "miyamoto rei",
     category: "Highschool of the Dead",
     mainTags: "miyamoto rei, brown eyes, orange hair, long hair, highschool of the dead",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "takagi saya",
     category: "Highschool of the Dead",
     mainTags: "takagi saya, brown eyes, pink hair, long hair, twin tails, highschool of the dead",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "marikawa shizuka",
     category: "Highschool of the Dead",
     mainTags: "marikawa shizuka, brown eyes, blonde hair, long hair, blue sweater, highschool of the dead",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hestia (danmachi)",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "hestia (danmachi), blue eyes, black hair, long hair, twin tails, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "bell cranel",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "bell cranel, red eyes, white hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "ryu lion",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "ryu lion, blue eyes, blonde hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "aiz wallenstein",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "aiz wallenstein, blue eyes, blonde hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "liliruca arde",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "liliruca arde, brown eyes, brown hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "freya (danmachi)",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "freya (danmachi), purple eyes, silver hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "tiona hyryute",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "tiona hyryute, brown eyes, brown hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "sanjouno haruhime",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "sanjouno haruhime, green eyes, blonde hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "eina tulle",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "eina tulle, green eyes, brown hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "yamato mikoto",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "yamato mikoto, black eyes, black hair, long hair, ponytail, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "lefiya viridis",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "lefiya viridis, blue eyes, yellow hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "riveria ljos alf",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "riveria ljos alf, green eyes, green hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "wiene",
     category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
     mainTags: "wiene, blue eyes, blue hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "albedo (overlord)",
     category: "Overlord",
     mainTags: "albedo (overlord), yellow eyes, black hair, long hair, overlord (maruyama)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "shalltear bloodfallen",
     category: "Overlord",
     mainTags: "shalltear bloodfallen, red eyes, silver hair, short hair, overlord (maruyama)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "lupusregina beta",
     category: "Overlord",
     mainTags: "lupusregina beta, yellow eyes, red hair, long hair, twin tails, overlord (maruyama)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "clementine (overlord)",
     category: "Overlord",
     mainTags: "clementine (overlord), yellow eyes, blonde hair, short hair, overlord (maruyama)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "entoma vasilissa zeta",
     category: "Overlord",
     mainTags: "entoma vasilissa zeta, purple eyes, black hair, short hair, overlord (maruyama)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "solution epsilon",
     category: "Overlord",
     mainTags: "solution epsilon, blue eyes, blonde hair, long hair, overlord (maruyama)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "yuri alpha",
     category: "Overlord",
     mainTags: "yuri alpha, blue eyes, black hair, short hair, overlord (maruyama)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "faye valentine",
     category: "Cowboy Bebop",
     mainTags: "faye valentine, purple eyes, purple hair, short hair, cowboy bebop",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "edward wong hau pepelu tivrusky iv",
     category: "Cowboy Bebop",
     mainTags: "edward wong hau pepelu tivrusky iv, brown eyes, orange hair, short hair, cowboy bebop",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "julia (cowboy bebop)",
     category: "Cowboy Bebop",
     mainTags: "julia (cowboy bebop), blue eyes, blonde hair, long hair, cowboy bebop",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "yor briar",
     category: "SPY X FAMILY",
     mainTags: "yor briar, red eyes, black hair, long hair, spy x family",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "anya (spy x family)",
     category: "SPY X FAMILY",
     mainTags: "anya (spy x family), green eyes, pink hair, short hair, {{mature female, aged up}}, spy x family",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "matoi ryuuko",
     category: "Kill la Kill",
     mainTags: "matoi ryuuko, blue eyes, black hair, short hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "senketsu",
     category: "Kill la Kill",
     mainTags: "senketsu, blue eyes, black hair, short hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kiryuuin satsuki",
     category: "Kill la Kill",
     mainTags: "kiryuuin satsuki, blue eyes, black hair, long hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "junketsu",
     category: "Kill la Kill",
     mainTags: "junketsu, blue eyes, white hair, short hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "mankanshoku mako",
     category: "Kill la Kill",
     mainTags: "mankanshoku mako, brown eyes, brown hair, short hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "sanageyama uzu",
     category: "Kill la Kill",
     mainTags: "sanageyama uzu, brown eyes, black hair, short hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "inumuta houka",
     category: "Kill la Kill",
     mainTags: "inumuta houka, blue eyes, blue hair, short hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "harime nui",
     category: "Kill la Kill",
     mainTags: "harime nui, blue eyes, blonde hair, long hair, hair bow, big hair, eyepatch, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "mikisugi aikurou",
     category: "Kill la Kill",
     mainTags: "mikisugi aikurou, blue eyes, purple hair, short hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kiryuuin ragyou",
     category: "Kill la Kill",
     mainTags: "kiryuuin ragyou, red eyes, black hair, long hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kinagase tsumugu",
     category: "Kill la Kill",
     mainTags: "kinagase tsumugu, brown eyes, orange hair, short hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "iori shirou",
     category: "Kill la Kill",
     mainTags: "iori shirou, brown eyes, blonde hair, short hair, kill la kill",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -7208,213 +7944,237 @@ const characterData = [
     enhancers: ["jakuzure nonon (symphony regalia)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kim possible",
     category: "Kim Possible",
     mainTags: "kim possible, green eyes, red hair, long hair, black shirt, cleavage, green cargo pants, kim possible (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "ann possible",
     category: "Kim Possible",
     mainTags: "ann possible, blue eyes, red hair, long hair, purple dress, lab coat, kim possible (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "shego",
     category: "Kim Possible",
     mainTags: "shego, green eyes, black hair, long hair, black lips, cleavage cutout, two-tone leotard, fishnet pantyhose, kim possible (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "scarlet witch",
     category: "Marvel",
     mainTags: "scarlet witch, green eyes, brown hair, long hair, headgear, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "she-hulk",
     category: "Marvel",
     mainTags: "she-hulk, green eyes, green hair, long hair, muscular female, green skin, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "spider-gwen",
     category: "Marvel",
     mainTags: "spider-gwen, blue eyes, blonde hair, short hair, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "spider-woman",
     category: "Marvel",
     mainTags: "spider-woman, green eyes, black hair, long hair, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "loki (marvel)",
     category: "Marvel",
     mainTags: "loki (marvel), green eyes, blonde hair, short hair, sylvie laufeydottir, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "thor (marvel)",
     category: "Marvel",
     mainTags: "thor (marvel), blue eyes, blonde hair, long hair, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "iron man",
     category: "Marvel",
     mainTags: "iron man, blue eyes, black hair, short hair, power armor, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "sue storm",
     category: "Marvel",
     mainTags: "sue storm, blue eyes, blonde hair, long hair, blue bodysuit, fantastic four, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "cyclops (x-men)",
     category: "Marvel",
     mainTags: "cyclops (x-men), brown eyes, brown hair, short hair, x-men (anime), marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "emma frost",
     category: "Marvel",
     mainTags: "emma frost, blue eyes, blonde hair, long hair, fur trim, white cape, x-men, x-men (anime), marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "gambit",
     category: "Marvel",
     mainTags: "gambit, red eyes, brown hair, short hair, x-men (anime), marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "jean grey",
     category: "Marvel",
     mainTags: "jean grey, green eyes, red hair, long hair, green bodysuit, green headband, yellow gloves, elbow gloves, x-men, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "jubilee",
     category: "Marvel",
     mainTags: "jubilee, brown eyes, black hair, short hair, x-men, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "magik (x-men)",
     category: "Marvel",
     mainTags: "magik (x-men), blue eyes, blonde hair, long hair, abs, x-men, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "psylocke",
     category: "Marvel",
     mainTags: "psylocke, purple eyes, purple hair, long hair, facial mark, sword, butterfly, x-men (anime), marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "rogue (x-men)",
     category: "Marvel",
     mainTags: "rogue (x-men), green eyes, brown hair, long hair, x-men (anime), marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "wolverine(x-men)",
     category: "Marvel",
     mainTags: "wolverine(x-men), blue eyes, black hair, short hair, x-men (anime), x-men, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "black cat",
     category: "Marvel",
     mainTags: "black cat, blue eyes, white hair, long hair, domino mask, fur-trimmed bodysuit, spider-man (series), marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "doctor strange",
     category: "Marvel",
     mainTags: "doctor strange, gray eyes, black hair, short hair, eye of agamotto, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "deadpool",
     category: "Marvel",
     mainTags: "deadpool, brown eyes, black hair, short hair, bodysuit, deadpool (series), marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -7424,267 +8184,297 @@ const characterData = [
     enhancers: ["pink leotard", "belt", "belt pouch", "weapon on back", "thigh holster"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "carnage (marvel)",
     category: "Marvel",
     mainTags: "carnage (marvel), red eyes, red hair, very long hair, symbiote, claws, glowing eyes, living clothes, spider-man (series), marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "octor octopus",
     category: "Marvel",
     mainTags: "octor octopus, brown eyes, brown hair, short hair, mechanical tentacles, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "galactus",
     category: "Marvel",
     mainTags: "galactus, purple eyes, purple hair, short hair, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "magneto",
     category: "Marvel",
     mainTags: "magneto, blue eyes, white hair, short hair, cape, helmet, hair under helmet, bodysuit, x-men, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "mystique",
     category: "Marvel",
     mainTags: "mystique, yellow eyes, red hair, short hair, colored skin, blue skin, white leotard, cleavage cutout, x-men, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "venom (marvel)",
     category: "Marvel",
     mainTags: "venom (marvel), white eyes, black hair, short hair, black bodysuit, very long tongue, open mouth, sharp teeth, tentacles, symbiote, marvel",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "superman",
     category: "DC",
     mainTags: "superman, blue eyes, black hair, short hair, two-tone leotard, superman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "supergirl",
     category: "DC",
     mainTags: "supergirl, blue eyes, blonde hair, long hair, two-tone bodysuit, superman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "power girl",
     category: "DC",
     mainTags: "power girl, blue eyes, blonde hair, short hair, superman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "batman",
     category: "DC",
     mainTags: "batman, blue eyes, black hair, short hair, bodysuit, no mask, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "batgirl",
     category: "DC",
     mainTags: "batgirl, blue eyes, red hair, long hair, grey bodysuit, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "wonder woman",
     category: "DC",
     mainTags: "wonder woman, blue eyes, black hair, long hair, leotard, dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "green lantern",
     category: "DC",
     mainTags: "green lantern, brown eyes, black hair, short hair, domino mask, leotard, green lantern (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "the flash",
     category: "DC",
     mainTags: "the flash, blue eyes, brown hair, short hair, leotard, thighhigh boots, dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "zatanna zatara",
     category: "DC",
     mainTags: "zatanna zatara, blue eyes, black hair, long hair, fishnet pantyhose, two-tone leotard, black leotard, white leotard, holding wand, thighhigh boots, dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "robin (dc)",
     category: "DC",
     mainTags: "robin (dc), green eyes, black hair, short hair, spikey hair, domino mask, two-tone leotard, green gloves, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "nightwing",
     category: "DC",
     mainTags: "nightwing, blue eyes, black hair, short hair, bodysuit, domino mask, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "cyborg (dc)",
     category: "DC",
     mainTags: "cyborg (dc), brown eyes, black hair, short hair, teen titans, dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "beast boy (dc)",
     category: "DC",
     mainTags: "beast boy (dc), green eyes, green hair, short hair, colored skin, green skin, two-tone super hero costume, teen titans, dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "raven (dc)",
     category: "DC",
     mainTags: "raven (dc), purple eyes, purple hair, short hair, colored skin, grey skin, forehead jewel, belt, black leotard, teen titans, dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "starfire",
     category: "DC",
     mainTags: "starfire, green eyes, orange hair, long hair, tan skin, green scelera, purple crop top, purple shorts, tamaranean, teen titans, dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "terra (dc)",
     category: "DC",
     mainTags: "terra (dc), blue eyes, blonde hair, long hair, black shirt, yellow shorts, midriff, utility belt, teen titans, dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "joker (dc)",
     category: "DC",
     mainTags: "joker (dc), green eyes, green hair, short hair, facepaint, red lips, purple gloves, bowtie, suit jacket, open mouth, teeth, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "harley quinn",
     category: "DC",
     mainTags: "harley quinn, blue eyes, blonde hair, long hair, twin tails, harley quinn (classic), black bodysuit, red bodysuit, facepaint, white facepaint, domino mask, black lipstick, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "harley quinn",
     category: "DC",
     mainTags: "harley quinn, blue eyes, blonde hair, long hair, twin tails, harley quinn (suicide squad), two-tone crop top, fishnet pantyhose, two-tone shorts, suspenders, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "catwoman",
     category: "DC",
     mainTags: "catwoman, green eyes, black hair, short hair, latex bodysuit, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "poison ivy",
     category: "DC",
     mainTags: "poison ivy, green eyes, red hair, long hair, colored skin, green skin, tattoo, green lips, monster girl, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "poison ivy",
     category: "DC",
     mainTags: "poison ivy, green eyes, red hair, long hair, panties, batman (series), dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "jinx (dc)",
     category: "DC",
     mainTags: "jinx (dc), purple eyes, pink hair, long hair, hair horns, colored skin, grey skin, striped thighhighs, highleg leotard, impossible leotard, teen titans, dc comics",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -7694,483 +8484,537 @@ const characterData = [
     enhancers: ["[monster girl", "fish tail", "shell bikini", "mermaid]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "belle (disney)",
     category: "Disney",
     mainTags: "belle (disney), brown eyes, brown hair, long hair, yellow dress, beauty and the beast, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "belle (disney)",
     category: "Disney",
     mainTags: "belle (disney), brown eyes, brown hair, long hair, hair bow, puffy long sleeves, blue pinafore dress, white apron, braid, beauty and the beast, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "beast (disney)",
     category: "Disney",
     mainTags: "beast (disney), brown eyes, brown hair, long hair, wolf tail, monster girl, monsterification, aristocractic clothes, neck fur, furry body, furry, beauty and the beast, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "aurora (disney)",
     category: "Disney",
     mainTags: "aurora (disney), blue eyes, blonde hair, long hair, pink dress, off-shoulder dress, sleeping beauty, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "jasmine (disney)",
     category: "Disney",
     mainTags: "jasmine (disney), brown eyes, black hair, long hair, dark skin, dark-skinned female, see-through pants, see-through clothes, blue bandeau, harem pants, aladdin (disney), disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "rapunzel (disney)",
     category: "Disney",
     mainTags: "rapunzel (disney), green eyes, blonde hair, very long hair, single braid, absurdly long hair, hair flower, off-shoulder dress, tangled, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "snow white (disney)",
     category: "Disney",
     mainTags: "snow white (disney), brown eyes, black hair, short hair, yellow skirt, two-tone dress, puffy short sleeves, snow white and the seven dwarfs, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "elsa (frozen)",
     category: "Disney",
     mainTags: "elsa (frozen), blue eyes, blonde hair, long hair, single braid, off-shoulder dress, snowflakes, frozen (disney), disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "cinderella (disney)",
     category: "Disney",
     mainTags: "cinderella (disney), blue eyes, blonde hair, long hair, hair bun, makeup, detached sleeves, corset, elbow gloves, cinderella, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "cinderella (disney)",
     category: "Disney",
     mainTags: "cinderella (disney), blue eyes, blonde hair, long hair, long brown skirt, teal shirt, long sleeves, black vest, waist apron, cinderella, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "tinker bell (disney)",
     category: "Disney",
     mainTags: "tinker bell (disney), green eyes, blonde hair, short hair, hair bun, fairy, fairy wings, green dress, peter pan (disney), disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "megara (disney)",
     category: "Disney",
     mainTags: "megara (disney), brown eyes, brown hair, long hair, ponytail, roman, greco-roman clothes, sleeveless pink dress, hercules (1997 film), disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hades (disney)",
     category: "Disney",
     mainTags: "hades (disney), yellow eyes, blue hair, short hair, fiery hair, greco-roman clothes, off-shoulder dress, colored skin, blue skin, hercules (1997 film), disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "esmeralda (disney)",
     category: "Disney",
     mainTags: "esmeralda (disney), green eyes, black hair, long hair, very dark skin, dark-skinned female, bracer, white shirt, puffy sleeves, hoop earrings, purple skirt, the hunchback of notre dame, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "pocahontas (disney)",
     category: "Disney",
     mainTags: "pocahontas (disney), brown eyes, black hair, long hair, dark skin, dark-skinned female, dress, single-shoulder dress, tattoo, feather earring, pocahontas, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "maid marian (disney)",
     category: "Disney",
     mainTags: "maid marian (disney), brown eyes, brown hair, long hair, animal nose, fox girl, fox tail, pinafore dress, pink dress, robin hood (disney), disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hiro hamada",
     category: "Disney",
     mainTags: "hiro hamada, brown eyes, black hair, short hair, blue hoodie, red shirt, big hero 6, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "gogo tomago",
     category: "Disney",
     mainTags: "gogo tomago, brown eyes, black hair, short hair, bike shorts, open jacket, big hero 6, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "honey lemon",
     category: "Disney",
     mainTags: "honey lemon, green eyes, blonde hair, long hair, glasses, yellow knit sweater, sweater dress, big hero 6, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "cass hamada",
     category: "Disney",
     mainTags: "cass hamada, brown eyes, brown hair, short hair, green shirt, pants, cleavage, big hero 6, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "elastigirl",
     category: "Disney",
     mainTags: "elastigirl, brown eyes, brown hair, short hair, helen parr, bodysuit, the incredibles, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "violet parr",
     category: "Disney",
     mainTags: "violet parr, blue eyes, black hair, long hair, eye mask, yellow hair band, red bodysuit, the incredibles, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "amane misa",
     category: "Other",
     mainTags: "amane misa, brown eyes, blonde hair, long hair, twintails, death note",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "holo",
     category: "Other",
     mainTags: "holo, brown eyes, brown hair, long hair, spice and wolf",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "violet evergarden",
     category: "Other",
     mainTags: "violet evergarden, blue eyes, blonde hair, long hair, violet evergarden (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "princess leia",
     category: "Other",
     mainTags: "princess leia, brown eyes, brown hair, long hair, star wars",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "queen of hearts (alice in wonderland)",
     category: "Other",
     mainTags: "queen of hearts (alice in wonderland), black eyes, black hair, short hair, alice in wonderland",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "jessica rabbit",
     category: "Other",
     mainTags: "jessica rabbit, green eyes, red hair, long hair, red sparkly dress, who framed roger rabbit",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "amano maya",
     category: "Persona (Series)",
     mainTags: "amano maya, brown eyes, black hair, short hair, brown jacket, persona 2, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lisa silverman",
     category: "Persona (Series)",
     mainTags: "lisa silverman, blue eyes, blonde hair, long hair, black jacket, black skirt, persona 2, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "fushimi chihiro",
     category: "Persona (Series)",
     mainTags: "fushimi chihiro, brown eyes, brown hair, long hair, black jacket, black skirt, persona 2, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mishina eikichi",
     category: "Persona (Series)",
     mainTags: "mishina eikichi, brown eyes, blue hair, short hair, persona 2, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "shiomi kotone",
     category: "Persona (Series)",
     mainTags: "shiomi kotone, brown eyes, brown hair, long hair, ponytail, black jacket, persona 3, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "takeba yukari",
     category: "Persona (Series)",
     mainTags: "takeba yukari, brown eyes, brown hair, medium hair, black jacket, persona 3, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kirijou mitsuru",
     category: "Persona (Series)",
     mainTags: "kirijou mitsuru, brown eyes, red hair, long hair, black jacket, persona 3, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "yoshino chidori",
     category: "Persona (Series)",
     mainTags: "yoshino chidori, brown eyes, red hair, short hair, white dress, persona 3, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "metis (persona)",
     category: "Persona (Series)",
     mainTags: "metis (persona), red eyes, black hair, short hair, armored dress, robot joints, persona 3, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "elizabeth (persona)",
     category: "Persona (Series)",
     mainTags: "elizabeth (persona), yellow eyes, blonde hair, short hair, persona 3, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "yamagishi fuuka",
     category: "Persona (Series)",
     mainTags: "yamagishi fuuka, green eyes, teal hair, short hair, black jacket, black skirt, persona 3, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "aigis (persona)",
     category: "Persona (Series)",
     mainTags: "aigis (persona), blue eyes, blonde hair, short hair, persona 3, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "shirogane naoto",
     category: "Persona (Series)",
     mainTags: "shirogane naoto, blue eyes, blue hair, short hair, blue coat, plaid pants, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sukuna-hikona (persona 4)",
     category: "Persona (Series)",
     mainTags: "sukuna-hikona (persona 4), red eyes, blue hair, short hair, helmet, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "labrys (persona)",
     category: "Persona (Series)",
     mainTags: "labrys (persona), blue eyes, silver hair, long hair, ponytail, mechanical arms, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "satonaka chie",
     category: "Persona (Series)",
     mainTags: "satonaka chie, brown eyes, brown hair, short hair, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "tomoe (persona 4)",
     category: "Persona (Series)",
     mainTags: "tomoe (persona 4), yellow eyes, black hair, short hair, helmet, persona 4",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "margaret (persona)",
     category: "Persona (Series)",
     mainTags: "margaret (persona), yellow eyes, blonde hair, long hair, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kujikawa rise",
     category: "Persona (Series)",
     mainTags: "kujikawa rise, brown eyes, brown hair, long hair, twintails, black coat, black skirt, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "himiko (persona 4)",
     category: "Persona (Series)",
     mainTags: "himiko (persona 4), yellow eyes, blonde hair, long hair, helmet",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "amagi yukiko",
     category: "Persona (Series)",
     mainTags: "amagi yukiko, brown eyes, black hair, long hair, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "konohana sakuya (persona)",
     category: "Persona (Series)",
     mainTags: "konohana sakuya (persona), red eyes, pink hair, long hair, helmet, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "marie (persona 4)",
     category: "Persona (Series)",
     mainTags: "marie (persona 4), green eyes, black hair, short hair, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "konohana sakuya",
     category: "Persona (Series)",
     mainTags: "konohana sakuya, red eyes, pink hair, long hair, armored dress, persona 4, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "doujima nanako",
     category: "Persona (Series)",
     mainTags: "doujima nanako, brown eyes, brown hair, short hair, twintails, short twintails, three-tone dress, white turtleneck sweater, persona 4, persona, {{mature female, aged up}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8180,6 +9024,7 @@ const characterData = [
     enhancers: ["[panther (persona 5)", "red bodysuit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8189,6 +9034,7 @@ const characterData = [
     enhancers: ["[oracle (persona 5)", "black bodysuit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8198,6 +9044,7 @@ const characterData = [
     enhancers: ["[queen (persona 5)", "bike suit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8207,6 +9054,7 @@ const characterData = [
     enhancers: ["[--pink coat", "--plaid skirt", "noir (persona 5)", "eye mask", "hat", "white ascot", "pink shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8216,6 +9064,7 @@ const characterData = [
     enhancers: ["[violet (persona 5)", "black leotard", "leather jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8225,15 +9074,17 @@ const characterData = [
     enhancers: ["[joker (persona 5)", "long black coat", "eye mask]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kawakami sadayo",
     category: "Persona (Series)",
     mainTags: "kawakami sadayo, brown eyes, brown hair, short hair, striped shirt, denim skirt, persona 5, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8243,303 +9094,337 @@ const characterData = [
     enhancers: ["[--black jacket", "--plaid skirt", "skull (persona 5)", "leather jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kitagawa yuusuke",
     category: "Persona (Series)",
     mainTags: "kitagawa yuusuke, blue eyes, blue hair, short hair, white shirt, black skirt, persona 5, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "takemi tae",
     category: "Persona (Series)",
     mainTags: "takemi tae, brown eyes, black hair, short hair, persona 5, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "yoshizawa sumire",
     category: "Persona (Series)",
     mainTags: "yoshizawa sumire, brown eyes, red hair, long hair, ponytail, black jacket, plaid skirt, persona 5, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "niijima sae",
     category: "Persona (Series)",
     mainTags: "niijima sae, gray eyes, silver hair, long hair, persona 5, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "tougou hifumi",
     category: "Persona (Series)",
     mainTags: "tougou hifumi, brown eyes, black hair, long hair, persona 5, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "caroline (persona 5)",
     category: "Persona (Series)",
     mainTags: "caroline (persona 5), yellow eyes, blonde hair, short hair, persona 5, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "justine (persona 5)",
     category: "Persona (Series)",
     mainTags: "justine (persona 5), yellow eyes, blonde hair, short hair, persona 5, persona",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lavenza (persona 5)",
     category: "Persona (Series)",
     mainTags: "lavenza (persona 5), yellow eyes, blonde hair, very long hair, twintails, persona 5, persona, {{mature female, aged up}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "maam",
     category: "Dragon Quest (Series)",
     mainTags: "maam, blue eyes, pink hair, long hair, dragon quest dai no daibouken, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "daisy (dq)",
     category: "Dragon Quest (Series)",
     mainTags: "daisy (dq), brown eyes, blonde hair, long hair, dragon quest dai no daibouken, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "princess laura",
     category: "Dragon Quest (Series)",
     mainTags: "princess laura, blue eyes, blonde hair, long hair, yellow dress, dragon quest i, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "princess of moonbrook",
     category: "Dragon Quest (Series)",
     mainTags: "princess of moonbrook, blue eyes, purple hair, long hair, dragon quest ii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "warrior (dq3)",
     category: "Dragon Quest (Series)",
     mainTags: "warrior (dq3), brown eyes, purple hair, long hair, bikini armor, purple hair, red helmet, dragon quest iii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sage (dq3)",
     category: "Dragon Quest (Series)",
     mainTags: "sage (dq3), blue eyes, blonde hair, long hair, dragon quest iii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "priest (dq3)",
     category: "Dragon Quest (Series)",
     mainTags: "priest (dq3), brown eyes, brown hair, short hair, dragon quest iii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mage (dq3)",
     category: "Dragon Quest (Series)",
     mainTags: "mage (dq3), green eyes, purple hair, long hair, dragon quest iii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "thief (dq3)",
     category: "Dragon Quest (Series)",
     mainTags: "thief (dq3), brown eyes, green hair, short hair, dragon quest iii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "gadabout (dq3)",
     category: "Dragon Quest (Series)",
     mainTags: "gadabout (dq3), blue eyes, blonde hair, long hair, blonde hair, blue playboy bunny, dragon quest iii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "merchant (dq3)",
     category: "Dragon Quest (Series)",
     mainTags: "merchant (dq3), brown eyes, brown hair, short hair, dragon quest iii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "manya (dq4)",
     category: "Dragon Quest (Series)",
     mainTags: "manya (dq4), blue eyes, purple hair, long hair, dragon quest iv, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "minea (dq4)",
     category: "Dragon Quest (Series)",
     mainTags: "minea (dq4), brown eyes, silver hair, long hair, dark skin, dark-skinned female, dragon quest iv, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "alena (dq4)",
     category: "Dragon Quest (Series)",
     mainTags: "alena (dq4), blue eyes, red hair, short hair, yellow dress, blue cape, dragon quest iv, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "bianca (dq5)",
     category: "Dragon Quest (Series)",
     mainTags: "bianca (dq5), blue eyes, blonde hair, long hair, green dress, orange cape, dragon quest v, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "hero's daughter (dq5)",
     category: "Dragon Quest (Series)",
     mainTags: "hero's daughter (dq5), blue eyes, blonde hair, long hair, belt pouch, dragon quest v, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "flora (dq5)",
     category: "Dragon Quest (Series)",
     mainTags: "flora (dq5), blue eyes, blue hair, long hair, dragon quest v, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "deborah (dq5)",
     category: "Dragon Quest (Series)",
     mainTags: "deborah (dq5), purple eyes, black hair, long hair, dragon quest v, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "barbara (dq6)",
     category: "Dragon Quest (Series)",
     mainTags: "barbara (dq6), green eyes, orange hair, long hair, dragon quest vi, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mireyu",
     category: "Dragon Quest (Series)",
     mainTags: "mireyu, blue eyes, blonde hair, long hair, orange sash, armor, dragon quest vi, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "maribel (dq7)",
     category: "Dragon Quest (Series)",
     mainTags: "maribel (dq7), green eyes, orange hair, long hair, twintails, dragon quest vii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "jessica albert",
     category: "Dragon Quest (Series)",
     mainTags: "jessica albert, green eyes, orange hair, long hair, ponytail, purple shirt, red skirt, dragon quest viii, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "martina (dq11)",
     category: "Dragon Quest (Series)",
     mainTags: "martina (dq11), brown eyes, purple hair, long hair, green halter top, dragon quest xi, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "veronica (dq11)",
     category: "Dragon Quest (Series)",
     mainTags: "veronica (dq11), blue eyes, blonde hair, long hair, twintails, red hat, two-tone dress, dragon quest xi, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "senya (dq11)",
     category: "Dragon Quest (Series)",
     mainTags: "senya (dq11), blue eyes, blonde hair, long hair, green dress, dragon quest xi, dragon quest",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8549,42 +9434,47 @@ const characterData = [
     enhancers: ["[--black vest", "--ripped jeans", "black gown]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "regina (dino crisis)",
     category: "Other",
     mainTags: "regina (dino crisis), green eyes, red hair, short hair, dino crisis",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "isabelle (animal crossing)",
     category: "Other",
     mainTags: "isabelle (animal crossing), brown eyes, yellow hair, long hair, twintails, dog girl, animal crossing",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ankha (animal crossing)",
     category: "Other",
     mainTags: "ankha (animal crossing), blue eyes, yellow hair, short hair, cat girl, animal crossing",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ayane (doa)",
     category: "Dead or Alive",
     mainTags: "ayane (doa), purple eyes, purple hair, long hair, purple dress, detached sleeves, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8594,15 +9484,17 @@ const characterData = [
     enhancers: ["[--black dress", "marie rose (devilish servant against the splashing waves)]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kasumi (doa)",
     category: "Dead or Alive",
     mainTags: "kasumi (doa), brown eyes, brown hair, long hair, ponytail, japanese clothes, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8612,114 +9504,127 @@ const characterData = [
     enhancers: ["[--black jacket", "honoka (summer angel on the shore) (doa)]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nyotengu",
     category: "Dead or Alive",
     mainTags: "nyotengu, purple eyes, black hair, long hair, hair cones, wings, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "hitomi (doa)",
     category: "Dead or Alive",
     mainTags: "hitomi (doa), blue eyes, brown hair, short hair, karate gi, white pants, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "tina armstrong",
     category: "Dead or Alive",
     mainTags: "tina armstrong, blue eyes, blonde hair, long hair, leather coat, red bikini top, two-tone leather pants, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "helena douglas",
     category: "Dead or Alive",
     mainTags: "helena douglas, blue eyes, blonde hair, long hair, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "christie (doa)",
     category: "Dead or Alive",
     mainTags: "christie (doa), gray eyes, silver hair, short hair, black sleeveless sweater, black pants, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kokoro (doa)",
     category: "Dead or Alive",
     mainTags: "kokoro (doa), brown eyes, black hair, long hair, chinese clothes, sleeveless pink shirt, detached collar, puffy white pants, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mila (doa)",
     category: "Dead or Alive",
     mainTags: "mila (doa), brown eyes, red hair, short hair, red crop top, long black shorts, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lisa hamilton",
     category: "Dead or Alive",
     mainTags: "lisa hamilton, brown eyes, brown hair, long hair, dark skin, dark-skinned female, bikini top only, wrestling outfit, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "tamaki (doa)",
     category: "Dead or Alive",
     mainTags: "tamaki (doa), brown eyes, brown hair, long hair, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nico (doa)",
     category: "Dead or Alive",
     mainTags: "nico (doa), blue eyes, blue hair, short hair, dead or alive 6, dead or alive",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "inkling girl",
     category: "Splatoon",
     mainTags: "inkling girl, orange eyes, orange hair, tentacle hair, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "octoling girl",
     category: "Splatoon",
     mainTags: "octoling girl, red eyes, red hair, tentacle hair, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8729,6 +9634,7 @@ const characterData = [
     enhancers: ["[callie (squid sister outfit) (splatoon)", "black dress", "detached collar]", "callie (octo idol outfit) (splatoon)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -8738,438 +9644,487 @@ const characterData = [
     enhancers: ["[marie (squid sister outfit) (splatoon)", "black dress", "detached collar]", "marie (octo idol outfit) (splatoon)", "marie (kimono) (splatoon)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "marina (splatoon)",
     category: "Splatoon",
     mainTags: "marina (splatoon), turquoise eyes, teal hair, tentacle hair, dark skin, dark-skinned female, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "shiver (splatoon)",
     category: "Splatoon",
     mainTags: "shiver (splatoon), blue eyes, blue hair, tentacle hair, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "pearl (splatoon)",
     category: "Splatoon",
     mainTags: "pearl (splatoon), yellow eyes, pink hair, tentacle hair, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "frye (splatoon)",
     category: "Splatoon",
     mainTags: "frye (splatoon), yellow eyes, yellow hair, tentacle hair, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "agent 3 (splatoon)",
     category: "Splatoon",
     mainTags: "agent 3 (splatoon), orange eyes, orange hair, tentacle hair, inkling girl, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "takozonesu",
     category: "Splatoon",
     mainTags: "takozonesu, purple eyes, purple hair, tentacle hair, gradient hair, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "agent 4 (splatoon)",
     category: "Splatoon",
     mainTags: "agent 4 (splatoon), yellow eyes, yellow hair, tentacle hair, inkling girl, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kaori (splatoon)",
     category: "Splatoon",
     mainTags: "kaori (splatoon), orange eyes, orange hair, very long hair, tentacle hair, inkling girl, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "tao blu (splatoon)",
     category: "Splatoon",
     mainTags: "tao blu (splatoon), blue eyes, blue hair, tentacle hair, dark skin, dark-skinned female, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "harmony (splatoon)",
     category: "Splatoon",
     mainTags: "harmony (splatoon), pink eyes, pink hair, tentacle hair, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "yoko (splatoon)",
     category: "Splatoon",
     mainTags: "yoko (splatoon), purple eyes, purple hair, tentacle hair, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "dedf1sh",
     category: "Splatoon",
     mainTags: "dedf1sh, green eyes, green hair, tentacle hair, colored skin, green skin, splatoon (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "roll (mega man)",
     category: "Mega Man",
     mainTags: "roll (mega man), blue eyes, blonde hair, long hair, mega man (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "roll caskett (mega man)",
     category: "Mega Man",
     mainTags: "roll caskett (mega man), green eyes, blonde hair, long hair, mega man legends (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "roll.exe (mega man)",
     category: "Mega Man",
     mainTags: "roll.exe (mega man), green eyes, blonde hair, long hair, mega man battle network (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "zero (mega man)",
     category: "Mega Man",
     mainTags: "zero (mega man), blue eyes, blonde hair, long hair, ponytail, boobplate, mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mega man (character)",
     category: "Mega Man",
     mainTags: "mega man (character), blue eyes, black hair, short hair, boobplate, mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "aile (mega man zx)",
     category: "Mega Man",
     mainTags: "aile (mega man zx), green eyes, brown hair, short hair, mega man zx, mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "x (mega man)",
     category: "Mega Man",
     mainTags: "x (mega man), blue eyes, brown hair, short hair, mega man x, mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "tron bonne (mega man)",
     category: "Mega Man",
     mainTags: "tron bonne (mega man), blue eyes, brown hair, short hair, mega man legends (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "zero(z) (mega man)",
     category: "Mega Man",
     mainTags: "zero(z) (mega man), blue eyes, blonde hair, long hair, ponytail, mega man zero (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "fairy leviathan (mega man)",
     category: "Mega Man",
     mainTags: "fairy leviathan (mega man), blue eyes, blue hair, long hair, mega man zero (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "megaman.exe",
     category: "Mega Man",
     mainTags: "megaman.exe, blue eyes, black hair, short hair, bodysuit, gederswap, mega man battle network (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ciel (mega man)",
     category: "Mega Man",
     mainTags: "ciel (mega man), blue eyes, blonde hair, long hair, mega man battle zero (series), mega man (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "iris (mega man)",
     category: "Mega Man",
     mainTags: "iris (mega man), brown eyes, brown hair, long hair, red armor, mega man x (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "luna platz (mega man)",
     category: "Mega Man",
     mainTags: "luna platz (mega man), blue eyes, blonde hair, short hair, mega man star force (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "proto man",
     category: "Mega Man",
     mainTags: "proto man, brown eyes, brown hair, short hair, yellow scarf, red armor, mega man (classic), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sonia strumm (mega man)",
     category: "Mega Man",
     mainTags: "sonia strumm (mega man), green eyes, brown hair, short hair, mega man star force (series), mega man (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mayl sakurai (mega man)",
     category: "Mega Man",
     mainTags: "mayl sakurai (mega man), green eyes, red hair, long hair, mega man battle network (series), mega man (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "pandora (mega man)",
     category: "Mega Man",
     mainTags: "pandora (mega man), red eyes, white hair, long hair, mega man zx, mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "alia (mega man)",
     category: "Mega Man",
     mainTags: "alia (mega man), blue eyes, blonde hair, short hair, armor, mega man x, mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ashe (mega man)",
     category: "Mega Man",
     mainTags: "ashe (mega man), blue eyes, gray hair, short hair, orange cropped jacket, mega man zx, mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "rico (mega man)",
     category: "Mega Man",
     mainTags: "rico (mega man), brown eyes, brown hair, long hair, armored skirt, mega man x (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "layer (mega man)",
     category: "Mega Man",
     mainTags: "layer (mega man), purple eyes, purple hair, long hair, armor, mega man x (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sage harpuia (mega man)",
     category: "Mega Man",
     mainTags: "sage harpuia (mega man), green eyes, green hair, long hair, armor, mega man zero (series), mega man (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "solid snake",
     category: "Metal Gear (Series)",
     mainTags: "solid snake, blue eyes, brown hair, short hair, metal gear solid, metal gear (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "raiden (metal gear)",
     category: "Metal Gear (Series)",
     mainTags: "raiden (metal gear), blue eyes, blonde hair, long hair, metal gear (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "quiet (metal gear)",
     category: "Metal Gear (Series)",
     mainTags: "quiet (metal gear), green eyes, brown hair, short hair, metal gear (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "shiranui mai",
     category: "King of Fighters / SNK",
     mainTags: "shiranui mai, brown eyes, brown hair, long hair, ponytail, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "angel (kof)",
     category: "King of Fighters / SNK",
     mainTags: "angel (kof), blue eyes, silver hair, short hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "leona heidern",
     category: "King of Fighters / SNK",
     mainTags: "leona heidern, blue eyes, blue hair, short hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kula diamond",
     category: "King of Fighters / SNK",
     mainTags: "kula diamond, blue eyes, blue hair, long hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "yuri sakazaki",
     category: "King of Fighters / SNK",
     mainTags: "yuri sakazaki, brown eyes, brown hair, long hair, ponytail, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "asamiya athena",
     category: "King of Fighters / SNK",
     mainTags: "asamiya athena, purple eyes, purple hair, long hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "shermie (kof)",
     category: "King of Fighters / SNK",
     mainTags: "shermie (kof), brown eyes, brown hair, long hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "terry bogard",
     category: "King of Fighters / SNK",
     mainTags: "terry bogard, blue eyes, blonde hair, long hair, ponytail, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "yagami iori",
     category: "King of Fighters / SNK",
     mainTags: "yagami iori, red eyes, red hair, short hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "blue mary",
     category: "King of Fighters / SNK",
     mainTags: "blue mary, blue eyes, blonde hair, short hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9179,96 +10134,107 @@ const characterData = [
     enhancers: ["military outfit"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "king (snk)",
     category: "King of Fighters / SNK",
     mainTags: "king (snk), blue eyes, blonde hair, short hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "vanessa (kof)",
     category: "King of Fighters / SNK",
     mainTags: "vanessa (kof), brown eyes, red hair, short hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ryou sakazaki",
     category: "King of Fighters / SNK",
     mainTags: "ryou sakazaki, brown eyes, blonde hair, short hair, orange karate gi, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ashe crimson",
     category: "King of Fighters / SNK",
     mainTags: "ashe crimson, green eyes, blonde hair, long hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "vice (kof)",
     category: "King of Fighters / SNK",
     mainTags: "vice (kof), brown eyes, brown hair, long hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mature (kof)",
     category: "King of Fighters / SNK",
     mainTags: "mature (kof), blue eyes, blonde hair, long hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "jenet behrn",
     category: "King of Fighters / SNK",
     mainTags: "jenet behrn, blue eyes, blonde hair, long hair, snk, fatal fury",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "billy kane",
     category: "King of Fighters / SNK",
     mainTags: "billy kane, blue eyes, blonde hair, short hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "elisabeth blanctorche",
     category: "King of Fighters / SNK",
     mainTags: "elisabeth blanctorche, blue eyes, silver hair, long hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ralf jones",
     category: "King of Fighters / SNK",
     mainTags: "ralf jones, brown eyes, brown hair, short hair, the king of fighters",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9278,15 +10244,17 @@ const characterData = [
     enhancers: ["adult neptune"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "noire (neptunia)",
     category: "Neptune (series)",
     mainTags: "noire (neptunia), red eyes, black hair, long hair, hair bows, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9296,78 +10264,87 @@ const characterData = [
     enhancers: ["purple heart (goddesses' promise)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "blanc (neptunia)",
     category: "Neptune (series)",
     mainTags: "blanc (neptunia), blue eyes, brown hair, short hair, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nepgear",
     category: "Neptune (series)",
     mainTags: "nepgear, purple eyes, purple hair, long hair, hair ornament, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "vert (neptunia)",
     category: "Neptune (series)",
     mainTags: "vert (neptunia), blue eyes, blonde hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "black heart (neptunia)",
     category: "Neptune (series)",
     mainTags: "black heart (neptunia), blue eyes, silver hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "uni (neptunia)",
     category: "Neptune (series)",
     mainTags: "uni (neptunia), red eyes, black hair, long hair, hair bows, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "tennouboshi uzume",
     category: "Neptune (series)",
     mainTags: "tennouboshi uzume, blue eyes, orange hair, short hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "white heart (neptunia)",
     category: "Neptune (series)",
     mainTags: "white heart (neptunia), red eyes, white hair, short hair, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "iris heart (neptunia)",
     category: "Neptune (series)",
     mainTags: "iris heart (neptunia), red eyes, purple hair, very long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9377,6 +10354,7 @@ const characterData = [
     enhancers: ["white sister rom"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9386,114 +10364,127 @@ const characterData = [
     enhancers: ["white sister ram"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "green heart (neptunia)",
     category: "Neptune (series)",
     mainTags: "green heart (neptunia), green eyes, green hair, very long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "if (neptunia)",
     category: "Neptune (series)",
     mainTags: "if (neptunia), green eyes, brown hair, short hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "purple sister",
     category: "Neptune (series)",
     mainTags: "purple sister, purple eyes, purple hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "pururut",
     category: "Neptune (series)",
     mainTags: "pururut, red eyes, orange hair, medium hair, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "histoire",
     category: "Neptune (series)",
     mainTags: "histoire, green eyes, blonde hair, very long hair, hair bows, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "orange heart (neptunia)",
     category: "Neptune (series)",
     mainTags: "orange heart (neptunia), orange eyes, orange hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "black sister",
     category: "Neptune (series)",
     mainTags: "black sister, red eyes, black hair, long hair, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "compa",
     category: "Neptune (series)",
     mainTags: "compa, brown eyes, orange hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "pish",
     category: "Neptune (series)",
     mainTags: "pish, purple eyes, blonde hair, short hair, hair ornament, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ankokuboshi kurome",
     category: "Neptune (series)",
     mainTags: "ankokuboshi kurome, blue eyes, black hair, medium hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "next purple",
     category: "Neptune (series)",
     mainTags: "next purple, purple eyes, purple hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "yellow heart (neptunia)",
     category: "Neptune (series)",
     mainTags: "yellow heart (neptunia), blue eyes, blonde hair, medium hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9503,96 +10494,107 @@ const characterData = [
     enhancers: ["[kiseijou rei (goddess form)", "armored dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nippon ichi (neptunia)",
     category: "Neptune (series)",
     mainTags: "nippon ichi (neptunia), purple eyes, blonde hair, short hair, red scarf, neptune (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "cyberconnect2",
     category: "Neptune (series)",
     mainTags: "cyberconnect2, green eyes, orange hair, short hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "c-sha",
     category: "Neptune (series)",
     mainTags: "c-sha, brown eyes, blonde hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "next white",
     category: "Neptune (series)",
     mainTags: "next white, red eyes, white hair, short hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "5pb (neptunia)",
     category: "Neptune (series)",
     mainTags: "5pb (neptunia), purple eyes, blue hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "red (neptunia)",
     category: "Neptune (series)",
     mainTags: "red (neptunia), red eyes, red hair, short hair, twintails, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nepgyaa",
     category: "Neptune (series)",
     mainTags: "nepgyaa, purple eyes, purple hair, short hair, twintails, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "k-sha",
     category: "Neptune (series)",
     mainTags: "k-sha, brown eyes, blonde hair, long hair, red headband, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "cave (neptunia)",
     category: "Neptune (series)",
     mainTags: "cave (neptunia), red eyes, brown hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "next black",
     category: "Neptune (series)",
     mainTags: "next black, blue eyes, black hair, long hair, neptune (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9602,6 +10604,7 @@ const characterData = [
     enhancers: ["pyra (pro swimmer) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9611,6 +10614,7 @@ const characterData = [
     enhancers: ["mythra (massive melee) (xenoblade)", "mythra (radiant beach) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9620,51 +10624,57 @@ const characterData = [
     enhancers: ["nia (blade) (xenoblade)", "nia (fancy sundress) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "rex (xenoblade)",
     category: "Xenoblade",
     mainTags: "rex (xenoblade), brown eyes, brown hair, short hair, spiked hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mio (xenoblade)",
     category: "Xenoblade",
     mainTags: "mio (xenoblade), yellow eyes, brown hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "eunie (xenoblade)",
     category: "Xenoblade",
     mainTags: "eunie (xenoblade), green eyes, brown hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "pneuma (xenoblade)",
     category: "Xenoblade",
     mainTags: "pneuma (xenoblade), green eyes, green hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "melia antiqua",
     category: "Xenoblade",
     mainTags: "melia antiqua, purple eyes, silver hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9674,6 +10684,7 @@ const characterData = [
     enhancers: ["morag ladair (obligatory leave) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9683,6 +10694,7 @@ const characterData = [
     enhancers: ["poppi qtpi (xenoblade)", "poppi alpha (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9692,6 +10704,7 @@ const characterData = [
     enhancers: ["mecha-fiora", "mecha-fiora (speed cowling)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -9701,537 +10714,597 @@ const characterData = [
     enhancers: ["brighid (water lily) (xenoblade)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sena (xenoblade)",
     category: "Xenoblade",
     mainTags: "sena (xenoblade), blue eyes, blue hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series), {{{mature female, aged up}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "noah (xenoblade)",
     category: "Xenoblade",
     mainTags: "noah (xenoblade), blue eyes, black hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "pandoria (xenoblade)",
     category: "Xenoblade",
     mainTags: "pandoria (xenoblade), green eyes, green hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lora (xenoblade)",
     category: "Xenoblade",
     mainTags: "lora (xenoblade), green eyes, red hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "fan la norne",
     category: "Xenoblade",
     mainTags: "fan la norne, blue eyes, purple hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "glimmer (xenoblade)",
     category: "Xenoblade",
     mainTags: "glimmer (xenoblade), brown eyes, red hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "taion (xenoblade)",
     category: "Xenoblade",
     mainTags: "taion (xenoblade), green eyes, black hair, short hair, dark skin, dark-skinned female, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ethel (xenoblade)",
     category: "Xenoblade",
     mainTags: "ethel (xenoblade), blue eyes, silver hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "jin (xenoblade)",
     category: "Xenoblade",
     mainTags: "jin (xenoblade), blue eyes, silver hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "a (xenoblade)",
     category: "Xenoblade",
     mainTags: "a (xenoblade), red eyes, black hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lanz (xenoblade)",
     category: "Xenoblade",
     mainTags: "lanz (xenoblade), blue eyes, silver hair, short hair, muscular female, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "elma (xenoblade x)",
     category: "Xenoblade",
     mainTags: "elma (xenoblade x), blue eyes, red hair, short hair, xenoblade chronicles x, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "na'el (xenoblade)",
     category: "Xenoblade",
     mainTags: "na'el (xenoblade), green eyes, brown hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sharla (xenoblade)",
     category: "Xenoblade",
     mainTags: "sharla (xenoblade), brown eyes, black hair, long hair, dark skin, dark-skinned female, xenoblade chronicles 1, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "praxis (xenoblade)",
     category: "Xenoblade",
     mainTags: "praxis (xenoblade), purple eyes, blue hair, long hair, dark skin, dark-skinned female, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "theory (xenoblade)",
     category: "Xenoblade",
     mainTags: "theory (xenoblade), blue eyes, blonde hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "dunban (xenoblade)",
     category: "Xenoblade",
     mainTags: "dunban (xenoblade), brown eyes, brown hair, long hair, ahoge, xenoblade chronicles 1, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "shulk (xenoblade)",
     category: "Xenoblade",
     mainTags: "shulk (xenoblade), blue eyes, blonde hair, short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "reyn (xenoblade)",
     category: "Xenoblade",
     mainTags: "reyn (xenoblade), brown eyes, brown hair, short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kassandra (xenoblade)",
     category: "Xenoblade",
     mainTags: "kassandra (xenoblade), blue eyes, purple hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "kassandra (xenoblade)",
     category: "Xenoblade",
     mainTags: "kassandra (xenoblade), blue eyes, purple hair, short hair, horns, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "finch (xenoblade)",
     category: "Xenoblade",
     mainTags: "finch (xenoblade), brown eyes, brown hair, short hair, body fur, furry female, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lin lee koo",
     category: "Xenoblade",
     mainTags: "lin lee koo, brown eyes, black hair, short hair, xenoblade chronicles x, xenoblade chronicles (series), {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "crossette (xenoblade)",
     category: "Xenoblade",
     mainTags: "crossette (xenoblade), green eyes, white hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "celica (xenoblade x)",
     category: "Xenoblade",
     mainTags: "celica (xenoblade x), purple eyes, silver hair, long hair, xenoblade chronicles x, xenoblade chronicles (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lucifer (helltaker)",
     category: "Helltaker",
     mainTags: "lucifer (helltaker), red eyes, white hair, long hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "modeus (helltaker)",
     category: "Helltaker",
     mainTags: "modeus (helltaker), red eyes, white hair, long hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "justice (helltaker)",
     category: "Helltaker",
     mainTags: "justice (helltaker), red eyes, white hair, short hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "helltaker (character)",
     category: "Helltaker",
     mainTags: "helltaker (character), brown eyes, brown hair, short hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "malina (helltaker)",
     category: "Helltaker",
     mainTags: "malina (helltaker), red eyes, white hair, short hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "judgement (helltaker)",
     category: "Helltaker",
     mainTags: "judgement (helltaker), red eyes, black hair, long hair, dark skin, dark-skinned female, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "azazel (helltaker)",
     category: "Helltaker",
     mainTags: "azazel (helltaker), blue eyes, blonde hair, long hair, halo, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "zdrada (helltaker)",
     category: "Helltaker",
     mainTags: "zdrada (helltaker), red eyes, purple hair, long hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "pandemonica (helltaker)",
     category: "Helltaker",
     mainTags: "pandemonica (helltaker), red eyes, blonde hair, short hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "beelzebub (helltaker)",
     category: "Helltaker",
     mainTags: "beelzebub (helltaker), red eyes, black hair, medium hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "loremaster (helltaker)",
     category: "Helltaker",
     mainTags: "loremaster (helltaker), red eyes, purple hair, long hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "baphomet (grizz)",
     category: "Helltaker",
     mainTags: "baphomet (grizz), red eyes, black hair, short hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "subject 67 (helltaker)",
     category: "Helltaker",
     mainTags: "subject 67 (helltaker), brown eyes, brown hair, short hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "archangel (helltaker)",
     category: "Helltaker",
     mainTags: "archangel (helltaker), blue eyes, blonde hair, long hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "krampus (grizz)",
     category: "Helltaker",
     mainTags: "krampus (grizz), red eyes, white hair, short hair, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "police (helltaker)",
     category: "Helltaker",
     mainTags: "police (helltaker), red eyes, black hair, short hair, dark skin, dark-skinned female, helltaker",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "dark sun gwyndolin",
     category: "Dark Souls (Series)",
     mainTags: "dark sun gwyndolin, blue eyes, blonde hair, long hair, dark souls i, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lord's blade ciaran",
     category: "Dark Souls (Series)",
     mainTags: "lord's blade ciaran, brown eyes, blonde hair, short hair, dark souls i, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "artorias the abysswalker",
     category: "Dark Souls (Series)",
     mainTags: "artorias the abysswalker, blue eyes, black hair, long hair, dark souls i, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "priscilla the crossbreed",
     category: "Dark Souls (Series)",
     mainTags: "priscilla the crossbreed, green eyes, white hair, long hair, dark souls i, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "solaire of astora",
     category: "Dark Souls (Series)",
     mainTags: "solaire of astora, brown eyes, blonde hair, short hair, helmet, dark souls i, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "dragon slayer ornstein",
     category: "Dark Souls (Series)",
     mainTags: "dragon slayer ornstein, brown eyes, blonde hair, long hair, helmet, dark souls i, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "queen of sunlight gwynevere",
     category: "Dark Souls (Series)",
     mainTags: "queen of sunlight gwynevere, blue eyes, blonde hair, long hair, dark souls i, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "emerald herald",
     category: "Dark Souls (Series)",
     mainTags: "emerald herald, green eyes, brown hair, long hair, dark souls ii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "fire keeper",
     category: "Dark Souls (Series)",
     mainTags: "fire keeper, grey eyes, brown hair, long hair, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ashen one (dark souls)",
     category: "Dark Souls (Series)",
     mainTags: "ashen one (dark souls), brown eyes, brown hair, short hair, boobplate, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "nameless king",
     category: "Dark Souls (Series)",
     mainTags: "nameless king, blue eyes, white hair, long hair, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "bearer of the curse",
     category: "Dark Souls (Series)",
     mainTags: "bearer of the curse, green eyes, brown hair, short hair, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "abyss watcher",
     category: "Dark Souls (Series)",
     mainTags: "abyss watcher, brown eyes, black hair, long hair, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "aldrich devourer of gods",
     category: "Dark Souls (Series)",
     mainTags: "aldrich devourer of gods, blue eyes, black hair, long hair, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lothric (younger prince)",
     category: "Dark Souls (Series)",
     mainTags: "lothric (younger prince), blue eyes, blonde hair, long hair, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "lorian (elder prince)",
     category: "Dark Souls (Series)",
     mainTags: "lorian (elder prince), blue eyes, blonde hair, short hair, gold armor, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "company captain yorshka",
     category: "Dark Souls (Series)",
     mainTags: "company captain yorshka, blue eyes, white hair, long hair, dragon girl, dragon tail, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "sister friede",
     category: "Dark Souls (Series)",
     mainTags: "sister friede, blue eyes, blonde hair, long hair, dark souls iii, dark souls (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10241,6 +11314,7 @@ const characterData = [
     enhancers: ["amiya (newsgirl) (arknights)", "amiya (fresh fastener) (arknights)", "amiya (act 2) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10250,6 +11324,7 @@ const characterData = [
     enhancers: ["texas (willpower) (arknights)", "texas (winter messenger) (arknights)", "texas (ambience synesthesia) (arknights)", "texas (elite ii) (arknights)", "texas the omertosa (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10259,6 +11334,7 @@ const characterData = [
     enhancers: ["lappland (refined horrormare) (arknights)", "lappland (ambience synesthesia) (arknights)", "lappland (elite ii) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10268,6 +11344,7 @@ const characterData = [
     enhancers: ["skadi (elite ii) (arknights)", "skadi the corrupting heart (arknights)", "skadi (waverider) (arknights)", "skadi (the next afternoon tea) (arknights)", "skadi the corrupting heart (sublimation) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10277,6 +11354,7 @@ const characterData = [
     enhancers: ["suzuran (spring praise) (arknights)", "suzuran (yukibare) (arknights)", "suzuran (lostlands flowering) (arknights)", "[suzuran (let's carnival!) (arknights)", "orange dress]", "suzuran (pajamas) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10286,6 +11364,7 @@ const characterData = [
     enhancers: ["kal'tsit (remnants) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10295,6 +11374,7 @@ const characterData = [
     enhancers: ["[exusiai (city rider) (arknights)", "white jacket]", "exusiai (wild operation) (arknights)", "exusiai (midnight delivery) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10304,6 +11384,7 @@ const characterData = [
     enhancers: ["ch'en (ageless afterglow) (arknights)", "ch'en (after storm) (arknights)", "ch'en (elite ii) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10313,6 +11394,7 @@ const characterData = [
     enhancers: ["mudrock (elite ii) (arknights)", "mudrock (silent night) (arknights)", "mudrock (obsidian) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10322,6 +11404,7 @@ const characterData = [
     enhancers: ["w (wanted) (arknights)", "w (fugue) (arknights)", "[w (cannot wait for) (arknights)", "yellow jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10331,6 +11414,7 @@ const characterData = [
     enhancers: ["mostima (spellbreaker) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10340,6 +11424,7 @@ const characterData = [
     enhancers: ["saria (the law) (arknights)", "saria (stronghold) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10349,6 +11434,7 @@ const characterData = [
     enhancers: ["specter the unchained (arknights)", "specter (undercurrent) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10358,6 +11444,7 @@ const characterData = [
     enhancers: ["dusk (everything is a miracle) (arknights)", "dusk (ambience synesthesia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10367,6 +11454,7 @@ const characterData = [
     enhancers: ["nian (unfettered freedom) (arknights)", "nian (thunderbolt director) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10376,15 +11464,17 @@ const characterData = [
     enhancers: ["angelina (summer flower) (arknights)", "angelina (distinguished visitor) (arknights)", "angelina (sports) (arknights)", "angelina (ambience synesthesia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "shu (arknights)",
     category: "Arknights",
     mainTags: "shu (arknights), green eyes, black hair, long hair, arknights",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10394,6 +11484,7 @@ const characterData = [
     enhancers: ["goldenglow (maiden for the bright night) (arknights)", "goldenglow (summer flowers) (arknights)", "goldenglow (party in the garden) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10403,6 +11494,7 @@ const characterData = [
     enhancers: ["irene (voyage of feathers) (arknights)", "irene (the adjudicatrix and her resolve) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10412,6 +11504,7 @@ const characterData = [
     enhancers: ["blue poison (shoal beat) (arknights)", "blue poison (elite ii) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10421,6 +11514,7 @@ const characterData = [
     enhancers: ["schwarz (skyline) (arknights)", "schwarz (presents) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10430,6 +11524,7 @@ const characterData = [
     enhancers: ["eyjafjalla (summer flower) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10439,6 +11534,7 @@ const characterData = [
     enhancers: ["sussurro (summer flower) (arknights)", "[sussurro (travel freely) (arknights)", "red coat]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10448,6 +11544,7 @@ const characterData = [
     enhancers: ["hoshiguma (ronin huntress) (arknights)", "hoshiguma (seeker) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10457,6 +11554,7 @@ const characterData = [
     enhancers: ["mountain (book reader) (arknights)", "mountain (dark cloud) (arknights)"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10466,6 +11564,7 @@ const characterData = [
     enhancers: ["siege (city destroyer) (arknights)", "siege (legacy) (arknights)", "siege (ambience synesthesia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10475,6 +11574,7 @@ const characterData = [
     enhancers: ["silence (frosted breath) (arknights)", "silence (lacquer) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10484,6 +11584,7 @@ const characterData = [
     enhancers: ["ifrit (sunburn) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10493,6 +11594,7 @@ const characterData = [
     enhancers: ["blaze (burst feline) (arknights)", "blaze the igniting spark (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10502,6 +11604,7 @@ const characterData = [
     enhancers: ["chongyue (alighting) (arknights)"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10511,6 +11614,7 @@ const characterData = [
     enhancers: ["virtuosa (diversity oneness) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10520,6 +11624,7 @@ const characterData = [
     enhancers: ["[nearl the radiant knight (arknights)", "cape]", "[nearl (shimmering dew) (arknights)", "one-piece swimsuit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10529,6 +11634,7 @@ const characterData = [
     enhancers: ["ho'olheyak (carriage of the winds of time) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10538,6 +11644,7 @@ const characterData = [
     enhancers: ["swire the elegant wit (arknights)", "swire (honor and splendor) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10547,6 +11654,7 @@ const characterData = [
     enhancers: ["muelsyse (young branch) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10556,6 +11664,7 @@ const characterData = [
     enhancers: ["ceobe (unfettered) (arknights)", "ceobe (summer flowers) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10565,6 +11674,7 @@ const characterData = [
     enhancers: ["fiammetta (divine oath) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10574,6 +11684,7 @@ const characterData = [
     enhancers: ["utage (summer flowers) (arknights)", "utage (disguise) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10583,6 +11694,7 @@ const characterData = [
     enhancers: ["jessica (clivia) (arknights)", "[jessica (iron block) (arknights)", "gas mask]", "[jessica the liberated (arknights)", "tube top]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10592,6 +11704,7 @@ const characterData = [
     enhancers: ["penance (occasionally flushed) (arknights)", "penance (ambience synesthesia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10601,6 +11714,7 @@ const characterData = [
     enhancers: ["blemishine (moon catastrborn) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10610,6 +11724,7 @@ const characterData = [
     enhancers: ["pramanix (caster's frost) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10619,6 +11734,7 @@ const characterData = [
     enhancers: ["rosmontis (become anew) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10628,6 +11744,7 @@ const characterData = [
     enhancers: ["platinum (shimmering dew) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10637,6 +11754,7 @@ const characterData = [
     enhancers: ["ptilopsis (elite ii) (arknights)", "ptilopsis (serenity) (arknights)", "ptilopsis (amongst the clouds) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10646,6 +11764,7 @@ const characterData = [
     enhancers: ["la pluma (summer flowers) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10655,6 +11774,7 @@ const characterData = [
     enhancers: ["tequila (cardwinner) (arknights)"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10664,6 +11784,7 @@ const characterData = [
     enhancers: ["[ling (it does wash the strings) (arknights)", "two-tone dress]", "ling (towering is cliff of nostalgia) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10673,6 +11794,7 @@ const characterData = [
     enhancers: ["white coat"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10682,6 +11804,7 @@ const characterData = [
     enhancers: ["saga (there they be) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10691,6 +11814,7 @@ const characterData = [
     enhancers: ["projekt red (light breeze) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10700,15 +11824,17 @@ const characterData = [
     enhancers: ["lin (heavenly mirage) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "mizuki (arknights)",
     category: "Arknights",
     mainTags: "mizuki (arknights), blue eyes, white hair, long hair, arknights, {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10718,6 +11844,7 @@ const characterData = [
     enhancers: ["green jacket", "bagpipe (queen no. 1) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10727,6 +11854,7 @@ const characterData = [
     enhancers: ["astesia (starseeker) (arknights)", "[astesia (frlibe on the palace) (arknights)", "high-waist dress", "detached sleeves", "thigh strap]", "[astesia (fantastic crafts) (arknights)", "yellow jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10736,6 +11864,7 @@ const characterData = [
     enhancers: ["whislash (glory purple) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10745,15 +11874,17 @@ const characterData = [
     enhancers: ["[multicolored coat", "brown sweater", "black pants]", "magallan (elite ii) (arknights)", "magallan (shaved-ice memories) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "theresa (arknights)",
     category: "Arknights",
     mainTags: "theresa (arknights), purple eyes, white hair, long hair, arknights",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10763,6 +11894,7 @@ const characterData = [
     enhancers: ["gravel (modeling night) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10772,6 +11904,7 @@ const characterData = [
     enhancers: ["myrtle (summer flowers) (arknights)", "myrtle (light gold celebration) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10781,6 +11914,7 @@ const characterData = [
     enhancers: ["feater (dojo star) (arknights)", "feater (gourmet) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10790,6 +11924,7 @@ const characterData = [
     enhancers: ["gavial the invincible (arknights)", "gavial (combat medic) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10799,6 +11934,7 @@ const characterData = [
     enhancers: ["white coat", "aurora (elite ii) (arknights)", "aurora (polar catcher) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10808,6 +11944,7 @@ const characterData = [
     enhancers: ["liskarm (overload) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10817,6 +11954,7 @@ const characterData = [
     enhancers: ["white jacket", "[reed the flame shadow (arknights)", "open jacket", "white dress]", "[reed the flame shadow (arknights)", "reed the flame shadow (summer flowers) (arknights)]", "reed (emerald holiday) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10826,6 +11964,7 @@ const characterData = [
     enhancers: ["hat", "gladiia (return) (arknights)", "gladiia (i am the tides) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10835,6 +11974,7 @@ const characterData = [
     enhancers: ["sora (summer flowers) (arknights)", "sora (melodiosa) (arknights)", "sora (elite ii) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10844,6 +11984,7 @@ const characterData = [
     enhancers: ["[black jacket", "pleated skirt]", "gummy (summer flowers) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10853,6 +11994,7 @@ const characterData = [
     enhancers: ["tomimi (silent night) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10862,6 +12004,7 @@ const characterData = [
     enhancers: ["frostleaf (breaking the ice) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10871,6 +12014,7 @@ const characterData = [
     enhancers: ["yellow bandeau", "eunectes (forgemaster) (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10880,6 +12024,7 @@ const characterData = [
     enhancers: ["black dress", "talulah the fighter (arknights)"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10889,15 +12034,17 @@ const characterData = [
     enhancers: ["[red pants", "thigh cutout]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "ryu hayabusa",
     category: "Ninja Gaiden",
     mainTags: "ryu hayabusa, green eyes, brown hair, short hair, claw weapon, ninja gaiden",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
@@ -10907,168 +12054,187 @@ const characterData = [
     enhancers: ["black leotard"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Video Games"
 },
 {
     name: "frieren",
     category: "Frieren: Beyond Journey's End",
     mainTags: "frieren, green eyes, white hair, long hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "fern (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "fern (sousou no frieren), purple eyes, purple hair, long hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "stark (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "stark (sousou no frieren), red eyes, red hair, short hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "ubel (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "ubel (sousou no frieren), green eyes, black hair, short hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "himmel (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "himmel (sousou no frieren), blue eyes, blue hair, short hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "aura (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "aura (sousou no frieren), purple eyes, pink hair, long hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "serie (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "serie (sousou no frieren), yellow eyes, blonde hair, long hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "land (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "land (sousou no frieren), green eyes, blonde hair, short hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "eisen (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "eisen (sousou no frieren), brown eyes, grey hair, short hair, dwarf, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "heiter",
     category: "Frieren: Beyond Journey's End",
     mainTags: "heiter, green eyes, blonde hair, short hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "lawine (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "lawine (sousou no frieren), blue eyes, brown hair, short hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kanne (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "kanne (sousou no frieren), blue eyes, blonde hair, short hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "laufen (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "laufen (sousou no frieren), brown eyes, black hair, short hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "sense (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "sense (sousou no frieren), brown eyes, blonde hair, long hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "sein (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "sein (sousou no frieren), brown eyes, brown hair, short hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "linie (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "linie (sousou no frieren), blue eyes, blonde hair, long hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "methode (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "methode (sousou no frieren), brown eyes, blonde hair, long hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "flamme (sousou no frieren)",
     category: "Frieren: Beyond Journey's End",
     mainTags: "flamme (sousou no frieren), green eyes, red hair, long hair, sousou no frieren",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11078,186 +12244,207 @@ const characterData = [
     enhancers: ["fur-trimmed coat"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "revy (black lagoon)",
     category: "Black Lagoon",
     mainTags: "revy (black lagoon), blue eyes, brown hair, long hair, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "balalaika (black lagoon)",
     category: "Black Lagoon",
     mainTags: "balalaika (black lagoon), blue eyes, blonde hair, long hair, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "roberta (black lagoon)",
     category: "Black Lagoon",
     mainTags: "roberta (black lagoon), brown eyes, black hair, long hair, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "okajima rokuro",
     category: "Black Lagoon",
     mainTags: "okajima rokuro, brown eyes, black hair, short hair, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "frederica sawyer",
     category: "Black Lagoon",
     mainTags: "frederica sawyer, blue eyes, black hair, short hair, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "eda (black lagoon)",
     category: "Black Lagoon",
     mainTags: "eda (black lagoon), blue eyes, blonde hair, long hair, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "gretel (black lagoon)",
     category: "Black Lagoon",
     mainTags: "gretel (black lagoon), blue eyes, white hair, short hair, black lagoon, {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "shenhua",
     category: "Black Lagoon",
     mainTags: "shenhua, brown eyes, black hair, long hair, black lagoon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "fabiola iglesias",
     category: "Black Lagoon",
     mainTags: "fabiola iglesias, green eyes, green hair, long hair, black lagoon, {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hansel (black lagoon)",
     category: "Black Lagoon",
     mainTags: "hansel (black lagoon), blue eyes, white hair, short hair, black lagoon, {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "ranma-chan",
     category: "Ranma 1/2",
     mainTags: "ranma-chan, blue eyes, red hair, long hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "shampoo (ranma 1/2)",
     category: "Ranma 1/2",
     mainTags: "shampoo (ranma 1/2), purple eyes, purple hair, long hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "tendou akane",
     category: "Ranma 1/2",
     mainTags: "tendou akane, brown eyes, black hair, short hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "saotome ranma",
     category: "Ranma 1/2",
     mainTags: "saotome ranma, blue eyes, black hair, short hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hibiki ryouga",
     category: "Ranma 1/2",
     mainTags: "hibiki ryouga, brown eyes, black hair, short hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "tendou nabiki",
     category: "Ranma 1/2",
     mainTags: "tendou nabiki, brown eyes, brown hair, short hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kuonji ukyou",
     category: "Ranma 1/2",
     mainTags: "kuonji ukyou, brown eyes, brown hair, long hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "mousse (ranma 1/2)",
     category: "Ranma 1/2",
     mainTags: "mousse (ranma 1/2), brown eyes, black hair, long hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kunou kodachi",
     category: "Ranma 1/2",
     mainTags: "kunou kodachi, purple eyes, black hair, long hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "tendou kasumi",
     category: "Ranma 1/2",
     mainTags: "tendou kasumi, brown eyes, brown hair, long hair, ranma 1/2",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11267,6 +12454,7 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11276,6 +12464,7 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11285,6 +12474,7 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11294,6 +12484,7 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11303,6 +12494,7 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11312,6 +12504,7 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11321,6 +12514,7 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11330,6 +12524,7 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11339,6 +12534,7 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11348,42 +12544,47 @@ const characterData = [
     enhancers: ["[paradis military uniform", "brown jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "pieck finger",
     category: "Attack on Titan",
     mainTags: "pieck finger, brown eyes, black hair, long hair, shingeki no kyojin",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "merida (brave)",
     category: "Disney",
     mainTags: "merida (brave), blue eyes, red hair, very long hair, brave (pixar), disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "moana waialiki",
     category: "Disney",
     mainTags: "moana waialiki, brown eyes, brown hair, very long hair, moana (movie), disney, {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "vanellope von schweetz",
     category: "Disney",
     mainTags: "vanellope von schweetz, brown eyes, black hair, long hair, ponytail, large breasts, wreck-it-ralph, disney",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11393,69 +12594,77 @@ const characterData = [
     enhancers: ["green gown"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "dark magician girl",
     category: "Yu-Gi-Oh",
     mainTags: "dark magician girl, green eyes, blonde hair, long hair, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "dark magician",
     category: "Yu-Gi-Oh",
     mainTags: "dark magician, green eyes, purple hair, short hair, purple armor, pelvic curtain, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "gagaga girl",
     category: "Yu-Gi-Oh",
     mainTags: "gagaga girl, brown eyes, black hair, long hair, twintails, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "silent magician",
     category: "Yu-Gi-Oh",
     mainTags: "silent magician, blue eyes, blonde hair, long hair, hat, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "dogmatika ecclesia the virtuous",
     category: "Yu-Gi-Oh",
     mainTags: "dogmatika ecclesia the virtuous, blue eyes, blonde hair, long hair, horns, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "blazing cartesia the virtuous",
     category: "Yu-Gi-Oh",
     mainTags: "blazing cartesia the virtuous, red eyes, red hair, long hair, horns, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "lovely labrynth of the silver castle",
     category: "Yu-Gi-Oh",
     mainTags: "lovely labrynth of the silver castle, red eyes, white hair, long hair, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11465,15 +12674,17 @@ const characterData = [
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "laundry dragonmaid",
     category: "Yu-Gi-Oh",
     mainTags: "laundry dragonmaid, blue eyes, blue hair, long hair, duel monster, yu-gi-oh!, {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11483,6 +12694,7 @@ const characterData = [
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11492,15 +12704,17 @@ const characterData = [
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "chamber dragonmaid",
     category: "Yu-Gi-Oh",
     mainTags: "chamber dragonmaid, yellow eyes, black hair, long hair, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11510,33 +12724,37 @@ const characterData = [
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "nurse dragonmaid",
     category: "Yu-Gi-Oh",
     mainTags: "nurse dragonmaid, green eyes, green hair, long hair, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "yubel",
     category: "Yu-Gi-Oh",
     mainTags: "yubel, blue eyes, black hair, short hair, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "diabellstar the black witch",
     category: "Yu-Gi-Oh",
     mainTags: "diabellstar the black witch, yellow eyes, black hair, long hair, half mask, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11546,15 +12764,17 @@ const characterData = [
     enhancers: ["black jacket"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "tearlaments kitkallos",
     category: "Yu-Gi-Oh",
     mainTags: "tearlaments kitkallos, blue eyes, blue hair, long hair, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11564,33 +12784,37 @@ const characterData = [
     enhancers: ["[tied brown coat", "black skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hiita (yu-gi-oh!)",
     category: "Yu-Gi-Oh",
     mainTags: "hiita (yu-gi-oh!), brown eyes, red hair, long hair, hiita the fire charmer, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "i:p masquerena",
     category: "Yu-Gi-Oh",
     mainTags: "i:p masquerena, purple eyes, black hair, short hair, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "diabellze the original sinkeeper",
     category: "Yu-Gi-Oh",
     mainTags: "diabellze the original sinkeeper, red eyes, blonde hair, long hair, hat, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11600,15 +12824,17 @@ const characterData = [
     enhancers: ["[ninja", "detached sleeves", "pelvic curtain", "black shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "harpie lady",
     category: "Yu-Gi-Oh",
     mainTags: "harpie lady, blue eyes, orange hair, long hair, duel monster, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11618,24 +12844,27 @@ const characterData = [
     enhancers: ["[tri-brigade kitt", "orange tube top", "goggles on head", "jumpsuit around waist]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "yuki judai",
     category: "Yu-Gi-Oh",
     mainTags: "yuki judai, brown eyes, brown hair, short hair, yu-gi-oh! gx, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "tenjouin asuka",
     category: "Yu-Gi-Oh",
     mainTags: "tenjouin asuka, blue eyes, blonde hair, long hair, yu-gi-oh! gx, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11645,6 +12874,7 @@ const characterData = [
     enhancers: ["[black coat", "black skirt", "belt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11654,6 +12884,7 @@ const characterData = [
     enhancers: ["blue vest"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11663,33 +12894,37 @@ const characterData = [
     enhancers: ["duel academy uniform (yu-gi-oh! gx)"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "fudo yusei",
     category: "Yu-Gi-Oh",
     mainTags: "fudo yusei, blue eyes, black hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "izayoi aki",
     category: "Yu-Gi-Oh",
     mainTags: "izayoi aki, red eyes, red hair, long hair, yu-gi-oh! 5d's, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "jack atlas",
     category: "Yu-Gi-Oh",
     mainTags: "jack atlas, purple eyes, blonde hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11699,6 +12934,7 @@ const characterData = [
     enhancers: ["multicolored coat"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11708,6 +12944,7 @@ const characterData = [
     enhancers: ["glasses", "[orange vest", "glasses]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11717,6 +12954,7 @@ const characterData = [
     enhancers: ["[red shirt", "pink jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11726,6 +12964,7 @@ const characterData = [
     enhancers: ["white collared coat"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11735,6 +12974,7 @@ const characterData = [
     enhancers: ["[blue jacket", "millennium puzzle]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11744,6 +12984,7 @@ const characterData = [
     enhancers: ["[spiked hair", "open blue jacket", "millennium puzzle]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11753,6 +12994,7 @@ const characterData = [
     enhancers: ["[pink jacket", "blue bowtie]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11762,15 +13004,17 @@ const characterData = [
     enhancers: ["[green coat", "single fingerless glove", "pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "ishizu ishtar",
     category: "Yu-Gi-Oh",
     mainTags: "ishizu ishtar, blue eyes, black hair, long hair, millennium necklace, veil, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11780,6 +13024,7 @@ const characterData = [
     enhancers: ["[purple skirt", "corset]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11789,6 +13034,7 @@ const characterData = [
     enhancers: ["[blue jacket", "millennium ring", "striped shirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11798,15 +13044,17 @@ const characterData = [
     enhancers: ["brown tunic"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "hiiragi yuzu",
     category: "Yu-Gi-Oh",
     mainTags: "hiiragi yuzu, pink eyes, pink hair, long hair, twintails, yu-gi-oh! arc-v, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11816,6 +13064,7 @@ const characterData = [
     enhancers: ["goggles on head"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11825,6 +13074,7 @@ const characterData = [
     enhancers: ["red jacket"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11834,6 +13084,7 @@ const characterData = [
     enhancers: ["[white vest", "purple shirt", "pants under skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11843,6 +13094,7 @@ const characterData = [
     enhancers: ["[pink shorts", "multicolored jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11852,6 +13104,7 @@ const characterData = [
     enhancers: ["[sleeveless shirt", "pink skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11861,15 +13114,17 @@ const characterData = [
     enhancers: ["red jacket"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kamishiro rio",
     category: "Yu-Gi-Oh",
     mainTags: "kamishiro rio, purple eyes, purple hair, long hair, yu-gi-oh! zexal, yu-gi-oh!",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11879,6 +13134,7 @@ const characterData = [
     enhancers: ["[striped shirt", "bow hairband]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11888,6 +13144,7 @@ const characterData = [
     enhancers: ["black jacket"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11897,6 +13154,7 @@ const characterData = [
     enhancers: ["[blue dress", "white vest]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11906,6 +13164,7 @@ const characterData = [
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11915,6 +13174,7 @@ const characterData = [
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11924,6 +13184,7 @@ const characterData = [
     enhancers: ["[white dress", "detached sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11933,6 +13194,7 @@ const characterData = [
     enhancers: ["track jacket"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11942,6 +13204,7 @@ const characterData = [
     enhancers: ["[red dress", "capelet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11951,6 +13214,7 @@ const characterData = [
     enhancers: ["black dress"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11960,6 +13224,7 @@ const characterData = [
     enhancers: ["[striped dress", "thighhighs]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11969,6 +13234,7 @@ const characterData = [
     enhancers: ["[tube top", "brown vest", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11978,6 +13244,7 @@ const characterData = [
     enhancers: ["maid", "[green skirt", "yellow shirt", "green cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11987,6 +13254,7 @@ const characterData = [
     enhancers: ["maid"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -11996,6 +13264,7 @@ const characterData = [
     enhancers: ["black cocktail dress", "cloak"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12005,6 +13274,7 @@ const characterData = [
     enhancers: ["military uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12014,6 +13284,7 @@ const characterData = [
     enhancers: ["[aristocratic clothes", "off shoulder red dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12023,6 +13294,7 @@ const characterData = [
     enhancers: ["[white coat", "white skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12032,6 +13304,7 @@ const characterData = [
     enhancers: ["[black bikini top", "black shorts", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12041,6 +13314,7 @@ const characterData = [
     enhancers: ["[green cloak", "green hat]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12050,6 +13324,7 @@ const characterData = [
     enhancers: ["[black dress", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12059,15 +13334,17 @@ const characterData = [
     enhancers: ["[white coat", "purple dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "pandora (re:zero)",
     category: "Re: Zero",
     mainTags: "pandora (re:zero), blue eyes, blonde hair, long hair, re:zero kara hajimeru isekai seikatsu, {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12077,6 +13354,7 @@ const characterData = [
     enhancers: ["cape"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12086,6 +13364,7 @@ const characterData = [
     enhancers: ["gradient dress"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12095,6 +13374,7 @@ const characterData = [
     enhancers: ["[black dress", "black veil]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12104,6 +13384,7 @@ const characterData = [
     enhancers: ["black vest"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12113,6 +13394,7 @@ const characterData = [
     enhancers: ["[white coat", "white dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12122,42 +13404,47 @@ const characterData = [
     enhancers: ["orange sweater"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "daphne blake",
     category: "Scooby-Doo (Series)",
     mainTags: "daphne blake, purple eyes, orange hair, long hair, scooby-doo",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "shaggy rogers",
     category: "Scooby-Doo (Series)",
     mainTags: "shaggy rogers, brown eyes, brown hair, short hair, green shirt, brown pants, scooby-doo",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "fred jones",
     category: "Scooby-Doo (Series)",
     mainTags: "fred jones, blue eyes, blonde hair, short hair, scooby-doo",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "thorn (scooby-doo)",
     category: "Scooby-Doo (Series)",
     mainTags: "thorn (scooby-doo), green eyes, black hair, long hair, scooby-doo and the witch's ghost, scooby-doo",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12167,6 +13454,7 @@ const characterData = [
     enhancers: ["[armor", "boobplate]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12176,6 +13464,7 @@ const characterData = [
     enhancers: ["[armor", "boobplate]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12185,6 +13474,7 @@ const characterData = [
     enhancers: ["[armor", "boobplate]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12194,6 +13484,7 @@ const characterData = [
     enhancers: ["[witch hat", "robe]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12203,15 +13494,17 @@ const characterData = [
     enhancers: ["[armor", "two-sided cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "slan (berserk)",
     category: "Berserk",
     mainTags: "slan (berserk), purple eyes, black hair, long hair, aqua hair, tentacle hair, demon girl, demon wings, berserk",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12221,6 +13514,7 @@ const characterData = [
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12230,6 +13524,7 @@ const characterData = [
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12239,6 +13534,7 @@ const characterData = [
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12248,6 +13544,7 @@ const characterData = [
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12257,6 +13554,7 @@ const characterData = [
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12266,15 +13564,17 @@ const characterData = [
     enhancers: ["armor"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "deneve",
     category: "Claymore",
     mainTags: "deneve, silver eyes, blonde hair, short hair, claymore (series)",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12284,6 +13584,7 @@ const characterData = [
     enhancers: ["armor", "[monster girl", "lamia]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12293,6 +13594,7 @@ const characterData = [
     enhancers: ["[armor", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12302,6 +13604,7 @@ const characterData = [
     enhancers: ["[pauldrons", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12311,6 +13614,7 @@ const characterData = [
     enhancers: ["cape"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12320,6 +13624,7 @@ const characterData = [
     enhancers: ["cape"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12329,6 +13634,7 @@ const characterData = [
     enhancers: ["cape"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12338,6 +13644,7 @@ const characterData = [
     enhancers: ["[hat", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12347,6 +13654,7 @@ const characterData = [
     enhancers: ["cape"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12356,6 +13664,7 @@ const characterData = [
     enhancers: ["[kaname madoka (magical girl)", "frilled dress", "magical girl]", "[plaid skirt", "white shirt", "long sleeves", "white thighhighs]", "ultimate madoka"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12365,6 +13674,7 @@ const characterData = [
     enhancers: ["[akemi homura (magical girl)", "collared capelet", "magical girl]", "[plaid skirt", "white shirt", "long sleeves", "white thighhighs]", "[akuma homura", "feathered wings", "black dress", "elbow gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12374,6 +13684,7 @@ const characterData = [
     enhancers: ["[miki sayaka (magical girl)", "cape", "armored dress]", "[plaid skirt", "white shirt", "long sleeves", "black knee socks]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12383,6 +13694,7 @@ const characterData = [
     enhancers: ["[tomoe mami (magical girl)", "puffy short sleeves", "detached sleeves", "corset]", "[plaid skirt", "white shirt", "long sleeves", "red ribbon", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12392,15 +13704,17 @@ const characterData = [
     enhancers: ["[sakura kyoko (magical girl)", "detached sleeves", "magical girl", "red dress]", "[green jacket", "denim shorts", "fur-trimmed shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "akuma homura",
     category: "Puella Magi Madoka Magica",
     mainTags: "akuma homura, purple eyes, black hair, long hair",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12410,6 +13724,7 @@ const characterData = [
     enhancers: ["[plaid skirt", "white shirt", "long sleeves", "black knee socks]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12419,6 +13734,7 @@ const characterData = [
     enhancers: ["[sailor moon", "circlet", "sailor senshi uniform]", "[princess serenity", "white dress]", "[super sailor moon", "magical girl", "rainbow]", "[neo queen serenity", "white hair", "wings", "white dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12428,6 +13744,7 @@ const characterData = [
     enhancers: ["[sailor venus", "circlet", "sailor senshi uniform]", "[super sailor venus", "circlet]", "[sailor v", "glasses", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12437,6 +13754,7 @@ const characterData = [
     enhancers: ["[sailor mercury", "circlet", "sailor senshi uniform]", "[super sailor mercury", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12446,6 +13764,7 @@ const characterData = [
     enhancers: ["[sailor jupiter", "circlet", "sailor senshi uniform]", "[sailor jupiter", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12455,6 +13774,7 @@ const characterData = [
     enhancers: ["small lady serenity", "[sailor chibi moon", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12464,6 +13784,7 @@ const characterData = [
     enhancers: ["[sailor saturn", "circlet]", "[super sailor saturn", "circlet", "sailor senshi uniform]", "[mistress 9", "black dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12473,6 +13794,7 @@ const characterData = [
     enhancers: ["[sailor uranus", "circlet", "sailor senshi uniform]", "[super sailor uranus", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12482,6 +13804,7 @@ const characterData = [
     enhancers: ["[sailor neptune", "circlet", "sailor senshi uniform]", "[super sailor neptune", "circlet]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12491,6 +13814,7 @@ const characterData = [
     enhancers: ["[cat girl", "cat ears", "cat tail]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12500,6 +13824,7 @@ const characterData = [
     enhancers: ["[sailor pluto", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12509,15 +13834,17 @@ const characterData = [
     enhancers: ["[sailor star fighter", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "black lady (sailor moon)",
     category: "Sailor Moon",
     mainTags: "black lady (sailor moon), red eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12527,6 +13854,7 @@ const characterData = [
     enhancers: ["[angel wings", "robe", "tassel]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12536,6 +13864,7 @@ const characterData = [
     enhancers: ["[sailor chibi chibi", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12545,6 +13874,7 @@ const characterData = [
     enhancers: ["[magical girl", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12554,6 +13884,7 @@ const characterData = [
     enhancers: ["[sailor star healer", "circlet", "sailor senshi uniform]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12572,6 +13903,7 @@ const characterData = [
     enhancers: ["[military uniform", "black jacket]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12581,6 +13913,7 @@ const characterData = [
     enhancers: ["[bikini top only", "yellow skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12590,6 +13923,7 @@ const characterData = [
     enhancers: ["[bikini", "see-through skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12599,6 +13933,7 @@ const characterData = [
     enhancers: ["[bandeau", "arabian clothes]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12608,6 +13943,7 @@ const characterData = [
     enhancers: ["[blue leotard", "yellow skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12617,6 +13953,7 @@ const characterData = [
     enhancers: ["blue bodysuit"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12626,6 +13963,7 @@ const characterData = [
     enhancers: ["[blue leotard", "thigh boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12635,6 +13973,7 @@ const characterData = [
     enhancers: ["[gold armored dress", "gold choker]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12644,6 +13983,7 @@ const characterData = [
     enhancers: ["black dress"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12653,6 +13993,7 @@ const characterData = [
     enhancers: ["maid", "[mew ichigo", "cat girl", "animal ear fluff", "cat ears", "cat tail", "pink dress", "puffy detached sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12662,6 +14003,7 @@ const characterData = [
     enhancers: ["maid", "[mew mint", "bird girl", "blue wings", "blue parrot tail", "puffy detached sleeves", "dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12671,6 +14013,7 @@ const characterData = [
     enhancers: ["maid", "[mew zakuro", "wolf girl", "wolf ears", "wolf tail", "puffy detached sleeves", "purple shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12680,6 +14023,7 @@ const characterData = [
     enhancers: ["[maid", "glasses]", "[mew lettuce", "antennae", "green leotard", "choker", "single hair tube]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12689,6 +14033,7 @@ const characterData = [
     enhancers: ["maid", "[mew pudding", "monkey girl", "monkey tail", "monkey ears", "detached puffy sleeves", "yellow jumper]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12698,6 +14043,7 @@ const characterData = [
     enhancers: ["school uniform", "[kinomoto sakura (magic dream costume)", "magical girl", "red pinafore dress]", "[kinomoto sakura (platinum star dress)", "magical girl", "wings]", "[kinomoto sakura (crystal feather dress)", "magical girl]", "[kinomoto sakura (winged egg crown costume)", "magical girl", "wings]", "[kinomoto sakura (pink kitty costume)", "magical girl", "cat ears", "cat tail]", "[kinomoto sakura (princess costume)", "magical girl", "wings", "pink dress]", "[kinomoto sakura (pink ribbon dress)", "magical girl", "pink dress", "pink hat]", "[kinomoto sakura (red hearts costume)", "magical girl", "red dress", "capelet]", "[kinomoto sakura (pink star angel costume)", "magical girl", "pink dress", "pink hat]", "[kinomoto sakura (alice in wonderland costume)", "magical girl", "pink bow]", "[kinomoto sakura (blue jester costume)", "magical girl", "jester cap", "white coattails]", "[kinomoto sakura (red cape costume)", "magical girl", "red hat", "red cape]", "[kinomoto sakura (final judgment costume)", "magical girl", "pink cape", "blue thighhighs]", "[kinomoto sakura (remembrance dress)", "white dress", "white hat", "red skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12707,6 +14053,7 @@ const characterData = [
     enhancers: ["[hat", "pleated skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12716,6 +14063,7 @@ const characterData = [
     enhancers: ["school uniform", "[green hat", "chinese clothes", "magical girl]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12725,15 +14073,17 @@ const characterData = [
     enhancers: ["[chinese clothes", "wide sleeves", "red dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "kinomoto touya",
     category: "Cardcaptor Sakura",
     mainTags: "kinomoto touya, brown eyes, brown hair, short hair, cardcaptor sakura",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12743,6 +14093,7 @@ const characterData = [
     enhancers: ["school uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12752,6 +14103,7 @@ const characterData = [
     enhancers: ["school uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12761,6 +14113,7 @@ const characterData = [
     enhancers: ["school uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12770,6 +14123,7 @@ const characterData = [
     enhancers: ["[black shirt", "black pants", "black jacket]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12779,6 +14133,7 @@ const characterData = [
     enhancers: ["[bikini bottom only", "long sleeves", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12788,6 +14143,7 @@ const characterData = [
     enhancers: ["purple suit"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12797,6 +14153,7 @@ const characterData = [
     enhancers: ["[miko", "red hakama]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12806,6 +14163,7 @@ const characterData = [
     enhancers: ["[armor", "layered dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12815,6 +14173,7 @@ const characterData = [
     enhancers: ["[armor", "fur-trimmed cape]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12824,6 +14183,7 @@ const characterData = [
     enhancers: ["[blue dress", "long sleeves", "bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12833,6 +14193,7 @@ const characterData = [
     enhancers: ["[frilled dress", "multicolored dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12842,6 +14203,7 @@ const characterData = [
     enhancers: ["[armor", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12851,6 +14213,7 @@ const characterData = [
     enhancers: ["frilled headwear", "gothic lolita"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12860,6 +14223,7 @@ const characterData = [
     enhancers: ["[dress", "cloak]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12869,6 +14233,7 @@ const characterData = [
     enhancers: ["[leather arm ribbon", "detached sleeves", "green dress", "wide sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12878,6 +14243,7 @@ const characterData = [
     enhancers: ["[camouflage", "military combat uniform]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12887,6 +14253,7 @@ const characterData = [
     enhancers: ["yellow dress", "tokyo-3 middle school uniform", "[white shirt", "denim shorts]", "[red bodysuit", "mecha pilot suit]", "[red bodysuit", "mecha pilot suit", "eyepatch]", "[white bodysuit", "mecha pilot suit", "eyepatch]", "striped bikini"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12896,6 +14263,7 @@ const characterData = [
     enhancers: ["tokyo-3 middle school uniform", "[white bodysuit", "mecha pilot suit]", "[white bodysuit", "mecha pilot suit", "very long hair]", "black bodysuit"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12905,6 +14273,7 @@ const characterData = [
     enhancers: ["tokyo-3 middle school uniform", "[white shirt", "black pants]", "mecha pilot suit"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12914,6 +14283,7 @@ const characterData = [
     enhancers: ["tokyo-3 middle school uniform", "[white shirt", "black pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12923,6 +14293,7 @@ const characterData = [
     enhancers: ["school uniform", "pink mecha pilot suit", "white mecha pilot suit"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12932,6 +14303,7 @@ const characterData = [
     enhancers: ["[red jacket", "black dress]", "[black military dress uniform", "female service cap", "lanyard]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12941,6 +14313,7 @@ const characterData = [
     enhancers: ["[black jacket", "black skirt", "white gloves", "red turtleneck]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12950,6 +14323,7 @@ const characterData = [
     enhancers: ["[blue shirt", "lab coat", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12959,6 +14333,7 @@ const characterData = [
     enhancers: ["[tan jacket", "white pants", "uniform", "black belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12968,6 +14343,7 @@ const characterData = [
     enhancers: ["tokyo-3 middle school uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12977,6 +14353,7 @@ const characterData = [
     enhancers: ["[angel wings", "multiple wings]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12986,6 +14363,7 @@ const characterData = [
     enhancers: ["[lab coat", "pink shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -12995,6 +14373,7 @@ const characterData = [
     enhancers: ["[brown tunic", "brown gloves", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13004,6 +14383,7 @@ const characterData = [
     enhancers: ["[faceless", "helmet]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13013,6 +14393,7 @@ const characterData = [
     enhancers: ["[brown cloak", "jedi]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13022,6 +14403,7 @@ const characterData = [
     enhancers: ["[white bodysuit", "brown vest", "brown gloves]", "[white pants", "white padded jacket]", "[white crop top", "long sleeves", "pelvic curtain", "white belt]", "huttslayer leia"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13031,6 +14413,7 @@ const characterData = [
     enhancers: ["[jedi", "brown robe]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13040,6 +14423,7 @@ const characterData = [
     enhancers: ["[black vest", "white shirt", "denim skirt]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13049,6 +14433,7 @@ const characterData = [
     enhancers: ["[huttslayer leia", "princess leia (cosplay)]", "[jedi", "robe", "utility belt]", "[jedi", "robe", "utility belt", "cape]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13058,6 +14443,7 @@ const characterData = [
     enhancers: ["[bikini top", "scarf", "short shorts]", "space yoko", "yomako"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13067,6 +14453,7 @@ const characterData = [
     enhancers: ["[pink dress", "red necktie", "belt]", "antispiral nia"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13076,6 +14463,7 @@ const characterData = [
     enhancers: ["[blue jacket", "sarashi", "brown shorts]", "[long coat", "chest sarashi", "skirt", "corset]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13085,6 +14473,7 @@ const characterData = [
     enhancers: ["[chest sarashi", "red cape", "brown skirt", "triangular eyewear]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13094,6 +14483,7 @@ const characterData = [
     enhancers: ["[blue shirt", "red scarf", "multiple belts", "wide sleeves]", "[red sleeveless shirt", "red scarf", "multiple belts", "cape]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13103,6 +14493,7 @@ const characterData = [
     enhancers: ["red bodysuit", "[pink dress", "red hair ribbon]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13112,6 +14503,7 @@ const characterData = [
     enhancers: ["white cloak"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13121,6 +14513,7 @@ const characterData = [
     enhancers: ["[bike shorts", "tank top", "yellow gloves]", "[pink cheongsam", "long cheongsam", "black shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13130,6 +14523,7 @@ const characterData = [
     enhancers: ["[uniform", "hat", "pantyhose]", "[sleeveless bodysuit", "yellow gloves", "arm bands", "belt pouch]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13139,6 +14533,7 @@ const characterData = [
     enhancers: ["[off-shoulder dress", "wide sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13148,6 +14543,7 @@ const characterData = [
     enhancers: ["[black skirt", "black tube top", "yellow gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13157,6 +14553,7 @@ const characterData = [
     enhancers: ["[high collar", "blue bodysuit", "white bodysuit", "wide sleeves]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13166,6 +14563,7 @@ const characterData = [
     enhancers: ["padded vest"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13175,6 +14573,7 @@ const characterData = [
     enhancers: ["[blue shirt", "blue leather apron]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13184,6 +14583,7 @@ const characterData = [
     enhancers: ["[blue dress", "rope belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13193,6 +14593,7 @@ const characterData = [
     enhancers: ["[grey tunic", "high collar", "belt bag]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13202,6 +14603,7 @@ const characterData = [
     enhancers: ["[layered clothes", "high collar", "purple robe]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13211,6 +14613,7 @@ const characterData = [
     enhancers: ["blue dress"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13220,6 +14623,7 @@ const characterData = [
     enhancers: ["[blue dress", "rope necklace]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13229,6 +14633,7 @@ const characterData = [
     enhancers: ["[green dress", "purple bows", "rope belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13238,6 +14643,7 @@ const characterData = [
     enhancers: ["[two-tone jacket", "red shirt", "black pants", "lanyard]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13247,6 +14653,7 @@ const characterData = [
     enhancers: ["[red hat", "green dress]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13256,6 +14663,7 @@ const characterData = [
     enhancers: ["[choker", "hairband", "pink bikini", "wrist cuffs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13265,6 +14673,7 @@ const characterData = [
     enhancers: ["[black leotard", "black leggings", "blue shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13274,6 +14683,7 @@ const characterData = [
     enhancers: ["[yellow crop top", "yellow shorts", "single yellow elbow glove]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13283,6 +14693,7 @@ const characterData = [
     enhancers: ["[green headband", "green crop top", "green shorts", "single green elbow glove]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13292,6 +14703,7 @@ const characterData = [
     enhancers: ["[blue leotard", "white vest", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13301,6 +14713,7 @@ const characterData = [
     enhancers: ["[leotard", "red shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13310,6 +14723,7 @@ const characterData = [
     enhancers: ["[magical girl", "dress", "sailor collar", "red armband]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13319,6 +14733,7 @@ const characterData = [
     enhancers: ["[magical girl", "purple leotard", "knee boots", "detached sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13328,6 +14743,7 @@ const characterData = [
     enhancers: ["[magical girl", "swimsuit", "thigh strap", "demon wings", "goggles around neck]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13337,6 +14753,7 @@ const characterData = [
     enhancers: ["[magical girl", "yellow print nightgown", "rabbit print]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13346,6 +14763,7 @@ const characterData = [
     enhancers: ["[black cape", "puffy sleeves", "white shirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13355,6 +14773,7 @@ const characterData = [
     enhancers: ["[magical girl", "lolita hairband", "frilled choker", "striped leggings", "black dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13364,6 +14783,7 @@ const characterData = [
     enhancers: ["[magical girl", "red scarf", "puffy sleeves", "miniskirt", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13373,6 +14793,7 @@ const characterData = [
     enhancers: ["[magical girl", "frilled white dress", "center frills", "green pantyhose", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13382,6 +14803,7 @@ const characterData = [
     enhancers: ["[magical girl", "frilled dress", "black gloves", "thigh strap]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13391,6 +14813,7 @@ const characterData = [
     enhancers: ["[frilled dress", "pink dress", "purple dress", "multicolored dress", "detached sleeves", "sleeves past wrists", "dress bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13400,6 +14823,7 @@ const characterData = [
     enhancers: ["[witch hat", "black dress", "black cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13409,6 +14833,7 @@ const characterData = [
     enhancers: ["[blue dress", "detached sleeves", "tail", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13418,6 +14843,7 @@ const characterData = [
     enhancers: ["[nun", "elbow gloves", "habit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13427,6 +14853,7 @@ const characterData = [
     enhancers: ["[spiked collar", "paw gloves", "animal ear hood]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13436,6 +14863,7 @@ const characterData = [
     enhancers: ["[magical girl", "bikini top only", "orange skirt", "black belt", "hat", "cape]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13445,6 +14873,7 @@ const characterData = [
     enhancers: ["[magical girl", "white dress", "white thighhighs", "white hat", "frilled dress", "frilled thighhighs", "rooster tail]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13463,6 +14892,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13484,6 +14914,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13503,6 +14934,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13512,6 +14944,7 @@ const characterData = [
     enhancers: ["[blue shirt", "necktie", "black pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13521,15 +14954,17 @@ const characterData = [
     enhancers: ["[red hair bow", "red kimono", "white bow]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "murmur (mirai nikki)",
     category: "The Future Diary",
     mainTags: "murmur (mirai nikki), yellow eyes, purple hair, long hair, dark skin, dark-skinned female, mirai nikki, {{{aged up, mature female}}}",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13547,6 +14982,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13556,6 +14992,7 @@ const characterData = [
     enhancers: ["[black dress", "collar", "cuffs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13572,6 +15009,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13581,6 +15019,7 @@ const characterData = [
     enhancers: ["school uniform", "[magia baiser", "magical girl]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13596,6 +15035,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13614,6 +15054,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13628,6 +15069,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13643,6 +15085,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13660,6 +15103,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13674,6 +15118,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13690,6 +15135,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13708,6 +15154,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13717,6 +15164,7 @@ const characterData = [
     enhancers: ["[military uniform", "blue jacket", "white pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13726,6 +15174,7 @@ const characterData = [
     enhancers: ["[military uniform", "white shirt", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13735,6 +15184,7 @@ const characterData = [
     enhancers: ["[blue one-piece swimsuit", "swimsuit under clothes", "sailor shirt", "sailor collar]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13744,6 +15194,7 @@ const characterData = [
     enhancers: ["[military uniform", "brown jacket", "white skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13753,6 +15204,7 @@ const characterData = [
     enhancers: ["[military outfit", "white shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13762,6 +15214,7 @@ const characterData = [
     enhancers: ["[military uniform", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13771,6 +15224,7 @@ const characterData = [
     enhancers: ["[collared shirt", "blazer", "sweater", "thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13780,6 +15234,7 @@ const characterData = [
     enhancers: ["[red jacket", "lapel pin", "white shirt", "no pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13789,6 +15244,7 @@ const characterData = [
     enhancers: ["[military uniform", "white jacket", "white one-piece swimsuit]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13812,6 +15268,7 @@ const characterData = [
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13821,6 +15278,7 @@ const characterData = [
     enhancers: ["[orange leotard", "cleavage cutout", "high collar", "gloves", "thigh tattoo]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13842,6 +15300,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13851,6 +15310,7 @@ const characterData = [
     enhancers: ["[multicolored coat", "blue pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13869,6 +15329,7 @@ const characterData = [
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13878,6 +15339,7 @@ const characterData = [
     enhancers: ["[off-shoulder white dress", "large bow]", "[fairy wings", "pink dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13887,6 +15349,7 @@ const characterData = [
     enhancers: ["[fur trim", "purple shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13896,6 +15359,7 @@ const characterData = [
     enhancers: ["[green dress", "metal collar]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13905,6 +15369,7 @@ const characterData = [
     enhancers: ["[metal collar", "purple skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13914,6 +15379,7 @@ const characterData = [
     enhancers: ["[armor", "boobplate]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13923,6 +15389,7 @@ const characterData = [
     enhancers: ["[red hat", "detached sleeves", "two-tone dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13932,6 +15399,7 @@ const characterData = [
     enhancers: ["[white skirt", "white thighhighs", "purple bowtie", "red jacket]", "[red bikini", "frilled bikini]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13941,6 +15409,7 @@ const characterData = [
     enhancers: ["maid", "[black bikini", "eyewear on head]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13950,6 +15419,7 @@ const characterData = [
     enhancers: ["[blue shirt", "blue ascot", "black skirt", "wide sleeves]", "[white two-tone bikini", "frilled bikini bottoms]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13959,6 +15429,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "thighhighs] [brown jacket", "black skirt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13968,6 +15439,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "thighhighs]", "[pink hoodie", "denim pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13977,6 +15449,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "thigh belts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13986,6 +15459,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "thighhighs]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -13995,6 +15469,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "thighhighs]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14004,6 +15479,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "thighhighs]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14013,6 +15489,7 @@ const characterData = [
     enhancers: ["shinda sekai sensen uniform"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14022,6 +15499,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14031,6 +15509,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "knee boots]", "[shinda sekai sensen uniform", "knee boots", "black scarf", "covering mouth]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14040,6 +15519,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "thigh strap]", "[green jacket", "white tank top", "black yoga pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14049,6 +15529,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "white thighhighs", "single thigh belt]", "[black leather jacket", "yellow turtleneck", "fur-trimmed shorts]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14058,6 +15539,7 @@ const characterData = [
     enhancers: ["[shinda sekai sensen uniform", "white knee socks", "single thigh strap]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14067,6 +15549,7 @@ const characterData = [
     enhancers: ["[black hoodie", "grey jacket", "pink pantyhose", "blue skirt", "shoulder bag]", "[black hoodie", "hood up", "grey jacket", "fishnets", "pink short shorts", "shoulder bag]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14076,6 +15559,7 @@ const characterData = [
     enhancers: ["[green striped jacket", "brown skirt", "pantyhose]", "[black and white striped jacket", "blue pleated skirt", "knee socks]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14085,6 +15569,7 @@ const characterData = [
     enhancers: ["[leggings", "grey off-shoulder sweater", "boots]", "[ninja", "white and grey striped scarf", "red hair streak", "hair ornament]", "[ninja", "black bodysuit", "grey and white striped scarf", "red hair streak]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14094,6 +15579,7 @@ const characterData = [
     enhancers: ["[white hoodie", "cleavage cutout", "white shorts", "multiple belts", "grey belt", "red belt", "single wrist cuff", "spiked cuff]", "[sleeveless black hoodie", "black shorts", "spiked cuff", "single wrist cuff", "red cloth belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14103,6 +15589,7 @@ const characterData = [
     enhancers: ["[short black dress", "clothing cutouts", "short sleeves", "single gold bangle]", "[striped shirt", "short sleeves", "denim pants", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14112,6 +15599,7 @@ const characterData = [
     enhancers: ["[green cargo jacket", "necklace", "black shirt", "jeans]", "[two-stone shirt", "brown waist apron", "brown pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14121,6 +15609,7 @@ const characterData = [
     enhancers: ["[halterneck", "pink dress", "black corset", "white thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14130,6 +15619,7 @@ const characterData = [
     enhancers: ["[halterneck", "blue dress", "black corset", "white thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14139,6 +15629,7 @@ const characterData = [
     enhancers: ["[halterneck", "green dress", "black corset", "white thighhighs]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14148,6 +15639,7 @@ const characterData = [
     enhancers: ["[white shirt", "cleavage", "striped sleeves", "blue skirt", "belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14157,6 +15649,7 @@ const characterData = [
     enhancers: ["[blue shirt", "cleavage", "blue necktie", "choker", "plaid skirt", "white belt]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14166,6 +15659,7 @@ const characterData = [
     enhancers: ["[yellow vest", "green dress", "cleavage", "frills", "white belt", "fingerless gloves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14175,6 +15669,7 @@ const characterData = [
     enhancers: ["[sleeveless dress", "pink collared dress", "flower print]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14184,6 +15679,7 @@ const characterData = [
     enhancers: ["[green jacket", "hairclip", "black shorts]", "[black dress", "black choker", "gold hoop earrings]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14193,6 +15689,7 @@ const characterData = [
     enhancers: ["[green shirt", "black pants]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14202,6 +15699,7 @@ const characterData = [
     enhancers: ["[pink sweater", "short sleeves", "high collar", "white skirt", "white boots]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14211,6 +15709,7 @@ const characterData = [
     enhancers: ["[witch hat", "yellow ascot", "black robe]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14220,6 +15719,7 @@ const characterData = [
     enhancers: ["[black pantyhose", "red dress", "wide sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14229,6 +15729,7 @@ const characterData = [
     enhancers: ["yellow apron"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14238,15 +15739,17 @@ const characterData = [
     enhancers: ["[fur trim", "black dress]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
     name: "halkara (slime taoshite 300 nen)",
     category: "Killing Slimes for 300 Years",
     mainTags: "halkara (slime taoshite 300 nen), blue eyes, blonde hair, long hair, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
-    enhancers: [],
+    enhancers: ["[]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14256,6 +15759,7 @@ const characterData = [
     enhancers: ["[blue vest", "necklace", "fingerless gloves]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14265,6 +15769,7 @@ const characterData = [
     enhancers: ["orange dress"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14274,6 +15779,7 @@ const characterData = [
     enhancers: ["[leather jacket", "fingerless gloves", "leotard", "thighhighs]", "[orange jacket", "grey pants", "gloves]", "[bodysuit", "belt", "gloves", "long coat]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14283,6 +15789,7 @@ const characterData = [
     enhancers: ["[brown coat", "white shirt", "gloves", "cargo pants]"],
     defaultGender: "boy",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14292,6 +15799,7 @@ const characterData = [
     enhancers: ["[red leather jacket", "cleavage cutout", "black pants", "knee boots]", "hardsuit", "[blue skirt", "red tube top", "sleeveless shirt", "red elbow gloves", "gold bangles", "armlet", "brown pantyhose]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14301,6 +15809,7 @@ const characterData = [
     enhancers: ["[oversized clothes", "white shirt]", "[maid headdress", "maid bikini]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 },
 {
@@ -14310,6 +15819,7 @@ const characterData = [
     enhancers: ["[cape", "pink boots", "pink leotard]"],
     defaultGender: "girl",
     genderswapAvailable: true,
+    ageUpAvailable: true,
     mediaType: "Shows or Movies"
 }
 ];
