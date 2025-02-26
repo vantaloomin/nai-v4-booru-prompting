@@ -65,15 +65,15 @@ const characterData = [
   {
     name: "d.va (overwatch)",
     category: "Overwatch",
-    mainTags: "d.va (overwatch), brown eyes, brown hair, long hair,overwatch",
+    mainTags: "d.va (overwatch), brown eyes, brown hair, long hair, overwatch",
     enhancers: [
-      "black cat d.va",
-      "officer d.va",
-      "shooting star d.va",
-      "[palanquin d.va",
-      "hanbok]",
-      "academy d.va",
-      "cruiser d.va",
+        "[mecha pilot suit", "blue body suit", "gloves,]", 
+        "black cat d.va",
+        "officer d.va",
+        "shooting star d.va",
+        "[--mecha pilot suit", "--blue body suit", "palanquin d.va", "hanbok]",
+        "academy d.va",
+        "cruiser d.va",
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
@@ -84,7 +84,10 @@ const characterData = [
     category: "Overwatch",
     mainTags:
       "tracer (overwatch), brown eyes, brown hair, short hair, spiked hair, overwatch",
-    enhancers: ["graffiti tracer", "track and field tracer"],
+    enhancers: [
+        "[yellow pants", "grey jacket", "breastplate", "goggles]",
+        "graffiti tracer",
+        "track and field tracer"],
     defaultGender: "girl",
     genderswapAvailable: true,
     mediaType: "Video Games",
@@ -94,7 +97,11 @@ const characterData = [
     category: "Overwatch",
     mainTags:
       "mei (overwatch), brown eyes, brown hair, long hair, plump, overwatch",
-    enhancers: ["honeydew mei", "jiangshi mei"],
+    enhancers: [
+        "[blue pants", "gloves", "glasses", "fur-trimmed coat]",
+        "honeydew mei",
+        "jiangshi mei"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
     mediaType: "Video Games",
@@ -103,14 +110,11 @@ const characterData = [
     name: "widowmaker (overwatch)",
     category: "Overwatch",
     mainTags:
-      "widowmaker (overwatch), yellow eyes, blue hair, long hair, purple skin, colored skin, headgear, overwatch",
+      "widowmaker (overwatch), yellow eyes, blue hair, long hair, purple skin, colored skin, overwatch",
     enhancers: [
-      "[--headgear",
-      "cote d'azur widowmaker]",
-      "[--purple skin",
-      "colored skin",
-      "talon widowmaker",
-      "light skin]",
+        "[purple leotard", "headgear", "gloves", "single pant leg]",
+      "cote d'azur widowmaker",
+      "[--purple skin", "colored skin", "talon widowmaker]",
       "black lily widowmaker",
     ],
     defaultGender: "girl",
@@ -122,7 +126,7 @@ const characterData = [
     category: "Overwatch",
     mainTags:
       "pharah (overwatch), brown eyes, brown hair, short hair, dark skin, dark-skinned female, overwatch",
-    enhancers: [],
+    enhancers: ["[armor", "mechanical wings]"],
     defaultGender: "girl",
     genderswapAvailable: true,
     mediaType: "Video Games",
@@ -132,7 +136,10 @@ const characterData = [
     category: "Overwatch",
     mainTags:
       "sombra (overwatch), brown eyes, purple hair, short hair, dark skin, dark-skinned female, overwatch",
-    enhancers: ["[slay star sombra", "hat]"],
+    enhancers: [
+        "[multicolored pants", "black jacket", "fingerless gloves]",
+        "[slay star sombra", "hat]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
     mediaType: "Video Games",
@@ -142,7 +149,9 @@ const characterData = [
     category: "Overwatch",
     mainTags:
       "symmetra (overwatch), brown eyes, black hair, long hair, dark skin, dark-skinned female, overwatch",
-    enhancers: [],
+    enhancers: [
+        "[blue dress", "pelvic curtain", "headgear", "goggles", "mechanical arm", "thighhighs]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
     mediaType: "Video Games",
@@ -151,8 +160,10 @@ const characterData = [
     name: "brigitte (overwatch)",
     category: "Overwatch",
     mainTags:
-      "brigitte (overwatch), brown eyes, brown hair, long hair, ponytail, tattoo, overwatch",
-    enhancers: [],
+      "brigitte (overwatch), muscular female, brown eyes, brown hair, long hair, ponytail, tattoo, overwatch",
+    enhancers: [
+        "[armor", "gloves]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
     mediaType: "Video Games",
@@ -162,7 +173,9 @@ const characterData = [
     category: "Overwatch",
     mainTags:
       "zarya (overwatch), blue eyes, pink hair, short hair, muscular female, overwatch",
-    enhancers: [],
+    enhancers: [
+        "[blue sleeveless shirt", "gloves", "arm band", "blue pants]"
+    ],
     defaultGender: "girl",
     genderswapAvailable: true,
     mediaType: "Video Games",
@@ -171,21 +184,17 @@ const characterData = [
     name: "mercy (overwatch)",
     category: "Overwatch",
     mainTags:
-      "mercy (overwatch), blue eyes, blonde hair, long hair, wings, overwatch",
+      "mercy (overwatch), blue eyes, blonde hair, long hair, overwatch",
     enhancers: [
-      "[witch mercy",
-      "witch hat]",
+        "[white armor", "pantyhose", "knee boots", "mechanical wings]",
+      "[witch mercy", "witch hat]",
       "pink mercy",
-      "[devil mercy",
-      "--yellow hair]",
+      "[--yellow hair", "devil mercy]",
       "imp mercy",
       "winged victory mercy",
-      "[zhuque mercy",
-      "black hair]",
+      "[zhuque mercy", "black hair]",
       "sugar plum fairy mercy",
-      "[ life guard mercy",
-      "red swimsuit",
-      "black shorts]",
+      "[life guard mercy", "red swimsuit", "black shorts]",
     ],
     defaultGender: "girl",
     genderswapAvailable: true,
