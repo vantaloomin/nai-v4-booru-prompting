@@ -5770,8 +5770,11 @@ const artists = [
   {
       name: "uta (one piece)",
       category: "One Piece",
-      mainTags: "uta (one piece), purple eyes, red hair, long hair, white hair, two-tone hair, one piece",
-      enhancers: ["[]"],
+      mainTags: "uta (one piece), purple eyes, red hair, long hair, white hair, split-color hair, one piece",
+      enhancers: [
+        "[white dress","black ribbon","headphones","pink jacket","puffy sleeves","hood down]",
+        "[sleeveless white dress","black ribbon","single sleeve","wings","two-tone wings","headphones]"
+      ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5780,8 +5783,8 @@ const artists = [
   {
       name: "monet (one piece)",
       category: "One Piece",
-      mainTags: "monet (one piece), yellow eyes, green hair, long hair, one piece",
-      enhancers: ["[]"],
+      mainTags: "monet (one piece), harpy, yellow eyes, green hair, long hair, wings, one piece",
+      enhancers: ["[green tanktop","striped pantyhose]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5790,8 +5793,8 @@ const artists = [
   {
       name: "vegapunk lilith",
       category: "One Piece",
-      mainTags: "vegapunk lilith, brown eyes, pink hair, long hair, one piece",
-      enhancers: ["[]"],
+      mainTags: "vegapunk lilith, brown eyes, brown hair, short hair, one piece",
+      enhancers: ["[pink bodysuit","purple jacket","single knee boot","headphones]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5800,8 +5803,8 @@ const artists = [
   {
       name: "jewelry bonney",
       category: "One Piece",
-      mainTags: "jewelry bonney, green eyes, pink hair, long hair, one piece",
-      enhancers: ["[]"],
+      mainTags: "jewelry bonney, purple eyes, pink hair, long hair, one piece",
+      enhancers: ["[brown cropped jacket","striped shorts","belt","suspenders","white shirt","green hat]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5810,8 +5813,8 @@ const artists = [
   {
       name: "lust (fma)",
       category: "Fullmetal Alchemist",
-      mainTags: "lust (fma), purple eyes, black hair, long hair, fullmetal alchemist",
-      enhancers: ["[]"],
+      mainTags: "lust (fma), red eyes, black hair, long hair, fullmetal alchemist",
+      enhancers: ["[black dress","plunging neckline","claws","detached sleeves","ouroboros","chest tattoo","thigh boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5820,8 +5823,11 @@ const artists = [
   {
       name: "riza hawkeye",
       category: "Fullmetal Alchemist",
-      mainTags: "riza hawkeye, brown eyes, blonde hair, long hair, fullmetal alchemist",
-      enhancers: ["[]"],
+      mainTags: "riza hawkeye, brown eyes, blonde hair, updo, fullmetal alchemist",
+      enhancers: [
+        "[amestris military uniform","blue jacket","blue pants]",
+        "[black turtleneck","long skirt]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5831,7 +5837,13 @@ const artists = [
       name: "winry rockbell",
       category: "Fullmetal Alchemist",
       mainTags: "winry rockbell, blue eyes, blonde hair, long hair, ponytail, fullmetal alchemist",
-      enhancers: ["[]"],
+      enhancers: [
+        "[black pleated skirt","white tanktop]",
+        "[black pleated skirt","black cropped jacket","white tanktop]",
+        "[red bandana","purple overalls","clothes around waist","black tube top","brown gloves]",
+        "[green bandana","grey overalls","clothes around waist","black tube top]",
+        "[grey overalls","clothes around waist","black and white crop top]"
+      ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5841,7 +5853,7 @@ const artists = [
       name: "olivier mira armstrong",
       category: "Fullmetal Alchemist",
       mainTags: "olivier mira armstrong, blue eyes, blonde hair, long hair, muscular female, fullmetal alchemist",
-      enhancers: ["[]"],
+      enhancers: ["[amestris military uniform","blue jacket","blue pants","coat on shoulders", "black fur-trimmed coat]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5851,12 +5863,58 @@ const artists = [
       name: "may chang",
       category: "Fullmetal Alchemist",
       mainTags: "may chang, brown eyes, black hair, long hair, twin hair bun, fullmetal alchemist",
-      enhancers: ["[]"],
+      enhancers: ["[chinese clothes","pink shirt","pink sash","wide sleeves","white pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Shows or Movies"
   },
+  {
+    name: "lan fan",
+    category: "Fullmetal Alchemist",
+    mainTags: "lan fan, black eyes, black hair, single hair bun, fullmetal alchemist",
+    enhancers: ["[mask on head","automail","mechanical arm","armor","shoulder armor","ninja","hood down","black pants","black fingerless glove]"],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
+{
+    name: "edward elric",
+    category: "Fullmetal Alchemist",
+    mainTags: "edward elric, blonde hair, long hair, single braid, yellow eyes, automail, mechanical arm, fullmetal alchemist",
+    enhancers: ["[red coat","black jacket","black pants","black shirt","belt","single white glove]"],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
+{
+    name: "alphonse elric",
+    category: "Fullmetal Alchemist",
+    mainTags: "alphonse elric, fullmetal alchemist",
+    enhancers: [
+        "[armor","full armor","shoulder spikes","arm tattoo","red eyes]",
+        "[blonde hair","short hair","brown eyes","black suit","black pants","black vest","red necktie","white shirt]"
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
+{
+    name: "roy mustang",
+    category: "Fullmetal Alchemist",
+    mainTags: "roy mustang, black hair, short hair, black eyes, fullmetal alchemist",
+    enhancers: [
+        "[amestris military uniform","blue jacket","blue pants","black coat","coat on shoulders","white gloves]",
+        "[amestris military uniform","blue jacket","blue pants","white gloves]"
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
   {
       name: "ash ketchum",
       category: "Pokemon (Anime)",
