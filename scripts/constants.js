@@ -609,9 +609,7 @@ const artists = [
       category: "Final Fantasy 6",
       mainTags:
         " trance terra branford, purple eyes, pink hair, long hair, monster girl, floating hair, colored skin, pink skin, pointy ears, claws, final fantasy vi, final fantasy",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -1553,9 +1551,7 @@ const artists = [
       name: "yoshi (cosplay)",
       category: "Super Mario",
       mainTags: "yoshi (cosplay), black eyes, green hair, short hair, mario (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -1637,9 +1633,7 @@ const artists = [
       name: "felicia (darkstalkers)",
       category: "Darkstalkers",
       mainTags: "felicia (darkstalkers), blue eyes, blue hair, huge ahoge, white fur, long hair, darkstalkers",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -2139,9 +2133,7 @@ const artists = [
       name: "princess ruto",
       category: "Zelda",
       mainTags: "princess ruto, colored skin, fish girl, blue skin, purple eyes, zora, the legend of zelda",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -2458,9 +2450,7 @@ const artists = [
       name: "annie (league of legends)",
       category: "League of Legends",
       mainTags: "annie (league of legends), green eyes, red hair, long hair, league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -2713,9 +2703,7 @@ const artists = [
       name: "zeri (league of legends)",
       category: "League of Legends",
       mainTags: "zeri (league of legends), green eyes, green hair, long hair, league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -2725,9 +2713,7 @@ const artists = [
       name: "karma (league of legends)",
       category: "League of Legends",
       mainTags: "karma (league of legends), purple eyes, black hair, long hair, league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -2776,9 +2762,7 @@ const artists = [
       name: "briar (league of legends)",
       category: "League of Legends",
       mainTags: "briar (league of legends), red eyes, gray hair, long hair, bound wrists, back decoration, league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -2815,9 +2799,7 @@ const artists = [
       name: "vex (league of legends)",
       category: "League of Legends",
       mainTags: "vex (league of legends), yellow eyes, blue hair, long hair, frown, grey skin, yordle, league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -2877,9 +2859,7 @@ const artists = [
       name: "camille (league of legends)",
       category: "League of Legends",
       mainTags: "camille (league of legends), blue eyes, gray hair, short hair, prosthesis, mechanical legs, league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -2889,9 +2869,7 @@ const artists = [
       name: "nilah (league of legends)",
       category: "League of Legends",
       mainTags: "nilah (league of legends), purple eyes, blue hair, long hair, dark skin, tattoos, league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -3322,9 +3300,7 @@ const artists = [
       name: "ranni the witch",
       category: "Elden Ring",
       mainTags: "ranni the witch, blue eyes, blue hair, long hair, colored skin, blue skin, witch hat, elden ring, {{{{{{{extra arms, four arms}}}}}}",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -3404,9 +3380,7 @@ const artists = [
       name: "bloody wolf (elden ring)",
       category: "Elden Ring",
       mainTags: "bloody wolf (elden ring), brown eyes, brown hair, short hair, full armor, elden ring",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -3534,9 +3508,7 @@ const artists = [
       name: "patches (fromsoftware)",
       category: "Elden Ring",
       mainTags: "patches (fromsoftware), brown eyes, bald, elden ring",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -3736,9 +3708,7 @@ const artists = [
       name: "midra lord of frenzied flame",
       category: "Elden Ring",
       mainTags: "midra lord of frenzied flame, yellow eyes, gray hair, long hair, emaciated, flaming head, shawl, elden ring",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5198,9 +5168,7 @@ const artists = [
       name: "piper wheel",
       category: "Zenless Zone Zero",
       mainTags: "piper wheel, blue eyes, brown hair, long hair, zenless zone zero",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5222,9 +5190,7 @@ const artists = [
       name: "cortana",
       category: "Other",
       mainTags: "cortana, purple eyes, blue hair, short hair, translucent, hologram, blue skin, halo (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5234,9 +5200,7 @@ const artists = [
       name: "morrigan (dragon age)",
       category: "Other",
       mainTags: "morrigan (dragon age), yellow eyes, black hair, long hair, dragon age",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5246,9 +5210,7 @@ const artists = [
       name: "quiet (metal gear)",
       category: "Other",
       mainTags: "quiet (metal gear), green eyes, brown hair, short hair, metal gear (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5258,9 +5220,7 @@ const artists = [
       name: "palutena",
       category: "Other",
       mainTags: "palutena, green eyes, green hair, very long hair, kid icarus",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5270,9 +5230,7 @@ const artists = [
       name: "bloodrayne",
       category: "Other",
       mainTags: "bloodrayne, green eyes, red hair, long hair, bloodrayne (videogame), leather",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5303,9 +5261,7 @@ const artists = [
       name: "bayonetta",
       category: "Other",
       mainTags: "bayonetta, blue eyes, black hair, very long hair, bayonetta (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5315,9 +5271,7 @@ const artists = [
       name: "jeanne (bayonetta)",
       category: "Other",
       mainTags: "jeanne (bayonetta), red eyes, white hair, very long hair, bayonetta (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5327,9 +5281,7 @@ const artists = [
       name: "elizabeth (bioshock infinite)",
       category: "Other",
       mainTags: "elizabeth (bioshock infinite), blue eyes, brown hair, long hair, bioshock (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5349,9 +5301,7 @@ const artists = [
       name: "arcane vi",
       category: "Arcane: League of Legends",
       mainTags: "arcane vi, blue eyes, pink hair, short hair, arcane: league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5361,9 +5311,7 @@ const artists = [
       name: "arcane jinx",
       category: "Arcane: League of Legends",
       mainTags: "arcane jinx, blue eyes, blue hair, very long hair, braid, arcane: league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5373,9 +5321,7 @@ const artists = [
       name: "arcane caitlyn",
       category: "Arcane: League of Legends",
       mainTags: "arcane caitlyn, blue eyes, blue hair, long hair, arcane: league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5385,9 +5331,7 @@ const artists = [
       name: "firelight ekko",
       category: "Arcane: League of Legends",
       mainTags: "firelight ekko, brown eyes, black hair, short hair, very dark skin, dark-skinned male, arcane: league of legends",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5397,9 +5341,7 @@ const artists = [
       name: "kiwi (cyberpunk)",
       category: "Cyberpunk: Edgerunners",
       mainTags: "kiwi (cyberpunk), blue eyes, blonde hair, short hair, cyberpunk edgerunners",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5409,9 +5351,7 @@ const artists = [
       name: "rebecca (cyberpunk)",
       category: "Cyberpunk: Edgerunners",
       mainTags: "rebecca (cyberpunk), green eyes, teal hair, short hair, twintails, cyberpunk edgerunners",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5421,9 +5361,7 @@ const artists = [
       name: "lucy (cyberpunk)",
       category: "Cyberpunk: Edgerunners",
       mainTags: "lucy (cyberpunk), purple eyes, white hair, short hair, multicolored hair, cyberpunk edgerunners",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5433,9 +5371,7 @@ const artists = [
       name: "darkness (konosuba)",
       category: "Konosuba",
       mainTags: "darkness (konosuba), blue eyes, blonde hair, long hair, kono subarashii sekai ni shukufuku wo!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5445,9 +5381,7 @@ const artists = [
       name: "aqua (konosuba)",
       category: "Konosuba",
       mainTags: "aqua (konosuba), blue eyes, blue hair, long hair, kono subarashii sekai ni shukufuku wo!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5457,9 +5391,7 @@ const artists = [
       name: "megumin",
       category: "Konosuba",
       mainTags: "megumin, red eyes, brown hair, long hair, kono subarashii sekai ni shukufuku wo!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5469,9 +5401,7 @@ const artists = [
       name: "yunyun (konosuba)",
       category: "Konosuba",
       mainTags: "yunyun (konosuba), red eyes, red hair, long hair, twintails, kono subarashii sekai ni shukufuku wo!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5481,9 +5411,7 @@ const artists = [
       name: "wiz (konosuba)",
       category: "Konosuba",
       mainTags: "wiz (konosuba), purple eyes, brown hair, long hair, kono subarashii sekai ni shukufuku wo!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5493,9 +5421,7 @@ const artists = [
       name: "iris (konosuba)",
       category: "Konosuba",
       mainTags: "iris (konosuba), blue eyes, blonde hair, long hair, kono subarashii sekai ni shukufuku wo!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5505,9 +5431,7 @@ const artists = [
       name: "komekko",
       category: "Konosuba",
       mainTags: "komekko, red eyes, red hair, short hair, kono subarashii sekai ni shukufuku wo!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5517,9 +5441,7 @@ const artists = [
       name: "chris (konosuba)",
       category: "Konosuba",
       mainTags: "chris (konosuba), blue eyes, silver hair, short hair, kono subarashii sekai ni shukufuku wo!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5529,9 +5451,7 @@ const artists = [
       name: "revy (black lagoon)",
       category: "Black Lagoon",
       mainTags: "revy (black lagoon), blue eyes, black hair, long hair, ponytail, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5541,9 +5461,7 @@ const artists = [
       name: "balalaika (black lagoon)",
       category: "Black Lagoon",
       mainTags: "balalaika (black lagoon), blue eyes, blonde hair, long hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5553,9 +5471,7 @@ const artists = [
       name: "roberta (black lagoon)",
       category: "Black Lagoon",
       mainTags: "roberta (black lagoon), brown eyes, black hair, long hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5565,9 +5481,7 @@ const artists = [
       name: "nico robin",
       category: "One Piece",
       mainTags: "nico robin, blue eyes, black hair, long hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5577,9 +5491,7 @@ const artists = [
       name: "nami (one piece)",
       category: "One Piece",
       mainTags: "nami (one piece), brown eyes, orange hair, long hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5589,9 +5501,7 @@ const artists = [
       name: "law-chan",
       category: "One Piece",
       mainTags: "law-chan, grey eyes, black hair, short hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5601,9 +5511,7 @@ const artists = [
       name: "boa hancock",
       category: "One Piece",
       mainTags: "boa hancock, blue eyes, black hair, very long hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5613,9 +5521,7 @@ const artists = [
       name: "miss valentine",
       category: "One Piece",
       mainTags: "miss valentine, brown eyes, blonde hair, short hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5625,9 +5531,7 @@ const artists = [
       name: "yamato (one piece)",
       category: "One Piece",
       mainTags: "yamato (one piece), blue eyes, white hair, long hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5637,9 +5541,7 @@ const artists = [
       name: "s-snake",
       category: "One Piece",
       mainTags: "s-snake, blue eyes, black hair, long hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5649,9 +5551,7 @@ const artists = [
       name: "kalifa (one piece)",
       category: "One Piece",
       mainTags: "kalifa (one piece), blue eyes, blonde hair, long hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5661,9 +5561,7 @@ const artists = [
       name: "uta (one piece)",
       category: "One Piece",
       mainTags: "uta (one piece), purple eyes, red hair, long hair, white hair, two-tone hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5673,9 +5571,7 @@ const artists = [
       name: "monet (one piece)",
       category: "One Piece",
       mainTags: "monet (one piece), yellow eyes, green hair, long hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5685,9 +5581,7 @@ const artists = [
       name: "vegapunk lilith",
       category: "One Piece",
       mainTags: "vegapunk lilith, brown eyes, pink hair, long hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5697,9 +5591,7 @@ const artists = [
       name: "jewelry bonney",
       category: "One Piece",
       mainTags: "jewelry bonney, green eyes, pink hair, long hair, one piece",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5709,9 +5601,7 @@ const artists = [
       name: "lust (fma)",
       category: "Fullmetal Alchemist",
       mainTags: "lust (fma), purple eyes, black hair, long hair, fullmetal alchemist",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5721,9 +5611,7 @@ const artists = [
       name: "riza hawkeye",
       category: "Fullmetal Alchemist",
       mainTags: "riza hawkeye, brown eyes, blonde hair, long hair, fullmetal alchemist",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5733,9 +5621,7 @@ const artists = [
       name: "winry rockbell",
       category: "Fullmetal Alchemist",
       mainTags: "winry rockbell, blue eyes, blonde hair, long hair, ponytail, fullmetal alchemist",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5745,9 +5631,7 @@ const artists = [
       name: "olivier mira armstrong",
       category: "Fullmetal Alchemist",
       mainTags: "olivier mira armstrong, blue eyes, blonde hair, long hair, muscular female, fullmetal alchemist",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5757,9 +5641,7 @@ const artists = [
       name: "may chang",
       category: "Fullmetal Alchemist",
       mainTags: "may chang, brown eyes, black hair, long hair, twin hair bun, fullmetal alchemist",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6230,9 +6112,7 @@ const artists = [
       name: "tokisaki kurumi",
       category: "Date a Live",
       mainTags: "tokisaki kurumi, red eyes, black hair, long hair, twintails, date a live",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6242,9 +6122,7 @@ const artists = [
       name: "hoshimiya mukuro",
       category: "Date a Live",
       mainTags: "hoshimiya mukuro, purple eyes, blonde hair, very long hair, date a live",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6254,9 +6132,7 @@ const artists = [
       name: "himekawa yoshino",
       category: "Date a Live",
       mainTags: "himekawa yoshino, blue eyes, blue hair, short hair, date a live",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6266,9 +6142,7 @@ const artists = [
       name: "kyouno natsumi",
       category: "Date a Live",
       mainTags: "kyouno natsumi, green eyes, green hair, long hair, date a live",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6278,9 +6152,7 @@ const artists = [
       name: "izayoi miku",
       category: "Date a Live",
       mainTags: "izayoi miku, purple eyes, blonde hair, long hair, date a live",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6290,9 +6162,7 @@ const artists = [
       name: "sonogami rinne",
       category: "Date a Live",
       mainTags: "sonogami rinne, purple eyes, pink hair, long hair, date a live",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6302,9 +6172,7 @@ const artists = [
       name: "tobiichi origami",
       category: "Date a Live",
       mainTags: "tobiichi origami, blue eyes, white hair, short hair, date a live",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7037,9 +6905,7 @@ const artists = [
       name: "uzumaki kushina",
       category: "Naruto",
       mainTags: "uzumaki kushina, blue eyes, red hair, long hair, naruto (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7049,9 +6915,7 @@ const artists = [
       name: "uchiha sarada",
       category: "Naruto",
       mainTags: "uchiha sarada, black eyes, black hair, short hair, naruto (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7061,9 +6925,7 @@ const artists = [
       name: "makima (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "makima (chainsaw man), yellow eyes, red hair, long hair, chainsaw man",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7073,9 +6935,7 @@ const artists = [
       name: "reze (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "reze (chainsaw man), green eyes, purple hair, short hair, chainsaw man",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7085,9 +6945,7 @@ const artists = [
       name: "yoru (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "yoru (chainsaw man), red eyes, black hair, long hair, chainsaw man",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7097,9 +6955,7 @@ const artists = [
       name: "himeno (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "himeno (chainsaw man), brown eyes, black hair, short hair, chainsaw man",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7109,9 +6965,7 @@ const artists = [
       name: "power (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "power (chainsaw man), yellow eyes, blonde hair, long hair, chainsaw man",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7121,9 +6975,7 @@ const artists = [
       name: "higashiyama kobeni",
       category: "Chainsaw Man",
       mainTags: "higashiyama kobeni, brown eyes, brown hair, short hair, ponytail, chainsaw man",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7133,9 +6985,7 @@ const artists = [
       name: "esdeath",
       category: "Akame Ga Kill!",
       mainTags: "esdeath, blue eyes, blue hair, long hair, akame ga kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7145,9 +6995,7 @@ const artists = [
       name: "akame (akame ga kill!)",
       category: "Akame Ga Kill!",
       mainTags: "akame (akame ga kill!), red eyes, black hair, long hair, akame ga kill!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7157,9 +7005,7 @@ const artists = [
       name: "najenda (akame ga kill!)",
       category: "Akame Ga Kill!",
       mainTags: "najenda (akame ga kill!), purple eyes, silver hair, short hair, akame ga kill!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7169,9 +7015,7 @@ const artists = [
       name: "mine (akame ga kill!)",
       category: "Akame Ga Kill!",
       mainTags: "mine (akame ga kill!), pink eyes, pink hair, long hair, twintails, akame ga kill!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7181,9 +7025,7 @@ const artists = [
       name: "chelsa (akame ga kill!)",
       category: "Akame Ga Kill!",
       mainTags: "chelsa (akame ga kill!), brown eyes, orange hair, short hair, akame ga kill!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7193,9 +7035,7 @@ const artists = [
       name: "leone (akame ga kill!)",
       category: "Akame Ga Kill!",
       mainTags: "leone (akame ga kill!), yellow eyes, blonde hair, long hair, akame ga kill!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7205,9 +7045,7 @@ const artists = [
       name: "hatsune miku",
       category: "Other",
       mainTags: "hatsune miku, blue eyes, blue hair, long hair, twin tails",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7217,9 +7055,7 @@ const artists = [
       name: "hinata hajime",
       category: "Danganronpa",
       mainTags: "hinata hajime, brown eyes, brown hair, short hair, spiked hair, danganronpa (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7229,9 +7065,7 @@ const artists = [
       name: "erza scarlet",
       category: "Fairy Tail",
       mainTags: "erza scarlet, brown eyes, red hair, long hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7241,9 +7075,7 @@ const artists = [
       name: "lucy heartfilia",
       category: "Fairy Tail",
       mainTags: "lucy heartfilia, brown eyes, blonde hair, long hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7253,9 +7085,7 @@ const artists = [
       name: "wendy marvell",
       category: "Fairy Tail",
       mainTags: "wendy marvell, brown eyes, blue hair, long hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7265,9 +7095,7 @@ const artists = [
       name: "juvia lockser",
       category: "Fairy Tail",
       mainTags: "juvia lockser, blue eyes, blue hair, long hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7277,9 +7105,7 @@ const artists = [
       name: "lisanna strauss",
       category: "Fairy Tail",
       mainTags: "lisanna strauss, blue eyes, white hair, short hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7289,9 +7115,7 @@ const artists = [
       name: "cana alberona",
       category: "Fairy Tail",
       mainTags: "cana alberona, brown eyes, brown hair, long hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7301,9 +7125,7 @@ const artists = [
       name: "mirajane strauss",
       category: "Fairy Tail",
       mainTags: "mirajane strauss, blue eyes, white hair, long hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7313,9 +7135,7 @@ const artists = [
       name: "levy mcgarden",
       category: "Fairy Tail",
       mainTags: "levy mcgarden, blue eyes, blue hair, short hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7325,9 +7145,7 @@ const artists = [
       name: "mavis vermilion",
       category: "Fairy Tail",
       mainTags: "mavis vermilion, green eyes, blonde hair, long hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7337,9 +7155,7 @@ const artists = [
       name: "irene belserion",
       category: "Fairy Tail",
       mainTags: "irene belserion, red eyes, red hair, long hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7349,9 +7165,7 @@ const artists = [
       name: "evergreen (fairy tail)",
       category: "Fairy Tail",
       mainTags: "evergreen (fairy tail), brown eyes, green hair, long hair, fairy tail",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7361,9 +7175,7 @@ const artists = [
       name: "xenovia quarta",
       category: "Highschool DxD",
       mainTags: "xenovia quarta, blue eyes, blue hair, short hair, high school dxd",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7373,9 +7185,7 @@ const artists = [
       name: "rias gremory",
       category: "Highschool DxD",
       mainTags: "rias gremory, blue eyes, red hair, long hair, high school dxd",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7385,9 +7195,7 @@ const artists = [
       name: "himejima akeno",
       category: "Highschool DxD",
       mainTags: "himejima akeno, purple eyes, black hair, long hair, ponytail, high school dxd",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7397,9 +7205,7 @@ const artists = [
       name: "kuroka (high school dxd)",
       category: "Highschool DxD",
       mainTags: "kuroka (high school dxd), yellow eyes, black hair, long hair, high school dxd",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7409,9 +7215,7 @@ const artists = [
       name: "rossweisse",
       category: "Highschool DxD",
       mainTags: "rossweisse, blue eyes, silver hair, long hair, high school dxd",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7421,9 +7225,7 @@ const artists = [
       name: "toujou koneko",
       category: "Highschool DxD",
       mainTags: "toujou koneko, yellow eyes, white hair, short hair, high school dxd",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7433,9 +7235,7 @@ const artists = [
       name: "shidou irina",
       category: "Highschool DxD",
       mainTags: "shidou irina, purple eyes, brown hair, long hair, twin tails, high school dxd",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7445,9 +7245,7 @@ const artists = [
       name: "kirishima touka",
       category: "Tokyo Ghoul",
       mainTags: "kirishima touka, blue eyes, blue hair, short hair, tokyo ghoul",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7457,9 +7255,7 @@ const artists = [
       name: "kamishiro rize",
       category: "Tokyo Ghoul",
       mainTags: "kamishiro rize, purple eyes, purple hair, long hair, tokyo ghoul",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7469,9 +7265,7 @@ const artists = [
       name: "eto (tokyo ghoul)",
       category: "Tokyo Ghoul",
       mainTags: "eto (tokyo ghoul), green eyes, green hair, short hair, crazy eyes, heterochromia, tokyo ghoul",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7481,9 +7275,7 @@ const artists = [
       name: "shiota nagisa",
       category: "Asssassination Classroom",
       mainTags: "shiota nagisa, blue eyes, blue hair, long hair, twin tails, ansatsu kyoushitsu",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7493,9 +7285,7 @@ const artists = [
       name: "irina jelavic",
       category: "Asssassination Classroom",
       mainTags: "irina jelavic, blue eyes, blonde hair, long hair, ansatsu kyoushitsu",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7505,9 +7295,7 @@ const artists = [
       name: "okuda manami",
       category: "Asssassination Classroom",
       mainTags: "okuda manami, brown eyes, brown hair, short hair, twin tails, ansatsu kyoushitsu",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7517,9 +7305,7 @@ const artists = [
       name: "kayano kaede",
       category: "Asssassination Classroom",
       mainTags: "kayano kaede, yellow eyes, green hair, short hair, twin tails, ansatsu kyoushitsu",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7529,9 +7315,7 @@ const artists = [
       name: "shiro (no game no life)",
       category: "No Game, No Life",
       mainTags: "shiro (no game no life), blue eyes, white hair, long hair, no game no life",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7541,9 +7325,7 @@ const artists = [
       name: "jibril (no game no life)",
       category: "No Game, No Life",
       mainTags: "jibril (no game no life), pink eyes, pink hair, long hair, no game no life",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7553,9 +7335,7 @@ const artists = [
       name: "shuvi (no game no life)",
       category: "No Game, No Life",
       mainTags: "shuvi (no game no life), purple eyes, purple hair, long hair, no game no life",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7565,9 +7345,7 @@ const artists = [
       name: "hatsuse izuna",
       category: "No Game, No Life",
       mainTags: "hatsuse izuna, red eyes, brown hair, short hair, no game no life",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7577,9 +7355,7 @@ const artists = [
       name: "kamado nezuko",
       category: "Demon Slayer",
       mainTags: "kamado nezuko, pink eyes, black hair, long hair, kimetsu no yaiba",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7589,9 +7365,7 @@ const artists = [
       name: "kanroji mitsuri",
       category: "Demon Slayer",
       mainTags: "kanroji mitsuri, green eyes, pink hair, long hair, twin braids, kimetsu no yaiba",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7601,9 +7375,7 @@ const artists = [
       name: "kochou shinobu",
       category: "Demon Slayer",
       mainTags: "kochou shinobu, purple eyes, black hair, short hair, kimetsu no yaiba",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7613,9 +7385,7 @@ const artists = [
       name: "busujima saeko",
       category: "Highschool of the Dead",
       mainTags: "busujima saeko, purple eyes, purple hair, long hair, highschool of the dead",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7625,9 +7395,7 @@ const artists = [
       name: "miyamoto rei",
       category: "Highschool of the Dead",
       mainTags: "miyamoto rei, brown eyes, orange hair, long hair, highschool of the dead",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7637,9 +7405,7 @@ const artists = [
       name: "takagi saya",
       category: "Highschool of the Dead",
       mainTags: "takagi saya, brown eyes, pink hair, long hair, twin tails, highschool of the dead",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7649,9 +7415,7 @@ const artists = [
       name: "marikawa shizuka",
       category: "Highschool of the Dead",
       mainTags: "marikawa shizuka, brown eyes, blonde hair, long hair, blue sweater, highschool of the dead",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7661,9 +7425,7 @@ const artists = [
       name: "hestia (danmachi)",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "hestia (danmachi), blue eyes, black hair, long hair, twin tails, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7673,9 +7435,7 @@ const artists = [
       name: "bell cranel",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "bell cranel, red eyes, white hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7685,9 +7445,7 @@ const artists = [
       name: "ryu lion",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "ryu lion, blue eyes, blonde hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7697,9 +7455,7 @@ const artists = [
       name: "aiz wallenstein",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "aiz wallenstein, blue eyes, blonde hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7709,9 +7465,7 @@ const artists = [
       name: "liliruca arde",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "liliruca arde, brown eyes, brown hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7721,9 +7475,7 @@ const artists = [
       name: "freya (danmachi)",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "freya (danmachi), purple eyes, silver hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7733,9 +7485,7 @@ const artists = [
       name: "tiona hyryute",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "tiona hyryute, brown eyes, brown hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7745,9 +7495,7 @@ const artists = [
       name: "sanjouno haruhime",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "sanjouno haruhime, green eyes, blonde hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7757,9 +7505,7 @@ const artists = [
       name: "eina tulle",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "eina tulle, green eyes, brown hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7769,9 +7515,7 @@ const artists = [
       name: "yamato mikoto",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "yamato mikoto, black eyes, black hair, long hair, ponytail, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7781,9 +7525,7 @@ const artists = [
       name: "lefiya viridis",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "lefiya viridis, blue eyes, yellow hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7793,9 +7535,7 @@ const artists = [
       name: "riveria ljos alf",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "riveria ljos alf, green eyes, green hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7805,9 +7545,7 @@ const artists = [
       name: "wiene",
       category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
       mainTags: "wiene, blue eyes, blue hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7817,9 +7555,7 @@ const artists = [
       name: "albedo (overlord)",
       category: "Overlord",
       mainTags: "albedo (overlord), yellow eyes, black hair, long hair, overlord (maruyama)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7829,9 +7565,7 @@ const artists = [
       name: "shalltear bloodfallen",
       category: "Overlord",
       mainTags: "shalltear bloodfallen, red eyes, silver hair, short hair, overlord (maruyama)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7841,9 +7575,7 @@ const artists = [
       name: "lupusregina beta",
       category: "Overlord",
       mainTags: "lupusregina beta, yellow eyes, red hair, long hair, twin tails, overlord (maruyama)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7853,9 +7585,7 @@ const artists = [
       name: "clementine (overlord)",
       category: "Overlord",
       mainTags: "clementine (overlord), yellow eyes, blonde hair, short hair, overlord (maruyama)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7865,9 +7595,7 @@ const artists = [
       name: "entoma vasilissa zeta",
       category: "Overlord",
       mainTags: "entoma vasilissa zeta, purple eyes, black hair, short hair, overlord (maruyama)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7877,9 +7605,7 @@ const artists = [
       name: "solution epsilon",
       category: "Overlord",
       mainTags: "solution epsilon, blue eyes, blonde hair, long hair, overlord (maruyama)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7889,9 +7615,7 @@ const artists = [
       name: "yuri alpha",
       category: "Overlord",
       mainTags: "yuri alpha, blue eyes, black hair, short hair, overlord (maruyama)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7901,9 +7625,7 @@ const artists = [
       name: "faye valentine",
       category: "Cowboy Bebop",
       mainTags: "faye valentine, purple eyes, purple hair, short hair, cowboy bebop",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7913,9 +7635,7 @@ const artists = [
       name: "edward wong hau pepelu tivrusky iv",
       category: "Cowboy Bebop",
       mainTags: "edward wong hau pepelu tivrusky iv, brown eyes, orange hair, short hair, cowboy bebop",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7925,9 +7645,7 @@ const artists = [
       name: "julia (cowboy bebop)",
       category: "Cowboy Bebop",
       mainTags: "julia (cowboy bebop), blue eyes, blonde hair, long hair, cowboy bebop",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7937,9 +7655,7 @@ const artists = [
       name: "yor briar",
       category: "SPY X FAMILY",
       mainTags: "yor briar, red eyes, black hair, long hair, spy x family",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7949,9 +7665,7 @@ const artists = [
       name: "anya (spy x family)",
       category: "SPY X FAMILY",
       mainTags: "anya (spy x family), green eyes, pink hair, short hair, spy x family",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7961,9 +7675,7 @@ const artists = [
       name: "matoi ryuuko",
       category: "Kill la Kill",
       mainTags: "matoi ryuuko, blue eyes, black hair, short hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7973,9 +7685,7 @@ const artists = [
       name: "senketsu",
       category: "Kill la Kill",
       mainTags: "senketsu, blue eyes, black hair, short hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7985,9 +7695,7 @@ const artists = [
       name: "kiryuuin satsuki",
       category: "Kill la Kill",
       mainTags: "kiryuuin satsuki, blue eyes, black hair, long hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7997,9 +7705,7 @@ const artists = [
       name: "junketsu",
       category: "Kill la Kill",
       mainTags: "junketsu, blue eyes, white hair, short hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8009,9 +7715,7 @@ const artists = [
       name: "mankanshoku mako",
       category: "Kill la Kill",
       mainTags: "mankanshoku mako, brown eyes, brown hair, short hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8021,9 +7725,7 @@ const artists = [
       name: "sanageyama uzu",
       category: "Kill la Kill",
       mainTags: "sanageyama uzu, brown eyes, black hair, short hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8033,9 +7735,7 @@ const artists = [
       name: "inumuta houka",
       category: "Kill la Kill",
       mainTags: "inumuta houka, blue eyes, blue hair, short hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8045,9 +7745,7 @@ const artists = [
       name: "harime nui",
       category: "Kill la Kill",
       mainTags: "harime nui, blue eyes, blonde hair, long hair, hair bow, big hair, eyepatch, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8057,9 +7755,7 @@ const artists = [
       name: "mikisugi aikurou",
       category: "Kill la Kill",
       mainTags: "mikisugi aikurou, blue eyes, purple hair, short hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8069,9 +7765,7 @@ const artists = [
       name: "kiryuuin ragyou",
       category: "Kill la Kill",
       mainTags: "kiryuuin ragyou, red eyes, black hair, long hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8081,9 +7775,7 @@ const artists = [
       name: "kinagase tsumugu",
       category: "Kill la Kill",
       mainTags: "kinagase tsumugu, brown eyes, orange hair, short hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8093,9 +7785,7 @@ const artists = [
       name: "iori shirou",
       category: "Kill la Kill",
       mainTags: "iori shirou, brown eyes, blonde hair, short hair, kill la kill",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8115,9 +7805,7 @@ const artists = [
       name: "kim possible",
       category: "Kim Possible",
       mainTags: "kim possible, green eyes, red hair, long hair, black shirt, cleavage, green cargo pants, kim possible (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8127,9 +7815,7 @@ const artists = [
       name: "ann possible",
       category: "Kim Possible",
       mainTags: "ann possible, blue eyes, red hair, long hair, purple dress, lab coat, kim possible (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8139,9 +7825,7 @@ const artists = [
       name: "shego",
       category: "Kim Possible",
       mainTags: "shego, green eyes, black hair, long hair, black lips, cleavage cutout, two-tone leotard, fishnet pantyhose, kim possible (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8151,9 +7835,7 @@ const artists = [
       name: "scarlet witch",
       category: "Marvel",
       mainTags: "scarlet witch, green eyes, brown hair, long hair, headgear, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8163,9 +7845,7 @@ const artists = [
       name: "she-hulk",
       category: "Marvel",
       mainTags: "she-hulk, green eyes, green hair, long hair, muscular female, green skin, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8175,9 +7855,7 @@ const artists = [
       name: "spider-gwen",
       category: "Marvel",
       mainTags: "spider-gwen, blue eyes, blonde hair, short hair, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8187,9 +7865,7 @@ const artists = [
       name: "spider-woman",
       category: "Marvel",
       mainTags: "spider-woman, green eyes, black hair, long hair, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8199,9 +7875,7 @@ const artists = [
       name: "loki (marvel)",
       category: "Marvel",
       mainTags: "loki (marvel), green eyes, blonde hair, short hair, sylvie laufeydottir, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8211,9 +7885,7 @@ const artists = [
       name: "thor (marvel)",
       category: "Marvel",
       mainTags: "thor (marvel), blue eyes, blonde hair, long hair, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8223,9 +7895,7 @@ const artists = [
       name: "iron man",
       category: "Marvel",
       mainTags: "iron man, blue eyes, black hair, short hair, power armor, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8235,9 +7905,7 @@ const artists = [
       name: "sue storm",
       category: "Marvel",
       mainTags: "sue storm, blue eyes, blonde hair, long hair, blue bodysuit, fantastic four, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8247,9 +7915,7 @@ const artists = [
       name: "cyclops (x-men)",
       category: "Marvel",
       mainTags: "cyclops (x-men), brown eyes, brown hair, short hair, x-men (anime), marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8259,9 +7925,7 @@ const artists = [
       name: "emma frost",
       category: "Marvel",
       mainTags: "emma frost, blue eyes, blonde hair, long hair, fur trim, white cape, x-men, x-men (anime), marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8271,9 +7935,7 @@ const artists = [
       name: "gambit",
       category: "Marvel",
       mainTags: "gambit, red eyes, brown hair, short hair, x-men (anime), marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8283,9 +7945,7 @@ const artists = [
       name: "jean grey",
       category: "Marvel",
       mainTags: "jean grey, green eyes, red hair, long hair, green bodysuit, green headband, yellow gloves, elbow gloves, x-men, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8295,9 +7955,7 @@ const artists = [
       name: "jubilee",
       category: "Marvel",
       mainTags: "jubilee, brown eyes, black hair, short hair, x-men, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8307,9 +7965,7 @@ const artists = [
       name: "magik (x-men)",
       category: "Marvel",
       mainTags: "magik (x-men), blue eyes, blonde hair, long hair, abs, x-men, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8319,9 +7975,7 @@ const artists = [
       name: "psylocke",
       category: "Marvel",
       mainTags: "psylocke, purple eyes, purple hair, long hair, facial mark, sword, butterfly, x-men (anime), marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8331,9 +7985,7 @@ const artists = [
       name: "rogue (x-men)",
       category: "Marvel",
       mainTags: "rogue (x-men), green eyes, brown hair, long hair, x-men (anime), marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8343,9 +7995,7 @@ const artists = [
       name: "wolverine(x-men)",
       category: "Marvel",
       mainTags: "wolverine(x-men), blue eyes, black hair, short hair, x-men (anime), x-men, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8355,9 +8005,7 @@ const artists = [
       name: "black cat",
       category: "Marvel",
       mainTags: "black cat, blue eyes, white hair, long hair, domino mask, fur-trimmed bodysuit, spider-man (series), marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8367,9 +8015,7 @@ const artists = [
       name: "doctor strange",
       category: "Marvel",
       mainTags: "doctor strange, gray eyes, black hair, short hair, eye of agamotto, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8379,9 +8025,7 @@ const artists = [
       name: "deadpool",
       category: "Marvel",
       mainTags: "deadpool, brown eyes, black hair, short hair, bodysuit, deadpool (series), marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8401,9 +8045,7 @@ const artists = [
       name: "carnage (marvel)",
       category: "Marvel",
       mainTags: "carnage (marvel), red eyes, red hair, very long hair, symbiote, claws, glowing eyes, living clothes, spider-man (series), marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8413,9 +8055,7 @@ const artists = [
       name: "octor octopus",
       category: "Marvel",
       mainTags: "octor octopus, brown eyes, brown hair, short hair, mechanical tentacles, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8425,9 +8065,7 @@ const artists = [
       name: "galactus",
       category: "Marvel",
       mainTags: "galactus, purple eyes, purple hair, short hair, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8437,9 +8075,7 @@ const artists = [
       name: "magneto",
       category: "Marvel",
       mainTags: "magneto, blue eyes, white hair, short hair, cape, helmet, hair under helmet, bodysuit, x-men, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8449,9 +8085,7 @@ const artists = [
       name: "mystique",
       category: "Marvel",
       mainTags: "mystique, yellow eyes, red hair, short hair, colored skin, blue skin, white leotard, cleavage cutout, x-men, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8461,9 +8095,7 @@ const artists = [
       name: "venom (marvel)",
       category: "Marvel",
       mainTags: "venom (marvel), white eyes, black hair, short hair, black bodysuit, very long tongue, open mouth, sharp teeth, tentacles, symbiote, marvel",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8473,9 +8105,7 @@ const artists = [
       name: "superman",
       category: "DC",
       mainTags: "superman, blue eyes, black hair, short hair, two-tone leotard, superman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8485,9 +8115,7 @@ const artists = [
       name: "supergirl",
       category: "DC",
       mainTags: "supergirl, blue eyes, blonde hair, long hair, two-tone bodysuit, superman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8497,9 +8125,7 @@ const artists = [
       name: "power girl",
       category: "DC",
       mainTags: "power girl, blue eyes, blonde hair, short hair, superman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8509,9 +8135,7 @@ const artists = [
       name: "batman",
       category: "DC",
       mainTags: "batman, blue eyes, black hair, short hair, bodysuit, no mask, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8521,9 +8145,7 @@ const artists = [
       name: "batgirl",
       category: "DC",
       mainTags: "batgirl, blue eyes, red hair, long hair, grey bodysuit, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8533,9 +8155,7 @@ const artists = [
       name: "wonder woman",
       category: "DC",
       mainTags: "wonder woman, blue eyes, black hair, long hair, leotard, dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8545,9 +8165,7 @@ const artists = [
       name: "green lantern",
       category: "DC",
       mainTags: "green lantern, brown eyes, black hair, short hair, domino mask, leotard, green lantern (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8557,9 +8175,7 @@ const artists = [
       name: "the flash",
       category: "DC",
       mainTags: "the flash, blue eyes, brown hair, short hair, leotard, thighhigh boots, dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8569,9 +8185,7 @@ const artists = [
       name: "zatanna zatara",
       category: "DC",
       mainTags: "zatanna zatara, blue eyes, black hair, long hair, fishnet pantyhose, two-tone leotard, black leotard, white leotard, holding wand, thighhigh boots, dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8581,9 +8195,7 @@ const artists = [
       name: "robin (dc)",
       category: "DC",
       mainTags: "robin (dc), green eyes, black hair, short hair, spikey hair, domino mask, two-tone leotard, green gloves, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8593,9 +8205,7 @@ const artists = [
       name: "nightwing",
       category: "DC",
       mainTags: "nightwing, blue eyes, black hair, short hair, bodysuit, domino mask, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8605,9 +8215,7 @@ const artists = [
       name: "cyborg (dc)",
       category: "DC",
       mainTags: "cyborg (dc), brown eyes, black hair, short hair, teen titans, dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8617,9 +8225,7 @@ const artists = [
       name: "beast boy (dc)",
       category: "DC",
       mainTags: "beast boy (dc), green eyes, green hair, short hair, colored skin, green skin, two-tone super hero costume, teen titans, dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8629,9 +8235,7 @@ const artists = [
       name: "raven (dc)",
       category: "DC",
       mainTags: "raven (dc), purple eyes, purple hair, short hair, colored skin, grey skin, forehead jewel, belt, black leotard, teen titans, dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8641,9 +8245,7 @@ const artists = [
       name: "starfire",
       category: "DC",
       mainTags: "starfire, green eyes, orange hair, long hair, tan skin, green scelera, purple crop top, purple shorts, tamaranean, teen titans, dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8653,9 +8255,7 @@ const artists = [
       name: "terra (dc)",
       category: "DC",
       mainTags: "terra (dc), blue eyes, blonde hair, long hair, black shirt, yellow shorts, midriff, utility belt, teen titans, dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8665,9 +8265,7 @@ const artists = [
       name: "joker (dc)",
       category: "DC",
       mainTags: "joker (dc), green eyes, green hair, short hair, facepaint, red lips, purple gloves, bowtie, suit jacket, open mouth, teeth, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8677,9 +8275,7 @@ const artists = [
       name: "harley quinn",
       category: "DC",
       mainTags: "harley quinn, blue eyes, blonde hair, long hair, twin tails, harley quinn (classic), black bodysuit, red bodysuit, facepaint, white facepaint, domino mask, black lipstick, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8689,9 +8285,7 @@ const artists = [
       name: "harley quinn",
       category: "DC",
       mainTags: "harley quinn, blue eyes, blonde hair, long hair, twin tails, harley quinn (suicide squad), two-tone crop top, fishnet pantyhose, two-tone shorts, suspenders, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8701,9 +8295,7 @@ const artists = [
       name: "catwoman",
       category: "DC",
       mainTags: "catwoman, green eyes, black hair, short hair, latex bodysuit, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8713,9 +8305,7 @@ const artists = [
       name: "poison ivy",
       category: "DC",
       mainTags: "poison ivy, green eyes, red hair, long hair, colored skin, green skin, tattoo, green lips, monster girl, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8725,9 +8315,7 @@ const artists = [
       name: "poison ivy",
       category: "DC",
       mainTags: "poison ivy, green eyes, red hair, long hair, panties, batman (series), dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8737,9 +8325,7 @@ const artists = [
       name: "jinx (dc)",
       category: "DC",
       mainTags: "jinx (dc), purple eyes, pink hair, long hair, hair horns, colored skin, grey skin, striped thighhighs, highleg leotard, impossible leotard, teen titans, dc comics",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8761,9 +8347,7 @@ const artists = [
       name: "belle (disney)",
       category: "Disney",
       mainTags: "belle (disney), brown eyes, brown hair, long hair, yellow dress, beauty and the beast, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8773,9 +8357,7 @@ const artists = [
       name: "belle (disney)",
       category: "Disney",
       mainTags: "belle (disney), brown eyes, brown hair, long hair, hair bow, puffy long sleeves, blue pinafore dress, white apron, braid, beauty and the beast, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8785,9 +8367,7 @@ const artists = [
       name: "beast (disney)",
       category: "Disney",
       mainTags: "beast (disney), brown eyes, brown hair, long hair, wolf tail, monster girl, monsterification, aristocractic clothes, neck fur, furry body, furry, beauty and the beast, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8797,9 +8377,7 @@ const artists = [
       name: "aurora (disney)",
       category: "Disney",
       mainTags: "aurora (disney), blue eyes, blonde hair, long hair, pink dress, off-shoulder dress, sleeping beauty, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8809,9 +8387,7 @@ const artists = [
       name: "jasmine (disney)",
       category: "Disney",
       mainTags: "jasmine (disney), brown eyes, black hair, long hair, dark skin, dark-skinned female, see-through pants, see-through clothes, blue bandeau, harem pants, aladdin (disney), disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8821,9 +8397,7 @@ const artists = [
       name: "rapunzel (disney)",
       category: "Disney",
       mainTags: "rapunzel (disney), green eyes, blonde hair, very long hair, single braid, absurdly long hair, hair flower, off-shoulder dress, tangled, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8833,9 +8407,7 @@ const artists = [
       name: "snow white (disney)",
       category: "Disney",
       mainTags: "snow white (disney), brown eyes, black hair, short hair, yellow skirt, two-tone dress, puffy short sleeves, snow white and the seven dwarfs, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8845,9 +8417,7 @@ const artists = [
       name: "elsa (frozen)",
       category: "Disney",
       mainTags: "elsa (frozen), blue eyes, blonde hair, long hair, single braid, off-shoulder dress, snowflakes, frozen (disney), disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8857,9 +8427,7 @@ const artists = [
       name: "cinderella (disney)",
       category: "Disney",
       mainTags: "cinderella (disney), blue eyes, blonde hair, long hair, hair bun, makeup, detached sleeves, corset, elbow gloves, cinderella, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8869,9 +8437,7 @@ const artists = [
       name: "cinderella (disney)",
       category: "Disney",
       mainTags: "cinderella (disney), blue eyes, blonde hair, long hair, long brown skirt, teal shirt, long sleeves, black vest, waist apron, cinderella, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8881,9 +8447,7 @@ const artists = [
       name: "tinker bell (disney)",
       category: "Disney",
       mainTags: "tinker bell (disney), green eyes, blonde hair, short hair, hair bun, fairy, fairy wings, green dress, peter pan (disney), disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8893,9 +8457,7 @@ const artists = [
       name: "megara (disney)",
       category: "Disney",
       mainTags: "megara (disney), brown eyes, brown hair, long hair, ponytail, roman, greco-roman clothes, sleeveless pink dress, hercules (1997 film), disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8905,9 +8467,7 @@ const artists = [
       name: "hades (disney)",
       category: "Disney",
       mainTags: "hades (disney), yellow eyes, blue hair, short hair, fiery hair, greco-roman clothes, off-shoulder dress, colored skin, blue skin, hercules (1997 film), disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8917,9 +8477,7 @@ const artists = [
       name: "esmeralda (disney)",
       category: "Disney",
       mainTags: "esmeralda (disney), green eyes, black hair, long hair, very dark skin, dark-skinned female, bracer, white shirt, puffy sleeves, hoop earrings, purple skirt, the hunchback of notre dame, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8929,9 +8487,7 @@ const artists = [
       name: "pocahontas (disney)",
       category: "Disney",
       mainTags: "pocahontas (disney), brown eyes, black hair, long hair, dark skin, dark-skinned female, dress, single-shoulder dress, tattoo, feather earring, pocahontas, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8941,9 +8497,7 @@ const artists = [
       name: "maid marian (disney)",
       category: "Disney",
       mainTags: "maid marian (disney), brown eyes, brown hair, long hair, animal nose, fox girl, fox tail, pinafore dress, pink dress, robin hood (disney), disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8953,9 +8507,7 @@ const artists = [
       name: "hiro hamada",
       category: "Disney",
       mainTags: "hiro hamada, brown eyes, black hair, short hair, blue hoodie, red shirt, big hero 6, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8965,9 +8517,7 @@ const artists = [
       name: "gogo tomago",
       category: "Disney",
       mainTags: "gogo tomago, brown eyes, black hair, short hair, bike shorts, open jacket, big hero 6, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8977,9 +8527,7 @@ const artists = [
       name: "honey lemon",
       category: "Disney",
       mainTags: "honey lemon, green eyes, blonde hair, long hair, glasses, yellow knit sweater, sweater dress, big hero 6, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8989,9 +8537,7 @@ const artists = [
       name: "cass hamada",
       category: "Disney",
       mainTags: "cass hamada, brown eyes, brown hair, short hair, green shirt, pants, cleavage, big hero 6, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9001,9 +8547,7 @@ const artists = [
       name: "elastigirl",
       category: "Disney",
       mainTags: "elastigirl, brown eyes, brown hair, short hair, helen parr, bodysuit, the incredibles, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9013,9 +8557,7 @@ const artists = [
       name: "violet parr",
       category: "Disney",
       mainTags: "violet parr, blue eyes, black hair, long hair, eye mask, yellow hair band, red bodysuit, the incredibles, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9025,9 +8567,7 @@ const artists = [
       name: "amane misa",
       category: "Other",
       mainTags: "amane misa, brown eyes, blonde hair, long hair, twintails, death note",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9037,9 +8577,7 @@ const artists = [
       name: "holo",
       category: "Other",
       mainTags: "holo, brown eyes, brown hair, long hair, spice and wolf",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9049,9 +8587,7 @@ const artists = [
       name: "violet evergarden",
       category: "Other",
       mainTags: "violet evergarden, blue eyes, blonde hair, long hair, violet evergarden (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9061,9 +8597,7 @@ const artists = [
       name: "princess leia",
       category: "Other",
       mainTags: "princess leia, brown eyes, brown hair, long hair, star wars",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9073,9 +8607,7 @@ const artists = [
       name: "queen of hearts (alice in wonderland)",
       category: "Other",
       mainTags: "queen of hearts (alice in wonderland), black eyes, black hair, short hair, alice in wonderland",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9085,9 +8617,7 @@ const artists = [
       name: "jessica rabbit",
       category: "Other",
       mainTags: "jessica rabbit, green eyes, red hair, long hair, red sparkly dress, who framed roger rabbit",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9097,9 +8627,7 @@ const artists = [
       name: "amano maya",
       category: "Persona (Series)",
       mainTags: "amano maya, brown eyes, black hair, short hair, brown jacket, persona 2, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9109,9 +8637,7 @@ const artists = [
       name: "lisa silverman",
       category: "Persona (Series)",
       mainTags: "lisa silverman, blue eyes, blonde hair, long hair, black jacket, black skirt, persona 2, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9121,9 +8647,7 @@ const artists = [
       name: "fushimi chihiro",
       category: "Persona (Series)",
       mainTags: "fushimi chihiro, brown eyes, brown hair, long hair, black jacket, black skirt, persona 2, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9133,9 +8657,7 @@ const artists = [
       name: "mishina eikichi",
       category: "Persona (Series)",
       mainTags: "mishina eikichi, brown eyes, blue hair, short hair, persona 2, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9145,9 +8667,7 @@ const artists = [
       name: "shiomi kotone",
       category: "Persona (Series)",
       mainTags: "shiomi kotone, brown eyes, brown hair, long hair, ponytail, black jacket, persona 3, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9157,9 +8677,7 @@ const artists = [
       name: "takeba yukari",
       category: "Persona (Series)",
       mainTags: "takeba yukari, brown eyes, brown hair, medium hair, black jacket, persona 3, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9169,9 +8687,7 @@ const artists = [
       name: "kirijou mitsuru",
       category: "Persona (Series)",
       mainTags: "kirijou mitsuru, brown eyes, red hair, long hair, black jacket, persona 3, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9181,9 +8697,7 @@ const artists = [
       name: "yoshino chidori",
       category: "Persona (Series)",
       mainTags: "yoshino chidori, brown eyes, red hair, short hair, white dress, persona 3, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9193,9 +8707,7 @@ const artists = [
       name: "metis (persona)",
       category: "Persona (Series)",
       mainTags: "metis (persona), red eyes, black hair, short hair, armored dress, robot joints, persona 3, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9205,9 +8717,7 @@ const artists = [
       name: "elizabeth (persona)",
       category: "Persona (Series)",
       mainTags: "elizabeth (persona), yellow eyes, blonde hair, short hair, persona 3, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9217,9 +8727,7 @@ const artists = [
       name: "yamagishi fuuka",
       category: "Persona (Series)",
       mainTags: "yamagishi fuuka, green eyes, teal hair, short hair, black jacket, black skirt, persona 3, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9229,9 +8737,7 @@ const artists = [
       name: "aigis (persona)",
       category: "Persona (Series)",
       mainTags: "aigis (persona), blue eyes, blonde hair, short hair, persona 3, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9241,9 +8747,7 @@ const artists = [
       name: "shirogane naoto",
       category: "Persona (Series)",
       mainTags: "shirogane naoto, blue eyes, blue hair, short hair, blue coat, plaid pants, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9253,9 +8757,7 @@ const artists = [
       name: "sukuna-hikona (persona 4)",
       category: "Persona (Series)",
       mainTags: "sukuna-hikona (persona 4), red eyes, blue hair, short hair, helmet, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9265,9 +8767,7 @@ const artists = [
       name: "labrys (persona)",
       category: "Persona (Series)",
       mainTags: "labrys (persona), blue eyes, silver hair, long hair, ponytail, mechanical arms, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9277,9 +8777,7 @@ const artists = [
       name: "satonaka chie",
       category: "Persona (Series)",
       mainTags: "satonaka chie, brown eyes, brown hair, short hair, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9289,9 +8787,7 @@ const artists = [
       name: "tomoe (persona 4)",
       category: "Persona (Series)",
       mainTags: "tomoe (persona 4), yellow eyes, black hair, short hair, helmet, persona 4",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9301,9 +8797,7 @@ const artists = [
       name: "margaret (persona)",
       category: "Persona (Series)",
       mainTags: "margaret (persona), yellow eyes, blonde hair, long hair, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9313,9 +8807,7 @@ const artists = [
       name: "kujikawa rise",
       category: "Persona (Series)",
       mainTags: "kujikawa rise, brown eyes, brown hair, long hair, twintails, black coat, black skirt, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9325,9 +8817,7 @@ const artists = [
       name: "himiko (persona 4)",
       category: "Persona (Series)",
       mainTags: "himiko (persona 4), yellow eyes, blonde hair, long hair, helmet",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9337,9 +8827,7 @@ const artists = [
       name: "amagi yukiko",
       category: "Persona (Series)",
       mainTags: "amagi yukiko, brown eyes, black hair, long hair, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9349,9 +8837,7 @@ const artists = [
       name: "konohana sakuya (persona)",
       category: "Persona (Series)",
       mainTags: "konohana sakuya (persona), red eyes, pink hair, long hair, helmet, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9361,9 +8847,7 @@ const artists = [
       name: "marie (persona 4)",
       category: "Persona (Series)",
       mainTags: "marie (persona 4), green eyes, black hair, short hair, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9373,9 +8857,7 @@ const artists = [
       name: "konohana sakuya",
       category: "Persona (Series)",
       mainTags: "konohana sakuya, red eyes, pink hair, long hair, armored dress, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9385,9 +8867,7 @@ const artists = [
       name: "doujima nanako",
       category: "Persona (Series)",
       mainTags: "doujima nanako, brown eyes, brown hair, short hair, twintails, short twintails, three-tone dress, white turtleneck sweater, persona 4, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9469,9 +8949,7 @@ const artists = [
       name: "kawakami sadayo",
       category: "Persona (Series)",
       mainTags: "kawakami sadayo, brown eyes, brown hair, short hair, striped shirt, denim skirt, persona 5, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9493,9 +8971,7 @@ const artists = [
       name: "kitagawa yuusuke",
       category: "Persona (Series)",
       mainTags: "kitagawa yuusuke, blue eyes, blue hair, short hair, white shirt, black skirt, persona 5, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9505,9 +8981,7 @@ const artists = [
       name: "takemi tae",
       category: "Persona (Series)",
       mainTags: "takemi tae, brown eyes, black hair, short hair, persona 5, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9517,9 +8991,7 @@ const artists = [
       name: "yoshizawa sumire",
       category: "Persona (Series)",
       mainTags: "yoshizawa sumire, brown eyes, red hair, long hair, ponytail, black jacket, plaid skirt, persona 5, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9529,9 +9001,7 @@ const artists = [
       name: "niijima sae",
       category: "Persona (Series)",
       mainTags: "niijima sae, gray eyes, silver hair, long hair, persona 5, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9541,9 +9011,7 @@ const artists = [
       name: "tougou hifumi",
       category: "Persona (Series)",
       mainTags: "tougou hifumi, brown eyes, black hair, long hair, persona 5, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9553,9 +9021,7 @@ const artists = [
       name: "caroline (persona 5)",
       category: "Persona (Series)",
       mainTags: "caroline (persona 5), yellow eyes, blonde hair, short hair, persona 5, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9565,9 +9031,7 @@ const artists = [
       name: "justine (persona 5)",
       category: "Persona (Series)",
       mainTags: "justine (persona 5), yellow eyes, blonde hair, short hair, persona 5, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9577,9 +9041,7 @@ const artists = [
       name: "lavenza (persona 5)",
       category: "Persona (Series)",
       mainTags: "lavenza (persona 5), yellow eyes, blonde hair, very long hair, twintails, persona 5, persona",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9589,9 +9051,7 @@ const artists = [
       name: "maam",
       category: "Dragon Quest (Series)",
       mainTags: "maam, blue eyes, pink hair, long hair, dragon quest dai no daibouken, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9601,9 +9061,7 @@ const artists = [
       name: "daisy (dq)",
       category: "Dragon Quest (Series)",
       mainTags: "daisy (dq), brown eyes, blonde hair, long hair, dragon quest dai no daibouken, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9613,9 +9071,7 @@ const artists = [
       name: "princess laura",
       category: "Dragon Quest (Series)",
       mainTags: "princess laura, blue eyes, blonde hair, long hair, yellow dress, dragon quest i, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9625,9 +9081,7 @@ const artists = [
       name: "princess of moonbrook",
       category: "Dragon Quest (Series)",
       mainTags: "princess of moonbrook, blue eyes, purple hair, long hair, dragon quest ii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9637,9 +9091,7 @@ const artists = [
       name: "warrior (dq3)",
       category: "Dragon Quest (Series)",
       mainTags: "warrior (dq3), brown eyes, purple hair, long hair, bikini armor, purple hair, red helmet, dragon quest iii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9649,9 +9101,7 @@ const artists = [
       name: "sage (dq3)",
       category: "Dragon Quest (Series)",
       mainTags: "sage (dq3), blue eyes, blonde hair, long hair, dragon quest iii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9661,9 +9111,7 @@ const artists = [
       name: "priest (dq3)",
       category: "Dragon Quest (Series)",
       mainTags: "priest (dq3), brown eyes, brown hair, short hair, dragon quest iii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9673,9 +9121,7 @@ const artists = [
       name: "mage (dq3)",
       category: "Dragon Quest (Series)",
       mainTags: "mage (dq3), green eyes, purple hair, long hair, dragon quest iii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9685,9 +9131,7 @@ const artists = [
       name: "thief (dq3)",
       category: "Dragon Quest (Series)",
       mainTags: "thief (dq3), brown eyes, green hair, short hair, dragon quest iii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9697,9 +9141,7 @@ const artists = [
       name: "gadabout (dq3)",
       category: "Dragon Quest (Series)",
       mainTags: "gadabout (dq3), blue eyes, blonde hair, long hair, blonde hair, blue playboy bunny, dragon quest iii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9709,9 +9151,7 @@ const artists = [
       name: "merchant (dq3)",
       category: "Dragon Quest (Series)",
       mainTags: "merchant (dq3), brown eyes, brown hair, short hair, dragon quest iii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9721,9 +9161,7 @@ const artists = [
       name: "manya (dq4)",
       category: "Dragon Quest (Series)",
       mainTags: "manya (dq4), blue eyes, purple hair, long hair, dragon quest iv, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9733,9 +9171,7 @@ const artists = [
       name: "minea (dq4)",
       category: "Dragon Quest (Series)",
       mainTags: "minea (dq4), brown eyes, silver hair, long hair, dark skin, dark-skinned female, dragon quest iv, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9745,9 +9181,7 @@ const artists = [
       name: "alena (dq4)",
       category: "Dragon Quest (Series)",
       mainTags: "alena (dq4), blue eyes, red hair, short hair, yellow dress, blue cape, dragon quest iv, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9757,9 +9191,7 @@ const artists = [
       name: "bianca (dq5)",
       category: "Dragon Quest (Series)",
       mainTags: "bianca (dq5), blue eyes, blonde hair, long hair, green dress, orange cape, dragon quest v, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9769,9 +9201,7 @@ const artists = [
       name: "hero's daughter (dq5)",
       category: "Dragon Quest (Series)",
       mainTags: "hero's daughter (dq5), blue eyes, blonde hair, long hair, belt pouch, dragon quest v, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9781,9 +9211,7 @@ const artists = [
       name: "flora (dq5)",
       category: "Dragon Quest (Series)",
       mainTags: "flora (dq5), blue eyes, blue hair, long hair, dragon quest v, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9793,9 +9221,7 @@ const artists = [
       name: "deborah (dq5)",
       category: "Dragon Quest (Series)",
       mainTags: "deborah (dq5), purple eyes, black hair, long hair, dragon quest v, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9805,9 +9231,7 @@ const artists = [
       name: "barbara (dq6)",
       category: "Dragon Quest (Series)",
       mainTags: "barbara (dq6), green eyes, orange hair, long hair, dragon quest vi, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9817,9 +9241,7 @@ const artists = [
       name: "mireyu",
       category: "Dragon Quest (Series)",
       mainTags: "mireyu, blue eyes, blonde hair, long hair, orange sash, armor, dragon quest vi, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9829,9 +9251,7 @@ const artists = [
       name: "maribel (dq7)",
       category: "Dragon Quest (Series)",
       mainTags: "maribel (dq7), green eyes, orange hair, long hair, twintails, dragon quest vii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9841,9 +9261,7 @@ const artists = [
       name: "jessica albert",
       category: "Dragon Quest (Series)",
       mainTags: "jessica albert, green eyes, orange hair, long hair, ponytail, purple shirt, red skirt, dragon quest viii, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9853,9 +9271,7 @@ const artists = [
       name: "martina (dq11)",
       category: "Dragon Quest (Series)",
       mainTags: "martina (dq11), brown eyes, purple hair, long hair, green halter top, dragon quest xi, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9865,9 +9281,7 @@ const artists = [
       name: "veronica (dq11)",
       category: "Dragon Quest (Series)",
       mainTags: "veronica (dq11), blue eyes, blonde hair, long hair, twintails, red hat, two-tone dress, dragon quest xi, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9877,9 +9291,7 @@ const artists = [
       name: "senya (dq11)",
       category: "Dragon Quest (Series)",
       mainTags: "senya (dq11), blue eyes, blonde hair, long hair, green dress, dragon quest xi, dragon quest",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9901,9 +9313,7 @@ const artists = [
       name: "regina (dino crisis)",
       category: "Other",
       mainTags: "regina (dino crisis), green eyes, red hair, short hair, dino crisis",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9913,9 +9323,7 @@ const artists = [
       name: "isabelle (animal crossing)",
       category: "Other",
       mainTags: "isabelle (animal crossing), brown eyes, yellow hair, long hair, twintails, dog girl, animal crossing",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9925,9 +9333,7 @@ const artists = [
       name: "ankha (animal crossing)",
       category: "Other",
       mainTags: "ankha (animal crossing), blue eyes, yellow hair, short hair, cat girl, animal crossing",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9937,9 +9343,7 @@ const artists = [
       name: "ayane (doa)",
       category: "Dead or Alive",
       mainTags: "ayane (doa), purple eyes, purple hair, long hair, purple dress, detached sleeves, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9961,9 +9365,7 @@ const artists = [
       name: "kasumi (doa)",
       category: "Dead or Alive",
       mainTags: "kasumi (doa), brown eyes, brown hair, long hair, ponytail, japanese clothes, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9985,9 +9387,7 @@ const artists = [
       name: "nyotengu",
       category: "Dead or Alive",
       mainTags: "nyotengu, purple eyes, black hair, long hair, hair cones, wings, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9997,9 +9397,7 @@ const artists = [
       name: "hitomi (doa)",
       category: "Dead or Alive",
       mainTags: "hitomi (doa), blue eyes, brown hair, short hair, karate gi, white pants, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10009,9 +9407,7 @@ const artists = [
       name: "tina armstrong",
       category: "Dead or Alive",
       mainTags: "tina armstrong, blue eyes, blonde hair, long hair, leather coat, red bikini top, two-tone leather pants, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10021,9 +9417,7 @@ const artists = [
       name: "helena douglas",
       category: "Dead or Alive",
       mainTags: "helena douglas, blue eyes, blonde hair, long hair, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10033,9 +9427,7 @@ const artists = [
       name: "christie (doa)",
       category: "Dead or Alive",
       mainTags: "christie (doa), gray eyes, silver hair, short hair, black sleeveless sweater, black pants, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10045,9 +9437,7 @@ const artists = [
       name: "kokoro (doa)",
       category: "Dead or Alive",
       mainTags: "kokoro (doa), brown eyes, black hair, long hair, chinese clothes, sleeveless pink shirt, detached collar, puffy white pants, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10057,9 +9447,7 @@ const artists = [
       name: "mila (doa)",
       category: "Dead or Alive",
       mainTags: "mila (doa), brown eyes, red hair, short hair, red crop top, long black shorts, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10069,9 +9457,7 @@ const artists = [
       name: "lisa hamilton",
       category: "Dead or Alive",
       mainTags: "lisa hamilton, brown eyes, brown hair, long hair, dark skin, dark-skinned female, bikini top only, wrestling outfit, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10081,9 +9467,7 @@ const artists = [
       name: "tamaki (doa)",
       category: "Dead or Alive",
       mainTags: "tamaki (doa), brown eyes, brown hair, long hair, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10093,9 +9477,7 @@ const artists = [
       name: "nico (doa)",
       category: "Dead or Alive",
       mainTags: "nico (doa), blue eyes, blue hair, short hair, dead or alive 6, dead or alive",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10105,9 +9487,7 @@ const artists = [
       name: "inkling girl",
       category: "Splatoon",
       mainTags: "inkling girl, orange eyes, orange hair, tentacle hair, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10117,9 +9497,7 @@ const artists = [
       name: "octoling girl",
       category: "Splatoon",
       mainTags: "octoling girl, red eyes, red hair, tentacle hair, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10151,9 +9529,7 @@ const artists = [
       name: "marina (splatoon)",
       category: "Splatoon",
       mainTags: "marina (splatoon), turquoise eyes, teal hair, tentacle hair, dark skin, dark-skinned female, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10163,9 +9539,7 @@ const artists = [
       name: "shiver (splatoon)",
       category: "Splatoon",
       mainTags: "shiver (splatoon), blue eyes, blue hair, tentacle hair, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10175,9 +9549,7 @@ const artists = [
       name: "pearl (splatoon)",
       category: "Splatoon",
       mainTags: "pearl (splatoon), yellow eyes, pink hair, tentacle hair, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10187,9 +9559,7 @@ const artists = [
       name: "frye (splatoon)",
       category: "Splatoon",
       mainTags: "frye (splatoon), yellow eyes, yellow hair, tentacle hair, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10199,9 +9569,7 @@ const artists = [
       name: "agent 3 (splatoon)",
       category: "Splatoon",
       mainTags: "agent 3 (splatoon), orange eyes, orange hair, tentacle hair, inkling girl, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10211,9 +9579,7 @@ const artists = [
       name: "takozonesu",
       category: "Splatoon",
       mainTags: "takozonesu, purple eyes, purple hair, tentacle hair, gradient hair, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10223,9 +9589,7 @@ const artists = [
       name: "agent 4 (splatoon)",
       category: "Splatoon",
       mainTags: "agent 4 (splatoon), yellow eyes, yellow hair, tentacle hair, inkling girl, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10235,9 +9599,7 @@ const artists = [
       name: "kaori (splatoon)",
       category: "Splatoon",
       mainTags: "kaori (splatoon), orange eyes, orange hair, very long hair, tentacle hair, inkling girl, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10247,9 +9609,7 @@ const artists = [
       name: "tao blu (splatoon)",
       category: "Splatoon",
       mainTags: "tao blu (splatoon), blue eyes, blue hair, tentacle hair, dark skin, dark-skinned female, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10259,9 +9619,7 @@ const artists = [
       name: "harmony (splatoon)",
       category: "Splatoon",
       mainTags: "harmony (splatoon), pink eyes, pink hair, tentacle hair, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10271,9 +9629,7 @@ const artists = [
       name: "yoko (splatoon)",
       category: "Splatoon",
       mainTags: "yoko (splatoon), purple eyes, purple hair, tentacle hair, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10283,9 +9639,7 @@ const artists = [
       name: "dedf1sh",
       category: "Splatoon",
       mainTags: "dedf1sh, green eyes, green hair, tentacle hair, colored skin, green skin, splatoon (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10295,9 +9649,7 @@ const artists = [
       name: "roll (mega man)",
       category: "Mega Man",
       mainTags: "roll (mega man), blue eyes, blonde hair, long hair, mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10307,9 +9659,7 @@ const artists = [
       name: "roll caskett (mega man)",
       category: "Mega Man",
       mainTags: "roll caskett (mega man), green eyes, blonde hair, long hair, mega man legends (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10319,9 +9669,7 @@ const artists = [
       name: "roll.exe (mega man)",
       category: "Mega Man",
       mainTags: "roll.exe (mega man), green eyes, blonde hair, long hair, mega man battle network (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10331,9 +9679,7 @@ const artists = [
       name: "zero (mega man)",
       category: "Mega Man",
       mainTags: "zero (mega man), blue eyes, blonde hair, long hair, ponytail, boobplate, mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10343,9 +9689,7 @@ const artists = [
       name: "mega man (character)",
       category: "Mega Man",
       mainTags: "mega man (character), blue eyes, black hair, short hair, boobplate, mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10355,9 +9699,7 @@ const artists = [
       name: "aile (mega man zx)",
       category: "Mega Man",
       mainTags: "aile (mega man zx), green eyes, brown hair, short hair, mega man zx, mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10367,9 +9709,7 @@ const artists = [
       name: "x (mega man)",
       category: "Mega Man",
       mainTags: "x (mega man), blue eyes, brown hair, short hair, mega man x, mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10379,9 +9719,7 @@ const artists = [
       name: "tron bonne (mega man)",
       category: "Mega Man",
       mainTags: "tron bonne (mega man), blue eyes, brown hair, short hair, mega man legends (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10391,9 +9729,7 @@ const artists = [
       name: "zero(z) (mega man)",
       category: "Mega Man",
       mainTags: "zero(z) (mega man), blue eyes, blonde hair, long hair, ponytail, mega man zero (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10403,9 +9739,7 @@ const artists = [
       name: "fairy leviathan (mega man)",
       category: "Mega Man",
       mainTags: "fairy leviathan (mega man), blue eyes, blue hair, long hair, mega man zero (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10415,9 +9749,7 @@ const artists = [
       name: "megaman.exe",
       category: "Mega Man",
       mainTags: "megaman.exe, blue eyes, black hair, short hair, bodysuit, gederswap, mega man battle network (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10427,9 +9759,7 @@ const artists = [
       name: "ciel (mega man)",
       category: "Mega Man",
       mainTags: "ciel (mega man), blue eyes, blonde hair, long hair, mega man battle zero (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10439,9 +9769,7 @@ const artists = [
       name: "iris (mega man)",
       category: "Mega Man",
       mainTags: "iris (mega man), brown eyes, brown hair, long hair, red armor, mega man x (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10451,9 +9779,7 @@ const artists = [
       name: "luna platz (mega man)",
       category: "Mega Man",
       mainTags: "luna platz (mega man), blue eyes, blonde hair, short hair, mega man star force (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10463,9 +9789,7 @@ const artists = [
       name: "proto man",
       category: "Mega Man",
       mainTags: "proto man, brown eyes, brown hair, short hair, yellow scarf, red armor, mega man (classic), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10475,9 +9799,7 @@ const artists = [
       name: "sonia strumm (mega man)",
       category: "Mega Man",
       mainTags: "sonia strumm (mega man), green eyes, brown hair, short hair, mega man star force (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10487,9 +9809,7 @@ const artists = [
       name: "mayl sakurai (mega man)",
       category: "Mega Man",
       mainTags: "mayl sakurai (mega man), green eyes, red hair, long hair, mega man battle network (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10499,9 +9819,7 @@ const artists = [
       name: "pandora (mega man)",
       category: "Mega Man",
       mainTags: "pandora (mega man), red eyes, white hair, long hair, mega man zx, mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10511,9 +9829,7 @@ const artists = [
       name: "alia (mega man)",
       category: "Mega Man",
       mainTags: "alia (mega man), blue eyes, blonde hair, short hair, armor, mega man x, mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10523,9 +9839,7 @@ const artists = [
       name: "ashe (mega man)",
       category: "Mega Man",
       mainTags: "ashe (mega man), blue eyes, gray hair, short hair, orange cropped jacket, mega man zx, mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10535,9 +9849,7 @@ const artists = [
       name: "rico (mega man)",
       category: "Mega Man",
       mainTags: "rico (mega man), brown eyes, brown hair, long hair, armored skirt, mega man x (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10547,9 +9859,7 @@ const artists = [
       name: "layer (mega man)",
       category: "Mega Man",
       mainTags: "layer (mega man), purple eyes, purple hair, long hair, armor, mega man x (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10559,9 +9869,7 @@ const artists = [
       name: "sage harpuia (mega man)",
       category: "Mega Man",
       mainTags: "sage harpuia (mega man), green eyes, green hair, long hair, armor, mega man zero (series), mega man (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10571,9 +9879,7 @@ const artists = [
       name: "solid snake",
       category: "Metal Gear (Series)",
       mainTags: "solid snake, blue eyes, brown hair, short hair, metal gear solid, metal gear (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10583,9 +9889,7 @@ const artists = [
       name: "raiden (metal gear)",
       category: "Metal Gear (Series)",
       mainTags: "raiden (metal gear), blue eyes, blonde hair, long hair, metal gear (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10595,9 +9899,7 @@ const artists = [
       name: "quiet (metal gear)",
       category: "Metal Gear (Series)",
       mainTags: "quiet (metal gear), green eyes, brown hair, short hair, metal gear (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10607,9 +9909,7 @@ const artists = [
       name: "shiranui mai",
       category: "King of Fighters / SNK",
       mainTags: "shiranui mai, brown eyes, brown hair, long hair, ponytail, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10619,9 +9919,7 @@ const artists = [
       name: "angel (kof)",
       category: "King of Fighters / SNK",
       mainTags: "angel (kof), blue eyes, silver hair, short hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10631,9 +9929,7 @@ const artists = [
       name: "leona heidern",
       category: "King of Fighters / SNK",
       mainTags: "leona heidern, blue eyes, blue hair, short hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10643,9 +9939,7 @@ const artists = [
       name: "kula diamond",
       category: "King of Fighters / SNK",
       mainTags: "kula diamond, blue eyes, blue hair, long hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10655,9 +9949,7 @@ const artists = [
       name: "yuri sakazaki",
       category: "King of Fighters / SNK",
       mainTags: "yuri sakazaki, brown eyes, brown hair, long hair, ponytail, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10667,9 +9959,7 @@ const artists = [
       name: "asamiya athena",
       category: "King of Fighters / SNK",
       mainTags: "asamiya athena, purple eyes, purple hair, long hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10679,9 +9969,7 @@ const artists = [
       name: "shermie (kof)",
       category: "King of Fighters / SNK",
       mainTags: "shermie (kof), brown eyes, brown hair, long hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10691,9 +9979,7 @@ const artists = [
       name: "terry bogard",
       category: "King of Fighters / SNK",
       mainTags: "terry bogard, blue eyes, blonde hair, long hair, ponytail, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10703,9 +9989,7 @@ const artists = [
       name: "yagami iori",
       category: "King of Fighters / SNK",
       mainTags: "yagami iori, red eyes, red hair, short hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10715,9 +9999,7 @@ const artists = [
       name: "blue mary",
       category: "King of Fighters / SNK",
       mainTags: "blue mary, blue eyes, blonde hair, short hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10737,9 +10019,7 @@ const artists = [
       name: "king (snk)",
       category: "King of Fighters / SNK",
       mainTags: "king (snk), blue eyes, blonde hair, short hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10749,9 +10029,7 @@ const artists = [
       name: "vanessa (kof)",
       category: "King of Fighters / SNK",
       mainTags: "vanessa (kof), brown eyes, red hair, short hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10761,9 +10039,7 @@ const artists = [
       name: "ryou sakazaki",
       category: "King of Fighters / SNK",
       mainTags: "ryou sakazaki, brown eyes, blonde hair, short hair, orange karate gi, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10773,9 +10049,7 @@ const artists = [
       name: "ashe crimson",
       category: "King of Fighters / SNK",
       mainTags: "ashe crimson, green eyes, blonde hair, long hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10785,9 +10059,7 @@ const artists = [
       name: "vice (kof)",
       category: "King of Fighters / SNK",
       mainTags: "vice (kof), brown eyes, brown hair, long hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10797,9 +10069,7 @@ const artists = [
       name: "mature (kof)",
       category: "King of Fighters / SNK",
       mainTags: "mature (kof), blue eyes, blonde hair, long hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10809,9 +10079,7 @@ const artists = [
       name: "jenet behrn",
       category: "King of Fighters / SNK",
       mainTags: "jenet behrn, blue eyes, blonde hair, long hair, snk, fatal fury",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10821,9 +10089,7 @@ const artists = [
       name: "billy kane",
       category: "King of Fighters / SNK",
       mainTags: "billy kane, blue eyes, blonde hair, short hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10833,9 +10099,7 @@ const artists = [
       name: "elisabeth blanctorche",
       category: "King of Fighters / SNK",
       mainTags: "elisabeth blanctorche, blue eyes, silver hair, long hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10845,9 +10109,7 @@ const artists = [
       name: "ralf jones",
       category: "King of Fighters / SNK",
       mainTags: "ralf jones, brown eyes, brown hair, short hair, the king of fighters",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10867,9 +10129,7 @@ const artists = [
       name: "noire (neptunia)",
       category: "Neptune (series)",
       mainTags: "noire (neptunia), red eyes, black hair, long hair, hair bows, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10889,9 +10149,7 @@ const artists = [
       name: "blanc (neptunia)",
       category: "Neptune (series)",
       mainTags: "blanc (neptunia), blue eyes, brown hair, short hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10901,9 +10159,7 @@ const artists = [
       name: "nepgear",
       category: "Neptune (series)",
       mainTags: "nepgear, purple eyes, purple hair, long hair, hair ornament, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10913,9 +10169,7 @@ const artists = [
       name: "vert (neptunia)",
       category: "Neptune (series)",
       mainTags: "vert (neptunia), blue eyes, blonde hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10925,9 +10179,7 @@ const artists = [
       name: "black heart (neptunia)",
       category: "Neptune (series)",
       mainTags: "black heart (neptunia), blue eyes, silver hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10937,9 +10189,7 @@ const artists = [
       name: "uni (neptunia)",
       category: "Neptune (series)",
       mainTags: "uni (neptunia), red eyes, black hair, long hair, hair bows, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10949,9 +10199,7 @@ const artists = [
       name: "tennouboshi uzume",
       category: "Neptune (series)",
       mainTags: "tennouboshi uzume, blue eyes, orange hair, short hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10961,9 +10209,7 @@ const artists = [
       name: "white heart (neptunia)",
       category: "Neptune (series)",
       mainTags: "white heart (neptunia), red eyes, white hair, short hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -10973,9 +10219,7 @@ const artists = [
       name: "iris heart (neptunia)",
       category: "Neptune (series)",
       mainTags: "iris heart (neptunia), red eyes, purple hair, very long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11005,9 +10249,7 @@ const artists = [
       name: "green heart (neptunia)",
       category: "Neptune (series)",
       mainTags: "green heart (neptunia), green eyes, green hair, very long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11017,9 +10259,7 @@ const artists = [
       name: "if (neptunia)",
       category: "Neptune (series)",
       mainTags: "if (neptunia), green eyes, brown hair, short hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11029,9 +10269,7 @@ const artists = [
       name: "purple sister",
       category: "Neptune (series)",
       mainTags: "purple sister, purple eyes, purple hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11041,9 +10279,7 @@ const artists = [
       name: "pururut",
       category: "Neptune (series)",
       mainTags: "pururut, red eyes, orange hair, medium hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11053,9 +10289,7 @@ const artists = [
       name: "histoire",
       category: "Neptune (series)",
       mainTags: "histoire, green eyes, blonde hair, very long hair, hair bows, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11065,9 +10299,7 @@ const artists = [
       name: "orange heart (neptunia)",
       category: "Neptune (series)",
       mainTags: "orange heart (neptunia), orange eyes, orange hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11077,9 +10309,7 @@ const artists = [
       name: "black sister",
       category: "Neptune (series)",
       mainTags: "black sister, red eyes, black hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11089,9 +10319,7 @@ const artists = [
       name: "compa",
       category: "Neptune (series)",
       mainTags: "compa, brown eyes, orange hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11101,9 +10329,7 @@ const artists = [
       name: "pish",
       category: "Neptune (series)",
       mainTags: "pish, purple eyes, blonde hair, short hair, hair ornament, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11113,9 +10339,7 @@ const artists = [
       name: "ankokuboshi kurome",
       category: "Neptune (series)",
       mainTags: "ankokuboshi kurome, blue eyes, black hair, medium hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11125,9 +10349,7 @@ const artists = [
       name: "next purple",
       category: "Neptune (series)",
       mainTags: "next purple, purple eyes, purple hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11137,9 +10359,7 @@ const artists = [
       name: "yellow heart (neptunia)",
       category: "Neptune (series)",
       mainTags: "yellow heart (neptunia), blue eyes, blonde hair, medium hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11161,9 +10381,7 @@ const artists = [
       name: "nippon ichi (neptunia)",
       category: "Neptune (series)",
       mainTags: "nippon ichi (neptunia), purple eyes, blonde hair, short hair, red scarf, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11173,9 +10391,7 @@ const artists = [
       name: "cyberconnect2",
       category: "Neptune (series)",
       mainTags: "cyberconnect2, green eyes, orange hair, short hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11185,9 +10401,7 @@ const artists = [
       name: "c-sha",
       category: "Neptune (series)",
       mainTags: "c-sha, brown eyes, blonde hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11197,9 +10411,7 @@ const artists = [
       name: "next white",
       category: "Neptune (series)",
       mainTags: "next white, red eyes, white hair, short hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11209,9 +10421,7 @@ const artists = [
       name: "5pb (neptunia)",
       category: "Neptune (series)",
       mainTags: "5pb (neptunia), purple eyes, blue hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11221,9 +10431,7 @@ const artists = [
       name: "red (neptunia)",
       category: "Neptune (series)",
       mainTags: "red (neptunia), red eyes, red hair, short hair, twintails, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11233,9 +10441,7 @@ const artists = [
       name: "nepgyaa",
       category: "Neptune (series)",
       mainTags: "nepgyaa, purple eyes, purple hair, short hair, twintails, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11245,9 +10451,7 @@ const artists = [
       name: "k-sha",
       category: "Neptune (series)",
       mainTags: "k-sha, brown eyes, blonde hair, long hair, red headband, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11257,9 +10461,7 @@ const artists = [
       name: "cave (neptunia)",
       category: "Neptune (series)",
       mainTags: "cave (neptunia), red eyes, brown hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11269,9 +10471,7 @@ const artists = [
       name: "next black",
       category: "Neptune (series)",
       mainTags: "next black, blue eyes, black hair, long hair, neptune (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11311,9 +10511,7 @@ const artists = [
       name: "rex (xenoblade)",
       category: "Xenoblade",
       mainTags: "rex (xenoblade), brown eyes, brown hair, short hair, spiked hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11323,9 +10521,7 @@ const artists = [
       name: "mio (xenoblade)",
       category: "Xenoblade",
       mainTags: "mio (xenoblade), yellow eyes, brown hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11335,9 +10531,7 @@ const artists = [
       name: "eunie (xenoblade)",
       category: "Xenoblade",
       mainTags: "eunie (xenoblade), green eyes, brown hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11347,9 +10541,7 @@ const artists = [
       name: "pneuma (xenoblade)",
       category: "Xenoblade",
       mainTags: "pneuma (xenoblade), green eyes, green hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11359,9 +10551,7 @@ const artists = [
       name: "melia antiqua",
       category: "Xenoblade",
       mainTags: "melia antiqua, purple eyes, silver hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11411,9 +10601,7 @@ const artists = [
       name: "sena (xenoblade)",
       category: "Xenoblade",
       mainTags: "sena (xenoblade), blue eyes, blue hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11423,9 +10611,7 @@ const artists = [
       name: "noah (xenoblade)",
       category: "Xenoblade",
       mainTags: "noah (xenoblade), blue eyes, black hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11435,9 +10621,7 @@ const artists = [
       name: "pandoria (xenoblade)",
       category: "Xenoblade",
       mainTags: "pandoria (xenoblade), green eyes, green hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11447,9 +10631,7 @@ const artists = [
       name: "lora (xenoblade)",
       category: "Xenoblade",
       mainTags: "lora (xenoblade), green eyes, red hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11459,9 +10641,7 @@ const artists = [
       name: "fan la norne",
       category: "Xenoblade",
       mainTags: "fan la norne, blue eyes, purple hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11471,9 +10651,7 @@ const artists = [
       name: "glimmer (xenoblade)",
       category: "Xenoblade",
       mainTags: "glimmer (xenoblade), brown eyes, red hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11483,9 +10661,7 @@ const artists = [
       name: "taion (xenoblade)",
       category: "Xenoblade",
       mainTags: "taion (xenoblade), green eyes, black hair, short hair, dark skin, dark-skinned female, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11495,9 +10671,7 @@ const artists = [
       name: "ethel (xenoblade)",
       category: "Xenoblade",
       mainTags: "ethel (xenoblade), blue eyes, silver hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11507,9 +10681,7 @@ const artists = [
       name: "jin (xenoblade)",
       category: "Xenoblade",
       mainTags: "jin (xenoblade), blue eyes, silver hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11519,9 +10691,7 @@ const artists = [
       name: "a (xenoblade)",
       category: "Xenoblade",
       mainTags: "a (xenoblade), red eyes, black hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11531,9 +10701,7 @@ const artists = [
       name: "lanz (xenoblade)",
       category: "Xenoblade",
       mainTags: "lanz (xenoblade), blue eyes, silver hair, short hair, muscular female, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11543,9 +10711,7 @@ const artists = [
       name: "elma (xenoblade x)",
       category: "Xenoblade",
       mainTags: "elma (xenoblade x), blue eyes, red hair, short hair, xenoblade chronicles x, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11555,9 +10721,7 @@ const artists = [
       name: "na'el (xenoblade)",
       category: "Xenoblade",
       mainTags: "na'el (xenoblade), green eyes, brown hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11567,9 +10731,7 @@ const artists = [
       name: "sharla (xenoblade)",
       category: "Xenoblade",
       mainTags: "sharla (xenoblade), brown eyes, black hair, long hair, dark skin, dark-skinned female, xenoblade chronicles 1, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11579,9 +10741,7 @@ const artists = [
       name: "praxis (xenoblade)",
       category: "Xenoblade",
       mainTags: "praxis (xenoblade), purple eyes, blue hair, long hair, dark skin, dark-skinned female, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11591,9 +10751,7 @@ const artists = [
       name: "theory (xenoblade)",
       category: "Xenoblade",
       mainTags: "theory (xenoblade), blue eyes, blonde hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11603,9 +10761,7 @@ const artists = [
       name: "dunban (xenoblade)",
       category: "Xenoblade",
       mainTags: "dunban (xenoblade), brown eyes, brown hair, long hair, ahoge, xenoblade chronicles 1, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11615,9 +10771,7 @@ const artists = [
       name: "shulk (xenoblade)",
       category: "Xenoblade",
       mainTags: "shulk (xenoblade), blue eyes, blonde hair, short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11627,9 +10781,7 @@ const artists = [
       name: "reyn (xenoblade)",
       category: "Xenoblade",
       mainTags: "reyn (xenoblade), brown eyes, brown hair, short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11639,9 +10791,7 @@ const artists = [
       name: "kassandra (xenoblade)",
       category: "Xenoblade",
       mainTags: "kassandra (xenoblade), blue eyes, purple hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11651,9 +10801,7 @@ const artists = [
       name: "kassandra (xenoblade)",
       category: "Xenoblade",
       mainTags: "kassandra (xenoblade), blue eyes, purple hair, short hair, horns, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11663,9 +10811,7 @@ const artists = [
       name: "finch (xenoblade)",
       category: "Xenoblade",
       mainTags: "finch (xenoblade), brown eyes, brown hair, short hair, body fur, furry female, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11675,9 +10821,7 @@ const artists = [
       name: "lin lee koo",
       category: "Xenoblade",
       mainTags: "lin lee koo, brown eyes, black hair, short hair, xenoblade chronicles x, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11687,9 +10831,7 @@ const artists = [
       name: "crossette (xenoblade)",
       category: "Xenoblade",
       mainTags: "crossette (xenoblade), green eyes, white hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11699,9 +10841,7 @@ const artists = [
       name: "celica (xenoblade x)",
       category: "Xenoblade",
       mainTags: "celica (xenoblade x), purple eyes, silver hair, long hair, xenoblade chronicles x, xenoblade chronicles (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11711,9 +10851,7 @@ const artists = [
       name: "lucifer (helltaker)",
       category: "Helltaker",
       mainTags: "lucifer (helltaker), red eyes, white hair, long hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11723,9 +10861,7 @@ const artists = [
       name: "modeus (helltaker)",
       category: "Helltaker",
       mainTags: "modeus (helltaker), red eyes, white hair, long hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11735,9 +10871,7 @@ const artists = [
       name: "justice (helltaker)",
       category: "Helltaker",
       mainTags: "justice (helltaker), red eyes, white hair, short hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11747,9 +10881,7 @@ const artists = [
       name: "helltaker (character)",
       category: "Helltaker",
       mainTags: "helltaker (character), brown eyes, brown hair, short hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11759,9 +10891,7 @@ const artists = [
       name: "malina (helltaker)",
       category: "Helltaker",
       mainTags: "malina (helltaker), red eyes, white hair, short hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11771,9 +10901,7 @@ const artists = [
       name: "judgement (helltaker)",
       category: "Helltaker",
       mainTags: "judgement (helltaker), red eyes, black hair, long hair, dark skin, dark-skinned female, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11783,9 +10911,7 @@ const artists = [
       name: "azazel (helltaker)",
       category: "Helltaker",
       mainTags: "azazel (helltaker), blue eyes, blonde hair, long hair, halo, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11795,9 +10921,7 @@ const artists = [
       name: "zdrada (helltaker)",
       category: "Helltaker",
       mainTags: "zdrada (helltaker), red eyes, purple hair, long hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11807,9 +10931,7 @@ const artists = [
       name: "pandemonica (helltaker)",
       category: "Helltaker",
       mainTags: "pandemonica (helltaker), red eyes, blonde hair, short hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11819,9 +10941,7 @@ const artists = [
       name: "beelzebub (helltaker)",
       category: "Helltaker",
       mainTags: "beelzebub (helltaker), red eyes, black hair, medium hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11831,9 +10951,7 @@ const artists = [
       name: "loremaster (helltaker)",
       category: "Helltaker",
       mainTags: "loremaster (helltaker), red eyes, purple hair, long hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11843,9 +10961,7 @@ const artists = [
       name: "baphomet (grizz)",
       category: "Helltaker",
       mainTags: "baphomet (grizz), red eyes, black hair, short hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11855,9 +10971,7 @@ const artists = [
       name: "subject 67 (helltaker)",
       category: "Helltaker",
       mainTags: "subject 67 (helltaker), brown eyes, brown hair, short hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11867,9 +10981,7 @@ const artists = [
       name: "archangel (helltaker)",
       category: "Helltaker",
       mainTags: "archangel (helltaker), blue eyes, blonde hair, long hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11879,9 +10991,7 @@ const artists = [
       name: "krampus (grizz)",
       category: "Helltaker",
       mainTags: "krampus (grizz), red eyes, white hair, short hair, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11891,9 +11001,7 @@ const artists = [
       name: "police (helltaker)",
       category: "Helltaker",
       mainTags: "police (helltaker), red eyes, black hair, short hair, dark skin, dark-skinned female, helltaker",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11903,9 +11011,7 @@ const artists = [
       name: "dark sun gwyndolin",
       category: "Dark Souls (Series)",
       mainTags: "dark sun gwyndolin, blue eyes, blonde hair, long hair, dark souls i, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11915,9 +11021,7 @@ const artists = [
       name: "lord's blade ciaran",
       category: "Dark Souls (Series)",
       mainTags: "lord's blade ciaran, brown eyes, blonde hair, short hair, dark souls i, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11927,9 +11031,7 @@ const artists = [
       name: "artorias the abysswalker",
       category: "Dark Souls (Series)",
       mainTags: "artorias the abysswalker, blue eyes, black hair, long hair, dark souls i, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11939,9 +11041,7 @@ const artists = [
       name: "priscilla the crossbreed",
       category: "Dark Souls (Series)",
       mainTags: "priscilla the crossbreed, green eyes, white hair, long hair, dark souls i, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11951,9 +11051,7 @@ const artists = [
       name: "solaire of astora",
       category: "Dark Souls (Series)",
       mainTags: "solaire of astora, brown eyes, blonde hair, short hair, helmet, dark souls i, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11963,9 +11061,7 @@ const artists = [
       name: "dragon slayer ornstein",
       category: "Dark Souls (Series)",
       mainTags: "dragon slayer ornstein, brown eyes, blonde hair, long hair, helmet, dark souls i, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11975,9 +11071,7 @@ const artists = [
       name: "queen of sunlight gwynevere",
       category: "Dark Souls (Series)",
       mainTags: "queen of sunlight gwynevere, blue eyes, blonde hair, long hair, dark souls i, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11987,9 +11081,7 @@ const artists = [
       name: "emerald herald",
       category: "Dark Souls (Series)",
       mainTags: "emerald herald, green eyes, brown hair, long hair, dark souls ii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11999,9 +11091,7 @@ const artists = [
       name: "fire keeper",
       category: "Dark Souls (Series)",
       mainTags: "fire keeper, grey eyes, brown hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12011,9 +11101,7 @@ const artists = [
       name: "ashen one (dark souls)",
       category: "Dark Souls (Series)",
       mainTags: "ashen one (dark souls), brown eyes, brown hair, short hair, boobplate, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12023,9 +11111,7 @@ const artists = [
       name: "nameless king",
       category: "Dark Souls (Series)",
       mainTags: "nameless king, blue eyes, white hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12035,9 +11121,7 @@ const artists = [
       name: "bearer of the curse",
       category: "Dark Souls (Series)",
       mainTags: "bearer of the curse, green eyes, brown hair, short hair, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12047,9 +11131,7 @@ const artists = [
       name: "abyss watcher",
       category: "Dark Souls (Series)",
       mainTags: "abyss watcher, brown eyes, black hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12059,9 +11141,7 @@ const artists = [
       name: "aldrich devourer of gods",
       category: "Dark Souls (Series)",
       mainTags: "aldrich devourer of gods, blue eyes, black hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12071,9 +11151,7 @@ const artists = [
       name: "lothric (younger prince)",
       category: "Dark Souls (Series)",
       mainTags: "lothric (younger prince), blue eyes, blonde hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12083,9 +11161,7 @@ const artists = [
       name: "lorian (elder prince)",
       category: "Dark Souls (Series)",
       mainTags: "lorian (elder prince), blue eyes, blonde hair, short hair, gold armor, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12095,9 +11171,7 @@ const artists = [
       name: "company captain yorshka",
       category: "Dark Souls (Series)",
       mainTags: "company captain yorshka, blue eyes, white hair, long hair, dragon girl, dragon tail, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12107,9 +11181,7 @@ const artists = [
       name: "sister friede",
       category: "Dark Souls (Series)",
       mainTags: "sister friede, blue eyes, blonde hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12281,9 +11353,7 @@ const artists = [
       name: "shu (arknights)",
       category: "Arknights",
       mainTags: "shu (arknights), green eyes, black hair, long hair, arknights",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12650,9 +11720,7 @@ const artists = [
       name: "mizuki (arknights)",
       category: "Arknights",
       mainTags: "mizuki (arknights), blue eyes, white hair, long hair, arknights",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12705,9 +11773,7 @@ const artists = [
       name: "theresa (arknights)",
       category: "Arknights",
       mainTags: "theresa (arknights), purple eyes, white hair, long hair, arknights",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12871,9 +11937,7 @@ const artists = [
       name: "ryu hayabusa",
       category: "Ninja Gaiden",
       mainTags: "ryu hayabusa, green eyes, brown hair, short hair, claw weapon, ninja gaiden",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12893,9 +11957,7 @@ const artists = [
       name: "frieren",
       category: "Frieren: Beyond Journey's End",
       mainTags: "frieren, green eyes, white hair, long hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12905,9 +11967,7 @@ const artists = [
       name: "fern (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "fern (sousou no frieren), purple eyes, purple hair, long hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12917,9 +11977,7 @@ const artists = [
       name: "stark (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "stark (sousou no frieren), red eyes, red hair, short hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12929,9 +11987,7 @@ const artists = [
       name: "ubel (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "ubel (sousou no frieren), green eyes, black hair, short hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12941,9 +11997,7 @@ const artists = [
       name: "himmel (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "himmel (sousou no frieren), blue eyes, blue hair, short hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12953,9 +12007,7 @@ const artists = [
       name: "aura (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "aura (sousou no frieren), purple eyes, pink hair, long hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12965,9 +12017,7 @@ const artists = [
       name: "serie (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "serie (sousou no frieren), yellow eyes, blonde hair, long hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12977,9 +12027,7 @@ const artists = [
       name: "land (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "land (sousou no frieren), green eyes, blonde hair, short hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12989,9 +12037,7 @@ const artists = [
       name: "eisen (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "eisen (sousou no frieren), brown eyes, grey hair, short hair, dwarf, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13001,9 +12047,7 @@ const artists = [
       name: "heiter",
       category: "Frieren: Beyond Journey's End",
       mainTags: "heiter, green eyes, blonde hair, short hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13013,9 +12057,7 @@ const artists = [
       name: "lawine (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "lawine (sousou no frieren), blue eyes, brown hair, short hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13025,9 +12067,7 @@ const artists = [
       name: "kanne (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "kanne (sousou no frieren), blue eyes, blonde hair, short hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13037,9 +12077,7 @@ const artists = [
       name: "laufen (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "laufen (sousou no frieren), brown eyes, black hair, short hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13049,9 +12087,7 @@ const artists = [
       name: "sense (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "sense (sousou no frieren), brown eyes, blonde hair, long hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13061,9 +12097,7 @@ const artists = [
       name: "sein (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "sein (sousou no frieren), brown eyes, brown hair, short hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13073,9 +12107,7 @@ const artists = [
       name: "linie (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "linie (sousou no frieren), blue eyes, blonde hair, long hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13085,9 +12117,7 @@ const artists = [
       name: "methode (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "methode (sousou no frieren), brown eyes, blonde hair, long hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13097,9 +12127,7 @@ const artists = [
       name: "flamme (sousou no frieren)",
       category: "Frieren: Beyond Journey's End",
       mainTags: "flamme (sousou no frieren), green eyes, red hair, long hair, sousou no frieren",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13119,9 +12147,7 @@ const artists = [
       name: "revy (black lagoon)",
       category: "Black Lagoon",
       mainTags: "revy (black lagoon), blue eyes, brown hair, long hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13131,9 +12157,7 @@ const artists = [
       name: "balalaika (black lagoon)",
       category: "Black Lagoon",
       mainTags: "balalaika (black lagoon), blue eyes, blonde hair, long hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13143,9 +12167,7 @@ const artists = [
       name: "roberta (black lagoon)",
       category: "Black Lagoon",
       mainTags: "roberta (black lagoon), brown eyes, black hair, long hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13155,9 +12177,7 @@ const artists = [
       name: "okajima rokuro",
       category: "Black Lagoon",
       mainTags: "okajima rokuro, brown eyes, black hair, short hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13167,9 +12187,7 @@ const artists = [
       name: "frederica sawyer",
       category: "Black Lagoon",
       mainTags: "frederica sawyer, blue eyes, black hair, short hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13179,9 +12197,7 @@ const artists = [
       name: "eda (black lagoon)",
       category: "Black Lagoon",
       mainTags: "eda (black lagoon), blue eyes, blonde hair, long hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13191,9 +12207,7 @@ const artists = [
       name: "gretel (black lagoon)",
       category: "Black Lagoon",
       mainTags: "gretel (black lagoon), blue eyes, white hair, short hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13203,9 +12217,7 @@ const artists = [
       name: "shenhua",
       category: "Black Lagoon",
       mainTags: "shenhua, brown eyes, black hair, long hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13215,9 +12227,7 @@ const artists = [
       name: "fabiola iglesias",
       category: "Black Lagoon",
       mainTags: "fabiola iglesias, green eyes, green hair, long hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13227,9 +12237,7 @@ const artists = [
       name: "hansel (black lagoon)",
       category: "Black Lagoon",
       mainTags: "hansel (black lagoon), blue eyes, white hair, short hair, black lagoon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13239,9 +12247,7 @@ const artists = [
       name: "ranma-chan",
       category: "Ranma 1/2",
       mainTags: "ranma-chan, blue eyes, red hair, long hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13251,9 +12257,7 @@ const artists = [
       name: "shampoo (ranma 1/2)",
       category: "Ranma 1/2",
       mainTags: "shampoo (ranma 1/2), purple eyes, purple hair, long hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13263,9 +12267,7 @@ const artists = [
       name: "tendou akane",
       category: "Ranma 1/2",
       mainTags: "tendou akane, brown eyes, black hair, short hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13275,9 +12277,7 @@ const artists = [
       name: "saotome ranma",
       category: "Ranma 1/2",
       mainTags: "saotome ranma, blue eyes, black hair, short hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13287,9 +12287,7 @@ const artists = [
       name: "hibiki ryouga",
       category: "Ranma 1/2",
       mainTags: "hibiki ryouga, brown eyes, black hair, short hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13299,9 +12297,7 @@ const artists = [
       name: "tendou nabiki",
       category: "Ranma 1/2",
       mainTags: "tendou nabiki, brown eyes, brown hair, short hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13311,9 +12307,7 @@ const artists = [
       name: "kuonji ukyou",
       category: "Ranma 1/2",
       mainTags: "kuonji ukyou, brown eyes, brown hair, long hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13323,9 +12317,7 @@ const artists = [
       name: "mousse (ranma 1/2)",
       category: "Ranma 1/2",
       mainTags: "mousse (ranma 1/2), brown eyes, black hair, long hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13335,9 +12327,7 @@ const artists = [
       name: "kunou kodachi",
       category: "Ranma 1/2",
       mainTags: "kunou kodachi, purple eyes, black hair, long hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13347,9 +12337,7 @@ const artists = [
       name: "tendou kasumi",
       category: "Ranma 1/2",
       mainTags: "tendou kasumi, brown eyes, brown hair, long hair, ranma 1/2",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13479,9 +12467,7 @@ const artists = [
       name: "pieck finger",
       category: "Attack on Titan",
       mainTags: "pieck finger, brown eyes, black hair, long hair, shingeki no kyojin",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13491,9 +12477,7 @@ const artists = [
       name: "merida (brave)",
       category: "Disney",
       mainTags: "merida (brave), blue eyes, red hair, very long hair, brave (pixar), disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13503,9 +12487,7 @@ const artists = [
       name: "moana waialiki",
       category: "Disney",
       mainTags: "moana waialiki, brown eyes, brown hair, very long hair, moana (movie), disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13515,9 +12497,7 @@ const artists = [
       name: "vanellope von schweetz",
       category: "Disney",
       mainTags: "vanellope von schweetz, brown eyes, black hair, long hair, ponytail, large breasts, wreck-it-ralph, disney",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13537,9 +12517,7 @@ const artists = [
       name: "dark magician girl",
       category: "Yu-Gi-Oh",
       mainTags: "dark magician girl, green eyes, blonde hair, long hair, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13549,9 +12527,7 @@ const artists = [
       name: "dark magician",
       category: "Yu-Gi-Oh",
       mainTags: "dark magician, green eyes, purple hair, short hair, purple armor, pelvic curtain, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13561,9 +12537,7 @@ const artists = [
       name: "gagaga girl",
       category: "Yu-Gi-Oh",
       mainTags: "gagaga girl, brown eyes, black hair, long hair, twintails, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13573,9 +12547,7 @@ const artists = [
       name: "silent magician",
       category: "Yu-Gi-Oh",
       mainTags: "silent magician, blue eyes, blonde hair, long hair, hat, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13585,9 +12557,7 @@ const artists = [
       name: "dogmatika ecclesia the virtuous",
       category: "Yu-Gi-Oh",
       mainTags: "dogmatika ecclesia the virtuous, blue eyes, blonde hair, long hair, horns, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13597,9 +12567,7 @@ const artists = [
       name: "blazing cartesia the virtuous",
       category: "Yu-Gi-Oh",
       mainTags: "blazing cartesia the virtuous, red eyes, red hair, long hair, horns, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13609,9 +12577,7 @@ const artists = [
       name: "lovely labrynth of the silver castle",
       category: "Yu-Gi-Oh",
       mainTags: "lovely labrynth of the silver castle, red eyes, white hair, long hair, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13631,9 +12597,7 @@ const artists = [
       name: "laundry dragonmaid",
       category: "Yu-Gi-Oh",
       mainTags: "laundry dragonmaid, blue eyes, blue hair, long hair, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13663,9 +12627,7 @@ const artists = [
       name: "chamber dragonmaid",
       category: "Yu-Gi-Oh",
       mainTags: "chamber dragonmaid, yellow eyes, black hair, long hair, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13685,9 +12647,7 @@ const artists = [
       name: "nurse dragonmaid",
       category: "Yu-Gi-Oh",
       mainTags: "nurse dragonmaid, green eyes, green hair, long hair, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13697,9 +12657,7 @@ const artists = [
       name: "yubel",
       category: "Yu-Gi-Oh",
       mainTags: "yubel, blue eyes, black hair, short hair, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13709,9 +12667,7 @@ const artists = [
       name: "diabellstar the black witch",
       category: "Yu-Gi-Oh",
       mainTags: "diabellstar the black witch, yellow eyes, black hair, long hair, half mask, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13731,9 +12687,7 @@ const artists = [
       name: "tearlaments kitkallos",
       category: "Yu-Gi-Oh",
       mainTags: "tearlaments kitkallos, blue eyes, blue hair, long hair, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13755,9 +12709,7 @@ const artists = [
       name: "hiita (yu-gi-oh!)",
       category: "Yu-Gi-Oh",
       mainTags: "hiita (yu-gi-oh!), brown eyes, red hair, long hair, hiita the fire charmer, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13767,9 +12719,7 @@ const artists = [
       name: "i:p masquerena",
       category: "Yu-Gi-Oh",
       mainTags: "i:p masquerena, purple eyes, black hair, short hair, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13779,9 +12729,7 @@ const artists = [
       name: "diabellze the original sinkeeper",
       category: "Yu-Gi-Oh",
       mainTags: "diabellze the original sinkeeper, red eyes, blonde hair, long hair, hat, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13803,9 +12751,7 @@ const artists = [
       name: "harpie lady",
       category: "Yu-Gi-Oh",
       mainTags: "harpie lady, blue eyes, orange hair, long hair, duel monster, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13827,9 +12773,7 @@ const artists = [
       name: "yuki judai",
       category: "Yu-Gi-Oh",
       mainTags: "yuki judai, brown eyes, brown hair, short hair, yu-gi-oh! gx, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13839,9 +12783,7 @@ const artists = [
       name: "tenjouin asuka",
       category: "Yu-Gi-Oh",
       mainTags: "tenjouin asuka, blue eyes, blonde hair, long hair, yu-gi-oh! gx, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13883,9 +12825,7 @@ const artists = [
       name: "fudo yusei",
       category: "Yu-Gi-Oh",
       mainTags: "fudo yusei, blue eyes, black hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13895,9 +12835,7 @@ const artists = [
       name: "izayoi aki",
       category: "Yu-Gi-Oh",
       mainTags: "izayoi aki, red eyes, red hair, long hair, yu-gi-oh! 5d's, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13907,9 +12845,7 @@ const artists = [
       name: "jack atlas",
       category: "Yu-Gi-Oh",
       mainTags: "jack atlas, purple eyes, blonde hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14010,9 +12946,7 @@ const artists = [
       name: "ishizu ishtar",
       category: "Yu-Gi-Oh",
       mainTags: "ishizu ishtar, blue eyes, black hair, long hair, millennium necklace, veil, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14056,9 +12990,7 @@ const artists = [
       name: "hiiragi yuzu",
       category: "Yu-Gi-Oh",
       mainTags: "hiiragi yuzu, pink eyes, pink hair, long hair, twintails, yu-gi-oh! arc-v, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14134,9 +13066,7 @@ const artists = [
       name: "kamishiro rio",
       category: "Yu-Gi-Oh",
       mainTags: "kamishiro rio, purple eyes, purple hair, long hair, yu-gi-oh! zexal, yu-gi-oh!",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14381,9 +13311,7 @@ const artists = [
       name: "pandora (re:zero)",
       category: "Re: Zero",
       mainTags: "pandora (re:zero), blue eyes, blonde hair, long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14457,9 +13385,7 @@ const artists = [
       name: "daphne blake",
       category: "Scooby-Doo (Series)",
       mainTags: "daphne blake, purple eyes, orange hair, long hair, scooby-doo",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14469,9 +13395,7 @@ const artists = [
       name: "shaggy rogers",
       category: "Scooby-Doo (Series)",
       mainTags: "shaggy rogers, brown eyes, brown hair, short hair, green shirt, brown pants, scooby-doo",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14481,9 +13405,7 @@ const artists = [
       name: "fred jones",
       category: "Scooby-Doo (Series)",
       mainTags: "fred jones, blue eyes, blonde hair, short hair, scooby-doo",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14493,9 +13415,7 @@ const artists = [
       name: "thorn (scooby-doo)",
       category: "Scooby-Doo (Series)",
       mainTags: "thorn (scooby-doo), green eyes, black hair, long hair, scooby-doo and the witch's ghost, scooby-doo",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14565,9 +13485,7 @@ const artists = [
       name: "slan (berserk)",
       category: "Berserk",
       mainTags: "slan (berserk), purple eyes, black hair, long hair, aqua hair, tentacle hair, demon girl, demon wings, berserk",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14637,9 +13555,7 @@ const artists = [
       name: "deneve",
       category: "Claymore",
       mainTags: "deneve, silver eyes, blonde hair, short hair, claymore (series)",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14801,9 +13717,7 @@ const artists = [
       name: "akuma homura",
       category: "Puella Magi Madoka Magica",
       mainTags: "akuma homura, purple eyes, black hair, long hair",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -14967,9 +13881,7 @@ const artists = [
       name: "black lady (sailor moon)",
       category: "Sailor Moon",
       mainTags: "black lady (sailor moon), red eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -15258,9 +14170,7 @@ const artists = [
       name: "kinomoto touya",
       category: "Cardcaptor Sakura",
       mainTags: "kinomoto touya, brown eyes, brown hair, short hair, cardcaptor sakura",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -16263,9 +15173,7 @@ const artists = [
       name: "murmur (mirai nikki)",
       category: "The Future Diary",
       mainTags: "murmur (mirai nikki), yellow eyes, purple hair, long hair, dark skin, dark-skinned female, mirai nikki",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -17098,9 +16006,7 @@ const artists = [
       name: "halkara (slime taoshite 300 nen)",
       category: "Killing Slimes for 300 Years",
       mainTags: "halkara (slime taoshite 300 nen), blue eyes, blonde hair, long hair, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
-      enhancers: [
-      "[]"
-      ],
+      enhancers: ["[]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
