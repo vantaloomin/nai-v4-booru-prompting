@@ -7515,6 +7515,36 @@ const artists = [
       mediaType: "Shows or Movies"
   },
   {
+    name: "natsu dragneel",
+    category: "Fairy Tail",
+    mainTags: "natsu dragneel, pink hair, spiked hair, yellow eyes, fairy tail",
+    enhancers: ["[black vest","scarf","white pants]"],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
+{
+    name: "gray fullbuster",
+    category: "Fairy Tail",
+    mainTags: "gray fullbuster, black hair, black eyes, short hair, fairy tail",
+    enhancers: ["[topless male","black pants","belt","belt chain]"],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
+{
+    name: "brandish mu",
+    category: "Fairy Tail",
+    mainTags: "brandish mu, green hair, short hair, green eyes, fairy tail",
+    enhancers: ["[blunt bangs","purple fur trim","long coat","black and gold bikini","halterneck","collar","hair ornament]"],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
+  {
       name: "xenovia quarta",
       category: "Highschool DxD",
       mainTags: "xenovia quarta, blue eyes, blue hair, short hair, high school dxd",
