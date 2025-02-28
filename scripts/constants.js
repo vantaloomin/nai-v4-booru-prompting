@@ -6380,7 +6380,10 @@ const artists = [
       name: "tokisaki kurumi",
       category: "Date a Live",
       mainTags: "tokisaki kurumi, red eyes, black hair, long hair, twintails, date a live",
-      enhancers: ["[]"],
+      enhancers: [
+        "[raizen high school uniform","black jacket","white shirt","blue skirt","red bow]",
+        "[frilled red dress","red ribbon","headdress","elbow gloves]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6389,8 +6392,12 @@ const artists = [
   {
       name: "hoshimiya mukuro",
       category: "Date a Live",
-      mainTags: "hoshimiya mukuro, purple eyes, blonde hair, very long hair, date a live",
-      enhancers: ["[]"],
+      mainTags: "hoshimiya mukuro, yellow eyes, blonde hair, very long hair, date a live",
+      enhancers: [
+        "[frilled blue dress","hair bows","puffy sleeves","ribbon]",
+        "[pink dress","greaves","black gloves]",
+        "[red dress","pelvic curtain","elbow gloves","arm guards","thigh boots","thigh straps]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6399,8 +6406,11 @@ const artists = [
   {
       name: "himekawa yoshino",
       category: "Date a Live",
-      mainTags: "himekawa yoshino, blue eyes, blue hair, short hair, date a live",
-      enhancers: ["[]"],
+      mainTags: "himekawa yoshino, blue eyes, blue hair, long hair, date a live",
+      enhancers: [
+        "[white sun dress","short dress","pink trim","puffy short sleeves","sun hat]",
+        "[white dress","green coat","animal hood","rabbit ears]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6410,7 +6420,10 @@ const artists = [
       name: "kyouno natsumi",
       category: "Date a Live",
       mainTags: "kyouno natsumi, green eyes, green hair, long hair, date a live",
-      enhancers: ["[]"],
+      enhancers: [
+        "[orange crop top","off shoulder","suspenders","black bloomers","ba wings","striped thighhighs","uneven legwear","witch hat]",
+        "[kyouno natsumi (adult)","bodystocking","bodysuit","black skirt","halter top","see-through clothes","witch hat","black capelet","high collar]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6419,8 +6432,11 @@ const artists = [
   {
       name: "izayoi miku",
       category: "Date a Live",
-      mainTags: "izayoi miku, purple eyes, blonde hair, long hair, date a live",
-      enhancers: ["[]"],
+      mainTags: "izayoi miku, purple eyes, purple hair, long hair, date a live",
+      enhancers: [
+        "[frilled purple dress","pink shirt","yellow frills]",
+        "[yellow skirt","white elbow gloves","layered skirt","see-through clothes","white pantyhose]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6429,8 +6445,8 @@ const artists = [
   {
       name: "sonogami rinne",
       category: "Date a Live",
-      mainTags: "sonogami rinne, purple eyes, pink hair, long hair, date a live",
-      enhancers: ["[]"],
+      mainTags: "sonogami rinne, brown eyes, pink hair, short hair, date a live",
+      enhancers: ["[blue pleated skirt","white shirt","sweater vest","neck ribbon]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6440,7 +6456,10 @@ const artists = [
       name: "tobiichi origami",
       category: "Date a Live",
       mainTags: "tobiichi origami, blue eyes, white hair, short hair, date a live",
-      enhancers: ["[]"],
+      enhancers: [
+        "[raizen high school uniform","blue pleated skirt","black jacket]",
+        "[white dress","white bow","white elbow gloves","gold crown","gold trim","over-kneehighs]"
+      ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7173,7 +7192,7 @@ const artists = [
       name: "uzumaki kushina",
       category: "Naruto",
       mainTags: "uzumaki kushina, blue eyes, red hair, long hair, naruto (series)",
-      enhancers: ["[]"],
+      enhancers: ["[green pinafore dress","white shirt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7183,7 +7202,10 @@ const artists = [
       name: "uchiha sarada",
       category: "Naruto",
       mainTags: "uchiha sarada, black eyes, black hair, short hair, naruto (series)",
-      enhancers: ["[]"],
+      enhancers: [
+        "[glasses","purple headband","red shirt","grey shorts","thigh pouch","detached sleeves]",
+        "[glasses","black choker","black coat","two-sided coat","single thighhigh","fishnet thighhigh","thigh boots","red belt","strapless black leotard","leotard under clothes","black skirt]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7192,8 +7214,8 @@ const artists = [
   {
       name: "makima (chainsaw man)",
       category: "Chainsaw Man",
-      mainTags: "makima (chainsaw man), yellow eyes, red hair, long hair, chainsaw man",
-      enhancers: ["[]"],
+      mainTags: "makima (chainsaw man), yellow eyes, red hair, long hair, single braid, chainsaw man",
+      enhancers: ["[black pants","white shirt","black tie]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7203,7 +7225,7 @@ const artists = [
       name: "reze (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "reze (chainsaw man), green eyes, purple hair, short hair, chainsaw man",
-      enhancers: ["[]"],
+      enhancers: ["[white shirt","blue ribbon","blue choker","black skirt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7213,7 +7235,7 @@ const artists = [
       name: "yoru (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "yoru (chainsaw man), red eyes, black hair, long hair, chainsaw man",
-      enhancers: ["[]"],
+      enhancers: ["[fourth east high school uniform","sleeveless black dress","black ribbon","white shirt","kneehighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7222,8 +7244,11 @@ const artists = [
   {
       name: "himeno (chainsaw man)",
       category: "Chainsaw Man",
-      mainTags: "himeno (chainsaw man), brown eyes, black hair, short hair, chainsaw man",
-      enhancers: ["[]"],
+      mainTags: "himeno (chainsaw man), brown eyes, black hair, short hair, eyepatch, chainsaw man",
+      enhancers: [
+        "[black suit","suit jacket","white shirt","black necktie","black pants]",
+        "[white panties","blue tanktop]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7232,8 +7257,10 @@ const artists = [
   {
       name: "power (chainsaw man)",
       category: "Chainsaw Man",
-      mainTags: "power (chainsaw man), yellow eyes, blonde hair, long hair, chainsaw man",
-      enhancers: ["[]"],
+      mainTags: "power (chainsaw man), yellow eyes, blonde hair, long hair, red horns, chainsaw man",
+      enhancers: ["[black capri pants","white shirt","black necktie","blue coat]",
+      "[red longsleeve shirt","blue shorts]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7243,7 +7270,7 @@ const artists = [
       name: "higashiyama kobeni",
       category: "Chainsaw Man",
       mainTags: "higashiyama kobeni, brown eyes, brown hair, short hair, ponytail, chainsaw man",
-      enhancers: ["[]"],
+      enhancers: ["[black suit","suit jacket","white shirt","black necktie","black pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
