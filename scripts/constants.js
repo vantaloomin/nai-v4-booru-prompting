@@ -337,7 +337,7 @@ const artists = [
       mainTags:
         "marcy (chrono cross), blue eyes, blue hair, short hair, double bun, chrono cross",
       enhancers: [
-      "[pink dress", "breastplate", "fingerless gauntlets","back bow]"
+      "[pink dress", "breastplate", "fingerless gauntlets", "back bow]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -1540,7 +1540,7 @@ const artists = [
       category: "Super Mario",
       mainTags: "luigi, blue eyes, brown hair, short hair, mario (series)",
       enhancers: [
-      "[overalls", "green hat","green shirt]"
+      "[overalls", "green hat", "green shirt]"
       ],
       defaultGender: "boy",
       genderswapAvailable: true,
@@ -2299,7 +2299,7 @@ const artists = [
       category: "Soulcalibur",
       mainTags: "pyrrha alexandra, green eyes, blonde hair, medium hair, soulcalibur",
       enhancers: [
-      "[white dress","white capelet","brown corset","hair ornament","brown thighhighs","folded top thighhighs]"
+      "[white dress", "white capelet", "brown corset", "hair ornament", "brown thighhighs", "folded top thighhighs]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -2311,7 +2311,7 @@ const artists = [
       category: "Soulcalibur",
       mainTags: "seong mi-na, brown eyes, brown hair, long hair, soulcalibur",
       enhancers: [
-      "[fingerless gloves","crop top","breast curtain","pelvic curtain","wide short sleeves","vambraces]"
+      "[fingerless gloves", "crop top", "breast curtain", "pelvic curtain", "wide short sleeves", "vambraces]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -2323,7 +2323,7 @@ const artists = [
       category: "Soulcalibur",
       mainTags: "tira (soulcalibur), green eyes, two-tone hair, short hair, soulcalibur",
       enhancers: [
-      "[purple gloves","fingerless elbow gloves","short hair","green shirt","black pants","black jacket","torn clothes","green feathers","feather trim","choker]"
+      "[purple gloves", "fingerless elbow gloves", "short hair", "green shirt", "black pants", "black jacket", "torn clothes", "green feathers", "feather trim", "choker]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -2335,7 +2335,7 @@ const artists = [
       category: "Soulcalibur",
       mainTags: "viola (soulcalibur), purple eyes, white hair, medium hair, twin drills, soulcalibur",
       enhancers: [
-      "[black dress","cross-laced cutout","detached sleeves","brown thighhighs","garter straps","black hooded cape","hood up","claw (weapon)]"
+      "[black dress", "cross-laced cutout", "detached sleeves", "brown thighhighs", "garter straps", "black hooded cape", "hood up", "claw (weapon)]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -2880,7 +2880,7 @@ const artists = [
       category: "Nier",
       mainTags: "2b (nier:automata), blue eyes, white hair, short hair, nier (series)",
       enhancers: [
-          "[--blue eyes", "black blindfold","black dress", "black hairband", "feather-trimmed sleeves", "black thighhighs", "cleavage cutout", "puffy sleeves]",
+          "[--blue eyes", "black blindfold", "black dress", "black hairband", "feather-trimmed sleeves", "black thighhighs", "cleavage cutout", "puffy sleeves]",
           "[black dress", "black hairband", "feather-trimmed sleeves", "black thighhighs", "cleavage cutout", "puffy sleeves]"
       ],
       defaultGender: "girl",
@@ -2893,7 +2893,7 @@ const artists = [
       category: "Nier",
       mainTags: "a2 (nier:automata), blue eyes, white hair, very long hair, nier (series)",
       enhancers: [
-      "[black shorts","black elbow gloves","black shirt","robot joints]"
+      "[black shorts", "black elbow gloves", "black shirt", "robot joints]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -2905,7 +2905,7 @@ const artists = [
       category: "Nier",
       mainTags: "2p (nier:automata), blue eyes, black hair, short hair, dark skin, dark-skinned female, nier (series), soulcalibur",
       enhancers: [
-      "[white dress","feather-trimmed dress","cleavage cutout","white thighhighs","leotard under dress","two-sided dress","white blindfold]"
+      "[white dress", "feather-trimmed dress", "cleavage cutout", "white thighhighs", "leotard under dress", "two-sided dress", "white blindfold]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -3289,7 +3289,7 @@ const artists = [
       category: "Pokemon (Game)",
       mainTags: "serena (pokemon), blue eyes, blonde hair, long hair, pokemon xy",
       enhancers: [
-      "[red hat", "black shirt", "red pleated skirt","black thighhighs]"
+      "[red hat", "black shirt", "red pleated skirt", "black thighhighs]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -3743,9 +3743,9 @@ const artists = [
       category: "Baldur's Gate 3",
       mainTags: "shadowheart (baldur's gate), green eyes, black hair, long hair, single braid, baldur's gate 3, baldur's gate",
       enhancers: [
-          "[leather armor","chainmail","brown pants","vambraces","pelvic curtain","knee boots","blue skirt]",
-          "[black shirt","plunging neckline","black pants]",
-          "[--black hair", "white hair", "armor","boobplate","full armor]"
+          "[leather armor", "chainmail", "brown pants", "vambraces", "pelvic curtain", "knee boots", "blue skirt]",
+          "[black shirt", "plunging neckline", "black pants]",
+          "[--black hair", "white hair", "armor", "boobplate", "full armor]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -3757,8 +3757,8 @@ const artists = [
       category: "Baldur's Gate 3",
       mainTags: "karlach, orange eyes, black hair, short hair, muscular female, colored skin, dark red skin, asymmetric horns, multicolored hair, baldur's gate 3, baldur's gate",
       enhancers: [
-          "[leather armor","clothing cutout]",
-          "[black pants","clothing cutout","black tube top","single bare shoulder","leather strap","o-ring]"
+          "[leather armor", "clothing cutout]",
+          "[black pants", "clothing cutout", "black tube top", "single bare shoulder", "leather strap", "o-ring]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -3770,8 +3770,8 @@ const artists = [
       category: "Baldur's Gate 3",
       mainTags: "astarion, red eyes, white hair, short hair, fangs, vampire, baldur's gate 3, baldur's gate",
       enhancers: [
-          "[leather armor","brown pants","multicolored shirt]",
-          "[white frilled shirt","brown pants","cross-laced top]"
+          "[leather armor", "brown pants", "multicolored shirt]",
+          "[white frilled shirt", "brown pants", "cross-laced top]"
       ],
       defaultGender: "boy",
       genderswapAvailable: true,
@@ -3793,8 +3793,8 @@ const artists = [
       category: "Baldur's Gate 3",
       mainTags: "lae'zel, yellow eyes, brown hair, short hair, colored skin, green skin, gith (d&d), baldur's gate 3, baldur's gate",
       enhancers: [
-          "[armor","full armor","paundrons","short sleeves","hip armor","thigh straps]",
-          "[black capri pants","belt","bikini top only","o-ring bikini]"
+          "[armor", "full armor", "paundrons", "short sleeves", "hip armor", "thigh straps]",
+          "[black capri pants", "belt", "bikini top only", "o-ring bikini]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -3806,8 +3806,8 @@ const artists = [
       category: "Baldur's Gate 3",
       mainTags: "minthara, red eyes, white hair, short hair, dark elf, colored skin, black skin, dark-skinned female, baldur's gate 3, baldur's gate",
       enhancers: [
-          "[armor","full armor","pauldrons","gauntlets","greaves]",
-          "[black pants","black vest","cross-laced top","shoulder pads]"
+          "[armor", "full armor", "pauldrons", "gauntlets", "greaves]",
+          "[black pants", "black vest", "cross-laced top", "shoulder pads]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5200,7 +5200,7 @@ const artists = [
       name: "morrigan (dragon age)",
       category: "Other",
       mainTags: "morrigan (dragon age), yellow eyes, black hair, long hair, dragon age",
-      enhancers: ["[black pants","red hood","hood down","feathers","single detached sleeve]"],
+      enhancers: ["[black pants", "red hood", "hood down", "feathers", "single detached sleeve]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5210,7 +5210,7 @@ const artists = [
       name: "quiet (metal gear)",
       category: "Other",
       mainTags: "quiet (metal gear), green eyes, brown hair, medium hair, ponytail, metal gear (series)",
-      enhancers: ["[black bikini","torn pantyhose","utility belt","suspenders","green glove","black elbow glove]"],
+      enhancers: ["[black bikini", "torn pantyhose", "utility belt", "suspenders", "green glove", "black elbow glove]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5220,7 +5220,7 @@ const artists = [
       name: "palutena",
       category: "Other",
       mainTags: "palutena, green eyes, green hair, very long hair, kid icarus",
-      enhancers: ["[white dress","white thighhighs","circlet","headdress","necklace","red trim","single shoulder pad]"],
+      enhancers: ["[white dress", "white thighhighs", "circlet", "headdress", "necklace", "red trim", "single shoulder pad]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5230,7 +5230,7 @@ const artists = [
       name: "bloodrayne",
       category: "Other",
       mainTags: "bloodrayne, green eyes, red hair, short hair, bloodrayne (videogame)",
-      enhancers: ["[black leather pants","two-tone pants","black leather vest","cropped vest","cross-laced top","elbow gloves","fingerless gloves]"],
+      enhancers: ["[black leather pants", "two-tone pants", "black leather vest", "cropped vest", "cross-laced top", "elbow gloves", "fingerless gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5252,7 +5252,7 @@ const artists = [
       mainTags: "lara croft, brown eyes, brown hair, long hair, ponytail, tomb raider",
       enhancers: [
         "[brown short shorts", "tank top", "thigh holster]",
-        "[sleeveless grey shirt","brown pants","fingerless gloves]"
+        "[sleeveless grey shirt", "brown pants", "fingerless gloves]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5273,7 +5273,7 @@ const artists = [
       name: "jeanne (bayonetta)",
       category: "Other",
       mainTags: "jeanne (bayonetta), grey eyes, white hair, very long hair, bayonetta (series)",
-      enhancers: ["[red bodysuit","black trim","red thigh boots","red gloves]"],
+      enhancers: ["[red bodysuit", "black trim", "red thigh boots", "red gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5284,9 +5284,9 @@ const artists = [
       category: "Other",
       mainTags: "elizabeth (bioshock infinite), blue eyes, brown hair, long hair, bioshock (series)",
       enhancers: [
-        "[cropped blue jacket","blue skirt","white corset","necklace]",
-        "[ponytail","high-waist skirt","blue skirt","sleeve cuffs","white shirt","black ascot","knee boots]",
-        "[black skirt","pencil skirt","long skirt","white shirt","red bolo tie","brooch","sleeve cuffs","fishnet pantyhose]"
+        "[cropped blue jacket", "blue skirt", "white corset", "necklace]",
+        "[ponytail", "high-waist skirt", "blue skirt", "sleeve cuffs", "white shirt", "black ascot", "knee boots]",
+        "[black skirt", "pencil skirt", "long skirt", "white shirt", "red bolo tie", "brooch", "sleeve cuffs", "fishnet pantyhose]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5307,7 +5307,7 @@ const artists = [
       name: "arcane vi",
       category: "Arcane: League of Legends",
       mainTags: "arcane vi, blue eyes, pink hair, short hair, arcane: league of legends",
-      enhancers: ["[red cropped jacket","black pants","multiple belts","white shirt","single fingerless gloves","bandages]"],
+      enhancers: ["[red cropped jacket", "black pants", "multiple belts", "white shirt", "single fingerless gloves", "bandages]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5317,7 +5317,7 @@ const artists = [
       name: "arcane jinx",
       category: "Arcane: League of Legends",
       mainTags: "arcane jinx, blue eyes, blue hair, very long hair, braid, arcane: league of legends",
-      enhancers: ["[purple capri pants","black halter top","fingerless elbow gloves","belt]"],
+      enhancers: ["[purple capri pants", "black halter top", "fingerless elbow gloves", "belt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5327,7 +5327,7 @@ const artists = [
       name: "arcane caitlyn",
       category: "Arcane: League of Legends",
       mainTags: "arcane caitlyn, blue eyes, blue hair, long hair, arcane: league of legends",
-      enhancers: ["[blue jacket","shoulder pads","short sleeves","fingerless gloves","two-tone dress","thigh boots","zettai ryouiki]"],
+      enhancers: ["[blue jacket", "shoulder pads", "short sleeves", "fingerless gloves", "two-tone dress", "thigh boots", "zettai ryouiki]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5337,7 +5337,7 @@ const artists = [
       name: "firelight ekko",
       category: "Arcane: League of Legends",
       mainTags: "firelight ekko, very dark skin, dark-skinned male, brown eyes, black hair, short hair, arcane: league of legends",
-      enhancers: ["[long green coat","graffiti on coat","orange neckerchief","brown pants","single knee pad]"],
+      enhancers: ["[long green coat", "graffiti on coat", "orange neckerchief", "brown pants", "single knee pad]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5347,7 +5347,7 @@ const artists = [
       name: "kiwi (cyberpunk)",
       category: "Cyberpunk: Edgerunners",
       mainTags: "kiwi (cyberpunk), blue eyes, blonde hair, short hair, cyberpunk edgerunners",
-      enhancers: ["[mouth mask","long red coat","red pants]"],
+      enhancers: ["[mouth mask", "long red coat", "red pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5357,7 +5357,7 @@ const artists = [
       name: "rebecca (cyberpunk)",
       category: "Cyberpunk: Edgerunners",
       mainTags: "rebecca (cyberpunk), colored skin, blue skin, artifical eyes, green eyes, teal hair, medium hair, twintails, cyberpunk edgerunners",
-      enhancers: ["[black jacket","tattoo","black panties","black bra]"],
+      enhancers: ["[black jacket", "tattoo", "black panties", "black bra]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5367,7 +5367,7 @@ const artists = [
       name: "lucy (cyberpunk)",
       category: "Cyberpunk: Edgerunners",
       mainTags: "lucy (cyberpunk), purple eyes, white hair, short hair, multicolored hair, cyberpunk edgerunners",
-      enhancers: ["[black leotard","white jacket","white shorts","thighhighs","belt pouch]"],
+      enhancers: ["[black leotard", "white jacket", "white shorts", "thighhighs", "belt pouch]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5378,14 +5378,14 @@ const artists = [
       category: "Konosuba",
       mainTags: "darkness (konosuba), blue eyes, blonde hair, long hair, ponytail, kono subarashii sekai ni shukufuku wo!",
       enhancers: [
-        "[armor","black bodysuit","boobplate","shoulder armor","pelvic curtain","red ribbon","vambraces]",
-        "[wedding dress","bridal veil","tiara","elbow gloves","frills]",
-        "[maid","long sleeves","detached collar","wrist cuffs","maid apron","maid headdress","black thighhighs]",
-        "[pink dress","frilled dress","pajamas","short puffy sleeves]",
+        "[armor", "black bodysuit", "boobplate", "shoulder armor", "pelvic curtain", "red ribbon", "vambraces]",
+        "[wedding dress", "bridal veil", "tiara", "elbow gloves", "frills]",
+        "[maid", "long sleeves", "detached collar", "wrist cuffs", "maid apron", "maid headdress", "black thighhighs]",
+        "[pink dress", "frilled dress", "pajamas", "short puffy sleeves]",
         "towel",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)"
       ],
       defaultGender: "girl",
@@ -5398,12 +5398,12 @@ const artists = [
       category: "Konosuba",
       mainTags: "aqua (konosuba), blue eyes, blue hair, long hair, kono subarashii sekai ni shukufuku wo!",
       enhancers: [
-        "[blue dress","thigh boots","detached sleeves","blue bow","blue skirt","white thighhighs]",
-        "[black highleg leotard","black elbow gloves","wrist cuffs","animal ear hairband","rabbit ears","rabbit tail","detached collar","nontraditional playboy bunny","fishnet pantyhose]",
+        "[blue dress", "thigh boots", "detached sleeves", "blue bow", "blue skirt", "white thighhighs]",
+        "[black highleg leotard", "black elbow gloves", "wrist cuffs", "animal ear hairband", "rabbit ears", "rabbit tail", "detached collar", "nontraditional playboy bunny", "fishnet pantyhose]",
         "towel",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "[darkness (konosuba) (cosplay)", "armor]"
     ],
       defaultGender: "girl",
@@ -5416,13 +5416,13 @@ const artists = [
       category: "Konosuba",
       mainTags: "megumin, red eyes, brown hair, long hair, kono subarashii sekai ni shukufuku wo!",
       enhancers: [
-        "[red dress","belt","witch hat","single black thighhigh","bandaged leg","fingerless gloves]",
-        "[red eyepatch","red dress","belt","witch hat","single black thighhigh","bandaged leg","fingerless gloves]",
-        "[red prison magic school uniform","witch hat","fingerless gloves","pink dress","black cloak","two-sided fabric","kono subarashii sekai ni bakuen wo!]",
+        "[red dress", "belt", "witch hat", "single black thighhigh", "bandaged leg", "fingerless gloves]",
+        "[red eyepatch", "red dress", "belt", "witch hat", "single black thighhigh", "bandaged leg", "fingerless gloves]",
+        "[red prison magic school uniform", "witch hat", "fingerless gloves", "pink dress", "black cloak", "two-sided fabric", "kono subarashii sekai ni bakuen wo!]",
         "towel",
         "[darkness (konosuba) (cosplay)", "armor]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)"
     ],
       defaultGender: "girl",
@@ -5435,12 +5435,12 @@ const artists = [
       category: "Konosuba",
       mainTags: "yunyun (konosuba), red eyes, brown hair, long hair, twintails, kono subarashii sekai ni shukufuku wo!",
       enhancers: [
-        "[black dress","pink skirt","red thighhighs","pink necktie","hair decoration","belt]",
-        "[red prison magic school uniform","pink dress","black cloak","two-sided fabric","black thighhighs","black pantyhose","kono subarashii sekai ni bakuen wo!]",
+        "[black dress", "pink skirt", "red thighhighs", "pink necktie", "hair decoration", "belt]",
+        "[red prison magic school uniform", "pink dress", "black cloak", "two-sided fabric", "black thighhighs", "black pantyhose", "kono subarashii sekai ni bakuen wo!]",
         "[darkness (konosuba) (cosplay)", "armor]",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)"
     ],
       defaultGender: "girl",
@@ -5453,11 +5453,11 @@ const artists = [
       category: "Konosuba",
       mainTags: "wiz (konosuba), purple eyes, brown hair, long hair, kono subarashii sekai ni shukufuku wo!",
       enhancers: [
-        "[purple dress","purple coak","bat brooch","wide sleeves]",
+        "[purple dress", "purple coak", "bat brooch", "wide sleeves]",
         "[darkness (konosuba) (cosplay)", "armor]",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)",
         "towel"
     ],
@@ -5471,7 +5471,7 @@ const artists = [
     category: "Konosuba",
     mainTags: "satou kazuma, green eyes, brown hair, short hair, kono subarashii sekai ni shukufuku wo!",
     enhancers: [
-      "[black pants","white shirt","high collar", "green cape]",
+      "[black pants", "white shirt", "high collar", "green cape]",
       "[darkness (konosuba) (cosplay)", "armor]",
       "[megumin (cosplay)", "witch hat]",
       "aqua (konosuba) (cosplay)",
@@ -5487,7 +5487,7 @@ const artists = [
     name: "vanir",
     category: "Konosuba",
     mainTags: "vanir, mask, two-tone mask, black hair, short hair, kono subarashii sekai ni shukufuku wo!",
-    enhancers: ["[black suit","yellow ascot]"],
+    enhancers: ["[black suit", "yellow ascot]"],
     defaultGender: "boy",
     genderswapAvailable: true,
     ageUpAvailable: true,
@@ -5498,11 +5498,11 @@ const artists = [
       category: "Konosuba",
       mainTags: "iris (konosuba), blue eyes, blonde hair, long hair, kono subarashii sekai ni shukufuku wo!",
       enhancers: [
-        "[white dress","purple dress","blue bow","necklace","food-themed hair ornament]",
+        "[white dress", "purple dress", "blue bow", "necklace", "food-themed hair ornament]",
         "[darkness (konosuba) (cosplay)", "armor]",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)",
         "towel"
     ],
@@ -5516,11 +5516,11 @@ const artists = [
       category: "Konosuba",
       mainTags: "komekko, red eyes, brown hair, short hair, twintails,kono subarashii sekai ni shukufuku wo!",
       enhancers: [
-        "[brown skirt","white shirt","suspenders","two-sided cape]",
+        "[brown skirt", "white shirt", "suspenders", "two-sided cape]",
         "[darkness (konosuba) (cosplay)", "armor]",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)",
     ],
       defaultGender: "girl",
@@ -5533,11 +5533,11 @@ const artists = [
       category: "Konosuba",
       mainTags: "chris (konosuba), blue eyes, silver hair, short hair, kono subarashii sekai ni shukufuku wo!",
       enhancers: [
-        "[blue shorts","blue scarf","green cropped jacket","black tube top","detached sleeves","gloves","white thighhighs]",
+        "[blue shorts", "blue scarf", "green cropped jacket", "black tube top", "detached sleeves", "gloves", "white thighhighs]",
         "[darkness (konosuba) (cosplay)", "armor]",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)",
     ],
       defaultGender: "girl",
@@ -5550,11 +5550,11 @@ const artists = [
     category: "Konosuba",
     mainTags: "eris (konosuba), purple eyes, purple hair, long hair,  kono subarashii sekai ni shukufuku wo!",
     enhancers: [
-      "[long white dress","purple habit","purple shirt","cross-laced top","white leggings]",
+      "[long white dress", "purple habit", "purple shirt", "cross-laced top", "white leggings]",
       "[darkness (konosuba) (cosplay)", "armor]",
       "[megumin (cosplay)", "witch hat]",
-      "[satou kazuma (cosplay)","green cape]",
-      "[satou kazuma (cosplay)","green track suit]",
+      "[satou kazuma (cosplay)", "green cape]",
+      "[satou kazuma (cosplay)", "green track suit]",
       "aqua (konosuba) (cosplay)",
   ],
     defaultGender: "girl",
@@ -5567,11 +5567,11 @@ const artists = [
     category: "Konosuba",
     mainTags: "luna (konosuba), brown eyes, blonde hair, hair bun,  kono subarashii sekai ni shukufuku wo!",
     enhancers: [
-        "[white shirt","detached sleeves","detached collar","red bow","denim shorts]",
+        "[white shirt", "detached sleeves", "detached collar", "red bow", "denim shorts]",
         "[darkness (konosuba) (cosplay)", "armor]",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)",
   ],
     defaultGender: "girl",
@@ -5584,11 +5584,11 @@ const artists = [
     category: "Konosuba",
     mainTags: "shinjin succubus (konosuba), grey hair, short hair, red eyes, demon girl, demon dail, head wings, kono subarashii sekai ni shukufuku wo!",
     enhancers: [
-        "[black gloves","black thighhighs","garter straps","red panties","o-ring top","black babydoll]",
+        "[black gloves", "black thighhighs", "garter straps", "red panties", "o-ring top", "black babydoll]",
         "[darkness (konosuba) (cosplay)", "armor]",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)",
   ],
     defaultGender: "girl",
@@ -5601,11 +5601,11 @@ const artists = [
     category: "Konosuba",
     mainTags: "arue (konosuba), red eyes, black hair, long hair, drill hair",
     enhancers: [
-        "[red prison magic school uniform","pink dress","black cloak","two-sided fabric","black thighhighs","zettai ryouiki","kono subarashii sekai ni bakuen wo!]",
+        "[red prison magic school uniform", "pink dress", "black cloak", "two-sided fabric", "black thighhighs", "zettai ryouiki", "kono subarashii sekai ni bakuen wo!]",
         "[darkness (konosuba) (cosplay)", "armor]",
         "[megumin (cosplay)", "witch hat]",
-        "[satou kazuma (cosplay)","green cape]",
-        "[satou kazuma (cosplay)","green track suit]",
+        "[satou kazuma (cosplay)", "green cape]",
+        "[satou kazuma (cosplay)", "green track suit]",
         "aqua (konosuba) (cosplay)",
   ],
     defaultGender: "girl",
@@ -5617,7 +5617,7 @@ const artists = [
       name: "revy (black lagoon)",
       category: "Black Lagoon",
       mainTags: "revy (black lagoon), blue eyes, black hair, medium hair, ponytail, black lagoon",
-      enhancers: ["[black tank top","denim shorts","belt","fingerless gloves]"],
+      enhancers: ["[black tank top", "denim shorts", "belt", "fingerless gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5637,7 +5637,7 @@ const artists = [
       name: "roberta (black lagoon)",
       category: "Black Lagoon",
       mainTags: "roberta (black lagoon), brown eyes, black hair, long hair, twin braids, black lagoon",
-      enhancers: ["[glasses","cross necklace","maid","maid apron","maid headdress","black dress","juliet sleeves","wrist cuffs","white gloves]"],
+      enhancers: ["[glasses", "cross necklace", "maid", "maid apron", "maid headdress", "black dress", "juliet sleeves", "wrist cuffs", "white gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5647,7 +5647,7 @@ const artists = [
     name: "frederica sawyer",
     category: "Black Lagoon",
     mainTags: "frederica sawyer, purple hair, short hair, scar on neck, blue eyes, black lagoon",
-    enhancers: ["[purple shirt","shirt under shirt","striped sleeves]"],
+    enhancers: ["[purple shirt", "shirt under shirt", "striped sleeves]"],
     defaultGender: "girl",
     genderswapAvailable: true,
     ageUpAvailable: true,
@@ -5657,7 +5657,7 @@ const artists = [
     name: "shenhua",
     category: "Black Lagoon",
     mainTags: "shenhua, black hair, long hair, blue eyes, black lagoon",
-    enhancers: ["[red china dress","floral print","white cropped jacket","pelvic curtain","tassel earrings","thigh strap]"],
+    enhancers: ["[red china dress", "floral print", "white cropped jacket", "pelvic curtain", "tassel earrings", "thigh strap]"],
     defaultGender: "girl",
     genderswapAvailable: true,
     ageUpAvailable: true,
@@ -5668,16 +5668,16 @@ const artists = [
       category: "One Piece",
       mainTags: "nico robin, blue eyes, black hair, long hair, one piece",
       enhancers: [
-        "[black dress","zipper","high collar", "black thighhighs]",
-        "[purple skirt","purple vest","cross-laced top","purple hat","armband","frills]",
-        "[white hat","white coat","fur-trimmed coat]",
-        "[purple hat","purple jacket","white shirt","purple pants]",
-        "[white hat","yellow tank top","purple capri pants","orange belt]",
-        "[purple shirt","black skirt]",
-        "[blue zipper vest","orange sarong]",
-        "[eyewear on head","pink shirt","high collar","plunging neckline]",
-        "[white sleeveless kimono","floral print kimono","black haori","obi","side slit]",
-        "[yellow shirt","eyewear on head","yellow plaid skirt","wide sleeves","v-neck]",
+        "[black dress", "zipper", "high collar", "black thighhighs]",
+        "[purple skirt", "purple vest", "cross-laced top", "purple hat", "armband", "frills]",
+        "[white hat", "white coat", "fur-trimmed coat]",
+        "[purple hat", "purple jacket", "white shirt", "purple pants]",
+        "[white hat", "yellow tank top", "purple capri pants", "orange belt]",
+        "[purple shirt", "black skirt]",
+        "[blue zipper vest", "orange sarong]",
+        "[eyewear on head", "pink shirt", "high collar", "plunging neckline]",
+        "[white sleeveless kimono", "floral print kimono", "black haori", "obi", "side slit]",
+        "[yellow shirt", "eyewear on head", "yellow plaid skirt", "wide sleeves", "v-neck]",
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5689,23 +5689,23 @@ const artists = [
       category: "One Piece",
       mainTags: "nami (one piece), brown eyes, orange hair, short hair, one piece",
       enhancers: [
-        "[white shirt","striped shirt","orange skirt]",
-        "[pink shirt","orange skirt]",
-        "[green tank top","polka dot shirt","blue shorts]",
-        "[white coat","fur-trimmed coat","white vest","grey skirt","fur-trimmed skirt]",
-        "[red dress","side slit","arm tattoo","fur scarf]",
-        "[blue bikini top","yellow skirt","brown belt]",
-        "[white tank top","striped shirt","yellow skirt]",
-        "[camouflage bikini","bikini top only","brown pants","yellow belt]",
-        "[dark blue shirt","short sleeves","blue necktie","white skirt","rings on skirt]",
-        "[bikini top only","jeans","black belt","bracelet]",
-        "[pink tanktop","striped shorts]",
-        "[white halter top","red skirt","frills]",
-        "[red dress","white shirt","puffy short sleeves","pink back bow]",
-        "[short white dress","long sleeves","brown belt]",
-        "[blue kimono","orange bow","blue hair ribbon]",
-        "[sleeveless white leotard","high collar","pink knee boots","headphones","science fiction]",
-        "[brown fur vest","black fur-trimmed cape","brown miniskirt","official alternate costume]"
+        "[white shirt", "striped shirt", "orange skirt]",
+        "[pink shirt", "orange skirt]",
+        "[green tank top", "polka dot shirt", "blue shorts]",
+        "[white coat", "fur-trimmed coat", "white vest", "grey skirt", "fur-trimmed skirt]",
+        "[red dress", "side slit", "arm tattoo", "fur scarf]",
+        "[blue bikini top", "yellow skirt", "brown belt]",
+        "[white tank top", "striped shirt", "yellow skirt]",
+        "[camouflage bikini", "bikini top only", "brown pants", "yellow belt]",
+        "[dark blue shirt", "short sleeves", "blue necktie", "white skirt", "rings on skirt]",
+        "[bikini top only", "jeans", "black belt", "bracelet]",
+        "[pink tanktop", "striped shorts]",
+        "[white halter top", "red skirt", "frills]",
+        "[red dress", "white shirt", "puffy short sleeves", "pink back bow]",
+        "[short white dress", "long sleeves", "brown belt]",
+        "[blue kimono", "orange bow", "blue hair ribbon]",
+        "[sleeveless white leotard", "high collar", "pink knee boots", "headphones", "science fiction]",
+        "[brown fur vest", "black fur-trimmed cape", "brown miniskirt", "official alternate costume]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5717,8 +5717,8 @@ const artists = [
       category: "One Piece",
       mainTags: "boa hancock, blue eyes, black hair, very long hair, one piece",
       enhancers: [
-        "[red sarong","red crop top","epaulettes","plunging neckline","white cape]",
-        "[sleeveless purple dress","side slit","skull print","collar]"
+        "[red sarong", "red crop top", "epaulettes", "plunging neckline", "white cape]",
+        "[sleeveless purple dress", "side slit", "skull print", "collar]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5729,7 +5729,7 @@ const artists = [
       name: "miss valentine",
       category: "One Piece",
       mainTags: "miss valentine, brown eyes, blonde hair, short hair, one piece",
-      enhancers: ["[yellow hat","yellow dress","print dress","white gloves]"],
+      enhancers: ["[yellow hat", "yellow dress", "print dress", "white gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5739,7 +5739,7 @@ const artists = [
       name: "yamato (one piece)",
       category: "One Piece",
       mainTags: "yamato (one piece), blue eyes, white hair, long hair, one piece",
-      enhancers: ["[japanese clothes","sleeveless white kimono","red hakama","shimenawa]"],
+      enhancers: ["[japanese clothes", "sleeveless white kimono", "red hakama", "shimenawa]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5749,7 +5749,7 @@ const artists = [
       name: "s-snake",
       category: "One Piece",
       mainTags: "s-snake, blue eyes, black hair, long hair, one piece",
-      enhancers: ["[white dress","black wings","knee boots","green arm band]"],
+      enhancers: ["[white dress", "black wings", "knee boots", "green arm band]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5759,8 +5759,8 @@ const artists = [
       name: "kalifa (one piece)",
       category: "One Piece",
       mainTags: "kalifa (one piece), blue eyes, blonde hair, long hair, one piece",
-      enhancers: ["[glasses","hair bun","green hairband","yellow jacket","high collar jacket","black skirt]",
-        "[glasses","black dress","plunging neckline","fishnet thighhighs","garter straps","black gloves","high collar]"
+      enhancers: ["[glasses", "hair bun", "green hairband", "yellow jacket", "high collar jacket", "black skirt]",
+        "[glasses", "black dress", "plunging neckline", "fishnet thighhighs", "garter straps", "black gloves", "high collar]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5772,8 +5772,8 @@ const artists = [
       category: "One Piece",
       mainTags: "uta (one piece), purple eyes, red hair, long hair, white hair, split-color hair, one piece",
       enhancers: [
-        "[white dress","black ribbon","headphones","pink jacket","puffy sleeves","hood down]",
-        "[sleeveless white dress","black ribbon","single sleeve","wings","two-tone wings","headphones]"
+        "[white dress", "black ribbon", "headphones", "pink jacket", "puffy sleeves", "hood down]",
+        "[sleeveless white dress", "black ribbon", "single sleeve", "wings", "two-tone wings", "headphones]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5784,7 +5784,7 @@ const artists = [
       name: "monet (one piece)",
       category: "One Piece",
       mainTags: "monet (one piece), harpy, yellow eyes, green hair, long hair, wings, one piece",
-      enhancers: ["[green tanktop","striped pantyhose]"],
+      enhancers: ["[green tanktop", "striped pantyhose]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5794,7 +5794,7 @@ const artists = [
       name: "vegapunk lilith",
       category: "One Piece",
       mainTags: "vegapunk lilith, brown eyes, brown hair, short hair, one piece",
-      enhancers: ["[pink bodysuit","purple jacket","single knee boot","headphones]"],
+      enhancers: ["[pink bodysuit", "purple jacket", "single knee boot", "headphones]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5804,7 +5804,7 @@ const artists = [
       name: "jewelry bonney",
       category: "One Piece",
       mainTags: "jewelry bonney, purple eyes, pink hair, long hair, one piece",
-      enhancers: ["[brown cropped jacket","striped shorts","belt","suspenders","white shirt","green hat]"],
+      enhancers: ["[brown cropped jacket", "striped shorts", "belt", "suspenders", "white shirt", "green hat]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5814,7 +5814,7 @@ const artists = [
       name: "lust (fma)",
       category: "Fullmetal Alchemist",
       mainTags: "lust (fma), red eyes, black hair, long hair, fullmetal alchemist",
-      enhancers: ["[black dress","plunging neckline","claws","detached sleeves","ouroboros","chest tattoo","thigh boots]"],
+      enhancers: ["[black dress", "plunging neckline", "claws", "detached sleeves", "ouroboros", "chest tattoo", "thigh boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5825,8 +5825,8 @@ const artists = [
       category: "Fullmetal Alchemist",
       mainTags: "riza hawkeye, brown eyes, blonde hair, updo, fullmetal alchemist",
       enhancers: [
-        "[amestris military uniform","blue jacket","blue pants]",
-        "[black turtleneck","long skirt]"
+        "[amestris military uniform", "blue jacket", "blue pants]",
+        "[black turtleneck", "long skirt]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5838,11 +5838,11 @@ const artists = [
       category: "Fullmetal Alchemist",
       mainTags: "winry rockbell, blue eyes, blonde hair, long hair, ponytail, fullmetal alchemist",
       enhancers: [
-        "[black pleated skirt","white tanktop]",
-        "[black pleated skirt","black cropped jacket","white tanktop]",
-        "[red bandana","purple overalls","clothes around waist","black tube top","brown gloves]",
-        "[green bandana","grey overalls","clothes around waist","black tube top]",
-        "[grey overalls","clothes around waist","black and white crop top]"
+        "[black pleated skirt", "white tanktop]",
+        "[black pleated skirt", "black cropped jacket", "white tanktop]",
+        "[red bandana", "purple overalls", "clothes around waist", "black tube top", "brown gloves]",
+        "[green bandana", "grey overalls", "clothes around waist", "black tube top]",
+        "[grey overalls", "clothes around waist", "black and white crop top]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -5853,7 +5853,7 @@ const artists = [
       name: "olivier mira armstrong",
       category: "Fullmetal Alchemist",
       mainTags: "olivier mira armstrong, blue eyes, blonde hair, long hair, muscular female, fullmetal alchemist",
-      enhancers: ["[amestris military uniform","blue jacket","blue pants","coat on shoulders", "black fur-trimmed coat]"],
+      enhancers: ["[amestris military uniform", "blue jacket", "blue pants", "coat on shoulders", "black fur-trimmed coat]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5863,7 +5863,7 @@ const artists = [
       name: "may chang",
       category: "Fullmetal Alchemist",
       mainTags: "may chang, brown eyes, black hair, long hair, twin hair bun, fullmetal alchemist",
-      enhancers: ["[chinese clothes","pink shirt","pink sash","wide sleeves","white pants]"],
+      enhancers: ["[chinese clothes", "pink shirt", "pink sash", "wide sleeves", "white pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -5873,7 +5873,7 @@ const artists = [
     name: "lan fan",
     category: "Fullmetal Alchemist",
     mainTags: "lan fan, black eyes, black hair, single hair bun, fullmetal alchemist",
-    enhancers: ["[mask on head","automail","mechanical arm","armor","shoulder armor","ninja","hood down","black pants","black fingerless glove]"],
+    enhancers: ["[mask on head", "automail", "mechanical arm", "armor", "shoulder armor", "ninja", "hood down", "black pants", "black fingerless glove]"],
     defaultGender: "girl",
     genderswapAvailable: true,
     ageUpAvailable: true,
@@ -5883,7 +5883,7 @@ const artists = [
     name: "edward elric",
     category: "Fullmetal Alchemist",
     mainTags: "edward elric, blonde hair, long hair, single braid, yellow eyes, automail, mechanical arm, fullmetal alchemist",
-    enhancers: ["[red coat","black jacket","black pants","black shirt","belt","single white glove]"],
+    enhancers: ["[red coat", "black jacket", "black pants", "black shirt", "belt", "single white glove]"],
     defaultGender: "boy",
     genderswapAvailable: true,
     ageUpAvailable: true,
@@ -5894,8 +5894,8 @@ const artists = [
     category: "Fullmetal Alchemist",
     mainTags: "alphonse elric, fullmetal alchemist",
     enhancers: [
-        "[armor","full armor","shoulder spikes","arm tattoo","red eyes]",
-        "[blonde hair","short hair","brown eyes","black suit","black pants","black vest","red necktie","white shirt]"
+        "[armor", "full armor", "shoulder spikes", "arm tattoo", "red eyes]",
+        "[blonde hair", "short hair", "brown eyes", "black suit", "black pants", "black vest", "red necktie", "white shirt]"
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
@@ -5907,8 +5907,8 @@ const artists = [
     category: "Fullmetal Alchemist",
     mainTags: "roy mustang, black hair, short hair, black eyes, fullmetal alchemist",
     enhancers: [
-        "[amestris military uniform","blue jacket","blue pants","black coat","coat on shoulders","white gloves]",
-        "[amestris military uniform","blue jacket","blue pants","white gloves]"
+        "[amestris military uniform", "blue jacket", "blue pants", "black coat", "coat on shoulders", "white gloves]",
+        "[amestris military uniform", "blue jacket", "blue pants", "white gloves]"
     ],
     defaultGender: "boy",
     genderswapAvailable: true,
@@ -6381,8 +6381,8 @@ const artists = [
       category: "Date a Live",
       mainTags: "tokisaki kurumi, red eyes, black hair, long hair, twintails, date a live",
       enhancers: [
-        "[raizen high school uniform","black jacket","white shirt","blue skirt","red bow]",
-        "[frilled red dress","red ribbon","headdress","elbow gloves]"
+        "[raizen high school uniform", "black jacket", "white shirt", "blue skirt", "red bow]",
+        "[frilled red dress", "red ribbon", "headdress", "elbow gloves]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -6394,9 +6394,9 @@ const artists = [
       category: "Date a Live",
       mainTags: "hoshimiya mukuro, yellow eyes, blonde hair, very long hair, date a live",
       enhancers: [
-        "[frilled blue dress","hair bows","puffy sleeves","ribbon]",
-        "[pink dress","greaves","black gloves]",
-        "[red dress","pelvic curtain","elbow gloves","arm guards","thigh boots","thigh straps]"
+        "[frilled blue dress", "hair bows", "puffy sleeves", "ribbon]",
+        "[pink dress", "greaves", "black gloves]",
+        "[red dress", "pelvic curtain", "elbow gloves", "arm guards", "thigh boots", "thigh straps]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -6408,8 +6408,8 @@ const artists = [
       category: "Date a Live",
       mainTags: "himekawa yoshino, blue eyes, blue hair, long hair, date a live",
       enhancers: [
-        "[white sun dress","short dress","pink trim","puffy short sleeves","sun hat]",
-        "[white dress","green coat","animal hood","rabbit ears]"
+        "[white sun dress", "short dress", "pink trim", "puffy short sleeves", "sun hat]",
+        "[white dress", "green coat", "animal hood", "rabbit ears]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -6421,8 +6421,8 @@ const artists = [
       category: "Date a Live",
       mainTags: "kyouno natsumi, green eyes, green hair, long hair, date a live",
       enhancers: [
-        "[orange crop top","off shoulder","suspenders","black bloomers","ba wings","striped thighhighs","uneven legwear","witch hat]",
-        "[kyouno natsumi (adult)","bodystocking","bodysuit","black skirt","halter top","see-through clothes","witch hat","black capelet","high collar]"
+        "[orange crop top", "off shoulder", "suspenders", "black bloomers", "ba wings", "striped thighhighs", "uneven legwear", "witch hat]",
+        "[kyouno natsumi (adult)", "bodystocking", "bodysuit", "black skirt", "halter top", "see-through clothes", "witch hat", "black capelet", "high collar]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -6434,8 +6434,8 @@ const artists = [
       category: "Date a Live",
       mainTags: "izayoi miku, purple eyes, purple hair, long hair, date a live",
       enhancers: [
-        "[frilled purple dress","pink shirt","yellow frills]",
-        "[yellow skirt","white elbow gloves","layered skirt","see-through clothes","white pantyhose]"
+        "[frilled purple dress", "pink shirt", "yellow frills]",
+        "[yellow skirt", "white elbow gloves", "layered skirt", "see-through clothes", "white pantyhose]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -6446,7 +6446,7 @@ const artists = [
       name: "sonogami rinne",
       category: "Date a Live",
       mainTags: "sonogami rinne, brown eyes, pink hair, short hair, date a live",
-      enhancers: ["[blue pleated skirt","white shirt","sweater vest","neck ribbon]"],
+      enhancers: ["[blue pleated skirt", "white shirt", "sweater vest", "neck ribbon]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -6457,8 +6457,8 @@ const artists = [
       category: "Date a Live",
       mainTags: "tobiichi origami, blue eyes, white hair, short hair, date a live",
       enhancers: [
-        "[raizen high school uniform","blue pleated skirt","black jacket]",
-        "[white dress","white bow","white elbow gloves","gold crown","gold trim","over-kneehighs]"
+        "[raizen high school uniform", "blue pleated skirt", "black jacket]",
+        "[white dress", "white bow", "white elbow gloves", "gold crown", "gold trim", "over-kneehighs]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -7192,7 +7192,7 @@ const artists = [
       name: "uzumaki kushina",
       category: "Naruto",
       mainTags: "uzumaki kushina, blue eyes, red hair, long hair, naruto (series)",
-      enhancers: ["[green pinafore dress","white shirt]"],
+      enhancers: ["[green pinafore dress", "white shirt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7203,8 +7203,8 @@ const artists = [
       category: "Naruto",
       mainTags: "uchiha sarada, black eyes, black hair, short hair, naruto (series)",
       enhancers: [
-        "[glasses","purple headband","red shirt","grey shorts","thigh pouch","detached sleeves]",
-        "[glasses","black choker","black coat","two-sided coat","single thighhigh","fishnet thighhigh","thigh boots","red belt","strapless black leotard","leotard under clothes","black skirt]"
+        "[glasses", "purple headband", "red shirt", "grey shorts", "thigh pouch", "detached sleeves]",
+        "[glasses", "black choker", "black coat", "two-sided coat", "single thighhigh", "fishnet thighhigh", "thigh boots", "red belt", "strapless black leotard", "leotard under clothes", "black skirt]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -7215,7 +7215,7 @@ const artists = [
       name: "makima (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "makima (chainsaw man), yellow eyes, red hair, long hair, single braid, chainsaw man",
-      enhancers: ["[black pants","white shirt","black tie]"],
+      enhancers: ["[black pants", "white shirt", "black tie]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7225,7 +7225,7 @@ const artists = [
       name: "reze (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "reze (chainsaw man), green eyes, purple hair, short hair, chainsaw man",
-      enhancers: ["[white shirt","blue ribbon","blue choker","black skirt]"],
+      enhancers: ["[white shirt", "blue ribbon", "blue choker", "black skirt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7235,7 +7235,7 @@ const artists = [
       name: "yoru (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "yoru (chainsaw man), red eyes, black hair, long hair, chainsaw man",
-      enhancers: ["[fourth east high school uniform","sleeveless black dress","black ribbon","white shirt","kneehighs]"],
+      enhancers: ["[fourth east high school uniform", "sleeveless black dress", "black ribbon", "white shirt", "kneehighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7246,8 +7246,8 @@ const artists = [
       category: "Chainsaw Man",
       mainTags: "himeno (chainsaw man), brown eyes, black hair, short hair, eyepatch, chainsaw man",
       enhancers: [
-        "[black suit","suit jacket","white shirt","black necktie","black pants]",
-        "[white panties","blue tanktop]"
+        "[black suit", "suit jacket", "white shirt", "black necktie", "black pants]",
+        "[white panties", "blue tanktop]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -7258,8 +7258,8 @@ const artists = [
       name: "power (chainsaw man)",
       category: "Chainsaw Man",
       mainTags: "power (chainsaw man), yellow eyes, blonde hair, long hair, red horns, chainsaw man",
-      enhancers: ["[black capri pants","white shirt","black necktie","blue coat]",
-      "[red longsleeve shirt","blue shorts]"
+      enhancers: ["[black capri pants", "white shirt", "black necktie", "blue coat]",
+      "[red longsleeve shirt", "blue shorts]"
     ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -7270,7 +7270,7 @@ const artists = [
       name: "higashiyama kobeni",
       category: "Chainsaw Man",
       mainTags: "higashiyama kobeni, brown eyes, brown hair, short hair, ponytail, chainsaw man",
-      enhancers: ["[black suit","suit jacket","white shirt","black necktie","black pants]"],
+      enhancers: ["[black suit", "suit jacket", "white shirt", "black necktie", "black pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7279,8 +7279,8 @@ const artists = [
   {
       name: "esdeath",
       category: "Akame Ga Kill!",
-      mainTags: "esdeath, blue eyes, blue hair, long hair, akame ga kill",
-      enhancers: ["[]"],
+      mainTags: "esdeath, blue eyes, blue hair, very long hair, akame ga kill!",
+      enhancers: ["[military uniform", "military hat", "peaked cap", "thigh boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7289,8 +7289,8 @@ const artists = [
   {
       name: "akame (akame ga kill!)",
       category: "Akame Ga Kill!",
-      mainTags: "akame (akame ga kill!), red eyes, black hair, long hair, akame ga kill!",
-      enhancers: ["[]"],
+      mainTags: "akame (akame ga kill!), red eyes, black hair, very long hair, akame ga kill!",
+      enhancers: ["[black pleated skirt", "sleeveless black shirt", "red necktie", "collar", "black gloves", "red belt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7299,8 +7299,8 @@ const artists = [
   {
       name: "najenda (akame ga kill!)",
       category: "Akame Ga Kill!",
-      mainTags: "najenda (akame ga kill!), purple eyes, silver hair, short hair, akame ga kill!",
-      enhancers: ["[]"],
+      mainTags: "najenda (akame ga kill!), purple eyes, silver hair, short hair, prosthetic arm, eyepatch, akame ga kill!",
+      enhancers: ["[black jacket", "black pants", "cross-laced clothes", "choker]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7310,17 +7310,17 @@ const artists = [
       name: "mine (akame ga kill!)",
       category: "Akame Ga Kill!",
       mainTags: "mine (akame ga kill!), pink eyes, pink hair, long hair, twintails, akame ga kill!",
-      enhancers: ["[]"],
+      enhancers: ["[pink shirt", "pink capelet", "center frills", "black thighband pantyhose]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Shows or Movies"
   },
   {
-      name: "chelsa (akame ga kill!)",
+      name: "chelsea (akame ga kill!)",
       category: "Akame Ga Kill!",
-      mainTags: "chelsa (akame ga kill!), brown eyes, orange hair, short hair, akame ga kill!",
-      enhancers: ["[]"],
+      mainTags: "chelsea (akame ga kill!), brown eyes, red hair, long hair, akame ga kill!",
+      enhancers: ["[black hairband", "white shirt", "black vest", "red pleated skirt", "red ribbon", "headphones]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7330,7 +7330,10 @@ const artists = [
       name: "leone (akame ga kill!)",
       category: "Akame Ga Kill!",
       mainTags: "leone (akame ga kill!), yellow eyes, blonde hair, long hair, akame ga kill!",
-      enhancers: ["[]"],
+      enhancers: [
+        "[white scarf", "black tube top", "white chaps", "black panties", "belt", "detached sleeves]",
+        "[animal ears", "lion ears", "animal hands", "lion tail", "white scarf", "black tube top", "white chaps", "black panties", "belt", "detached sleeves]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7340,7 +7343,7 @@ const artists = [
       name: "hatsune miku",
       category: "Other",
       mainTags: "hatsune miku, blue eyes, blue hair, long hair, twin tails",
-      enhancers: ["[]"],
+      enhancers: ["[black skirt","white sleeveless shirt","detached sleeves","blue necktie","thighhighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7350,7 +7353,7 @@ const artists = [
       name: "hinata hajime",
       category: "Danganronpa",
       mainTags: "hinata hajime, brown eyes, brown hair, short hair, spiked hair, danganronpa (series)",
-      enhancers: ["[]"],
+      enhancers: ["[white shirt","black necktie","black pants]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7360,7 +7363,16 @@ const artists = [
       name: "erza scarlet",
       category: "Fairy Tail",
       mainTags: "erza scarlet, brown eyes, red hair, long hair, fairy tail",
-      enhancers: ["[]"],
+      enhancers: [
+        "[armored dress","blue skirt","pauldrons","gauntlets","knee boots]",
+        "[chest sarashi","red pants","ponytail","white straps", "official alternate costume]",
+        "[japanese clothes","purple kimono","pelvic curtain","pink thighhighs","bandaged arms","official alternate costume]",
+        "[red highleg leotard","black pantyhose","nontraditional playboy bunny","fake animal ears","rabbit ears","wrist cuffs","detached collar]",
+        "[maid","red vest","white shirt","red skirt","white thighhighs","maid headdress","white gloves","puffy short sleeves","waist apron","twintails","fairy tail logo","arm tattoo]",
+        "[ponytail","black bikini","side-tie bikini bottom]",
+        "towel",
+        "[black latex bodysuit","hair flower]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7370,7 +7382,21 @@ const artists = [
       name: "lucy heartfilia",
       category: "Fairy Tail",
       mainTags: "lucy heartfilia, brown eyes, blonde hair, long hair, fairy tail",
-      enhancers: ["[]"],
+      enhancers: [
+        "[side ponytail","blue ribbon","two-tone sleeveless shirt","collar","blue skirt","brown belt","knee boots]",
+        "[twintails","black skirt","two-tone tube top","blue vest","detached sleeves","puffy sleeves","thighhighs","white belt]",
+        "[high ponytail","single detached sleeve","black sleeve","blue sleeveless shirt","collar","white skirt","belt pouch","thigh boots]",
+        "[double bun","asymmetrical legwear","cow print bikini","bikini top only","detached sleeves","cow print sleeves","fingerless gloves","black pants","belt","bell collar","official alternate costume]",
+        "[fake animal ears","rabbit ears","pink leotard","black pantyhose","detached collar","wrist cuffs","official alternate costume]",
+        "[fake animal ears","rabbit ears","red leotard","white trim","pantyhose","detached collar","wrist cuffs","official alternate costume]",
+        "[side ponytail","purple ribbon","purple tube top","white winter coat","fur-trimmed coat","black skirt","white belt","pantyhose","knee boots","cross-laced footwear","official alternate costume]",
+        "[updo","short black dress","v-neck","white trim","frills","white bow","white belt","belt buckle","heart necklace","official alternate costume]",
+        "[low twintails","sleeveless blue shirt","pink neck bow","brooch","blue skirt","blue thighhighs","frilled legwear","frilled wrist cuffs","official alternate costume]",
+        "[white bikini","side-tie bikini bottom","halterneck","pink floral print","print bikini","official alternate costume]",
+        "[long twintails","pink bikini","bikini top only","short pelvic curtain","gold thighlet","print bikini","floral print","choker","hair ornament","official alternate costume]",
+        "[twintails","maid","maid headress","black vest","white shirt","puffy short sleeves","black skirt","waist apron","frilled wrist cuffs","lace-trimmed thighhighs","white thighhighs","black neck ribbon","official alternate costume]",
+        "[fake animal ears","cat ears","cat tail","black short shorts","black tube top","cross-laced clothes","red belt","pink trim","neck bell","official alternate costume]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7380,7 +7406,13 @@ const artists = [
       name: "wendy marvell",
       category: "Fairy Tail",
       mainTags: "wendy marvell, brown eyes, blue hair, long hair, fairy tail",
-      enhancers: ["[]"],
+      enhancers: [
+        "[twintails", "black pleated skirt","red jacket","white shirt","yellow bow","black thighhighs]",
+        "[twintails","green sleeveless dress","halterneck","arm bands]",
+        "[twintails","black latex bodysuit","metal collar","official alternate costume]",
+        "[twintails","green plaid bikini","halterneck]",
+        "[ponytail","yellow hair bow","green bikini","bikini skirt","official alternate costume]"
+      ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7390,7 +7422,11 @@ const artists = [
       name: "juvia lockser",
       category: "Fairy Tail",
       mainTags: "juvia lockser, blue eyes, blue hair, long hair, fairy tail",
-      enhancers: ["[]"],
+      enhancers: [
+        "[blue skirt","green shirt","blue jacket","fur-trimmed jacket","blue hat","thigh boots","waist sash]",
+        "[blue dress","blue hat","hat flower","blue capelet","fur trim","thigh boots]",
+        "[purple bikini","polka dot","white frilled trim","front-tie top","bikini skirt]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7400,7 +7436,11 @@ const artists = [
       name: "lisanna strauss",
       category: "Fairy Tail",
       mainTags: "lisanna strauss, blue eyes, white hair, short hair, fairy tail",
-      enhancers: ["[]"],
+      enhancers: [
+        "[sleeveless red dress","pink shirt collar","detached pink sleeves","puffy sleeves","kneehighs","white ribbon]",
+        "[animal girl","cat girl","white cat ears","animal feet","cat paws","cat tail","white bikini","white tiger print","white fairy tail logo on thigh]",
+        "[purple bikini","frilled bikini top","halter neck","side-tie bikini bottom","fairy tail logo on thigh]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7410,7 +7450,13 @@ const artists = [
       name: "cana alberona",
       category: "Fairy Tail",
       mainTags: "cana alberona, brown eyes, brown hair, long hair, fairy tail",
-      enhancers: ["[]"],
+      enhancers: ["[brown pants","black frilled bikini","strapless bikini","bikini top only]",
+        "[brown pants","teal bikini","bikini top only","arm bands","multiple bracelets]",
+        "[striped bikini","halterneck","red bikini","green stripes","arm bands","multiple bracelets]",
+        "[white shirt","center frills","pink skirt","puffy sleeves","pink ribbon","yellow hat","hat flower","rose]",
+        "black latex bodysuit",
+        "[checkered bikini","blue and white bikini","bikini top only","brown capri pants","red floral print skirt","side slit","arm bands","multiple bracelets]"
+      ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7420,7 +7466,13 @@ const artists = [
       name: "mirajane strauss",
       category: "Fairy Tail",
       mainTags: "mirajane strauss, blue eyes, white hair, long hair, fairy tail",
-      enhancers: ["[]"],
+      enhancers: [
+        "[black turtleneck","long white skirt]",
+        "[long black dress","frilled dress","white frills","off shoulder","neck ribbon]",
+        "[long red dress","pink bow on chest","pink bow on hip","necklace","bracelet]",
+        "[teal bikini","o-ring bikini","o-ring bottom","o-ring top","white trim]",
+        "[black leotard","collared leotard","sleeveless leotard","thighhigh boots","zipper]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7429,8 +7481,11 @@ const artists = [
   {
       name: "levy mcgarden",
       category: "Fairy Tail",
-      mainTags: "levy mcgarden, blue eyes, blue hair, short hair, fairy tail",
-      enhancers: ["[]"],
+      mainTags: "levy mcgarden, brown eyes, blue hair, short hair, fairy tail",
+      enhancers: [
+        "[yellow hairband","flower ornament","orange dress","detached sleeves","halterneck]",
+        "[yellow hairband","striped bikini","red bikini","white bikini","halterneck]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7440,7 +7495,10 @@ const artists = [
       name: "mavis vermilion",
       category: "Fairy Tail",
       mainTags: "mavis vermilion, green eyes, blonde hair, long hair, fairy tail",
-      enhancers: ["[]"],
+      enhancers: [
+        "[pink dress","white capelet","pink ribbon","wing hair ornament]",
+        "[striped bikini","blue bikini","yellow bikini","halterneck]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7449,18 +7507,8 @@ const artists = [
   {
       name: "irene belserion",
       category: "Fairy Tail",
-      mainTags: "irene belserion, red eyes, red hair, long hair, fairy tail",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "evergreen (fairy tail)",
-      category: "Fairy Tail",
-      mainTags: "evergreen (fairy tail), brown eyes, green hair, long hair, fairy tail",
-      enhancers: ["[]"],
+      mainTags: "irene belserion, red eyes, red hair, absurdly long hair, multiple braids, fairy tail",
+      enhancers: ["[hat","underboob","heart print","multiple braids","black cape","black gloves","pelvic curtain","thigh boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
