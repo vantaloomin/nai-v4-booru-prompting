@@ -7547,8 +7547,12 @@ const artists = [
   {
       name: "xenovia quarta",
       category: "Highschool DxD",
-      mainTags: "xenovia quarta, blue eyes, blue hair, short hair, high school dxd",
-      enhancers: ["[]"],
+      mainTags: "xenovia quarta, blue eyes, blue hair, streaked hair, short hair, high school dxd",
+      enhancers: [
+        "[kuoh academy school uniform","pink pleated skirt","white shirt","black corset","black ribbon","kneehighs]",
+        "[kuoh academy school uniform","pink pleated skirt","white shirt","black corset","black capelet","black ribbon","kneehighs]",
+        "[black bodysuit","black shoulder armor","black thighhighs","zettai ryouiki","short sleeves","fingerless elbow gloves","black gloves]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7558,7 +7562,10 @@ const artists = [
       name: "rias gremory",
       category: "Highschool DxD",
       mainTags: "rias gremory, blue eyes, red hair, long hair, high school dxd",
-      enhancers: ["[]"],
+      enhancers: [
+        "[kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon","black capelet]",
+        "[kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7568,7 +7575,10 @@ const artists = [
       name: "himejima akeno",
       category: "Highschool DxD",
       mainTags: "himejima akeno, purple eyes, black hair, long hair, ponytail, high school dxd",
-      enhancers: ["[]"],
+      enhancers: [
+        "[kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon","black capelet]",
+        "[kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7577,8 +7587,8 @@ const artists = [
   {
       name: "kuroka (high school dxd)",
       category: "Highschool DxD",
-      mainTags: "kuroka (high school dxd), yellow eyes, black hair, long hair, high school dxd",
-      enhancers: ["[]"],
+      mainTags: "kuroka (high school dxd), yellow eyes, black hair, long hair,  animal girl, cat girl, cat ears, cat tail, multiple tails, high school dxd",
+      enhancers: ["[black kimono","off shoulder","yellow obi","hair rings]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7588,7 +7598,10 @@ const artists = [
       name: "rossweisse",
       category: "Highschool DxD",
       mainTags: "rossweisse, blue eyes, silver hair, long hair, high school dxd",
-      enhancers: ["[]"],
+      enhancers: [
+        "[grey pants suit","grey pants","grey suit jacket","white shirt]",
+        "[armored dress","armor","boobplate","detached sleeves","gauntlets","faulds","gold trim","black leotard","black thighhighs","fingerless gloves]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7598,7 +7611,12 @@ const artists = [
       name: "toujou koneko",
       category: "Highschool DxD",
       mainTags: "toujou koneko, yellow eyes, white hair, short hair, high school dxd",
-      enhancers: ["[]"],
+      enhancers: [
+        "[kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon","black capelet]",
+        "[kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon]",
+        "[animal girl","cat ears","cat tail","multiple tails","kuoh academy school uniform","pink skirt","white shirt","black corset","back ribbon]",
+        "[animal girl","cat ears","cat tail","multiple tails","frilled kimono","white kimono","kimono skirt","black obi","blue pleated skirt","medium breasts","frilled thighhighs]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7608,37 +7626,11 @@ const artists = [
       name: "shidou irina",
       category: "Highschool DxD",
       mainTags: "shidou irina, purple eyes, brown hair, long hair, twin tails, high school dxd",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "kirishima touka",
-      category: "Tokyo Ghoul",
-      mainTags: "kirishima touka, blue eyes, blue hair, short hair, tokyo ghoul",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "kamishiro rize",
-      category: "Tokyo Ghoul",
-      mainTags: "kamishiro rize, purple eyes, purple hair, long hair, tokyo ghoul",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "eto (tokyo ghoul)",
-      category: "Tokyo Ghoul",
-      mainTags: "eto (tokyo ghoul), green eyes, green hair, short hair, crazy eyes, heterochromia, tokyo ghoul",
-      enhancers: ["[]"],
+      enhancers: [
+        "[kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon","black capelet]",
+        "[kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon]",
+        "[sleeveless black bodysuit","black elbow gloves","thighhighs","zettai ryouiki","underbust strap]"
+      ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7647,9 +7639,9 @@ const artists = [
   {
       name: "shiota nagisa",
       category: "Asssassination Classroom",
-      mainTags: "shiota nagisa, blue eyes, blue hair, long hair, twin tails, ansatsu kyoushitsu",
-      enhancers: ["[]"],
-      defaultGender: "girl",
+      mainTags: "shiota nagisa, blue eyes, blue hair, short hair, twintails, ansatsu kyoushitsu",
+      enhancers: ["[kunugigaoka middle school uniform","black necktie","white shirt","blue vest]"],
+      defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Shows or Movies"
@@ -7657,8 +7649,8 @@ const artists = [
   {
       name: "irina jelavic",
       category: "Asssassination Classroom",
-      mainTags: "irina jelavic, blue eyes, blonde hair, long hair, ansatsu kyoushitsu",
-      enhancers: ["[]"],
+      mainTags: "irina jelavic, blue eyes, blonde hair, very long hair, ansatsu kyoushitsu",
+      enhancers: ["[white suit","white skirt","black tube top","choker","black belt","sheer pantyhose]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7667,8 +7659,8 @@ const artists = [
   {
       name: "okuda manami",
       category: "Asssassination Classroom",
-      mainTags: "okuda manami, brown eyes, brown hair, short hair, twin tails, ansatsu kyoushitsu",
-      enhancers: ["[]"],
+      mainTags: "okuda manami, brown eyes, brown hair, short hair, twin braids, ansatsu kyoushitsu",
+      enhancers: ["[jimiko","glasses","kunugigaoka middle school uniform","grey pleated skir","grey vest","black necktie]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7677,8 +7669,8 @@ const artists = [
   {
       name: "kayano kaede",
       category: "Asssassination Classroom",
-      mainTags: "kayano kaede, yellow eyes, green hair, short hair, twin tails, ansatsu kyoushitsu",
-      enhancers: ["[]"],
+      mainTags: "kayano kaede, yellow eyes, green hair, short hair, twintails, ansatsu kyoushitsu",
+      enhancers: ["[kunugigaoka middle school uniform","grey pleated skir","grey vest","black necktie","green knee socks]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7687,8 +7679,8 @@ const artists = [
   {
       name: "shiro (no game no life)",
       category: "No Game, No Life",
-      mainTags: "shiro (no game no life), blue eyes, white hair, long hair, no game no life",
-      enhancers: ["[]"],
+      mainTags: "shiro (no game no life), blue eyes, multicolored hair, absurdly long hair, no game no life",
+      enhancers: ["[purple sailor dress","orange neckerhief","white sailor collar","long sleeves","wide sleeves","sleeves past wrists","oversized clothes","black thighhighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7697,18 +7689,8 @@ const artists = [
   {
       name: "jibril (no game no life)",
       category: "No Game, No Life",
-      mainTags: "jibril (no game no life), pink eyes, pink hair, long hair, no game no life",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "shuvi (no game no life)",
-      category: "No Game, No Life",
-      mainTags: "shuvi (no game no life), purple eyes, purple hair, long hair, no game no life",
-      enhancers: ["[]"],
+      mainTags: "jibril (no game no life), pink eyes, pink hair, gradient hair, very long hair, no game no life",
+      enhancers: ["[single detached sleeve","single purple elbow glove","purple bikini","bikini bottom only","white crop top","angel wings","low wings","halo","sarong]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7717,8 +7699,8 @@ const artists = [
   {
       name: "hatsuse izuna",
       category: "No Game, No Life",
-      mainTags: "hatsuse izuna, red eyes, brown hair, short hair, no game no life",
-      enhancers: ["[]"],
+      mainTags: "hatsuse izuna, red eyes, purple hair, short hair, purple fox ears, purple fox tail",
+      enhancers: ["[pink kimono","yellow haori","yellow hairband","red bow]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7727,8 +7709,11 @@ const artists = [
   {
       name: "kamado nezuko",
       category: "Demon Slayer",
-      mainTags: "kamado nezuko, pink eyes, black hair, long hair, kimetsu no yaiba",
-      enhancers: ["[]"],
+      mainTags: "kamado nezuko, pink eyes, black hair, two-tone hair, long hair, kimetsu no yaiba",
+      enhancers: [
+        "[pink kimono","pink ribbon","checkered sash","black coat","bamboo gag]",
+        "[demon girl","single demon horn","cracked skin","pink kimono","pink ribbon","checkered sash","black coat]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7737,8 +7722,8 @@ const artists = [
   {
       name: "kanroji mitsuri",
       category: "Demon Slayer",
-      mainTags: "kanroji mitsuri, green eyes, pink hair, long hair, twin braids, kimetsu no yaiba",
-      enhancers: ["[]"],
+      mainTags: "kanroji mitsuri, green eyes, pink hair, gradient hair,long hair, twin braids, kimetsu no yaiba",
+      enhancers: ["[demon slayer uniform","black skirt","white shirt","black jacket","green thighhighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7747,18 +7732,58 @@ const artists = [
   {
       name: "kochou shinobu",
       category: "Demon Slayer",
-      mainTags: "kochou shinobu, purple eyes, black hair, short hair, kimetsu no yaiba",
-      enhancers: ["[]"],
+      mainTags: "kochou shinobu, purple eyes, black hair, gradient hair,short hair, kimetsu no yaiba",
+      enhancers: ["[demon slayer uniform","black jacket","black pants","butterfly hair ornament","butterfly cloak]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Shows or Movies"
   },
   {
+    name: "kamado tanjirou",
+    category: "Demon Slayer",
+    mainTags: "kamado tanjirou, red eyes, black hair, gradient hair, scar on face, kimetsu no yaiba",
+    enhancers: ["[checkered haori","brown kimono","hanafuda earrings]"],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
+{
+    name: "daki (kimetsu no yaiba)",
+    category: "Demon Slayer",
+    mainTags: "daki (kimetsu no yaiba), green eyes, white hair, gradient hair, very long hair, facial tattoo, hair ornament, kimetsu no yaiba",
+    enhancers: [
+        "[--white hair", "--gradient hair", "black hair", "brown kimono","revealing clothes","multicolored obi","stirrup thighhighs]",
+        "[brown kimono","revealing clothes","multicolored obi","stirrup thighhighs]"
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
+{
+    name: "kanzaki aoi (kimetsu no yaiba)",
+    category: "Demon Slayer",
+    mainTags: "kanzaki aoi (kimetsu no yaiba), blue eyes, black hair, twintails, butterfly hair ornament, kimetsu no yaiba",
+    enhancers: [
+        "[demon slayer uniform","black jacket","blue skirt]",
+        "[demon slayer uniform","black jacket","blue skirt","white jacket","white skirt","pants under skirt","short over long sleeves]"
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
+  {
       name: "busujima saeko",
       category: "Highschool of the Dead",
       mainTags: "busujima saeko, purple eyes, purple hair, long hair, highschool of the dead",
-      enhancers: ["[]"],
+      enhancers: [
+        "[fujimi high school uniform","green skirt","white shirt","green sailor collar","black bow","kneehighs]",
+        "[white apron","ponytail","long apron","nearly naked apron","black thong","side-tie panties]",
+        "[fujimi high school uniform","white shirt","green sailor collar","black bow","purple thighhighs","black skirt","single side slit","side-tie panties","armored boots]"
+      ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7768,7 +7793,11 @@ const artists = [
       name: "miyamoto rei",
       category: "Highschool of the Dead",
       mainTags: "miyamoto rei, brown eyes, orange hair, long hair, highschool of the dead",
-      enhancers: ["[]"],
+      enhancers: [
+        "[fujimi high school uniform","green skirt","white shirt","green sailor collar","black bow","black thighhighs]",
+        "[pink camisole","plain white panties]",
+        "[plaid green skirt","white shirt","green sailor collar","black bow","knee pads]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7777,8 +7806,11 @@ const artists = [
   {
       name: "takagi saya",
       category: "Highschool of the Dead",
-      mainTags: "takagi saya, brown eyes, pink hair, long hair, twin tails, highschool of the dead",
-      enhancers: ["[]"],
+      mainTags: "takagi saya, glasses,brown eyes, pink hair, long hair, twin tails, highschool of the dead",
+      enhancers: [
+        "[fujimi high school uniform","green skirt","white shirt","green sailor collar","black bow","white knee socks]",
+        "[black short shorts","blue tank top]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -7787,8 +7819,12 @@ const artists = [
   {
       name: "marikawa shizuka",
       category: "Highschool of the Dead",
-      mainTags: "marikawa shizuka, brown eyes, blonde hair, long hair, blue sweater, highschool of the dead",
-      enhancers: ["[]"],
+      mainTags: "marikawa shizuka, brown eyes, blonde hair, long hair, highschool of the dead",
+      enhancers: [
+        "[brown pencil skirt","torn skirt","single side slit","white collared shirt","red ribbon]",
+        "[long white shirt","no panties]",
+        "[blue turtleneck sweater","white pants","capri pants]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
