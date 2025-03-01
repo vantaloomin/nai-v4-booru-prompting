@@ -8627,18 +8627,11 @@ const artists = [
   {
       name: "belle (disney)",
       category: "Disney",
-      mainTags: "belle (disney), brown eyes, brown hair, long hair, yellow dress, beauty and the beast, disney",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "belle (disney)",
-      category: "Disney",
-      mainTags: "belle (disney), brown eyes, brown hair, long hair, hair bow, puffy long sleeves, blue pinafore dress, white apron, braid, beauty and the beast, disney",
-      enhancers: ["[]"],
+      mainTags: "belle (disney), brown eyes, brown hair, long hair, beauty and the beast, disney",
+      enhancers: [
+        "[ponytail","blue hair bow","white shirt","blue pinaforedress","white waist apron]",
+        "[high ponytail","yellow sleeveless dress","off shoulder","yellow elbow gloves]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8647,7 +8640,7 @@ const artists = [
   {
       name: "beast (disney)",
       category: "Disney",
-      mainTags: "beast (disney), brown eyes, brown hair, long hair, wolf tail, monster girl, monsterification, aristocractic clothes, neck fur, furry body, furry, beauty and the beast, disney",
+      mainTags: "beast (disney), brown eyes, brown hair, long hair, wolf tail, monster, monsterification, aristocractic clothes, neck fur, furry body, furry, beauty and the beast, disney",
       enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
@@ -8657,8 +8650,8 @@ const artists = [
   {
       name: "aurora (disney)",
       category: "Disney",
-      mainTags: "aurora (disney), blue eyes, blonde hair, long hair, pink dress, off-shoulder dress, sleeping beauty, disney",
-      enhancers: ["[]"],
+      mainTags: "aurora (disney), blue eyes, blonde hair, long hair, sleeping beauty, disney",
+      enhancers: ["pink off shoulder dress", "blue off shoulder dress"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8667,8 +8660,8 @@ const artists = [
   {
       name: "jasmine (disney)",
       category: "Disney",
-      mainTags: "jasmine (disney), brown eyes, black hair, long hair, dark skin, dark-skinned female, see-through pants, see-through clothes, blue bandeau, harem pants, aladdin (disney), disney",
-      enhancers: ["[]"],
+      mainTags: "jasmine (disney),  dark skin, dark-skinned female, brown eyes, black hair, long hair, multi-tied hair, aladdin (disney), disney",
+      enhancers: ["[see-through pants","see-through clothes","blue bandeau","harem pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8677,8 +8670,8 @@ const artists = [
   {
       name: "rapunzel (disney)",
       category: "Disney",
-      mainTags: "rapunzel (disney), green eyes, blonde hair, very long hair, single braid, absurdly long hair, hair flower, off-shoulder dress, tangled, disney",
-      enhancers: ["[]"],
+      mainTags: "rapunzel (disney), green eyes, blonde hair, absurdely long hair, single braid, tangled, disney",
+      enhancers: ["[hair flower","off-shoulder dress]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8687,8 +8680,8 @@ const artists = [
   {
       name: "snow white (disney)",
       category: "Disney",
-      mainTags: "snow white (disney), brown eyes, black hair, short hair, yellow skirt, two-tone dress, puffy short sleeves, snow white and the seven dwarfs, disney",
-      enhancers: ["[]"],
+      mainTags: "snow white (disney), brown eyes, black hair, short hair, snow white and the seven dwarfs, disney",
+      enhancers: ["[yellow skirt","two-tone dress","puffy short sleeves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8697,28 +8690,37 @@ const artists = [
   {
       name: "elsa (frozen)",
       category: "Disney",
-      mainTags: "elsa (frozen), blue eyes, blonde hair, long hair, single braid, off-shoulder dress, snowflakes, frozen (disney), disney",
-      enhancers: ["[]"],
+      mainTags: "elsa (frozen), blue eyes, blonde hair, long hair, single braid, frozen (disney), disney",
+      enhancers: [
+        "[off shoulder","aqua dress","blue cape]",
+        "[black shirt","strapless blue dress","purple cape","pleated skirt","long dress]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Shows or Movies"
   },
+  {
+    name: "anna (frozen)",
+    category: "Disney",
+    mainTags: "anna (frozen), brown hair, green eyes, long hair, frozen, disney",
+    enhancers: [
+        "[braided bun","frilled green dress","pleated skirt","black corset","necklace]",
+        "[twin braids","pink cape","teal shirt","blue skirt","black corset","knee boots]"
+  ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+},
   {
       name: "cinderella (disney)",
       category: "Disney",
       mainTags: "cinderella (disney), blue eyes, blonde hair, long hair, hair bun, makeup, detached sleeves, corset, elbow gloves, cinderella, disney",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "cinderella (disney)",
-      category: "Disney",
-      mainTags: "cinderella (disney), blue eyes, blonde hair, long hair, long brown skirt, teal shirt, long sleeves, black vest, waist apron, cinderella, disney",
-      enhancers: ["[]"],
+      enhancers: [
+        "[blue dress","hair bun","makeup","detached sleeves","corset","white elbow gloves]",
+        "[white bandanna","long brown dress","teal shirt","long sleeves","black vest","white waist apron]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8727,8 +8729,8 @@ const artists = [
   {
       name: "tinker bell (disney)",
       category: "Disney",
-      mainTags: "tinker bell (disney), green eyes, blonde hair, short hair, hair bun, fairy, fairy wings, green dress, peter pan (disney), disney",
-      enhancers: ["[]"],
+      mainTags: "tinker bell (disney), green eyes, blonde hair, short hair, hair bun, peter pan (disney), disney",
+      enhancers: ["[fairy","fairy wings","green dress]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8737,8 +8739,8 @@ const artists = [
   {
       name: "megara (disney)",
       category: "Disney",
-      mainTags: "megara (disney), brown eyes, brown hair, long hair, ponytail, roman, greco-roman clothes, sleeveless pink dress, hercules (1997 film), disney",
-      enhancers: ["[]"],
+      mainTags: "megara (disney), brown eyes, brown hair, long hair, ponytail, hercules (1997 film), disney",
+      enhancers: ["[roman","greco-roman clothes","sleeveless pink dress]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8747,8 +8749,8 @@ const artists = [
   {
       name: "hades (disney)",
       category: "Disney",
-      mainTags: "hades (disney), yellow eyes, blue hair, short hair, fiery hair, greco-roman clothes, off-shoulder dress, colored skin, blue skin, hercules (1997 film), disney",
-      enhancers: ["[]"],
+      mainTags: "hades (disney), yellow eyes, blue hair, short hair, fiery hair, colored skin, blue skin, hercules (1997 film), disney",
+      enhancers: ["[greco-roman clothes","off-shoulder dress]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8757,8 +8759,8 @@ const artists = [
   {
       name: "esmeralda (disney)",
       category: "Disney",
-      mainTags: "esmeralda (disney), green eyes, black hair, long hair, very dark skin, dark-skinned female, bracer, white shirt, puffy sleeves, hoop earrings, purple skirt, the hunchback of notre dame, disney",
-      enhancers: ["[]"],
+      mainTags: "esmeralda (disney), very dark skin, dark-skinned female, green eyes, black hair, long hair, the hunchback of notre dame, disney",
+      enhancers: ["[bracer","white shirt","puffy sleeves","hoop earrings","purple skirt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8767,8 +8769,8 @@ const artists = [
   {
       name: "pocahontas (disney)",
       category: "Disney",
-      mainTags: "pocahontas (disney), brown eyes, black hair, long hair, dark skin, dark-skinned female, dress, single-shoulder dress, tattoo, feather earring, pocahontas, disney",
-      enhancers: ["[]"],
+      mainTags: "pocahontas (disney), dark skin, dark-skinned female, brown eyes, black hair, long hair, pocahontas, disney",
+      enhancers: ["[dress","single-shoulder dress","tattoo","feather earring]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8777,8 +8779,8 @@ const artists = [
   {
       name: "maid marian (disney)",
       category: "Disney",
-      mainTags: "maid marian (disney), brown eyes, brown hair, long hair, animal nose, fox girl, fox tail, pinafore dress, pink dress, robin hood (disney), disney",
-      enhancers: ["[]"],
+      mainTags: "maid marian (disney), brown eyes, brown hair, long hair, animal nose, fox girl, fox tail, robin hood (disney), disney",
+      enhancers: ["[pinafore dress","pink dress]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8787,8 +8789,8 @@ const artists = [
   {
       name: "hiro hamada",
       category: "Disney",
-      mainTags: "hiro hamada, brown eyes, black hair, short hair, blue hoodie, red shirt, big hero 6, disney",
-      enhancers: ["[]"],
+      mainTags: "hiro hamada, brown eyes, black hair, short hair, big hero 6, disney",
+      enhancers: ["[blue hoodie","red shirt]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8797,8 +8799,8 @@ const artists = [
   {
       name: "gogo tomago",
       category: "Disney",
-      mainTags: "gogo tomago, brown eyes, black hair, short hair, bike shorts, open jacket, big hero 6, disney",
-      enhancers: ["[]"],
+      mainTags: "gogo tomago, brown eyes, black hair, short hair, big hero 6, disney",
+      enhancers: ["[bike shorts","open jacket]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8807,8 +8809,8 @@ const artists = [
   {
       name: "honey lemon",
       category: "Disney",
-      mainTags: "honey lemon, green eyes, blonde hair, long hair, glasses, yellow knit sweater, sweater dress, big hero 6, disney",
-      enhancers: ["[]"],
+      mainTags: "honey lemon, green eyes, blonde hair, long hair, glasses, big hero 6, disney",
+      enhancers: ["[yellow knit sweater","sweater dress]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8817,8 +8819,8 @@ const artists = [
   {
       name: "cass hamada",
       category: "Disney",
-      mainTags: "cass hamada, brown eyes, brown hair, short hair, green shirt, pants, cleavage, big hero 6, disney",
-      enhancers: ["[]"],
+      mainTags: "cass hamada, brown eyes, brown hair, short hair, big hero 6, disney",
+      enhancers: ["[green shirt","yoga pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8827,8 +8829,8 @@ const artists = [
   {
       name: "elastigirl",
       category: "Disney",
-      mainTags: "elastigirl, brown eyes, brown hair, short hair, helen parr, bodysuit, the incredibles, disney",
-      enhancers: ["[]"],
+      mainTags: "elastigirl, helen parr, brown eyes, brown hair, short hair, the incredibles, disney",
+      enhancers: ["bodysuit"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8837,8 +8839,8 @@ const artists = [
   {
       name: "violet parr",
       category: "Disney",
-      mainTags: "violet parr, blue eyes, black hair, long hair, eye mask, yellow hair band, red bodysuit, the incredibles, disney",
-      enhancers: ["[]"],
+      mainTags: "violet parr, blue eyes, black hair, long hair, the incredibles, disney",
+      enhancers: ["[eye mask","yellow hair band","red bodysuit]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
