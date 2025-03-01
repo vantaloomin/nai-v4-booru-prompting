@@ -8016,8 +8016,8 @@ const artists = [
   {
       name: "faye valentine",
       category: "Cowboy Bebop",
-      mainTags: "faye valentine, purple eyes, purple hair, short hair, cowboy bebop",
-      enhancers: ["[]"],
+      mainTags: "faye valentine, green eyes, purple hair, short hair, cowboy bebop",
+      enhancers: ["[orange headband","yellow shorts","yellow shirt","high collar","red jacket","light colored pantyhose]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8026,8 +8026,8 @@ const artists = [
   {
       name: "edward wong hau pepelu tivrusky iv",
       category: "Cowboy Bebop",
-      mainTags: "edward wong hau pepelu tivrusky iv, brown eyes, orange hair, short hair, cowboy bebop",
-      enhancers: ["[]"],
+      mainTags: "edward wong hau pepelu tivrusky iv, dark skin, dark skinned-female, brown eyes, red hair, blush stickers, short hair, cowboy bebop",
+      enhancers: ["[sleeveless white shirt","midriff","black shorts","goggles on head]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8037,7 +8037,7 @@ const artists = [
       name: "julia (cowboy bebop)",
       category: "Cowboy Bebop",
       mainTags: "julia (cowboy bebop), blue eyes, blonde hair, long hair, cowboy bebop",
-      enhancers: ["[]"],
+      enhancers: ["[black trench coat","red turtleneck","black pants","o-ring belt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8047,7 +8047,10 @@ const artists = [
       name: "yor briar",
       category: "SPY X FAMILY",
       mainTags: "yor briar, red eyes, black hair, long hair, spy x family",
-      enhancers: ["[]"],
+      enhancers: [
+        "[white headband","red sweater dress","off shoulder","black pantyhose","gold earrings]",
+        "[gold headband","gold rose","hair flower","black halter dress","black choker","off shoulder","fingerless gloves","two-sided fabric","thigh boots]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8056,138 +8059,11 @@ const artists = [
   {
       name: "anya (spy x family)",
       category: "SPY X FAMILY",
-      mainTags: "anya (spy x family), green eyes, pink hair, short hair, spy x family",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "matoi ryuuko",
-      category: "Kill la Kill",
-      mainTags: "matoi ryuuko, blue eyes, black hair, short hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "senketsu",
-      category: "Kill la Kill",
-      mainTags: "senketsu, blue eyes, black hair, short hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "kiryuuin satsuki",
-      category: "Kill la Kill",
-      mainTags: "kiryuuin satsuki, blue eyes, black hair, long hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "junketsu",
-      category: "Kill la Kill",
-      mainTags: "junketsu, blue eyes, white hair, short hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "mankanshoku mako",
-      category: "Kill la Kill",
-      mainTags: "mankanshoku mako, brown eyes, brown hair, short hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "sanageyama uzu",
-      category: "Kill la Kill",
-      mainTags: "sanageyama uzu, brown eyes, black hair, short hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "inumuta houka",
-      category: "Kill la Kill",
-      mainTags: "inumuta houka, blue eyes, blue hair, short hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "harime nui",
-      category: "Kill la Kill",
-      mainTags: "harime nui, blue eyes, blonde hair, long hair, hair bow, big hair, eyepatch, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "mikisugi aikurou",
-      category: "Kill la Kill",
-      mainTags: "mikisugi aikurou, blue eyes, purple hair, short hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "kiryuuin ragyou",
-      category: "Kill la Kill",
-      mainTags: "kiryuuin ragyou, red eyes, black hair, long hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "kinagase tsumugu",
-      category: "Kill la Kill",
-      mainTags: "kinagase tsumugu, brown eyes, orange hair, short hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "iori shirou",
-      category: "Kill la Kill",
-      mainTags: "iori shirou, brown eyes, blonde hair, short hair, kill la kill",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "jakuzure nonon",
-      category: "Kill la Kill",
-      mainTags: "jakuzure nonon, brown eyes, pink hair, short hair, hat, kill la kill",
-      enhancers: ["jakuzure nonon (symphony regalia)"],
+      mainTags: "anya (spy x family), green eyes, pink hair, short hair, hair pods, spy x family",
+      enhancers: [
+        "[eden academy school uniform","black dress","white thighhighs]",
+        "[red dress","white collar","yellow jacket]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8196,8 +8072,13 @@ const artists = [
   {
       name: "kim possible",
       category: "Kim Possible",
-      mainTags: "kim possible, green eyes, red hair, long hair, black shirt, cleavage, green cargo pants, kim possible (series)",
-      enhancers: ["[]"],
+      mainTags: "kim possible, green eyes, red hair, long hair, kim possible (series)",
+      enhancers: [
+        "[green crop top","blue capri pants]",
+        "[black turtleneck","crop top","black gloves","green cargo pants","utility belt]",
+        "[purple turtleneck","short sleeves","grey gloves","black pants","thigh holster]",
+        "[cheerleader","purple sleeveless shirt","crop top","purple skirt]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8206,8 +8087,8 @@ const artists = [
   {
       name: "ann possible",
       category: "Kim Possible",
-      mainTags: "ann possible, blue eyes, red hair, long hair, purple dress, lab coat, kim possible (series)",
-      enhancers: ["[]"],
+      mainTags: "ann possible, blue eyes, red hair, short hair, kim possible (series)",
+      enhancers: ["[purple dress","lab coat]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8216,8 +8097,8 @@ const artists = [
   {
       name: "shego",
       category: "Kim Possible",
-      mainTags: "shego, green eyes, black hair, long hair, black lips, cleavage cutout, two-tone leotard, fishnet pantyhose, kim possible (series)",
-      enhancers: ["[]"],
+      mainTags: "shego, colored skin, green skin, green eyes, black hair, very long hair, black lips, kim possible (series)",
+      enhancers: ["[black bodysuit","green bodysuit","multicolored bodysuit","black gloves","green gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8226,8 +8107,8 @@ const artists = [
   {
       name: "scarlet witch",
       category: "Marvel",
-      mainTags: "scarlet witch, green eyes, brown hair, long hair, headgear, marvel",
-      enhancers: ["[]"],
+      mainTags: "scarlet witch, wanda maximoff, green eyes, brown hair, long hair, avengers (series),marvel",
+      enhancers: ["[superhero costume","red highleg leotard","headdress","red cape","pink pantyhose]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8236,8 +8117,8 @@ const artists = [
   {
       name: "she-hulk",
       category: "Marvel",
-      mainTags: "she-hulk, green eyes, green hair, long hair, muscular female, green skin, marvel",
-      enhancers: ["[]"],
+      mainTags: "she-hulk, colored skin, green skin, muscular female, green eyes, green hair, long hair, marvel",
+      enhancers: ["[purple highleg leotard","white leotard","two-tone leotard","fingerless purple gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8246,8 +8127,11 @@ const artists = [
   {
       name: "spider-gwen",
       category: "Marvel",
-      mainTags: "spider-gwen, blue eyes, blonde hair, short hair, marvel",
-      enhancers: ["[]"],
+      mainTags: "spider-gwen, gwen stacy, spider-man (series), marvel",
+      enhancers: [
+        "[blue eyes","blonde hair","medium hair","superhero costume","black bodysuit","multicolored bodysuit","hood down","black hairband]",
+        "[superhero costume","white mask","black bodysuit","multicolored bodysuit]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8256,8 +8140,11 @@ const artists = [
   {
       name: "spider-woman",
       category: "Marvel",
-      mainTags: "spider-woman, green eyes, black hair, long hair, marvel",
-      enhancers: ["[]"],
+      mainTags: "spider-woman, jessica drew, black hair, long hair, spider-man (series), marvel",
+      enhancers: [
+        "[superhero costume","red bodysuit","yellow gloves","yellow knee boots","red mask]",
+        "[green eyes", "no mask", "superhero costume","red bodysuit","yellow gloves","yellow knee boots]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8266,8 +8153,8 @@ const artists = [
   {
       name: "loki (marvel)",
       category: "Marvel",
-      mainTags: "loki (marvel), green eyes, blonde hair, short hair, sylvie laufeydottir, marvel",
-      enhancers: ["[]"],
+      mainTags: "loki (marvel), blue eyes, black hair, medium hair, marvel cinematic universe, marvel",
+      enhancers: ["[black coat","horned helmet","fur-trimmed coat","green shirt","black pants","multiple belts","fingerless gloves]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8276,8 +8163,8 @@ const artists = [
   {
       name: "thor (marvel)",
       category: "Marvel",
-      mainTags: "thor (marvel), blue eyes, blonde hair, long hair, marvel",
-      enhancers: ["[]"],
+      mainTags: "thor (marvel), blue eyes, blonde hair, long hair, marvel cinematic universe, marvel",
+      enhancers: ["[armor","black breastplate","red cape","multiple belts","sleeveless shirt","wrist guards","black pants]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8286,8 +8173,11 @@ const artists = [
   {
       name: "iron man",
       category: "Marvel",
-      mainTags: "iron man, blue eyes, black hair, short hair, power armor, marvel",
-      enhancers: ["[]"],
+      mainTags: "iron man, avengers (series), marvel",
+      enhancers: [
+        "[superhero costume","red armor","power armor","blue eyes","glasses","brown hair","short hair","no helmet]",
+        "[superhero costume","red armor","power armor]"
+    ],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8296,8 +8186,8 @@ const artists = [
   {
       name: "sue storm",
       category: "Marvel",
-      mainTags: "sue storm, blue eyes, blonde hair, long hair, blue bodysuit, fantastic four, marvel",
-      enhancers: ["[]"],
+      mainTags: "sue storm, blue eyes, blonde hair, long hair, fantastic four, marvel",
+      enhancers: ["[superhero costume","skin tight","blue bodysuit]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8306,8 +8196,8 @@ const artists = [
   {
       name: "cyclops (x-men)",
       category: "Marvel",
-      mainTags: "cyclops (x-men), brown eyes, brown hair, short hair, x-men (anime), marvel",
-      enhancers: ["[]"],
+      mainTags: "cyclops (x-men), visor, brown hair, short hair, x-men (anime), marvel",
+      enhancers: ["[superhero costume","blue bodysuit","yellow shorts","yellow gloves","yellow harness","thigh straps]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8316,8 +8206,11 @@ const artists = [
   {
       name: "emma frost",
       category: "Marvel",
-      mainTags: "emma frost, blue eyes, blonde hair, long hair, fur trim, white cape, x-men, x-men (anime), marvel",
-      enhancers: ["[]"],
+      mainTags: "emma frost, blue eyes, blue lips, blonde hair, long hair, x-men (anime), marvel",
+      enhancers: [
+        "[superhero costume","white corset","cross-laced top","white panties","white cape","white thigh boots","fur-trimmed cape","white elbow gloves]",
+        "[superhero costume","white off-shoulder shirt","crop top","white pants","white cape","white elbow gloves]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8327,7 +8220,7 @@ const artists = [
       name: "gambit",
       category: "Marvel",
       mainTags: "gambit, red eyes, brown hair, short hair, x-men (anime), marvel",
-      enhancers: ["[]"],
+      enhancers: ["[black headband","brown trenchcoat","pink vest","blue shirt","black pants","blue knee boots]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8336,8 +8229,12 @@ const artists = [
   {
       name: "jean grey",
       category: "Marvel",
-      mainTags: "jean grey, green eyes, red hair, long hair, green bodysuit, green headband, yellow gloves, elbow gloves, x-men, marvel",
-      enhancers: ["[]"],
+      mainTags: "jean grey, green eyes, red hair, long hair,  x-men (anime), marvel",
+      enhancers: [
+        "[phoenix (x-men)","superhero costume","green bodysuit","yellow elbow gloves","headband","shoulder pads]",
+        "[superhero costume","black headband","black bodysuit","yellow bodysuit","two-tone bodysuit","black shoulder pads","fingerless elbow gloves","black gloves]",
+        "[superhero costume","yellow bodysuit","blue highleg leotard","bodysuit under clothes","blue bracers","blue headdress","red forehead jewel","blue belt]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8347,7 +8244,10 @@ const artists = [
       name: "jubilee",
       category: "Marvel",
       mainTags: "jubilee, brown eyes, black hair, short hair, x-men, marvel",
-      enhancers: ["[]"],
+      enhancers: [
+        "[superhero costume","yellow coat","black shirt","pink shirt","two-tone shirt","eyewear on head","black fingerless gloves","denim shorts","black belt","black thighhighs","knee boots]",
+        "[superhero costume","black bodysuit","skintight","pink choker","pink belt","yellow coat","eyewear on head]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8356,8 +8256,8 @@ const artists = [
   {
       name: "magik (x-men)",
       category: "Marvel",
-      mainTags: "magik (x-men), blue eyes, blonde hair, long hair, abs, x-men, marvel",
-      enhancers: ["[]"],
+      mainTags: "magik (x-men), blue eyes, blonde hair, long hair, x-men, marvel",
+      enhancers: ["[superhero costume","hair decoration","shoulder pads","single spiked vambrace","black crop top","black short shorts","leg armor","knee pads","single detached sleeve","black gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8366,8 +8266,8 @@ const artists = [
   {
       name: "psylocke",
       category: "Marvel",
-      mainTags: "psylocke, purple eyes, purple hair, long hair, facial mark, sword, butterfly, x-men (anime), marvel",
-      enhancers: ["[]"],
+      mainTags: "psylocke, purple eyes, black hair, streaked hair, purple hair, long hair, facial mark, x-men (anime), marvel",
+      enhancers: ["[superhero costume","dark purple leotard","highleg leotard","detached sleeves","fingerless gloves","purple gloves","red sash]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8376,8 +8276,8 @@ const artists = [
   {
       name: "rogue (x-men)",
       category: "Marvel",
-      mainTags: "rogue (x-men), green eyes, brown hair, long hair, x-men (anime), marvel",
-      enhancers: ["[]"],
+      mainTags: "rogue (x-men), green eyes, brown hair, white hair, two-tone hair, long hair, x-men (anime), marvel",
+      enhancers: ["[superhero costume","green bodysuit","yellow bodysuit","two-tone bodysuit","yellow gloves","red belt","brown cropped jacket]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8387,17 +8287,17 @@ const artists = [
       name: "wolverine(x-men)",
       category: "Marvel",
       mainTags: "wolverine(x-men), blue eyes, black hair, short hair, x-men (anime), x-men, marvel",
-      enhancers: ["[]"],
+      enhancers: ["[superhero costume","sleeveless bodysuit","yellow bodysuit","blue gloves","claws","blue knee boots","yellow helmet","fake blue horns]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Shows or Movies"
   },
   {
-      name: "black cat",
+      name: "black cat (marvel)",
       category: "Marvel",
-      mainTags: "black cat, blue eyes, white hair, long hair, domino mask, fur-trimmed bodysuit, spider-man (series), marvel",
-      enhancers: ["[]"],
+      mainTags: "black cat (marvel), felicia hardy, blue eyes, white hair, long hair, spider-man (series), marvel",
+      enhancers: ["[superhero costume","black bodysuit","domino mask","fur trim","white gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8406,8 +8306,8 @@ const artists = [
   {
       name: "doctor strange",
       category: "Marvel",
-      mainTags: "doctor strange, gray eyes, black hair, short hair, eye of agamotto, marvel",
-      enhancers: ["[]"],
+      mainTags: "doctor strange, gray eyes, black hair, streaked hair, short hair, doctor strange (series), marvel",
+      enhancers: ["[superhero costume","blue shirt","blue pants","belt","red cloak","two-sided cloak","eye of agamotto]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8416,8 +8316,8 @@ const artists = [
   {
       name: "deadpool",
       category: "Marvel",
-      mainTags: "deadpool, brown eyes, black hair, short hair, bodysuit, deadpool (series), marvel",
-      enhancers: ["[]"],
+      mainTags: "deadpool, deadpool (series), marvel",
+      enhancers: ["[superhero costume","red bodysuit","utility belt","black gloves]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8426,8 +8326,8 @@ const artists = [
   {
       name: "gwenpool",
       category: "Marvel",
-      mainTags: "gwenpool, blue eyes, blonde hair, short hair, deadpool (series), marvel",
-      enhancers: ["pink leotard", "belt", "belt pouch", "weapon on back", "thigh holster"],
+      mainTags: "gwenpool, blue eyes, blonde hair, gradient hair, short hair, deadpool (series), marvel",
+      enhancers: ["[superhero costume","pink leotard","multicolored leotard","harness","utility belt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8444,20 +8344,10 @@ const artists = [
       mediaType: "Shows or Movies"
   },
   {
-      name: "octor octopus",
+      name: "doctor octopus",
       category: "Marvel",
-      mainTags: "octor octopus, brown eyes, brown hair, short hair, mechanical tentacles, marvel",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "galactus",
-      category: "Marvel",
-      mainTags: "galactus, purple eyes, purple hair, short hair, marvel",
-      enhancers: ["[]"],
+      mainTags: "doctor octopus, brown eyes, brown hair, short hair, mechanical tentacles, marvel",
+      enhancers: ["[superhero costume","sunglasses","brown trench coat","black shirt","black pants","black gloves]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8466,8 +8356,8 @@ const artists = [
   {
       name: "magneto",
       category: "Marvel",
-      mainTags: "magneto, blue eyes, white hair, short hair, cape, helmet, hair under helmet, bodysuit, x-men, marvel",
-      enhancers: ["[]"],
+      mainTags: "magneto, blue eyes, white hair, short hair, x-men (anime), marvel",
+      enhancers: ["[superhero costume","red bodysuit","purple cape","red helmet","purple underwear","purple gauntlets]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8476,8 +8366,8 @@ const artists = [
   {
       name: "mystique",
       category: "Marvel",
-      mainTags: "mystique, yellow eyes, red hair, short hair, colored skin, blue skin, white leotard, cleavage cutout, x-men, marvel",
-      enhancers: ["[]"],
+      mainTags: "mystique, yellow eyes, red hair, medium hair, colored skin, blue skin, x-men, marvel",
+      enhancers: ["[superhero costume","white dress","pelvic curtain","white elbow gloves","white thigh boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8486,7 +8376,7 @@ const artists = [
   {
       name: "venom (marvel)",
       category: "Marvel",
-      mainTags: "venom (marvel), white eyes, black hair, short hair, black bodysuit, very long tongue, open mouth, sharp teeth, tentacles, symbiote, marvel",
+      mainTags: "venom (marvel), white eyes, black hair, short hair, black bodysuit, very long tongue, tentacles, symbiote, marvel",
       enhancers: ["[]"],
       defaultGender: "boy",
       genderswapAvailable: true,
@@ -8496,8 +8386,8 @@ const artists = [
   {
       name: "superman",
       category: "DC",
-      mainTags: "superman, blue eyes, black hair, short hair, two-tone leotard, superman (series), dc comics",
-      enhancers: ["[]"],
+      mainTags: " superman, blue eyes, black hair, short hair, superman (series), dc comics",
+      enhancers: ["[superhero costume","blue bodysuit","red male underwear","red cape","superman logo]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8506,8 +8396,11 @@ const artists = [
   {
       name: "supergirl",
       category: "DC",
-      mainTags: "supergirl, blue eyes, blonde hair, long hair, two-tone bodysuit, superman (series), dc comics",
-      enhancers: ["[]"],
+      mainTags: "supergirl, blue eyes, blonde hair, long hair, superman (series), dc comics",
+      enhancers: [
+        "[superhero costume","blue shirt","red skirt","red cape","superman logo]",
+        "[superhero costume","blue crop top","blue miniskirt","red cape","superman logo","long sleeves","red knee boots]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8517,7 +8410,7 @@ const artists = [
       name: "power girl",
       category: "DC",
       mainTags: "power girl, blue eyes, blonde hair, short hair, superman (series), dc comics",
-      enhancers: ["[]"],
+      enhancers: ["[superhero costume","white leotard","cleavage cutout","blue elbow gloves","red cape","blue knee boots","high collar","red belt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8526,8 +8419,8 @@ const artists = [
   {
       name: "batman",
       category: "DC",
-      mainTags: "batman, blue eyes, black hair, short hair, bodysuit, no mask, batman (series), dc comics",
-      enhancers: ["[]"],
+      mainTags: "batman, blue eyes, black hair, short hair, batman (series), dc comics",
+      enhancers: ["[superhero costume","black bodysuit","black male underwear","utility belt","black gloves","black cape","batman symbol","black mask]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8537,7 +8430,10 @@ const artists = [
       name: "batgirl",
       category: "DC",
       mainTags: "batgirl, blue eyes, red hair, long hair, grey bodysuit, batman (series), dc comics",
-      enhancers: ["[]"],
+      enhancers: [
+        "[superhero costume","black bodysuit","yellow gloves","blue capelet","yellow capelet","two-sided capelet","yellow belt","black mask","batman symbol]",
+        "[superhero costume","grey bodysuit","blue gloves","blue capelet","black capelet","two-sided capelet","yellow belt","blue mask","batman symbol]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8546,8 +8442,11 @@ const artists = [
   {
       name: "wonder woman",
       category: "DC",
-      mainTags: "wonder woman, blue eyes, black hair, long hair, leotard, dc comics",
-      enhancers: ["[]"],
+      mainTags: "wonder woman, blue eyes, black hair, long hair, wonder woman (series), dc comics",
+      enhancers: [
+        "[superhero costume","blue highleg leotard","strapless leotard","star print","bracers","gold headband]",
+        "[superhero costume","red highleg leotard","strapless leotard","star print","blue skirt","bracers","gold headband]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8556,8 +8455,8 @@ const artists = [
   {
       name: "green lantern",
       category: "DC",
-      mainTags: "green lantern, brown eyes, black hair, short hair, domino mask, leotard, green lantern (series), dc comics",
-      enhancers: ["[]"],
+      mainTags: "green lantern, brown eyes, black hair, short hair, green lantern (series), dc comics",
+      enhancers: ["[superhero costume","black bodysuit","green domino mask","white gloves]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8566,8 +8465,8 @@ const artists = [
   {
       name: "the flash",
       category: "DC",
-      mainTags: "the flash, blue eyes, brown hair, short hair, leotard, thighhigh boots, dc comics",
-      enhancers: ["[]"],
+      mainTags: "the flash, blue eyes, brown hair, short hair, justice league, dc comics",
+      enhancers: ["[superhero costume","red bodysuit","hair ornament","red helmet","lightning bolt symbol]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8576,8 +8475,8 @@ const artists = [
   {
       name: "zatanna zatara",
       category: "DC",
-      mainTags: "zatanna zatara, blue eyes, black hair, long hair, fishnet pantyhose, two-tone leotard, black leotard, white leotard, holding wand, thighhigh boots, dc comics",
-      enhancers: ["[]"],
+      mainTags: "zatanna zatara, blue eyes, black hair, long hair, dc comics",
+      enhancers: ["[superhero costume","fishnet pantyhose","two-tone leotard","black leotard","white leotard","thigh boots","top hat","black jacket]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8586,8 +8485,11 @@ const artists = [
   {
       name: "robin (dc)",
       category: "DC",
-      mainTags: "robin (dc), green eyes, black hair, short hair, spikey hair, domino mask, two-tone leotard, green gloves, batman (series), dc comics",
-      enhancers: ["[]"],
+      mainTags: "robin (dc), green eyes, black hair, short hair, spiked hair, batman (series), dc comics",
+      enhancers: [
+        "[superhero costume","black domino mask","green bodysuit","red shirt","utility belt","green gloves]",
+        "[superhero costume","black domino mask","red bodysuit","red pants","black male underwear","underwear over clothes","utility belt","black gloves]"
+    ],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8596,18 +8498,8 @@ const artists = [
   {
       name: "nightwing",
       category: "DC",
-      mainTags: "nightwing, blue eyes, black hair, short hair, bodysuit, domino mask, batman (series), dc comics",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "cyborg (dc)",
-      category: "DC",
-      mainTags: "cyborg (dc), brown eyes, black hair, short hair, teen titans, dc comics",
-      enhancers: ["[]"],
+      mainTags: "nightwing, dick grayson,blue eyes, black hair, short hair, bodysuit, domino mask, batman (series), dc comics",
+      enhancers: ["[superhero costume","black bodysuit","blue batman symbol","domino mask]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8617,7 +8509,7 @@ const artists = [
       name: "beast boy (dc)",
       category: "DC",
       mainTags: "beast boy (dc), green eyes, green hair, short hair, colored skin, green skin, two-tone super hero costume, teen titans, dc comics",
-      enhancers: ["[]"],
+      enhancers: ["[superhero costume","black bodysuit","purple bodysuit","two-tone bodysuit","grey gloves","belt]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8627,7 +8519,7 @@ const artists = [
       name: "raven (dc)",
       category: "DC",
       mainTags: "raven (dc), purple eyes, purple hair, short hair, colored skin, grey skin, forehead jewel, belt, black leotard, teen titans, dc comics",
-      enhancers: ["[]"],
+      enhancers: ["[superhero costume","black highleg leotard","purple hooded cloak","hood up","fingerless gloves","belt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8637,7 +8529,10 @@ const artists = [
       name: "starfire",
       category: "DC",
       mainTags: "starfire, green eyes, orange hair, long hair, tan skin, green scelera, purple crop top, purple shorts, tamaranean, teen titans, dc comics",
-      enhancers: ["[]"],
+      enhancers: [
+        "[superhero costume","purple crop top","silver collar","silver bracers","purple skirt","silver belt","purple knee boots]",
+        "[superhero costume","starfire (1980 costume)","impossible clothes","clothing cutouts","plunging neckline","purple slingshot swimsuit","revealing clothes","purple collar]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8646,8 +8541,8 @@ const artists = [
   {
       name: "terra (dc)",
       category: "DC",
-      mainTags: "terra (dc), blue eyes, blonde hair, long hair, black shirt, yellow shorts, midriff, utility belt, teen titans, dc comics",
-      enhancers: ["[]"],
+      mainTags: "terra (dc), blue eyes, blonde hair, long hair, teen titans, dc comics",
+      enhancers: ["[superhero costume","black shirt","yellow shorts","midriff","utility belt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8656,8 +8551,11 @@ const artists = [
   {
       name: "joker (dc)",
       category: "DC",
-      mainTags: "joker (dc), green eyes, green hair, short hair, facepaint, red lips, purple gloves, bowtie, suit jacket, open mouth, teeth, batman (series), dc comics",
-      enhancers: ["[]"],
+      mainTags: "joker (dc), green eyes, green hair, short hair, facepaint, red lips, batman (series), dc comics",
+      enhancers: [
+        "[superhero costume","purple suit","pinstripe suit pants","green vest","orange shirt","green ascot","white gloves]",
+        "[superhero costume","purple suit","yellow shirt","blue ascot","white gloves]"
+    ],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8666,18 +8564,12 @@ const artists = [
   {
       name: "harley quinn",
       category: "DC",
-      mainTags: "harley quinn, blue eyes, blonde hair, long hair, twin tails, harley quinn (classic), black bodysuit, red bodysuit, facepaint, white facepaint, domino mask, black lipstick, batman (series), dc comics",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "harley quinn",
-      category: "DC",
-      mainTags: "harley quinn, blue eyes, blonde hair, long hair, twin tails, harley quinn (suicide squad), two-tone crop top, fishnet pantyhose, two-tone shorts, suspenders, batman (series), dc comics",
-      enhancers: ["[]"],
+      mainTags: "harley quinn, blue eyes, batman (series), dc comics",
+      enhancers: [
+        "[harley quinn (classic)","black bodysuit","red bodysuit","two-tone bodysuit","frilled collar","jester cap","mask]",
+        "[harley quinn (suicide squad)","blonde hair","long hair","twintails","gradient hair","multicolored hair","fishnet pantyhose","white crop top","mutlicolored short shorts","single fingerless glove]",
+        "[harley quinn (2021 outfit)","blonde hair","long hair","twintails","gradient hair","multicolored hair","green hair","pink hair","black pants","red pants","two-tone pants","black camisole","red camisole","two-two camisole","red gloves","red choker]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8686,8 +8578,11 @@ const artists = [
   {
       name: "catwoman",
       category: "DC",
-      mainTags: "catwoman, green eyes, black hair, short hair, latex bodysuit, batman (series), dc comics",
-      enhancers: ["[]"],
+      mainTags: "catwoman, green eyes, black hair, short hair, batman (series), dc comics",
+      enhancers: [
+        "[superhero costume","grey bodysuit","black elbow gloves","mask","fake animal ears","yellow belt]",
+        "[superhero costume","black latex bodysuit","fake animal ears","goggles on head","black elbow gloves]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8697,17 +8592,11 @@ const artists = [
       name: "poison ivy",
       category: "DC",
       mainTags: "poison ivy, green eyes, red hair, long hair, colored skin, green skin, tattoo, green lips, monster girl, batman (series), dc comics",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "poison ivy",
-      category: "DC",
-      mainTags: "poison ivy, green eyes, red hair, long hair, panties, batman (series), dc comics",
-      enhancers: ["[]"],
+      enhancers: [
+        "[superhero costume","colored skin","green skin","tattoo","green lips","monster girl","red collared shirt","revealing clothes","green panties]",
+        "[superhero costume","strapless leotard","sleeveless leotard","leaf highleg leotard","leaf hair ornament]",
+        "[superhero costume","strapless leotard","sleeveless leotard","green leotard","green pantyhose","green elbow gloves]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -8716,8 +8605,8 @@ const artists = [
   {
       name: "jinx (dc)",
       category: "DC",
-      mainTags: "jinx (dc), purple eyes, pink hair, long hair, hair horns, colored skin, grey skin, striped thighhighs, highleg leotard, impossible leotard, teen titans, dc comics",
-      enhancers: ["[]"],
+      mainTags: "jinx (dc), colored skin, grey skin, purple eyes, pink hair, long hair, hair horns, teen titans, dc comics",
+      enhancers: ["[superhero costume","purple dress","wide sleeves","striped pantyhose","purple pantyhose","black pantyhose","high collar]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
