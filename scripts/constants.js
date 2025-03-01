@@ -9535,7 +9535,8 @@ const artists = [
       category: "Other",
       mainTags: "aya brea, blue eyes, blonde hair, short hair, black vest, ripped jeans, parasite eve i, parasite eve (series)",
       enhancers: [
-      "[--black vest", "--ripped jeans", "black gown]"
+        "[black vest","cross-laced top","ripped jeans","black belt","knee boots]",
+        "[black dress","single side slit]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -9546,27 +9547,7 @@ const artists = [
       name: "regina (dino crisis)",
       category: "Other",
       mainTags: "regina (dino crisis), green eyes, red hair, short hair, dino crisis",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "isabelle (animal crossing)",
-      category: "Other",
-      mainTags: "isabelle (animal crossing), brown eyes, yellow hair, long hair, twintails, dog girl, animal crossing",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "ankha (animal crossing)",
-      category: "Other",
-      mainTags: "ankha (animal crossing), blue eyes, yellow hair, short hair, cat girl, animal crossing",
-      enhancers: ["[]"],
+      enhancers: ["[black bodysuit","black leotard","detached sleeves","black fingerless gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9575,8 +9556,8 @@ const artists = [
   {
       name: "ayane (doa)",
       category: "Dead or Alive",
-      mainTags: "ayane (doa), purple eyes, purple hair, long hair, purple dress, detached sleeves, dead or alive",
-      enhancers: ["[]"],
+      mainTags: "ayane (doa), purple eyes, purple hair, short hair, dead or alive",
+      enhancers: ["[short purple kimono","detached sleeves","red obi","purple thighhighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9585,9 +9566,10 @@ const artists = [
   {
       name: "marie rose",
       category: "Dead or Alive",
-      mainTags: "marie rose, blue eyes, blonde hair, long hair, twintails, black dress, dead or alive 5, dead or alive",
+      mainTags: "marie rose, blue eyes, blonde hair, long hair, twintails, dead or alive 5, dead or alive",
       enhancers: [
-      "[--black dress", "marie rose (devilish servant against the splashing waves)]"
+        "[black dress","gothic lolita","black choker","red back bow]",
+        "[marie rose (devilish servant against the splashing waves)","blue one-piece swimsuit","highleg one-piece swimsuit","see-through clothes","blue thighhighs","detached sleeves","black gloves]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -9597,8 +9579,8 @@ const artists = [
   {
       name: "kasumi (doa)",
       category: "Dead or Alive",
-      mainTags: "kasumi (doa), brown eyes, brown hair, long hair, ponytail, japanese clothes, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
+      mainTags: "kasumi (doa), brown eyes, brown hair, long hair, ponytail, dead or alive 6, dead or alive",
+      enhancers: ["[japanese clothes","pelvic curtain","white thighhighs","arm guards]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9607,9 +9589,10 @@ const artists = [
   {
       name: "honoka (doa)",
       category: "Dead or Alive",
-      mainTags: "honoka (doa), brown eyes, pink hair, long hair, black jacket, dead or alive 6, dead or alive",
+      mainTags: "honoka (doa), brown eyes, pink hair, long hair, dead or alive 6, dead or alive",
       enhancers: [
-      "[--black jacket", "honoka (summer angel on the shore) (doa)]"
+        "[blue jacket","plaid skirt","thigh socks","red necktie","single blue glove]",
+        "[honoka (summer angel on the shore) (doa) bikini","official alternate costume]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -9620,7 +9603,7 @@ const artists = [
       name: "nyotengu",
       category: "Dead or Alive",
       mainTags: "nyotengu, purple eyes, black hair, long hair, hair cones, wings, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
+      enhancers: ["[black kimono","yellow obi","hair ornament","torkin hat","thighlets]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9629,8 +9612,8 @@ const artists = [
   {
       name: "hitomi (doa)",
       category: "Dead or Alive",
-      mainTags: "hitomi (doa), blue eyes, brown hair, short hair, karate gi, white pants, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
+      mainTags: "hitomi (doa), blue eyes, brown hair, short hair, dead or alive 6, dead or alive",
+      enhancers: ["[karate gi","white pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9639,18 +9622,8 @@ const artists = [
   {
       name: "tina armstrong",
       category: "Dead or Alive",
-      mainTags: "tina armstrong, blue eyes, blonde hair, long hair, leather coat, red bikini top, two-tone leather pants, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "helena douglas",
-      category: "Dead or Alive",
-      mainTags: "helena douglas, blue eyes, blonde hair, long hair, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
+      mainTags: "tina armstrong, blue eyes, blonde hair, long hair, dead or alive 6, dead or alive",
+      enhancers: ["[leather coat","red bikini top","two-tone leather pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9659,8 +9632,8 @@ const artists = [
   {
       name: "christie (doa)",
       category: "Dead or Alive",
-      mainTags: "christie (doa), gray eyes, silver hair, short hair, black sleeveless sweater, black pants, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
+      mainTags: "christie (doa), gray eyes, silver hair, short hair, dead or alive 6, dead or alive",
+      enhancers: ["[black sleeveless sweater","leather pants","black belt","black fingerless gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9669,8 +9642,8 @@ const artists = [
   {
       name: "kokoro (doa)",
       category: "Dead or Alive",
-      mainTags: "kokoro (doa), brown eyes, black hair, long hair, chinese clothes, sleeveless pink shirt, detached collar, puffy white pants, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
+      mainTags: "kokoro (doa), brown eyes, black hair, long hair, dead or alive 6, dead or alive",
+      enhancers: ["[chinese clothes","sleeveless pink shirt","detached collar","puffy white pants","frilled cuffs","pink wrist ribbons]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9679,38 +9652,8 @@ const artists = [
   {
       name: "mila (doa)",
       category: "Dead or Alive",
-      mainTags: "mila (doa), brown eyes, red hair, short hair, red crop top, long black shorts, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "lisa hamilton",
-      category: "Dead or Alive",
-      mainTags: "lisa hamilton, brown eyes, brown hair, long hair, dark skin, dark-skinned female, bikini top only, wrestling outfit, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "tamaki (doa)",
-      category: "Dead or Alive",
-      mainTags: "tamaki (doa), brown eyes, brown hair, long hair, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "nico (doa)",
-      category: "Dead or Alive",
-      mainTags: "nico (doa), blue eyes, blue hair, short hair, dead or alive 6, dead or alive",
-      enhancers: ["[]"],
+      mainTags: "mila (doa), brown eyes, red hair, short hair, dead or alive 6, dead or alive",
+      enhancers: ["[boxer","red sports bra","black boxing shorts","midriff]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9741,7 +9684,8 @@ const artists = [
       category: "Splatoon",
       mainTags: "callie (splatoon), yellow eyes, black hair, tentacle hair, splatoon (series)",
       enhancers: [
-      "[callie (squid sister outfit) (splatoon)", "black dress", "detached collar]", "callie (octo idol outfit) (splatoon)"],
+      "[callie (squid sister outfit) (splatoon)", "black dress", "detached collar]",
+      "callie (octo idol outfit) (splatoon)"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -9752,7 +9696,9 @@ const artists = [
       category: "Splatoon",
       mainTags: "marie (splatoon), yellow eyes, green hair, tentacle hair, splatoon (series)",
       enhancers: [
-      "[marie (squid sister outfit) (splatoon)", "black dress", "detached collar]", "marie (octo idol outfit) (splatoon)", "marie (kimono) (splatoon)"],
+      "[marie (squid sister outfit) (splatoon)", "black dress", "detached collar]",
+      "marie (octo idol outfit) (splatoon)",
+      "marie (kimono) (splatoon)"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
