@@ -10993,8 +10993,8 @@ const artists = [
   {
       name: "lucifer (helltaker)",
       category: "Helltaker",
-      mainTags: "lucifer (helltaker), red eyes, white hair, long hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "lucifer (helltaker), red eyes, white hair, long hair, demon girl, demon horns, demon tail, helltaker",
+      enhancers: ["[headdress","pant suit","black jacket","black pants","red shirt","black necktie","white gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11003,8 +11003,8 @@ const artists = [
   {
       name: "modeus (helltaker)",
       category: "Helltaker",
-      mainTags: "modeus (helltaker), red eyes, white hair, long hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "modeus (helltaker), demon girl, small horns, demon tail, red eyes, white hair, medium hair, helltaker",
+      enhancers: ["[black jacket","black skirt","red turtleneck sweater","red pantyhose","knee boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11013,8 +11013,8 @@ const artists = [
   {
       name: "justice (helltaker)",
       category: "Helltaker",
-      mainTags: "justice (helltaker), red eyes, white hair, short hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "justice (helltaker), demon girl, small horns, demon tail, red eyes, white hair, short hair, helltaker",
+      enhancers: ["[red headband","black jacket","red shirt","short sleeves","jacket on shoulders","black necktie","fingerless red gloves","black pants","sunglasses]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11023,8 +11023,8 @@ const artists = [
   {
       name: "helltaker (character)",
       category: "Helltaker",
-      mainTags: "helltaker (character), brown eyes, brown hair, short hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "helltaker (character), muscular male, brown eyes, brown hair, short hair, helltaker",
+      enhancers: ["[white suit jacket","red shirt","white pants","sunglasses]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11033,8 +11033,8 @@ const artists = [
   {
       name: "malina (helltaker)",
       category: "Helltaker",
-      mainTags: "malina (helltaker), red eyes, white hair, short hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "malina (helltaker), demon girl, small horns, demon tail, red eyes, white hair, short hair, helltaker",
+      enhancers: ["[red shirt","black vest","black skirt","pantyhose","black knee boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11043,8 +11043,8 @@ const artists = [
   {
       name: "judgement (helltaker)",
       category: "Helltaker",
-      mainTags: "judgement (helltaker), red eyes, black hair, long hair, dark skin, dark-skinned female, helltaker",
-      enhancers: ["[]"],
+      mainTags: "judgement (helltaker), dark skin-dark-skinned female, demon girl, horns, demon tail, white eyes, white hair, long hair, ponytail, helltaker",
+      enhancers: ["[black jacket","open jacket","gauntlets","belt","black panties","black thighhighs","thigh straps","red armband]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11053,8 +11053,8 @@ const artists = [
   {
       name: "azazel (helltaker)",
       category: "Helltaker",
-      mainTags: "azazel (helltaker), blue eyes, blonde hair, long hair, halo, helltaker",
-      enhancers: ["[]"],
+      mainTags: "azazel (helltaker), blue eyes, black hair, short hair, halo, helltaker",
+      enhancers: ["[white hair ribbon","white shirt","white pants","gradient pants","white gloves","short sleeves","cross necklace]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11063,8 +11063,8 @@ const artists = [
   {
       name: "zdrada (helltaker)",
       category: "Helltaker",
-      mainTags: "zdrada (helltaker), red eyes, purple hair, long hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "zdrada (helltaker), demon girl, horns, demon tail, red eyes, white hair, short hair, helltaker",
+      enhancers: ["[red shirt","black pants","cross necklace","black knee boots","wrist cuffs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11073,8 +11073,8 @@ const artists = [
   {
       name: "pandemonica (helltaker)",
       category: "Helltaker",
-      mainTags: "pandemonica (helltaker), red eyes, blonde hair, short hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "pandemonica (helltaker), demon girl, horns, demon tail, red eyes, glasses, white hair, short hair, helltaker",
+      enhancers: ["[black suit","black skirt","black jacket","red shirt","lanyard","black gloves","black knee boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11083,8 +11083,8 @@ const artists = [
   {
       name: "beelzebub (helltaker)",
       category: "Helltaker",
-      mainTags: "beelzebub (helltaker), red eyes, black hair, medium hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: " beelzebub (helltaker), demon girl, horns, demon tail, red eyes, white hair, short hair, spikes, helltaker",
+      enhancers: ["[red suit","red jacket","two-sided jacket","red pants","black shirt","red vest","red ascot","red gloves","red knee boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11093,8 +11093,8 @@ const artists = [
   {
       name: "loremaster (helltaker)",
       category: "Helltaker",
-      mainTags: "loremaster (helltaker), red eyes, purple hair, long hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "loremaster (helltaker), demon girl, horns, demon tail, red eyes, white hair, long hair, red-tinted eyewear, helltaker",
+      enhancers: ["[red-tinted eyewear","black pants","black vest","black necktie","red shirt","lab coat","mechanical hands]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11103,8 +11103,8 @@ const artists = [
   {
       name: "baphomet (grizz)",
       category: "Helltaker",
-      mainTags: "baphomet (grizz), red eyes, black hair, short hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "baphomet (grizz), goat girl, goat horns, goat ears, red eyes, white hair, long hair, helltaker",
+      enhancers: ["[black high-waist pants","pinstripe pants","red shirt","sleeve cuffs","black suspenders]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11113,219 +11113,12 @@ const artists = [
   {
       name: "subject 67 (helltaker)",
       category: "Helltaker",
-      mainTags: "subject 67 (helltaker), brown eyes, brown hair, short hair, helltaker",
-      enhancers: ["[]"],
+      mainTags: "subject 67 (helltaker), muscular male, colored skin, red skin, demon, black eyes, skull, demon tail, neck bolts, barcode tattoo, forehead tattoo, helltaker",
+      enhancers: [
+        "[black suit","black jacket","black vest","red shirt","black necktie","black pants","white gloves]",
+        "[white fingerless gloves","bandaged hands","shirtless male","white pants]"
+    ],
       defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "archangel (helltaker)",
-      category: "Helltaker",
-      mainTags: "archangel (helltaker), blue eyes, blonde hair, long hair, helltaker",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "krampus (grizz)",
-      category: "Helltaker",
-      mainTags: "krampus (grizz), red eyes, white hair, short hair, helltaker",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "police (helltaker)",
-      category: "Helltaker",
-      mainTags: "police (helltaker), red eyes, black hair, short hair, dark skin, dark-skinned female, helltaker",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "dark sun gwyndolin",
-      category: "Dark Souls (Series)",
-      mainTags: "dark sun gwyndolin, blue eyes, blonde hair, long hair, dark souls i, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "lord's blade ciaran",
-      category: "Dark Souls (Series)",
-      mainTags: "lord's blade ciaran, brown eyes, blonde hair, short hair, dark souls i, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "artorias the abysswalker",
-      category: "Dark Souls (Series)",
-      mainTags: "artorias the abysswalker, blue eyes, black hair, long hair, dark souls i, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "priscilla the crossbreed",
-      category: "Dark Souls (Series)",
-      mainTags: "priscilla the crossbreed, green eyes, white hair, long hair, dark souls i, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "solaire of astora",
-      category: "Dark Souls (Series)",
-      mainTags: "solaire of astora, brown eyes, blonde hair, short hair, helmet, dark souls i, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "dragon slayer ornstein",
-      category: "Dark Souls (Series)",
-      mainTags: "dragon slayer ornstein, brown eyes, blonde hair, long hair, helmet, dark souls i, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "queen of sunlight gwynevere",
-      category: "Dark Souls (Series)",
-      mainTags: "queen of sunlight gwynevere, blue eyes, blonde hair, long hair, dark souls i, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "emerald herald",
-      category: "Dark Souls (Series)",
-      mainTags: "emerald herald, green eyes, brown hair, long hair, dark souls ii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "fire keeper",
-      category: "Dark Souls (Series)",
-      mainTags: "fire keeper, grey eyes, brown hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "ashen one (dark souls)",
-      category: "Dark Souls (Series)",
-      mainTags: "ashen one (dark souls), brown eyes, brown hair, short hair, boobplate, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "nameless king",
-      category: "Dark Souls (Series)",
-      mainTags: "nameless king, blue eyes, white hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "bearer of the curse",
-      category: "Dark Souls (Series)",
-      mainTags: "bearer of the curse, green eyes, brown hair, short hair, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "abyss watcher",
-      category: "Dark Souls (Series)",
-      mainTags: "abyss watcher, brown eyes, black hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "aldrich devourer of gods",
-      category: "Dark Souls (Series)",
-      mainTags: "aldrich devourer of gods, blue eyes, black hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "lothric (younger prince)",
-      category: "Dark Souls (Series)",
-      mainTags: "lothric (younger prince), blue eyes, blonde hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "lorian (elder prince)",
-      category: "Dark Souls (Series)",
-      mainTags: "lorian (elder prince), blue eyes, blonde hair, short hair, gold armor, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "company captain yorshka",
-      category: "Dark Souls (Series)",
-      mainTags: "company captain yorshka, blue eyes, white hair, long hair, dragon girl, dragon tail, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Video Games"
-  },
-  {
-      name: "sister friede",
-      category: "Dark Souls (Series)",
-      mainTags: "sister friede, blue eyes, blonde hair, long hair, dark souls iii, dark souls (series)",
-      enhancers: ["[]"],
-      defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Video Games"
@@ -11334,7 +11127,11 @@ const artists = [
       name: "amiya (arknights)",
       category: "Arknights",
       mainTags: "amiya (arknights), blue eyes, brown hair, long hair, arknights",
-      enhancers: ["amiya (newsgirl) (arknights)", "amiya (fresh fastener) (arknights)", "amiya (act 2) (arknights)"],
+      enhancers: [
+        "[black jacket","white sweater","blue skirt","pantyhose]",
+        "amiya (newsgirl) (arknights)",
+        "amiya (fresh fastener) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11344,7 +11141,13 @@ const artists = [
       name: "texas (arknights)",
       category: "Arknights",
       mainTags: "texas (arknights), brown eyes, black hair, short hair, arknights",
-      enhancers: ["texas (willpower) (arknights)", "texas (winter messenger) (arknights)", "texas (ambience synesthesia) (arknights)", "texas (elite ii) (arknights)", "texas the omertosa (arknights)"],
+      enhancers: [
+        "[white jacket","black capelet","black shorts","multiple belts","pantyhose","thigh strap]",
+        "texas (willpower) (arknights)",
+        "texas (winter messenger) (arknights)",
+        "texas (ambience synesthesia) (arknights)",
+        "texas the omertosa (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11354,7 +11157,11 @@ const artists = [
       name: "lappland (arknights)",
       category: "Arknights",
       mainTags: "lappland (arknights), grey eyes, white hair, short hair, arknights",
-      enhancers: ["lappland (refined horrormare) (arknights)", "lappland (ambience synesthesia) (arknights)", "lappland (elite ii) (arknights)"],
+      enhancers: [
+        "[black jacket","high collar","wide sleeves","black shorts]",
+        "lappland (refined horrormare) (arknights)",
+        "lappland (ambience synesthesia) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11364,7 +11171,14 @@ const artists = [
       name: "skadi (arknights)",
       category: "Arknights",
       mainTags: "skadi (arknights), red eyes, white hair, long hair, arknights",
-      enhancers: ["skadi (elite ii) (arknights)", "skadi the corrupting heart (arknights)", "skadi (waverider) (arknights)", "skadi (the next afternoon tea) (arknights)", "skadi the corrupting heart (sublimation) (arknights)"],
+      enhancers: [
+        "[witch hat","black capelet","white shirt","black pants","cutouts]",
+        "skadi (elite ii) (arknights)",
+        "[skadi the corrupting heart (arknights)","red dress","aqua gloves","brown ascot]",
+        "skadi (waverider) (arknights)",
+        "skadi (the next afternoon tea) (arknights)",
+        "skadi the corrupting heart (sublimation) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11373,8 +11187,14 @@ const artists = [
   {
       name: "suzuran (arknights)",
       category: "Arknights",
-      mainTags: "suzuran (arknights), brown eyes, white hair, long hair, arknights",
-      enhancers: ["suzuran (spring praise) (arknights)", "suzuran (yukibare) (arknights)", "suzuran (lostlands flowering) (arknights)", "[suzuran (let's carnival!) (arknights)", "orange dress]", "suzuran (pajamas) (arknights)"],
+      mainTags: "suzuran (arknights), brown eyes, blonde hair, multiple braids, long hair, arknights",
+      enhancers: [
+        "[white sleeveless shirt","purple skirt","white pantyhose","thigh strap","white cape","two-sided cape]",
+        "suzuran (spring praise) (arknights)",
+        "suzuran (yukibare) (arknights)",
+        "suzuran (lostlands flowering) (arknights)",
+        "[suzuran (let's carnival!) (arknights)", "orange dress]", "suzuran (pajamas) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11383,8 +11203,11 @@ const artists = [
   {
       name: "kal'tsit (arknights)",
       category: "Arknights",
-      mainTags: "kal'tsit (arknights), green eyes, white hair, long hair, arknights",
-      enhancers: ["kal'tsit (remnants) (arknights)"],
+      mainTags: "kal'tsit (arknights), green eyes, white hair, medium hair, arknights",
+      enhancers: [
+        "[green dress","off-shoulder dress","white cape","choker]",
+        "kal'tsit (remnants) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11393,9 +11216,13 @@ const artists = [
   {
       name: "exusiai (arknights)",
       category: "Arknights",
-      mainTags: "exusiai (arknights), blue eyes, blonde hair, short hair, arknights",
+      mainTags: "exusiai (arknights), red eyes, red hair, short hair, halo, detached wings, arknights",
       enhancers: [
-      "[exusiai (city rider) (arknights)", "white jacket]", "exusiai (wild operation) (arknights)", "exusiai (midnight delivery) (arknights)"],
+        "[black shirt","white vest","high collar","black skirt","pantyhose","fingerless gloves]",
+        "[exusiai (city rider) (arknights)", "white jacket]",
+        "exusiai (wild operation) (arknights)",
+        "exusiai (midnight delivery) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11405,7 +11232,11 @@ const artists = [
       name: "ch'en (arknights)",
       category: "Arknights",
       mainTags: "ch'en (arknights), blue eyes, blue hair, long hair, arknights",
-      enhancers: ["ch'en (ageless afterglow) (arknights)", "ch'en (after storm) (arknights)", "ch'en (elite ii) (arknights)"],
+      enhancers: [
+        "[black jacket","fingerless gloves","white shirt","cross-laced clothes","black shorts","navel","knee boots","orange necktie]",
+        "ch'en (ageless afterglow) (arknights)",
+        "ch'en (after storm) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11415,7 +11246,12 @@ const artists = [
       name: "mudrock (arknights)",
       category: "Arknights",
       mainTags: "mudrock (arknights), red eyes, white hair, long hair, arknights",
-      enhancers: ["mudrock (elite ii) (arknights)", "mudrock (silent night) (arknights)", "mudrock (obsidian) (arknights)"],
+      enhancers: [
+        "[--red eyes","--white hair","--long hair","white armor","full armor","pelvic curtain","helmet","shoulder pads","bracers","gauntlets","leg armor","shin guards]",
+        "[mudrock (elite ii) (arknights)","white armor","off shoulder","black crop top","bracers","gauntlets","leg armor","shin guards]",
+        "[mudrock (silent night) (arknights)","black bikini","hair flower","black sash]",
+        "mudrock (obsidian) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11424,8 +11260,12 @@ const artists = [
   {
       name: "w (arknights)",
       category: "Arknights",
-      mainTags: "w (arknights), red eyes, white hair, long hair, arknights",
-      enhancers: ["w (wanted) (arknights)", "w (fugue) (arknights)", "[w (cannot wait for) (arknights)", "yellow jacket]"
+      mainTags: "w (arknights), red eyes, white hair, short hair, arknights",
+      enhancers: [
+        "[black jacket","white shirt","turtleneck","black shorts","fishnet pantyhose","fingerless gloves","black skirt","two-sided skirt]",
+        "w (wanted) (arknights)",
+        "[w (fugue) (arknights)","black cargo pants]",
+        "[w (cannot wait for) (arknights)", "yellow jacket]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -11435,8 +11275,11 @@ const artists = [
   {
       name: "mostima (arknights)",
       category: "Arknights",
-      mainTags: "mostima (arknights), blue eyes, blue hair, long hair, arknights",
-      enhancers: ["mostima (spellbreaker) (arknights)"],
+      mainTags: "mostima (arknights), blue eyes, blue hair,  halo, detached wings, long hair, arknights",
+      enhancers: [
+        "[black jacket","fur-trimmed jacket","white gloves","white shirt","black shorts]",
+        "mostima (spellbreaker) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11445,8 +11288,12 @@ const artists = [
   {
       name: "saria (arknights)",
       category: "Arknights",
-      mainTags: "saria (arknights), orange eyes, white hair, short hair, arknights",
-      enhancers: ["saria (the law) (arknights)", "saria (stronghold) (arknights)"],
+      mainTags: "saria (arknights), orange eyes, white hair, long hair, arknights",
+      enhancers: [
+        "[white jacket","black high-waist skirt","straps]",
+        "saria (the law) (arknights)",
+        "saria (stronghold) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11455,8 +11302,12 @@ const artists = [
   {
       name: "specter (arknights)",
       category: "Arknights",
-      mainTags: "specter (arknights), red eyes, white hair, short hair, arknights",
-      enhancers: ["specter the unchained (arknights)", "specter (undercurrent) (arknights)"],
+      mainTags: "specter (arknights), red eyes, white hair, long hair, arknights",
+      enhancers: [
+        "[nun","habit","black dress","side slits","pelvic curtain","black thighhighs","garter straps","black jacket","wide sleeves]",
+        "[specter the unchained (arknights)","pirate hat","black dress","straps","black pantyhose","cutouts]",
+        "specter (undercurrent) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11465,8 +11316,12 @@ const artists = [
   {
       name: "dusk (arknights)",
       category: "Arknights",
-      mainTags: "dusk (arknights), green eyes, black hair, long hair, arknights",
-      enhancers: ["dusk (everything is a miracle) (arknights)", "dusk (ambience synesthesia) (arknights)"],
+      mainTags: "dusk (arknights), red eyes, black hair, gradient hair, long hair, arknights",
+      enhancers: [
+        "[sleeveless white dress","red necktie","black jacket]",
+        "dusk (everything is a miracle) (arknights)",
+        "dusk (ambience synesthesia) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11476,7 +11331,11 @@ const artists = [
       name: "nian (arknights)",
       category: "Arknights",
       mainTags: "nian (arknights), purple eyes, white hair, long hair, arknights",
-      enhancers: ["nian (unfettered freedom) (arknights)", "nian (thunderbolt director) (arknights)"],
+      enhancers: [
+        "[red tube top","white shorts","belt","white jacket","red gloves]",
+        "nian (unfettered freedom) (arknights)",
+        "nian (thunderbolt director) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11486,7 +11345,13 @@ const artists = [
       name: "angelina (arknights)",
       category: "Arknights",
       mainTags: "angelina (arknights), brown eyes, orange hair, long hair, arknights",
-      enhancers: ["angelina (summer flower) (arknights)", "angelina (distinguished visitor) (arknights)", "angelina (sports) (arknights)", "angelina (ambience synesthesia) (arknights)"],
+      enhancers: [
+        "[black shirt","black shorts","white coat","knee socks","black gloves]",
+        "angelina (summer flower) (arknights)",
+        "angelina (distinguished visitor) (arknights)",
+        "angelina (sports) (arknights)",
+        "angelina (ambience synesthesia) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11495,8 +11360,8 @@ const artists = [
   {
       name: "shu (arknights)",
       category: "Arknights",
-      mainTags: "shu (arknights), green eyes, black hair, long hair, arknights",
-      enhancers: ["[]"],
+      mainTags: "shu (arknights), green eyes, multicolored hair, long hair, arknights",
+      enhancers: ["[white shirt","white high-waist pants","yellow gloves","necklace]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11505,8 +11370,13 @@ const artists = [
   {
       name: "goldenglow (arknights)",
       category: "Arknights",
-      mainTags: "goldenglow (arknights), pink eyes, pink hair, long hair, arknights",
-      enhancers: ["goldenglow (maiden for the bright night) (arknights)", "goldenglow (summer flowers) (arknights)", "goldenglow (party in the garden) (arknights)"],
+      mainTags: "goldenglow (arknights), yellow eyes, pink hair, short hair, arknights",
+      enhancers: [
+        "[white shirt","black skirt","pink coat","lanyard","white thighhighs","garter straps]",
+        "goldenglow (maiden for the bright night) (arknights)",
+        "goldenglow (summer flowers) (arknights)",
+        "goldenglow (party in the garden) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11515,8 +11385,11 @@ const artists = [
   {
       name: "irene (arknights)",
       category: "Arknights",
-      mainTags: "irene (arknights), blue eyes, black hair, short hair, arknights",
-      enhancers: ["irene (voyage of feathers) (arknights)", "irene (the adjudicatrix and her resolve) (arknights)"],
+      mainTags: "irene (arknights), blue eyes, white hair, long hair, arknights",
+      enhancers: [
+        "[black dress","two-tone skirt","white capelet","black gloves","wide sleeves]",
+        "irene (voyage of feathers) (arknights)",
+        "irene (the adjudicatrix and her resolve) (arknights)"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11525,8 +11398,12 @@ const artists = [
   {
       name: "blue poison (arknights)",
       category: "Arknights",
-      mainTags: "blue poison (arknights), blue eyes, blue hair, long hair, arknights",
-      enhancers: ["blue poison (shoal beat) (arknights)", "blue poison (elite ii) (arknights)"],
+      mainTags: "blue poison (arknights), blue eyes, blue hair, medium hair, arknights",
+      enhancers: [
+        "[twintails","blue hoodie","black leggings","black shorts","white shirt","black vest]",
+        "blue poison (shoal beat) (arknights)",
+        "blue poison (elite ii) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11535,8 +11412,12 @@ const artists = [
   {
       name: "schwarz (arknights)",
       category: "Arknights",
-      mainTags: "schwarz (arknights), yellow eyes, black hair, long hair, arknights",
-      enhancers: ["schwarz (skyline) (arknights)", "schwarz (presents) (arknights)"],
+      mainTags: "schwarz (arknights), yellow eyes, white hair, gradient hair, long hair, arknights",
+      enhancers: [
+        "[black scarf","black crop top","black shorts","white jacket","see-through jacket","straps","thigh pouch]",
+        "schwarz (skyline) (arknights)",
+        "schwarz (presents) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11545,8 +11426,11 @@ const artists = [
   {
       name: "eyjafjalla (arknights)",
       category: "Arknights",
-      mainTags: "eyjafjalla (arknights), pink eyes, pink hair, long hair, arknights",
-      enhancers: ["eyjafjalla (summer flower) (arknights)"],
+      mainTags: "eyjafjalla (arknights), pink eyes, brown hair, gradient hair, long hair, arknights",
+      enhancers: [
+        "[black dress","white cloak","wide sleeves","red ribbons","black thighhighs","red garter straps]",
+        "eyjafjalla (summer flower) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11556,7 +11440,10 @@ const artists = [
       name: "sussurro (arknights)",
       category: "Arknights",
       mainTags: "sussurro (arknights), brown eyes, brown hair, short hair, arknights",
-      enhancers: ["sussurro (summer flower) (arknights)", "[sussurro (travel freely) (arknights)", "red coat]"
+      enhancers: [
+        "[blue shirt","black skirt","pantyhose","white coat","wide sleeves","white gloves]",
+        "sussurro (summer flower) (arknights)",
+        "[sussurro (travel freely) (arknights)", "red coat]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -11567,7 +11454,11 @@ const artists = [
       name: "hoshiguma (arknights)",
       category: "Arknights",
       mainTags: "hoshiguma (arknights), green eyes, black hair, long hair, arknights",
-      enhancers: ["hoshiguma (ronin huntress) (arknights)", "hoshiguma (seeker) (arknights)"],
+      enhancers: [
+        "[black jacket around waist","black shirt","black capri pants","black armband","high collar","black gloves]",
+        "hoshiguma (ronin huntress) (arknights)",
+        "hoshiguma (seeker) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11576,8 +11467,12 @@ const artists = [
   {
       name: "mountain (arknights)",
       category: "Arknights",
-      mainTags: "mountain (arknights), purple eyes, white hair, short hair, furry female, muscular female, arknights",
-      enhancers: ["mountain (book reader) (arknights)", "mountain (dark cloud) (arknights)"],
+      mainTags: "fur dataset, mountain (arknights), purple eyes, white hair, short hair, furry male, muscular male, arknights",
+      enhancers: [
+        "[white shirt","white pants","black vest","white jacket","jacket on shoulders","fingerless gloves]",
+        "mountain (book reader) (arknights)",
+        "mountain (dark cloud) (arknights)"
+    ],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11586,8 +11481,13 @@ const artists = [
   {
       name: "siege (arknights)",
       category: "Arknights",
-      mainTags: "siege (arknights), orange eyes, brown hair, long hair, arknights",
-      enhancers: ["siege (city destroyer) (arknights)", "siege (legacy) (arknights)", "siege (ambience synesthesia) (arknights)"],
+      mainTags: "siege (arknights), orange eyes, brown hair, medium hair, updo, arknights",
+      enhancers: [
+        "[white tank top","red shorts","black leather jacket","fur-trimmed jacket","choker]",
+        "siege (city destroyer) (arknights)",
+        "siege (legacy) (arknights)",
+        "siege (ambience synesthesia) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11596,8 +11496,12 @@ const artists = [
   {
       name: "silence (arknights)",
       category: "Arknights",
-      mainTags: "silence (arknights), yellow eyes, brown hair, long hair, arknights",
-      enhancers: ["silence (frosted breath) (arknights)", "silence (lacquer) (arknights)"],
+      mainTags: "silence (arknights), yellow eyes, brown hair, short hair, arknights",
+      enhancers: [
+        "[glasses","white dress","white coat","high collar","wide sleeves","asymmetrical legwear","single thighhigh","thigh strap]",
+        "[silence (frosted breath) (arknights)","white coat","white scarf","black pantyhose","wide sleeves","feather trim","big feathers]",
+        "[silence (lacquer) (arknights)","yellow coat","teal gloves","black shorts","see-through pants","transparent pants","knee pads]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11606,8 +11510,11 @@ const artists = [
   {
       name: "ifrit (arknights)",
       category: "Arknights",
-      mainTags: "ifrit (arknights), yellow eyes, blonde hair, long hair, arknights",
-      enhancers: ["ifrit (sunburn) (arknights)"],
+      mainTags: "ifrit (arknights), yellow eyes, blonde hair, short hair, arknights",
+      enhancers: [
+        "[twintails","white dress","wide sleeves","single kneehigh","thigh straps","black shirt]",
+        "[ifrit (sunburn) (arknights)","waist apron","see-through clothes","transparent apron]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11616,8 +11523,11 @@ const artists = [
   {
       name: "blaze (arknights)",
       category: "Arknights",
-      mainTags: "blaze (arknights), blue eyes, blonde hair, short hair, arknights",
-      enhancers: ["blaze (burst feline) (arknights)", "blaze the igniting spark (arknights)"],
+      mainTags: "blaze (arknights), blue eyes, blue hair, long hair, arknights",
+      enhancers: [
+        "[white tank top","white coat","black skirt","single white thighhigh","thigh strap","multiple belts","fingerless gloves]",
+        "blaze (burst feline) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11626,8 +11536,11 @@ const artists = [
   {
       name: "chongyue (arknights)",
       category: "Arknights",
-      mainTags: "chongyue (arknights), brown eyes, orange hair, short hair, arknights",
-      enhancers: ["chongyue (alighting) (arknights)"],
+      mainTags: "chongyue (arknights), brown eyes, brown hair, streaked hair, short hair, arknights",
+      enhancers: [
+        "[black coat","white pants","white shirt","black gloves]",
+        "chongyue (alighting) (arknights)"
+    ],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11636,8 +11549,11 @@ const artists = [
   {
       name: "virtuosa (arknights)",
       category: "Arknights",
-      mainTags: "virtuosa (arknights), red eyes, white hair, long hair, arknights",
-      enhancers: ["virtuosa (diversity oneness) (arknights)"],
+      mainTags: "virtuosa (arknights), brown eyes, black hair, very long hair, two-tone hair, halo, detached wings,arknights",
+      enhancers: [
+        "[black dress","white jacket","black thighhighs","garter straps","black gloves]",
+        "virtuosa (diversity oneness) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11646,10 +11562,11 @@ const artists = [
   {
       name: "nearl (arknights)",
       category: "Arknights",
-      mainTags: "nearl (arknights), blue eyes, blonde hair, long hair, arknights",
+      mainTags: "nearl (arknights), orange eyes, blonde hair, long hair, ponytail, arknights",
       enhancers: [
-      "[nearl the radiant knight (arknights)", "cape]",
-      "[nearl (shimmering dew) (arknights)", "one-piece swimsuit]"
+        "[armored dress","black dress","white boobplate","white shoulder pads","white gauntlets","black knee boots]",
+        "[nearl the radiant knight (arknights)", "cape]",
+        "[nearl (shimmering dew) (arknights)","one-piece swimsuit","eyewear on head","see-through clothes","swimsuit under clothes]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -11659,8 +11576,11 @@ const artists = [
   {
       name: "ho'olheyak (arknights)",
       category: "Arknights",
-      mainTags: "ho'olheyak (arknights), blue eyes, black hair, long hair, arknights",
-      enhancers: ["ho'olheyak (carriage of the winds of time) (arknights)"],
+      mainTags: "ho'olheyak (arknights), blue eyes, grey hair, medium hair, arknights",
+      enhancers: [
+        "[white dress","hooded white coat","wide sleeves","pantyhose]",
+        "ho'olheyak (carriage of the winds of time) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11670,7 +11590,11 @@ const artists = [
       name: "swire (arknights)",
       category: "Arknights",
       mainTags: "swire (arknights), brown eyes, brown hair, long hair, arknights",
-      enhancers: ["swire the elegant wit (arknights)", "swire (honor and splendor) (arknights)"],
+      enhancers: [
+        "[black skirt","black vest","white shirt","black coat","two-sided coat","sheer thighhighs","thigh strap","thigh pouch","black hat]",
+        "swire the elegant wit (arknights)",
+        "swire (honor and splendor) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11680,7 +11604,7 @@ const artists = [
       name: "muelsyse (arknights)",
       category: "Arknights",
       mainTags: "muelsyse (arknights), blue eyes, white hair, long hair, arknights",
-      enhancers: ["muelsyse (young branch) (arknights)"],
+      enhancers: ["[grey shirt","black high-waist skirt","white coat","choker","hair ornament]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11689,8 +11613,12 @@ const artists = [
   {
       name: "ceobe (arknights)",
       category: "Arknights",
-      mainTags: "ceobe (arknights), blue eyes, brown hair, short hair, arknights",
-      enhancers: ["ceobe (unfettered) (arknights)", "ceobe (summer flowers) (arknights)"],
+      mainTags: "ceobe (arknights), orange eyes, brown hair, long hair, arknights",
+      enhancers: [
+        "[black shirt","black skirt","multiple belts","thighhighs","cross-laced legwear","white jacket","wide sleeves]",
+        "ceobe (unfettered) (arknights)",
+        "ceobe (summer flowers) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11699,8 +11627,8 @@ const artists = [
   {
       name: "fiammetta (arknights)",
       category: "Arknights",
-      mainTags: "fiammetta (arknights), red eyes, red hair, long hair, arknights",
-      enhancers: ["fiammetta (divine oath) (arknights)"],
+      mainTags: "fiammetta (arknights), red eyes, red hair, short hair, arknights",
+      enhancers: ["[white shirt","black jacket","black skirt","thigh straps","red necktie]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11709,8 +11637,12 @@ const artists = [
   {
       name: "utage (arknights)",
       category: "Arknights",
-      mainTags: "utage (arknights), green eyes, brown hair, long hair, arknights",
-      enhancers: ["utage (summer flowers) (arknights)", "utage (disguise) (arknights)"],
+      mainTags: "utage (arknights), pink eyes, brown hair, short hair, arknights",
+      enhancers: [
+        "[black shirt","black skirt","white coat","black thighhighs]",
+        "[utage (summer flowers) (arknights)","sun hat","eyewear on head","pink-tinted eyewear]",
+        "[black shirt","black jacket","black plaid skirt","yellow pantyhose]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11719,9 +11651,11 @@ const artists = [
   {
       name: "jessica (arknights)",
       category: "Arknights",
-      mainTags: "jessica (arknights), green eyes, black hair, short hair, arknights",
-      enhancers: ["jessica (clivia) (arknights)", "[jessica (iron block) (arknights)", "gas mask]",
-      "[jessica the liberated (arknights)", "tube top]"
+      mainTags: "jessica (arknights), green eyes, black hair, gradient hair, medium hair, streaked hair, high ponytail, arknights",
+      enhancers: [
+        "[black shirt","black shorts","black jacket","black gloves","single knee pad]",
+        "[jessica (iron block) (arknights)", "gas mask]",
+        "[jessica the liberated (arknights)", "tube top]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -11732,7 +11666,11 @@ const artists = [
       name: "penance (arknights)",
       category: "Arknights",
       mainTags: "penance (arknights), brown eyes, brown hair, long hair, arknights",
-      enhancers: ["penance (occasionally flushed) (arknights)", "penance (ambience synesthesia) (arknights)"],
+      enhancers: [
+        "[black dress","white ascot","black coat","thighhighs","single gauntlet","single arm guard]",
+        "penance (occasionally flushed) (arknights)",
+        "[penance (ambience synesthesia) (arknights)","leather jacket","black cropped jacket","fingerless gloves","black mini skirt","single side slit","cross-laced clothes","pantyhose","torn pantyhose]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11741,8 +11679,11 @@ const artists = [
   {
       name: "blemishine (arknights)",
       category: "Arknights",
-      mainTags: "blemishine (arknights), blue eyes, blonde hair, long hair, arknights",
-      enhancers: ["blemishine (moon catastrborn) (arknights)"],
+      mainTags: "blemishine (arknights), yellow eyes, blonde hair, long hair, arknights",
+      enhancers: [
+        "[full armor","boobplate","shoulder pads","fur-trimmed cloak","gauntlets","hip armor","multiple belts","greaves]",
+        "blemishine (moon catastrborn) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11752,7 +11693,10 @@ const artists = [
       name: "pramanix (arknights)",
       category: "Arknights",
       mainTags: "pramanix (arknights), blue eyes, white hair, long hair, arknights",
-      enhancers: ["pramanix (caster's frost) (arknights)"],
+      enhancers: [
+        "[white cableknit turtleneck","white dress","pelvic curtain","side slit","white thighhighs","wide sleeves","black cloak]",
+        "pramanix (caster's frost) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11761,8 +11705,11 @@ const artists = [
   {
       name: "rosmontis (arknights)",
       category: "Arknights",
-      mainTags: "rosmontis (arknights), blue eyes, white hair, long hair, arknights",
-      enhancers: ["rosmontis (become anew) (arknights)"],
+      mainTags: "rosmontis (arknights), blue eyes, white hair, short hair, arknights",
+      enhancers: [
+        "[black cape","two-sided cape","fingerless gloves","white dress","see-through clothes","thigh straps]",
+        "rosmontis (become anew) (arknights)",
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11771,8 +11718,11 @@ const artists = [
   {
       name: "platinum (arknights)",
       category: "Arknights",
-      mainTags: "platinum (arknights), blue eyes, silver hair, long hair, arknights",
-      enhancers: ["platinum (shimmering dew) (arknights)"],
+      mainTags: "platinum (arknights), yellow eyes, white hair, long hair, arknights",
+      enhancers: [
+        "[white shorts","white coat","wide sleeves","black thighhighs","garter straps]",
+        "platinum (shimmering dew) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11781,8 +11731,13 @@ const artists = [
   {
       name: "ptilopsis (arknights)",
       category: "Arknights",
-      mainTags: "ptilopsis (arknights), orange eyes, white hair, long hair, arknights",
-      enhancers: ["ptilopsis (elite ii) (arknights)", "ptilopsis (serenity) (arknights)", "ptilopsis (amongst the clouds) (arknights)"],
+      mainTags: "ptilopsis (arknights), orange eyes, white hair, medium hair, arknights",
+      enhancers: [
+        "[white dress","black coat","two-sided coat","two-tone gloves","orange armband]",
+        "ptilopsis (elite ii) (arknights)",
+        "ptilopsis (serenity) (arknights)",
+        "ptilopsis (amongst the clouds) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11791,8 +11746,11 @@ const artists = [
   {
       name: "la pluma (arknights)",
       category: "Arknights",
-      mainTags: "la pluma (arknights), brown eyes, black hair, long hair, fur-trimmed coat, arknights",
-      enhancers: ["la pluma (summer flowers) (arknights)"],
+      mainTags: "la pluma (arknights), brown eyes, black hair, short hair, arknights",
+      enhancers: [
+        "[fur-trimmed coat","black coat","black shorts","thigh straps","fingerless gloves]",
+        "la pluma (summer flowers) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11801,8 +11759,11 @@ const artists = [
   {
       name: "tequila (arknights)",
       category: "Arknights",
-      mainTags: "tequila (arknights), yellow eyes, blonde hair, short hair, arknights",
-      enhancers: ["tequila (cardwinner) (arknights)"],
+      mainTags: "tequila (arknights), blue eyes, blonde hair, short hair, arknights",
+      enhancers: [
+        "[white shorts","hooded white jacket","blue shirt","wristband]",
+        "tequila (cardwinner) (arknights)"
+    ],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11813,7 +11774,10 @@ const artists = [
       category: "Arknights",
       mainTags: "ling (arknights), blue eyes, blue hair, long hair, arknights",
       enhancers: [
-      "[ling (it does wash the strings) (arknights)", "two-tone dress]", "ling (towering is cliff of nostalgia) (arknights)"],
+        "[white shirt","black shorts","long white coat","yellow necktie","black elbow gloves]",
+        "[ling (it does wash the strings) (arknights)","two-tone dress]",
+        "ling (towering is cliff of nostalgia) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11823,7 +11787,7 @@ const artists = [
       name: "frostnova (arknights)",
       category: "Arknights",
       mainTags: "frostnova (arknights), blue eyes, white hair, long hair, arknights",
-      enhancers: ["white coat"],
+      enhancers: ["[black shirt","black skirt","thighhighs","thighhighs under boots","white coat","gradient coat]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11833,7 +11797,10 @@ const artists = [
       name: "saga (arknights)",
       category: "Arknights",
       mainTags: "saga (arknights), orange eyes, brown hair, long hair, arknights",
-      enhancers: ["saga (there they be) (arknights)"],
+      enhancers: [
+        "[black kimono","knee pads","purple pants]",
+        "saga (there they be) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11842,8 +11809,11 @@ const artists = [
   {
       name: "projekt red (arknights)",
       category: "Arknights",
-      mainTags: "projekt red (arknights), red eyes, red hair, short hair, arknights",
-      enhancers: ["projekt red (light breeze) (arknights)"],
+      mainTags: "projekt red (arknights), red eyes, grey hair, short hair, arknights",
+      enhancers: [
+        "[two-tone dress","black pants","hooded red coat","fur-trimmed coat]",
+        "projekt red (light breeze) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11862,8 +11832,8 @@ const artists = [
   {
       name: "mizuki (arknights)",
       category: "Arknights",
-      mainTags: "mizuki (arknights), blue eyes, white hair, long hair, arknights",
-      enhancers: ["[]"],
+      mainTags: "mizuki (arknights), pink eyes, blue hair, medium hair, arknights",
+      enhancers: ["[black shirt","black shorts","blue jacket","blue hat","black leggings]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11872,8 +11842,13 @@ const artists = [
   {
       name: "bagpipe (arknights)",
       category: "Arknights",
-      mainTags: "bagpipe (arknights), orange eyes, blonde hair, long hair, arknights",
-      enhancers: ["green jacket", "bagpipe (queen no. 1) (arknights)"],
+      mainTags: "bagpipe (arknights), blue eyes, orange hair, long hair, arknights",
+      enhancers: [
+        "[green jacket","black jacket","black belt","black skirt","red skirt","plaid skirt","belt pouch","thighhighs]", 
+        "bagpipe (queen no. 1) (arknights)",
+        "[single braid","blue overall skirt","white skirt","white collared shirt","black belt]",
+        "[bagpipe (royal guardswoman) (arknights)","black hat","black gloves","pantyhose","thigh straps]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11883,8 +11858,10 @@ const artists = [
       name: "astesia (arknights)",
       category: "Arknights",
       mainTags: "astesia (arknights), purple eyes, black hair, long hair, arknights",
-      enhancers: ["astesia (starseeker) (arknights)", "[astesia (frlibe on the palace) (arknights)", "high-waist dress", "detached sleeves", "thigh strap]",
-      "[astesia (fantastic crafts) (arknights)", "yellow jacket]"
+      enhancers: [
+        "[white shirt","blue dress","sleeve cuffs","multiple belts]",
+        "astesia (starseeker) (arknights)",
+        "[astesia (frlibe on the palace) (arknights)", "high-waist dress", "detached sleeves", "thigh strap]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -11895,7 +11872,10 @@ const artists = [
       name: "whislash (arknights)",
       category: "Arknights",
       mainTags: "whislash (arknights), blue eyes, blonde hair, long hair, arknights",
-      enhancers: ["whislash (glory purple) (arknights)"],
+      enhancers: [
+        "[white cloak","black shirt","boobplate","black shorts","thighhighs","pelvic curtain","black hat]",
+        "whislash (glory purple) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11904,9 +11884,12 @@ const artists = [
   {
       name: "magallan (arknights)",
       category: "Arknights",
-      mainTags: "magallan (arknights), blue eyes, blonde hair, short hair, arknights",
+      mainTags: "magallan (arknights), yellow eyes, brown hair, streaked hair, short hair, arknights",
       enhancers: [
-      "[multicolored coat", "brown sweater", "black pants]", "magallan (elite ii) (arknights)", "magallan (shaved-ice memories) (arknights)"],
+        "[black coat","white gloves","pantyhose]",
+        "[magallan (elite ii) (arknights)","brown ribbed sweater","white coat around waist","pantyhose","single white glove]",
+        "[magallan (shaved-ice memories) (arknights)","coat around waist","blue pants]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11915,8 +11898,8 @@ const artists = [
   {
       name: "theresa (arknights)",
       category: "Arknights",
-      mainTags: "theresa (arknights), purple eyes, white hair, long hair, arknights",
-      enhancers: ["[]"],
+      mainTags: "theresa (arknights), orange eyes, white hair, long hair, arknights",
+      enhancers: ["[white dress","black shirt","thigh boots]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11925,8 +11908,11 @@ const artists = [
   {
       name: "gravel (arknights)",
       category: "Arknights",
-      mainTags: "gravel (arknights), red eyes, blonde hair, short hair, arknights",
-      enhancers: ["gravel (modeling night) (arknights)"],
+      mainTags: "gravel (arknights), orange eyes, pink hair, long hair, arknights",
+      enhancers: [
+        "[white leotard","boobplate","black dress","sheer thighhighs","torn thighhighs","thigh pouch]",
+        "[gravel (modeling night) (arknights)","black hat","black gloves","white cloak]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11935,8 +11921,12 @@ const artists = [
   {
       name: "myrtle (arknights)",
       category: "Arknights",
-      mainTags: "myrtle (arknights), green eyes, green hair, short hair, arknights",
-      enhancers: ["myrtle (summer flowers) (arknights)", "myrtle (light gold celebration) (arknights)"],
+      mainTags: "myrtle (arknights), green eyes, red hair, long hair, arknights",
+      enhancers: [
+        "[grey high-waist skirt","white tank top","white coat","wide sleeves","multiple belts]",
+        "myrtle (summer flowers) (arknights)",
+        "myrtle (light gold celebration) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11945,8 +11935,12 @@ const artists = [
   {
       name: "feater (arknights)",
       category: "Arknights",
-      mainTags: "feater (arknights), brown eyes, black hair, short hair, eyewear on head, arknights",
-      enhancers: ["feater (dojo star) (arknights)", "feater (gourmet) (arknights)"],
+      mainTags: "feater (arknights), orange eyes, white hair, streaked hair, short hair, arknights",
+      enhancers: [
+        "[white coat","black sleeves","wide sleeves","black china dress","patterned clothing","thigh strap]",
+        "[feater (dojo star) (arknights)","black crop top","black pants","yellow jacket","jacket around waist]",
+        "[feater (gourmet) (arknights)","white pants","white crop top","red cropped jacket","red-tinted eyewear]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11956,7 +11950,12 @@ const artists = [
       name: "gavial (arknights)",
       category: "Arknights",
       mainTags: "gavial (arknights), green eyes, green hair, short hair, crocodilian tail, arknights",
-      enhancers: ["gavial the invincible (arknights)", "gavial (combat medic) (arknights)"],
+      enhancers: [
+        "[sleeveless black dress","high collar dress","detached sleeves","black gloves]",
+        "[gavial the invincible (arknights)","dreadlocks","green crop top","green shorts","kneehighs","detached sleeves","torn clothes]",
+        "[gavial the invincible (holiday) (arknights)","blue bikini","white shorts","white jacket","blue sleeves","open fly","white hat]",
+        "gavial (combat medic) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11966,7 +11965,11 @@ const artists = [
       name: "aurora (arknights)",
       category: "Arknights",
       mainTags: "aurora (arknights), blue eyes, white hair, long hair, arknights",
-      enhancers: ["white coat", "aurora (elite ii) (arknights)", "aurora (polar catcher) (arknights)"],
+      enhancers: [
+        "[black hairband","black crop top","white cropped coat","hooded coat","breast curtains","grey shorts","blue pants","thigh cutouts","belt pouch]",
+        "[aurora (elite ii) (arknights)","black tank top","white cropped jacket","hooded jacket","grey shorts","belt pouch","knee pads","black gloves]",
+        "[aurora (polar catcher) (arknights)","orange shirt","orange shorts","black pants","pantyhose","black coat","black knee pads]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11975,8 +11978,11 @@ const artists = [
   {
       name: "liskarm (arknights)",
       category: "Arknights",
-      mainTags: "liskarm (arknights), blue eyes, black hair, short hair, arknights",
-      enhancers: ["liskarm (overload) (arknights)"],
+      mainTags: "liskarm (arknights), red eyes, white hair, short hair, arknights",
+      enhancers: [
+        "[black shirt","black skirt","thighhighs","blue coat]",
+        "[liskarm (overload) (arknights)","black pantyhose","black shirt","black skirt","bulletproof vest]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11985,9 +11991,14 @@ const artists = [
   {
       name: "reed (arknights)",
       category: "Arknights",
-      mainTags: "reed (arknights), green eyes, white hair, long hair, arknights",
-      enhancers: ["white jacket", "[reed the flame shadow (arknights)", "open jacket", "white dress]",
-      "[reed the flame shadow (arknights)", "reed the flame shadow (summer flowers) (arknights)]", "reed (emerald holiday) (arknights)"],
+      mainTags: "reed (arknights), blue eyes, white hair, long hair, arknights",
+      enhancers: [
+        "[black dress","thighhighs","criss-cross garter straps","white coat","red armband","two-sided coat]",
+        "[reed the flame shadow (arknights)","white dress","long cape","floral print pantyhose","see-through sleeves","transparent sleeves","thigh straps]",
+        "[reed the flame shadow (arknights)","reed the flame shadow (curator) (arknights)","witch hat","white dress","pantyhose","horns through headwear","black necktie","black jacket]",
+        "[reed the flame shadow (arknights)","reed the flame shadow (summer flowers) (arknights)","mismatched bikini","black multi-strapped bikini bottom","blue bikini top","swimsuit cover-up","see-through shirt","thigh straps]",
+        "[reed (emerald holiday) (arknights)","white dress","green strap","thigh straps","yellow shirt","black cape","two-sided cape]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -11997,7 +12008,11 @@ const artists = [
       name: "gladiia (arknights)",
       category: "Arknights",
       mainTags: "gladiia (arknights), red eyes, white hair, long hair, arknights",
-      enhancers: ["hat", "gladiia (return) (arknights)", "gladiia (i am the tides) (arknights)"],
+      enhancers: [
+        "[white bodysuit","black shirt","white ascot","black coat","black thigh boots","black hat]",
+        "gladiia (return) (arknights)",
+        "gladiia (i am the tides) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12006,8 +12021,12 @@ const artists = [
   {
       name: "sora (arknights)",
       category: "Arknights",
-      mainTags: "sora (arknights), blue eyes, blonde hair, long hair, arknights",
-      enhancers: ["sora (summer flowers) (arknights)", "sora (melodiosa) (arknights)", "sora (elite ii) (arknights)"],
+      mainTags: "sora (arknights), red eyes, blonde hair, short hair, twintails, arknights",
+      enhancers: [
+        "[black dress","frilled dress","white shirt","wide sleeves","black gloves","white thighhighs]",
+        "[sora (summer flowers) (arknights)","white bikini","white skirt","black belt","white cropped jacket","red bow]",
+        "sora (melodiosa) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12016,9 +12035,11 @@ const artists = [
   {
       name: "gummy (arknights)",
       category: "Arknights",
-      mainTags: "gummy (arknights), blue eyes, brown hair, short hair, arknights",
+      mainTags: "gummy (arknights), red eyes, blonde hair, short hair, arknights",
       enhancers: [
-      "[black jacket", "pleated skirt]", "gummy (summer flowers) (arknights)"],
+        "[blue sailor dress","black jacket","wide sleeves","sleeves past wrists","red pantyhose]",
+        "[gummy (summer flowers) (arknights)","white dress","see-through dress","blue bikini skirt","blue hat]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12027,8 +12048,11 @@ const artists = [
   {
       name: "tomimi (arknights)",
       category: "Arknights",
-      mainTags: "tomimi (arknights), blue eyes, brown hair, long hair, crocodilian tail, arknights",
-      enhancers: ["tomimi (silent night) (arknights)"],
+      mainTags: "tomimi (arknights), yellow eyes, white hair, short hair, crocodilian tail, arknights",
+      enhancers: [
+        "[black dress","black hooded jacket","goggles around neck","flower","grey partially fingerless gloves","pelvic curtain","black thighhighs","torn clothes","black boots]",
+        "tomimi (silent night) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12037,8 +12061,11 @@ const artists = [
   {
       name: "frostleaf (arknights)",
       category: "Arknights",
-      mainTags: "frostleaf (arknights), blue eyes, silver hair, short hair, arknights",
-      enhancers: ["frostleaf (breaking the ice) (arknights)"],
+      mainTags: "frostleaf (arknights), red eyes, silver hair, gradient hair, medium hair, arknights",
+      enhancers: [
+        "[red coat","black shirt","red skirt","pantyhose","kneepads","detached collar","headphones]",
+        "[frostleaf (breaking the ice) (arknights)","purple pants","purple scarf","cropped black jacket","ears through headwear]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12047,8 +12074,11 @@ const artists = [
   {
       name: "eunectes (arknights)",
       category: "Arknights",
-      mainTags: "eunectes (arknights), yellow eyes, white hair, long hair, snake tail, arknights",
-      enhancers: ["yellow bandeau", "eunectes (forgemaster) (arknights)"],
+      mainTags: "eunectes (arknights), yellow eyes, brown hair, short hair, snake tail, arknights",
+      enhancers: [
+        "[yellow dress","black tube top","single-shoulder dress","thigh pouch","black gloves","eyewear on head]",
+        "eunectes (forgemaster) (arknights)"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12057,8 +12087,11 @@ const artists = [
   {
       name: "talulah (arknights)",
       category: "Arknights",
-      mainTags: "talulah (arknights), green eyes, white hair, long hair, arknights",
-      enhancers: ["black dress", "talulah the fighter (arknights)"],
+      mainTags: "talulah (arknights), green eyes, white hair, short hair, arknights",
+      enhancers: [
+        "[black dress","orange armband","pantyhose","thigh straps","wide sleeves]",
+        "[talulah the fighter (arknights)","single knee pad","thigh strap]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
