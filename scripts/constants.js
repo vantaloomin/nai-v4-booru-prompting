@@ -13181,7 +13181,7 @@ const artists = [
       name: "rem (re:zero)",
       category: "Re: Zero",
       mainTags: "rem (re:zero), blue eyes, blue hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["maid"],
+      enhancers: ["[black dress","wide sleeves","maid headdress","detached collar","detached sleeves","white thighhighs","garter straps]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13191,7 +13191,7 @@ const artists = [
       name: "ram (re:zero)",
       category: "Re: Zero",
       mainTags: "ram (re:zero), red eyes, pink hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["maid"],
+      enhancers: ["[black dress","wide sleeves","maid headdress","detached collar","detached sleeves","white thighhighs","garter straps]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13201,9 +13201,7 @@ const artists = [
       name: "emilia (re:zero)",
       category: "Re: Zero",
       mainTags: "emilia (re:zero), purple eyes, silver hair, long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[white dress", "detached sleeves]"
-      ],
+      enhancers: ["[white dress","wide sleeves","detached collar","white thighhighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13213,7 +13211,7 @@ const artists = [
       name: "natsuki subaru",
       category: "Re: Zero",
       mainTags: "natsuki subaru, brown eyes, black hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["track jacket"],
+      enhancers: ["track suit"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13223,9 +13221,7 @@ const artists = [
       name: "beatrice (re:zero)",
       category: "Re: Zero",
       mainTags: "beatrice (re:zero), blue eyes, blonde hair, long hair, twin drills, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[red dress", "capelet]"
-      ],
+      enhancers: ["[red dress","red capelet","fur-trimmed capelet","striped pantyhose]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13235,7 +13231,7 @@ const artists = [
       name: "echidna (re:zero)",
       category: "Re: Zero",
       mainTags: "echidna (re:zero), black eyes, white hair, long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["black dress"],
+      enhancers: ["[butterfly hair ornament","black dress","black capelet]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13244,10 +13240,8 @@ const artists = [
   {
       name: "felix argyle",
       category: "Re: Zero",
-      mainTags: "felix argyle, yellow eyes, orange hair, short hair, cat girl, cat tail, animal ear fluff, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[striped dress", "thighhighs]"
-      ],
+      mainTags: "felix argyle, yellow eyes, brown hair, short hair, cat boy, cat tail, animal ear fluff, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[white dress","black pantyhose","blue striped thighhighs","blue ribbon]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13257,9 +13251,7 @@ const artists = [
       name: "felt (re:zero)",
       category: "Re: Zero",
       mainTags: "felt (re:zero), red eyes, blonde hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[tube top", "brown vest", "belt]"
-      ],
+      enhancers: ["[black tube top","brown vest","fur-trimmed vest","asymmetric legwear","brown belt","brown gloves","scarf]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13268,9 +13260,8 @@ const artists = [
   {
       name: "petra leyte",
       category: "Re: Zero",
-      mainTags: "petra leyte, brown eyes, orange hair, medium hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["maid", "[green skirt", "yellow shirt", "green cape]"
-      ],
+      mainTags: "petra leyte, blue eyes, orange hair, short hair, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[maid","black dress","detached collar","detached sleeves","white pantyhose]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13280,7 +13271,7 @@ const artists = [
       name: "frederica baumann",
       category: "Re: Zero",
       mainTags: "frederica baumann, green eyes, blonde hair, long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["maid"],
+      enhancers: ["[maid","black dress","detached collar","waist apron]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13290,7 +13281,7 @@ const artists = [
       name: "elsa granhilte",
       category: "Re: Zero",
       mainTags: "elsa granhilte, purple eyes, black hair, long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["black cocktail dress", "cloak"],
+      enhancers: ["[black dress","plunging neckline","brown pantyhose","black cloak","two-sided cloak","pelvic curtain","fingerless elbow gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13299,8 +13290,8 @@ const artists = [
   {
       name: "crusch karsten",
       category: "Re: Zero",
-      mainTags: "crusch karsten, green eyes, green hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["military uniform"],
+      mainTags: "crusch karsten, red eyes, green hair, long hair, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[military uniform","blue pants","blue jacket","blue hat","white gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13310,9 +13301,7 @@ const artists = [
       name: "priscilla barielle",
       category: "Re: Zero",
       mainTags: "priscilla barielle, red eyes, orange hair, long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[aristocratic clothes", "off shoulder red dress]"
-      ],
+      enhancers: ["[aristocractic clothes","off-shoulder dress","red dress","black fingerless gloves","elbow gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13322,9 +13311,7 @@ const artists = [
       name: "reinhard van astrea",
       category: "Re: Zero",
       mainTags: "reinhard van astrea, blue eyes, red hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[white coat", "white skirt]"
-      ],
+      enhancers: ["[white coat","white pants","black gloves","high collar]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13333,10 +13320,8 @@ const artists = [
   {
       name: "shaula (re:zero)",
       category: "Re: Zero",
-      mainTags: "shaula (re:zero), green eyes, black hair, very long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[black bikini top", "black shorts", "cape]"
-      ],
+      mainTags: "shaula (re:zero), green eyes, black hair, very long hair, multi-tied hair, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[black bikini top","black short shorts","belt","black hooded cloak","two-sided cloak","hood down]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13346,9 +13331,7 @@ const artists = [
       name: "otto suewen",
       category: "Re: Zero",
       mainTags: "otto suewen, grey eyes, grey hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[green cloak", "green hat]"
-      ],
+      enhancers: ["[green shirt","black pants","green cloak","green hat","belt pouch]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13357,10 +13340,8 @@ const artists = [
   {
       name: "meili portroute",
       category: "Re: Zero",
-      mainTags: "meili portroute, blue eyes, blue hair, long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[black dress", "cape]"
-      ],
+      mainTags: "meili portroute, green eyes, blue hair, long hair, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[black dress","black cloak","two-sided cloak","striped pantyhose]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13369,10 +13350,8 @@ const artists = [
   {
       name: "minerva (re:zero)",
       category: "Re: Zero",
-      mainTags: "minerva (re:zero), blue eyes, blonde hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[white coat", "purple dress]"
-      ],
+      mainTags: "minerva (re:zero), blue eyes, blonde hair, medium hair, high side ponytail, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[purple dress","pantyhose","white thigh boots","white coat","detached sleeves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13382,7 +13361,7 @@ const artists = [
       name: "pandora (re:zero)",
       category: "Re: Zero",
       mainTags: "pandora (re:zero), blue eyes, blonde hair, long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["[]"],
+      enhancers: ["[white dress","single off shoulder]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13391,8 +13370,8 @@ const artists = [
   {
       name: "petelgeuse romaneeconti",
       category: "Re: Zero",
-      mainTags: "petelgeuse romaneeconti, green eyes, black hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["cape"],
+      mainTags: "petelgeuse romaneeconti, colored skin, green skin, bulging eyes, green hair, short hair, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[black pants","black cape","high collar]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13401,8 +13380,8 @@ const artists = [
   {
       name: "anastasia hoshin",
       category: "Re: Zero",
-      mainTags: "anastasia hoshin, purple eyes, green hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["gradient dress"],
+      mainTags: "anastasia hoshin, blue eyes, purple hair, long hair, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[white hat","white cape","white dress","fur trim]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13411,10 +13390,8 @@ const artists = [
   {
       name: "satella (re:zero)",
       category: "Re: Zero",
-      mainTags: "satella (re:zero), purple eyes, black hair, long hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[black dress", "black veil]"
-      ],
+      mainTags: "satella (re:zero), purple eyes, white hair, long hair, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[long dress","black dress","black veil","off-shoulder dress","halterneck]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13424,7 +13401,7 @@ const artists = [
       name: "garfiel tinsel",
       category: "Re: Zero",
       mainTags: "garfiel tinsel, green eyes, blonde hair, short hair, re:zero kara hajimeru isekai seikatsu",
-      enhancers: ["black vest"],
+      enhancers: ["[black vest","purple coat","coat around waist","black pants","fingerless gloves]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13433,10 +13410,8 @@ const artists = [
   {
       name: "mimi pearlbaton",
       category: "Re: Zero",
-      mainTags: "mimi pearlbaton, orange eyes, orange hair, short hair, cat girl, cat ears, cat tail, re:zero kara hajimeru isekai seikatsu",
-      enhancers: [
-      "[white coat", "white dress]"
-      ],
+      mainTags: "mimi pearlbaton, green eyes, orange hair, short hair, cat girl, cat ears, cat tail, re:zero kara hajimeru isekai seikatsu",
+      enhancers: ["[white coat","white capelet","white dress","wide sleeves","orange mittens]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
