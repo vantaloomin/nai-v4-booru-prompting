@@ -13420,8 +13420,8 @@ const artists = [
   {
       name: "velma dinkley",
       category: "Scooby-Doo (Series)",
-      mainTags: "velma dinkley, brown eyes, brown hair, short hair, scooby-doo",
-      enhancers: ["orange sweater"],
+      mainTags: "velma dinkley, brown eyes, glasses, brown hair, short hair, scooby-doo",
+      enhancers: ["[orange turtleneck sweater","red pleated skirt","orange knee socks]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13431,7 +13431,7 @@ const artists = [
       name: "daphne blake",
       category: "Scooby-Doo (Series)",
       mainTags: "daphne blake, purple eyes, orange hair, long hair, scooby-doo",
-      enhancers: ["[]"],
+      enhancers: ["[purple dress","pink pantyhose","purple headband","green scarf]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13440,8 +13440,8 @@ const artists = [
   {
       name: "shaggy rogers",
       category: "Scooby-Doo (Series)",
-      mainTags: "shaggy rogers, brown eyes, brown hair, short hair, green shirt, brown pants, scooby-doo",
-      enhancers: ["[]"],
+      mainTags: "shaggy rogers, brown eyes, brown hair, short hair, scooby-doo",
+      enhancers: ["[green t-shirt","white shirt","white long sleeves","shirt under shirt","brown pants]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13450,19 +13450,9 @@ const artists = [
   {
       name: "fred jones",
       category: "Scooby-Doo (Series)",
-      mainTags: "fred jones, blue eyes, blonde hair, short hair, scooby-doo",
-      enhancers: ["[]"],
+      mainTags: "fred jones, muscular male, blue eyes, blonde hair, short hair, scooby-doo",
+      enhancers: ["[white shirt","blue collar","orange ascot","blue pants]"],
       defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "thorn (scooby-doo)",
-      category: "Scooby-Doo (Series)",
-      mainTags: "thorn (scooby-doo), green eyes, black hair, long hair, scooby-doo and the witch's ghost, scooby-doo",
-      enhancers: ["[]"],
-      defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Shows or Movies"
