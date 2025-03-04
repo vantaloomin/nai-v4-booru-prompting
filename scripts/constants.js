@@ -12917,8 +12917,8 @@ const artists = [
   {
       name: "fudo yusei",
       category: "Yu-Gi-Oh",
-      mainTags: "fudo yusei, blue eyes, black hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
-      enhancers: ["[]"],
+      mainTags: "fudo yusei, black hair, short hair, streaked hair, spiked hair, yu-gi-oh! 5d's, yu-gi-oh!",
+      enhancers: ["[blue jacket","black shirt","jeans","knee pads","brown gloves]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12927,8 +12927,8 @@ const artists = [
   {
       name: "izayoi aki",
       category: "Yu-Gi-Oh",
-      mainTags: "izayoi aki, red eyes, red hair, long hair, yu-gi-oh! 5d's, yu-gi-oh!",
-      enhancers: ["[]"],
+      mainTags: "izayoi aki, brown eyes, red hair, medium hair, yu-gi-oh! 5d's, yu-gi-oh!",
+      enhancers: ["[black dress","white sleeves","black fingerless gloves","elbow gloves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12938,7 +12938,7 @@ const artists = [
       name: "jack atlas",
       category: "Yu-Gi-Oh",
       mainTags: "jack atlas, purple eyes, blonde hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
-      enhancers: ["[]"],
+      enhancers: ["[white coat","blue pants","white shirt","two-sided coat]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12947,8 +12947,8 @@ const artists = [
   {
       name: "bruno (yu-gi-oh!)",
       category: "Yu-Gi-Oh",
-      mainTags: "bruno (yu-gi-oh!), blue eyes, blue hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
-      enhancers: ["multicolored coat"],
+      mainTags: "bruno (yu-gi-oh!), blue eyes, blue hair, medium hair, yu-gi-oh! 5d's, yu-gi-oh!",
+      enhancers: ["[multicolored jacket","two-tone shirt","jeans]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12958,7 +12958,9 @@ const artists = [
       name: "carly nagisa",
       category: "Yu-Gi-Oh",
       mainTags: "carly nagisa, blue eyes, black hair, long hair, yu-gi-oh! 5d's, yu-gi-oh!",
-      enhancers: ["glasses", "[orange vest", "glasses]"
+      enhancers: [
+        "[glasses", "orange vest","jeans","horizontal-striped shirt","two-tone shirt]",
+        "[black crop top","black skirt","black sclera","white belt","black elbow gloves]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -12968,10 +12970,8 @@ const artists = [
   {
       name: "luca (yu-gi-oh!)",
       category: "Yu-Gi-Oh",
-      mainTags: "luca (yu-gi-oh!), green eyes, orange hair, long hair, yu-gi-oh! 5d's, yu-gi-oh!",
-      enhancers: [
-      "[red shirt", "pink jacket]"
-      ],
+      mainTags: "luca (yu-gi-oh!), brown eyes, green hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
+      enhancers: ["[red skirt","cropped pink jacket","white shorts]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12981,7 +12981,7 @@ const artists = [
       name: "kaiba seto",
       category: "Yu-Gi-Oh",
       mainTags: "kaiba seto, green eyes, brown hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
-      enhancers: ["white collared coat"],
+      enhancers: ["[black shirt","black pants","white coat","high collar","bracers]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -12991,9 +12991,7 @@ const artists = [
       name: "muto yugi",
       category: "Yu-Gi-Oh",
       mainTags: "muto yugi, purple eyes, black hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
-      enhancers: [
-      "[blue jacket", "millennium puzzle]"
-      ],
+      enhancers: ["[domino high school uniform", "blue suit jacket","blue pants","white shirt","millennium puzzle]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13003,9 +13001,7 @@ const artists = [
       name: "yami yugi",
       category: "Yu-Gi-Oh",
       mainTags: "yami yugi, purple eyes, black hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
-      enhancers: [
-      "[spiked hair", "open blue jacket", "millennium puzzle]"
-      ],
+      enhancers: ["[spiked hair", "open blue jacket", "millennium puzzle]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13014,9 +13010,10 @@ const artists = [
   {
       name: "mazaki anzu",
       category: "Yu-Gi-Oh",
-      mainTags: "mazaki anzu, blue eyes, brown hair, medium hair, yu-gi-oh! duel monsters, yu-gi-oh!",
+      mainTags: "mazaki anzu, brown eyes, brown hair, medium hair, yu-gi-oh! duel monsters, yu-gi-oh!",
       enhancers: [
-      "[pink jacket", "blue bowtie]"
+        "[domino high school uniform","pink jacket","blue bowtie","blue skirt","black thighhighs]",
+        "[sleeveless teal shirt","blue shorts","white belt","multiple bracelets","white thighhighs]"
       ],
       defaultGender: "girl",
       genderswapAvailable: true,
@@ -13028,7 +13025,8 @@ const artists = [
       category: "Yu-Gi-Oh",
       mainTags: "jonouchi katsuya, brown eyes, blonde hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
       enhancers: [
-      "[green coat", "single fingerless glove", "pants]"
+        "[domino high school uniform","blue jacket","blue pants]",
+        "[green jacket","high collar","two-tone shirt","single fingerless glove","jeans]"
       ],
       defaultGender: "boy",
       genderswapAvailable: true,
@@ -13038,8 +13036,8 @@ const artists = [
   {
       name: "ishizu ishtar",
       category: "Yu-Gi-Oh",
-      mainTags: "ishizu ishtar, blue eyes, black hair, long hair, millennium necklace, veil, yu-gi-oh!",
-      enhancers: ["[]"],
+      mainTags: "ishizu ishtar, dark skin, dark-skinned female, pink eyes, black hair, long hair, yu-gi-oh!",
+      enhancers: ["[ancient egyptian","white dress","o-ring","millennium necklace","veil]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13049,9 +13047,7 @@ const artists = [
       name: "kujaku mai",
       category: "Yu-Gi-Oh",
       mainTags: "kujaku mai, purple eyes, blonde hair, long hair, yu-gi-oh! duel monsters, yu-gi-oh!",
-      enhancers: [
-      "[purple skirt", "corset]"
-      ],
+      enhancers: ["[purple skirt","purple jacket","white crop top","white detached sleeves]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13061,20 +13057,8 @@ const artists = [
       name: "yami bakura",
       category: "Yu-Gi-Oh",
       mainTags: "yami bakura, brown eyes, white hair, long hair, yu-gi-oh! duel monsters, yu-gi-oh!",
-      enhancers: [
-      "[blue jacket", "millennium ring", "striped shirt]"
-      ],
+      enhancers: ["[blue jacket", "millennium ring", "striped shirt]"],
       defaultGender: "boy",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "kisara (yu-gi-oh!)",
-      category: "Yu-Gi-Oh",
-      mainTags: "kisara (yu-gi-oh!), blue eyes, white hair, long hair, yu-gi-oh! duel monsters, yu-gi-oh!",
-      enhancers: ["brown tunic"],
-      defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Shows or Movies"
@@ -13082,8 +13066,8 @@ const artists = [
   {
       name: "hiiragi yuzu",
       category: "Yu-Gi-Oh",
-      mainTags: "hiiragi yuzu, pink eyes, pink hair, long hair, twintails, yu-gi-oh! arc-v, yu-gi-oh!",
-      enhancers: ["[]"],
+      mainTags: "hiiragi yuzu, blue eyes, pink hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
+      enhancers: ["[school uniform","pink necktie","two-tone sleeveless shirt","red skirt","black thighhighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13092,8 +13076,8 @@ const artists = [
   {
       name: "sakaki yuya",
       category: "Yu-Gi-Oh",
-      mainTags: "sakaki yuya, red eyes, red hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
-      enhancers: ["goggles on head"],
+      mainTags: "sakaki yuya, red eyes, red hair, green hair, multicolored hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
+      enhancers: ["[red shirt","green cargo pants","wrist cuffs","white cape","goggles on head]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13102,8 +13086,8 @@ const artists = [
   {
       name: "serena (yu-gi-oh!)",
       category: "Yu-Gi-Oh",
-      mainTags: "serena (yu-gi-oh!), blue eyes, purple hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
-      enhancers: ["red jacket"],
+      mainTags: "serena (yu-gi-oh!), green eyes, purple hair, medium hair, updo, yu-gi-oh! arc-v, yu-gi-oh!",
+      enhancers: ["[red cropped jacket","black vest","white turtleneck","white skirt","brown belt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13112,10 +13096,8 @@ const artists = [
   {
       name: "kurosaki ruri",
       category: "Yu-Gi-Oh",
-      mainTags: "kurosaki ruri, purple eyes, black hair, long hair, yu-gi-oh! arc-v, yu-gi-oh!",
-      enhancers: [
-      "[white vest", "purple shirt", "pants under skirt]"
-      ],
+      mainTags: "kurosaki ruri, red eyes, black hair, streaked hair, long hair, yu-gi-oh! arc-v, yu-gi-oh!",
+      enhancers: ["[white shirt","purple skirt","pants under skirt","multiple belts]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13124,10 +13106,8 @@ const artists = [
   {
       name: "rin (yu-gi-oh!)",
       category: "Yu-Gi-Oh",
-      mainTags: "rin (yu-gi-oh!), green eyes, green hair, long hair, yu-gi-oh! arc-v, yu-gi-oh!",
-      enhancers: [
-      "[pink shorts", "multicolored jacket]"
-      ],
+      mainTags: "rin (yu-gi-oh!), red eyes, green hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
+      enhancers: ["[pink shorts","white thigh boots","multicolored jacket","choker]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13136,10 +13116,8 @@ const artists = [
   {
       name: "mizuki kotori (yu-gi-oh!)",
       category: "Yu-Gi-Oh",
-      mainTags: "mizuki kotori (yu-gi-oh!), brown eyes, brown hair, long hair, yu-gi-oh! zexal, yu-gi-oh!",
-      enhancers: [
-      "[sleeveless shirt", "pink skirt]"
-      ],
+      mainTags: "mizuki kotori (yu-gi-oh!), brown eyes, green hair, medium hair, yu-gi-oh! zexal, yu-gi-oh!",
+      enhancers: ["[sleeveless shirt","pink skirt","brown belt","kneehighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13148,9 +13126,9 @@ const artists = [
   {
       name: "tsukumo yuma",
       category: "Yu-Gi-Oh",
-      mainTags: "tsukumo yuma, red eyes, black hair, short hair, yu-gi-oh! zexal, yu-gi-oh!",
-      enhancers: ["red jacket"],
-      defaultGender: "girl",
+      mainTags: "tsukumo yuma, red eyes, black hair, streaked hair, short hair, yu-gi-oh! zexal, yu-gi-oh!",
+      enhancers: ["[red vest","white pants","two-tone shirt","belt]"],
+      defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
       mediaType: "Shows or Movies"
@@ -13158,8 +13136,8 @@ const artists = [
   {
       name: "kamishiro rio",
       category: "Yu-Gi-Oh",
-      mainTags: "kamishiro rio, purple eyes, purple hair, long hair, yu-gi-oh! zexal, yu-gi-oh!",
-      enhancers: ["[]"],
+      mainTags: "kamishiro rio, purple eyes, blue hair, gradient hair, long hair, yu-gi-oh! zexal, yu-gi-oh!",
+      enhancers: ["[white dress","pink dress","red ascot","black thighhighs]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13168,10 +13146,12 @@ const artists = [
   {
       name: "kirishima romin",
       category: "Yu-Gi-Oh",
-      mainTags: "kirishima romin, purple eyes, purple hair, short hair, yu-gi-oh! sevens, yu-gi-oh!",
+      mainTags: "kirishima romin, blue eyes, purple hair, long hair, yu-gi-oh! sevens, yu-gi-oh!",
       enhancers: [
-      "[striped shirt", "bow hairband]"
-      ],
+        "[black tank top","red skirt","blue pants","multiple belts","belt pouch]",
+        "[aqua dress","white cropped jacket","black pantyhose","white knee boots","cross-laced footwear]",
+        "[orange sweater","blue pleated skirt","off-shoulder","black leotard","yellow pantyhose]"
+    ],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13180,8 +13160,8 @@ const artists = [
   {
       name: "zaizen aoi",
       category: "Yu-Gi-Oh",
-      mainTags: "zaizen aoi, blue eyes, brown hair, long hair, yu-gi-oh! vrains, yu-gi-oh!",
-      enhancers: ["black jacket"],
+      mainTags: "zaizen aoi, brown eyes, brown hair, short hair, yu-gi-oh! vrains, yu-gi-oh!",
+      enhancers: ["[black jacket","blue necktie","black pleated skirt","white sweater","white shirt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13190,10 +13170,8 @@ const artists = [
   {
       name: "blue angel (yu-gi-oh!)",
       category: "Yu-Gi-Oh",
-      mainTags: "blue angel (yu-gi-oh!), blue eyes, blonde hair, long hair, wings, yu-gi-oh! vrains, yu-gi-oh!",
-      enhancers: [
-      "[blue dress", "white vest]"
-      ],
+      mainTags: "blue angel (yu-gi-oh!), blue eyes, blue hair, long hair, yu-gi-oh! vrains, yu-gi-oh!",
+      enhancers: ["[white shirt","white wings","hearts","blue necktie","blue wrist cuffs","blue skirt]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
