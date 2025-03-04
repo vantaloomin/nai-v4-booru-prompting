@@ -13460,10 +13460,8 @@ const artists = [
   {
       name: "guts (berserk)",
       category: "Berserk",
-      mainTags: "guts (berserk), brown eyes, black hair, short hair, one eye closed, cloak, berserk",
-      enhancers: [
-      "[armor", "boobplate]"
-      ],
+      mainTags: "guts (berserk), muscular male, brown eyes, black hair, short hair, one eye closed, berserk",
+      enhancers: ["[armor","shoulder pads","chestplate","gauntlets","greaves","cloak]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13473,9 +13471,7 @@ const artists = [
       name: "griffith (berserk)",
       category: "Berserk",
       mainTags: "griffith (berserk), blue eyes, white hair, long hair, berserk",
-      enhancers: [
-      "[armor", "boobplate]"
-      ],
+      enhancers: ["[full armor","silver armor","chestplate","gauntlets","leg guards","white cape","two-sided cape]"],
       defaultGender: "boy",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13484,10 +13480,8 @@ const artists = [
   {
       name: "casca (berserk)",
       category: "Berserk",
-      mainTags: "casca (berserk), brown eyes, black hair, short hair, dark skin, dark-skinned female, muscular female, berserk",
-      enhancers: [
-      "[armor", "boobplate]"
-      ],
+      mainTags: "casca (berserk), dark skin, dark-skinned female, brown eyes, brown, hair, short hair, berserk",
+      enhancers: ["[red cropped cape","brown shirt","boobplate","brown gloves","brown pants]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13497,21 +13491,7 @@ const artists = [
       name: "schierke (berserk)",
       category: "Berserk",
       mainTags: "schierke (berserk), green eyes, brown hair, long hair, berserk",
-      enhancers: [
-      "[witch hat", "robe]"
-      ],
-      defaultGender: "girl",
-      genderswapAvailable: true,
-      ageUpAvailable: true,
-      mediaType: "Shows or Movies"
-  },
-  {
-      name: "farnese (berserk)",
-      category: "Berserk",
-      mainTags: "farnese (berserk), blue eyes, blonde hair, long hair, berserk",
-      enhancers: [
-      "[armor", "two-sided cape]"
-      ],
+      enhancers: ["[purple witch hat","purple robe","high collar]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
@@ -13521,7 +13501,7 @@ const artists = [
       name: "slan (berserk)",
       category: "Berserk",
       mainTags: "slan (berserk), purple eyes, black hair, long hair, aqua hair, tentacle hair, demon girl, demon wings, berserk",
-      enhancers: ["[]"],
+      enhancers: ["[topless female","nude","black corset","choker","convenient censoring]"],
       defaultGender: "girl",
       genderswapAvailable: true,
       ageUpAvailable: true,
