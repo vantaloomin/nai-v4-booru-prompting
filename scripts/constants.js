@@ -15843,6 +15843,62 @@ const characterData = [{
         genderswapAvailable: true,
         ageUpAvailable: true,
         mediaType: "Shows or Movies"
+    }, {
+        name: "ayase momo",
+        category: "Dandadan",
+        mainTags: "ayase momo, brown eyes, brown hair, short hair, dandadan",
+        enhancers: [
+            ["school uniform", "pink sweater", "red bow", "white shirt", "white leg warmers", "blue pleated skirt", "aqua earrings"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "takakura ken (dandadan)",
+        category: "Dandadan",
+        mainTags: "takakura ken (dandadan), brown eyes, black hair, short hair, glasses, dandadan",
+        enhancers: [
+            ["school uniform", "black jacket", "black pants"],
+            ["--black hair", "--short hair", "takakura ken (transformed) (dandadan)", "mouth mask", "white hair", "red hair", "streaked hair", "long hair"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "ayase seiko",
+        category: "Dandadan",
+        mainTags: "ayase seiko, brown eyes, semi-rimless eyewear, white hair, tall hair, dandadan",
+        enhancers: [
+            ["short yellow dress", "blue jacket", "white sleeves", "puffy long sleeves", "black cape", "two-sided cape", "red cape"],
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "shiratori aira (dandadan)",
+        category: "Dandadan",
+        mainTags: "shiratori aira (dandadan), pink eyes, pink hair, short hair, dandadan",
+        enhancers: [
+            ["school uniform", "blue jacket", "red bow", "grey pleated skirt", "miniskirt"],
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "tenjoji jin",
+        category: "Dandadan",
+        mainTags: "tenjoji jin, brown eyes, red hair, short hair, dandadan",
+        enhancers: [
+            ["school uniform", "blue jacket", "black necktie", "grey pants", "white shirt"],
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
     }
 ];
 
