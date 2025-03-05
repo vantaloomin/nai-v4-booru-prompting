@@ -15899,7 +15899,633 @@ const characterData = [{
         genderswapAvailable: true,
         ageUpAvailable: true,
         mediaType: "Shows or Movies"
-    }
+    }, {
+        name: "eve (stellar blade)",
+        category: "Stellar Blade",
+        mainTags: "eve (stellar blade), black hair, long hair, ponytail, stellar blade",
+        enhancers: [
+            ["skin suit (stellar blade)", "skin tight", "impossible bodysuit"],
+            ["planet diving suit (7th) (stellar blade)", "skin tight", "impossible bodysuit", "multicolored bodysuit", "white fingerless gloves"]
+            ["--brown eyes", "--brown hair", "--long hair", "--ponytail", "[eve (stellar blade)", "2b (nier:automata) (cosplay)", "black blindfold", "white hair", "short hair", "black dress", "official alternate costume]"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Video Games"
+    }, {
+        name: "hermione granger",
+        category: "Wizarding World",
+        mainTags: "hermione granger, brown eyes, brown hair, long hair, wavy hair, harry potter (series), wizarding world",
+        enhancers: [
+            ["hogwarts school uniform", "black cape", "grey pleated skirt", "grey sweater", "white shirt", "striped necktie"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "harry potter",
+        category: "Wizarding World",
+        mainTags: "harry potter, green eyes, brown hair, short hair, glasses, scar on forehead, harry potter (series), wizarding world",
+        enhancers: [
+            ["hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"]
+        ],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "draco malfoy",
+        category: "Wizarding World",
+        mainTags: "draco malfoy, blue eyes, white hair, short hair, harry potter (series), wizarding world",
+        enhancers: [
+            ["hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"]
+        ],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "ron weasley",
+        category: "Wizarding World",
+        mainTags: "ron weasley, blue eyes, red hair, short hair, harry potter (series), wizarding world",
+        enhancers: [
+            ["hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"]
+        ],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "luna lovegood",
+        category: "Wizarding World",
+        mainTags: "luna lovegood, blue eyes, blonde hair, long hair, harry potter (series), wizarding world",
+        enhancers: [
+            ["hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "severus snape",
+        category: "Wizarding World",
+        mainTags: "severus snape, brown eyes, black hair, medium hair, harry potter (series), wizarding world",
+        enhancers: [
+            ["aged down", "hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"],
+            ["black robe", "black waistcoat", "buttons", "black pants", "high collar", "wide sleeves"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "juliet starling",
+        category: "Other",
+        mainTags: "juliet starling, blue eyes, blonde hair, medium hair, twintails, lollipop chainsaw, ",
+        enhancers: [
+            ["cheerleader", "red scrunchie", "multicolor skirt", "multicolor crop top", "single black wristband", "pink wristwatch", "white thighhighs"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Video Games"
+    }, {
+        name: "korra",
+        category: "Avatar Legends",
+        mainTags: "korra, dark skin, dark-skinned female, blue eyes, brown hair, short hair, the legend of korra, avatar legends",
+        enhancers: [
+            ["sleeveless blue shirt", "detached sleeves", "high collar", "brown skirt", "fur-trimmed skirt", "overskirt", "blue pants", "belt"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "asami sato",
+        category: "Avatar Legends",
+        mainTags: "asami sato, green eyes, black hair, long hair, the legend of korra, avatar legends",
+        enhancers: [
+            ["hair bun", "red shirt", "high collar", "long black pencil skirt", "black pantyhose", "black capelet"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "toph beifong",
+        category: "Avatar Legends",
+        mainTags: "toph beifong, blind, white eyes, brown hair, short hair, avatar: the last airbender, avatar legends",
+        enhancers: [
+            ["green headband", "green shirt", "green pants", "ankle cuffs", "belt", "wrist cuffs"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "azula",
+        category: "Avatar Legends",
+        mainTags: "azula, yellow eyes, black hair, long hair, avatar: the last airbender, avatar legends",
+        enhancers: [
+            ["armor", "red shirt", "red pants", "layered clothes", "red capelet", "high collar", "red knee boots"],
+            ["chinese clothes", "red shirt", "red pants", "layered clothes"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "katara",
+        category: "Avatar Legends",
+        mainTags: "katara, dark skin, dark-skinned female, blue eyes, brown hair, braided ponytail, avatar: the last airbender, avatar legends",
+        enhancers: [
+            ["blue kimono", "blue pants", "long sleeves", "wide sleeves", "blue bracers"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "aang",
+        category: "Avatar Legends",
+        mainTags: "aang, grey eyes, bald, head tattoo, avatar: the last airbender, avatar legends, ",
+        enhancers: [
+            ["yellow shirt", "high collar", "yellow pants", "orange capelet", "orange sash"]
+        ],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "zuko",
+        category: "Avatar Legends",
+        mainTags: "zuko, brown eyes, black hair, short hair, scar across eye, scar on face, avatar: the last airbender, avatar legends, ",
+        enhancers: [
+            ["red coat", "red shirt", "red pants", "yellow belt", "wide sleeves"]
+        ],
+        defaultGender: "boy",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+        name: "ty lee",
+        category: "Avatar Legends",
+        mainTags: "ty lee, brown eyes, brown hair, long hair, high braided ponytail, avatar: the last airbender, avatar legends",
+        enhancers: [
+            ["pink crop top", "red capri pants", "red overskirt", "red capelet", "red wristbands"]
+        ],
+        defaultGender: "girl",
+        genderswapAvailable: true,
+        ageUpAvailable: true,
+        mediaType: "Shows or Movies"
+    }, {
+    name: "makoto nanaya",
+    category: "BlazBlue",
+    mainTags: "makoto nanaya, squirrel girl, squirrel ears, squirrel tail, brown eyes, brown hair, short hair, blazblue",
+    enhancers: [
+        ["orange crop top","underboob","halterneck","orange skirt","panty straps","black thighhighs","cuffed thighhighs","fingerless gloves"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "noel vermillion",
+    category: "BlazBlue",
+    mainTags: "noel vermillion, green eyes, blonde hair, blazblue",
+    enhancers: [
+        ["short hair","blue beret","blue dress","detached sleeves","wide sleeves","white gloves","black thighhighs","red necktie"],
+        ["long hair","hair ornament","white halterneck","sleeveless shirt","red necktie","blue capelet","high collar","midriff","blue miniskirt","black belt","black thighhighs"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "ragna the bloodedge",
+    category: "BlazBlue",
+    mainTags: "ragna the bloodedge, heterochromia, red eye, green eye, white hair, spiked hair, blazblue",
+    enhancers: [
+        ["black pants","black shirt","red jacket","high collar","black gloves","multiple belts"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "nu-13",
+    category: "BlazBlue",
+    mainTags: "nu-13, red eyes, eyepatch, white hair, very long hair, single braid, blazblue",
+    enhancers: [
+        ["blue bodysuit","crotch plate","white cape","bridal gauntlets","gorget","ofuda"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "rachel alucard",
+    category: "BlazBlue",
+    mainTags: "rachel alucard, red eyes, blonde hair, long hair, twintails, blazblue",
+    enhancers: [
+        ["black dress","gothic lolita","wide sleeves","black cloak","red cloak","two-sided cloak","high collar","black boots"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "platinum the trinity",
+    category: "BlazBlue",
+    mainTags: "platinum the trinity, green eyes, blonde hair, very long hair, low-tied long hair, quad tails, blazblue",
+    enhancers: [
+        ["green hairband","green hair bows","blue skirt","white sleeveless shirt","white gloves","blue knee socks","neck bell"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "platinum the trinity",
+    category: "BlazBlue",
+    mainTags: "jin kisaragi, green eyes, blonde hair, short hair, blazblue",
+    enhancers: [
+        ["japanese clothes","short white kimono","black pants","black turtleneck shirt","blue coat","high collar","white elbow gloves","short over long sleeves"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "taokaka",
+    category: "BlazBlue",
+    mainTags: "taokaka, dark skin, dark-skinned female, red eyes, sharp teeth, blazblue",
+    enhancers: [
+        ["long hoodie","yellow hoodie","hoodie dress","animal hood","cat ears","oversized zipper"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "tsubaki yayoi",
+    category: "BlazBlue",
+    mainTags: "tsubaki yayoi, blue eyes, red hair, long hair, blazblue",
+    enhancers: [
+        ["white pants","white coat","black elbow gloves","winged hat","white hat"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "mai natsume",
+    category: "BlazBlue",
+    mainTags: "mai natsume, pink eyes, purple hair, long hair, high ponytail, blazblue",
+    enhancers: [
+        ["black pants","hip vent","white crop top","halterneck","sleeveless shirt","collar","red fingerless elbow gloves"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "lambda-11",
+    category: "BlazBlue",
+    mainTags: "lambda-11, red eyes, blonde hair, short hair, blazblue",
+    enhancers: [
+        ["armor","black bodysuit","crotch plate","covered eyes","visor","pauldrons","mecha musume","sword wings","black gloves"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "hazama",
+    category: "BlazBlue",
+    mainTags: "hazama, yellow eyes, green hair, short hair, blazblue",
+    enhancers: [
+        ["--yellow eyes","eyes closed","black fedora","black pants","black vest","black coat","black necktie","white shirt","multiple belts","brown fingerless gloves","belt chain"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "es (xblaze)",
+    category: "BlazBlue",
+    mainTags: "es (xblaze), blue eyes, blonde hair, long hair, braided ponytail, blazblue",
+    enhancers: [
+        ["black jacket","blue skirt","center frill","white shirt","wide sleeves","red necktie"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "kokonoe (blazblue)",
+    category: "BlazBlue",
+    mainTags: "kokonoe (blazblue), cat girl, cat ears, multiple cat tails, orange eyes, pink hair, long hair, twintails, blazblue",
+    enhancers: [
+        ["pince-nez","red capri pants","highleg black panties","open pants","black belt","bell belt decoration","white turtleneck","long sleeves","wide sleeves"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "mu-12",
+    category: "BlazBlue",
+    mainTags: "mu-12, blue eyes, blonde hair, long hair, blazblue",
+    enhancers: [
+        ["mecha musume","crotch plate","blue elbow gloves","headpiece","white shoulder pads","underboob","knee boots"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "litchi faye ling",
+    category: "BlazBlue",
+    mainTags: "litchi faye ling, pink eyes, black hair, very long hair, ponytail, blazblue",
+    enhancers: [
+        ["red china dress","clothing cutout","black bra","pelvic curtain"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "bullet (blazblue)",
+    category: "BlazBlue",
+    mainTags: "bullet (blazblue), dark skin, dark-skinned female, red eyes, white hair, short hair, scar on nose, blazblue",
+    enhancers: [
+        ["white crop top","black leather jacket","high collar","fingerless gloves","denim short shorts","brown belt"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "konoe a. mercury",
+    category: "BlazBlue",
+    mainTags: "konoe a. mercury, black sclera, red eyes, pink hair, very long hair, blazblue",
+    enhancers: [
+        ["sleeveless purple dress","short dress","purple witch hat","purple thighhighs","red cape","detached sleeves","purple gloves"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "celica a. mercury",
+    category: "BlazBlue",
+    mainTags: "celica a. mercury, red eyes, brown hair, long hair, ponytail, blazblue",
+    enhancers: [
+        ["school uniform","black pleated skirt","white collared shirt","black cape","gold trim","red ribbon"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "iron tager",
+    category: "BlazBlue",
+    mainTags: "iron tager, colored skin, red skin, muscular male, yellow eyes, glasses, black hair, streaked hair, short hair, sideburns, blazblue",
+    enhancers: [
+        ["red sleeveless shirt","red pants","belt","oversized gauntlets"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "jubei",
+    category: "BlazBlue",
+    mainTags: "fur dataset, jubei, cat boy, cat ears, multiple cat tails, furry male, red eyes, eyepatch, white bodyfur, black bodyfur, blazblue",
+    enhancers: [
+        ["yellow hoodie","long hoodie","brown belt","fake animal paws"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "izayoi (blazblue)",
+    category: "BlazBlue",
+    mainTags: "izayoi (blazblue), red eyes, red hair, long hair, ponytail, blazblue",
+    enhancers: [
+        ["sleeveless black bodysuit","halterneck","see-through cleavage","white dress","cutout above navel","detached sleeves","white sleeves","white thigh boots"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "valkenhayn r. hellsing",
+    category: "BlazBlue",
+    mainTags: "valkenhayn r. hellsing, blue eyes, white hair, long hair, ponytail, white beard, blazblue",
+    enhancers: [
+        ["butler","formal clothes","black pants","white shirt","black ribbon","white gloves","black coat"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "lucifer morningstar (hazbin hotel)",
+    category: "Hazbin Hotel",
+    mainTags: "lucifer morningstar (hazbin hotel), red eyes, yellow sclera, blush stickers, blonde hair, short hair, hazbin hotel",
+    enhancers: [
+        ["white suit","white coat","high collar","white pants","pinstripe vest","black bowtie","white shirt","black gloves","black knee boots","two-sided coat","white top hat"],
+        ["white suit","white coat","high collar","white pants","pinstripe vest","black bowtie","white shirt","black gloves","black knee boots","two-sided coat","white top hat","angel wings","two-sided wings","multiple wings"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "charlie morningstar",
+    category: "Hazbin Hotel",
+    mainTags: "charlie morningstar, red eyes, yellow sclera, blush stickers, blonde hair, streaked hair, long hair, multi-tied hair, hazbin hotel",
+    enhancers: [
+        ["red suit","red pants","red suit jacket","black bowtie","white turtleneck shirt"],
+        ["dark purple pants","red suit jacket","black bowtie","white turtleneck shirt"],
+        ["red pants","black bowtie","white turtleneck shirt","untucked shirt","black suspenders","black armbands"],
+        ["--multi-tied hair","demon tail","demon horns","sleeveless red dress","frilled dress","black trim","black elbow gloves","black thighhighs"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "lilith (hazbin hotel)",
+    category: "Hazbin Hotel",
+    mainTags: "lilith (hazbin hotel), red demon horns, grey sclera, yellow eyes, blonde hair, very long hair, hazbin hotel",
+    enhancers: [
+        ["pearl necklace","black evening gown","sleeveless dress","black elbow gloves","black long sleeve shirt","see-through shirt"],
+        ["necklace","black one-piece swimsuit","black hat","red hat ribbon"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "alastor (hazbin hotel)",
+    category: "Hazbin Hotel",
+    mainTags: "alastor (hazbin hotel), colored skin, grey skin, deer antlers, tiny antlers, deer ears, red sclera, red eyes, colored extremities, red hair, medium hair, sharp teeth, hazbin hotel",
+    enhancers: [
+        ["black pants","red shirt","black bowtie","striped red coat","monocle","red-tinted eyewear"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "vaggie",
+    category: "Hazbin Hotel",
+    mainTags: "vaggie, pink sclera, white eyes, white hair, hazbin hotel",
+    enhancers: [
+        ["long one eye covered","black skirt","red crop top","black thighhighs","black elbow gloves","fingerless gloves","red hair bow"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "angel dust",
+    category: "Hazbin Hotel",
+    mainTags: "fur dataset, angel dust, mismatched sclera, black scelera, yelow scelera, pink eyes, white body fur, extra arms, hazbin hotel",
+    enhancers: [
+        ["black thigh boots","black shorts","striped jacket","pink jacket","white jacket","two pink elbow gloves","two white elbow gloves","traditional bowtie"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "husk (hazbin hotel)",
+    category: "Hazbin Hotel",
+    mainTags: "fur dataset, husk (hazbin hotel), furry male, feathered wings, multicolored wings, animal nose, cat ears, body fur, two-tone fur, sharp teeth, hazbin hotel",
+    enhancers: [
+        ["shirtless male","black suspenders","red bowtie","black pants","black top hat","fingerless elbow gloves","black gloves"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "niffty (hazbin hotel)",
+    category: "Hazbin Hotel",
+    mainTags: "niffty (hazbin hotel), demon girl, yellow eyes, red scelera, cyclops, one eye, red hair, long hair, sharp teeth, hazbin hotel",
+    enhancers: [
+        ["red dress","puffy short sleeves","black thighhighs","apron","black bandana","bandana around neck"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "velvette (hazbin hotel)",
+    category: "Hazbin Hotel",
+    mainTags: "velvette (hazbin hotel), dark skin, dark-skinned female, pink sclera, white eyes, pink hair, black hair, two-tone hair, very long hair, twin drills, hazbin hotel",
+    enhancers: [
+        ["black pants","red pants","vertical striped pants","black crop top","halterneck","hearts on coat lapel","black coat","skull earrings"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "crazy mita (miside)",
+    category: "Miside",
+    mainTags: "mita (miside), crazy mita (miside), blue eyes, purple hair, very long hair, low twintails, miside",
+    enhancers: [
+        ["red hairband","red hair clips","red crop top","red choker","blue pleated skirt","red thighhighs"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "cool mita (miside)",
+    category: "Miside",
+    mainTags: "cool mita (miside), blue eyes, purple hair, blue cabbie hat, teardrop facial mark, red teardrop tattoo, animal ear headwear, miside",
+    enhancers: [
+        ["red crop top","red choker","blue pleated skirt","blue gloves","red thighhighs"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "kind mita (miside)",
+    category: "Miside",
+    mainTags: "mita (miside), kind mita (miside), blue eyes, purple hair, long hair, hair down, miside",
+    enhancers: [
+        ["red hair clips","red neck ribbon","red crop top","blue pleated skirt","red thighhighs"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "sleepy mita (miside)",
+    category: "Miside",
+    mainTags: "mita (miside), sleepy mita (miside), sleepy, eyes closed, blue hair, long hair, hair down, miside",
+    enhancers: [
+        ["red sleep mask","cat sleep mask","mask on head","vertical striped pajamas","red pajamas","red shirt","red shorts","blue choker"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "mila (miside)",
+    category: "Miside",
+    mainTags: "mila (miside), blue eyes, purple hair, short hair, bob cut, glasses, miside",
+    enhancers: [
+        ["red claw hair clip","white collared shirt","blue necktie","blue pleated skirt","red cardigan","open cardigan","pantyhose"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "tanya degurechaff",
+    category: "Other",
+    mainTags: "tanya degurechaff, blue eyes, blonde hair, short hair, youjo senki ",
+    enhancers: [
+        ["military uniform","green jacket","green military hat","green pants","black knee boots"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Shows or Movies"
+}, {
+    name: "alex (minecraft)",
+    category: "Other",
+    mainTags: "alex (minecraft), green eyes, orange hair, long hair, single braid, minecraft",
+    enhancers: [
+        ["green shirt","short sleeves","brown pants","black knee boots"]
+    ],
+    defaultGender: "girl",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}, {
+    name: "alex (minecraft)",
+    category: "Other",
+    mainTags: "steve (minecraft), dark skin, dark-skinned male, black eyes, brown hair, short hair, brown beard, minecraft",
+    enhancers: [
+        ["teal shirt","denim pants"]
+    ],
+    defaultGender: "boy",
+    genderswapAvailable: true,
+    ageUpAvailable: true,
+    mediaType: "Video Games"
+}
 ];
 
 // Scenes constant: each theme includes 5 booru tags.
