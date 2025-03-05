@@ -175,10 +175,10 @@ export function updateGenderToggle(id, selectedCharacterName) {
 }
 
 /**
- * Updates the enhancer dropdown options based on the selected character
+ * Updates the enhancer dropdown for a specific character
  * 
  * @param {number} id - Character block ID
- * @param {string} selectedCharacterName - Selected character name
+ * @param {string} selectedCharacterName - Name of the selected character
  */
 export function updateEnhancerDropdown(id, selectedCharacterName) {
     const enhancerDiv = document.getElementById('enhancer-div-' + id);
@@ -215,8 +215,25 @@ export function updateEnhancerDropdown(id, selectedCharacterName) {
         const enhancerList = document.createElement('div');
         enhancerList.className = 'dropdown-list suggestions-list';
 
-        // Process and add enhancer options
+        // Process and add enhancer options - now working with the new sub-array structure
         let processedEnhancers = processEnhancers(selectedData.enhancers);
+        
+        // Add "None" option at the top
+        const noneOption = document.createElement('div');
+        noneOption.className = 'suggestion-item';
+        noneOption.textContent = "-- None --";
+        noneOption.addEventListener('click', () => {
+            enhancerDisplay.textContent = "-- None --";
+            // Clear the original enhancer data attribute when selecting None
+            delete enhancerDisplay.dataset.originalEnhancer;
+            enhancerList.style.display = 'none';
+            if (typeof updateAllActionAssignments === "function") {
+                updateAllActionAssignments();
+            }
+        });
+        enhancerList.appendChild(noneOption);
+        
+        // Add the processed enhancer options
         processedEnhancers.forEach(enh => {
             const item = document.createElement('div');
             item.className = 'suggestion-item';
@@ -237,21 +254,6 @@ export function updateEnhancerDropdown(id, selectedCharacterName) {
             });
             enhancerList.appendChild(item);
         });
-
-        // Add "None" option at the top
-        const noneOption = document.createElement('div');
-        noneOption.className = 'suggestion-item';
-        noneOption.textContent = "-- None --";
-        noneOption.addEventListener('click', () => {
-            enhancerDisplay.textContent = "-- None --";
-            // Clear the original enhancer data attribute when selecting None
-            delete enhancerDisplay.dataset.originalEnhancer;
-            enhancerList.style.display = 'none';
-            if (typeof updateAllActionAssignments === "function") {
-                updateAllActionAssignments();
-            }
-        });
-        enhancerList.insertBefore(noneOption, enhancerList.firstChild);
 
         // Toggle dropdown display
         enhancerDisplay.addEventListener('click', (e) => {

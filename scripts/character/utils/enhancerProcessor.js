@@ -5,73 +5,34 @@
  */
 
 /**
- * Processes an array of enhancer tokens, handling grouped enhancers
- * marked with square brackets
+ * Processes an array of enhancer arrays, handling the new sub-array structure
  * 
- * @param {string[]} enhancers - Array of enhancer tokens
+ * @param {Array} enhancers - Array of enhancer arrays
  * @return {Array} - Array of processed enhancers objects with display text and original text
  */
 export function processEnhancers(enhancers) {
     let processed = [];
-    let group = [];
-    let inGroup = false;
     
-    enhancers.forEach(token => {
-        token = token.trim();
-        if (token.startsWith("[")) {
-            inGroup = true;
-            // Remove leading bracket
-            token = token.replace(/^\[/, "").trim();
-            group.push(token);
-            // If it also ends with ']', complete the group
-            if (token.endsWith("]")) {
-                token = token.replace(/\]$/, "").trim();
-                group[group.length - 1] = token;
-                const groupText = group.join(", ");
+    // Handle the new structure where enhancers is an array of arrays
+    if (Array.isArray(enhancers)) {
+        enhancers.forEach(enhancerGroup => {
+            // Check if the enhancer item is an array (new structure)
+            if (Array.isArray(enhancerGroup)) {
+                // Join all items in the sub-array with commas to form a single enhancer option
+                const groupText = enhancerGroup.join(", ");
                 
-                // Create an object with both the original text (with -- tags) and display text (without -- tags)
+                // Create an object with both the original text and display text (without -- tags)
                 processed.push({
                     original: groupText,
                     display: removeDashDashPrefix(groupText)
                 });
-                
-                group = [];
-                inGroup = false;
-            }
-        } else if (inGroup) {
-            group.push(token);
-            if (token.endsWith("]")) {
-                let last = group[group.length - 1];
-                last = last.replace(/\]$/, "").trim();
-                group[group.length - 1] = last;
-                const groupText = group.join(", ");
-                
-                // Create an object with both the original text (with -- tags) and display text (without -- tags)
+            } else if (typeof enhancerGroup === 'string') {
+                // Handle legacy format (string items directly in the array)
                 processed.push({
-                    original: groupText,
-                    display: removeDashDashPrefix(groupText)
+                    original: enhancerGroup,
+                    display: removeDashDashPrefix(enhancerGroup)
                 });
-                
-                group = [];
-                inGroup = false;
             }
-        } else {
-            // Create an object with both the original text (with -- tags) and display text (without -- tags)
-            processed.push({
-                original: token,
-                display: removeDashDashPrefix(token)
-            });
-        }
-    });
-    
-    // If there's an unfinished group, join it
-    if (group.length > 0) {
-        const groupText = group.join(", ");
-        
-        // Create an object with both the original text (with -- tags) and display text (without -- tags)
-        processed.push({
-            original: groupText,
-            display: removeDashDashPrefix(groupText)
         });
     }
     
