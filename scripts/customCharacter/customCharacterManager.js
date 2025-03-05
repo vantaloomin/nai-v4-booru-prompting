@@ -116,7 +116,8 @@ export function addCustomCharacterBlock() {
         tagInput, 
         suggestionContainer, 
         pillContainer, 
-        updateActionAssignmentsCallback
+        updateActionAssignmentsCallback,
+        null // No duplicate check for custom characters
     );
 
     blockDiv.appendChild(contentDiv);

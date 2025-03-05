@@ -890,6 +890,19 @@ button:active {
     font-size: var(--text-sm);
 }
 
+/* Default tags (non-removable) are styled differently */
+.custom-tag-pill.default-tag {
+    background-color: var(--highlight-other);
+    opacity: 0.9;
+    border: 1px solid var(--color-border);
+}
+
+.custom-tag-remove {
+    margin-left: var(--space-xxs);
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .custom-pill-remove {
     margin-left: var(--space-xxs);
     cursor: pointer;
@@ -1287,26 +1300,40 @@ button:active {
 }
 
 /* Gender Toggle Styles */
+.gender-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    margin-bottom: 6px;
+    display: block;
+}
+
 .gender-selection-container {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 10px 0;
-    padding: 8px 12px;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    padding: 10px 12px;
     border-radius: 8px;
     background-color: var(--color-bg-input);
     transition: all 0.3s ease;
 }
 
+.gender-labels-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    width: 100%;
+}
+
 .gender-label {
     font-size: 14px;
     font-weight: 500;
-    padding: 0 10px;
     transition: all 0.3s ease;
     color: var(--color-text-secondary);
     cursor: pointer;
     user-select: none;
+    text-align: center;
+    flex: 1;
 }
 
 .gender-label.active {
@@ -1325,11 +1352,11 @@ button:active {
     color: #6cd39e; /* Green for other */
 }
 
-.gender-info-label {
-    width: 100%;
-    text-align: center;
-    margin-top: 6px;
-    font-size: 12px;
+.default-indicator {
+    display: block;
+    font-size: 10px;
+    margin-top: 2px;
+    font-weight: normal;
     color: var(--color-text-secondary);
     opacity: 0.7;
 }
@@ -1341,15 +1368,14 @@ button:active {
     height: 30px;
     display: flex;
     align-items: center;
-    margin: 10px 0;
-    order: -1; /* Make slider appear first, above the labels */
+    margin: 0;
 }
 
 .gender-trio-track {
     position: relative;
     width: 100%;
     height: 10px;
-    background: linear-gradient(to right, #6c8bd3, #d36c9e, #6cd39e);
+    background: linear-gradient(to right, #6c8bd3, #6cd39e, #d36c9e);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -1377,32 +1403,14 @@ button:active {
     background-color: #6c8bd3;
 }
 
-.gender-trio-handle.position-girl {
-    left: calc(50% - 12px);
-    background-color: #d36c9e;
-}
-
 .gender-trio-handle.position-other {
-    left: calc(83.35% - 12px);
+    left: calc(50% - 12px);
     background-color: #6cd39e;
 }
 
-/* Create click areas for each gender section */
-.gender-trio-track::before,
-.gender-trio-track::after {
-    content: "";
-    position: absolute;
-    width: 33.3%;
-    height: 100%;
-    top: 0;
-}
-
-.gender-trio-track::before {
-    left: 0;
-}
-
-.gender-trio-track::after {
-    right: 0;
+.gender-trio-handle.position-girl {
+    left: calc(83.35% - 12px);
+    background-color: #d36c9e;
 }
 
 .gender-radio {
@@ -1410,13 +1418,6 @@ button:active {
     opacity: 0;
     width: 0;
     height: 0;
-}
-
-/* Remove old toggle styles that are no longer needed */
-.gender-toggle-switch,
-.gender-toggle-container,
-.gender-slider {
-    /* These styles will be overridden by the new ones */
 }
 
 /* Age Up Toggle Container */

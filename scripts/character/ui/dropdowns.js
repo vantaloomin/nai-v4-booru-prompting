@@ -7,6 +7,7 @@
 import { sortAlphabetically } from '../utils/sorter.js';
 import { cleanDisplayName } from '../utils/nameFormatter.js';
 import { processEnhancers } from '../utils/enhancerProcessor.js';
+import { searchTags, createTagPill, formatTag } from '../../customCharacter/utils/tagUtils.js';
 
 /**
  * Closes all open dropdown menus
@@ -77,6 +78,10 @@ export function updateCharacterDropdown(id, selectedMedia, selectedTitle) {
             updateGenderToggle(id, item.name);
             updateAgeUpToggle(id, item.name);
             updateEnhancerDropdown(id, item.name);
+            
+            // Populate default tag pills for this character
+            populateDefaultTagPills(id, item);
+            
             charList.style.display = 'none';
             // Update the character block title
             const blockTitle = document.querySelector(`#character-${id} .block-title`);
@@ -106,24 +111,51 @@ export function updateGenderToggle(id, selectedCharacterName) {
     genderDiv.innerHTML = "";
     const selectedData = characterData.find(item => item.name === selectedCharacterName);
     if (selectedData && selectedData.genderswapAvailable) {
+        // Add the gender selection title outside the container
+        const genderTitle = document.createElement('label');
+        genderTitle.textContent = 'Character Gender:';
+        genderTitle.className = 'gender-title';
+        genderDiv.appendChild(genderTitle);
+        
         // Create container for the gender selection
         const genderSelectionContainer = document.createElement('div');
         genderSelectionContainer.className = 'gender-selection-container';
         
-        // Create labels for boy/girl/other
-        const boyLabel = document.createElement('span');
-        boyLabel.className = 'gender-label boy-label';
-        boyLabel.textContent = 'Boy';
+        // Create the gender trio container
+        const genderContainer = document.createElement('div');
+        genderContainer.className = 'gender-trio-container';
         
-        const girlLabel = document.createElement('span');
-        girlLabel.className = 'gender-label girl-label';
-        girlLabel.textContent = 'Girl';
+        // Determine the default gender
+        const defaultGender = selectedData.defaultGender || "girl";
         
-        const otherLabel = document.createElement('span');
-        otherLabel.className = 'gender-label other-label';
-        otherLabel.textContent = 'Other';
+        // Create the gender radio inputs in order: boy, other, girl
+        const genders = ['boy', 'other', 'girl'];
+        genders.forEach(gender => {
+            const isDefault = gender === defaultGender;
+            
+            // Radio input (hidden)
+            const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = `gender-${id}`;
+            input.value = gender;
+            input.className = 'gender-radio';
+            input.checked = isDefault;
+            input.id = `gender-${id}-${gender}`;
+            
+            // Add event listener to refresh default tags when gender changes
+            input.addEventListener('change', () => {
+                // Find the selected character data again
+                const characterItem = characterData.find(item => item.name === selectedCharacterName);
+                if (characterItem) {
+                    // Refresh default tags with updated gender
+                    populateDefaultTagPills(id, characterItem);
+                }
+            });
+            
+            genderContainer.appendChild(input);
+        });
         
-        // Create the trio select slider
+        // Create the slider component
         const sliderContainer = document.createElement('div');
         sliderContainer.className = 'gender-trio-slider-container';
         
@@ -133,143 +165,112 @@ export function updateGenderToggle(id, selectedCharacterName) {
         const sliderHandle = document.createElement('div');
         sliderHandle.className = 'gender-trio-handle';
         
-        // Create hidden radio inputs for the three options
-        const boyInput = document.createElement('input');
-        boyInput.type = 'radio';
-        boyInput.name = 'gender-' + id;
-        boyInput.id = 'gender-boy-' + id;
-        boyInput.value = 'boy';
-        boyInput.className = 'gender-radio';
-        
-        const girlInput = document.createElement('input');
-        girlInput.type = 'radio';
-        girlInput.name = 'gender-' + id;
-        girlInput.id = 'gender-girl-' + id;
-        girlInput.value = 'girl';
-        girlInput.className = 'gender-radio';
-        
-        const otherInput = document.createElement('input');
-        otherInput.type = 'radio';
-        otherInput.name = 'gender-' + id;
-        otherInput.id = 'gender-other-' + id;
-        otherInput.value = 'other';
-        otherInput.className = 'gender-radio';
-        
-        // Set default selection based on character's default gender
-        const defaultGender = selectedData.defaultGender || "girl";
+        // Set initial position based on default gender
         if (defaultGender === 'boy') {
-            boyInput.checked = true;
             sliderHandle.classList.add('position-boy');
         } else if (defaultGender === 'girl') {
-            girlInput.checked = true;
             sliderHandle.classList.add('position-girl');
         } else {
-            otherInput.checked = true;
             sliderHandle.classList.add('position-other');
         }
         
-        // Store default gender for reference
-        sliderContainer.dataset.defaultGender = defaultGender;
-        
-        // Add track and handle to slider container
         sliderTrack.appendChild(sliderHandle);
         sliderContainer.appendChild(sliderTrack);
         
-        // Add radio inputs to container
-        sliderContainer.appendChild(boyInput);
-        sliderContainer.appendChild(girlInput);
-        sliderContainer.appendChild(otherInput);
+        // Create the labels container that will appear below the slider
+        const labelsContainer = document.createElement('div');
+        labelsContainer.className = 'gender-labels-container';
         
-        // Function to update active labels
-        function updateGenderLabels() {
-            const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`).value;
-            boyLabel.classList.toggle('active', selectedGender === 'boy');
-            girlLabel.classList.toggle('active', selectedGender === 'girl');
-            otherLabel.classList.toggle('active', selectedGender === 'other');
-        }
-        
-        // Function to set the gender based on position
-        function setGenderByPosition(position) {
-            let gender;
-            if (position <= 33.3) {
-                gender = 'boy';
-                sliderHandle.className = 'gender-trio-handle position-boy';
-                boyInput.checked = true;
-            } else if (position <= 66.6) {
-                gender = 'girl';
-                sliderHandle.className = 'gender-trio-handle position-girl';
-                girlInput.checked = true;
-            } else {
-                gender = 'other';
-                sliderHandle.className = 'gender-trio-handle position-other';
-                otherInput.checked = true;
-            }
-            updateGenderLabels();
-            // Update breast size visibility based on new gender
-            updateBreastSizeVisibility(id, gender);
-            return gender;
-        }
-        
-        // Add event listeners to radio inputs
-        boyInput.addEventListener('change', function() {
-            if (this.checked) {
-                sliderHandle.className = 'gender-trio-handle position-boy';
-                updateGenderLabels();
-                // Check if Age Up is enabled and hide breast size if needed
-                updateBreastSizeVisibility(id, 'boy');
-            }
-        });
-        
-        girlInput.addEventListener('change', function() {
-            if (this.checked) {
-                sliderHandle.className = 'gender-trio-handle position-girl';
-                updateGenderLabels();
-                // Check if Age Up is enabled and show breast size if needed
-                updateBreastSizeVisibility(id, 'girl');
-            }
-        });
-        
-        otherInput.addEventListener('change', function() {
-            if (this.checked) {
-                sliderHandle.className = 'gender-trio-handle position-other';
-                updateGenderLabels();
-                // Check if Age Up is enabled and hide breast size if needed
-                updateBreastSizeVisibility(id, 'other');
-            }
-        });
-        
-        // Add click event to the track for direct position selection
-        sliderTrack.addEventListener('click', function(e) {
-            // Calculate click position as percentage of track width
-            const rect = this.getBoundingClientRect();
-            const clickPosition = ((e.clientX - rect.left) / rect.width) * 100;
+        // Create labels in the order: Boy / Other / Girl
+        genders.forEach(gender => {
+            const isDefault = gender === defaultGender;
             
-            // Set gender based on where the user clicked
-            setGenderByPosition(clickPosition);
+            // Label for the radio input
+            const label = document.createElement('label');
+            label.htmlFor = `gender-${id}-${gender}`;
+            label.className = `gender-label ${gender}-label ${isDefault ? 'active' : ''}`;
+            label.textContent = gender.charAt(0).toUpperCase() + gender.slice(1);
+            
+            // If this is the default gender, add an indicator
+            if (isDefault) {
+                const defaultIndicator = document.createElement('span');
+                defaultIndicator.className = 'default-indicator';
+                defaultIndicator.textContent = '(default)';
+                label.appendChild(defaultIndicator);
+            }
+            
+            labelsContainer.appendChild(label);
         });
         
-        // Drag functionality for the handle
+        // Add slider functionality
         let isDragging = false;
+        
+        // Helper function to set gender based on slider position
+        function setGenderByPosition(position) {
+            const radios = genderDiv.querySelectorAll('.gender-radio');
+            const labels = genderDiv.querySelectorAll('.gender-label');
+            
+            // Remove all position classes
+            sliderHandle.classList.remove('position-boy', 'position-girl', 'position-other');
+            
+            // Set position based on the clicked area
+            if (position < 33.3) {
+                sliderHandle.classList.add('position-boy');
+                radios[0].checked = true;
+                
+                // Update labels
+                labels.forEach(l => l.classList.remove('active'));
+                labels[0].classList.add('active');
+                
+                // Trigger change event
+                radios[0].dispatchEvent(new Event('change'));
+            } else if (position < 66.6) {
+                sliderHandle.classList.add('position-other');
+                radios[1].checked = true;
+                
+                // Update labels
+                labels.forEach(l => l.classList.remove('active'));
+                labels[1].classList.add('active');
+                
+                // Trigger change event
+                radios[1].dispatchEvent(new Event('change'));
+            } else {
+                sliderHandle.classList.add('position-girl');
+                radios[2].checked = true;
+                
+                // Update labels
+                labels.forEach(l => l.classList.remove('active'));
+                labels[2].classList.add('active');
+                
+                // Trigger change event
+                radios[2].dispatchEvent(new Event('change'));
+            }
+        }
+        
+        // Handle mouse and touch events for the slider
+        sliderTrack.addEventListener('mousedown', function(e) {
+            const rect = sliderTrack.getBoundingClientRect();
+            const position = ((e.clientX - rect.left) / rect.width) * 100;
+            setGenderByPosition(position);
+        });
         
         sliderHandle.addEventListener('mousedown', function(e) {
             isDragging = true;
             document.addEventListener('mousemove', handleDrag);
             document.addEventListener('mouseup', stopDrag);
-            // Prevent default to avoid text selection during drag
-            e.preventDefault();
+            e.preventDefault(); // Prevent text selection during drag
         });
         
         function handleDrag(e) {
-            if (!isDragging) return;
-            
-            const rect = sliderTrack.getBoundingClientRect();
-            let position = ((e.clientX - rect.left) / rect.width) * 100;
-            
-            // Constrain to track bounds
-            position = Math.max(0, Math.min(100, position));
-            
-            // Set gender based on drag position
-            setGenderByPosition(position);
+            if (isDragging) {
+                const rect = sliderTrack.getBoundingClientRect();
+                let position = ((e.clientX - rect.left) / rect.width) * 100;
+                
+                // Constrain to track bounds
+                position = Math.max(0, Math.min(100, position));
+                
+                setGenderByPosition(position);
+            }
         }
         
         function stopDrag() {
@@ -278,43 +279,101 @@ export function updateGenderToggle(id, selectedCharacterName) {
             document.removeEventListener('mouseup', stopDrag);
         }
         
-        // Clickable labels to select gender
-        boyLabel.addEventListener('click', function() {
-            boyInput.checked = true;
-            boyInput.dispatchEvent(new Event('change'));
+        // Add touch support
+        sliderTrack.addEventListener('touchstart', function(e) {
+            const rect = sliderTrack.getBoundingClientRect();
+            const touch = e.touches[0];
+            const position = ((touch.clientX - rect.left) / rect.width) * 100;
+            setGenderByPosition(position);
+            e.preventDefault();
         });
         
-        girlLabel.addEventListener('click', function() {
-            girlInput.checked = true;
-            girlInput.dispatchEvent(new Event('change'));
+        sliderHandle.addEventListener('touchstart', function(e) {
+            isDragging = true;
+            document.addEventListener('touchmove', handleTouchDrag);
+            document.addEventListener('touchend', stopTouchDrag);
+            e.preventDefault();
         });
         
-        otherLabel.addEventListener('click', function() {
-            otherInput.checked = true;
-            otherInput.dispatchEvent(new Event('change'));
+        function handleTouchDrag(e) {
+            if (isDragging) {
+                const rect = sliderTrack.getBoundingClientRect();
+                const touch = e.touches[0];
+                let position = ((touch.clientX - rect.left) / rect.width) * 100;
+                
+                // Constrain to track bounds
+                position = Math.max(0, Math.min(100, position));
+                
+                setGenderByPosition(position);
+            }
+        }
+        
+        function stopTouchDrag() {
+            isDragging = false;
+            document.removeEventListener('touchmove', handleTouchDrag);
+            document.removeEventListener('touchend', stopTouchDrag);
+        }
+        
+        // Add click handlers for labels as well
+        const labels = labelsContainer.querySelectorAll('.gender-label');
+        labels.forEach((label, index) => {
+            label.addEventListener('click', () => {
+                const radios = genderDiv.querySelectorAll('.gender-radio');
+                
+                // Update slider position based on the clicked label
+                if (index === 0) {
+                    // Boy
+                    sliderHandle.classList.remove('position-girl', 'position-other');
+                    sliderHandle.classList.add('position-boy');
+                    radios[0].checked = true;
+                } else if (index === 1) {
+                    // Other
+                    sliderHandle.classList.remove('position-boy', 'position-girl');
+                    sliderHandle.classList.add('position-other');
+                    radios[1].checked = true;
+                } else {
+                    // Girl
+                    sliderHandle.classList.remove('position-boy', 'position-other');
+                    sliderHandle.classList.add('position-girl');
+                    radios[2].checked = true;
+                }
+                
+                // Update active state for all labels
+                labels.forEach(l => l.classList.remove('active'));
+                label.classList.add('active');
+                
+                // Trigger change event on the selected radio
+                radios[index].dispatchEvent(new Event('change'));
+            });
         });
         
-        // Add elements to the container
+        // Append the slider container and labels
         genderSelectionContainer.appendChild(sliderContainer);
-        genderSelectionContainer.appendChild(boyLabel);
-        genderSelectionContainer.appendChild(girlLabel);
-        genderSelectionContainer.appendChild(otherLabel);
-        
-        // Add a label to inform the user about the character's default gender
-        const infoLabel = document.createElement('div');
-        infoLabel.className = 'gender-info-label';
-        infoLabel.textContent = `Default: ${defaultGender.charAt(0).toUpperCase() + defaultGender.slice(1)}`;
-        genderSelectionContainer.appendChild(infoLabel);
-        
-        // Add the whole container to the gender div
+        genderSelectionContainer.appendChild(labelsContainer);
         genderDiv.appendChild(genderSelectionContainer);
-        
-        // Initialize label states
-        updateGenderLabels();
-        
-        // Initialize breast size visibility based on default gender
-        updateBreastSizeVisibility(id, defaultGender);
     }
+
+    // Add event listeners to radio inputs for gender selection
+    document.querySelectorAll(`input[name="gender-${id}"]`).forEach(radio => {
+        const existingChangeHandler = radio.onchange;
+        radio.addEventListener('change', function() {
+            // Run the existing handler if available
+            if (existingChangeHandler) existingChangeHandler.call(this);
+            
+            // Find the selected character data
+            const charData = characterData.find(item => item.name === selectedCharacterName);
+            if (charData) {
+                // Get the selected gender
+                const selectedGender = this.value;
+                
+                // Check if breast size visibility should be updated
+                updateBreastSizeVisibility(id, selectedGender);
+                
+                // Refresh default tags with the new gender
+                populateDefaultTagPills(id, charData);
+            }
+        });
+    });
 }
 
 // Helper function to update breast size container visibility based on gender and age up toggle state
@@ -422,6 +481,39 @@ export function updateEnhancerDropdown(id, selectedCharacterName) {
         enhancerContainer.appendChild(enhancerDisplay);
         enhancerContainer.appendChild(enhancerList);
         enhancerDiv.appendChild(enhancerContainer);
+
+        // For each enhancer option, add an event handler to refresh default tags
+        enhancerList.querySelectorAll('.suggestion-item').forEach(item => {
+            const existingClickHandler = item.onclick;
+            item.addEventListener('click', function() {
+                // Run the existing handler if available
+                if (existingClickHandler) existingClickHandler.call(this);
+                
+                // Find the selected character data
+                const charData = characterData.find(item => item.name === selectedCharacterName);
+                if (charData) {
+                    // Refresh default tags with the new enhancer
+                    populateDefaultTagPills(id, charData);
+                }
+            });
+        });
+
+        // Also handle the "None" option to refresh tags
+        const noneEnhancerOption = enhancerList.querySelector('.suggestion-item:first-child');
+        if (noneEnhancerOption) {
+            const existingClickHandler = noneEnhancerOption.onclick;
+            noneEnhancerOption.addEventListener('click', function() {
+                // Run the existing handler if available
+                if (existingClickHandler) existingClickHandler.call(this);
+                
+                // Find the selected character data
+                const charData = characterData.find(item => item.name === selectedCharacterName);
+                if (charData) {
+                    // Refresh default tags with no enhancer
+                    populateDefaultTagPills(id, charData);
+                }
+            });
+        }
     } else {
         labelContainer.style.display = 'none';
     }
@@ -571,6 +663,22 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
         
         breastSizeContainer.appendChild(sliderContainer);
         
+        // Add event listeners to breast size radio inputs to refresh default tags
+        [smallInput, mediumInput, largeInput, hugeInput].forEach(input => {
+            const existingChangeHandler = input.onchange;
+            input.addEventListener('change', function() {
+                // Run the existing handler if available
+                if (existingChangeHandler) existingChangeHandler.call(this);
+                
+                // Find the selected character data
+                const charData = characterData.find(item => item.name === selectedCharacterName);
+                if (charData) {
+                    // Refresh default tags with the new breast size setting
+                    populateDefaultTagPills(id, charData);
+                }
+            });
+        });
+        
         // Function to update active labels
         function updateBreastSizeLabels() {
             const selectedSize = document.querySelector(`input[name="breast-size-${id}"]:checked`).value;
@@ -718,6 +826,22 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             }
         });
         
+        // Add an event listener to the Age Up toggle to refresh default tags
+        if (ageUpInput) {
+            const existingChangeHandler = ageUpInput.onchange;
+            ageUpInput.addEventListener('change', function() {
+                // Run the existing handler if available
+                if (existingChangeHandler) existingChangeHandler.call(this);
+                
+                // Find the selected character data
+                const charData = characterData.find(item => item.name === selectedCharacterName);
+                if (charData) {
+                    // Refresh default tags with the new age up setting
+                    populateDefaultTagPills(id, charData);
+                }
+            });
+        }
+        
         // Add the age up container to age up div
         ageUpDiv.appendChild(ageUpContainer);
         
@@ -750,5 +874,49 @@ export function resetCharacterDropdown(id) {
     
     if (ageUpDiv) {
         ageUpDiv.innerHTML = "";
+    }
+}
+
+/**
+ * Populates default tag pills for a character
+ * 
+ * @param {number} id - The character block ID
+ * @param {Object} characterData - The character data object
+ */
+function populateDefaultTagPills(id, characterData) {
+    // Get the pill container
+    const pillContainer = document.querySelector(`#custom-tag-div-${id} .custom-pill-container`);
+    if (!pillContainer) return;
+    
+    // Clear any existing pills
+    pillContainer.innerHTML = '';
+    
+    // Get the currently selected gender
+    const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value || characterData.defaultGender || 'girl';
+    
+    // Add the gender count tag (1girl, 1boy, 1other)
+    const genderTag = `1${selectedGender}`;
+    createTagPill(genderTag, pillContainer, null, true);
+    
+    // Add the character name as a tag
+    createTagPill(characterData.name, pillContainer, null, true);
+    
+    // Add each comma-separated term in mainTags
+    const mainTags = characterData.mainTags.split(',').map(tag => tag.trim()).filter(tag => tag);
+    mainTags.forEach(tag => {
+        createTagPill(tag, pillContainer, null, true);
+    });
+    
+    // Check for enhancer tags
+    const enhancerDisplay = document.querySelector(`#enhancer-div-${id} .selected-display`);
+    if (enhancerDisplay && enhancerDisplay.textContent !== '-- None --') {
+        // Get enhancer text from data attribute or displayed text
+        const enhancerText = enhancerDisplay.dataset.originalEnhancer || enhancerDisplay.textContent;
+        
+        // Parse enhancer text and add non "--term" tags
+        const enhancerTags = enhancerText.split(',').map(tag => tag.trim()).filter(tag => tag && !tag.startsWith('--'));
+        enhancerTags.forEach(tag => {
+            createTagPill(tag, pillContainer, null, true);
+        });
     }
 } 

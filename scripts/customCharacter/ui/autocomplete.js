@@ -13,8 +13,9 @@ import { searchTags, createTagPill, formatTag } from '../utils/tagUtils.js';
  * @param {HTMLElement} suggestionContainer - The container element for displaying suggestions
  * @param {HTMLElement} pillContainer - The container for tag pills
  * @param {Function} onChangeCallback - Callback function when tags are added/removed
+ * @param {Function} isDuplicateCallback - Optional callback to check if a tag is a duplicate
  */
-export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillContainer, onChangeCallback) {
+export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillContainer, onChangeCallback, isDuplicateCallback) {
     // Listen for input events
     inputEl.addEventListener('input', function () {
         const query = inputEl.value.trim();
@@ -94,7 +95,11 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
             const existingTags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
                 .map(pill => pill.dataset.originalTag);
             
-            if (!existingTags.includes(text)) {
+            // Check if the tag is a duplicate using the callback if provided
+            const isDuplicate = existingTags.includes(text) || 
+                (typeof isDuplicateCallback === 'function' && isDuplicateCallback(text));
+            
+            if (!isDuplicate) {
                 createTagPill(text, pillContainer, onChangeCallback);
                 inputEl.value = '';
                 suggestionContainer.innerHTML = '';

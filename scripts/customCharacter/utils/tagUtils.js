@@ -71,11 +71,15 @@ export function searchTags(query, limit = 5) {
  * @param {string} tagText - The text for the tag
  * @param {HTMLElement} pillContainer - The container to add the pill to
  * @param {Function} onRemoveCallback - Callback function when tag is removed
+ * @param {boolean} isDefault - Whether this is a default tag (non-removable)
  * @return {HTMLElement} - The created pill element
  */
-export function createTagPill(tagText, pillContainer, onRemoveCallback) {
+export function createTagPill(tagText, pillContainer, onRemoveCallback, isDefault = false) {
     const pill = document.createElement('span');
     pill.className = 'custom-tag-pill';
+    if (isDefault) {
+        pill.classList.add('default-tag');
+    }
     
     // Store the original tag text as a data attribute
     pill.dataset.originalTag = tagText;
@@ -84,20 +88,24 @@ export function createTagPill(tagText, pillContainer, onRemoveCallback) {
     const displayText = formatTag(tagText);
     pill.textContent = displayText;
 
-    // Remove 'X' button
-    const removeX = document.createElement('span');
-    removeX.className = 'custom-tag-remove';
-    removeX.textContent = '×';
-    removeX.addEventListener('click', () => {
-        pillContainer.removeChild(pill);
+    // Only add remove button if not a default tag
+    if (!isDefault) {
+        // Remove 'X' button
+        const removeX = document.createElement('span');
+        removeX.className = 'custom-tag-remove';
+        removeX.textContent = '×';
+        removeX.addEventListener('click', () => {
+            pillContainer.removeChild(pill);
+            
+            // Call the provided callback when a tag is removed
+            if (typeof onRemoveCallback === 'function') {
+                onRemoveCallback();
+            }
+        });
         
-        // Call the provided callback when a tag is removed
-        if (typeof onRemoveCallback === 'function') {
-            onRemoveCallback();
-        }
-    });
+        pill.appendChild(removeX);
+    }
     
-    pill.appendChild(removeX);
     pillContainer.appendChild(pill);
     
     return pill;

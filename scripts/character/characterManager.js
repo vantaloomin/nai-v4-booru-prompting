@@ -15,6 +15,8 @@ import {
     resetCharacterDropdown
 } from './ui/dropdowns.js';
 import { showMaxCharacterWarning } from '../utils/modal.js';
+import { initCustomTagAutocomplete, addAutocompleteStyling } from '../customCharacter/ui/autocomplete.js';
+import { searchTags, createTagPill, formatTag, loadAllTags } from '../customCharacter/utils/tagUtils.js';
 
 // Try to import getActionAssignments from action.js, with a fallback to the global version
 let getActionAssignments;
@@ -34,6 +36,17 @@ try {
 // Character state
 let characterCount = 0;
 const maxCharacters = 4;
+
+// Initialize tag styling and load tags
+document.addEventListener('DOMContentLoaded', () => {
+    // Add styling for autocomplete
+    addAutocompleteStyling();
+    
+    // Load all tags for autocomplete
+    loadAllTags().then(() => {
+        console.log('Tags loaded for standard character cards');
+    });
+});
 
 /**
  * Creates and adds a new character block to the UI
@@ -199,6 +212,115 @@ export function addCharacterBlock() {
 
     enhancerDiv.appendChild(enhancerLabelContainer);
     contentDiv.appendChild(enhancerDiv);
+
+    // Custom Tag Search
+    const customTagDiv = document.createElement('div');
+    customTagDiv.id = 'custom-tag-div-' + blockId;
+    customTagDiv.style.marginTop = '15px';
+
+    // Tag label
+    const tagLabel = document.createElement('label');
+    tagLabel.textContent = 'Custom Tags:';
+    customTagDiv.appendChild(tagLabel);
+
+    // Search wrapper
+    const searchWrapper = document.createElement('div');
+    searchWrapper.className = 'custom-search-wrapper';
+    customTagDiv.appendChild(searchWrapper);
+
+    // Tag input
+    const tagInput = document.createElement('input');
+    tagInput.type = 'text';
+    tagInput.placeholder = 'Type tag here...';
+    tagInput.className = 'custom-tag-input';
+    searchWrapper.appendChild(tagInput);
+
+    // Optional clear icon
+    const clearIcon = document.createElement('span');
+    clearIcon.className = 'custom-clear-icon';
+    clearIcon.textContent = '✖';
+    clearIcon.addEventListener('click', () => {
+        tagInput.value = '';
+        suggestionContainer.innerHTML = '';
+    });
+    searchWrapper.appendChild(clearIcon);
+
+    // Suggestions list container
+    const suggestionContainer = document.createElement('div');
+    suggestionContainer.className = 'custom-suggestions-list';
+    searchWrapper.appendChild(suggestionContainer);
+
+    // Pill container
+    const pillContainer = document.createElement('div');
+    pillContainer.className = 'custom-pill-container';
+    customTagDiv.appendChild(pillContainer);
+
+    // Initialize autocomplete with the pill container
+    initCustomTagAutocomplete(
+        tagInput, 
+        suggestionContainer, 
+        pillContainer, 
+        function() {
+            if (typeof updateAllActionAssignments === "function") {
+                updateAllActionAssignments();
+            }
+        },
+        function(tagToCheck) {
+            // Get the character's existing tags to prevent duplicates
+            const dropdowns = contentDiv.querySelectorAll('.custom-dropdown');
+            const charDisplay = dropdowns[2]?.querySelector('.selected-display');
+            
+            if (!charDisplay || charDisplay.textContent === "-- Select Character --") {
+                return false; // No character selected, so no duplicates
+            }
+            
+            const selectedName = charDisplay.textContent;
+            const selectedData = characterData.find(item => cleanDisplayName(item.name) === selectedName);
+            
+            if (!selectedData) {
+                return false; // No character data found, so no duplicates
+            }
+            
+            // Check if the tag exists in the character's main tags
+            const mainTags = selectedData.mainTags.split(',').map(tag => tag.trim());
+            if (mainTags.includes(tagToCheck)) {
+                return true; // Tag exists in main tags
+            }
+            
+            // Check if the tag is the character's name
+            if (tagToCheck === selectedData.name) {
+                return true;
+            }
+            
+            // Check if the tag is the gender tag (1girl, 1boy, 1other)
+            const selectedGender = document.querySelector(`input[name="gender-${blockId}"]:checked`)?.value || selectedData.defaultGender || 'girl';
+            const genderTag = `1${selectedGender}`;
+            if (tagToCheck === genderTag) {
+                return true;
+            }
+            
+            // Check enhancer tags
+            const enhancerDisplay = contentDiv.querySelector(`#enhancer-div-${blockId} .selected-display`);
+            if (enhancerDisplay && enhancerDisplay.textContent !== "-- None --") {
+                const enhancerTags = (enhancerDisplay.dataset.originalEnhancer || enhancerDisplay.textContent)
+                    .split(',').map(tag => tag.trim()).filter(tag => tag && !tag.startsWith('--'));
+                if (enhancerTags.includes(tagToCheck)) {
+                    return true; // Tag exists in enhancer tags
+                }
+            }
+            
+            // Check existing pill tags (including default tags)
+            const existingPills = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
+                .map(pill => pill.dataset.originalTag);
+            if (existingPills.includes(tagToCheck)) {
+                return true; // Tag exists in existing pills
+            }
+            
+            return false; // Tag doesn't exist in character's tags
+        }
+    );
+
+    contentDiv.appendChild(customTagDiv);
 
     // Actions Display
     const actionsDisplayDiv = document.createElement('div');
@@ -681,6 +803,17 @@ export function getCharacterSubjects() {
                 }
                 
                 finalTags += ", " + actionTags.join(", ");
+            }
+
+            // Get custom tags from the standard character card
+            const customTagPillContainer = block.querySelector('#custom-tag-div-' + i + ' .custom-pill-container');
+            if (customTagPillContainer) {
+                const customTags = Array.from(customTagPillContainer.querySelectorAll('.custom-tag-pill'))
+                    .map(pill => pill.dataset.originalTag || pill.textContent.replace('×', '').trim());
+                
+                if (customTags.length > 0) {
+                    finalTags += ", " + customTags.join(", ");
+                }
             }
 
             subjectCountObj[gender] = (subjectCountObj[gender] || 0) + 1;
