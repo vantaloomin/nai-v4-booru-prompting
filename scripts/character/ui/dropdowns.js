@@ -75,6 +75,7 @@ export function updateCharacterDropdown(id, selectedMedia, selectedTitle) {
         charItem.addEventListener('click', () => {
             charDisplay.textContent = cleanDisplayName(item.name);
             updateGenderToggle(id, item.name);
+            updateAgeUpToggle(id, item.name);
             updateEnhancerDropdown(id, item.name);
             charList.style.display = 'none';
             // Update the character block title
@@ -204,6 +205,8 @@ export function updateGenderToggle(id, selectedCharacterName) {
                 otherInput.checked = true;
             }
             updateGenderLabels();
+            // Update breast size visibility based on new gender
+            updateBreastSizeVisibility(id, gender);
             return gender;
         }
         
@@ -212,6 +215,8 @@ export function updateGenderToggle(id, selectedCharacterName) {
             if (this.checked) {
                 sliderHandle.className = 'gender-trio-handle position-boy';
                 updateGenderLabels();
+                // Check if Age Up is enabled and hide breast size if needed
+                updateBreastSizeVisibility(id, 'boy');
             }
         });
         
@@ -219,6 +224,8 @@ export function updateGenderToggle(id, selectedCharacterName) {
             if (this.checked) {
                 sliderHandle.className = 'gender-trio-handle position-girl';
                 updateGenderLabels();
+                // Check if Age Up is enabled and show breast size if needed
+                updateBreastSizeVisibility(id, 'girl');
             }
         });
         
@@ -226,6 +233,8 @@ export function updateGenderToggle(id, selectedCharacterName) {
             if (this.checked) {
                 sliderHandle.className = 'gender-trio-handle position-other';
                 updateGenderLabels();
+                // Check if Age Up is enabled and hide breast size if needed
+                updateBreastSizeVisibility(id, 'other');
             }
         });
         
@@ -297,10 +306,28 @@ export function updateGenderToggle(id, selectedCharacterName) {
         infoLabel.textContent = `Default: ${defaultGender.charAt(0).toUpperCase() + defaultGender.slice(1)}`;
         genderSelectionContainer.appendChild(infoLabel);
         
+        // Add the whole container to the gender div
         genderDiv.appendChild(genderSelectionContainer);
         
         // Initialize label states
         updateGenderLabels();
+        
+        // Initialize breast size visibility based on default gender
+        updateBreastSizeVisibility(id, defaultGender);
+    }
+}
+
+// Helper function to update breast size container visibility based on gender and age up toggle state
+function updateBreastSizeVisibility(id, gender) {
+    const ageUpInput = document.getElementById(`age-up-input-${id}`);
+    const breastSizeContainer = document.getElementById(`breast-size-container-${id}`);
+    
+    if (ageUpInput && breastSizeContainer) {
+        if (gender === 'girl' && ageUpInput.checked) {
+            breastSizeContainer.style.display = 'block';
+        } else {
+            breastSizeContainer.style.display = 'none';
+        }
     }
 }
 
@@ -401,17 +428,327 @@ export function updateEnhancerDropdown(id, selectedCharacterName) {
 }
 
 /**
+ * Updates the Age Up toggle for a character block based on selected character
+ * 
+ * @param {number} id - Character block ID
+ * @param {string} selectedCharacterName - Name of the selected character
+ */
+export function updateAgeUpToggle(id, selectedCharacterName) {
+    const ageUpDiv = document.getElementById('age-up-div-' + id);
+    ageUpDiv.innerHTML = "";
+    
+    const selectedData = characterData.find(item => item.name === selectedCharacterName);
+    if (selectedData && selectedData.ageUpAvailable) {
+        // Create main container for the Age Up toggle
+        const ageUpContainer = document.createElement('div');
+        ageUpContainer.className = 'age-up-container';
+        
+        // Create label
+        const ageUpLabel = document.createElement('label');
+        ageUpLabel.textContent = 'Age Up:';
+        ageUpContainer.appendChild(ageUpLabel);
+        
+        // Create toggle switch container
+        const toggleContainer = document.createElement('div');
+        toggleContainer.className = 'toggle-switch-container';
+        
+        // Create toggle switch
+        const toggleSwitch = document.createElement('div');
+        toggleSwitch.className = 'toggle-switch';
+        
+        // Create hidden checkbox input
+        const ageUpInput = document.createElement('input');
+        ageUpInput.type = 'checkbox';
+        ageUpInput.name = 'age-up-' + id;
+        ageUpInput.id = 'age-up-input-' + id;
+        ageUpInput.className = 'age-up-checkbox';
+        
+        // Create toggle slider
+        const toggleSlider = document.createElement('span');
+        toggleSlider.className = 'toggle-slider';
+        
+        // Add input and slider to toggle switch
+        toggleSwitch.appendChild(ageUpInput);
+        toggleSwitch.appendChild(toggleSlider);
+        
+        // Add click event to the slider to toggle the checkbox
+        toggleSlider.addEventListener('click', function() {
+            ageUpInput.checked = !ageUpInput.checked;
+            // Trigger the change event manually
+            ageUpInput.dispatchEvent(new Event('change'));
+        });
+        
+        // Add toggle switch to container
+        toggleContainer.appendChild(toggleSwitch);
+        ageUpContainer.appendChild(toggleContainer);
+        
+        // Create breast size container (initially hidden)
+        const breastSizeContainer = document.createElement('div');
+        breastSizeContainer.className = 'breast-size-container';
+        breastSizeContainer.style.display = 'none';
+        breastSizeContainer.id = 'breast-size-container-' + id;
+        
+        // Create breast size label
+        const breastSizeLabel = document.createElement('label');
+        breastSizeLabel.textContent = 'Breast Size:';
+        breastSizeContainer.appendChild(breastSizeLabel);
+        
+        // Create labels for breast sizes
+        const smallLabel = document.createElement('span');
+        smallLabel.className = 'breast-size-label small-label active';
+        smallLabel.textContent = 'Small';
+        
+        const mediumLabel = document.createElement('span');
+        mediumLabel.className = 'breast-size-label medium-label';
+        mediumLabel.textContent = 'Medium';
+        
+        const largeLabel = document.createElement('span');
+        largeLabel.className = 'breast-size-label large-label';
+        largeLabel.textContent = 'Large';
+        
+        const hugeLabel = document.createElement('span');
+        hugeLabel.className = 'breast-size-label huge-label';
+        hugeLabel.textContent = 'Huge';
+        
+        // Create label container
+        const breastSizeLabelContainer = document.createElement('div');
+        breastSizeLabelContainer.className = 'breast-size-label-container';
+        breastSizeLabelContainer.appendChild(smallLabel);
+        breastSizeLabelContainer.appendChild(mediumLabel);
+        breastSizeLabelContainer.appendChild(largeLabel);
+        breastSizeLabelContainer.appendChild(hugeLabel);
+        breastSizeContainer.appendChild(breastSizeLabelContainer);
+        
+        // Create slider container
+        const sliderContainer = document.createElement('div');
+        sliderContainer.className = 'breast-size-slider-container';
+        
+        const sliderTrack = document.createElement('div');
+        sliderTrack.className = 'breast-size-track';
+        
+        const sliderHandle = document.createElement('div');
+        sliderHandle.className = 'breast-size-handle position-small';
+        
+        // Create hidden radio inputs for the size options
+        const smallInput = document.createElement('input');
+        smallInput.type = 'radio';
+        smallInput.name = 'breast-size-' + id;
+        smallInput.id = 'breast-size-small-' + id;
+        smallInput.value = 'small breasts';
+        smallInput.className = 'breast-size-radio';
+        smallInput.checked = true;
+        
+        const mediumInput = document.createElement('input');
+        mediumInput.type = 'radio';
+        mediumInput.name = 'breast-size-' + id;
+        mediumInput.id = 'breast-size-medium-' + id;
+        mediumInput.value = 'medium breasts';
+        mediumInput.className = 'breast-size-radio';
+        
+        const largeInput = document.createElement('input');
+        largeInput.type = 'radio';
+        largeInput.name = 'breast-size-' + id;
+        largeInput.id = 'breast-size-large-' + id;
+        largeInput.value = 'large breasts';
+        largeInput.className = 'breast-size-radio';
+        
+        const hugeInput = document.createElement('input');
+        hugeInput.type = 'radio';
+        hugeInput.name = 'breast-size-' + id;
+        hugeInput.id = 'breast-size-huge-' + id;
+        hugeInput.value = 'huge breasts';
+        hugeInput.className = 'breast-size-radio';
+        
+        // Add track and handle to slider container
+        sliderTrack.appendChild(sliderHandle);
+        sliderContainer.appendChild(sliderTrack);
+        
+        // Add radio inputs to container
+        sliderContainer.appendChild(smallInput);
+        sliderContainer.appendChild(mediumInput);
+        sliderContainer.appendChild(largeInput);
+        sliderContainer.appendChild(hugeInput);
+        
+        breastSizeContainer.appendChild(sliderContainer);
+        
+        // Function to update active labels
+        function updateBreastSizeLabels() {
+            const selectedSize = document.querySelector(`input[name="breast-size-${id}"]:checked`).value;
+            smallLabel.classList.toggle('active', selectedSize === 'small breasts');
+            mediumLabel.classList.toggle('active', selectedSize === 'medium breasts');
+            largeLabel.classList.toggle('active', selectedSize === 'large breasts');
+            hugeLabel.classList.toggle('active', selectedSize === 'huge breasts');
+        }
+        
+        // Function to set breast size based on position
+        function setBreastSizeByPosition(position) {
+            let size;
+            if (position <= 25) {
+                size = 'small breasts';
+                sliderHandle.className = 'breast-size-handle position-small';
+                smallInput.checked = true;
+            } else if (position <= 50) {
+                size = 'medium breasts';
+                sliderHandle.className = 'breast-size-handle position-medium';
+                mediumInput.checked = true;
+            } else if (position <= 75) {
+                size = 'large breasts';
+                sliderHandle.className = 'breast-size-handle position-large';
+                largeInput.checked = true;
+            } else {
+                size = 'huge breasts';
+                sliderHandle.className = 'breast-size-handle position-huge';
+                hugeInput.checked = true;
+            }
+            updateBreastSizeLabels();
+            return size;
+        }
+        
+        // Add event listeners to radio inputs
+        smallInput.addEventListener('change', function() {
+            if (this.checked) {
+                sliderHandle.className = 'breast-size-handle position-small';
+                updateBreastSizeLabels();
+            }
+        });
+        
+        mediumInput.addEventListener('change', function() {
+            if (this.checked) {
+                sliderHandle.className = 'breast-size-handle position-medium';
+                updateBreastSizeLabels();
+            }
+        });
+        
+        largeInput.addEventListener('change', function() {
+            if (this.checked) {
+                sliderHandle.className = 'breast-size-handle position-large';
+                updateBreastSizeLabels();
+            }
+        });
+        
+        hugeInput.addEventListener('change', function() {
+            if (this.checked) {
+                sliderHandle.className = 'breast-size-handle position-huge';
+                updateBreastSizeLabels();
+            }
+        });
+        
+        // Add click event to the track for direct position selection
+        sliderTrack.addEventListener('click', function(e) {
+            // Calculate click position as percentage of track width
+            const rect = this.getBoundingClientRect();
+            const clickPosition = ((e.clientX - rect.left) / rect.width) * 100;
+            
+            // Set size based on where the user clicked
+            setBreastSizeByPosition(clickPosition);
+        });
+        
+        // Drag functionality for the handle
+        let isDragging = false;
+        
+        sliderHandle.addEventListener('mousedown', function(e) {
+            isDragging = true;
+            document.addEventListener('mousemove', handleDrag);
+            document.addEventListener('mouseup', stopDrag);
+            // Prevent default to avoid text selection during drag
+            e.preventDefault();
+        });
+        
+        function handleDrag(e) {
+            if (!isDragging) return;
+            
+            const rect = sliderTrack.getBoundingClientRect();
+            let position = ((e.clientX - rect.left) / rect.width) * 100;
+            
+            // Constrain to track bounds
+            position = Math.max(0, Math.min(100, position));
+            
+            // Set size based on drag position
+            setBreastSizeByPosition(position);
+        }
+        
+        function stopDrag() {
+            isDragging = false;
+            document.removeEventListener('mousemove', handleDrag);
+            document.removeEventListener('mouseup', stopDrag);
+        }
+        
+        // Clickable labels to select size
+        smallLabel.addEventListener('click', function() {
+            smallInput.checked = true;
+            smallInput.dispatchEvent(new Event('change'));
+        });
+        
+        mediumLabel.addEventListener('click', function() {
+            mediumInput.checked = true;
+            mediumInput.dispatchEvent(new Event('change'));
+        });
+        
+        largeLabel.addEventListener('click', function() {
+            largeInput.checked = true;
+            largeInput.dispatchEvent(new Event('change'));
+        });
+        
+        hugeLabel.addEventListener('click', function() {
+            hugeInput.checked = true;
+            hugeInput.dispatchEvent(new Event('change'));
+        });
+        
+        // Add breast size container to main container
+        ageUpContainer.appendChild(breastSizeContainer);
+
+        // Add event listener to toggle for showing/hiding breast size selector
+        ageUpInput.addEventListener('change', function() {
+            // Get the current gender
+            const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
+            updateBreastSizeVisibility(id, selectedGender);
+            
+            // If this is being enabled and gender is girl, ensure the breast size inputs are initialized
+            if (this.checked && selectedGender === 'girl') {
+                // Get the current selected breast size, or default to small
+                const selectedBreastSize = document.querySelector(`input[name="breast-size-${id}"]:checked`);
+                if (!selectedBreastSize) {
+                    // If no size is selected, default to small
+                    const smallInput = document.getElementById(`breast-size-small-${id}`);
+                    if (smallInput) {
+                        smallInput.checked = true;
+                        smallInput.dispatchEvent(new Event('change'));
+                    }
+                }
+            }
+        });
+        
+        // Add the age up container to age up div
+        ageUpDiv.appendChild(ageUpContainer);
+        
+        // Check initial gender and update breast size visibility
+        const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
+        if (selectedGender) {
+            updateBreastSizeVisibility(id, selectedGender);
+        }
+    }
+}
+
+/**
  * Resets the character dropdown to its default state
  * 
  * @param {number} id - Character block ID
  */
 export function resetCharacterDropdown(id) {
     const charList = document.getElementById(`char-list-${id}`);
+    const genderDiv = document.getElementById('gender-div-' + id);
+    const ageUpDiv = document.getElementById('age-up-div-' + id);
+    
     if (charList) {
-        charList.innerHTML = "";
         const charDisplay = charList.previousElementSibling;
-        if (charDisplay) {
-            charDisplay.textContent = "-- Select Character --";
-        }
+        charDisplay.textContent = "-- Select Character --";
+    }
+    
+    if (genderDiv) {
+        genderDiv.innerHTML = "";
+    }
+    
+    if (ageUpDiv) {
+        ageUpDiv.innerHTML = "";
     }
 } 

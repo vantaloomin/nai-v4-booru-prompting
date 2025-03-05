@@ -10,6 +10,7 @@ import {
     updateTitleOptions, 
     updateCharacterDropdown, 
     updateGenderToggle,
+    updateAgeUpToggle,
     updateEnhancerDropdown,
     resetCharacterDropdown
 } from './ui/dropdowns.js';
@@ -179,6 +180,11 @@ export function addCharacterBlock() {
     genderDiv.id = 'gender-div-' + blockId;
     contentDiv.appendChild(genderDiv);
 
+    // Age Up Toggle Container
+    const ageUpDiv = document.createElement('div');
+    ageUpDiv.id = 'age-up-div-' + blockId;
+    contentDiv.appendChild(ageUpDiv);
+
     // Enhancer Dropdown Container
     const enhancerDiv = document.createElement('div');
     enhancerDiv.id = 'enhancer-div-' + blockId;
@@ -343,6 +349,7 @@ export function addRandomCharacterBlock(type) {
                 charDisplay.textContent = cleanDisplayName(randomCharacter.name);
                 // Update gender and enhancer options
                 updateGenderToggle(blockId, randomCharacter.name);
+                updateAgeUpToggle(blockId, randomCharacter.name);
                 updateEnhancerDropdown(blockId, randomCharacter.name);
 
                 // Update the character block title
@@ -608,6 +615,31 @@ export function getCharacterSubjects() {
 
             // Process enhancer selection
             const enhancerDisplay = block.querySelector('#enhancer-div-' + i + ' .selected-display');
+            
+            // Check for Age Up toggle
+            const ageUpInput = document.getElementById(`age-up-input-${i}`);
+            if (ageUpInput && ageUpInput.checked) {
+                let tagsArray = finalTags.split(",").map(t => t.trim()).filter(t => t !== "");
+                
+                // Add "aged up" tag right after the gender tag (at index 0)
+                tagsArray.splice(1, 0, "aged up");
+                
+                // Add gender-specific tag based on selected gender
+                const selectedGender = document.querySelector(`input[name="gender-${i}"]:checked`)?.value;
+                if (selectedGender === 'boy') {
+                    tagsArray.splice(2, 0, "mature male");
+                } else if (selectedGender === 'girl') {
+                    // For female, add the selected breast size tag
+                    const breastSizeInput = document.querySelector(`input[name="breast-size-${i}"]:checked`);
+                    if (breastSizeInput) {
+                        const breastSize = breastSizeInput.value;
+                        tagsArray.splice(2, 0, breastSize);
+                    }
+                }
+                
+                finalTags = tagsArray.join(", ");
+            }
+            
             if (enhancerDisplay && enhancerDisplay.textContent !== "-- None --") {
                 // Get the selected gender from the radio buttons if there was a gender swap
                 const selectedGender = document.querySelector(`input[name="gender-${i}"]:checked`)?.value;

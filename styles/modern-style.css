@@ -1418,4 +1418,189 @@ button:active {
 .gender-slider {
     /* These styles will be overridden by the new ones */
 }
+
+/* Age Up Toggle Container */
+.age-up-container {
+    display: flex;
+    flex-direction: column;
+    margin: var(--space-md) 0;
+    padding: var(--space-sm);
+    background-color: var(--color-bg-surface-alt);
+    border-radius: var(--radius-md);
+}
+
+.age-up-container label {
+    display: block;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--space-xs);
+    color: var(--text-on-surface);
+}
+
+.toggle-switch-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--space-sm);
+}
+
+/* Toggle switch styles for Age Up */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-bg-input);
+    transition: .4s;
+    border-radius: 24px;
+    z-index: 1; /* Ensure the slider is on top and clickable */
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: var(--text-on-primary);
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.toggle-switch input:checked + .toggle-slider {
+    background-color: var(--color-primary);
+}
+
+.toggle-switch input:checked + .toggle-slider:before {
+    transform: translateX(24px);
+}
+
+/* Breast Size Container */
+.breast-size-container {
+    margin-top: var(--space-sm);
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--color-border);
+}
+
+.breast-size-container label {
+    display: block;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--space-xs);
+    color: var(--text-on-surface);
+}
+
+/* Breast size slider labels */
+.breast-size-label-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--space-xs);
+}
+
+.breast-size-label {
+    font-size: 0.85em;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: var(--transition-fast);
+}
+
+.breast-size-label.active {
+    opacity: 1;
+    font-weight: var(--font-weight-medium);
+}
+
+.small-label.active {
+    color: lavender;
+}
+
+.medium-label.active {
+    color: coral;
+}
+
+.large-label.active {
+    color: hotpink;
+}
+
+.huge-label.active {
+    color: crimson;
+}
+
+/* Breast size slider */
+.breast-size-slider-container {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: var(--space-sm);
+}
+
+.breast-size-track {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 6px;
+    transform: translateY(-50%);
+    border-radius: 3px;
+    cursor: pointer;
+    background: linear-gradient(to right, lavender, coral, hotpink, crimson);
+}
+
+.breast-size-handle {
+    position: absolute;
+    top: 50%;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, -50%);
+    cursor: grab;
+    z-index: 1;
+}
+
+.breast-size-handle:active {
+    cursor: grabbing;
+}
+
+.breast-size-handle.position-small {
+    left: 12.5%;
+    background-color: lavender;
+}
+
+.breast-size-handle.position-medium {
+    left: 37.5%;
+    background-color: coral;
+}
+
+.breast-size-handle.position-large {
+    left: 62.5%;
+    background-color: hotpink;
+}
+
+.breast-size-handle.position-huge {
+    left: 87.5%;
+    background-color: crimson;
+}
+
+.breast-size-radio {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
   
