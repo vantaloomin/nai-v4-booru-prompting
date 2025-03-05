@@ -133,14 +133,14 @@ export function formatTag(tag) {
 }
 
 /**
- * Detects if a tag contains gender information (e.g., "1boy", "2girls")
+ * Detects gender information from tag text
  * 
- * @param {string} tag - The tag to check
- * @return {Object|null} - Object with gender and count if found, null otherwise
+ * @param {string} tag - The tag to analyze
+ * @return {Object|null} - Gender info object if detected, null otherwise
  */
 export function detectGenderFromTag(tag) {
-    // Match patterns like "1boy", "2girls", etc.
-    const genderMatch = tag.match(/^(\d+)(boy|girl)(s?)$/i);
+    // Match patterns like "1boy", "2girls", "3others", etc.
+    const genderMatch = tag.match(/^(\d+)(boy|girl|other)(s?)$/i);
     
     if (genderMatch) {
         const count = parseInt(genderMatch[1], 10);
@@ -148,13 +148,22 @@ export function detectGenderFromTag(tag) {
         return { gender, count };
     }
     
-    // Also check for just "boy" or "girl" without numbers
+    // Check for just "boy", "girl", or "other" without numbers
     if (/^boy$/i.test(tag)) {
         return { gender: 'boy', count: 1 };
     }
     
     if (/^girl$/i.test(tag)) {
         return { gender: 'girl', count: 1 };
+    }
+    
+    if (/^other$/i.test(tag)) {
+        return { gender: 'other', count: 1 };
+    }
+    
+    // Check for non-binary, monster, alien, or creature tags that would indicate "other"
+    if (/^(non-binary|nonbinary|monster|creature|alien|robot|android)$/i.test(tag)) {
+        return { gender: 'other', count: 1 };
     }
     
     return null;

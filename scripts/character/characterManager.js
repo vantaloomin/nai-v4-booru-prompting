@@ -353,9 +353,20 @@ export function addRandomCharacterBlock(type) {
 
                 // Randomly toggle gender swap if available
                 if (randomCharacter.genderswapAvailable) {
-                    const genderCheckbox = document.getElementById('genderswap-' + blockId);
-                    if (genderCheckbox) {
-                        genderCheckbox.checked = Math.random() < 0.5;
+                    // Get the default gender
+                    const defaultGender = randomCharacter.defaultGender || "girl";
+                    
+                    // Select a random gender from the three options
+                    const genderOptions = ["boy", "girl", "other"];
+                    const randomGender = genderOptions[Math.floor(Math.random() * genderOptions.length)];
+                    
+                    // Select the corresponding radio button
+                    const selectedRadio = document.getElementById(`gender-${randomGender}-${blockId}`);
+                    if (selectedRadio) {
+                        selectedRadio.checked = true;
+                        
+                        // Trigger the change event to update the slider position and labels
+                        selectedRadio.dispatchEvent(new Event('change'));
                     }
                 }
 
@@ -371,13 +382,154 @@ export function addRandomCharacterBlock(type) {
 }
 
 /**
+ * Processes tags to replace gendered terms based on gender transformation
+ * 
+ * @param {string} tags - Original tags string
+ * @param {string} fromGender - Original gender ("boy", "girl", "other")
+ * @param {string} toGender - Target gender ("boy", "girl", "other")
+ * @return {string} - Processed tags with gender-specific terms replaced
+ */
+function processGenderedTags(tags, fromGender, toGender) {
+    // If no gender change or invalid inputs, return original tags
+    if (fromGender === toGender || !fromGender || !toGender) {
+        return tags;
+    }
+    
+    // Split tags into array for processing
+    let tagsArray = tags.split(",").map(t => t.trim()).filter(t => t !== "");
+    
+    // For "other" gender, we treat it as male for tag purposes
+    // So male→other or other→male doesn't need tag changes
+    // But female→other or other→female does
+    const needsTransformation = !(
+        (fromGender === "boy" && toGender === "other") || 
+        (fromGender === "other" && toGender === "boy")
+    );
+    
+    if (needsTransformation) {
+        // Process each tag to replace gendered terms
+        tagsArray = tagsArray.map(tag => {
+            let processedTag = tag;
+            
+            // Define transformations based on direction
+            if ((fromGender === "boy" && toGender === "girl") || 
+                (fromGender === "other" && toGender === "girl")) {
+                // Male/other to female transformations
+                
+                // Check for combined pants+shirt → dress replacement
+                if (processedTag.includes("pants") && processedTag.includes("shirt")) {
+                    // Extract any color that might precede "pants" or "shirt"
+                    const colorMatch = processedTag.match(/(\w+)\s+(pants|shirt)/i);
+                    const color = colorMatch && colorMatch[1] !== "and" ? colorMatch[1] : "";
+                    
+                    // Replace both terms with dress, preserving color if found
+                    processedTag = processedTag
+                        .replace(/\b\w*\s*pants\b/gi, "")
+                        .replace(/\b\w*\s*shirt\b/gi, color ? `${color} dress` : "dress")
+                        .replace(/\s{2,}/g, " "); // Clean up extra spaces
+                } else {
+                    // Process butler → maid carefully to avoid false positives
+                    processedTag = processedTag
+                        .replace(/\b(?<!wa\s)butler\b(?!_)/gi, "maid") // Avoid "wabutler" and "butler_"
+                        
+                        // Standard replacements with word boundaries to preserve colors
+                        .replace(/\bdark-skinned male\b/gi, "dark-skinned female")
+                        .replace(/\bmuscular male\b/gi, "muscular female")
+                        .replace(/\bbreastplate\b/gi, "boobplate")
+                        .replace(/\bdemon boy\b/gi, "demon girl")
+                        .replace(/\bcat boy\b/gi, "cat girl")
+                        
+                        // New replacements with word boundaries to preserve colors
+                        .replace(/\b(\w+\s+)?pants\b(?!\s*shirt)/gi, "$1pantyhose") // Preserve color prefix
+                        .replace(/\b(\w+\s+)?shorts\b/gi, "$1miniskirt") // Preserve color prefix
+                        .replace(/\bv-neck\b/gi, "plunging neckline")
+                        .replace(/\bbowler hat\b/gi, "maid headdress");
+                        
+                    // Specific replacements for clothing
+                    if (processedTag.includes("maid")) {
+                        processedTag = processedTag.replace(/\bvest\b/gi, "apron");
+                    }
+                    
+                    // Original replacements with color preservation
+                    processedTag = processedTag
+                        .replace(/\b(\w+\s+)?pants\b/gi, "$1skirt") // Preserve color prefix
+                        .replace(/\b(\w+\s+)?wizard hat\b/gi, "$1witch hat") // Preserve color prefix
+                        .replace(/\bmonster\b(?!\s+girl)/gi, "monster girl") // Special handling
+                        .replace(/\b(\w+\s+)?tunic\b/gi, "$1dress") // Preserve color prefix
+                        .replace(/\bsarashi\b/gi, "chest sarashi");
+                        
+                    // Handle uniform-specific transformations
+                    if (/\b(school|military|police|security|maid|butler|sailor) uniform\b/i.test(processedTag)) {
+                        processedTag = processedTag.replace(/\b(\w+\s+)?pants\b/gi, "$1skirt"); // Preserve color prefix
+                    }
+                }
+            } 
+            else if ((fromGender === "girl" && toGender === "boy") || 
+                     (fromGender === "girl" && toGender === "other")) {
+                // Female to male/other transformations
+                
+                // Check for dress → pants+shirt replacement
+                if (processedTag.includes("dress") && !processedTag.includes("wedding dress")) {
+                    // Extract any color that might precede "dress"
+                    const colorMatch = processedTag.match(/(\w+)\s+dress/i);
+                    const color = colorMatch && colorMatch[1] !== "and" ? colorMatch[1] : "";
+                    
+                    // Replace dress with pants and shirt, preserving color if found
+                    processedTag = processedTag
+                        .replace(/\b(\w*\s*)dress\b/gi, color ? `${color} pants, ${color} shirt` : "pants, shirt");
+                } else {
+                    // Process maid → butler carefully to avoid false positives
+                    processedTag = processedTag
+                        .replace(/\bmaid\b(?!(en|_|arian))/gi, "butler") // Avoid "maiden", "maid_", "maid arian"
+                        
+                        // Standard replacements
+                        .replace(/\bdark-skinned female\b/gi, "dark-skinned male")
+                        .replace(/\bmuscular female\b/gi, "muscular male")
+                        .replace(/\bboobplate\b/gi, "breastplate")
+                        .replace(/\bdemon girl\b/gi, "demon boy")
+                        .replace(/\bcat girl\b/gi, "cat boy")
+                        
+                        // New replacements
+                        .replace(/\b(\w+\s+)?pantyhose\b/gi, "$1pants") // Preserve color prefix
+                        .replace(/\b(\w+\s+)?miniskirt\b/gi, "$1shorts") // Preserve color prefix
+                        .replace(/\bplunging neckline\b/gi, "v-neck")
+                        .replace(/\bmaid headdress\b/gi, "bowler hat");
+                    
+                    // Specific replacements for clothing
+                    if (processedTag.includes("butler")) {
+                        processedTag = processedTag.replace(/\bapron\b/gi, "vest");
+                    }
+                    
+                    // Original replacements with color preservation
+                    processedTag = processedTag
+                        .replace(/\b(\w+\s+)?skirt\b/gi, "$1pants") // Preserve color prefix
+                        .replace(/\b(\w+\s+)?witch hat\b/gi, "$1wizard hat") // Preserve color prefix
+                        .replace(/\bmonster girl\b/gi, "monster") // Special handling
+                        .replace(/\b(\w+\s+)?dress\b/gi, "$1tunic") // Preserve color prefix
+                        .replace(/\bchest sarashi\b/gi, "sarashi");
+                        
+                    // Handle uniform-specific transformations
+                    if (/\b(school|military|police|security|maid|butler|sailor) uniform\b/i.test(processedTag)) {
+                        processedTag = processedTag.replace(/\b(\w+\s+)?skirt\b/gi, "$1pants"); // Preserve color prefix
+                    }
+                }
+            }
+            
+            return processedTag;
+        });
+    }
+    
+    return tagsArray.join(", ");
+}
+
+/**
  * Gets character subjects and metadata for prompt generation
  * 
  * @return {Object} - Object containing subjects array and subjectCountObj
  */
 export function getCharacterSubjects() {
     let subjects = [];
-    let subjectCountObj = { girl: 0, boy: 0 };
+    let subjectCountObj = { girl: 0, boy: 0, other: 0 };
 
     // Get action assignments mapping - safely handle case where getActionAssignments might not be available yet
     const actionAssignments = typeof getActionAssignments === 'function' 
@@ -404,18 +556,51 @@ export function getCharacterSubjects() {
 
             let gender = "";
             if (selectedData.genderswapAvailable) {
-                const swapCheckbox = document.getElementById('genderswap-' + i);
-                if (swapCheckbox && swapCheckbox.checked) {
-                    gender = selectedData.defaultGender === "boy" ? "girl" : "boy";
+                // Get the selected gender from the radio buttons
+                const selectedGender = document.querySelector(`input[name="gender-${i}"]:checked`)?.value;
+                const defaultGender = selectedData.defaultGender || "girl";
+                
+                // If selected gender is different from default, we need to add genderswap tags
+                if (selectedGender && selectedGender !== defaultGender) {
+                    gender = selectedGender;
+                    
+                    // Process gendered tags before adding genderswap tags
+                    finalTags = processGenderedTags(finalTags, defaultGender, selectedGender);
+                    
+                    // Create an array of tags
                     let tagsArray = finalTags.split(",").map(t => t.trim()).filter(t => t !== "");
+                    
+                    // Add general genderswap tag
                     if (tagsArray.length >= 2) {
                         tagsArray.splice(tagsArray.length - 1, 0, "genderswap");
                     } else {
                         tagsArray.push("genderswap");
                     }
+                    
+                    // Add directional genderswap tag based on the transformation
+                    let directionTag = "";
+                    if (defaultGender === "boy" && selectedGender === "girl") {
+                        directionTag = "genderswap mtf"; // male to female
+                    } else if (defaultGender === "girl" && selectedGender === "boy") {
+                        directionTag = "genderswap ftm"; // female to male
+                    } else if (defaultGender === "other" && selectedGender === "boy") {
+                        directionTag = "genderswap otm"; // other to male
+                    } else if (defaultGender === "other" && selectedGender === "girl") {
+                        directionTag = "genderswap otf"; // other to female
+                    } else if (defaultGender === "boy" && selectedGender === "other") {
+                        directionTag = "genderswap mto"; // male to other
+                    } else if (defaultGender === "girl" && selectedGender === "other") {
+                        directionTag = "genderswap fto"; // female to other
+                    }
+                    
+                    // Add the directional tag
+                    if (directionTag) {
+                        tagsArray.splice(tagsArray.length - 1, 0, directionTag);
+                    }
+                    
                     finalTags = tagsArray.join(", ");
                 } else {
-                    gender = selectedData.defaultGender || "girl";
+                    gender = defaultGender;
                 }
             } else {
                 gender = selectedData.defaultGender || "girl";
@@ -424,11 +609,21 @@ export function getCharacterSubjects() {
             // Process enhancer selection
             const enhancerDisplay = block.querySelector('#enhancer-div-' + i + ' .selected-display');
             if (enhancerDisplay && enhancerDisplay.textContent !== "-- None --") {
+                // Get the selected gender from the radio buttons if there was a gender swap
+                const selectedGender = document.querySelector(`input[name="gender-${i}"]:checked`)?.value;
+                const defaultGender = selectedData.defaultGender || "girl";
+                const wasGenderSwapped = selectedGender && selectedGender !== defaultGender;
+                
                 let tagsArray = finalTags.split(",").map(t => t.trim()).filter(t => t !== "");
                 
                 // Use the original enhancer text (with -- tags) from the data attribute if available
                 // Otherwise fall back to the displayed text
-                const enhancerText = enhancerDisplay.dataset.originalEnhancer || enhancerDisplay.textContent;
+                let enhancerText = enhancerDisplay.dataset.originalEnhancer || enhancerDisplay.textContent;
+                
+                // Process gendered tags in the enhancer if there was a gender swap
+                if (wasGenderSwapped) {
+                    enhancerText = processGenderedTags(enhancerText, defaultGender, selectedGender);
+                }
                 
                 if (tagsArray.length >= 2) {
                     tagsArray.splice(tagsArray.length - 1, 0, enhancerText);
@@ -440,7 +635,20 @@ export function getCharacterSubjects() {
 
             // Append any action tags assigned to this character block
             if (actionAssignments[selectedName]) {
-                finalTags += ", " + actionAssignments[selectedName].join(", ");
+                // Get the selected gender from the radio buttons if there was a gender swap
+                const selectedGender = document.querySelector(`input[name="gender-${i}"]:checked`)?.value;
+                const defaultGender = selectedData.defaultGender || "girl";
+                const wasGenderSwapped = selectedGender && selectedGender !== defaultGender;
+                
+                // Process each action tag for gender-specific terms if needed
+                let actionTags = actionAssignments[selectedName];
+                if (wasGenderSwapped) {
+                    actionTags = actionTags.map(tag => 
+                        processGenderedTags(tag, defaultGender, selectedGender)
+                    );
+                }
+                
+                finalTags += ", " + actionTags.join(", ");
             }
 
             subjectCountObj[gender] = (subjectCountObj[gender] || 0) + 1;
@@ -453,6 +661,24 @@ export function getCharacterSubjects() {
     customBlocks.forEach(block => {
         // Default gender is "girl" unless we detect otherwise from tags
         let gender = "girl";
+        let detectedGender = null;
+        let hasGenderswap = false;
+        let swapDirection = '';
+        
+        // Find the gender selection if available
+        const genderRadios = block.querySelectorAll('input[type="radio"][name^="gender-custom-"]');
+        if (genderRadios.length > 0) {
+            const selectedRadio = Array.from(genderRadios).find(radio => radio.checked);
+            if (selectedRadio) {
+                gender = selectedRadio.value;
+                
+                // Check if this is different from the detected gender from tags
+                if (detectedGender && gender !== detectedGender) {
+                    hasGenderswap = true;
+                    swapDirection = `${detectedGender}-to-${gender}`;
+                }
+            }
+        }
         
         // Find the pill container with the custom tags
         const pillContainer = block.querySelector('.custom-pill-container');
@@ -473,7 +699,6 @@ export function getCharacterSubjects() {
             if (tags.length > 0) {
                 // Process tags to detect gender and format them
                 let processedTags = [];
-                let genderDetected = false;
                 
                 for (const tag of tags) {
                     // Try to detect gender from this tag
@@ -481,15 +706,57 @@ export function getCharacterSubjects() {
                     
                     if (genderInfo) {
                         // We found a gender tag
-                        gender = genderInfo.gender;
-                        genderDetected = true;
+                        detectedGender = genderInfo.gender;
+                        
+                        // Set this as the default gender if no selection was made
+                        if (!gender && detectedGender) {
+                            gender = detectedGender;
+                        }
+                        
+                        // Check if we need to add genderswap tags
+                        if (gender !== detectedGender) {
+                            hasGenderswap = true;
+                            swapDirection = `${detectedGender}-to-${gender}`;
+                        }
+                        
                         // Don't include the gender tag in the processed tags
                         continue;
                     }
                     
+                    // Process the tag for gender-specific terms if we have a gender swap
+                    let processedTag = tag;
+                    if (hasGenderswap && detectedGender && gender) {
+                        processedTag = processGenderedTags(tag, detectedGender, gender);
+                    }
+                    
                     // Format the tag (replace underscores with spaces)
-                    const formattedTag = window.formatTag ? window.formatTag(tag) : tag;
-                    processedTags.push(formattedTag);
+                    processedTag = window.formatTag ? window.formatTag(processedTag) : processedTag;
+                    processedTags.push(processedTag);
+                }
+                
+                // Add genderswap tags if needed
+                if (hasGenderswap) {
+                    processedTags.push("genderswap");
+                    
+                    // Add directional tag
+                    let directionTag = "";
+                    if (detectedGender === "boy" && gender === "girl") {
+                        directionTag = "genderswap mtf"; // male to female
+                    } else if (detectedGender === "girl" && gender === "boy") {
+                        directionTag = "genderswap ftm"; // female to male
+                    } else if (detectedGender === "other" && gender === "boy") {
+                        directionTag = "genderswap otm"; // other to male
+                    } else if (detectedGender === "other" && gender === "girl") {
+                        directionTag = "genderswap otf"; // other to female
+                    } else if (detectedGender === "boy" && gender === "other") {
+                        directionTag = "genderswap mto"; // male to other
+                    } else if (detectedGender === "girl" && gender === "other") {
+                        directionTag = "genderswap fto"; // female to other
+                    }
+                    
+                    if (directionTag) {
+                        processedTags.push(directionTag);
+                    }
                 }
                 
                 // Add the gender and join the processed tags with commas

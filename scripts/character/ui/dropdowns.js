@@ -105,11 +105,11 @@ export function updateGenderToggle(id, selectedCharacterName) {
     genderDiv.innerHTML = "";
     const selectedData = characterData.find(item => item.name === selectedCharacterName);
     if (selectedData && selectedData.genderswapAvailable) {
-        // Create container for the gender toggle
-        const genderToggleContainer = document.createElement('div');
-        genderToggleContainer.className = 'gender-toggle-container';
+        // Create container for the gender selection
+        const genderSelectionContainer = document.createElement('div');
+        genderSelectionContainer.className = 'gender-selection-container';
         
-        // Create labels for boy/girl
+        // Create labels for boy/girl/other
         const boyLabel = document.createElement('span');
         boyLabel.className = 'gender-label boy-label';
         boyLabel.textContent = 'Boy';
@@ -118,59 +118,189 @@ export function updateGenderToggle(id, selectedCharacterName) {
         girlLabel.className = 'gender-label girl-label';
         girlLabel.textContent = 'Girl';
         
-        // Create the toggle switch
-        const toggleLabel = document.createElement('label');
-        toggleLabel.className = 'gender-toggle-switch';
+        const otherLabel = document.createElement('span');
+        otherLabel.className = 'gender-label other-label';
+        otherLabel.textContent = 'Other';
         
-        const toggleInput = document.createElement('input');
-        toggleInput.type = "checkbox";
-        toggleInput.id = 'genderswap-' + id;
+        // Create the trio select slider
+        const sliderContainer = document.createElement('div');
+        sliderContainer.className = 'gender-trio-slider-container';
         
-        // IMPORTANT: In the existing code, checkbox.checked means "apply a gender swap"
-        // So initially we should set this to NOT checked (no swap)
-        toggleInput.checked = false;
+        const sliderTrack = document.createElement('div');
+        sliderTrack.className = 'gender-trio-track';
         
-        // The toggle should visually reflect the character's gender
-        // But the toggle state (checked) still means "apply a gender swap"
-        // So we need to style based on whether it matches the default
+        const sliderHandle = document.createElement('div');
+        sliderHandle.className = 'gender-trio-handle';
+        
+        // Create hidden radio inputs for the three options
+        const boyInput = document.createElement('input');
+        boyInput.type = 'radio';
+        boyInput.name = 'gender-' + id;
+        boyInput.id = 'gender-boy-' + id;
+        boyInput.value = 'boy';
+        boyInput.className = 'gender-radio';
+        
+        const girlInput = document.createElement('input');
+        girlInput.type = 'radio';
+        girlInput.name = 'gender-' + id;
+        girlInput.id = 'gender-girl-' + id;
+        girlInput.value = 'girl';
+        girlInput.className = 'gender-radio';
+        
+        const otherInput = document.createElement('input');
+        otherInput.type = 'radio';
+        otherInput.name = 'gender-' + id;
+        otherInput.id = 'gender-other-' + id;
+        otherInput.value = 'other';
+        otherInput.className = 'gender-radio';
+        
+        // Set default selection based on character's default gender
         const defaultGender = selectedData.defaultGender || "girl";
+        if (defaultGender === 'boy') {
+            boyInput.checked = true;
+            sliderHandle.classList.add('position-boy');
+        } else if (defaultGender === 'girl') {
+            girlInput.checked = true;
+            sliderHandle.classList.add('position-girl');
+        } else {
+            otherInput.checked = true;
+            sliderHandle.classList.add('position-other');
+        }
         
-        // Set a data attribute for styling purposes
-        toggleInput.dataset.defaultGender = defaultGender;
+        // Store default gender for reference
+        sliderContainer.dataset.defaultGender = defaultGender;
         
-        const sliderSpan = document.createElement('span');
-        sliderSpan.className = 'gender-slider round';
+        // Add track and handle to slider container
+        sliderTrack.appendChild(sliderHandle);
+        sliderContainer.appendChild(sliderTrack);
         
-        // Add elements to the DOM
-        toggleLabel.appendChild(toggleInput);
-        toggleLabel.appendChild(sliderSpan);
+        // Add radio inputs to container
+        sliderContainer.appendChild(boyInput);
+        sliderContainer.appendChild(girlInput);
+        sliderContainer.appendChild(otherInput);
         
-        // Add everything to the container
-        genderToggleContainer.appendChild(boyLabel);
-        genderToggleContainer.appendChild(toggleLabel);
-        genderToggleContainer.appendChild(girlLabel);
+        // Function to update active labels
+        function updateGenderLabels() {
+            const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`).value;
+            boyLabel.classList.toggle('active', selectedGender === 'boy');
+            girlLabel.classList.toggle('active', selectedGender === 'girl');
+            otherLabel.classList.toggle('active', selectedGender === 'other');
+        }
+        
+        // Function to set the gender based on position
+        function setGenderByPosition(position) {
+            let gender;
+            if (position <= 33.3) {
+                gender = 'boy';
+                sliderHandle.className = 'gender-trio-handle position-boy';
+                boyInput.checked = true;
+            } else if (position <= 66.6) {
+                gender = 'girl';
+                sliderHandle.className = 'gender-trio-handle position-girl';
+                girlInput.checked = true;
+            } else {
+                gender = 'other';
+                sliderHandle.className = 'gender-trio-handle position-other';
+                otherInput.checked = true;
+            }
+            updateGenderLabels();
+            return gender;
+        }
+        
+        // Add event listeners to radio inputs
+        boyInput.addEventListener('change', function() {
+            if (this.checked) {
+                sliderHandle.className = 'gender-trio-handle position-boy';
+                updateGenderLabels();
+            }
+        });
+        
+        girlInput.addEventListener('change', function() {
+            if (this.checked) {
+                sliderHandle.className = 'gender-trio-handle position-girl';
+                updateGenderLabels();
+            }
+        });
+        
+        otherInput.addEventListener('change', function() {
+            if (this.checked) {
+                sliderHandle.className = 'gender-trio-handle position-other';
+                updateGenderLabels();
+            }
+        });
+        
+        // Add click event to the track for direct position selection
+        sliderTrack.addEventListener('click', function(e) {
+            // Calculate click position as percentage of track width
+            const rect = this.getBoundingClientRect();
+            const clickPosition = ((e.clientX - rect.left) / rect.width) * 100;
+            
+            // Set gender based on where the user clicked
+            setGenderByPosition(clickPosition);
+        });
+        
+        // Drag functionality for the handle
+        let isDragging = false;
+        
+        sliderHandle.addEventListener('mousedown', function(e) {
+            isDragging = true;
+            document.addEventListener('mousemove', handleDrag);
+            document.addEventListener('mouseup', stopDrag);
+            // Prevent default to avoid text selection during drag
+            e.preventDefault();
+        });
+        
+        function handleDrag(e) {
+            if (!isDragging) return;
+            
+            const rect = sliderTrack.getBoundingClientRect();
+            let position = ((e.clientX - rect.left) / rect.width) * 100;
+            
+            // Constrain to track bounds
+            position = Math.max(0, Math.min(100, position));
+            
+            // Set gender based on drag position
+            setGenderByPosition(position);
+        }
+        
+        function stopDrag() {
+            isDragging = false;
+            document.removeEventListener('mousemove', handleDrag);
+            document.removeEventListener('mouseup', stopDrag);
+        }
+        
+        // Clickable labels to select gender
+        boyLabel.addEventListener('click', function() {
+            boyInput.checked = true;
+            boyInput.dispatchEvent(new Event('change'));
+        });
+        
+        girlLabel.addEventListener('click', function() {
+            girlInput.checked = true;
+            girlInput.dispatchEvent(new Event('change'));
+        });
+        
+        otherLabel.addEventListener('click', function() {
+            otherInput.checked = true;
+            otherInput.dispatchEvent(new Event('change'));
+        });
+        
+        // Add elements to the container
+        genderSelectionContainer.appendChild(sliderContainer);
+        genderSelectionContainer.appendChild(boyLabel);
+        genderSelectionContainer.appendChild(girlLabel);
+        genderSelectionContainer.appendChild(otherLabel);
         
         // Add a label to inform the user about the character's default gender
         const infoLabel = document.createElement('div');
         infoLabel.className = 'gender-info-label';
         infoLabel.textContent = `Default: ${defaultGender.charAt(0).toUpperCase() + defaultGender.slice(1)}`;
-        genderToggleContainer.appendChild(infoLabel);
+        genderSelectionContainer.appendChild(infoLabel);
         
-        genderDiv.appendChild(genderToggleContainer);
+        genderDiv.appendChild(genderSelectionContainer);
         
-        // Add an event listener to update the visual state when toggle changes
-        toggleInput.addEventListener('change', function() {
-            // Use data attribute to determine which gender to show as active
-            const isSwapped = this.checked;
-            const defaultIsBoy = defaultGender === 'boy';
-            
-            // Update classes based on whether gender is swapped
-            boyLabel.classList.toggle('active', isSwapped ? !defaultIsBoy : defaultIsBoy);
-            girlLabel.classList.toggle('active', isSwapped ? defaultIsBoy : !defaultIsBoy);
-        });
-        
-        // Trigger change event to set initial active state
-        toggleInput.dispatchEvent(new Event('change'));
+        // Initialize label states
+        updateGenderLabels();
     }
 }
 
