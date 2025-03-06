@@ -66,11 +66,11 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "d.va (overwatch), brown eyes, brown hair, long hair, overwatch",
         enhancers: [
-            ["mecha pilot suit", "blue body suit", "gloves,"],
+            ["mecha pilot suit","blue body suit","gloves"],
             ["black cat d.va"],
             ["officer d.va"],
             ["shooting star d.va"],
-            ["--mecha pilot suit", "--blue body suit", "palanquin d.va", "hanbok"],
+            ["--mecha pilot suit","--blue body suit","palanquin d.va","hanbok"],
             ["academy d.va"],
             ["cruiser d.va"]
         ],
@@ -83,7 +83,7 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "tracer (overwatch), brown eyes, brown hair, short hair, spiked hair, overwatch",
         enhancers: [
-            ["yellow pants", "grey jacket", "breastplate", "goggles"],
+            ["yellow pants","grey jacket","breastplate","goggles"],
             ["graffiti tracer"],
             ["track and field tracer"]
         ],
@@ -96,7 +96,7 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "mei (overwatch), brown eyes, brown hair, long hair, plump, overwatch",
         enhancers: [
-            ["blue pants", "gloves", "glasses", "fur-trimmed coat"],
+            ["blue pants","gloves","glasses","fur-trimmed coat"],
             ["honeydew mei"],
             ["jiangshi mei"]
         ],
@@ -109,9 +109,9 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "widowmaker (overwatch), yellow eyes, blue hair, long hair, purple skin, colored skin, overwatch",
         enhancers: [
-            ["purple leotard", "headgear", "gloves", "single pant leg"],
+            ["purple leotard","headgear","gloves","single pant leg"],
             ["cote d'azur widowmaker"],
-            ["--purple skin", "colored skin", "talon widowmaker"],
+            ["--purple skin","colored skin","talon widowmaker"],
             ["black lily widowmaker"]
         ],
         defaultGender: "girl",
@@ -123,7 +123,7 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "pharah (overwatch), brown eyes, brown hair, short hair, dark skin, dark-skinned female, overwatch",
         enhancers: [
-            ["armor", "mechanical wings"]
+            ["armor","mechanical wings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -134,8 +134,8 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "sombra (overwatch), brown eyes, purple hair, short hair, dark skin, dark-skinned female, overwatch",
         enhancers: [
-            ["multicolored pants", "black jacket", "fingerless gloves"],
-            ["slay star sombra", "hat"]
+            ["multicolored pants","black jacket","fingerless gloves"],
+            ["slay star sombra","hat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -146,7 +146,7 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "symmetra (overwatch), brown eyes, black hair, long hair, dark skin, dark-skinned female, overwatch",
         enhancers: [
-            ["blue dress", "pelvic curtain", "headgear", "goggles", "mechanical arm", "thighhighs"]
+            ["blue dress","pelvic curtain","headgear","goggles","mechanical arm","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -157,7 +157,7 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "brigitte (overwatch), muscular female, brown eyes, brown hair, long hair, ponytail, tattoo, overwatch",
         enhancers: [
-            ["armor", "gloves"]
+            ["armor","gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -168,7 +168,7 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "zarya (overwatch), blue eyes, pink hair, short hair, muscular female, overwatch",
         enhancers: [
-            ["blue sleeveless shirt", "gloves", "arm band", "blue pants"]
+            ["blue sleeveless shirt","gloves","arm band","blue pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -179,15 +179,15 @@ const characterData = [{
         category: "Overwatch",
         mainTags: "mercy (overwatch), blue eyes, blonde hair, long hair, overwatch",
         enhancers: [
-            ["white armor", "pantyhose", "knee boots", "mechanical wings"],
-            ["witch mercy", "witch hat"],
+            ["white armor","pantyhose","knee boots","mechanical wings"],
+            ["witch mercy","witch hat"],
             ["pink mercy"],
-            ["--yellow hair", "devil mercy"],
+            ["--yellow hair","devil mercy"],
             ["imp mercy"],
             ["winged victory mercy"],
-            ["zhuque mercy", "black hair"],
+            ["zhuque mercy","black hair"],
             ["sugar plum fairy mercy"],
-            ["life guard mercy", "red swimsuit", "black shorts"],
+            ["life guard mercy","red swimsuit","black shorts"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -198,7 +198,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "lucca ashtear, purple eyes, purple hair, short hair, chrono trigger",
         enhancers: [
-            ["glasses", "helmet", "orange robe", "black shorts", "belt pouch"]
+            ["glasses","helmet","orange robe","black shorts","belt pouch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -209,7 +209,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "marle (chrono trigger), blue eyes, blonde hair, long hair, ponytail, chrono trigger",
         enhancers: [
-            ["white pants", "white shirt", "belt", "collar", "bracers"]
+            ["white pants","white shirt","belt","collar","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -220,7 +220,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "ayla (chrono trigger), brown eyes, blonde hair, long hair, chrono trigger",
         enhancers: [
-            ["grey fur scarf", "grey fur tube top", "grey fur skirt", "grey wrist cuffs"]
+            ["grey fur scarf","grey fur tube top","grey fur skirt","grey wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -231,7 +231,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "schala zeal, blue eyes, blue hair, long hair, chrono trigger",
         enhancers: [
-            [" purple robes", "wide sleeves", "sleeves past wrists", "gold earrings,"]
+            [" purple robes","wide sleeves","sleeves past wrists","gold earrings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -242,7 +242,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "crono (chrono trigger), blue eyes, red hair, short hair, spiked hair, chrono trigger",
         enhancers: [
-            ["blue tunic", "yellow pants", "yellow kerchief", "belt", "headband"]
+            ["blue tunic","yellow pants","yellow kerchief","belt","headband"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -253,7 +253,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "magus (chrono trigger), red eyes, blue hair, long hair, chrono trigger",
         enhancers: [
-            ["breastplate", "purple pants", "red cape", "gloves", "codpiece"]
+            ["breastplate","purple pants","red cape","gloves","codpiece"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -264,7 +264,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "kid (chrono cross), blue eyes, blonde hair, long hair, ponytail, chrono cross",
         enhancers: [
-            ["red cropped jacket", "red skirt", "white tube top", "belt", "gloves"]
+            ["red cropped jacket","red skirt","white tube top","belt","gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -275,7 +275,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "serge (chrono cross), blue eyes, blue hair, short hair, chrono cross",
         enhancers: [
-            ["red bandana", "vest", "black shirt", "blue shorts", "black belt", "gloves,"]
+            ["red bandana","vest","black shirt","blue shorts","black belt","gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -286,7 +286,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "harle (chrono cross), red eyes, black hair, short hair, chrono cross",
         enhancers: [
-            ["two-tone leotard", "harem pants", "see-through pants", "long sleeves", "red gloves"]
+            ["two-tone leotard","harem pants","see-through pants","long sleeves","red gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -297,7 +297,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "leena (chrono cross), blue eyes, brown hair, long hair, chrono cross",
         enhancers: [
-            ["brown dress", "purple dress", "dress under dress", "green belt", "headband"]
+            ["brown dress","purple dress","dress under dress","green belt","headband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -308,7 +308,7 @@ const characterData = [{
         category: "Chrono (Series)",
         mainTags: "marcy (chrono cross), blue eyes, blue hair, short hair, double bun, chrono cross",
         enhancers: [
-            ["pink dress", "breastplate", "fingerless gauntlets", "back bow"]
+            ["pink dress","breastplate","fingerless gauntlets","back bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -319,7 +319,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "refia, brown eyes, red hair, medium hair, final fantasy iii, final fantasy",
         enhancers: [
-            ["white dress", "blue vest", "pantyhose", "red thigh boots"]
+            ["white dress","blue vest","pantyhose","red thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -330,7 +330,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "black mage (final fantasy), yellow eyes, final fantasy",
         enhancers: [
-            ["brown witch hat", "blue robe", "covered face"]
+            ["brown witch hat","blue robe","covered face"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -341,7 +341,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "white mage (final fantasy), final fantasy",
         enhancers: [
-            ["white hooded robe", "long skirt", "wide sleeves", "sleeves past wrists"]
+            ["white hooded robe","long skirt","wide sleeves","sleeves past wrists"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -352,7 +352,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "dancer (final fantasy), final fantasy",
         enhancers: [
-            ["brown sleeveless cropped shirt", "high collar", "wrist bangles", "brown skirt", "belt", "midriff"]
+            ["brown sleeveless cropped shirt","high collar","wrist bangles","brown skirt","belt","midriff"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -363,7 +363,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "red mage (final fantasy), final fantasy",
         enhancers: [
-            ["red hat", "hat feather", "red cloak", "white ascot"]
+            ["red hat","hat feather","red cloak","white ascot"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -374,7 +374,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "dark knight (final fantasy), red eyes, black hair, short hair, final fantasy",
         enhancers: [
-            ["purple armor", "full armor", "knee pads", "shoulder armor"]
+            ["purple armor","full armor","knee pads","shoulder armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -385,7 +385,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "ninja (final fantasy), brown eyes, black hair, short hair, final fantasy",
         enhancers: [
-            ["red sleeveless tunic", "brown belt", "belt pouch", "black mask", "covered mouth", "detached sleeves", "elbow gloves"]
+            ["red sleeveless tunic","brown belt","belt pouch","black mask","covered mouth","detached sleeves","elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -396,7 +396,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "dragoon (final fantasy), blue eyes, purple hair, short hair, final fantasy",
         enhancers: [
-            ["armor", "horned helmet", "chestplate"]
+            ["armor","horned helmet","chestplate"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -407,7 +407,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "scholar (final fantasy), brown eyes, brown hair, long hair, final fantasy",
         enhancers: [
-            ["mortarboard", "green coat", "black skirt", "yellow dress", "glasses"]
+            ["mortarboard","green coat","black skirt","yellow dress","glasses"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -418,7 +418,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "thief (final fantasy), green eyes, brown hair, short hair, final fantasy",
         enhancers: [
-            ["green shirt", "green shorts", "green bandana", "brown vest", "fingerless gloves", "long sleeves"]
+            ["green shirt","green shorts","green bandana","brown vest","fingerless gloves","long sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -429,7 +429,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "shiva (final fantasy), colored skin, blue skin, blue eyes, blue hair, very long hair, final fantasy",
         enhancers: [
-            ["forehead jewel", "blue highleg leotard", "thighhighs"]
+            ["forehead jewel","blue highleg leotard","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -440,7 +440,7 @@ const characterData = [{
         category: "Final Fantasy 1-3",
         mainTags: "carbuncle (final fantasy), fox girl, fox ears, fox tail, animal ear fluff, red eyes, green hair, forehead jewel, final fantasy",
         enhancers: [
-            ["blue dress", "layered skirt"]
+            ["blue dress","layered skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -451,7 +451,7 @@ const characterData = [{
         category: "Final Fantasy 4",
         mainTags: "rydia (ff4), green eyes, green hair, long hair, final fantasy iv, final fantasy",
         enhancers: [
-            ["green dress", "cape", "thighhighs", "hair ornament"]
+            ["green dress","cape","thighhighs","hair ornament"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -462,7 +462,7 @@ const characterData = [{
         category: "Final Fantasy 4",
         mainTags: "rosa farrell, blue eyes, blonde hair, long hair, final fantasy iv, final fantasy",
         enhancers: [
-            ["white leotard", "cape", "hair ornament", "fingerless gloves", "belts"]
+            ["white leotard","cape","hair ornament","fingerless gloves","belts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -473,7 +473,7 @@ const characterData = [{
         category: "Final Fantasy 4",
         mainTags: "barbariccia, yellow eyes, green hair, long hair, final fantasy iv, final fantasy",
         enhancers: [
-            ["bikini top only", "pelvic curtain", "shawl"]
+            ["bikini top only","pelvic curtain","shawl"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -484,7 +484,7 @@ const characterData = [{
         category: "Final Fantasy 4",
         mainTags: "porom, blue eyes, blonde hair, short hair, final fantasy iv, final fantasy",
         enhancers: [
-            ["striped thighhighs", "cape", "sleeveless pink dress", "bracers"]
+            ["striped thighhighs","cape","sleeveless pink dress","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -495,7 +495,7 @@ const characterData = [{
         category: "Final Fantasy 5",
         mainTags: "lenna charlotte tycoon, blue eyes, blonde hair, long hair, final fantasy v, final fantasy",
         enhancers: [
-            ["sleeveless orange dress", "hair ornament", "belt"]
+            ["sleeveless orange dress","hair ornament","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -506,7 +506,7 @@ const characterData = [{
         category: "Final Fantasy 5",
         mainTags: "faris scherwiz, purple eyes, purple hair, long hair, final fantasy v, final fantasy",
         enhancers: [
-            ["green headband", "sleeveless blue jacket", "blue tunic", "belt", "green shawl", "bracers"]
+            ["green headband","sleeveless blue jacket","blue tunic","belt","green shawl","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -517,7 +517,7 @@ const characterData = [{
         category: "Final Fantasy 5",
         mainTags: "krile mayer baldesion (ff5), blue eyes, blonde hair, short hair, final fantasy v, final fantasy",
         enhancers: [
-            ["sleeveless pink leotard", "blue cape", "pink gauntlets", "white thighhighs", "knee boots"]
+            ["sleeveless pink leotard","blue cape","pink gauntlets","white thighhighs","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -539,7 +539,7 @@ const characterData = [{
         category: "Final Fantasy 6",
         mainTags: "terra branford, blue eyes, green hair, long hair, ponytail, final fantasy vi, final fantasy",
         enhancers: [
-            ["red dress", "purple sash", "yellow cape", "red bracers"]
+            ["red dress","purple sash","yellow cape","red bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -561,7 +561,7 @@ const characterData = [{
         category: "Final Fantasy 6",
         mainTags: "celes chere, blue eyes, blonde hair, long hair, final fantasy vi, final fantasy",
         enhancers: [
-            ["hair ornament", "blue shirt", "yellow pants", "yellow sleeves"]
+            ["hair ornament","blue shirt","yellow pants","yellow sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -572,20 +572,20 @@ const characterData = [{
         category: "Final Fantasy 7",
         mainTags: "tifa lockhart, brown eyes, brown hair, long hair, final fantasy vii remake, final fantasy",
         enhancers: [
-            ["white cropped shirt", "low tied hair", "suspenders", "black skirt", "detached black sleeves", "red fingerless gloves", "single elbow pad"],
-            ["tifa lockhart (refined dress)", "purple sleeveless dress", "short dress", "neck ribbon", "gold earrings"],
-            ["tifa lockhart (shining spirit)", "multicolored bikini", "bikini skirt", "hair flower", "side locks", "hair bun", "official alternate costume"],
-            ["tifa lockhart (cowgirl)", "cowboy hat", "cropped leather vest", "short leather skirt", "black gloves", "official alternate costume"],
-            ["tifa lockhart (lifeguard)", "low tied hair", "black hat", "bikini under clothes", "fingerless gloves", "see-through shirt", "skirt", "official alternate costume"],
-            ["tifa lockhart (sporty dress)", "china dress", "leopard print", "double bun", "pelvic curtain", "tassel hair ornament", "fishnet thighhighs", "official alternate costume"],
-            ["tifa lockhart (majestic glamour)", "striped crop top", "denim shorts", "pantylines", "front-tie top", "official alternate costume"],
-            ["tifa lockhart (bahamut suit)", "armor", "clawed gauntlets", "dragon wings", "horned headwear", "low tied hair", "shoulder armor", "official alternate costume"],
-            ["tifa lockhart (fairy of the holy flame)", "santa hat", "santa costume", "holly hat ornament", "skirt", "fur-trimmed capelet", "fur-trimmed gloves", "fur-trimmed headwear", "fur-trimmed skirt", "white turtleneck sweater", "official alternate costume"],
-            ["tifa lockhart (exotic dress)", "black kimono", "black thighhighs", "hair flower", "wide sleeves", "zettai ryouiki", "official alternate costume"],
-            ["tifa lockhart (passion mermaid)", "bikini", "bikini skirt", "see-through clothes", "jewelry", "belly chain", "fingerless gloves", "official alternate costume"],
-            ["tifa lockhart (loveless dress)", "white sleeveless dress", "crown", "earrings", "princess rosa costume", "official alternate costume"],
-            ["tifa lockhart (bunny bustier)", "animal ear headband", "rabbit ears", "rabbit tail", "detached collar", "elbow gloves", "blue bow", "black frilled miniskirt", "fishnet pantyhose", "nontraditional playboy bunny", "official alternate costume"],
-            ["tifa lockhart (honey bee inn)", "bee costume", "black hairband", "fake antennae", "fake wings", "fishnet pantyhose", "frills", "sideless leotard", "official alternate costume"]
+            ["white cropped shirt","low tied hair","suspenders","black skirt","detached black sleeves","red fingerless gloves","single elbow pad"],
+            ["tifa lockhart (refined dress)","purple sleeveless dress","short dress","neck ribbon","gold earrings"],
+            ["tifa lockhart (shining spirit)","multicolored bikini","bikini skirt","hair flower","side locks","hair bun","official alternate costume"],
+            ["tifa lockhart (cowgirl)","cowboy hat","cropped leather vest","short leather skirt","black gloves","official alternate costume"],
+            ["tifa lockhart (lifeguard)","low tied hair","black hat","bikini under clothes","fingerless gloves","see-through shirt","skirt","official alternate costume"],
+            ["tifa lockhart (sporty dress)","china dress","leopard print","double bun","pelvic curtain","tassel hair ornament","fishnet thighhighs","official alternate costume"],
+            ["tifa lockhart (majestic glamour)","striped crop top","denim shorts","pantylines","front-tie top","official alternate costume"],
+            ["tifa lockhart (bahamut suit)","armor","clawed gauntlets","dragon wings","horned headwear","low tied hair","shoulder armor","official alternate costume"],
+            ["tifa lockhart (fairy of the holy flame)","santa hat","santa costume","holly hat ornament","skirt","fur-trimmed capelet","fur-trimmed gloves","fur-trimmed headwear","fur-trimmed skirt","white turtleneck sweater","official alternate costume"],
+            ["tifa lockhart (exotic dress)","black kimono","black thighhighs","hair flower","wide sleeves","zettai ryouiki","official alternate costume"],
+            ["tifa lockhart (passion mermaid)","bikini","bikini skirt","see-through clothes","jewelry","belly chain","fingerless gloves","official alternate costume"],
+            ["tifa lockhart (loveless dress)","white sleeveless dress","crown","earrings","princess rosa costume","official alternate costume"],
+            ["tifa lockhart (bunny bustier)","animal ear headband","rabbit ears","rabbit tail","detached collar","elbow gloves","blue bow","black frilled miniskirt","fishnet pantyhose","nontraditional playboy bunny","official alternate costume"],
+            ["tifa lockhart (honey bee inn)","bee costume","black hairband","fake antennae","fake wings","fishnet pantyhose","frills","sideless leotard","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -596,18 +596,18 @@ const characterData = [{
         category: "Final Fantasy 7",
         mainTags: "aerith gainsborough, green eyes, brown hair, long hair, parted bangs, final fantasy vii remake, final fantasy",
         enhancers: [
-            ["pink dress", "braided ponytail", "red cropped jacket", "bangles", "hair bow"],
-            ["aerith gainsborough (red dress)", "braided ponytail", "red dress", "flamenco dress", "hair flowers", "official alternate costume"],
-            ["aerith gainsborough (pink mermaid)", "frilled bikini", "official alternate costume"],
-            ["aerith gainsborough (white floral dress)", "white strapless dress", "dress flower", "official alternate costume"],
-            ["aerith gainsborough (prism dress)", "ponytail", "blue hair bow", "white dress", "dress flower", "gold trim", "official alternate costume"],
-            ["aerith gainsborough (sunny robe)", "straw hat", "pink bikini", "white lace swimsuit cover-up"],
-            ["aerith gainsborough (fairy of snowfall)", "white dress", "white hat", "white coat", "winter clothes", "thigh strap", "fur trim", "cable knit", "official alternate costume"],
-            ["aerith gainsborough (bahamut robe)", "armor", "single shoulder pad", "pantyhose", "headdress", "long dress", "official alternate costume"],
-            ["aerith gainsborough (floral delight)", "single braid", "hair flower", "pink crop top", "floral pink sarong", "short sleeves", "midriff", "official alternate costume"],
-            ["aerith gainsborough (citric dress)", "food themed earrings", "half updo", "green ribbon", "strapless dress", "see-through clothes", "official alternate costume"],
-            ["aerith gainsborough (loveless dress)", "princess rosa dress", "white dress", "crown", "single braid", "official alternate costume"],
-            ["aerith gainsborough (honey bee inn)", "bee costume", "fake antennae", "fake wings", "fishnet pantyhose", "sideless leotard", "fur collar", "official alternate costume"]
+            ["pink dress","braided ponytail","red cropped jacket","bangles","hair bow"],
+            ["aerith gainsborough (red dress)","braided ponytail","red dress","flamenco dress","hair flowers","official alternate costume"],
+            ["aerith gainsborough (pink mermaid)","frilled bikini","official alternate costume"],
+            ["aerith gainsborough (white floral dress)","white strapless dress","dress flower","official alternate costume"],
+            ["aerith gainsborough (prism dress)","ponytail","blue hair bow","white dress","dress flower","gold trim","official alternate costume"],
+            ["aerith gainsborough (sunny robe)","straw hat","pink bikini","white lace swimsuit cover-up"],
+            ["aerith gainsborough (fairy of snowfall)","white dress","white hat","white coat","winter clothes","thigh strap","fur trim","cable knit","official alternate costume"],
+            ["aerith gainsborough (bahamut robe)","armor","single shoulder pad","pantyhose","headdress","long dress","official alternate costume"],
+            ["aerith gainsborough (floral delight)","single braid","hair flower","pink crop top","floral pink sarong","short sleeves","midriff","official alternate costume"],
+            ["aerith gainsborough (citric dress)","food themed earrings","half updo","green ribbon","strapless dress","see-through clothes","official alternate costume"],
+            ["aerith gainsborough (loveless dress)","princess rosa dress","white dress","crown","single braid","official alternate costume"],
+            ["aerith gainsborough (honey bee inn)","bee costume","fake antennae","fake wings","fishnet pantyhose","sideless leotard","fur collar","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -618,11 +618,11 @@ const characterData = [{
         category: "Final Fantasy 7",
         mainTags: "yuffie kisaragi, brown eyes, black hair, short hair, final fantasy vii remake, final fantasy",
         enhancers: [
-            ["headband", "green shirt", "single shoulder pad", "white shorts"],
-            ["yuffie kisaragi (summer orange)", "orange floral bikini top", "white shorts", "orange hairband", "official alternate costume"],
-            ["moogle (cosplay)", "brown hooded cloak", "hood up", "official alternate costume"],
-            ["yuffie kisaragi (summer moogle)", "orange o-ring bikini top", "white shorts", "orange bikini straps", "thigh strap", "goggles on head", "single elbow pad", "official alternate costume"],
-            ["yuffie kisaragi (bahamut mantle)", "armor", "horned hood", "thighhighs", "fake dragon tail", "purple leotard", "black shorts", "fingerless gloves", "official alternate costume"]
+            ["headband","green shirt","single shoulder pad","white shorts"],
+            ["yuffie kisaragi (summer orange)","orange floral bikini top","white shorts","orange hairband","official alternate costume"],
+            ["moogle (cosplay)","brown hooded cloak","hood up","official alternate costume"],
+            ["yuffie kisaragi (summer moogle)","orange o-ring bikini top","white shorts","orange bikini straps","thigh strap","goggles on head","single elbow pad","official alternate costume"],
+            ["yuffie kisaragi (bahamut mantle)","armor","horned hood","thighhighs","fake dragon tail","purple leotard","black shorts","fingerless gloves","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -633,13 +633,13 @@ const characterData = [{
         category: "Final Fantasy 7",
         mainTags: "cloud strife, blue eyes, blonde hair, short hair, spiked hair, final fantasy vii remake, final fantasy",
         enhancers: [
-            ["black shirt", "black pants", "single shoulder pad", "gauntlets"],
-            ["cloud strife (blue dress)", "blue dress", "hair bow", "fishnet sleeves", "puffy sleeves", "twin braids", "official alternate costume"],
-            ["cloud strife (bahamut garb)", "armor", "high collar", "single wing", "gauntlets", "see-through shirt", "official alternate costume"],
-            ["cloud strife (ball gown)", "purple dress", "tiara", "ribbon choker", "official alternate costume"],
-            ["cloud strife (maritime sailor)", "black shirt", "black pants", "sailor collar", "single elbow pad", "official alternate costume"],
-            ["cloud strife (wild surf)", "black swim trunks", "suspenders hanging", "official alternate costume"],
-            ["cloud strife (alphreid costume)", "blue cloak", "gloves", "leather armor", "official alternate costume"]
+            ["black shirt","black pants","single shoulder pad","gauntlets"],
+            ["cloud strife (blue dress)","blue dress","hair bow","fishnet sleeves","puffy sleeves","twin braids","official alternate costume"],
+            ["cloud strife (bahamut garb)","armor","high collar","single wing","gauntlets","see-through shirt","official alternate costume"],
+            ["cloud strife (ball gown)","purple dress","tiara","ribbon choker","official alternate costume"],
+            ["cloud strife (maritime sailor)","black shirt","black pants","sailor collar","single elbow pad","official alternate costume"],
+            ["cloud strife (wild surf)","black swim trunks","suspenders hanging","official alternate costume"],
+            ["cloud strife (alphreid costume)","blue cloak","gloves","leather armor","official alternate costume"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -650,8 +650,8 @@ const characterData = [{
         category: "Final Fantasy 8",
         mainTags: "riona heartilly, brown eyes, black hair, long hair, final fantasy viii, final fantasy",
         enhancers: [
-            ["long blue sweater", "black shorts", "blue skirt", "blue arm warmers"],
-            ["short white dress", "halter dress", "crossed straps", "official alternate costume"]
+            ["long blue sweater","black shorts","blue skirt","blue arm warmers"],
+            ["short white dress","halter dress","crossed straps","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -662,8 +662,8 @@ const characterData = [{
         category: "Final Fantasy 8",
         mainTags: "selphie tilmitt, green eyes, brown hair, short hair, final fantasy viii, final fantasy",
         enhancers: [
-            ["yellow zipper dress", "knee boots", "necklace"],
-            ["seed uniform (ff8)", "military uniform", "yellow ascot", "official alternate costume"]
+            ["yellow zipper dress","knee boots","necklace"],
+            ["seed uniform (ff8)","military uniform","yellow ascot","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -674,8 +674,8 @@ const characterData = [{
         category: "Final Fantasy 8",
         mainTags: "quistis trepe, blue eyes, blonde hair, long hair, final fantasy viii, final fantasy",
         enhancers: [
-            ["orange shirt", "orange skirt", "zipper", "detached sleeves", "high collar", "gloves"],
-            ["seed uniform (ff8)", "military outfit", "red necktie", "grey skirt", "grey jacket", "official alternate costume"]
+            ["orange shirt","orange skirt","zipper","detached sleeves","high collar","gloves"],
+            ["seed uniform (ff8)","military outfit","red necktie","grey skirt","grey jacket","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -686,7 +686,7 @@ const characterData = [{
         category: "Final Fantasy 8",
         mainTags: "edea kramer, yellow eyes, black hair, long hair, final fantasy viii, final fantasy",
         enhancers: [
-            ["headdress", "feather trim", "dress", "plunging neckline", "black dress", "clawed gloves"]
+            ["headdress","feather trim","dress","plunging neckline","black dress","clawed gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -697,7 +697,7 @@ const characterData = [{
         category: "Final Fantasy 8",
         mainTags: "ultimecia, yellow eyes, silver hair, long hair, final fantasy viii, final fantasy",
         enhancers: [
-            ["red dress", "side slit", "plunging neckline", "feather trim", "black wings", "body markings"]
+            ["red dress","side slit","plunging neckline","feather trim","black wings","body markings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -708,10 +708,10 @@ const characterData = [{
         category: "Final Fantasy 9",
         mainTags: "garnet til alexandros xvii, brown eyes, brown hair, final fantasy ix, final fantasy",
         enhancers: [
-            ["long hair", "orange overalls", "white shirt", "leg strap", "low tied hair", "red gloves"],
-            ["long hair", "low tied hair", "white strapless dress", "elbow gloves", "hair flower", "headdress", "leaf print", "official alternate costume"],
-            ["short hair", "bob cut", "orange overalls", "white shirt", "wide sleeves"],
-            ["short hair", "bob cut", "white hooded robe", "white mage (final fantasy)", "orange overalls", "wide sleeves"]
+            ["long hair","orange overalls","white shirt","leg strap","low tied hair","red gloves"],
+            ["long hair","low tied hair","white strapless dress","elbow gloves","hair flower","headdress","leaf print","official alternate costume"],
+            ["short hair","bob cut","orange overalls","white shirt","wide sleeves"],
+            ["short hair","bob cut","white hooded robe","white mage (final fantasy)","orange overalls","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -722,7 +722,7 @@ const characterData = [{
         category: "Final Fantasy 9",
         mainTags: "eiko carol, blue eyes, single horn, blue hair, short hair, final fantasy ix, final fantasy",
         enhancers: [
-            ["pink bodysuit", "yellow pants", "red shirt", "puffy sleeves", "hair bow"]
+            ["pink bodysuit","yellow pants","red shirt","puffy sleeves","hair bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -733,7 +733,7 @@ const characterData = [{
         category: "Final Fantasy 9",
         mainTags: "freija crescent, green eyes, blonde hair, short hair, mouse girl, mouse tail, final fantasy ix, final fantasy",
         enhancers: [
-            ["oversized red hat", "ascot", "red jacket", "orange bloomers", "knee boots"]
+            ["oversized red hat","ascot","red jacket","orange bloomers","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -744,7 +744,7 @@ const characterData = [{
         category: "Final Fantasy 9",
         mainTags: "kuja, purple eyes, silver hair, long hair, final fantasy ix, final fantasy",
         enhancers: [
-            ["jacket", "jockstrap", "cropped jacket", "puffy sleeves", "thighhighs", "waist cape", "feather hair ornament"]
+            ["jacket","jockstrap","cropped jacket","puffy sleeves","thighhighs","waist cape","feather hair ornament"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -755,7 +755,7 @@ const characterData = [{
         category: "Final Fantasy 9",
         mainTags: "beatrix (ff9), brown eyes, brown hair, long hair, final fantasy ix, final fantasy",
         enhancers: [
-            ["asymmetrical hair", "eyepatch", "one eye covered", "grey sleeveless dress", "brown pantyhose", "oversized belt", "fingerless gloves"]
+            ["asymmetrical hair","eyepatch","one eye covered","grey sleeveless dress","brown pantyhose","oversized belt","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -766,7 +766,7 @@ const characterData = [{
         category: "Final Fantasy 10",
         mainTags: "paine (ff10), red eyes, black hair, short hair, final fantasy x, final fantasy",
         enhancers: [
-            ["black choker", "black leather gloves", "black leather shorts", "black leather crop top", "black thighhighs", "garter straps", "red suspenders"]
+            ["black choker","black leather gloves","black leather shorts","black leather crop top","black thighhighs","garter straps","red suspenders"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -777,8 +777,8 @@ const characterData = [{
         category: "Final Fantasy 10",
         mainTags: "yuna (ff10), heterochromia, blue eye, green eye, brown hair, medium hair, final fantasy x, final fantasy",
         enhancers: [
-            ["bra peek", "long blue skirt", "hair ornament", "japanese clothes", "nontraditional miko", "obi", "wide sleeves", "detached sleeves"],
-            ["white crop top", "plunging neckline", "pink hood", "hood down", "blue showgirl skirt", "black short shorts", "yellow armbands", "wrist band", "knee boots"]
+            ["bra peek","long blue skirt","hair ornament","japanese clothes","nontraditional miko","obi","wide sleeves","detached sleeves"],
+            ["white crop top","plunging neckline","pink hood","hood down","blue showgirl skirt","black short shorts","yellow armbands","wrist band","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -789,8 +789,8 @@ const characterData = [{
         category: "Final Fantasy 10",
         mainTags: "rikku (ff10), green eyes, blonde hair, medium hair, half updo, final fantasy x, final fantasy",
         enhancers: [
-            ["brown shirt", "green shorts", "belt", "gloves", "detached sleeves", "goggles around neck", "thigh strap", "knee boots"],
-            ["blue bandana", "yellow bikini top", "brown skirt", "white detached sleeves", "bikini straps", "gradient scarf"]
+            ["brown shirt","green shorts","belt","gloves","detached sleeves","goggles around neck","thigh strap","knee boots"],
+            ["blue bandana","yellow bikini top","brown skirt","white detached sleeves","bikini straps","gradient scarf"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -801,8 +801,8 @@ const characterData = [{
         category: "Final Fantasy 10",
         mainTags: "lulu (ff10), purple eyes, black hair, braided bun, final fantasy x, final fantasy",
         enhancers: [
-            ["fur-trimmed black dress", "off-shoulder dress", "multiple belts", "multiple necklaces", "thighhighs"],
-            ["moogle", "stuffed animal", "fur-trimmed black dress", "off-shoulder dress", "multiple belts", "multiple necklaces", "thighhighs"]
+            ["fur-trimmed black dress","off-shoulder dress","multiple belts","multiple necklaces","thighhighs"],
+            ["moogle","stuffed animal","fur-trimmed black dress","off-shoulder dress","multiple belts","multiple necklaces","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -813,9 +813,9 @@ const characterData = [{
         category: "Final Fantasy 13",
         mainTags: "lightning farron, blue eyes, pink hair, medium hair, final fantasy xiii, final fantasy",
         enhancers: [
-            ["fingerless gloves", "skirt", "white jacket", "high collar", "red cape", "thigh strap"],
-            ["armor", "breastplate", "shoulder armor", "greaves", "arm guards", "leotard", "feather skirt"],
-            ["asymmetrical clothes", "armor", "silver breastplate", "silver shoulder armor", "greaves", "gauntlets", "white feather skirt"]
+            ["fingerless gloves","skirt","white jacket","high collar","red cape","thigh strap"],
+            ["armor","breastplate","shoulder armor","greaves","arm guards","leotard","feather skirt"],
+            ["asymmetrical clothes","armor","silver breastplate","silver shoulder armor","greaves","gauntlets","white feather skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -826,9 +826,9 @@ const characterData = [{
         category: "Final Fantasy 13",
         mainTags: "serah farron, blue eyes, pink hair, long hair, side ponytail,final fantasy xiii, final fantasy",
         enhancers: [
-            ["red plaid miniskirt", "black thighhighs", "see-through clothes", "white sleeveless shirt", "sleeveless jacket", "white jacket", "high collar", "white armband"],
-            ["white dress", "red thighhighs", "zettai ryouiki", "choker", "gloves", "detached sleeves", "belt pouch"],
-            ["pink bikinitop", "pink shorts", "yellow bow", "frilled thigh band", "pink bikini strap", "flowers"]
+            ["red plaid miniskirt","black thighhighs","see-through clothes","white sleeveless shirt","sleeveless jacket","white jacket","high collar","white armband"],
+            ["white dress","red thighhighs","zettai ryouiki","choker","gloves","detached sleeves","belt pouch"],
+            ["pink bikinitop","pink shorts","yellow bow","frilled thigh band","pink bikini strap","flowers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -850,7 +850,7 @@ const characterData = [{
         category: "Final Fantasy 13",
         mainTags: "oerba yun fang, green eyes, black hair, gradient hair, medium hair, final fantasy xiii, final fantasy",
         enhancers: [
-            ["indian clothes", "sari", "blue dress", "crop top", "bracers"]
+            ["indian clothes","sari","blue dress","crop top","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -861,9 +861,9 @@ const characterData = [{
         category: "Final Fantasy 14",
         mainTags: "y'shtola rhul, miqo'te, blue eyes, white hair, short hair, final fantasy xiv, final fantasy",
         enhancers: [
-            ["blue cross-laced pants", "white coat", "wide sleeves"],
-            ["white coat", "high collar", "shoulder armor", "pantyhose", "thigh boots"],
-            ["feather-trimmed black dress", "cross-laced footwear", "thigh boots", "wide sleeves", "fingerless gloves"]
+            ["blue cross-laced pants","white coat","wide sleeves"],
+            ["white coat","high collar","shoulder armor","pantyhose","thigh boots"],
+            ["feather-trimmed black dress","cross-laced footwear","thigh boots","wide sleeves","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -874,7 +874,7 @@ const characterData = [{
         category: "Final Fantasy 14",
         mainTags: "venat (ff14), blue eyes, white hair, long hair, final fantasy xiv, final fantasy",
         enhancers: [
-            ["white hooded robe", "hood down", "white capelet", "wide sleeves"]
+            ["white hooded robe","hood down","white capelet","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -885,7 +885,7 @@ const characterData = [{
         category: "Final Fantasy 14",
         mainTags: "ryne waters, blue eyes, red hair, long hair, final fantasy xiv, final fantasy",
         enhancers: [
-            ["white lace-trimmed dress", "clothing cutout", "puffy sleeves", "thigh boots", "thigh belts"]
+            ["white lace-trimmed dress","clothing cutout","puffy sleeves","thigh boots","thigh belts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -896,7 +896,7 @@ const characterData = [{
         category: "Final Fantasy 14",
         mainTags: "gaia (ff14), blue eyes, black hair, long hair, final fantasy xiv, final fantasy",
         enhancers: [
-            ["black dress", "choker", "black ascot", "detached sleeves", "wide sleeves", "fishnet thighhighs", "zettai ryouiki"]
+            ["black dress","choker","black ascot","detached sleeves","wide sleeves","fishnet thighhighs","zettai ryouiki"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -907,7 +907,7 @@ const characterData = [{
         category: "Final Fantasy 14",
         mainTags: "meteion, blue eyes, blue hair, short hair, final fantasy xiv, final fantasy",
         enhancers: [
-            ["blue head wings", "feathers", "blue dress", "blue capelet", "thighboots"]
+            ["blue head wings","feathers","blue dress","blue capelet","thighboots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -918,8 +918,8 @@ const characterData = [{
         category: "Final Fantasy 14",
         mainTags: "alisaie leveilleur, blue eyes, white hair, short hair, final fantasy xiv, final fantasy",
         enhancers: [
-            ["red dress", "cropped jacket", "fur-trimmed jacket", "thigh boots", "utility belt"],
-            ["white shorts", "white shirt", "red jacket", "thigh boots"]
+            ["red dress","cropped jacket","fur-trimmed jacket","thigh boots","utility belt"],
+            ["white shorts","white shirt","red jacket","thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -930,7 +930,7 @@ const characterData = [{
         category: "Final Fantasy 14",
         mainTags: "g'raha tia, muscular man, final fantasy xiv, final fantasy",
         enhancers: [
-            ["red sleeveless shirt", "collar", "leather vest", "gauntlets", "belt", "thigh boots", "white pants"]
+            ["red sleeveless shirt","collar","leather vest","gauntlets","belt","thigh boots","white pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -941,7 +941,7 @@ const characterData = [{
         category: "Final Fantasy 15",
         mainTags: "lunafreya nox fleuret, blue eyes, blonde hair, long hair, final fantasy xv, final fantasy",
         enhancers: [
-            ["white sleeveless dress", "crown braid"]
+            ["white sleeveless dress","crown braid"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -952,7 +952,7 @@ const characterData = [{
         category: "Final Fantasy 15",
         mainTags: "cindy aurum, green eyes, blonde hair, short hair, final fantasy xv, final fantasy",
         enhancers: [
-            ["red hat", "goggles around neck", "yellow jacket", "pink bikini top only", "denim shorts", "belt pouch", "thighhighs", "gloves"]
+            ["red hat","goggles around neck","yellow jacket","pink bikini top only","denim shorts","belt pouch","thighhighs","gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -963,7 +963,7 @@ const characterData = [{
         category: "Final Fantasy 15",
         mainTags: "aranea highwind, green eyes, silver hair, short hair, final fantasy xv, final fantasy",
         enhancers: [
-            ["armor", "boobplate", "o-ring belt", "black choker", "greaves", "shoulder armor", "gauntlets", "multicolored cape"]
+            ["armor","boobplate","o-ring belt","black choker","greaves","shoulder armor","gauntlets","multicolored cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -974,7 +974,7 @@ const characterData = [{
         category: "Final Fantasy 15",
         mainTags: "iris amicitia, brown eyes, brown hair, short hair, final fantasy xv, final fantasy",
         enhancers: [
-            ["pleated skirt", "plaid skirt", "black sleeveless shirt", "high collar", "choker", "multiple belts"]
+            ["pleated skirt","plaid skirt","black sleeveless shirt","high collar","choker","multiple belts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -985,9 +985,9 @@ const characterData = [{
         category: "Kingdom Hearts",
         mainTags: "sora (kingdom hearts), blue eyes, brown hair, short hair, spiked hair, kingdom hearts, disney",
         enhancers: [
-            ["red shorts", "red shirt", "two-tone jacket", "fingerless gloves", "blue belt", "belt chain"],
-            ["black puffy pants", "black jacket", "black shirt", "fingerless gloves", "necklace"],
-            ["black puffy pants", "black jacket", "red shirt", "fingerless gloves", "necklace", "multiple belts", "yellow straps"]
+            ["red shorts","red shirt","two-tone jacket","fingerless gloves","blue belt","belt chain"],
+            ["black puffy pants","black jacket","black shirt","fingerless gloves","necklace"],
+            ["black puffy pants","black jacket","red shirt","fingerless gloves","necklace","multiple belts","yellow straps"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -998,7 +998,7 @@ const characterData = [{
         category: "Kingdom Hearts",
         mainTags: "sora (halloween town) (kingdom hearts), blue eyes, brown hair, short hair, spiked hair, kingdom hearts, disney",
         enhancers: [
-            ["mask over one eye", "bat wings", "open jacket", "glowing eyes", "halloween"]
+            ["mask over one eye","bat wings","open jacket","glowing eyes","halloween"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1009,9 +1009,9 @@ const characterData = [{
         category: "Kingdom Hearts",
         mainTags: "kairi (kingdom hearts), blue eyes, red hair, short hair, kingdom hearts, disney",
         enhancers: [
-            ["purple shorts", "white camisole", "black tanktop", "choker", "purple belt"],
-            ["two-tone dress", "white tank top", "belt"],
-            ["blue plaid skirt", "sleeveless white shirt", "knee socks", "blue necktie"]
+            ["purple shorts","white camisole","black tanktop","choker","purple belt"],
+            ["two-tone dress","white tank top","belt"],
+            ["blue plaid skirt","sleeveless white shirt","knee socks","blue necktie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1022,7 +1022,7 @@ const characterData = [{
         category: "Kingdom Hearts",
         mainTags: "aqua (kingdom hearts), blue eyes, blue hair, short hair, kingdom hearts, disney",
         enhancers: [
-            ["black corset", "black shorts", "blue cape", "waist cape", "detached sleeves", "wide sleeves", "see-through cleavage", "pink straps"]
+            ["black corset","black shorts","blue cape","waist cape","detached sleeves","wide sleeves","see-through cleavage","pink straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1034,7 +1034,7 @@ const characterData = [{
         mainTags: "xion (kingdom hearts), blue eyes, black hair, short hair, kingdom hearts, disney",
         enhancers: [
             ["black coat (kingdom hearts)"],
-            ["grey pleated skirt", "sleeveless black shirt", "black belt", "official alternate costume"]
+            ["grey pleated skirt","sleeveless black shirt","black belt","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1045,8 +1045,8 @@ const characterData = [{
         category: "Kingdom Hearts",
         mainTags: "riku (kingdom hearts), green eyes, silver hair, medium hair, kingdom hearts, disney",
         enhancers: [
-            ["blue pants", "black zipper vest", "white and yellow jacket", "high collar", "open jacket"],
-            ["blue pants", "puffy pants", "two-tone shirt", "yellow shirt", "black shirt", "sleeveless shirt", "chest strap"]
+            ["blue pants","black zipper vest","white and yellow jacket","high collar","open jacket"],
+            ["blue pants","puffy pants","two-tone shirt","yellow shirt","black shirt","sleeveless shirt","chest strap"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1068,7 +1068,7 @@ const characterData = [{
         category: "Devil May Cry",
         mainTags: "lady (devil may cry), brown eyes, black hair, short hair, devil may cry (series)",
         enhancers: [
-            ["white shirt", "bike shorts", "suspenders", "thigh holster", "utility belt", "knee boots", "fingerless gloves"]
+            ["white shirt","bike shorts","suspenders","thigh holster","utility belt","knee boots","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1079,7 +1079,7 @@ const characterData = [{
         category: "Devil May Cry",
         mainTags: "nico (devil may cry), brown eyes, brown hair, medium hair, devil may cry (series)",
         enhancers: [
-            ["glasses", "cropped yellow vest", "white shirt", "denim shorts", "tool belt", "arm tattoos"]
+            ["glasses","cropped yellow vest","white shirt","denim shorts","tool belt","arm tattoos"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1090,8 +1090,8 @@ const characterData = [{
         category: "Devil May Cry",
         mainTags: "dante (devil may cry), blue eyes, white hair, short hair, devil may cry (series)",
         enhancers: [
-            ["brown pants", "red coat", "chest strap"],
-            ["black pants", "red coat", "black shirt", "fingerless gloves"]
+            ["brown pants","red coat","chest strap"],
+            ["black pants","red coat","black shirt","fingerless gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1102,7 +1102,7 @@ const characterData = [{
         category: "Devil May Cry",
         mainTags: "vergil (devil may cry), blue eyes, white hair, short hair, devil may cry (series)",
         enhancers: [
-            ["black pants", "black coat", "blue shirt", "high collar", "fingerless gloves"]
+            ["black pants","black coat","blue shirt","high collar","fingerless gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1113,7 +1113,7 @@ const characterData = [{
         category: "Devil May Cry",
         mainTags: "trish (devil may cry), green eyes, blonde hair, long hair, devil may cry (series)",
         enhancers: [
-            ["black pants", "leather crop top", "cross-laced top", "choker", "belt", "knee boots"]
+            ["black pants","leather crop top","cross-laced top","choker","belt","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1124,7 +1124,7 @@ const characterData = [{
         category: "Devil May Cry",
         mainTags: "nero (devil may cry), blue eyes, white hair, short hair, devil may cry (series)",
         enhancers: [
-            ["black pants", "white shirt", "red shirt", "shirt under shirt", "black coat", "mechanical arm", "single fingerless glove"]
+            ["black pants","white shirt","red shirt","shirt under shirt","black coat","mechanical arm","single fingerless glove"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1135,7 +1135,7 @@ const characterData = [{
         category: "Devil May Cry",
         mainTags: "v (devil may cry), green eyes, black hair, short hair, devil may cry (series)",
         enhancers: [
-            ["black pants", "sleeveless black jacket", "leather corset", "arm tattoos", "chest tattoo"]
+            ["black pants","sleeveless black jacket","leather corset","arm tattoos","chest tattoo"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1146,8 +1146,8 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "rebecca chambers, brown eyes, brown hair, short hair, resident evil",
         enhancers: [
-            ["red headband", "white bulletproof vest", "green shirt", "green pants", "s.t.a.r.s. uniform"],
-            ["red choker", "white bulletproof vest", "green shirt", "green pants", "s.t.a.r.s. uniform"]
+            ["red headband","white bulletproof vest","green shirt","green pants","s.t.a.r.s. uniform"],
+            ["red choker","white bulletproof vest","green shirt","green pants","s.t.a.r.s. uniform"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1158,8 +1158,8 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "claire redfield, brown eyes, brown hair, long hair, resident evil 2, resident evil",
         enhancers: [
-            ["jeans", "red jacket", "white shirt", "belt", "thigh holster"],
-            ["denim shorts", "red vest", "black shirt", "belt pouch", "cowboy boots"]
+            ["jeans","red jacket","white shirt","belt","thigh holster"],
+            ["denim shorts","red vest","black shirt","belt pouch","cowboy boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1194,8 +1194,8 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "ada wong, brown eyes, black hair, short hair, resident evil 4 (remake), resident evil",
         enhancers: [
-            ["china dress", "red dress", "halterneck", "choker", "thigh holster"],
-            ["black pants", "red sweater dress", "ribbed sweater", "holster"]
+            ["china dress","red dress","halterneck","choker","thigh holster"],
+            ["black pants","red sweater dress","ribbed sweater","holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1206,10 +1206,10 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "leon s. kennedy, blue eyes, blonde hair, short hair, resident evil 4, resident evil",
         enhancers: [
-            ["purple tank top", "green pants", "black hat", "fingerless gloves"],
-            ["black hat", "grey police uniform", "sheriff badge", "belt"],
-            ["bulletproof vest", "police uniform", "elbow pad", "fingerless gloves"],
-            ["brown jacket", "fur-trimmed jacket", "black pants", "thigh holster", "blue shirt"]
+            ["purple tank top","green pants","black hat","fingerless gloves"],
+            ["black hat","grey police uniform","sheriff badge","belt"],
+            ["bulletproof vest","police uniform","elbow pad","fingerless gloves"],
+            ["brown jacket","fur-trimmed jacket","black pants","thigh holster","blue shirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1220,8 +1220,8 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "ashley graham, blue eyes, blonde hair, long hair, resident evil 4, resident evil",
         enhancers: [
-            ["orange cableknit shirt", "orange jacket", "green skirt", "pantyhose", "knee boots", "red kerchief"],
-            ["orange cableknit shirt", "green skirt", "pantyhose", "knee boots", "red kerchief"]
+            ["orange cableknit shirt","orange jacket","green skirt","pantyhose","knee boots","red kerchief"],
+            ["orange cableknit shirt","green skirt","pantyhose","knee boots","red kerchief"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1232,7 +1232,7 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "jack krauser, blue eyes, blonde hair, short hair, resident evil 4, resident evil",
         enhancers: [
-            ["camoflague pants", "red beret", "brown military shirt", "holster"]
+            ["camoflague pants","red beret","brown military shirt","holster"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1243,7 +1243,7 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "chris redfield, brown eyes, brown hair, short hair, resident evil 5, resident evil",
         enhancers: [
-            ["green shirt", "jeans", "fingerless gloves"]
+            ["green shirt","jeans","fingerless gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1254,7 +1254,7 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "sheva alomar, brown eyes, brown hair, long hair, dark skin, dark-skinned female, resident evil 5, resident evil",
         enhancers: [
-            ["purple shirt", "ponytail", "brown pants"]
+            ["purple shirt","ponytail","brown pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1265,8 +1265,8 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "sherry birkin, blue eyes, blonde hair, short hair, resident evil 6, resident evil",
         enhancers: [
-            ["white shirt", "blue scarf", "capri pants", "belt", "holster", "shoulder holster"],
-            ["white coat", "fur-trimmed coat", "white shirt", "blue scarf", "black leggings", "belt", "holster", "shoulder holster"]
+            ["white shirt","blue scarf","capri pants","belt","holster","shoulder holster"],
+            ["white coat","fur-trimmed coat","white shirt","blue scarf","black leggings","belt","holster","shoulder holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1277,7 +1277,7 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "alcina dimitrescu, yellow eyes, black hair, short hair, resident evil village, resident evil",
         enhancers: [
-            ["black hat", "white dress", "claws", "black rose", "pearl necklace"]
+            ["black hat","white dress","claws","black rose","pearl necklace"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1288,7 +1288,7 @@ const characterData = [{
         category: "Resident Evil (Series)",
         mainTags: "albert wesker, blue eyes, blonde hair, short hair, resident evil",
         enhancers: [
-            ["sunglasses", "hair slicked back", "black pants", "black shirt", "shoulder holster"]
+            ["sunglasses","hair slicked back","black pants","black shirt","shoulder holster"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1299,7 +1299,7 @@ const characterData = [{
         category: "Super Mario",
         mainTags: "rosalina, blue eyes, blonde hair, long hair, mario (series)",
         enhancers: [
-            ["blue gown", "wide sleeves", "crown", "star (symbol)"]
+            ["blue gown","wide sleeves","crown","star (symbol)"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1310,7 +1310,7 @@ const characterData = [{
         category: "Super Mario",
         mainTags: "bowsette, orange eyes, blonde hair, long hair, mario (series)",
         enhancers: [
-            ["strapless black dress", "spiked choker", "spiked wrist cuffs", "spiked turtle shell", "spiked tail", "super crown"]
+            ["strapless black dress","spiked choker","spiked wrist cuffs","spiked turtle shell","spiked tail","super crown"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1321,7 +1321,7 @@ const characterData = [{
         category: "Super Mario",
         mainTags: "princess king boo, pink eyes, white hair, long hair, mario (series)",
         enhancers: [
-            ["white frilled dress", "puffy short sleeves", "white frilled gloves", "crown", "brooch"]
+            ["white frilled dress","puffy short sleeves","white frilled gloves","crown","brooch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1332,7 +1332,7 @@ const characterData = [{
         category: "Super Mario",
         mainTags: "princess peach, blue eyes, blonde hair, long hair, mario (series)",
         enhancers: [
-            ["pink dress", "frilled dress", "white elbow gloves", "crown"]
+            ["pink dress","frilled dress","white elbow gloves","crown"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1343,7 +1343,7 @@ const characterData = [{
         category: "Super Mario",
         mainTags: "princess daisy, blue eyes, brown hair, long hair, mario (series)",
         enhancers: [
-            ["yellow dress", "puffy short sleeves", "orange sash", "white gloves", "crown"]
+            ["yellow dress","puffy short sleeves","orange sash","white gloves","crown"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1354,7 +1354,7 @@ const characterData = [{
         category: "Super Mario",
         mainTags: "warupeach, purple eyes, purple hair, long hair, mario (series)",
         enhancers: [
-            ["gradient strapless leotard", "highleg leotard", "thigh boots", "elbow gloves", "two-tone cape", "high collar", "spiked belt"]
+            ["gradient strapless leotard","highleg leotard","thigh boots","elbow gloves","two-tone cape","high collar","spiked belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1365,7 +1365,7 @@ const characterData = [{
         category: "Super Mario",
         mainTags: "mario, brown eyes, brown hair, short hair, mario (series)",
         enhancers: [
-            ["overalls", "red hat", "red shirt"]
+            ["overalls","red hat","red shirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1376,7 +1376,7 @@ const characterData = [{
         category: "Super Mario",
         mainTags: "luigi, blue eyes, brown hair, short hair, mario (series)",
         enhancers: [
-            ["overalls", "green hat", "green shirt"]
+            ["overalls","green hat","green shirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1398,7 +1398,7 @@ const characterData = [{
         category: "Mortal Kombat",
         mainTags: "kitana, brown eyes, black hair, long hair, mortal kombat (series)",
         enhancers: [
-            ["mouth mask", "pelvic curtain", "cross-laced clothes", "blue halter top", "blue thighhighs"]
+            ["mouth mask","pelvic curtain","cross-laced clothes","blue halter top","blue thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1409,7 +1409,7 @@ const characterData = [{
         category: "Mortal Kombat",
         mainTags: "mileena (mortal kombat), yellow eyes, black hair, long hair, mortal kombat 1 (2023), mortal kombat (series)",
         enhancers: [
-            ["pink mouth mask", "cross-laced clothes", "pink thighhighs", "pelvic curtain"]
+            ["pink mouth mask","cross-laced clothes","pink thighhighs","pelvic curtain"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1420,7 +1420,7 @@ const characterData = [{
         category: "Mortal Kombat",
         mainTags: "jade (mortal kombat), brown eyes, black hair, long hair, mortal kombat (series)",
         enhancers: [
-            ["green mouth mask", "green leotard", "cross-laced clothes", "knee boots", "green elbow gloves", "plunging neckline"]
+            ["green mouth mask","green leotard","cross-laced clothes","knee boots","green elbow gloves","plunging neckline"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1431,7 +1431,7 @@ const characterData = [{
         category: "Mortal Kombat",
         mainTags: "scorpion (mortal kombat), brown eyes, black hair, short hair, mortal kombat (series)",
         enhancers: [
-            ["yellow tunic", "mouth mask"]
+            ["yellow tunic","mouth mask"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1442,7 +1442,7 @@ const characterData = [{
         category: "Mortal Kombat",
         mainTags: "sub-zero, brown eyes, black hair, short hair, mortal kombat (series)",
         enhancers: [
-            ["blue tunic", "mouth mask"]
+            ["blue tunic","mouth mask"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1453,7 +1453,7 @@ const characterData = [{
         category: "Mortal Kombat",
         mainTags: "sindel, white eyes, gray hair, long hair, two-tone hair, , mortal kombat (series)",
         enhancers: [
-            ["two-tone highleg leotard", "sleeveless leotard", "high collar", "plunging neckline", "thigh boots", "garter straps", "purple gloves"]
+            ["two-tone highleg leotard","sleeveless leotard","high collar","plunging neckline","thigh boots","garter straps","purple gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1475,7 +1475,7 @@ const characterData = [{
         category: "Darkstalkers",
         mainTags: "morrigan aensland, green eyes, green hair, long hair, darkstalkers",
         enhancers: [
-            ["black leotard", "pink pantyhose", "bat print", "bat wings", "head wings", "orange elbow gloves"]
+            ["black leotard","pink pantyhose","bat print","bat wings","head wings","orange elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1486,7 +1486,7 @@ const characterData = [{
         category: "Darkstalkers",
         mainTags: "hsien-ko, colored skin, purple skin, yellow eyes, purple hair, short hair, darkstalkers",
         enhancers: [
-            ["jiangshi", "ofuda", "qingdai guanmao", "chinese clothes", "wide sleeves", "sleeves past wrists"]
+            ["jiangshi","ofuda","qingdai guanmao","chinese clothes","wide sleeves","sleeves past wrists"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1497,7 +1497,7 @@ const characterData = [{
         category: "Darkstalkers",
         mainTags: "q-bee, black eyes, solid eyes, purple hair, short hair, darkstalkers",
         enhancers: [
-            ["anthropod girl", "bee girl", "wings", "purple pantyhose", "leotard"]
+            ["anthropod girl","bee girl","wings","purple pantyhose","leotard"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1508,7 +1508,7 @@ const characterData = [{
         category: "Darkstalkers",
         mainTags: "lilith (darkstalkers), red eyes, purple hair, short hair, darkstalkers",
         enhancers: [
-            ["red highleg leotard", "bat wings", "head wings", "blue pantyhose", "bat print", "diamond cutout"]
+            ["red highleg leotard","bat wings","head wings","blue pantyhose","bat print","diamond cutout"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1519,7 +1519,7 @@ const characterData = [{
         category: "Darkstalkers",
         mainTags: "b.b. hood, blue eyes, blonde hair, short hair, darkstalkers",
         enhancers: [
-            ["red hooded capelet", "red shirt", "red skirt", "waist apron", "red bow"]
+            ["red hooded capelet","red shirt","red skirt","waist apron","red bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1530,8 +1530,8 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "cammy white, blue eyes, blonde hair, long hair, street fighter",
         enhancers: [
-            ["green highleg leotard", "red beret", "red fingerless gloves", "pantyhose", "camouflage print"],
-            ["black capri pants", "black crop top", "blue jacket", "black fingerless gloves", "red wrist cuffs"]
+            ["green highleg leotard","red beret","red fingerless gloves","pantyhose","camouflage print"],
+            ["black capri pants","black crop top","blue jacket","black fingerless gloves","red wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1542,7 +1542,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "han juri, purple eyes, black hair, long hair, street fighter",
         enhancers: [
-            ["white harem pants", "multiple belts", "pink fingerless gloves", "black halter top", "elbow gloves"]
+            ["white harem pants","multiple belts","pink fingerless gloves","black halter top","elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1553,7 +1553,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "marisa (street fighter), brown eyes, red hair, short hair, muscular female, street fighter",
         enhancers: [
-            ["chain necklace", "sports bra", "black skirt", "shorts under skirt", "fingerless gloves"]
+            ["chain necklace","sports bra","black skirt","shorts under skirt","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1576,7 +1576,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "rainbow mika, blue eyes, blonde hair, long hair, twintails, street fighter",
         enhancers: [
-            ["wrestling outfit", "mask", "blue frilled leotard", "clothing cutout", "single bare leg", "white knee boots"]
+            ["wrestling outfit","mask","blue frilled leotard","clothing cutout","single bare leg","white knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1587,7 +1587,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "elena (street fighter), very dark skin, dark-skinned female, brown eyes, white hair, short hair, street fighter",
         enhancers: [
-            ["white bikini", "criss-cross halter", "multiple bracelets", "neck ring"]
+            ["white bikini","criss-cross halter","multiple bracelets","neck ring"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1598,7 +1598,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "kasugano sakura, brown eyes, brown hair, short hair, street fighter",
         enhancers: [
-            ["headband", "sailor collar", "school uniform", "white shirt", "blue pleated skirt", "yellow neckerchief", "fingerless gloves"]
+            ["headband","sailor collar","school uniform","white shirt","blue pleated skirt","yellow neckerchief","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1609,7 +1609,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "kanzuki karin, brown eyes, blonde hair, long hair, drill hair,street fighter",
         enhancers: [
-            ["blue hair bow", "red dress", "red jacket", "red skirt", "white ascot", "fingerless gloves", "black pantyhose"]
+            ["blue hair bow","red dress","red jacket","red skirt","white ascot","fingerless gloves","black pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1620,7 +1620,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "makoto (street fighter), brown eyes, black hair, short hair, street fighter",
         enhancers: [
-            ["karate gi", "black belt", "red chest sarashi", "yellow ribbon choker"]
+            ["karate gi","black belt","red chest sarashi","yellow ribbon choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1631,7 +1631,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "ibuki (street fighter), brown eyes, black hair, long hair, high ponytail, street fighter",
         enhancers: [
-            ["ninja", "ninja mask", "white dougi", "hip vent", "arm guards", "fingerless gloves"]
+            ["ninja","ninja mask","white dougi","hip vent","arm guards","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1642,7 +1642,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "crimson viper, green eyes, red hair, long hair, braid, street fighter",
         enhancers: [
-            ["white crop top", "pant suit", "black pants", "black necktie", "orange-tinted eyewear", "black jacket"]
+            ["white crop top","pant suit","black pants","black necktie","orange-tinted eyewear","black jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1653,7 +1653,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "ken masters, brown eyes, blonde hair, long hair, street fighter",
         enhancers: [
-            ["red tunic", "red pants"]
+            ["red tunic","red pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1664,7 +1664,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "ryu (street fighter), brown eyes, black hair, short hair, street fighter",
         enhancers: [
-            ["white tunic", "white pants"]
+            ["white tunic","white pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1675,7 +1675,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "akuma (street fighter), red eyes, red hair, short hair, dark skin, dark-skinned male, muscular male, street fighter",
         enhancers: [
-            ["chest sarashi", "white pants", "rope belt", "glowing eyes"]
+            ["chest sarashi","white pants","rope belt","glowing eyes"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1686,7 +1686,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "m. bison, brown eyes, black hair, short hair, muscular male, street fighter",
         enhancers: [
-            ["military hat", "shoulder armor", "lightning bolt symbol", "cape", "bracers"]
+            ["military hat","shoulder armor","lightning bolt symbol","cape","bracers"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1697,7 +1697,7 @@ const characterData = [{
         category: "Street Fighter",
         mainTags: "guile, blue eyes, blonde hair, short hair, muscular male, tall hair, american flag tattoo, street fighter",
         enhancers: [
-            ["camouflage pants", "green tank top"]
+            ["camouflage pants","green tank top"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -1708,7 +1708,7 @@ const characterData = [{
         category: "Warcraft / Starcraft",
         mainTags: "sylvanas windrunner, red eyes, blonde hair, long hair, world of warcraft, warcraft",
         enhancers: [
-            ["bikini armor", "gauntlets", "greaves", "boobplate", "red hooded cloak", "hood down"]
+            ["bikini armor","gauntlets","greaves","boobplate","red hooded cloak","hood down"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1719,8 +1719,8 @@ const characterData = [{
         category: "Warcraft / Starcraft",
         mainTags: "jaina proudmoore, blue eyes, blonde hair, long hair, world of warcraft, warcraft",
         enhancers: [
-            ["purple hooded cape", "hood up", "white pants", "white crop top", "purple skirt"],
-            ["armor", "breastplate", "cloak", "shoulder armor", "white dress"]
+            ["purple hooded cape","hood up","white pants","white crop top","purple skirt"],
+            ["armor","breastplate","cloak","shoulder armor","white dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1731,7 +1731,7 @@ const characterData = [{
         category: "Warcraft / Starcraft",
         mainTags: "tyrande whisperwind, white eyes, green hair, long hair, night elf (warcraft), colored skin, purple skin, crescent facial mark, world of warcraft, warcraft",
         enhancers: [
-            ["silver armored dress", "shoulder armor", "pelvic curtain", "vambraces", "white gloves"]
+            ["silver armored dress","shoulder armor","pelvic curtain","vambraces","white gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1742,7 +1742,7 @@ const characterData = [{
         category: "Warcraft / Starcraft",
         mainTags: "sarah kerrigan, dark skin, dark-skinned female, green eyes, red hair, long hair, tentacle hair, zerg (starcraft), starcraft",
         enhancers: [
-            ["purple bodysuit", "armored bodysuit", "wings"]
+            ["purple bodysuit","armored bodysuit","wings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1753,7 +1753,7 @@ const characterData = [{
         category: "Warcraft / Starcraft",
         mainTags: "alexstrasza, red eyes, red hair, long hair, world of warcraft, warcraft",
         enhancers: [
-            ["dragon girl", "horn ring", "horn ornament", "bikini armor", "vambraces", "wings"]
+            ["dragon girl","horn ring","horn ornament","bikini armor","vambraces","wings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1764,7 +1764,7 @@ const characterData = [{
         category: "Warcraft / Starcraft",
         mainTags: "sally whitemane, blue eyes, white hair, long hair, warcraft, world of warcraft",
         enhancers: [
-            ["black eyeshadow", "two-tone highleg leotard", "red hat", "red gloves", "gold trim", "red cape", "red thighhighs", "pelvic curtain"]
+            ["black eyeshadow","two-tone highleg leotard","red hat","red gloves","gold trim","red cape","red thighhighs","pelvic curtain"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1793,7 +1793,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "malon, blue eyes, red hair, long hair, the legend of zelda",
         enhancers: [
-            ["white shirt", "yellow neckerchief", "pink skirt", "brown waist apron"]
+            ["white shirt","yellow neckerchief","pink skirt","brown waist apron"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1804,7 +1804,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "nabooru, dark skin, dark-skinned female, green eyes, orange hair, long hair, the legend of zelda",
         enhancers: [
-            ["pink harem pants", "tube top", "elbow gloves", "neck ring"]
+            ["pink harem pants","tube top","elbow gloves","neck ring"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1815,7 +1815,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "impa, gray eyes, white hair, short hair, facial mark, the legend of zelda",
         enhancers: [
-            ["black bodysuit", "white jacket", "red trim", "white shorts", "fingerless gloves", "hat on back"]
+            ["black bodysuit","white jacket","red trim","white shorts","fingerless gloves","hat on back"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1826,7 +1826,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "purah, red eyes, white hair, long hair, the legend of zelda",
         enhancers: [
-            ["red bodysuit", "bodysuit under clothes", "sleeveless shirt", "pantyhose", "red trim", "brown coat"]
+            ["red bodysuit","bodysuit under clothes","sleeveless shirt","pantyhose","red trim","brown coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1837,7 +1837,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "mipha, colored skin, red skin, yellow eyes, monster girl, zora, the legend of zelda",
         enhancers: [
-            ["blue sash", "neck ring"]
+            ["blue sash","neck ring"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1848,7 +1848,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "sheik, blue eyes, blonde hair, short hair, turban, scarf, covered mouth, the legend of zelda",
         enhancers: [
-            ["two-tone bodysuit", "breast curtain", "bandages"]
+            ["two-tone bodysuit","breast curtain","bandages"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1859,7 +1859,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "urbosa, dark skin, dark-skinned female, green eyes, red hair, long hair, muscular female, the legend of zelda",
         enhancers: [
-            ["blue skirt", "belt", "multicolored tube top"]
+            ["blue skirt","belt","multicolored tube top"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1870,7 +1870,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "paya (zelda), brown eyes, white hair, long hair, the legend of zelda",
         enhancers: [
-            ["puffy sleeves", "shirt", "brown hat", "large hat"]
+            ["puffy sleeves","shirt","brown hat","large hat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1881,7 +1881,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "midna, two-tone skin, yellow eyes, orange hair, long hair, the legend of zelda",
         enhancers: [
-            ["one eye covered", "helmet", "neon trim"]
+            ["one eye covered","helmet","neon trim"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1892,7 +1892,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "midna (true), two-tone skin,yellow eyes, orange hair, long hair, the legend of zelda",
         enhancers: [
-            ["front ponytail", "hooded cape", "bridal gauntlets", "skirt", "neon trim"]
+            ["front ponytail","hooded cape","bridal gauntlets","skirt","neon trim"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1903,7 +1903,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "fi (zelda), colored skin, blue skin, blue eyes, blue hair, short hair, the legend of zelda",
         enhancers: [
-            ["two-tone cape", "forehead jewel", "pantyhose"]
+            ["two-tone cape","forehead jewel","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1914,7 +1914,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "saria (zelda), green eyes, green hair, short hair, the legend of zelda",
         enhancers: [
-            ["green shorts", "ribbed green sweater", "turtleneck", "black belt"]
+            ["green shorts","ribbed green sweater","turtleneck","black belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1954,7 +1954,7 @@ const characterData = [{
         category: "Zelda",
         mainTags: "riju, green eyes, red hair, long hair, the legend of zelda",
         enhancers: [
-            ["black tube top", "black skirt", "neck ring"]
+            ["black tube top","black skirt","neck ring"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1965,7 +1965,7 @@ const characterData = [{
         category: "Witcher",
         mainTags: "ciri, green eyes, white hair, long hair, the witcher 3, the witcher (series)",
         enhancers: [
-            ["necklace", "white shirt", "brown corset", "brown pants", "gloves"]
+            ["necklace","white shirt","brown corset","brown pants","gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1976,7 +1976,7 @@ const characterData = [{
         category: "Witcher",
         mainTags: "yennefer of vengerberg, purple eyes, black hair, long hair, the witcher (series)",
         enhancers: [
-            ["black pants", "fur-trimmed coat", "fur-trimmed gloves", "knee boots"]
+            ["black pants","fur-trimmed coat","fur-trimmed gloves","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1987,7 +1987,7 @@ const characterData = [{
         category: "Witcher",
         mainTags: "triss merigold, green eyes, red hair, long hair, the witcher 3, the witcher (series)",
         enhancers: [
-            ["brown vest", "black pants", "knee boots", "green capelet", "red sleeves"]
+            ["brown vest","black pants","knee boots","green capelet","red sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -1998,8 +1998,8 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "isabella valentine, green eyes, white hair, short hair, soulcalibur",
         enhancers: [
-            ["soulcalibur vi", "shoulder armor", "purple straps", "impossible clothes", "detached sleeves", "elbow gloves", "purple bikini armor"],
-            ["soulcalibur v", "single gauntlet", "claw gauntlet", "single shoulder pad", "asymmetric clothes", "black leotard", "cross laced clothes", "garter straps", "purple highleg leotard", "purple thighhighs", "purple gloves", "high collar", "wrist cuff", "purple sleeves"]
+            ["soulcalibur vi","shoulder armor","purple straps","impossible clothes","detached sleeves","elbow gloves","purple bikini armor"],
+            ["soulcalibur v","single gauntlet","claw gauntlet","single shoulder pad","asymmetric clothes","black leotard","cross laced clothes","garter straps","purple highleg leotard","purple thighhighs","purple gloves","high collar","wrist cuff","purple sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2010,9 +2010,9 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "cassandra alexandra, blue eyes, blonde hair, short hair, soulcalibur",
         enhancers: [
-            ["soulcalibur vi", "orange dress", "blue scarf", "arm bands", "detached collar", "short hair", "pantyhose"],
-            ["soulcalibur iv", "blue dress", "brown hair bow", "thigh boots", "pink necktie", "pink ribbons", "white elbow gloves", "shoulder armor"],
-            ["soulcalibur ii", "white headband", "sleeveless dress", "two-tone dress", "pink necktie", "pantyhose", "belt", "white elbow gloves", "sailor collar"]
+            ["soulcalibur vi","orange dress","blue scarf","arm bands","detached collar","short hair","pantyhose"],
+            ["soulcalibur iv","blue dress","brown hair bow","thigh boots","pink necktie","pink ribbons","white elbow gloves","shoulder armor"],
+            ["soulcalibur ii","white headband","sleeveless dress","two-tone dress","pink necktie","pantyhose","belt","white elbow gloves","sailor collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2023,8 +2023,8 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "sophitia alexandra, blue eyes, blonde hair, long hair, soulcalibur",
         enhancers: [
-            ["soulcalibur vi", "armored dress", "thigh boots", "silver laurel crown", "multicolored dress"],
-            ["soulcalibur iv", "greco-roman clothes", "white dress", "see-through clothes", "blue belt", "vambraces"]
+            ["soulcalibur vi","armored dress","thigh boots","silver laurel crown","multicolored dress"],
+            ["soulcalibur iv","greco-roman clothes","white dress","see-through clothes","blue belt","vambraces"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2035,7 +2035,7 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "taki (soulcalibur), brown eyes, brown hair, long hair, soulcalibur",
         enhancers: [
-            ["ninja", "sleeveless red bodysuit", "skin tight", "shoulder armor", "fingerless gloves", "knee boots"]
+            ["ninja","sleeveless red bodysuit","skin tight","shoulder armor","fingerless gloves","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2046,7 +2046,7 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "chai xianghua, brown eyes, black hair, short hair, soulcalibur",
         enhancers: [
-            ["china dress", "blue thighhighs", "detached sleeves", "headband"]
+            ["china dress","blue thighhighs","detached sleeves","headband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2057,7 +2057,7 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "amy sorel, red eyes, red hair, long hair, twin drills, soulcalibur",
         enhancers: [
-            ["gothic lolita", "lolita hairband", "cross-laced clothes", "black dress", "black fishnet gloves", "purple flower", "red shawl", "fishnet thighhighs"]
+            ["gothic lolita","lolita hairband","cross-laced clothes","black dress","black fishnet gloves","purple flower","red shawl","fishnet thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2068,7 +2068,7 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "talim, dark skin, dark-skinned female, brown eyes, black hair, short hair, soulcalibur",
         enhancers: [
-            ["bandeau", "capri pants", "see-through clothes", "sleeveless green vest", "hat", "pink sash", "white panties", "white panty strap", "fingerless gloves"]
+            ["bandeau","capri pants","see-through clothes","sleeveless green vest","hat","pink sash","white panties","white panty strap","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2079,7 +2079,7 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "pyrrha alexandra, green eyes, blonde hair, medium hair, soulcalibur",
         enhancers: [
-            ["white dress", "white capelet", "brown corset", "hair ornament", "brown thighhighs", "folded top thighhighs"]
+            ["white dress","white capelet","brown corset","hair ornament","brown thighhighs","folded top thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2090,7 +2090,7 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "seong mi-na, brown eyes, brown hair, long hair, soulcalibur",
         enhancers: [
-            ["fingerless gloves", "crop top", "breast curtain", "pelvic curtain", "wide short sleeves", "vambraces"]
+            ["fingerless gloves","crop top","breast curtain","pelvic curtain","wide short sleeves","vambraces"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2101,7 +2101,7 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "tira (soulcalibur), green eyes, two-tone hair, short hair, soulcalibur",
         enhancers: [
-            ["purple gloves", "fingerless elbow gloves", "short hair", "green shirt", "black pants", "black jacket", "torn clothes", "green feathers", "feather trim", "choker"]
+            ["purple gloves","fingerless elbow gloves","short hair","green shirt","black pants","black jacket","torn clothes","green feathers","feather trim","choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2112,7 +2112,7 @@ const characterData = [{
         category: "Soulcalibur",
         mainTags: "viola (soulcalibur), purple eyes, white hair, medium hair, twin drills, soulcalibur",
         enhancers: [
-            ["black dress", "cross-laced cutout", "detached sleeves", "brown thighhighs", "garter straps", "black hooded cape", "hood up", "claw (weapon)"]
+            ["black dress","cross-laced cutout","detached sleeves","brown thighhighs","garter straps","black hooded cape","hood up","claw (weapon)"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2127,7 +2127,7 @@ const characterData = [{
             ["k/da all out ahri"],
             ["spirit blossom ahri"],
             ["star guardian ahri"],
-            ["academy ahri", "red hair"],
+            ["academy ahri","red hair"],
             ["arcade ahri"],
             ["dynasty ahri"],
             ["popstar ahri"]
@@ -2172,8 +2172,8 @@ const characterData = [{
             ["star guardian lux"],
             ["light elementalist lux"],
             ["dark elementalist lux"],
-            ["--blonde hair", "battle academia lux", "red hair", "pony tail"],
-            ["--blonde hair", "lunar empress lux", "blue hair"],
+            ["--blonde hair","battle academia lux","red hair","pony tail"],
+            ["--blonde hair","lunar empress lux","blue hair"],
             ["dark cosmic lux"],
             ["space groove lux"]
         ],
@@ -2198,9 +2198,9 @@ const characterData = [{
         mainTags: "sona (league of legends), blue eyes, blue hair, long hair, league of legends",
         enhancers: [
             ["arcade sona"],
-            ["dj sona", "multicolor bodysuit", "visor", "helmet", "multicolor hair", "purple hair"],
+            ["dj sona","multicolor bodysuit","visor","helmet","multicolor hair","purple hair"],
             ["sweetheart sona"],
-            ["--blue hair", "star guardian sona", "glasses", "green hair"]
+            ["--blue hair","star guardian sona","glasses","green hair"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2224,7 +2224,7 @@ const characterData = [{
         mainTags: "caitlyn (league of legends), blue eyes, brown hair, long hair, league of legends",
         enhancers: [
             ["officer caitlyn"],
-            ["pool party caitlyn", "innertube", "bow"]
+            ["pool party caitlyn","innertube","bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2235,9 +2235,9 @@ const characterData = [{
         category: "League of Legends",
         mainTags: "katarina (league of legends), green eyes, red hair, long hair, league of legends",
         enhancers: [
-            ["kitty cat katarina", "fake animal ears", "cat tail"],
+            ["kitty cat katarina","fake animal ears","cat tail"],
             ["battle academia katarina"],
-            ["--red hair", "slay belle katarina", "blonde hair", "santa dress", "no hood"]
+            ["--red hair","slay belle katarina","blonde hair","santa dress","no hood"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2260,7 +2260,7 @@ const characterData = [{
         mainTags: "zoe (league of legends), blue eyes, orange hair, long hair, league of legends",
         enhancers: [
             ["star guardian zoe"],
-            ["pool party zoe", "blue hair"]
+            ["pool party zoe","blue hair"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2296,7 +2296,7 @@ const characterData = [{
         enhancers: [
             ["battle bunny riven"],
             ["spirit blossom riven"],
-            ["--white hair", "arcade riven", "green hair", "blue bandanna", "helmet visor"]
+            ["--white hair","arcade riven","green hair","blue bandanna","helmet visor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2307,13 +2307,13 @@ const characterData = [{
         category: "League of Legends",
         mainTags: "miss fortune (league of legends), blue eyes, red hair, long hair, league of legends",
         enhancers: [
-            ["pirate", "pirate hat,", "hoop earrings"],
+            ["pirate","pirate hat,","hoop earrings"],
             ["star guardian miss fortune"],
             ["arcade miss fortune"],
             ["battle bunny miss fortune"],
             ["crime city miss fortune"],
-            ["pool party miss fortune", "sun hat"],
-            ["gun goddess miss fortune", "forehead protector"]
+            ["pool party miss fortune","sun hat"],
+            ["gun goddess miss fortune","forehead protector"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2324,7 +2324,7 @@ const characterData = [{
         category: "League of Legends",
         mainTags: "poppy (league of legends), blue eyes, blonde hair, long hair, yordle, twintails, big hair, league of legends",
         enhancers: [
-            ["--yellow hair", "star guardian poppy", "armored dress", "blue hair"]
+            ["--yellow hair","star guardian poppy","armored dress","blue hair"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2349,7 +2349,7 @@ const characterData = [{
             ["wicked lulu"],
             ["--colored skin, --purple skin, star guardian lulu"],
             ["winter wonder lulu"],
-            ["bitter sweet lulu", "candy", "striped thighhighs"]
+            ["bitter sweet lulu","candy","striped thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2363,10 +2363,10 @@ const characterData = [{
             ["star guardian soraka"],
             ["cafe cuties soraka"],
             ["spirit blossom soraka"],
-            ["--soraka (league of legends)", "dryad soraka", "green hair", "shoulder tattoo"],
+            ["--soraka (league of legends)","dryad soraka","green hair","shoulder tattoo"],
             ["immortal journey soraka"],
             ["order of the banana soraka"],
-            ["dawnbringer soraka", "gradient hair", "blue skin"],
+            ["dawnbringer soraka","gradient hair","blue skin"],
             ["winter wonder soraka"]
         ],
         defaultGender: "girl",
@@ -2396,10 +2396,10 @@ const characterData = [{
         category: "League of Legends",
         mainTags: "irelia, blue eyes, black hair, long hair, league of legends",
         enhancers: [
-            ["crown", "silver hair ornament"],
+            ["crown","silver hair ornament"],
             ["divine sword irelia"],
-            ["--black hair", "frost blade irelia", "blue hair", "short hair"],
-            ["--black hair", "mythmaker irelia", "hair bun", "white hair"]
+            ["--black hair","frost blade irelia","blue hair","short hair"],
+            ["--black hair","mythmaker irelia","hair bun","white hair"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2412,7 +2412,7 @@ const characterData = [{
         enhancers: [
             ["hood up"],
             ["heartseeker ashe"],
-            ["project: ashe", "power armor", "holographic monitor"]
+            ["project: ashe","power armor","holographic monitor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2424,7 +2424,7 @@ const characterData = [{
         mainTags: "fiora (league of legends), blue eyes, brown hair, long hair, league of legends",
         enhancers: [
             ["headmistress fiora"],
-            ["pool party fiora", "striped bikini", "bikini top only", "shorts", "scarf"]
+            ["pool party fiora","striped bikini","bikini top only","shorts","scarf"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2471,7 +2471,7 @@ const characterData = [{
         mainTags: "leblanc (league of legends), purple eyes, black hair, long hair, league of legends",
         enhancers: [
             ["ravenborn leblanc"],
-            ["mistletoe leblanc", "cape", "short dress", "belt", "fur trim"]
+            ["mistletoe leblanc","cape","short dress","belt","fur trim"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2484,8 +2484,8 @@ const characterData = [{
         enhancers: [
             ["star guardian syndra"],
             ["spirit blossom syndra"],
-            ["--white hair", "withered rose syndra", "purple hair"],
-            ["--white hair", "snow day syndra", "fur coat", "blonde hair", "earmuffs"]
+            ["--white hair","withered rose syndra","purple hair"],
+            ["--white hair","snow day syndra","fur coat","blonde hair","earmuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2507,8 +2507,8 @@ const characterData = [{
         category: "League of Legends",
         mainTags: "seraphine (league of legends), blue eyes, pink hair, long hair, league of legends",
         enhancers: [
-            ["purple dress", "star tattoo"],
-            ["--pink hair", "star guardian seraphine", "blonde hair", "magical girl"]
+            ["purple dress","star tattoo"],
+            ["--pink hair","star guardian seraphine","blonde hair","magical girl"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2577,7 +2577,7 @@ const characterData = [{
         category: "League of Legends",
         mainTags: "tristana (league of legends), purple eyes, blue hair, long hair, league of legends",
         enhancers: [
-            ["firecracker tristana", "hair buns"],
+            ["firecracker tristana","hair buns"],
             ["spirit blossom tristana"]
         ],
         defaultGender: "girl",
@@ -2636,7 +2636,7 @@ const characterData = [{
         category: "League of Legends",
         mainTags: "qiyana (league of legends), blue eyes, blue hair, long hair, league of legends",
         enhancers: [
-            ["true damage qiyana", "blue hair", "pink hair", "multicolored hair", "eyewear on head"]
+            ["true damage qiyana","blue hair","pink hair","multicolored hair","eyewear on head"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2647,8 +2647,8 @@ const characterData = [{
         category: "League of Legends",
         mainTags: "kayle (league of legends), blue eyes, blonde hair, long hair, league of legends",
         enhancers: [
-            ["--blonde hair", "armor", "boobplate", "glowing eyes", "feathered wings", "white hair", "multiple wings"],
-            ["helmet", "angel wings", "armor"]
+            ["--blonde hair","armor","boobplate","glowing eyes","feathered wings","white hair","multiple wings"],
+            ["helmet","angel wings","armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2707,8 +2707,8 @@ const characterData = [{
         category: "Nier",
         mainTags: "2b (nier:automata), blue eyes, white hair, short hair, nier (series)",
         enhancers: [
-            ["--blue eyes", "black blindfold", "black dress", "black hairband", "feather-trimmed sleeves", "black thighhighs", "cleavage cutout", "puffy sleeves"],
-            ["black dress", "black hairband", "feather-trimmed sleeves", "black thighhighs", "cleavage cutout", "puffy sleeves"]
+            ["--blue eyes","black blindfold","black dress","black hairband","feather-trimmed sleeves","black thighhighs","cleavage cutout","puffy sleeves"],
+            ["black dress","black hairband","feather-trimmed sleeves","black thighhighs","cleavage cutout","puffy sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2719,7 +2719,7 @@ const characterData = [{
         category: "Nier",
         mainTags: "a2 (nier:automata), blue eyes, white hair, very long hair, nier (series)",
         enhancers: [
-            ["black shorts", "black elbow gloves", "black shirt", "robot joints"]
+            ["black shorts","black elbow gloves","black shirt","robot joints"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2730,7 +2730,7 @@ const characterData = [{
         category: "Nier",
         mainTags: "2p (nier:automata), blue eyes, black hair, short hair, dark skin, dark-skinned female, nier (series), soulcalibur",
         enhancers: [
-            ["white dress", "feather-trimmed dress", "cleavage cutout", "white thighhighs", "leotard under dress", "two-sided dress", "white blindfold"]
+            ["white dress","feather-trimmed dress","cleavage cutout","white thighhighs","leotard under dress","two-sided dress","white blindfold"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2741,7 +2741,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "rosa (pokemon), brown eyes, brown hair, long hair, pokemon bw, pokemon bw2, pokemon",
         enhancers: [
-            ["double bun", "two-tone shirt", "yellow skirt", "black pants"]
+            ["double bun","two-tone shirt","yellow skirt","black pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2752,7 +2752,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "erika (pokemon), brown eyes, black hair, long hair, pokemon frlg, pokemon",
         enhancers: [
-            ["headband", "hakama"]
+            ["headband","hakama"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2763,7 +2763,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "carmine (pokemon), yellow eyes, black hair, long hair, pokemon sv, pokemon",
         enhancers: [
-            ["yellow headwear", "two-tone hair", "open jacket", "blue pants"]
+            ["yellow headwear","two-tone hair","open jacket","blue pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2774,7 +2774,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "whitney (pokemon), brown eyes, pink hair, short hair, pokemon hgss, pokemon",
         enhancers: [
-            ["blue shorts", "white shirt", "short twintails"]
+            ["blue shorts","white shirt","short twintails"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2785,7 +2785,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "skyla (pokemon), blue eyes, red hair, long hair, pokemon bw, pokemon",
         enhancers: [
-            ["blue shorts", "blue gloves", "blue crop top", "hair ornament", "thigh holster"]
+            ["blue shorts","blue gloves","blue crop top","hair ornament","thigh holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2796,7 +2796,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "lillie (pokemon), green eyes, blonde hair, long hair, pokemon sm, pokemon",
         enhancers: [
-            ["white dress", "hat"]
+            ["white dress","hat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2807,7 +2807,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "hilda (pokemon), brown eyes, brown hair, long hair, pokemon bw, pokemon",
         enhancers: [
-            ["hat", "jean shorts", "vest"]
+            ["hat","jean shorts","vest"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2818,7 +2818,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "selene (pokemon), brown eyes, black hair, long hair, pokemon sm, pokemon",
         enhancers: [
-            ["yellow shirt", "red hat", "white shorts"]
+            ["yellow shirt","red hat","white shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2829,7 +2829,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "marnie (pokemon), green eyes, black hair, long hair, pokemon swsh, pokemon",
         enhancers: [
-            ["pink dress", "black jacket", "open jacket", "medium hair"]
+            ["pink dress","black jacket","open jacket","medium hair"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2840,7 +2840,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "piers (pokemon), green eyes, black hair, long hair, multicolored hair, pokemon swsh, pokemon",
         enhancers: [
-            ["two-tone shirt", "white jacket", "open jacket", "pink shorts", "white belt", "gloves"]
+            ["two-tone shirt","white jacket","open jacket","pink shorts","white belt","gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -2851,7 +2851,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "lacey (pokemon), blue eyes, pink hair, long hair, pokemon sv, pokemon",
         enhancers: [
-            ["hair ornament", "pink sweater", "red tie", "blue skirt", "white shirt"]
+            ["hair ornament","pink sweater","red tie","blue skirt","white shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2862,7 +2862,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "gloria (pokemon), brown eyes, brown hair, short hair, pokemon swsh, pokemon",
         enhancers: [
-            ["green hat", "pink collared dress", "hooded cardigan", "hood down", "puffy sleeves"]
+            ["green hat","pink collared dress","hooded cardigan","hood down","puffy sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2873,7 +2873,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "cynthia (pokemon), gray eyes, blonde hair, long hair, pokemon dppt, pokemon",
         enhancers: [
-            ["black pants", "black coat", "fur trim"]
+            ["black pants","black coat","fur trim"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2884,7 +2884,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "iono (pokemon), blue eyes, blue hair, long hair, multicolor hair, pokemon sv, pokemon",
         enhancers: [
-            ["yellow jacket", "grey shirt", "single leg pantyhose"]
+            ["yellow jacket","grey shirt","single leg pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2895,7 +2895,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "nessa (pokemon), blue eyes, black hair, long hair, dark skin, dark-skinned female, gym trainer (pokemon), pokemon swsh, pokemon",
         enhancers: [
-            ["crop top", "bikini shorts", "hoop earrings"]
+            ["crop top","bikini shorts","hoop earrings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2906,7 +2906,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "akari (pokemon), blue eyes, black hair, long hair, pokemon legends: arceus, pokemon",
         enhancers: [
-            ["blue kimono", "blue pants", "headscarf", "loose socks"]
+            ["blue kimono","blue pants","headscarf","loose socks"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2917,7 +2917,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "bea (pokemon), blue eyes, silver hair, short hair, pokemon swsh, pokemon",
         enhancers: [
-            ["black hairband", "black leotard under clothes", "white crop top", "white shorts", "single glove"]
+            ["black hairband","black leotard under clothes","white crop top","white shorts","single glove"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2928,7 +2928,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "lyra (pokemon), brown eyes, brown hair, long hair, pokemon hgss, pokemon",
         enhancers: [
-            ["blue overalls", "white hat", "bow", "red shirt"]
+            ["blue overalls","white hat","bow","red shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2939,7 +2939,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "juliana (pokemon), brown eyes, brown hair, long hair, pokemon sv, pokemon",
         enhancers: [
-            ["blue hat", "white shirt", "orange tie", "orange shorts", "backpack"]
+            ["blue hat","white shirt","orange tie","orange shorts","backpack"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2950,7 +2950,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "leaf (pokemon), brown eyes, brown hair, long hair, pokemon frlg, pokemon",
         enhancers: [
-            ["white hat", "red skirt", "blue shirt", "yellow bag"]
+            ["white hat","red skirt","blue shirt","yellow bag"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2961,7 +2961,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "hex maniac (pokemon), purple eyes, black hair, long hair, pokemon xy, pokemon",
         enhancers: [
-            ["crazy eyes", "crazy grin", "purple sleeveless dress", "black thighhighs", "elbow gloves"]
+            ["crazy eyes","crazy grin","purple sleeveless dress","black thighhighs","elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2972,7 +2972,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "melony (pokemon), blue eyes, white hair, long hair, big hair, streaked hair, pokemon swsh, pokemon",
         enhancers: [
-            ["white hat", "white coat", "fur trim", "wide sleeves", "teal pants", "knee boots", "curvy", "plump"]
+            ["white hat","white coat","fur trim","wide sleeves","teal pants","knee boots","curvy","plump"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2983,7 +2983,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "lusamine (pokemon), green eyes, blonde hair, long hair, pokemon sm, pokemon",
         enhancers: [
-            ["white sleeveless dress", "pantyhose"]
+            ["white sleeveless dress","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -2994,7 +2994,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "sonia (pokemon), green eyes, red hair, long hair, pokemon masters ex, pokemon",
         enhancers: [
-            ["glasses on head", "jacket", "blue pants", "green shirt", "single wrist cuff", "black bag"]
+            ["glasses on head","jacket","blue pants","green shirt","single wrist cuff","black bag"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3005,7 +3005,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "irida (pokemon), blue eyes, blonde hair, short hair, pokemon legends: arceus, pokemon",
         enhancers: [
-            ["white shorts", "two-tone shirt", "hair ornament", "necklace"]
+            ["white shorts","two-tone shirt","hair ornament","necklace"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3016,7 +3016,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "mallow (pokemon), green eyes, green hair, long hair, dark skin, dark-skinned female, pokemon sm, pokemon",
         enhancers: [
-            ["hair ornament", "grey overalls", "grey shorts", "pink shirt"]
+            ["hair ornament","grey overalls","grey shorts","pink shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3027,7 +3027,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "elesa (pokemon), blue eyes, black hair, short hair, pokemon bw2, pokemon",
         enhancers: [
-            ["headphones", "yellow coat", "puffy sleeves", "two-tone shorts", "two-tone crop top"]
+            ["headphones","yellow coat","puffy sleeves","two-tone shorts","two-tone crop top"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3038,7 +3038,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "bianca (pokemon), green eyes, blonde hair, short hair, pokemon bw2, pokemon",
         enhancers: [
-            ["green hat", "white dress", "puffy short sleeves", "orange vest", "green bag"]
+            ["green hat","white dress","puffy short sleeves","orange vest","green bag"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3049,7 +3049,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "green (pokemon), green eyes, brown hair, long hair, pokemon lgpe, pokemon",
         enhancers: [
-            ["blue shorts", "black shirt", "yellow bag"]
+            ["blue shorts","black shirt","yellow bag"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3060,7 +3060,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "allister (pokemon), purple eyes, black hair, short hair, pokemon swsh, pokemon",
         enhancers: [
-            ["mask", "striped shirt", "wide sleeves", "polka dot shorts", "one glove"]
+            ["mask","striped shirt","wide sleeves","polka dot shorts","one glove"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3071,7 +3071,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "grusha (pokemon), blue eyes, blue hair, long hair, pokemon sv",
         enhancers: [
-            ["yellow winter coat", "two-tone scarf", "blue pants", "mittens"]
+            ["yellow winter coat","two-tone scarf","blue pants","mittens"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3082,7 +3082,7 @@ const characterData = [{
         category: "Pokemon (Game)",
         mainTags: "serena (pokemon), blue eyes, blonde hair, long hair, pokemon xy",
         enhancers: [
-            ["red hat", "black shirt", "red pleated skirt", "black thighhighs"]
+            ["red hat","black shirt","red pleated skirt","black thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3104,7 +3104,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "queen marika the eternal, gold eyes, blonde hair, long hair, elden ring",
         enhancers: [
-            ["black dress", "belts", "tiara", "cleavage"]
+            ["black dress","belts","tiara","cleavage"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3115,7 +3115,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "melina (elden ring), pink eyes, brown hair, short hair, elden ring",
         enhancers: [
-            ["hooded cloak", "hood down"]
+            ["hooded cloak","hood down"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3135,7 +3135,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "malenia blade of miquella, green eyes, red hair, long hair, elden ring",
         enhancers: [
-            ["armor", "mechanical arm", "helmet"]
+            ["armor","mechanical arm","helmet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3146,7 +3146,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "malenia goddess of rot, green eyes, red hair, long hair, absurdly long hair, elden ring",
         enhancers: [
-            ["wings", "the wings are rotted", "single shoulder pad", "single gauntlet", "single thighhigh"]
+            ["wings","the wings are rotted","single shoulder pad","single gauntlet","single thighhigh"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3157,7 +3157,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "messmer the impaler, yellow eyes, red hair, long hair, animal, red snakes, elden ring",
         enhancers: [
-            ["helmet", "chainmail", "red shawl"]
+            ["helmet","chainmail","red shawl"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3179,7 +3179,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "blaidd the half-wolf, yellow eyes, black hair, short hair, furry, wolf boy, elden ring",
         enhancers: [
-            ["fur cape", "armor"]
+            ["fur cape","armor"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3190,7 +3190,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "starscourge radahn, red eyes, red hair, long hair, elden ring",
         enhancers: [
-            ["full armor", "helmet", "horse"]
+            ["full armor","helmet","horse"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3212,7 +3212,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "rennala queen of the full moon, blue eyes, red hair, long hair, elden ring",
         enhancers: [
-            ["black robe", "epaulettes", "tall hat"]
+            ["black robe","epaulettes","tall hat"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3223,7 +3223,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "radagon of the golden order, gold eyes, red hair, long hair, elden ring",
         enhancers: [
-            ["no shirt", "tattoo", "black skirt", "cracked skin", "false arm", "hole on body"]
+            ["no shirt","tattoo","black skirt","cracked skin","false arm","hole on body"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3234,7 +3234,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "millicent (elden ring), brown eyes, red hair, long hair, elden ring",
         enhancers: [
-            ["mechanical arm", "grey dress"]
+            ["mechanical arm","grey dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3245,7 +3245,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "sorceress sellen, brown eyes, brown hair, short hair, elden ring",
         enhancers: [
-            ["stone mask", "helmet", "crystal"]
+            ["stone mask","helmet","crystal"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3256,7 +3256,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "fia the deathbed companion, brown eyes, blonde hair, long hair, elden ring",
         enhancers: [
-            ["black dress", "black veil", "fringe trim", "hooded dress"]
+            ["black dress","black veil","fringe trim","hooded dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3267,7 +3267,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "needle knight leda, brown eyes, blonde hair, long hair, elden ring",
         enhancers: [
-            ["full armor", "white cloak", "no hood", "holding helmet"]
+            ["full armor","white cloak","no hood","holding helmet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3278,7 +3278,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "rellana twin moon knight, blue eyes, black hair, long hair, elden ring",
         enhancers: [
-            ["full armor", "chest armor", "armored", "holding helmet", "blue sash"]
+            ["full armor","chest armor","armored","holding helmet","blue sash"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3300,7 +3300,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "morgott the omen king, yellow eyes, gray hair, long hair, elden ring",
         enhancers: [
-            ["asymmetric horns", "simple robe", "torn robe"]
+            ["asymmetric horns","simple robe","torn robe"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3311,7 +3311,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "white-faced varre, brown eyes, brown hair, short hair, elden ring",
         enhancers: [
-            ["mask", "hooded robe", "cowl", "belt pouch"]
+            ["mask","hooded robe","cowl","belt pouch"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3322,7 +3322,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "st. trina (elden ring), purple eyes, purple hair, long hair, floating hair, elden ring",
         enhancers: [
-            ["white tunic", "short sleeves", "long skirt", "belt"]
+            ["white tunic","short sleeves","long skirt","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3333,7 +3333,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "godwyn the golden, gold eyes, blonde hair, long hair, elden ring",
         enhancers: [
-            ["black armor", "golden trim", "golden armor"]
+            ["black armor","golden trim","golden armor"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3344,7 +3344,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "roderika (elden ring), blue eyes, blonde hair, long hair, elden ring",
         enhancers: [
-            ["grey dress", "red hooded cape", "brown gloves"]
+            ["grey dress","red hooded cape","brown gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3355,7 +3355,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "lunar princess ranni, blue eyes, red hair, long hair, braid, elden ring",
         enhancers: [
-            ["black robe", "ornate clothes", "black cape", "halo", "brooch"]
+            ["black robe","ornate clothes","black cape","halo","brooch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3366,7 +3366,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "sir ansbach, brown eyes, white hair, long hair, full beard, elden ring",
         enhancers: [
-            ["black robe", "cloak"]
+            ["black robe","cloak"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3377,7 +3377,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "godfrey first elden lord, brown eyes, brown hair, long hair, braided beard, elden ring",
         enhancers: [
-            ["armor", "full armor", "armored boots", "cape"]
+            ["armor","full armor","armored boots","cape"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3388,7 +3388,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "finger maiden hyetta, brown eyes, blonde hair, long hair, elden ring",
         enhancers: [
-            ["brown robe", "bandages", "cloak"]
+            ["brown robe","bandages","cloak"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3399,7 +3399,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "godrick the grafted, yellow eyes, gray hair, long hair, colored skin, grey skin, giant, elden ring, {{{{{{multiple arms, extra arms, extra legs}}}}}}",
         enhancers: [
-            ["brown cloak", "crown"]
+            ["brown cloak","crown"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3410,7 +3410,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "thiollier (elden ring), brown eyes, black hair, short hair, elden ring",
         enhancers: [
-            ["black robe", "white cloak", "mask", "brown gloves"]
+            ["black robe","white cloak","mask","brown gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3421,7 +3421,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "gideon ofnir, brown eyes, gray hair, short hair, elden ring",
         enhancers: [
-            ["full armor", "helmet", "cloak"]
+            ["full armor","helmet","cloak"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3432,7 +3432,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "nepheli loux, brown eyes, black hair, short hair, very dark skin, dark-skinned female, elden ring",
         enhancers: [
-            ["bandeau", "fur-trimmed armor", "fur-trimmed armor"]
+            ["bandeau","fur-trimmed armor","fur-trimmed armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3443,7 +3443,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "sorcerer rogier, blue eyes, brown hair, short hair, elden ring",
         enhancers: [
-            ["brown wizard hat", "hat ornament", "white hood", "leather tunic", "puffy sleeves", "brown cloak", "frills", "white gloves", "grey pants"]
+            ["brown wizard hat","hat ornament","white hood","leather tunic","puffy sleeves","brown cloak","frills","white gloves","grey pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3454,7 +3454,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "cleanrot knight finlay, brown eyes, red hair, short hair, face mark, scar, elden ring",
         enhancers: [
-            ["full armor", "holding helmet"]
+            ["full armor","holding helmet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3485,7 +3485,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "preceptor seluvis, brown eyes, gray hair, short hair, elden ring",
         enhancers: [
-            ["mage hat", "mask", "brown hood", "hat over hood", "brown robe"]
+            ["mage hat","mask","brown hood","hat over hood","brown robe"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3496,7 +3496,7 @@ const characterData = [{
         category: "Elden Ring",
         mainTags: "praetor rykard, red eyes, red hair, long hair, elden ring",
         enhancers: [
-            ["crown", "cape", "long hair", "full beard", "ornate clothes"]
+            ["crown","cape","long hair","full beard","ornate clothes"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3507,9 +3507,9 @@ const characterData = [{
         category: "Baldur's Gate 3",
         mainTags: "shadowheart (baldur's gate), green eyes, black hair, long hair, single braid, baldur's gate 3, baldur's gate",
         enhancers: [
-            ["leather armor", "chainmail", "brown pants", "vambraces", "pelvic curtain", "knee boots", "blue skirt"],
-            ["black shirt", "plunging neckline", "black pants"],
-            ["--black hair", "white hair", "armor", "boobplate", "full armor"]
+            ["leather armor","chainmail","brown pants","vambraces","pelvic curtain","knee boots","blue skirt"],
+            ["black shirt","plunging neckline","black pants"],
+            ["--black hair","white hair","armor","boobplate","full armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3520,8 +3520,8 @@ const characterData = [{
         category: "Baldur's Gate 3",
         mainTags: "karlach, orange eyes, black hair, short hair, muscular female, colored skin, dark red skin, asymmetric horns, multicolored hair, baldur's gate 3, baldur's gate",
         enhancers: [
-            ["leather armor", "clothing cutout"],
-            ["black pants", "clothing cutout", "black tube top", "single bare shoulder", "leather strap", "o-ring"]
+            ["leather armor","clothing cutout"],
+            ["black pants","clothing cutout","black tube top","single bare shoulder","leather strap","o-ring"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3532,8 +3532,8 @@ const characterData = [{
         category: "Baldur's Gate 3",
         mainTags: "astarion, red eyes, white hair, short hair, fangs, vampire, baldur's gate 3, baldur's gate",
         enhancers: [
-            ["leather armor", "brown pants", "multicolored shirt"],
-            ["white frilled shirt", "brown pants", "cross-laced top"]
+            ["leather armor","brown pants","multicolored shirt"],
+            ["white frilled shirt","brown pants","cross-laced top"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -3555,8 +3555,8 @@ const characterData = [{
         category: "Baldur's Gate 3",
         mainTags: "lae'zel, yellow eyes, brown hair, short hair, colored skin, green skin, gith (d&d), baldur's gate 3, baldur's gate",
         enhancers: [
-            ["armor", "full armor", "paundrons", "short sleeves", "hip armor", "thigh straps"],
-            ["black capri pants", "belt", "bikini top only", "o-ring bikini"]
+            ["armor","full armor","paundrons","short sleeves","hip armor","thigh straps"],
+            ["black capri pants","belt","bikini top only","o-ring bikini"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3567,8 +3567,8 @@ const characterData = [{
         category: "Baldur's Gate 3",
         mainTags: "minthara, red eyes, white hair, short hair, dark elf, colored skin, black skin, dark-skinned female, baldur's gate 3, baldur's gate",
         enhancers: [
-            ["armor", "full armor", "pauldrons", "gauntlets", "greaves"],
-            ["black pants", "black vest", "cross-laced top", "shoulder pads"]
+            ["armor","full armor","pauldrons","gauntlets","greaves"],
+            ["black pants","black vest","cross-laced top","shoulder pads"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3624,7 +3624,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "stelle (honkai: star rail), gold eyes, grey hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["white shirt", "open jacket", "bike shorts"]
+            ["white shirt","open jacket","bike shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3635,7 +3635,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "firefly (honkai: star rail), grey eyes, grey hair, long hair, gradient hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["headband", "hair decoration", "white dress", "black jacket", "orange bow"]
+            ["headband","hair decoration","white dress","black jacket","orange bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3646,7 +3646,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "kafka (honkai: star rail), purple eyes, red hair, medium hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["black jacket", "glasses on head", "belts", "pantyhose", "black shorts", "white shirt"]
+            ["black jacket","glasses on head","belts","pantyhose","black shorts","white shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3657,7 +3657,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "acheron (honkai: star rail), purple eyes, blue hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["black halter top", "black shorts", "belt", "jacket", "wide sleeves"]
+            ["black halter top","black shorts","belt","jacket","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3668,7 +3668,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "march 7th (honkai: star rail), blue eyes, pink hair, medium hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["two-tone dress", "blue jacket", "thigh belt"]
+            ["two-tone dress","blue jacket","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3679,7 +3679,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "sparkle (honkai: star rail), red eyes, black hair, long hair, twintails, honkai: star rail, honkai (series)",
         enhancers: [
-            ["mask on head", "red dress", "chinese clothes"]
+            ["mask on head","red dress","chinese clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3690,7 +3690,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "robin (honkai: star rail), blue eyes, blue hair, long hair, gradient hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["halo", "two-tone dress", "gloves", "bracelet"]
+            ["halo","two-tone dress","gloves","bracelet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3701,7 +3701,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "silver wolf (honkai: star rail), purple eyes, grey hair, short hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["bow", "glasses on head", "fur-trimmed jacket", "crop top", "bike shorts", "leg belt", "holster"]
+            ["bow","glasses on head","fur-trimmed jacket","crop top","bike shorts","leg belt","holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3712,7 +3712,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "herta (honkai: star rail), purple eyes, grey hair, long hair, big witch hat, honkai: star rail, honkai (series)",
         enhancers: [
-            ["choker", "white dress", "black corset", "detached sleeves", "necklace", "puffy sleeves"]
+            ["choker","white dress","black corset","detached sleeves","necklace","puffy sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3723,7 +3723,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "black swan (honkai: star rail), yellow eyes, grey hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hood", "detached collar", "detached sleeves", "halter dress", "bike shorts", "pantyhose"]
+            ["hood","detached collar","detached sleeves","halter dress","bike shorts","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3734,7 +3734,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "ruan mei (honkai: star rail), green eyes, black hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hair flower", "green dress", "chinese clothes"]
+            ["hair flower","green dress","chinese clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3745,7 +3745,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "topaz (honkai: star rail), red eyes, grey hair, short hair, streaked hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["black jumper", "detached sleeves", "one elbow glove"]
+            ["black jumper","detached sleeves","one elbow glove"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3756,7 +3756,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "himeko (honkai: star rail), yellow eyes, red hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hair ornament", "white dress", "two-sided cloak"]
+            ["hair ornament","white dress","two-sided cloak"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3767,7 +3767,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "feixiao (honkai: star rail), green eyes, grey hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["white jacket", "green shirt", "black shorts", "belts", "thigh belt"]
+            ["white jacket","green shirt","black shorts","belts","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3778,7 +3778,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "jingliu (honkai: star rail), red eyes, grey hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hat", "multicolored dress", "detached sleeves", "single gauntlet", "knee boots"]
+            ["hat","multicolored dress","detached sleeves","single gauntlet","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3789,7 +3789,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "fu xuan (honkai: star rail), gold eyes, pink hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["face mark", "hair ornament", "black dress", "white skirt", "detached sleeves"]
+            ["face mark","hair ornament","black dress","white skirt","detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3800,7 +3800,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "tingyun (honkai: star rail), yellow eyes, brown hair, long hair, fox girl, fox ears, fox tail, honkai: star rail, honkai (series)",
         enhancers: [
-            ["brown hair", "multicolored dress", "detached sleeves", "collar", "knee boots"]
+            ["brown hair","multicolored dress","detached sleeves","collar","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3811,7 +3811,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "bronya rand, blue eyes, grey hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["white dress", "pantyhose", "thigh boots", "elbow gloves", "belt"]
+            ["white dress","pantyhose","thigh boots","elbow gloves","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3822,7 +3822,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "seele (honkai: star rail), purple eyes, purple hair, long hair, gradient hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["white leotard", "black shorts", "detached sleeves", "single gauntlet", "thigh belt"]
+            ["white leotard","black shorts","detached sleeves","single gauntlet","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3833,7 +3833,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "yunli (honkai: star rail), red eyes, black hair, short hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["tiara", "white dress", "green dress", "detached sleeves", "red cape", "bracers"]
+            ["tiara","white dress","green dress","detached sleeves","red cape","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3844,7 +3844,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "lingsha (honkai: star rail), orange eyes, black hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hair ornament", "black dress", "white leotard under dress", "thigh belt", "gloves", "single bracer", "tattoo"]
+            ["hair ornament","black dress","white leotard under dress","thigh belt","gloves","single bracer","tattoo"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3855,7 +3855,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "qingque (honkai: star rail), green eyes, grey hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hairclip", "green eyes", "brown sweater", "shoulder cutouts", "multicolor dress"]
+            ["hairclip","green eyes","brown sweater","shoulder cutouts","multicolor dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3866,7 +3866,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "huohuo (honkai: star rail), blue eyes, green hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hat", "hat ornament", "earrings", "blue eyes", "shirt", "brown shorts", "brown sash"]
+            ["hat","hat ornament","earrings","blue eyes","shirt","brown shorts","brown sash"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3877,7 +3877,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "jade (honkai: star rail), pink eyes, purple hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["black hat", "big hat", "multicolored dress", "gold belt", "open sleeves", "thigh belt"]
+            ["black hat","big hat","multicolored dress","gold belt","open sleeves","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3888,7 +3888,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "rappa (honkai: star rail), purple eyes, pink hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hat", "fake horns", "red jacket", "single sleeve", "white croptop", "short shorts", "belt", "single knee boot", "single thigh boot"]
+            ["hat","fake horns","red jacket","single sleeve","white croptop","short shorts","belt","single knee boot","single thigh boot"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3899,7 +3899,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "clara (honkai: star rail), pink eyes, white hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["pink eyes", "red jacket", "fur-trimmed jacket", "white dress", "detached collar", "thigh belt"]
+            ["pink eyes","red jacket","fur-trimmed jacket","white dress","detached collar","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3910,7 +3910,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "sushang (honkai: star rail), brown eyes, brown hair, long hair, twintails, honkai: star rail, honkai (series)",
         enhancers: [
-            ["multiple hair bows", "hair ornament", "white dress", "detached sleeves", "yellow sleeves", "thigh belt", "purple cape"]
+            ["multiple hair bows","hair ornament","white dress","detached sleeves","yellow sleeves","thigh belt","purple cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3921,7 +3921,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "pela (honkai: star rail), blue eyes, purple hair, short hair, glasses, honkai: star rail, honkai (series)",
         enhancers: [
-            ["black hat", "hat ornaments", "white dress", "black dress", "blue bow", "white cape", "ribbons", "pantyhose"]
+            ["black hat","hat ornaments","white dress","black dress","blue bow","white cape","ribbons","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3932,7 +3932,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "fugue (honkai: star rail), yellow eyes, black hair, long hair, fox girl, fox ears, fox tail, ninetales, honkai: star rail, honkai (series)",
         enhancers: [
-            ["black off-shoulder dress", "belt"]
+            ["black off-shoulder dress","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3943,7 +3943,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "asta (honkai: star rail), blue eyes, pink hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["white shirt", "hairclip", "detached sleeves", "bowtie", "lanyard", "multicolor skirt", "thigh belt"]
+            ["white shirt","hairclip","detached sleeves","bowtie","lanyard","multicolor skirt","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3954,7 +3954,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "hanya (honkai: star rail), orange eyes, grey hair, long hair, gradient hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hair feathers", "earring", "choker", "mesh leotard", "green dress", "detached sleeves", "tattoo", "thigh belt"]
+            ["hair feathers","earring","choker","mesh leotard","green dress","detached sleeves","tattoo","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3965,7 +3965,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "guinaifen (honkai: star rail), yellow eyes, red hair, long hair, ponytail, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hair ornament", "earrings", "dress", "corset", "gloves", "pantyhose", "thigh belt"]
+            ["hair ornament","earrings","dress","corset","gloves","pantyhose","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3976,7 +3976,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "serval landau, blue eyes, blonde hair, long hair, streaked hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["black crop top", "white jacket", "detached sleeves", "blue skirt", "pantyhose", "single thigh boot", "belt"]
+            ["black crop top","white jacket","detached sleeves","blue skirt","pantyhose","single thigh boot","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3987,7 +3987,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "lynx landau, blue eyes, blonde hair, short hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["fake cat ears", "blue bandana", "black dress", "multicolored jacket", "blue leggings", "thigh belt", "shoulder bag", "belt"]
+            ["fake cat ears","blue bandana","black dress","multicolored jacket","blue leggings","thigh belt","shoulder bag","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -3998,7 +3998,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "yukong (honkai: star rail), green eyes, teal hair, long hair, fox girl, fox ears, fox tail, honkai: star rail, honkai (series)",
         enhancers: [
-            ["multicolored dress", "shoulder cutout", "fur collar", "detached collar"]
+            ["multicolored dress","shoulder cutout","fur collar","detached collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4009,7 +4009,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "hook (honkai: star rail), brown eyes, blonde hair, short hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["hat", "brown coat", "fur-trimmed coat", "yellow shirt", "brown shorts", "kneehighs"]
+            ["hat","brown coat","fur-trimmed coat","yellow shirt","brown shorts","kneehighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4020,7 +4020,7 @@ const characterData = [{
         category: "Honkai: Star Rail",
         mainTags: "natasha (honkai: star rail), purple eyes, teal hair, long hair, honkai: star rail, honkai (series)",
         enhancers: [
-            ["white jacket", "single elbow glove", "blue dress", "black leotard", "leggings"]
+            ["white jacket","single elbow glove","blue dress","black leotard","leggings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4031,7 +4031,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "ganyu (genshin impact), blue eyes, blue hair, long hair, horns, ahoge, genshin impact",
         enhancers: [
-            ["multicolored dress", "pantyhose", "detached sleeves", "black gloves", "thigh belt"]
+            ["multicolored dress","pantyhose","detached sleeves","black gloves","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4042,7 +4042,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "lumine (genshin impact), brown eyes, blonde hair, short hair, genshin impact",
         enhancers: [
-            ["hair flower", "white dress", "black trim", "thighhighs"]
+            ["hair flower","white dress","black trim","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4053,7 +4053,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "raiden shogun, purple eyes, purple hair, long hair, genshin impact",
         enhancers: [
-            ["japanese clothes", "hair ornament", "kimono", "collar", "belts", "thighhighs"]
+            ["japanese clothes","hair ornament","kimono","collar","belts","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4064,7 +4064,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "hu tao (genshin impact), red eyes, brown hair, short hair, genshin impact",
         enhancers: [
-            ["hat", "hat flower", "black dress", "black shorts", "wide sleeves", "collar", "kneehighs"]
+            ["hat","hat flower","black dress","black shorts","wide sleeves","collar","kneehighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4075,7 +4075,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "furina (genshin impact), blue eyes, white hair, short hair, genshin impact",
         enhancers: [
-            ["mini top hat", "blue eyes", "black dress", "black shorts", "blue jacket", "gloves", "thigh belts"]
+            ["mini top hat","blue eyes","black dress","black shorts","blue jacket","gloves","thigh belts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4086,7 +4086,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "yae miko, purple eyes, pink hair, long hair, genshin impact",
         enhancers: [
-            ["japanese clothes", "nontraditional miko", "detached sleeves"]
+            ["japanese clothes","nontraditional miko","detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4097,7 +4097,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "nahida (genshin impact), green eyes, white hair, long hair, pointy ears, ponytail, genshin impact",
         enhancers: [
-            ["hair ornament", "white dress", "green cape", "single bangle", "detached sleeves"]
+            ["hair ornament","white dress","green cape","single bangle","detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4108,7 +4108,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "keqing (genshin impact), purple eyes, grey hair, long hair, cone hair bun, red eyes, genshin impact",
         enhancers: [
-            ["purple collared dress", "detached sleeves", "gloves", "pantyhose"]
+            ["purple collared dress","detached sleeves","gloves","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4119,7 +4119,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "mona (genshin impact), green eyes, black hair, long hair, twintails, genshin impact",
         enhancers: [
-            ["mage hat", "grey eyes", "leotard", "long sleeves", "elbow gloves", "pantyhose", "thigh belt"]
+            ["mage hat","grey eyes","leotard","long sleeves","elbow gloves","pantyhose","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4130,7 +4130,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "kamisato ayaka, blue eyes, blue hair, long hair, genshin impact",
         enhancers: [
-            ["hair ornament", "necklace", "japanese armor", "blue dress", "elbow gloves", "rope belt"]
+            ["hair ornament","necklace","japanese armor","blue dress","elbow gloves","rope belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4141,7 +4141,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "klee (genshin impact), red eyes, blonde hair, short hair, genshin impact",
         enhancers: [
-            ["hat", "hat ornament", "red dress", "gloves", "kneehighs"]
+            ["hat","hat ornament","red dress","gloves","kneehighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4152,7 +4152,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "paimon (genshin impact), purple eyes, white hair, short hair, glowing eyes, genshin impact",
         enhancers: [
-            ["halo", "white dress", "wide sleeves", "single thighhigh"]
+            ["halo","white dress","wide sleeves","single thighhigh"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4163,7 +4163,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "eula (genshin impact), blue eyes, blue hair, short hair, genshin impact",
         enhancers: [
-            ["feather hair ornament", "black dress", "white jacket", "wide sleeves", "gloves", "thighhighs", "thigh belt", "blue tie"]
+            ["feather hair ornament","black dress","white jacket","wide sleeves","gloves","thighhighs","thigh belt","blue tie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4174,7 +4174,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "shenhe (genshin impact), blue eyes, white hair, long hair, hair over one eye, genshin impact",
         enhancers: [
-            ["hair ornament", "black bodysuit", "white shirt", "breast curtains", "detached sleeves", "gloves"]
+            ["hair ornament","black bodysuit","white shirt","breast curtains","detached sleeves","gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4185,7 +4185,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "yelan (genshin impact), blue eyes, black hair, long hair, gradient hair, genshin impact",
         enhancers: [
-            ["black bodysuit", "white jacket", "fur-trimmed jacket", "choker", "single elbow glove", "single glove", "leggings"]
+            ["black bodysuit","white jacket","fur-trimmed jacket","choker","single elbow glove","single glove","leggings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4196,7 +4196,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "nilou (genshin impact), blue eyes, red hair, long hair, horns, genshin impact",
         enhancers: [
-            ["long sleeves", "crop top", "skirt", "belt", "leg belt", "navel"]
+            ["long sleeves","crop top","skirt","belt","leg belt","navel"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4207,7 +4207,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "arlecchino (genshin impact), red eyes, grey hair, long hair, streaked hair, genshin impact",
         enhancers: [
-            ["aristocratic clothes", "grey jacket", "black pants", "cape", "collar"]
+            ["aristocratic clothes","grey jacket","black pants","cape","collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4218,7 +4218,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "sangonomiya kokomi, pink eyes, blonde hair, long hair, genshin impact",
         enhancers: [
-            ["bow", "hair ornament", "long hair", "collar", "off-shoulder dress", "bow", "wide sleeves", "white shorts", "thighhighs"]
+            ["bow","hair ornament","long hair","collar","off-shoulder dress","bow","wide sleeves","white shorts","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4229,7 +4229,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "barbara (genshin impact), blue eyes, blonde hair, long hair, twin drills, genshin impact",
         enhancers: [
-            ["hat", "detached collar", "off-shoulder dress", "white dress", "frills", "white leggings"]
+            ["hat","detached collar","off-shoulder dress","white dress","frills","white leggings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4240,7 +4240,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "fischl (genshin impact), green eyes, blonde hair, long hair, hair over one eye, genshin impact",
         enhancers: [
-            ["neck bow", "detached sleeves", "single glove", "black dress", "pantyhose", "single legwear garter"]
+            ["neck bow","detached sleeves","single glove","black dress","pantyhose","single legwear garter"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4251,7 +4251,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "jean (genshin impact), blue eyes, blonde hair, long hair, genshin impact",
         enhancers: [
-            ["ponytail", "blue jacket", "white shirt", "white pants", "belt", "gauntlets", "detached collar", "knee boots"]
+            ["ponytail","blue jacket","white shirt","white pants","belt","gauntlets","detached collar","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4262,7 +4262,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "amber (genshin impact), brown eyes, brown hair, long hair, genshin impact",
         enhancers: [
-            ["hair bow", "brown eyes", "goggles", "red sleeves", "white shirt", "black corset", "brown shorts", "thighhighs", "thigh belt", "holster"]
+            ["hair bow","brown eyes","goggles","red sleeves","white shirt","black corset","brown shorts","thighhighs","thigh belt","holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4273,7 +4273,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "ningguang (genshin impact), red eyes, white hair, long hair, parted bangs, genshin impact",
         enhancers: [
-            ["chinese hairpin", "tassel hair ornament", "chinese clothes", "claw ring", "elbow gloves", "fur collar"]
+            ["chinese hairpin","tassel hair ornament","chinese clothes","claw ring","elbow gloves","fur collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4284,7 +4284,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "yoimiya (genshin impact), brown eyes, red hair, short hair, genshin impact",
         enhancers: [
-            ["hair ornament", "sarashi", "single bare shoulder", "single thighhigh", "single glove", "choker"]
+            ["hair ornament","sarashi","single bare shoulder","single thighhigh","single glove","choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4295,7 +4295,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "qiqi (genshin impact), pink eyes, grey hair, short hair, genshin impact",
         enhancers: [
-            ["hat", "ofuda", "purple dress", "wide sleeves", "necklace", "thighhighs"]
+            ["hat","ofuda","purple dress","wide sleeves","necklace","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4306,7 +4306,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "clorinde (genshin impact), purple eyes, black hair, long hair, genshin impact",
         enhancers: [
-            ["purple ascot", "hat", "hat feather", "epaulettes", "black skirt", "cape", "black corset", "framed breasts", "white shirt", "fold-over gloves", "black pantyhose", "thigh belts"]
+            ["purple ascot","hat","hat feather","epaulettes","black skirt","cape","black corset","framed breasts","white shirt","fold-over gloves","black pantyhose","thigh belts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4317,7 +4317,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "kujou sara, brown eyes, black hair, short hair, genshin impact",
         enhancers: [
-            ["mask on head", "black bodysuit", "white shirt", "breast curtain", "shoulder cutout", "gloves", "black leggings", "multicolored skirt", "bow belt"]
+            ["mask on head","black bodysuit","white shirt","breast curtain","shoulder cutout","gloves","black leggings","multicolored skirt","bow belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4328,7 +4328,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "noelle (genshin impact), green eyes, grey hair, short hair, genshin impact",
         enhancers: [
-            ["hat", "hair flower", "rose", "armored dress", "belt", "single shoulderpad", "single elbow glove", "single glove", "greaves"]
+            ["hat","hair flower","rose","armored dress","belt","single shoulderpad","single elbow glove","single glove","greaves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4339,7 +4339,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "beidou (genshin impact), red eyes, brown hair, long hair, one eye, genshin impact",
         enhancers: [
-            ["eyepatch", "hairpin", "fur-trimmed cape", "fingerless gloves", "chinese clothes", "sleeveless turtleneck leotard", "thighhighs", "pelvic curtain"]
+            ["eyepatch","hairpin","fur-trimmed cape","fingerless gloves","chinese clothes","sleeveless turtleneck leotard","thighhighs","pelvic curtain"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4350,7 +4350,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "lynette (genshin impact), purple eyes, grey hair, long hair, animal ear fluff, animal ears, cat ears, cat tail, cat girl, genshin impact",
         enhancers: [
-            ["hair ribbon", "white shirt", "pantyhose", "black leotard"]
+            ["hair ribbon","white shirt","pantyhose","black leotard"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4361,7 +4361,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "dehya (genshin impact), blue eyes, brown hair, long hair, genshin impact",
         enhancers: [
-            ["fingerless gloves", "claw ring", "belt", "single shoulder pad", "bandeau", "black shorts", "knee boots"]
+            ["fingerless gloves","claw ring","belt","single shoulder pad","bandeau","black shorts","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4372,7 +4372,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "lisa (genshin impact), green eyes, brown hair, long hair, genshin impact",
         enhancers: [
-            ["witch hat", "thighband pantyhose", "purple dress", "puffy short sleeves", "black elbow gloves"]
+            ["witch hat","thighband pantyhose","purple dress","puffy short sleeves","black elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4383,7 +4383,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "navia (genshin impact), blue eyes, blonde hair, long hair, genshin impact",
         enhancers: [
-            ["black hat", "hat flower", "black rose", "steampunk dress", "thigh boots"]
+            ["black hat","hat flower","black rose","steampunk dress","thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4394,7 +4394,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "yanfei (genshin impact), green eyes, red hair, long hair, genshin impact",
         enhancers: [
-            ["hat", "crop top", "detached sleeves", "puffy sleeves", "sash", "black bloomers", "belt", "red skirt", "fur-trimmed boots"]
+            ["hat","crop top","detached sleeves","puffy sleeves","sash","black bloomers","belt","red skirt","fur-trimmed boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4405,7 +4405,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "mavuika (genshin impact), red eyes, red hair, long hair, multicolored hair, genshin impact",
         enhancers: [
-            ["choker", "black bikesuit", "red trim", "zipper"]
+            ["choker","black bikesuit","red trim","zipper"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4416,7 +4416,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "citlali (genshin impact), pink eyes, pink hair, long hair, genshin impact",
         enhancers: [
-            ["floating headgear", "braid", "purple necktie", "black ribbed leotard", "black ribbed sleeves", "asymmetric sleeves", "fingerless gloves", "purple skirt"]
+            ["floating headgear","braid","purple necktie","black ribbed leotard","black ribbed sleeves","asymmetric sleeves","fingerless gloves","purple skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4427,7 +4427,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "xiangling (genshin impact), yellow eyes, black hair, short hair, genshin impact",
         enhancers: [
-            ["hairclip", "yellow eyes", "chinese clothes", "fingerless gloves", "ribbon"]
+            ["hairclip","yellow eyes","chinese clothes","fingerless gloves","ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4438,7 +4438,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "kuki shinobu, purple eyes, green hair, short hair, genshin impact",
         enhancers: [
-            ["ninja", "mask", "miniskirt", "black gloves", "jacket"]
+            ["ninja","mask","miniskirt","black gloves","jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4449,7 +4449,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "kirara (genshin impact), green eyes, blonde hair, long hair, animal girl, animal ears, cat ears, cat tail, two tails, cat girl, genshin impact",
         enhancers: [
-            ["bare shoulders", "black sleeves", "crop top", "black shorts", "blue skirt"]
+            ["bare shoulders","black sleeves","crop top","black shorts","blue skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4460,7 +4460,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "rosaria (genshin impact), purple eyes, red hair, short hair, genshin impact",
         enhancers: [
-            ["nun", "bare shoulders", "short hair", "veil", "hat", "white tanktop leotard", "black skirt", "belts", "white elbow gloves", "claw ring", "fishnet pantyhose"]
+            ["nun","bare shoulders","short hair","veil","hat","white tanktop leotard","black skirt","belts","white elbow gloves","claw ring","fishnet pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4471,7 +4471,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "chiori (genshin impact), brown eyes, brown hair, long hair, genshin impact",
         enhancers: [
-            ["hair ornament", "choker", "grey kimono", "yellow skirt", "gloves", "sash", "thighhighs over pantyhose"]
+            ["hair ornament","choker","grey kimono","yellow skirt","gloves","sash","thighhighs over pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4482,7 +4482,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "layla (genshin impact), yellow eyes, blue hair, long hair, twin drills, genshin impact",
         enhancers: [
-            ["blue hood", "choker", "crown", "detached sleeves", "black gloves", "white pantyhose"]
+            ["blue hood","choker","crown","detached sleeves","black gloves","white pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4493,7 +4493,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "sucrose (genshin impact), amber eyes, green hair, long hair, streaked hair, glasses, genshin impact",
         enhancers: [
-            ["hat", "blue dress", "white gloves", "thighhighs"]
+            ["hat","blue dress","white gloves","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4504,7 +4504,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "xianyun (genshin impact), green eyes, black hair, long hair, gradient hair, glasses, genshin impact",
         enhancers: [
-            ["hairpin", "ponytail", "black bodysuit", "fine fabric emphasis", "fishnet pantyhose", "yellow tassel"]
+            ["hairpin","ponytail","black bodysuit","fine fabric emphasis","fishnet pantyhose","yellow tassel"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4515,7 +4515,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "mualani (genshin impact), blue eyes, white hair, short hair, genshin impact",
         enhancers: [
-            ["hairband", "halterneck", "skirt", "fingerless gloves", "tattoo"]
+            ["hairband","halterneck","skirt","fingerless gloves","tattoo"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4526,7 +4526,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "sigewinne (genshin impact), red eyes, blue hair, long hair, genshin impact",
         enhancers: [
-            ["nurse cap", "hair ornament", "blue jacket", "white shirt", "shorts", "white leggings", "red bow", "waist bow"]
+            ["nurse cap","hair ornament","blue jacket","white shirt","shorts","white leggings","red bow","waist bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4537,7 +4537,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "faruzan (genshin impact), green eyes, aqua hair, long hair, genshin impact",
         enhancers: [
-            ["hair ornament", "green eyes", "multicolored dress", "bangles"]
+            ["hair ornament","green eyes","multicolored dress","bangles"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4548,7 +4548,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "yun jin (genshin impact), red eyes, purple hair, long hair, genshin impact",
         enhancers: [
-            ["hat", "lolita fashion", "two-tone skirt", "puffy sleeves"]
+            ["hat","lolita fashion","two-tone skirt","puffy sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4559,7 +4559,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "columbina (genshin impact), purple hair, long hair, eyes closed, genshin impact",
         enhancers: [
-            ["head wings", "ribbon", "fur-trimmed coat", "strap slip", "white dress", "thigh belt"]
+            ["head wings","ribbon","fur-trimmed coat","strap slip","white dress","thigh belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4570,7 +4570,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "signora (genshin impact), blue eyes, blonde hair, long hair, one eye covered, genshin impact",
         enhancers: [
-            ["mask over one eye", "long hair", "lace-trimmed eyepatch", "dress", "strapless dress", "studded elbow gloves", "fur trim"]
+            ["mask over one eye","long hair","lace-trimmed eyepatch","dress","strapless dress","studded elbow gloves","fur trim"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4581,7 +4581,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "focalors (genshin impact), blue eyes, white hair, long hair, streaked hair, genshin impact",
         enhancers: [
-            ["blue dress", "gradient clothes"]
+            ["blue dress","gradient clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4592,7 +4592,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "candace (genshin impact), blue eyes, purple hair, long hair, dark skin, dark-skinned female, genshin impact",
         enhancers: [
-            ["headband", "hair ornament", "halter crop top", "ankh necklace", "shorts", "pelvic curtain"]
+            ["headband","hair ornament","halter crop top","ankh necklace","shorts","pelvic curtain"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4603,7 +4603,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "sayu (genshin impact), pink eyes, blonde hair, short hair, animal hood, genshin impact",
         enhancers: [
-            ["half-closed eyes", "fake animal ears", "fake animal tail", "japanese armor", "thigh belt", "fingerless gloves", "belt pouch"]
+            ["half-closed eyes","fake animal ears","fake animal tail","japanese armor","thigh belt","fingerless gloves","belt pouch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4614,7 +4614,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "diona (genshin impact), blue eyes, pink hair, short hair, animal girl, cat girl, cat ears, animal ear fluff, cat tail, genshin impact",
         enhancers: [
-            ["hat", "detached sleeves", "cape", "shirt", "shorts", "belt pouch"]
+            ["hat","detached sleeves","cape","shirt","shorts","belt pouch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4625,7 +4625,7 @@ const characterData = [{
         category: "Genshin Impact",
         mainTags: "charlotte (genshin impact), blue eyes, pink hair, short hair, genshin impact",
         enhancers: [
-            ["cabbie hat", "ribbon", "choker", "detached long sleeves", "white gloves", "bowtie", "monocle", "suspenders", "red miniskirt", "thigh strap"]
+            ["cabbie hat","ribbon","choker","detached long sleeves","white gloves","bowtie","monocle","suspenders","red miniskirt","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4636,7 +4636,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "ellen joe, red eyes, black hair, multicolored hair, short hair, shark girl, shark tail, sharp teeth, zenless zone zero",
         enhancers: [
-            ["maid apron", "maid headdress"]
+            ["maid apron","maid headdress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4647,7 +4647,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "hoshimi miyabi, brown eyes, fox girl, fox ears, black hair, long hair, zenless zone zero",
         enhancers: [
-            ["black necktie", "white shirt", "black skirt", "pantyhose", "corset", "gauntlets"]
+            ["black necktie","white shirt","black skirt","pantyhose","corset","gauntlets"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4658,7 +4658,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "jane doe (zenless zone zero), brown eyes, mouse girl, mouse ears, mouse tail, black hair, gradient hair, long hair, zenless zone zero",
         enhancers: [
-            ["black shirt", "black shorts", "green jacket"]
+            ["black shirt","black shorts","green jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4669,7 +4669,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "nicole demara, green eyes, pink hair, long hair, twintails, zenless zone zero",
         enhancers: [
-            ["hair bows", "black jacket", "shoulder cutout", "white crop top", "black denim shorts", "single thighhigh", "belts"]
+            ["hair bows","black jacket","shoulder cutout","white crop top","black denim shorts","single thighhigh","belts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4680,7 +4680,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "belle (zenless zone zero), blue eyes, purple hair, gradient hair, short hair, zenless zone zero",
         enhancers: [
-            ["hairclip", "black shirt", "jacket", "long sleeves", "fingerless gloves", "grey shorts", "single thighhigh"]
+            ["hairclip","black shirt","jacket","long sleeves","fingerless gloves","grey shorts","single thighhigh"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4691,7 +4691,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "tsukishiro yanagi, pink eyes, pink hair, long hair, glasses, zenless zone zero",
         enhancers: [
-            ["collared shirt", "ribbon", "black skirt", "single shoulder pad", "single gauntlet"]
+            ["collared shirt","ribbon","black skirt","single shoulder pad","single gauntlet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4702,7 +4702,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "zhu yuan, brown eyes, black hair, two-tone hair, streaked hair, long hair, zenless zone zero",
         enhancers: [
-            ["police uniform", "black pants", "jacket"]
+            ["police uniform","black pants","jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4713,7 +4713,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "burnice white, blue eyes, blonde hair, long hair, twintails, zenless zone zero",
         enhancers: [
-            ["glasses on head", "hair ornament", "leather jacket", "fingerless gloves", "black tube top", "pleated skirt", "belt", "thighhighs"]
+            ["glasses on head","hair ornament","leather jacket","fingerless gloves","black tube top","pleated skirt","belt","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4724,7 +4724,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "luciana de montefio, red eyes, blonde hair, long hair, ponytail, zenless zone zero",
         enhancers: [
-            ["spiked helmet", "red eyes", "leather jacket", "black denim shorts", "belt", "knee boots"]
+            ["spiked helmet","red eyes","leather jacket","black denim shorts","belt","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4735,7 +4735,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "soukaku (zenless zone zero), blue eyes, demon girl, white hair, short hair, horns, colored skin, blue skin, demon tail, zenless zone zero",
         enhancers: [
-            ["green jacket", "wrist cuffs", "white shirt", "black tie", "black skirt", "thigh holster"]
+            ["green jacket","wrist cuffs","white shirt","black tie","black skirt","thigh holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4746,7 +4746,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "grace howard, brown eyes, black hair, medium hair, zenless zone zero",
         enhancers: [
-            ["glasses on head", "black halter top", "single sleeve", "fingerless gloves", "single elbow glove", "black pants", "holster", "knee pads"]
+            ["glasses on head","black halter top","single sleeve","fingerless gloves","single elbow glove","black pants","holster","knee pads"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4757,7 +4757,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "qingyi (zenless zone zero), green eyes, green hair, long hair, twintails, zenless zone zero",
         enhancers: [
-            ["blue shirt", "black shorts", "knee boots"]
+            ["blue shirt","black shorts","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4768,7 +4768,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "caesar king (zenless zone zero), yellow eyes, green hair, short hair, zenless zone zero",
         enhancers: [
-            ["hair ornament", "black horns", "fur-trimmed red jacket", "prosthetic arm", "black short shorts", "thighhighs"]
+            ["hair ornament","black horns","fur-trimmed red jacket","prosthetic arm","black short shorts","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4779,7 +4779,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "anby demara, orange eyes, grey hair, short hair, zenless zone zero",
         enhancers: [
-            ["armored jacket", "green jacket", "fingerless gloves", "black skirt", "thighhighs"]
+            ["armored jacket","green jacket","fingerless gloves","black skirt","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4790,7 +4790,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "corin wickes, purple eyes, green hair, short hair, zenless zone zero",
         enhancers: [
-            ["maid headdress", "maid apron", "black dress", "black ribbon", "wrist cuffs"]
+            ["maid headdress","maid apron","black dress","black ribbon","wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4801,7 +4801,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "alexandrina sebastiane, red eyes, grey hair, long hair, zenless zone zero",
         enhancers: [
-            ["maid headdress", "red eyes", "maid apron"]
+            ["maid headdress","red eyes","maid apron"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4812,7 +4812,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "nekomiya mana, red eyes, dark skin, dark-skinned female, catgirl, cat ears, animal ear fluff, cat tail, two tails, black hair, very long hair, zenless zone zero",
         enhancers: [
-            ["neck bell", "red headband", "detached red sleeves", "knee boots", "thighhighs"]
+            ["neck bell","red headband","detached red sleeves","knee boots","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4834,7 +4834,7 @@ const characterData = [{
         category: "Zenless Zone Zero",
         mainTags: "koleda belobog, orange eyes, red hair, very long hair, twintails, zenless zone zero",
         enhancers: [
-            ["fake animal ears", "white pants", "goggles around neck", "multicolored crop top"]
+            ["fake animal ears","white pants","goggles around neck","multicolored crop top"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4856,7 +4856,7 @@ const characterData = [{
         category: "Other",
         mainTags: "morrigan (dragon age), yellow eyes, black hair, long hair, dragon age",
         enhancers: [
-            ["black pants", "red hood", "hood down", "feathers", "single detached sleeve"]
+            ["black pants","red hood","hood down","feathers","single detached sleeve"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4867,7 +4867,7 @@ const characterData = [{
         category: "Other",
         mainTags: "quiet (metal gear), green eyes, brown hair, medium hair, ponytail, metal gear (series)",
         enhancers: [
-            ["black bikini", "torn pantyhose", "utility belt", "suspenders", "green glove", "black elbow glove"]
+            ["black bikini","torn pantyhose","utility belt","suspenders","green glove","black elbow glove"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4878,7 +4878,7 @@ const characterData = [{
         category: "Other",
         mainTags: "palutena, green eyes, green hair, very long hair, kid icarus",
         enhancers: [
-            ["white dress", "white thighhighs", "circlet", "headdress", "necklace", "red trim", "single shoulder pad"]
+            ["white dress","white thighhighs","circlet","headdress","necklace","red trim","single shoulder pad"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4889,7 +4889,7 @@ const characterData = [{
         category: "Other",
         mainTags: "bloodrayne, green eyes, red hair, short hair, bloodrayne (videogame)",
         enhancers: [
-            ["black leather pants", "two-tone pants", "black leather vest", "cropped vest", "cross-laced top", "elbow gloves", "fingerless gloves"]
+            ["black leather pants","two-tone pants","black leather vest","cropped vest","cross-laced top","elbow gloves","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4913,8 +4913,8 @@ const characterData = [{
         category: "Other",
         mainTags: "lara croft, brown eyes, brown hair, long hair, ponytail, tomb raider",
         enhancers: [
-            ["brown short shorts", "tank top", "thigh holster"],
-            ["sleeveless grey shirt", "brown pants", "fingerless gloves"]
+            ["brown short shorts","tank top","thigh holster"],
+            ["sleeveless grey shirt","brown pants","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4938,7 +4938,7 @@ const characterData = [{
         category: "Other",
         mainTags: "jeanne (bayonetta), grey eyes, white hair, very long hair, bayonetta (series)",
         enhancers: [
-            ["red bodysuit", "black trim", "red thigh boots", "red gloves"]
+            ["red bodysuit","black trim","red thigh boots","red gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4949,9 +4949,9 @@ const characterData = [{
         category: "Other",
         mainTags: "elizabeth (bioshock infinite), blue eyes, brown hair, long hair, bioshock (series)",
         enhancers: [
-            ["cropped blue jacket", "blue skirt", "white corset", "necklace"],
-            ["ponytail", "high-waist skirt", "blue skirt", "sleeve cuffs", "white shirt", "black ascot", "knee boots"],
-            ["black skirt", "pencil skirt", "long skirt", "white shirt", "red bolo tie", "brooch", "sleeve cuffs", "fishnet pantyhose"]
+            ["cropped blue jacket","blue skirt","white corset","necklace"],
+            ["ponytail","high-waist skirt","blue skirt","sleeve cuffs","white shirt","black ascot","knee boots"],
+            ["black skirt","pencil skirt","long skirt","white shirt","red bolo tie","brooch","sleeve cuffs","fishnet pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4974,7 +4974,7 @@ const characterData = [{
         category: "Arcane: League of Legends",
         mainTags: "arcane vi, blue eyes, pink hair, short hair, arcane: league of legends",
         enhancers: [
-            ["red cropped jacket", "black pants", "multiple belts", "white shirt", "single fingerless gloves", "bandages"]
+            ["red cropped jacket","black pants","multiple belts","white shirt","single fingerless gloves","bandages"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4985,7 +4985,7 @@ const characterData = [{
         category: "Arcane: League of Legends",
         mainTags: "arcane jinx, blue eyes, blue hair, very long hair, braid, arcane: league of legends",
         enhancers: [
-            ["purple capri pants", "black halter top", "fingerless elbow gloves", "belt"]
+            ["purple capri pants","black halter top","fingerless elbow gloves","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -4996,7 +4996,7 @@ const characterData = [{
         category: "Arcane: League of Legends",
         mainTags: "arcane caitlyn, blue eyes, blue hair, long hair, arcane: league of legends",
         enhancers: [
-            ["blue jacket", "shoulder pads", "short sleeves", "fingerless gloves", "two-tone dress", "thigh boots", "zettai ryouiki"]
+            ["blue jacket","shoulder pads","short sleeves","fingerless gloves","two-tone dress","thigh boots","zettai ryouiki"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5007,7 +5007,7 @@ const characterData = [{
         category: "Arcane: League of Legends",
         mainTags: "firelight ekko, very dark skin, dark-skinned male, brown eyes, black hair, short hair, arcane: league of legends",
         enhancers: [
-            ["long green coat", "graffiti on coat", "orange neckerchief", "brown pants", "single knee pad"]
+            ["long green coat","graffiti on coat","orange neckerchief","brown pants","single knee pad"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5018,7 +5018,7 @@ const characterData = [{
         category: "Cyberpunk: Edgerunners",
         mainTags: "kiwi (cyberpunk), blue eyes, blonde hair, short hair, cyberpunk edgerunners",
         enhancers: [
-            ["mouth mask", "long red coat", "red pants"]
+            ["mouth mask","long red coat","red pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5029,7 +5029,7 @@ const characterData = [{
         category: "Cyberpunk: Edgerunners",
         mainTags: "rebecca (cyberpunk), colored skin, blue skin, artifical eyes, green eyes, teal hair, medium hair, twintails, cyberpunk edgerunners",
         enhancers: [
-            ["black jacket", "tattoo", "black panties", "black bra"]
+            ["black jacket","tattoo","black panties","black bra"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5040,7 +5040,7 @@ const characterData = [{
         category: "Cyberpunk: Edgerunners",
         mainTags: "lucy (cyberpunk), purple eyes, white hair, short hair, multicolored hair, cyberpunk edgerunners",
         enhancers: [
-            ["black leotard", "white jacket", "white shorts", "thighhighs", "belt pouch"]
+            ["black leotard","white jacket","white shorts","thighhighs","belt pouch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5051,14 +5051,14 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "darkness (konosuba), blue eyes, blonde hair, long hair, ponytail, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["armor", "black bodysuit", "boobplate", "shoulder armor", "pelvic curtain", "red ribbon", "vambraces"],
-            ["wedding dress", "bridal veil", "tiara", "elbow gloves", "frills"],
-            ["maid", "long sleeves", "detached collar", "wrist cuffs", "maid apron", "maid headdress", "black thighhighs"],
-            ["pink dress", "frilled dress", "pajamas", "short puffy sleeves"],
+            ["armor","black bodysuit","boobplate","shoulder armor","pelvic curtain","red ribbon","vambraces"],
+            ["wedding dress","bridal veil","tiara","elbow gloves","frills"],
+            ["maid","long sleeves","detached collar","wrist cuffs","maid apron","maid headdress","black thighhighs"],
+            ["pink dress","frilled dress","pajamas","short puffy sleeves"],
             ["towel"],
-            ["megumin (cosplay)", "witch hat"],
-            ["[satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["megumin (cosplay)","witch hat"],
+            ["[satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"]
         ],
         defaultGender: "girl",
@@ -5070,13 +5070,13 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "aqua (konosuba), blue eyes, blue hair, long hair, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["blue dress", "thigh boots", "detached sleeves", "blue bow", "blue skirt", "white thighhighs"],
-            ["black highleg leotard", "black elbow gloves", "wrist cuffs", "animal ear hairband", "rabbit ears", "rabbit tail", "detached collar", "nontraditional playboy bunny", "fishnet pantyhose"],
+            ["blue dress","thigh boots","detached sleeves","blue bow","blue skirt","white thighhighs"],
+            ["black highleg leotard","black elbow gloves","wrist cuffs","animal ear hairband","rabbit ears","rabbit tail","detached collar","nontraditional playboy bunny","fishnet pantyhose"],
             ["towel"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
-            ["darkness (konosuba) (cosplay)", "armor"]
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
+            ["darkness (konosuba) (cosplay)","armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5087,13 +5087,13 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "megumin, red eyes, brown hair, long hair, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["red dress", "belt", "witch hat", "single black thighhigh", "bandaged leg", "fingerless gloves"],
-            ["red eyepatch", "red dress", "belt", "witch hat", "single black thighhigh", "bandaged leg", "fingerless gloves"],
-            ["red prison magic school uniform", "witch hat", "fingerless gloves", "pink dress", "black cloak", "two-sided fabric", "kono subarashii sekai ni bakuen wo!"],
+            ["red dress","belt","witch hat","single black thighhigh","bandaged leg","fingerless gloves"],
+            ["red eyepatch","red dress","belt","witch hat","single black thighhigh","bandaged leg","fingerless gloves"],
+            ["red prison magic school uniform","witch hat","fingerless gloves","pink dress","black cloak","two-sided fabric","kono subarashii sekai ni bakuen wo!"],
             ["towel"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"]
         ],
         defaultGender: "girl",
@@ -5105,12 +5105,12 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "yunyun (konosuba), red eyes, brown hair, long hair, twintails, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["black dress", "pink skirt", "red thighhighs", "pink necktie", "hair decoration", "belt"],
-            ["red prison magic school uniform", "pink dress", "black cloak", "two-sided fabric", "black thighhighs", "black pantyhose", "kono subarashii sekai ni bakuen wo!"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["black dress","pink skirt","red thighhighs","pink necktie","hair decoration","belt"],
+            ["red prison magic school uniform","pink dress","black cloak","two-sided fabric","black thighhighs","black pantyhose","kono subarashii sekai ni bakuen wo!"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"]
         ],
         defaultGender: "girl",
@@ -5122,11 +5122,11 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "wiz (konosuba), purple eyes, brown hair, long hair, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["purple dress", "purple coak", "bat brooch", "wide sleeves"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["purple dress","purple coak","bat brooch","wide sleeves"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"],
             ["towel"]
         ],
@@ -5139,9 +5139,9 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "satou kazuma, green eyes, brown hair, short hair, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["black pants", "white shirt", "high collar", "green cape"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
+            ["black pants","white shirt","high collar","green cape"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
             ["aqua (konosuba) (cosplay)"],
             ["towel"],
             ["green track suit"]
@@ -5155,7 +5155,7 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "vanir, mask, two-tone mask, black hair, short hair, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["black suit", "yellow ascot"]
+            ["black suit","yellow ascot"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5166,11 +5166,11 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "iris (konosuba), blue eyes, blonde hair, long hair, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["white dress", "purple dress", "blue bow", "necklace", "food-themed hair ornament"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["white dress","purple dress","blue bow","necklace","food-themed hair ornament"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"],
             ["towel"]
         ],
@@ -5183,11 +5183,11 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "komekko, red eyes, brown hair, short hair, twintails,kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["brown skirt", "white shirt", "suspenders", "two-sided cape"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["brown skirt","white shirt","suspenders","two-sided cape"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"]
         ],
         defaultGender: "girl",
@@ -5199,11 +5199,11 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "chris (konosuba), blue eyes, silver hair, short hair, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["blue shorts", "blue scarf", "green cropped jacket", "black tube top", "detached sleeves", "gloves", "white thighhighs"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["blue shorts","blue scarf","green cropped jacket","black tube top","detached sleeves","gloves","white thighhighs"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"]
         ],
         defaultGender: "girl",
@@ -5215,11 +5215,11 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "eris (konosuba), purple eyes, purple hair, long hair,  kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["long white dress", "purple habit", "purple shirt", "cross-laced top", "white leggings"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["long white dress","purple habit","purple shirt","cross-laced top","white leggings"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"]
         ],
         defaultGender: "girl",
@@ -5231,11 +5231,11 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "luna (konosuba), brown eyes, blonde hair, hair bun,  kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["white shirt", "detached sleeves", "detached collar", "red bow", "denim shorts"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["white shirt","detached sleeves","detached collar","red bow","denim shorts"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"]
         ],
         defaultGender: "girl",
@@ -5247,11 +5247,11 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "shinjin succubus (konosuba), grey hair, short hair, red eyes, demon girl, demon dail, head wings, kono subarashii sekai ni shukufuku wo!",
         enhancers: [
-            ["black gloves", "black thighhighs", "garter straps", "red panties", "o-ring top", "black babydoll"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["black gloves","black thighhighs","garter straps","red panties","o-ring top","black babydoll"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"]
         ],
         defaultGender: "girl",
@@ -5263,11 +5263,11 @@ const characterData = [{
         category: "Konosuba",
         mainTags: "arue (konosuba), red eyes, black hair, long hair, drill hair",
         enhancers: [
-            ["red prison magic school uniform", "pink dress", "black cloak", "two-sided fabric", "black thighhighs", "zettai ryouiki", "kono subarashii sekai ni bakuen wo!"],
-            ["darkness (konosuba) (cosplay)", "armor"],
-            ["megumin (cosplay)", "witch hat"],
-            ["satou kazuma (cosplay)", "green cape"],
-            ["satou kazuma (cosplay)", "green track suit"],
+            ["red prison magic school uniform","pink dress","black cloak","two-sided fabric","black thighhighs","zettai ryouiki","kono subarashii sekai ni bakuen wo!"],
+            ["darkness (konosuba) (cosplay)","armor"],
+            ["megumin (cosplay)","witch hat"],
+            ["satou kazuma (cosplay)","green cape"],
+            ["satou kazuma (cosplay)","green track suit"],
             ["aqua (konosuba) (cosplay)"]
         ],
         defaultGender: "girl",
@@ -5279,7 +5279,7 @@ const characterData = [{
         category: "Black Lagoon",
         mainTags: "revy (black lagoon), blue eyes, black hair, medium hair, ponytail, black lagoon",
         enhancers: [
-            ["black tank top", "denim shorts", "belt", "fingerless gloves"]
+            ["black tank top","denim shorts","belt","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5290,7 +5290,7 @@ const characterData = [{
         category: "Black Lagoon",
         mainTags: "balalaika (black lagoon), blue eyes, blonde hair, long hair, scars, black lagoon",
         enhancers: [
-            ["red suit", "red skirt", "jacket on shoulders"]
+            ["red suit","red skirt","jacket on shoulders"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5301,7 +5301,7 @@ const characterData = [{
         category: "Black Lagoon",
         mainTags: "roberta (black lagoon), brown eyes, black hair, long hair, twin braids, black lagoon",
         enhancers: [
-            ["glasses", "cross necklace", "maid", "maid apron", "maid headdress", "black dress", "juliet sleeves", "wrist cuffs", "white gloves"]
+            ["glasses","cross necklace","maid","maid apron","maid headdress","black dress","juliet sleeves","wrist cuffs","white gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5312,7 +5312,7 @@ const characterData = [{
         category: "Black Lagoon",
         mainTags: "frederica sawyer, purple hair, short hair, scar on neck, blue eyes, black lagoon",
         enhancers: [
-            ["purple shirt", "shirt under shirt", "striped sleeves"]
+            ["purple shirt","shirt under shirt","striped sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5323,7 +5323,7 @@ const characterData = [{
         category: "Black Lagoon",
         mainTags: "shenhua, black hair, long hair, blue eyes, black lagoon",
         enhancers: [
-            ["red china dress", "floral print", "white cropped jacket", "pelvic curtain", "tassel earrings", "thigh strap"]
+            ["red china dress","floral print","white cropped jacket","pelvic curtain","tassel earrings","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5334,16 +5334,16 @@ const characterData = [{
         category: "One Piece",
         mainTags: "nico robin, blue eyes, black hair, long hair, one piece",
         enhancers: [
-            ["black dress", "zipper", "high collar", "black thighhighs"],
-            ["purple skirt", "purple vest", "cross-laced top", "purple hat", "armband", "frills"],
-            ["white hat", "white coat", "fur-trimmed coat"],
-            ["purple hat", "purple jacket", "white shirt", "purple pants"],
-            ["white hat", "yellow tank top", "purple capri pants", "orange belt"],
-            ["purple shirt", "black skirt"],
-            ["blue zipper vest", "orange sarong"],
-            ["eyewear on head", "pink shirt", "high collar", "plunging neckline"],
-            ["white sleeveless kimono", "floral print kimono", "black haori", "obi", "side slit"],
-            ["yellow shirt", "eyewear on head", "yellow plaid skirt", "wide sleeves", "v-neck"],
+            ["black dress","zipper","high collar","black thighhighs"],
+            ["purple skirt","purple vest","cross-laced top","purple hat","armband","frills"],
+            ["white hat","white coat","fur-trimmed coat"],
+            ["purple hat","purple jacket","white shirt","purple pants"],
+            ["white hat","yellow tank top","purple capri pants","orange belt"],
+            ["purple shirt","black skirt"],
+            ["blue zipper vest","orange sarong"],
+            ["eyewear on head","pink shirt","high collar","plunging neckline"],
+            ["white sleeveless kimono","floral print kimono","black haori","obi","side slit"],
+            ["yellow shirt","eyewear on head","yellow plaid skirt","wide sleeves","v-neck"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5354,23 +5354,23 @@ const characterData = [{
         category: "One Piece",
         mainTags: "nami (one piece), brown eyes, orange hair, short hair, one piece",
         enhancers: [
-            ["white shirt", "striped shirt", "orange skirt"],
-            ["pink shirt", "orange skirt"],
-            ["green tank top", "polka dot shirt", "blue shorts"],
-            ["white coat", "fur-trimmed coat", "white vest", "grey skirt", "fur-trimmed skirt"],
-            ["red dress", "side slit", "arm tattoo", "fur scarf"],
-            ["blue bikini top", "yellow skirt", "brown belt"],
-            ["white tank top", "striped shirt", "yellow skirt"],
-            ["camouflage bikini", "bikini top only", "brown pants", "yellow belt"],
-            ["dark blue shirt", "short sleeves", "blue necktie", "white skirt", "rings on skirt"],
-            ["bikini top only", "jeans", "black belt", "bracelet"],
-            ["pink tanktop", "striped shorts"],
-            ["white halter top", "red skirt", "frills"],
-            ["red dress", "white shirt", "puffy short sleeves", "pink back bow"],
-            ["short white dress", "long sleeves", "brown belt"],
-            ["blue kimono", "orange bow", "blue hair ribbon"],
-            ["sleeveless white leotard", "high collar", "pink knee boots", "headphones", "science fiction"],
-            ["brown fur vest", "black fur-trimmed cape", "brown miniskirt", "official alternate costume"]
+            ["white shirt","striped shirt","orange skirt"],
+            ["pink shirt","orange skirt"],
+            ["green tank top","polka dot shirt","blue shorts"],
+            ["white coat","fur-trimmed coat","white vest","grey skirt","fur-trimmed skirt"],
+            ["red dress","side slit","arm tattoo","fur scarf"],
+            ["blue bikini top","yellow skirt","brown belt"],
+            ["white tank top","striped shirt","yellow skirt"],
+            ["camouflage bikini","bikini top only","brown pants","yellow belt"],
+            ["dark blue shirt","short sleeves","blue necktie","white skirt","rings on skirt"],
+            ["bikini top only","jeans","black belt","bracelet"],
+            ["pink tanktop","striped shorts"],
+            ["white halter top","red skirt","frills"],
+            ["red dress","white shirt","puffy short sleeves","pink back bow"],
+            ["short white dress","long sleeves","brown belt"],
+            ["blue kimono","orange bow","blue hair ribbon"],
+            ["sleeveless white leotard","high collar","pink knee boots","headphones","science fiction"],
+            ["brown fur vest","black fur-trimmed cape","brown miniskirt","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5381,8 +5381,8 @@ const characterData = [{
         category: "One Piece",
         mainTags: "boa hancock, blue eyes, black hair, very long hair, one piece",
         enhancers: [
-            ["red sarong", "red crop top", "epaulettes", "plunging neckline", "white cape"],
-            ["sleeveless purple dress", "side slit", "skull print", "collar"]
+            ["red sarong","red crop top","epaulettes","plunging neckline","white cape"],
+            ["sleeveless purple dress","side slit","skull print","collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5394,7 +5394,7 @@ const characterData = [{
         category: "One Piece",
         mainTags: "miss valentine, brown eyes, blonde hair, short hair, one piece",
         enhancers: [
-            ["yellow hat", "yellow dress", "print dress", "white gloves"]
+            ["yellow hat","yellow dress","print dress","white gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5405,7 +5405,7 @@ const characterData = [{
         category: "One Piece",
         mainTags: "yamato (one piece), blue eyes, white hair, long hair, one piece",
         enhancers: [
-            ["japanese clothes", "sleeveless white kimono", "red hakama", "shimenawa"]
+            ["japanese clothes","sleeveless white kimono","red hakama","shimenawa"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5416,7 +5416,7 @@ const characterData = [{
         category: "One Piece",
         mainTags: "s-snake, blue eyes, black hair, long hair, one piece",
         enhancers: [
-            ["white dress", "black wings", "knee boots", "green arm band"]
+            ["white dress","black wings","knee boots","green arm band"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5427,8 +5427,8 @@ const characterData = [{
         category: "One Piece",
         mainTags: "kalifa (one piece), blue eyes, blonde hair, long hair, one piece",
         enhancers: [
-            ["glasses", "hair bun", "green hairband", "yellow jacket", "high collar jacket", "black skirt"],
-            ["glasses", "black dress", "plunging neckline", "fishnet thighhighs", "garter straps", "black gloves", "high collar"]
+            ["glasses","hair bun","green hairband","yellow jacket","high collar jacket","black skirt"],
+            ["glasses","black dress","plunging neckline","fishnet thighhighs","garter straps","black gloves","high collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5439,8 +5439,8 @@ const characterData = [{
         category: "One Piece",
         mainTags: "uta (one piece), purple eyes, red hair, long hair, white hair, split-color hair, one piece",
         enhancers: [
-            ["white dress", "black ribbon", "headphones", "pink jacket", "puffy sleeves", "hood down"],
-            ["sleeveless white dress", "black ribbon", "single sleeve", "wings", "two-tone wings", "headphones"]
+            ["white dress","black ribbon","headphones","pink jacket","puffy sleeves","hood down"],
+            ["sleeveless white dress","black ribbon","single sleeve","wings","two-tone wings","headphones"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5452,7 +5452,7 @@ const characterData = [{
         category: "One Piece",
         mainTags: "monet (one piece), harpy, yellow eyes, green hair, long hair, wings, one piece",
         enhancers: [
-            ["green tanktop", "striped pantyhose"]
+            ["green tanktop","striped pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5463,7 +5463,7 @@ const characterData = [{
         category: "One Piece",
         mainTags: "vegapunk lilith, brown eyes, brown hair, short hair, one piece",
         enhancers: [
-            ["pink bodysuit", "purple jacket", "single knee boot", "headphones"]
+            ["pink bodysuit","purple jacket","single knee boot","headphones"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5474,7 +5474,7 @@ const characterData = [{
         category: "One Piece",
         mainTags: "jewelry bonney, purple eyes, pink hair, long hair, one piece",
         enhancers: [
-            ["brown cropped jacket", "striped shorts", "belt", "suspenders", "white shirt", "green hat"]
+            ["brown cropped jacket","striped shorts","belt","suspenders","white shirt","green hat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5485,7 +5485,7 @@ const characterData = [{
         category: "Fullmetal Alchemist",
         mainTags: "lust (fma), red eyes, black hair, long hair, fullmetal alchemist",
         enhancers: [
-            ["black dress", "plunging neckline", "claws", "detached sleeves", "ouroboros", "chest tattoo", "thigh boots"]
+            ["black dress","plunging neckline","claws","detached sleeves","ouroboros","chest tattoo","thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5496,8 +5496,8 @@ const characterData = [{
         category: "Fullmetal Alchemist",
         mainTags: "riza hawkeye, brown eyes, blonde hair, updo, fullmetal alchemist",
         enhancers: [
-            ["amestris military uniform", "blue jacket", "blue pants"],
-            ["black turtleneck", "long skirt"]
+            ["amestris military uniform","blue jacket","blue pants"],
+            ["black turtleneck","long skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5509,11 +5509,11 @@ const characterData = [{
         category: "Fullmetal Alchemist",
         mainTags: "winry rockbell, blue eyes, blonde hair, long hair, ponytail, fullmetal alchemist",
         enhancers: [
-            ["black pleated skirt", "white tanktop"],
-            ["black pleated skirt", "black cropped jacket", "white tanktop"],
-            ["red bandana", "purple overalls", "clothes around waist", "black tube top", "brown gloves"],
-            ["green bandana", "grey overalls", "clothes around waist", "black tube top"],
-            ["grey overalls", "clothes around waist", "black and white crop top"]
+            ["black pleated skirt","white tanktop"],
+            ["black pleated skirt","black cropped jacket","white tanktop"],
+            ["red bandana","purple overalls","clothes around waist","black tube top","brown gloves"],
+            ["green bandana","grey overalls","clothes around waist","black tube top"],
+            ["grey overalls","clothes around waist","black and white crop top"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5525,7 +5525,7 @@ const characterData = [{
         category: "Fullmetal Alchemist",
         mainTags: "olivier mira armstrong, blue eyes, blonde hair, long hair, muscular female, fullmetal alchemist",
         enhancers: [
-            ["amestris military uniform", "blue jacket", "blue pants", "coat on shoulders", "black fur-trimmed coat"]
+            ["amestris military uniform","blue jacket","blue pants","coat on shoulders","black fur-trimmed coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5536,7 +5536,7 @@ const characterData = [{
         category: "Fullmetal Alchemist",
         mainTags: "may chang, brown eyes, black hair, long hair, twin hair bun, fullmetal alchemist",
         enhancers: [
-            ["chinese clothes", "pink shirt", "pink sash", "wide sleeves", "white pants"]
+            ["chinese clothes","pink shirt","pink sash","wide sleeves","white pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5547,7 +5547,7 @@ const characterData = [{
         category: "Fullmetal Alchemist",
         mainTags: "lan fan, black eyes, black hair, single hair bun, fullmetal alchemist",
         enhancers: [
-            ["mask on head", "automail", "mechanical arm", "armor", "shoulder armor", "ninja", "hood down", "black pants", "black fingerless glove"]
+            ["mask on head","automail","mechanical arm","armor","shoulder armor","ninja","hood down","black pants","black fingerless glove"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5558,7 +5558,7 @@ const characterData = [{
         category: "Fullmetal Alchemist",
         mainTags: "edward elric, blonde hair, long hair, single braid, yellow eyes, automail, mechanical arm, fullmetal alchemist",
         enhancers: [
-            ["red coat", "black jacket", "black pants", "black shirt", "belt", "single white glove"]
+            ["red coat","black jacket","black pants","black shirt","belt","single white glove"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5569,8 +5569,8 @@ const characterData = [{
         category: "Fullmetal Alchemist",
         mainTags: "alphonse elric, fullmetal alchemist",
         enhancers: [
-            ["armor", "full armor", "shoulder spikes", "arm tattoo", "red eyes"],
-            ["blonde hair", "short hair", "brown eyes", "black suit", "black pants", "black vest", "red necktie", "white shirt"]
+            ["armor","full armor","shoulder spikes","arm tattoo","red eyes"],
+            ["blonde hair","short hair","brown eyes","black suit","black pants","black vest","red necktie","white shirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5581,8 +5581,8 @@ const characterData = [{
         category: "Fullmetal Alchemist",
         mainTags: "roy mustang, black hair, short hair, black eyes, fullmetal alchemist",
         enhancers: [
-            ["amestris military uniform", "blue jacket", "blue pants", "black coat", "coat on shoulders", "white gloves"],
-            ["amestris military uniform", "blue jacket", "blue pants", "white gloves"]
+            ["amestris military uniform","blue jacket","blue pants","black coat","coat on shoulders","white gloves"],
+            ["amestris military uniform","blue jacket","blue pants","white gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5593,7 +5593,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "ash ketchum, brown eyes, black hair, short hair, pokemon (classic anime)",
         enhancers: [
-            ["jeans", "white shirt", "blue vest", "hat"]
+            ["jeans","white shirt","blue vest","hat"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5604,7 +5604,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "misty (pokemon), green eyes, orange hair, short hair, ponytail, pokemon (anime)",
         enhancers: [
-            ["jean shorts", "yellow crop top", "suspenders"]
+            ["jean shorts","yellow crop top","suspenders"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5615,7 +5615,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "jessie (pokemon), blue eyes, red hair, long hair, pokemon (anime)",
         enhancers: [
-            ["white skirt", "black shirt", "shirt under shirt", "team rocket uniform", "team rocket"]
+            ["white skirt","black shirt","shirt under shirt","team rocket uniform","team rocket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5626,7 +5626,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "james (pokemon), green eyes, purple hair, short hair, pokemon (anime)",
         enhancers: [
-            ["white pants", "black shirt", "shirt under shirt", "team rocket uniform", "team rocket"]
+            ["white pants","black shirt","shirt under shirt","team rocket uniform","team rocket"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5637,7 +5637,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "joy (pokemon), blue eyes, pink hair, short hair, hair loops, pokemon (anime)",
         enhancers: [
-            ["nurse", "nurse cap", "apron", "pink dress"]
+            ["nurse","nurse cap","apron","pink dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5648,7 +5648,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "jenny (pokemon), blue eyes, teal hair, short hair, pokemon (anime)",
         enhancers: [
-            ["police woman", "police hat", "pencil skirt", "two-tone shirt"]
+            ["police woman","police hat","pencil skirt","two-tone shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5659,7 +5659,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "dawn (pokemon), blue eyes, blue hair, long hair, pokemon (anime)",
         enhancers: [
-            ["beanie", "black vest", "pink skirt"]
+            ["beanie","black vest","pink skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5670,7 +5670,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "may (pokemon), blue eyes, brown hair, long hair, pokemon (anime)",
         enhancers: [
-            ["red bandanna", "blue shorts", "shirt under shirt", "gloves"]
+            ["red bandanna","blue shorts","shirt under shirt","gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5681,8 +5681,8 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "jasmine (pokemon), brown eyes, brown hair, long hair, pokemon (anime)",
         enhancers: [
-            ["white dress", "white bow"],
-            ["blue dress", "hair ornament", "white sweater", "orange bow"]
+            ["white dress","white bow"],
+            ["blue dress","hair ornament","white sweater","orange bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5693,7 +5693,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "lana (pokemon), blue eyes, blue hair, short hair, pokemon (anime)",
         enhancers: [
-            ["one-piece swimsuit", "swimsuit under clothes", "blue pants", "white crop top"]
+            ["one-piece swimsuit","swimsuit under clothes","blue pants","white crop top"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5704,7 +5704,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "liko (pokemon), blue eyes, black hair, long hair, pokemon (anime)",
         enhancers: [
-            ["hair ornament", "blue shorts", "white shirt", "jacket", "yellow bag"]
+            ["hair ornament","blue shorts","white shirt","jacket","yellow bag"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5715,7 +5715,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "sabrina (pokemon), purple eyes, green hair, long hair, pokemon (anime)",
         enhancers: [
-            ["two-tone latex dress", "thighhigh boots"]
+            ["two-tone latex dress","thighhigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5726,7 +5726,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "iris (pokemon), brown eyes, purple hair, very long hair, dark skin, dark-skinned female, pokemon (anime)",
         enhancers: [
-            ["crown", "pink dress", "two-tone dress", "bow", "wide sleeves"]
+            ["crown","pink dress","two-tone dress","bow","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5737,7 +5737,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "dot (pokemon), purple eyes, purple hair, short hair, pokemon (anime)",
         enhancers: [
-            ["striped sweater", "black tanktop", "green pants"]
+            ["striped sweater","black tanktop","green pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5748,7 +5748,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "coral (pokemon), purple eyes, pink hair, long hair, multicolored hair, pokemon (anime)",
         enhancers: [
-            ["black crop top", "long sleeves", "black pants", "one thigh cutout", "kneehigh boots"]
+            ["black crop top","long sleeves","black pants","one thigh cutout","kneehigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5759,7 +5759,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "brock (pokemon), brown eyes, brown hair, short hair, spiked hair, dark skin, dark-skinned male, pokemon (anime)",
         enhancers: [
-            ["green vest", "orange shirt", "brown pants", "belt pouch"]
+            ["green vest","orange shirt","brown pants","belt pouch"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5770,7 +5770,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "chloe (pokemon), brown eyes, brown hair, long hair, pokemon (anime)",
         enhancers: [
-            ["white dress", "blue trim", "yellow tie", "knee socks", "backpack"]
+            ["white dress","blue trim","yellow tie","knee socks","backpack"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5781,7 +5781,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "delia ketchum (pokemon), brown eyes, brown hair, long hair, pokemon (anime)",
         enhancers: [
-            ["pink jacket", "open jacket", "yellow shirt", "blue skirt", "yellow belt", "belt buckle"]
+            ["pink jacket","open jacket","yellow shirt","blue skirt","yellow belt","belt buckle"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5792,7 +5792,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "bonnie (pokemon), blue eyes, blonde hair, short hair, pokemon (anime)",
         enhancers: [
-            ["hair ornament", "brown shirt", "black bow", "black shorts", "shorts under skirt", "white skirt"]
+            ["hair ornament","brown shirt","black bow","black shorts","shorts under skirt","white skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5803,7 +5803,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "bugsy (pokemon), green eyes, purple hair, short hair, pokemon (anime)",
         enhancers: [
-            ["green shirt", "yellow tie", "green shorts", "belt"]
+            ["green shirt","yellow tie","green shorts","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5814,7 +5814,7 @@ const characterData = [{
         category: "Pokemon (Anime)",
         mainTags: "elesa (pokemon), blue eyes, blonde hair, long hair, twin tails, pokemon (anime)",
         enhancers: [
-            ["two-tone dress", "black pants"]
+            ["two-tone dress","black pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5825,7 +5825,7 @@ const characterData = [{
         category: "PokemonCosplay",
         mainTags: "pikachu (cosplay), pokemon",
         enhancers: [
-            ["two-tone dress", "tail"]
+            ["two-tone dress","tail"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5836,7 +5836,7 @@ const characterData = [{
         category: "PokemonCosplay",
         mainTags: "eevee (cosplay), pokemon",
         enhancers: [
-            ["two-tone dress", "tail"]
+            ["two-tone dress","tail"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5847,12 +5847,12 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "bulma, blue eyes, blue hair, long hair, dragon ball, dragon ball super",
         enhancers: [
-            ["rabbit costume", "black headband", "fake animal ears", "detached collar", "red bow", "black leotard", "blue pantyhose"],
-            ["orange dress", "purple neckerchief"],
-            ["red jacket", "brown shorts", "white shirt", "hat"],
-            ["pink shorts", "pink shirt"],
-            ["yellow vest", "black shirt", "pink hairband"],
-            ["red panties", "red tank top"]
+            ["rabbit costume","black headband","fake animal ears","detached collar","red bow","black leotard","blue pantyhose"],
+            ["orange dress","purple neckerchief"],
+            ["red jacket","brown shorts","white shirt","hat"],
+            ["pink shorts","pink shirt"],
+            ["yellow vest","black shirt","pink hairband"],
+            ["red panties","red tank top"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5863,8 +5863,8 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "android 18, blue eyes, blonde hair, short hair, dragon ball, dragon ball super",
         enhancers: [
-            ["blue vest", "blue skirt", "black pants", "black shirt"],
-            ["black vest", "badge", "white shirt", "jeans"]
+            ["blue vest","blue skirt","black pants","black shirt"],
+            ["black vest","badge","white shirt","jeans"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5875,7 +5875,7 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "android 21, brown eyes, brown hair, long hair, dragon ball, dragon ball super",
         enhancers: [
-            ["two-tone dress", "white lab coat", "black pants", "black sleeves"]
+            ["two-tone dress","white lab coat","black pants","black sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5886,8 +5886,8 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "pan (dragon ball), brown eyes, black hair, short hair, dragon ball, dragon ball super",
         enhancers: [
-            ["pan (xeno) (dragon ball)", "orange headband", "red jacket", "black crop top", "green shorts", "fur-trimmed shorts", "thighhighs"],
-            ["white pants", "red shirt", "backpack", "fingerless gloves", "orange bandana"]
+            ["pan (xeno) (dragon ball)","orange headband","red jacket","black crop top","green shorts","fur-trimmed shorts","thighhighs"],
+            ["white pants","red shirt","backpack","fingerless gloves","orange bandana"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5898,7 +5898,7 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "cheelai, purple eyes, white hair, short hair, colored skin, green skin, dragon ball, dragon ball super",
         enhancers: [
-            ["saiyan armor", "purple bodysuit", "white breastplate", "scouter", "white gloves", "kneehighs"]
+            ["saiyan armor","purple bodysuit","white breastplate","scouter","white gloves","kneehighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5909,8 +5909,8 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "majin android 21, red eyes, white hair, long hair, colored skin, pink skin, black sclera, dragon ball, dragon ball super",
         enhancers: [
-            ["white harem pants", "black tube top", "detached sleeves", "wrist cuffs", "choker"],
-            ["{purple skin}", "dark persona", "white harem pants", "black tube top", "detached sleeves", "wrist cuffs", "choker"]
+            ["white harem pants","black tube top","detached sleeves","wrist cuffs","choker"],
+            ["{purple skin}","dark persona","white harem pants","black tube top","detached sleeves","wrist cuffs","choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5921,8 +5921,8 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "kefla (dragon ball), green eyes, black hair, short hair, spiked hair, dragon ball, dragon ball super",
         enhancers: [
-            ["purple shirt", "purple pants", "bracers"],
-            ["--black hair", "green hair", "blue eyes", "purple shirt", "purple pants", "bracers"]
+            ["purple shirt","purple pants","bracers"],
+            ["--black hair","green hair","blue eyes","purple shirt","purple pants","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5934,9 +5934,9 @@ const characterData = [{
         mainTags: "son goku, black eyes, black hair, short hair, spiked hair, dragon ball, dragon ball super",
         enhancers: [
             ["orange dougi"],
-            ["--black hair", "super saiyan", "yellow hair"],
-            ["--black hair", "super saiyan 3", "yellow hair"],
-            ["--black hair", "super saiyan blue", "blue hair"]
+            ["--black hair","super saiyan","yellow hair"],
+            ["--black hair","super saiyan 3","yellow hair"],
+            ["--black hair","super saiyan blue","blue hair"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5947,9 +5947,9 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "chi-chi (dragon ball), black eyes, black hair, long hair, dragon ball, dragon ball z",
         enhancers: [
-            ["purple dress", "orange capelet"],
-            ["armor", "helmet", "boobplate"],
-            ["yellow dress", "white sleeves", "blue capelet"]
+            ["purple dress","orange capelet"],
+            ["armor","helmet","boobplate"],
+            ["yellow dress","white sleeves","blue capelet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -5964,7 +5964,7 @@ const characterData = [{
             ["super saiyan"],
             ["super saiyan 3"],
             ["super saiyan blue"],
-            ["majin vegeta", "face mark"]
+            ["majin vegeta","face mark"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5975,7 +5975,7 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "piccolo, black eyes, bald, colored skin, green skin, dragon ball, dragon ball super",
         enhancers: [
-            ["jumpsuit", "turban"]
+            ["jumpsuit","turban"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -5986,7 +5986,7 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "son gohan, black eyes, black hair, short hair, spiked hair, dragon ball, dragon ball super",
         enhancers: [
-            ["purple jumpsuit", "orange sash"],
+            ["purple jumpsuit","orange sash"],
             ["super saiyan"],
             ["super saiyan blue"]
         ],
@@ -5999,10 +5999,10 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "trunks (dragon ball), blue eyes, purple hair, short hair, dragon ball, dragon ball z",
         enhancers: [
-            ["black pants", "black shirt", "cropped jacket", "belt"],
-            ["super saiyan", "spiked hair"],
-            ["super saiyan 3", "spiked hair"],
-            ["super saiyan blue", "spiked hair"]
+            ["black pants","black shirt","cropped jacket","belt"],
+            ["super saiyan","spiked hair"],
+            ["super saiyan 3","spiked hair"],
+            ["super saiyan blue","spiked hair"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6013,9 +6013,9 @@ const characterData = [{
         category: "Dragon Ball",
         mainTags: "gogeta, black eyes, black hair, short hair, spiked hair, vest, pants, sash, dragon ball, dragon ball gt",
         enhancers: [
-            ["--black hair", "super saiyan", "yellow hair"],
-            ["--black hair", "super saiyan 3", "yellow hair"],
-            ["--black hair", "super saiyan blue", "blue hair"]
+            ["--black hair","super saiyan","yellow hair"],
+            ["--black hair","super saiyan 3","yellow hair"],
+            ["--black hair","super saiyan blue","blue hair"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6026,8 +6026,8 @@ const characterData = [{
         category: "Date a Live",
         mainTags: "tokisaki kurumi, red eyes, black hair, long hair, twintails, date a live",
         enhancers: [
-            ["raizen high school uniform", "black jacket", "white shirt", "blue skirt", "red bow"],
-            ["frilled red dress", "red ribbon", "headdress", "elbow gloves"]
+            ["raizen high school uniform","black jacket","white shirt","blue skirt","red bow"],
+            ["frilled red dress","red ribbon","headdress","elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6039,9 +6039,9 @@ const characterData = [{
         category: "Date a Live",
         mainTags: "hoshimiya mukuro, yellow eyes, blonde hair, very long hair, date a live",
         enhancers: [
-            ["frilled blue dress", "hair bows", "puffy sleeves", "ribbon"],
-            ["pink dress", "greaves", "black gloves"],
-            ["red dress", "pelvic curtain", "elbow gloves", "arm guards", "thigh boots", "thigh straps"]
+            ["frilled blue dress","hair bows","puffy sleeves","ribbon"],
+            ["pink dress","greaves","black gloves"],
+            ["red dress","pelvic curtain","elbow gloves","arm guards","thigh boots","thigh straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6052,8 +6052,8 @@ const characterData = [{
         category: "Date a Live",
         mainTags: "himekawa yoshino, blue eyes, blue hair, long hair, date a live",
         enhancers: [
-            ["white sun dress", "short dress", "pink trim", "puffy short sleeves", "sun hat"],
-            ["white dress", "green coat", "animal hood", "rabbit ears"]
+            ["white sun dress","short dress","pink trim","puffy short sleeves","sun hat"],
+            ["white dress","green coat","animal hood","rabbit ears"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6064,8 +6064,8 @@ const characterData = [{
         category: "Date a Live",
         mainTags: "kyouno natsumi, green eyes, green hair, long hair, date a live",
         enhancers: [
-            ["orange crop top", "off shoulder", "suspenders", "black bloomers", "ba wings", "striped thighhighs", "uneven legwear", "witch hat"],
-            ["kyouno natsumi (adult)", "bodystocking", "bodysuit", "black skirt", "halter top", "see-through clothes", "witch hat", "black capelet", "high collar"]
+            ["orange crop top","off shoulder","suspenders","black bloomers","ba wings","striped thighhighs","uneven legwear","witch hat"],
+            ["kyouno natsumi (adult)","bodystocking","bodysuit","black skirt","halter top","see-through clothes","witch hat","black capelet","high collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6076,8 +6076,8 @@ const characterData = [{
         category: "Date a Live",
         mainTags: "izayoi miku, purple eyes, purple hair, long hair, date a live",
         enhancers: [
-            ["frilled purple dress", "pink shirt", "yellow frills"],
-            ["yellow skirt", "white elbow gloves", "layered skirt", "see-through clothes", "white pantyhose"]
+            ["frilled purple dress","pink shirt","yellow frills"],
+            ["yellow skirt","white elbow gloves","layered skirt","see-through clothes","white pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6088,7 +6088,7 @@ const characterData = [{
         category: "Date a Live",
         mainTags: "sonogami rinne, brown eyes, pink hair, short hair, date a live",
         enhancers: [
-            ["blue pleated skirt", "white shirt", "sweater vest", "neck ribbon"]
+            ["blue pleated skirt","white shirt","sweater vest","neck ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6099,8 +6099,8 @@ const characterData = [{
         category: "Date a Live",
         mainTags: "tobiichi origami, blue eyes, white hair, short hair, date a live",
         enhancers: [
-            ["raizen high school uniform", "blue pleated skirt", "black jacket"],
-            ["white dress", "white bow", "white elbow gloves", "gold crown", "gold trim", "over-kneehighs"]
+            ["raizen high school uniform","blue pleated skirt","black jacket"],
+            ["white dress","white bow","white elbow gloves","gold crown","gold trim","over-kneehighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6111,9 +6111,9 @@ const characterData = [{
         category: "Sword Art Online",
         mainTags: "asuna (sao), brown eyes, orange hair, long hair, sword art online",
         enhancers: [
-            ["knights of blood uniform (sao)", "armor", "white dress"],
-            ["asuna (sao-alo)", "blue hair", "pointy ears", "white dress", "detached sleeves"],
-            ["asuna (stacia) (sao)", "hair ribbons", "armored dress", "hip armor"]
+            ["knights of blood uniform (sao)","armor","white dress"],
+            ["asuna (sao-alo)","blue hair","pointy ears","white dress","detached sleeves"],
+            ["asuna (stacia) (sao)","hair ribbons","armored dress","hip armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6124,9 +6124,9 @@ const characterData = [{
         category: "Sword Art Online",
         mainTags: "kirito, black eyes, black hair, short hair, sword art online",
         enhancers: [
-            ["black shirt", "black pants", "black coat"],
-            ["kirito_(sao-ggo)", "very long hair", "black jacket", "breastplate", "fingerless gloves"],
-            ["kirito_(sao-alo)", "pointy ears", "fairy wings", "multiple wings", "black jacket", "black pants", "black shirt"]
+            ["black shirt","black pants","black coat"],
+            ["kirito_(sao-ggo)","very long hair","black jacket","breastplate","fingerless gloves"],
+            ["kirito_(sao-alo)","pointy ears","fairy wings","multiple wings","black jacket","black pants","black shirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6137,7 +6137,7 @@ const characterData = [{
         category: "Sword Art Online",
         mainTags: "kirigaya suguha, brown eyes, black hair, short hair, sword art online",
         enhancers: ["grey school uniform",
-            ["red jacket", "blue shorts", "blue shirt"]
+            ["red jacket","blue shorts","blue shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6148,9 +6148,9 @@ const characterData = [{
         category: "Sword Art Online",
         mainTags: "sinon, blue eyes, blue hair, short hair, sword art online",
         enhancers: [
-            ["green pants", "green jacket", "white scarf", "black shorts"],
-            ["sinon (sao-alo)", "cat girl", "cat ears", "cat tail", "black shorts", "green jacket", "breastplate"],
-            ["sinon (solus)", "blue armor", "breastplate", "single shoulder pad", "cape", "sword wing"]
+            ["green pants","green jacket","white scarf","black shorts"],
+            ["sinon (sao-alo)","cat girl","cat ears","cat tail","black shorts","green jacket","breastplate"],
+            ["sinon (solus)","blue armor","breastplate","single shoulder pad","cape","sword wing"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6161,7 +6161,7 @@ const characterData = [{
         category: "Sword Art Online",
         mainTags: "yuuki (sao), purple eyes, purple hair, short hair, sword art online",
         enhancers: [
-            ["breastplate", "detached sleeves", "belts", "fingerless gloves"]
+            ["breastplate","detached sleeves","belts","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6173,7 +6173,7 @@ const characterData = [{
         mainTags: "yui (sao), brown eyes, black hair, short hair, sword art online",
         enhancers: [
             ["white dress"],
-            ["yui (sao-alo)", "pointy ears", "fairy wings", "pink dress", "detached sleeves"]
+            ["yui (sao-alo)","pointy ears","fairy wings","pink dress","detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6196,7 +6196,7 @@ const characterData = [{
         mainTags: "silica, brown eyes, brown hair, long hair, twintails, sword art online",
         enhancers: [
             ["red coat, black skirt, thighhighs, fingerless gloves"],
-            ["silica (sao-alo)", "cat girl", "cat ears", "cat tail", "breastplate", "blue jacket", "black skirt", "thighhighs"]
+            ["silica (sao-alo)","cat girl","cat ears","cat tail","breastplate","blue jacket","black skirt","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6208,7 +6208,7 @@ const characterData = [{
         mainTags: "lisbeth (sao), brown eyes, pink hair, short hair, sword art online",
         enhancers: [
             ["breastplate, red maid dress"],
-            ["lisbeth (sao-alo)", "breastplate", "white pants", "gauntlets", "single shoulder pad"]
+            ["lisbeth (sao-alo)","breastplate","white pants","gauntlets","single shoulder pad"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6220,7 +6220,7 @@ const characterData = [{
         mainTags: "leafa (sao), green eyes, blonde hair, long hair, sword art online",
         enhancers: [
             ["green jacket, white shirt, brown corset, thigh cutouts"],
-            ["leafa (terraria) (sao)", "detached sleeves", "breastplate", "green dress", "white garter straps"]
+            ["leafa (terraria) (sao)","detached sleeves","breastplate","green dress","white garter straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6231,8 +6231,8 @@ const characterData = [{
         category: "Sword Art Online",
         mainTags: "alice zuberg, blue eyes, blonde hair, long hair, sword art online",
         enhancers: [
-            ["armor", "armored dress"],
-            ["black eyepatch", "blue dress", "brown coat"]
+            ["armor","armored dress"],
+            ["black eyepatch","blue dress","brown coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6265,7 +6265,7 @@ const characterData = [{
         category: "Soul Eater",
         mainTags: "maka albarn, green eyes, blonde hair, long hair, ponytail, soul eater",
         enhancers: [
-            ["black coat", "white shirt", "necktie", "plaid skirt"]
+            ["black coat","white shirt","necktie","plaid skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6287,7 +6287,7 @@ const characterData = [{
         category: "Soul Eater",
         mainTags: "marie mjolnir, yellow eyes, blonde hair, short hair, soul eater",
         enhancers: [
-            ["eyepatch", "black shirt", "black wide sleeves", "yellow dress"]
+            ["eyepatch","black shirt","black wide sleeves","yellow dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6298,7 +6298,7 @@ const characterData = [{
         category: "Soul Eater",
         mainTags: "crona (soul eater), blue eyes, pink hair, short hair, soul eater",
         enhancers: [
-            ["black dress", "high collar", "wrist cuffs"]
+            ["black dress","high collar","wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: false,
@@ -6308,7 +6308,7 @@ const characterData = [{
         category: "Soul Eater",
         mainTags: "death the kid, yellow eyes, black hair, short hair, soul eater",
         enhancers: [
-            ["asymmetric hair", "formal clothes", "bolo tie"]
+            ["asymmetric hair","formal clothes","bolo tie"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6319,7 +6319,7 @@ const characterData = [{
         category: "Soul Eater",
         mainTags: "blair (soul eater), yellow eyes, purple hair, long hair, soul eater",
         enhancers: [
-            ["witch hat", "wide sleeves", "black dress", "thighhighs"]
+            ["witch hat","wide sleeves","black dress","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6330,7 +6330,7 @@ const characterData = [{
         category: "Soul Eater",
         mainTags: "nakatsukasa tsubaki, brown eyes, black hair, long hair, ponytail, ninja, soul eater",
         enhancers: [
-            ["white dress", "single side slit", "detached sleeves", "star symbol"]
+            ["white dress","single side slit","detached sleeves","star symbol"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6341,7 +6341,7 @@ const characterData = [{
         category: "Soul Eater",
         mainTags: "black star, gray eyes, blue hair, short hair, soul eater",
         enhancers: [
-            ["high collar", "sleeveless black shirt", "two-tone pants", "fingerless gloves"]
+            ["high collar","sleeveless black shirt","two-tone pants","fingerless gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6352,7 +6352,7 @@ const characterData = [{
         category: "Soul Eater",
         mainTags: "medusa gorgon, yellow eyes, blonde hair, long hair, soul eater",
         enhancers: [
-            ["hooded leotard", "black pants"]
+            ["hooded leotard","black pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6363,11 +6363,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "midoriya izuku, green eyes, green hair, short hair, boku no hero academia",
         enhancers: [
-            ["jumpsuit", "belt pouch", "gloves"],
+            ["jumpsuit","belt pouch","gloves"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6378,11 +6378,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "midnight (boku no hero academia), blue eyes, purple hair, long hair, boku no hero academia",
         enhancers: [
-            ["white bodysuit", "black leotard", "thighhighs"],
+            ["white bodysuit","black leotard","thighhighs"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6393,11 +6393,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "yaoyorozu momo, gray eyes, black hair, long hair, ponytail, boku no hero academia",
         enhancers: [
-            ["red leotard", "high collar", "yellow belts"],
+            ["red leotard","high collar","yellow belts"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6408,9 +6408,9 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "shiozaki ibara, green eyes, green hair, long hair, boku no hero academia",
         enhancers: ["u.a. school uniform",
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6421,11 +6421,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "mirko, red eyes, white hair, long hair, dark skin, dark-skinned female, rabbit girl, rabbit ears, boku no hero academia",
         enhancers: [
-            ["crescent print", "white leotard", "thighhighs", "fur collar"],
+            ["crescent print","white leotard","thighhighs","fur collar"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6436,11 +6436,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "bakugou katsuki, red eyes, blonde hair, short hair, spiked hair, boku no hero academia",
         enhancers: [
-            ["black sleeveless shirt", "gloves", "black pants", "belt", "collar", "eye mask"],
+            ["black sleeveless shirt","gloves","black pants","belt","collar","eye mask"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6451,11 +6451,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "toga himiko, yellow eyes, blonde hair, long hair, double bun, boku no hero academia",
         enhancers: [
-            ["mask", "sweater", "sleeves past wrists", "red kerchief", "blue skirt", "thigh holders", "tank (container)s"],
+            ["mask","sweater","sleeves past wrists","red kerchief","blue skirt","thigh holders","tank (container)s"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6466,11 +6466,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "asui tsuyu, green eyes, green hair, long hair, boku no hero academia",
         enhancers: [
-            ["green bodysuit", "gloves", "goggles on head"],
+            ["green bodysuit","gloves","goggles on head"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6481,11 +6481,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "hawks (boku no hero academia), yellow eyes, blonde hair, short hair, boku no hero academia",
         enhancers: [
-            ["fur-trimmed jacket", "glasses", "black shirt", "gloves", "yellow pants"],
+            ["fur-trimmed jacket","glasses","black shirt","gloves","yellow pants"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6496,11 +6496,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "endeavor (boku no hero academia), blue eyes, red hair, short hair, boku no hero academia",
         enhancers: [
-            ["superhero costume", "fingerless gloves", "shoulder armor"],
+            ["superhero costume","fingerless gloves","shoulder armor"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6511,12 +6511,12 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "ashido mina, yellow eyes, pink hair, short hair, colored skin, pink skin, horns, boku no hero academia",
         enhancers: [
-            ["multicolored sleeveless leotard", "fur-trimmed vest", "eye mask"],
-            ["purple tank top", "denim shorts"],
+            ["multicolored sleeveless leotard","fur-trimmed vest","eye mask"],
+            ["purple tank top","denim shorts"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6527,11 +6527,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "jirou kyoka, purple eyes, purple hair, short hair, boku no hero academia",
         enhancers: [
-            ["pink shirt", "black pants", "white gloves", "black jacket"],
+            ["pink shirt","black pants","white gloves","black jacket"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6542,11 +6542,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "hado nejire, blue eyes, blue hair, long hair, boku no hero academia",
         enhancers: [
-            ["bodysuit", "gloves", "wrist cuffs"],
+            ["bodysuit","gloves","wrist cuffs"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6557,10 +6557,10 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "hagakure toru, green eyes, green hair, long hair, messy hair, ahoge, boku no hero academia",
         enhancers: [
-            ["grey gloves", "u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["grey gloves","u.a. school uniform"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6571,11 +6571,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "kirishima eijirou, red eyes, red hair, short hair, spiked hair, boku no hero academia",
         enhancers: [
-            ["black pants", "black sleeves", "headgear", "belt", "shoulder pads"],
+            ["black pants","black sleeves","headgear","belt","shoulder pads"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6586,7 +6586,7 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "all might, blue eyes, blonde hair, short hair, boku no hero academia",
         enhancers: [
-            ["muscular male", "superhero costume"]
+            ["muscular male","superhero costume"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6597,8 +6597,8 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "yagi toshinori, blue eyes, blonde hair, long hair, boku no hero academia",
         enhancers: [
-            ["black jacket", "black necktie", "white shirt", "black pants"],
-            ["loose white t-shirt", "green pants", "belt buckle"]
+            ["black jacket","black necktie","white shirt","black pants"],
+            ["loose white t-shirt","green pants","belt buckle"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6609,7 +6609,7 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "eraser head (boku no hero academia), gray eyes, black hair, long hair, boku no hero academia",
         enhancers: [
-            ["black jacket", "black pants", "scarf", "utility belt"]
+            ["black jacket","black pants","scarf","utility belt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6620,7 +6620,7 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "dabi (boku no hero academia), blue eyes, black hair, short hair, boku no hero academia",
         enhancers: [
-            ["black jacket", "white shirt", "black pants", "belt"]
+            ["black jacket","white shirt","black pants","belt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -6631,12 +6631,12 @@ const characterData = [{
         category: "Soul Eater",
         mainTags: "eri (boku no hero academia), red eyes, gray hair, long hair, horn, boku no hero academia",
         enhancers: [
-            ["red dress", "white shirt", "black leggings", "shoulder bag"],
-            ["long short sleeve white dress", "arm bandages", "leg bandages"],
+            ["red dress","white shirt","black leggings","shoulder bag"],
+            ["long short sleeve white dress","arm bandages","leg bandages"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6647,11 +6647,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "hatsume mei, yellow eyes, pink hair, short hair, boku no hero academia",
         enhancers: [
-            ["black tanktop", "black pants", "gloves", "goggles on head"],
+            ["black tanktop","black pants","gloves","goggles on head"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6662,11 +6662,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "mount lady, blue eyes, blonde hair, long hair, boku no hero academia",
         enhancers: [
-            ["superhero costume", "domino mask"],
+            ["superhero costume","domino mask"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6677,11 +6677,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "utsushimi kemii, brown eyes, blonde hair, long hair, boku no hero academia",
         enhancers: [
-            ["china dress", "domino mask", "belt"],
+            ["china dress","domino mask","belt"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6692,7 +6692,7 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "kendo itsuka, green eyes, orange hair, short hair, ponytail, boku no hero academia",
         enhancers: [
-            ["black bodysuit", "police hat", "wrist cuffs"]
+            ["black bodysuit","police hat","wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6703,11 +6703,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "bakugou mitsuki, red eyes, blonde hair, short hair, spikey hair, boku no hero academia",
         enhancers: [
-            ["purple sweater", "white shirt", "black skirt"],
+            ["purple sweater","white shirt","black skirt"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6718,11 +6718,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "lady nagant, blue eyes, purple hair, long hair, boku no hero academia",
         enhancers: [
-            ["purple dress", "belt", "knee boots"],
+            ["purple dress","belt","knee boots"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6733,11 +6733,11 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "uraraka ochako, brown eyes, brown hair, short hair, boku no hero academia",
         enhancers: [
-            ["headgear", "wrist cuffs", "bodysuit"],
+            ["headgear","wrist cuffs","bodysuit"],
             ["u.a. school uniform"],
-            ["u.a. school uniform", "grey jacket"],
+            ["u.a. school uniform","grey jacket"],
             ["u.a. gym uniform"],
-            ["u.a. cheerleader uniform", "orange shirt", "orange skirt"]
+            ["u.a. cheerleader uniform","orange shirt","orange skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6748,7 +6748,7 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "ryuukyuu, red eyes, blonde hair, long hair, boku no hero academia",
         enhancers: [
-            ["mask over one eye", "head wings", "red dress", "detached sleeves", "side slit", "thigh holster"]
+            ["mask over one eye","head wings","red dress","detached sleeves","side slit","thigh holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6759,7 +6759,7 @@ const characterData = [{
         category: "My Hero Academia",
         mainTags: "la brava, brown eyes, red hair, long hair, twin tails, boku no hero academia",
         enhancers: [
-            ["white shirt", "blue vest", "pink bow", "white puffy pants", "gloves"]
+            ["white shirt","blue vest","pink bow","white puffy pants","gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6770,8 +6770,8 @@ const characterData = [{
         category: "Code Geass",
         mainTags: "c.c., yellow eyes, green hair, long hair, code geass",
         enhancers: [
-            ["white bodysuit", "sleeves past wrists", "straps"],
-            ["white shorts", "black dress", "thigh boots", "high collar", "detached sleeves"]
+            ["white bodysuit","sleeves past wrists","straps"],
+            ["white shorts","black dress","thigh boots","high collar","detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6782,10 +6782,10 @@ const characterData = [{
         category: "Code Geass",
         mainTags: "kouzuki kallen, blue eyes, red hair, short hair, code geass",
         enhancers: [
-            ["red headband", "red bodysuit", "silver jacket", "knee boots"],
-            ["red headband", "red crop top", "brown vest", "brown shorts", "detached sleeves", "red thighhighs"],
-            ["yellow jacket", "black skirt", "blue thighhighs", "necktie"],
-            ["red headband", "shiny black jacket", "black shorts", "thigh boots"]
+            ["red headband","red bodysuit","silver jacket","knee boots"],
+            ["red headband","red crop top","brown vest","brown shorts","detached sleeves","red thighhighs"],
+            ["yellow jacket","black skirt","blue thighhighs","necktie"],
+            ["red headband","shiny black jacket","black shorts","thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6796,10 +6796,10 @@ const characterData = [{
         category: "Bleach",
         mainTags: "inoue orihime, brown eyes, orange hair, long hair, bleach",
         enhancers: ["karakura high school uniform",
-            ["karakura high school uniform", "grey jacket"],
-            ["white dress", "two-sided cape"],
-            ["pink shirt", "grey pants with red stripe"],
-            ["sleeveless pink hoodie", "brown shorts", "blue thighhighs"]
+            ["karakura high school uniform","grey jacket"],
+            ["white dress","two-sided cape"],
+            ["pink shirt","grey pants with red stripe"],
+            ["sleeveless pink hoodie","brown shorts","blue thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6810,8 +6810,8 @@ const characterData = [{
         category: "Naruto",
         mainTags: "tsunade (naruto), brown eyes, blonde hair, long hair, naruto (series)",
         enhancers: [
-            ["green jacket", "grey shirt", "blue pants", "blue belt"],
-            ["aged down, ponytail, green dress", "bracers"]
+            ["green jacket","grey shirt","blue pants","blue belt"],
+            ["aged down, ponytail, green dress","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6822,8 +6822,8 @@ const characterData = [{
         category: "Naruto",
         mainTags: "yamanaka ino, green eyes, blonde hair, long hair, ponytail, naruto (series)",
         enhancers: [
-            ["purple crop top", "purple skirt", "knee pads", "elbow pads"],
-            ["puffy green vest", "black shirt", "black pants"]
+            ["purple crop top","purple skirt","knee pads","elbow pads"],
+            ["puffy green vest","black shirt","black pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6845,7 +6845,7 @@ const characterData = [{
         category: "Naruto",
         mainTags: "haruno sakura, green eyes, pink hair, long hair, naruto (series)",
         enhancers: [
-            ["red headband", "red shirt", "black shorts", "pink skirt", "gloves", "thigh holster"]
+            ["red headband","red shirt","black shorts","pink skirt","gloves","thigh holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6856,7 +6856,7 @@ const characterData = [{
         category: "Naruto",
         mainTags: "hyuuga hinata, white eyes, black hair, long hair, naruto (series)",
         enhancers: [
-            ["grey shirt", "grey shorts", "thighhighs", "thigh holster"]
+            ["grey shirt","grey shorts","thighhighs","thigh holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6867,7 +6867,7 @@ const characterData = [{
         category: "Naruto",
         mainTags: "uzumaki kushina, blue eyes, red hair, long hair, naruto (series)",
         enhancers: [
-            ["green pinafore dress", "white shirt"]
+            ["green pinafore dress","white shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6878,8 +6878,8 @@ const characterData = [{
         category: "Naruto",
         mainTags: "uchiha sarada, black eyes, black hair, short hair, naruto (series)",
         enhancers: [
-            ["glasses", "purple headband", "red shirt", "grey shorts", "thigh pouch", "detached sleeves"],
-            ["glasses", "black choker", "black coat", "two-sided coat", "single thighhigh", "fishnet thighhigh", "thigh boots", "red belt", "strapless black leotard", "leotard under clothes", "black skirt"]
+            ["glasses","purple headband","red shirt","grey shorts","thigh pouch","detached sleeves"],
+            ["glasses","black choker","black coat","two-sided coat","single thighhigh","fishnet thighhigh","thigh boots","red belt","strapless black leotard","leotard under clothes","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6890,7 +6890,7 @@ const characterData = [{
         category: "Chainsaw Man",
         mainTags: "makima (chainsaw man), yellow eyes, red hair, long hair, single braid, chainsaw man",
         enhancers: [
-            ["black pants", "white shirt", "black tie"]
+            ["black pants","white shirt","black tie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6901,7 +6901,7 @@ const characterData = [{
         category: "Chainsaw Man",
         mainTags: "reze (chainsaw man), green eyes, purple hair, short hair, chainsaw man",
         enhancers: [
-            ["white shirt", "blue ribbon", "blue choker", "black skirt"]
+            ["white shirt","blue ribbon","blue choker","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6912,7 +6912,7 @@ const characterData = [{
         category: "Chainsaw Man",
         mainTags: "yoru (chainsaw man), red eyes, black hair, long hair, chainsaw man",
         enhancers: [
-            ["fourth east high school uniform", "sleeveless black dress", "black ribbon", "white shirt", "kneehighs"]
+            ["fourth east high school uniform","sleeveless black dress","black ribbon","white shirt","kneehighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6923,8 +6923,8 @@ const characterData = [{
         category: "Chainsaw Man",
         mainTags: "himeno (chainsaw man), brown eyes, black hair, short hair, eyepatch, chainsaw man",
         enhancers: [
-            ["black suit", "suit jacket", "white shirt", "black necktie", "black pants"],
-            ["white panties", "blue tanktop"]
+            ["black suit","suit jacket","white shirt","black necktie","black pants"],
+            ["white panties","blue tanktop"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6935,8 +6935,8 @@ const characterData = [{
         category: "Chainsaw Man",
         mainTags: "power (chainsaw man), yellow eyes, blonde hair, long hair, red horns, chainsaw man",
         enhancers: [
-            ["black capri pants", "white shirt", "black necktie", "blue coat"],
-            ["red longsleeve shirt", "blue shorts"]
+            ["black capri pants","white shirt","black necktie","blue coat"],
+            ["red longsleeve shirt","blue shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6947,7 +6947,7 @@ const characterData = [{
         category: "Chainsaw Man",
         mainTags: "higashiyama kobeni, brown eyes, brown hair, short hair, ponytail, chainsaw man",
         enhancers: [
-            ["black suit", "suit jacket", "white shirt", "black necktie", "black pants"]
+            ["black suit","suit jacket","white shirt","black necktie","black pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6958,7 +6958,7 @@ const characterData = [{
         category: "Akame Ga Kill!",
         mainTags: "esdeath, blue eyes, blue hair, very long hair, akame ga kill!",
         enhancers: [
-            ["military uniform", "military hat", "peaked cap", "thigh boots"]
+            ["military uniform","military hat","peaked cap","thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6969,7 +6969,7 @@ const characterData = [{
         category: "Akame Ga Kill!",
         mainTags: "akame (akame ga kill!), red eyes, black hair, very long hair, akame ga kill!",
         enhancers: [
-            ["black pleated skirt", "sleeveless black shirt", "red necktie", "collar", "black gloves", "red belt"]
+            ["black pleated skirt","sleeveless black shirt","red necktie","collar","black gloves","red belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6980,7 +6980,7 @@ const characterData = [{
         category: "Akame Ga Kill!",
         mainTags: "najenda (akame ga kill!), purple eyes, silver hair, short hair, prosthetic arm, eyepatch, akame ga kill!",
         enhancers: [
-            ["black jacket", "black pants", "cross-laced clothes", "choker"]
+            ["black jacket","black pants","cross-laced clothes","choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -6991,7 +6991,7 @@ const characterData = [{
         category: "Akame Ga Kill!",
         mainTags: "mine (akame ga kill!), pink eyes, pink hair, long hair, twintails, akame ga kill!",
         enhancers: [
-            ["pink shirt", "pink capelet", "center frills", "black thighband pantyhose"]
+            ["pink shirt","pink capelet","center frills","black thighband pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7002,7 +7002,7 @@ const characterData = [{
         category: "Akame Ga Kill!",
         mainTags: "chelsea (akame ga kill!), brown eyes, red hair, long hair, akame ga kill!",
         enhancers: [
-            ["black hairband", "white shirt", "black vest", "red pleated skirt", "red ribbon", "headphones"]
+            ["black hairband","white shirt","black vest","red pleated skirt","red ribbon","headphones"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7013,8 +7013,8 @@ const characterData = [{
         category: "Akame Ga Kill!",
         mainTags: "leone (akame ga kill!), yellow eyes, blonde hair, long hair, akame ga kill!",
         enhancers: [
-            ["white scarf", "black tube top", "white chaps", "black panties", "belt", "detached sleeves"],
-            ["animal ears", "lion ears", "animal hands", "lion tail", "white scarf", "black tube top", "white chaps", "black panties", "belt", "detached sleeves"]
+            ["white scarf","black tube top","white chaps","black panties","belt","detached sleeves"],
+            ["animal ears","lion ears","animal hands","lion tail","white scarf","black tube top","white chaps","black panties","belt","detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7025,7 +7025,7 @@ const characterData = [{
         category: "Other",
         mainTags: "hatsune miku, blue eyes, blue hair, long hair, twin tails",
         enhancers: [
-            ["black skirt", "white sleeveless shirt", "detached sleeves", "blue necktie", "thighhighs"]
+            ["black skirt","white sleeveless shirt","detached sleeves","blue necktie","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7036,7 +7036,7 @@ const characterData = [{
         category: "Danganronpa",
         mainTags: "hinata hajime, brown eyes, brown hair, short hair, spiked hair, danganronpa (series)",
         enhancers: [
-            ["white shirt", "black necktie", "black pants"]
+            ["white shirt","black necktie","black pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7047,14 +7047,14 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "erza scarlet, brown eyes, red hair, long hair, fairy tail",
         enhancers: [
-            ["armored dress", "blue skirt", "pauldrons", "gauntlets", "knee boots"],
-            ["chest sarashi", "red pants", "ponytail", "white straps", "official alternate costume"],
-            ["japanese clothes", "purple kimono", "pelvic curtain", "pink thighhighs", "bandaged arms", "official alternate costume"],
-            ["red highleg leotard", "black pantyhose", "nontraditional playboy bunny", "fake animal ears", "rabbit ears", "wrist cuffs", "detached collar"],
-            ["maid", "red vest", "white shirt", "red skirt", "white thighhighs", "maid headdress", "white gloves", "puffy short sleeves", "waist apron", "twintails", "fairy tail logo", "arm tattoo"],
-            ["ponytail", "black bikini", "side-tie bikini bottom"],
+            ["armored dress","blue skirt","pauldrons","gauntlets","knee boots"],
+            ["chest sarashi","red pants","ponytail","white straps","official alternate costume"],
+            ["japanese clothes","purple kimono","pelvic curtain","pink thighhighs","bandaged arms","official alternate costume"],
+            ["red highleg leotard","black pantyhose","nontraditional playboy bunny","fake animal ears","rabbit ears","wrist cuffs","detached collar"],
+            ["maid","red vest","white shirt","red skirt","white thighhighs","maid headdress","white gloves","puffy short sleeves","waist apron","twintails","fairy tail logo","arm tattoo"],
+            ["ponytail","black bikini","side-tie bikini bottom"],
             ["towel"],
-            ["black latex bodysuit", "hair flower"]
+            ["black latex bodysuit","hair flower"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7065,19 +7065,19 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "lucy heartfilia, brown eyes, blonde hair, long hair, fairy tail",
         enhancers: [
-            ["side ponytail", "blue ribbon", "two-tone sleeveless shirt", "collar", "blue skirt", "brown belt", "knee boots"],
-            ["twintails", "black skirt", "two-tone tube top", "blue vest", "detached sleeves", "puffy sleeves", "thighhighs", "white belt"],
-            ["high ponytail", "single detached sleeve", "black sleeve", "blue sleeveless shirt", "collar", "white skirt", "belt pouch", "thigh boots"],
-            ["double bun", "asymmetrical legwear", "cow print bikini", "bikini top only", "detached sleeves", "cow print sleeves", "fingerless gloves", "black pants", "belt", "bell collar", "official alternate costume"],
-            ["fake animal ears", "rabbit ears", "pink leotard", "black pantyhose", "detached collar", "wrist cuffs", "official alternate costume"],
-            ["fake animal ears", "rabbit ears", "red leotard", "white trim", "pantyhose", "detached collar", "wrist cuffs", "official alternate costume"],
-            ["side ponytail", "purple ribbon", "purple tube top", "white winter coat", "fur-trimmed coat", "black skirt", "white belt", "pantyhose", "knee boots", "cross-laced footwear", "official alternate costume"],
-            ["updo", "short black dress", "v-neck", "white trim", "frills", "white bow", "white belt", "belt buckle", "heart necklace", "official alternate costume"],
-            ["low twintails", "sleeveless blue shirt", "pink neck bow", "brooch", "blue skirt", "blue thighhighs", "frilled legwear", "frilled wrist cuffs", "official alternate costume"],
-            ["white bikini", "side-tie bikini bottom", "halterneck", "pink floral print", "print bikini", "official alternate costume"],
-            ["long twintails", "pink bikini", "bikini top only", "short pelvic curtain", "gold thighlet", "print bikini", "floral print", "choker", "hair ornament", "official alternate costume"],
-            ["twintails", "maid", "maid headress", "black vest", "white shirt", "puffy short sleeves", "black skirt", "waist apron", "frilled wrist cuffs", "lace-trimmed thighhighs", "white thighhighs", "black neck ribbon", "official alternate costume"],
-            ["fake animal ears", "cat ears", "cat tail", "black short shorts", "black tube top", "cross-laced clothes", "red belt", "pink trim", "neck bell", "official alternate costume"]
+            ["side ponytail","blue ribbon","two-tone sleeveless shirt","collar","blue skirt","brown belt","knee boots"],
+            ["twintails","black skirt","two-tone tube top","blue vest","detached sleeves","puffy sleeves","thighhighs","white belt"],
+            ["high ponytail","single detached sleeve","black sleeve","blue sleeveless shirt","collar","white skirt","belt pouch","thigh boots"],
+            ["double bun","asymmetrical legwear","cow print bikini","bikini top only","detached sleeves","cow print sleeves","fingerless gloves","black pants","belt","bell collar","official alternate costume"],
+            ["fake animal ears","rabbit ears","pink leotard","black pantyhose","detached collar","wrist cuffs","official alternate costume"],
+            ["fake animal ears","rabbit ears","red leotard","white trim","pantyhose","detached collar","wrist cuffs","official alternate costume"],
+            ["side ponytail","purple ribbon","purple tube top","white winter coat","fur-trimmed coat","black skirt","white belt","pantyhose","knee boots","cross-laced footwear","official alternate costume"],
+            ["updo","short black dress","v-neck","white trim","frills","white bow","white belt","belt buckle","heart necklace","official alternate costume"],
+            ["low twintails","sleeveless blue shirt","pink neck bow","brooch","blue skirt","blue thighhighs","frilled legwear","frilled wrist cuffs","official alternate costume"],
+            ["white bikini","side-tie bikini bottom","halterneck","pink floral print","print bikini","official alternate costume"],
+            ["long twintails","pink bikini","bikini top only","short pelvic curtain","gold thighlet","print bikini","floral print","choker","hair ornament","official alternate costume"],
+            ["twintails","maid","maid headress","black vest","white shirt","puffy short sleeves","black skirt","waist apron","frilled wrist cuffs","lace-trimmed thighhighs","white thighhighs","black neck ribbon","official alternate costume"],
+            ["fake animal ears","cat ears","cat tail","black short shorts","black tube top","cross-laced clothes","red belt","pink trim","neck bell","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7088,11 +7088,11 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "wendy marvell, brown eyes, blue hair, long hair, fairy tail",
         enhancers: [
-            ["twintails", "black pleated skirt", "red jacket", "white shirt", "yellow bow", "black thighhighs"],
-            ["twintails", "green sleeveless dress", "halterneck", "arm bands"],
-            ["twintails", "black latex bodysuit", "metal collar", "official alternate costume"],
-            ["twintails", "green plaid bikini", "halterneck"],
-            ["ponytail", "yellow hair bow", "green bikini", "bikini skirt", "official alternate costume"]
+            ["twintails","black pleated skirt","red jacket","white shirt","yellow bow","black thighhighs"],
+            ["twintails","green sleeveless dress","halterneck","arm bands"],
+            ["twintails","black latex bodysuit","metal collar","official alternate costume"],
+            ["twintails","green plaid bikini","halterneck"],
+            ["ponytail","yellow hair bow","green bikini","bikini skirt","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7103,9 +7103,9 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "juvia lockser, blue eyes, blue hair, long hair, fairy tail",
         enhancers: [
-            ["blue skirt", "green shirt", "blue jacket", "fur-trimmed jacket", "blue hat", "thigh boots", "waist sash"],
-            ["blue dress", "blue hat", "hat flower", "blue capelet", "fur trim", "thigh boots"],
-            ["purple bikini", "polka dot", "white frilled trim", "front-tie top", "bikini skirt"]
+            ["blue skirt","green shirt","blue jacket","fur-trimmed jacket","blue hat","thigh boots","waist sash"],
+            ["blue dress","blue hat","hat flower","blue capelet","fur trim","thigh boots"],
+            ["purple bikini","polka dot","white frilled trim","front-tie top","bikini skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7116,9 +7116,9 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "lisanna strauss, blue eyes, white hair, short hair, fairy tail",
         enhancers: [
-            ["sleeveless red dress", "pink shirt collar", "detached pink sleeves", "puffy sleeves", "kneehighs", "white ribbon"],
-            ["animal girl", "cat girl", "white cat ears", "animal feet", "cat paws", "cat tail", "white bikini", "white tiger print", "white fairy tail logo on thigh"],
-            ["purple bikini", "frilled bikini top", "halter neck", "side-tie bikini bottom", "fairy tail logo on thigh"]
+            ["sleeveless red dress","pink shirt collar","detached pink sleeves","puffy sleeves","kneehighs","white ribbon"],
+            ["animal girl","cat girl","white cat ears","animal feet","cat paws","cat tail","white bikini","white tiger print","white fairy tail logo on thigh"],
+            ["purple bikini","frilled bikini top","halter neck","side-tie bikini bottom","fairy tail logo on thigh"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7129,12 +7129,12 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "cana alberona, brown eyes, brown hair, long hair, fairy tail",
         enhancers: [
-            ["brown pants", "black frilled bikini", "strapless bikini", "bikini top only"],
-            ["brown pants", "teal bikini", "bikini top only", "arm bands", "multiple bracelets"],
-            ["striped bikini", "halterneck", "red bikini", "green stripes", "arm bands", "multiple bracelets"],
-            ["white shirt", "center frills", "pink skirt", "puffy sleeves", "pink ribbon", "yellow hat", "hat flower", "rose"],
+            ["brown pants","black frilled bikini","strapless bikini","bikini top only"],
+            ["brown pants","teal bikini","bikini top only","arm bands","multiple bracelets"],
+            ["striped bikini","halterneck","red bikini","green stripes","arm bands","multiple bracelets"],
+            ["white shirt","center frills","pink skirt","puffy sleeves","pink ribbon","yellow hat","hat flower","rose"],
             ["black latex bodysuit"],
-            ["checkered bikini", "blue and white bikini", "bikini top only", "brown capri pants", "red floral print skirt", "side slit", "arm bands", "multiple bracelets"]
+            ["checkered bikini","blue and white bikini","bikini top only","brown capri pants","red floral print skirt","side slit","arm bands","multiple bracelets"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7145,11 +7145,11 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "mirajane strauss, blue eyes, white hair, long hair, fairy tail",
         enhancers: [
-            ["black turtleneck", "long white skirt"],
-            ["long black dress", "frilled dress", "white frills", "off shoulder", "neck ribbon"],
-            ["long red dress", "pink bow on chest", "pink bow on hip", "necklace", "bracelet"],
-            ["teal bikini", "o-ring bikini", "o-ring bottom", "o-ring top", "white trim"],
-            ["black leotard", "collared leotard", "sleeveless leotard", "thighhigh boots", "zipper"]
+            ["black turtleneck","long white skirt"],
+            ["long black dress","frilled dress","white frills","off shoulder","neck ribbon"],
+            ["long red dress","pink bow on chest","pink bow on hip","necklace","bracelet"],
+            ["teal bikini","o-ring bikini","o-ring bottom","o-ring top","white trim"],
+            ["black leotard","collared leotard","sleeveless leotard","thighhigh boots","zipper"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7160,8 +7160,8 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "levy mcgarden, brown eyes, blue hair, short hair, fairy tail",
         enhancers: [
-            ["yellow hairband", "flower ornament", "orange dress", "detached sleeves", "halterneck"],
-            ["yellow hairband", "striped bikini", "red bikini", "white bikini", "halterneck"]
+            ["yellow hairband","flower ornament","orange dress","detached sleeves","halterneck"],
+            ["yellow hairband","striped bikini","red bikini","white bikini","halterneck"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7172,8 +7172,8 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "mavis vermilion, green eyes, blonde hair, long hair, fairy tail",
         enhancers: [
-            ["pink dress", "white capelet", "pink ribbon", "wing hair ornament"],
-            ["striped bikini", "blue bikini", "yellow bikini", "halterneck"]
+            ["pink dress","white capelet","pink ribbon","wing hair ornament"],
+            ["striped bikini","blue bikini","yellow bikini","halterneck"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7184,7 +7184,7 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "irene belserion, red eyes, red hair, absurdly long hair, multiple braids, fairy tail",
         enhancers: [
-            ["hat", "underboob", "heart print", "multiple braids", "black cape", "black gloves", "pelvic curtain", "thigh boots"]
+            ["hat","underboob","heart print","multiple braids","black cape","black gloves","pelvic curtain","thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7195,7 +7195,7 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "natsu dragneel, pink hair, spiked hair, yellow eyes, fairy tail",
         enhancers: [
-            ["black vest", "scarf", "white pants"]
+            ["black vest","scarf","white pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7206,7 +7206,7 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "gray fullbuster, black hair, black eyes, short hair, fairy tail",
         enhancers: [
-            ["topless male", "black pants", "belt", "belt chain"]
+            ["topless male","black pants","belt","belt chain"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7217,7 +7217,7 @@ const characterData = [{
         category: "Fairy Tail",
         mainTags: "brandish mu, green hair, short hair, green eyes, fairy tail",
         enhancers: [
-            ["blunt bangs", "purple fur trim", "long coat", "black and gold bikini", "halterneck", "collar", "hair ornament"]
+            ["blunt bangs","purple fur trim","long coat","black and gold bikini","halterneck","collar","hair ornament"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7228,9 +7228,9 @@ const characterData = [{
         category: "Highschool DxD",
         mainTags: "xenovia quarta, blue eyes, blue hair, streaked hair, short hair, high school dxd",
         enhancers: [
-            ["kuoh academy school uniform", "pink pleated skirt", "white shirt", "black corset", "black ribbon", "kneehighs"],
-            ["kuoh academy school uniform", "pink pleated skirt", "white shirt", "black corset", "black capelet", "black ribbon", "kneehighs"],
-            ["black bodysuit", "black shoulder armor", "black thighhighs", "zettai ryouiki", "short sleeves", "fingerless elbow gloves", "black gloves"]
+            ["kuoh academy school uniform","pink pleated skirt","white shirt","black corset","black ribbon","kneehighs"],
+            ["kuoh academy school uniform","pink pleated skirt","white shirt","black corset","black capelet","black ribbon","kneehighs"],
+            ["black bodysuit","black shoulder armor","black thighhighs","zettai ryouiki","short sleeves","fingerless elbow gloves","black gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7241,8 +7241,8 @@ const characterData = [{
         category: "Highschool DxD",
         mainTags: "rias gremory, blue eyes, red hair, long hair, high school dxd",
         enhancers: [
-            ["kuoh academy school uniform", "pink skirt", "black corset", "white shirt", "black ribbon", "black capelet"],
-            ["kuoh academy school uniform", "pink skirt", "black corset", "white shirt", "black ribbon"]
+            ["kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon","black capelet"],
+            ["kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7253,8 +7253,8 @@ const characterData = [{
         category: "Highschool DxD",
         mainTags: "himejima akeno, purple eyes, black hair, long hair, ponytail, high school dxd",
         enhancers: [
-            ["kuoh academy school uniform", "pink skirt", "black corset", "white shirt", "black ribbon", "black capelet"],
-            ["kuoh academy school uniform", "pink skirt", "black corset", "white shirt", "black ribbon"]
+            ["kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon","black capelet"],
+            ["kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7265,7 +7265,7 @@ const characterData = [{
         category: "Highschool DxD",
         mainTags: "kuroka (high school dxd), yellow eyes, black hair, long hair,  animal girl, cat girl, cat ears, cat tail, multiple tails, high school dxd",
         enhancers: [
-            ["black kimono", "off shoulder", "yellow obi", "hair rings"]
+            ["black kimono","off shoulder","yellow obi","hair rings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7276,8 +7276,8 @@ const characterData = [{
         category: "Highschool DxD",
         mainTags: "rossweisse, blue eyes, silver hair, long hair, high school dxd",
         enhancers: [
-            ["grey pants suit", "grey pants", "grey suit jacket", "white shirt"],
-            ["armored dress", "armor", "boobplate", "detached sleeves", "gauntlets", "faulds", "gold trim", "black leotard", "black thighhighs", "fingerless gloves"]
+            ["grey pants suit","grey pants","grey suit jacket","white shirt"],
+            ["armored dress","armor","boobplate","detached sleeves","gauntlets","faulds","gold trim","black leotard","black thighhighs","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7288,10 +7288,10 @@ const characterData = [{
         category: "Highschool DxD",
         mainTags: "toujou koneko, yellow eyes, white hair, short hair, high school dxd",
         enhancers: [
-            ["kuoh academy school uniform", "pink skirt", "black corset", "white shirt", "black ribbon", "black capelet"],
-            ["kuoh academy school uniform", "pink skirt", "black corset", "white shirt", "black ribbon"],
-            ["animal girl", "cat ears", "cat tail", "multiple tails", "kuoh academy school uniform", "pink skirt", "white shirt", "black corset", "back ribbon"],
-            ["animal girl", "cat ears", "cat tail", "multiple tails", "frilled kimono", "white kimono", "kimono skirt", "black obi", "blue pleated skirt", "medium breasts", "frilled thighhighs"]
+            ["kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon","black capelet"],
+            ["kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon"],
+            ["animal girl","cat ears","cat tail","multiple tails","kuoh academy school uniform","pink skirt","white shirt","black corset","back ribbon"],
+            ["animal girl","cat ears","cat tail","multiple tails","frilled kimono","white kimono","kimono skirt","black obi","blue pleated skirt","medium breasts","frilled thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7302,9 +7302,9 @@ const characterData = [{
         category: "Highschool DxD",
         mainTags: "shidou irina, purple eyes, brown hair, long hair, twin tails, high school dxd",
         enhancers: [
-            ["kuoh academy school uniform", "pink skirt", "black corset", "white shirt", "black ribbon", "black capelet"],
-            ["kuoh academy school uniform", "pink skirt", "black corset", "white shirt", "black ribbon"],
-            ["sleeveless black bodysuit", "black elbow gloves", "thighhighs", "zettai ryouiki", "underbust strap"]
+            ["kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon","black capelet"],
+            ["kuoh academy school uniform","pink skirt","black corset","white shirt","black ribbon"],
+            ["sleeveless black bodysuit","black elbow gloves","thighhighs","zettai ryouiki","underbust strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7315,7 +7315,7 @@ const characterData = [{
         category: "Asssassination Classroom",
         mainTags: "shiota nagisa, blue eyes, blue hair, short hair, twintails, ansatsu kyoushitsu",
         enhancers: [
-            ["kunugigaoka middle school uniform", "black necktie", "white shirt", "blue vest"]
+            ["kunugigaoka middle school uniform","black necktie","white shirt","blue vest"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7326,7 +7326,7 @@ const characterData = [{
         category: "Asssassination Classroom",
         mainTags: "irina jelavic, blue eyes, blonde hair, very long hair, ansatsu kyoushitsu",
         enhancers: [
-            ["white suit", "white skirt", "black tube top", "choker", "black belt", "sheer pantyhose"]
+            ["white suit","white skirt","black tube top","choker","black belt","sheer pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7337,7 +7337,7 @@ const characterData = [{
         category: "Asssassination Classroom",
         mainTags: "okuda manami, brown eyes, brown hair, short hair, twin braids, ansatsu kyoushitsu",
         enhancers: [
-            ["jimiko", "glasses", "kunugigaoka middle school uniform", "grey pleated skir", "grey vest", "black necktie"]
+            ["jimiko","glasses","kunugigaoka middle school uniform","grey pleated skir","grey vest","black necktie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7348,7 +7348,7 @@ const characterData = [{
         category: "Asssassination Classroom",
         mainTags: "kayano kaede, yellow eyes, green hair, short hair, twintails, ansatsu kyoushitsu",
         enhancers: [
-            ["kunugigaoka middle school uniform", "grey pleated skir", "grey vest", "black necktie", "green knee socks"]
+            ["kunugigaoka middle school uniform","grey pleated skir","grey vest","black necktie","green knee socks"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7359,7 +7359,7 @@ const characterData = [{
         category: "No Game, No Life",
         mainTags: "shiro (no game no life), blue eyes, multicolored hair, absurdly long hair, no game no life",
         enhancers: [
-            ["purple sailor dress", "orange neckerhief", "white sailor collar", "long sleeves", "wide sleeves", "sleeves past wrists", "oversized clothes", "black thighhighs"]
+            ["purple sailor dress","orange neckerhief","white sailor collar","long sleeves","wide sleeves","sleeves past wrists","oversized clothes","black thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7370,7 +7370,7 @@ const characterData = [{
         category: "No Game, No Life",
         mainTags: "jibril (no game no life), pink eyes, pink hair, gradient hair, very long hair, no game no life",
         enhancers: [
-            ["single detached sleeve", "single purple elbow glove", "purple bikini", "bikini bottom only", "white crop top", "angel wings", "low wings", "halo", "sarong"]
+            ["single detached sleeve","single purple elbow glove","purple bikini","bikini bottom only","white crop top","angel wings","low wings","halo","sarong"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7381,7 +7381,7 @@ const characterData = [{
         category: "No Game, No Life",
         mainTags: "hatsuse izuna, red eyes, purple hair, short hair, purple fox ears, purple fox tail",
         enhancers: [
-            ["pink kimono", "yellow haori", "yellow hairband", "red bow"]
+            ["pink kimono","yellow haori","yellow hairband","red bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7392,8 +7392,8 @@ const characterData = [{
         category: "Demon Slayer",
         mainTags: "kamado nezuko, pink eyes, black hair, two-tone hair, long hair, kimetsu no yaiba",
         enhancers: [
-            ["pink kimono", "pink ribbon", "checkered sash", "black coat", "bamboo gag"],
-            ["demon girl", "single demon horn", "cracked skin", "pink kimono", "pink ribbon", "checkered sash", "black coat"]
+            ["pink kimono","pink ribbon","checkered sash","black coat","bamboo gag"],
+            ["demon girl","single demon horn","cracked skin","pink kimono","pink ribbon","checkered sash","black coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7404,7 +7404,7 @@ const characterData = [{
         category: "Demon Slayer",
         mainTags: "kanroji mitsuri, green eyes, pink hair, gradient hair,long hair, twin braids, kimetsu no yaiba",
         enhancers: [
-            ["demon slayer uniform", "black skirt", "white shirt", "black jacket", "green thighhighs"]
+            ["demon slayer uniform","black skirt","white shirt","black jacket","green thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7415,7 +7415,7 @@ const characterData = [{
         category: "Demon Slayer",
         mainTags: "kochou shinobu, purple eyes, black hair, gradient hair,short hair, kimetsu no yaiba",
         enhancers: [
-            ["demon slayer uniform", "black jacket", "black pants", "butterfly hair ornament", "butterfly cloak"]
+            ["demon slayer uniform","black jacket","black pants","butterfly hair ornament","butterfly cloak"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7426,7 +7426,7 @@ const characterData = [{
         category: "Demon Slayer",
         mainTags: "kamado tanjirou, red eyes, black hair, gradient hair, scar on face, kimetsu no yaiba",
         enhancers: [
-            ["checkered haori", "brown kimono", "hanafuda earrings"]
+            ["checkered haori","brown kimono","hanafuda earrings"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7437,8 +7437,8 @@ const characterData = [{
         category: "Demon Slayer",
         mainTags: "daki (kimetsu no yaiba), green eyes, white hair, gradient hair, very long hair, facial tattoo, hair ornament, kimetsu no yaiba",
         enhancers: [
-            ["--white hair", "--gradient hair", "black hair", "brown kimono", "revealing clothes", "multicolored obi", "stirrup thighhighs"],
-            ["brown kimono", "revealing clothes", "multicolored obi", "stirrup thighhighs"]
+            ["--white hair","--gradient hair","black hair","brown kimono","revealing clothes","multicolored obi","stirrup thighhighs"],
+            ["brown kimono","revealing clothes","multicolored obi","stirrup thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7449,8 +7449,8 @@ const characterData = [{
         category: "Demon Slayer",
         mainTags: "kanzaki aoi (kimetsu no yaiba), blue eyes, black hair, twintails, butterfly hair ornament, kimetsu no yaiba",
         enhancers: [
-            ["demon slayer uniform", "black jacket", "blue skirt"],
-            ["demon slayer uniform", "black jacket", "blue skirt", "white jacket", "white skirt", "pants under skirt", "short over long sleeves"]
+            ["demon slayer uniform","black jacket","blue skirt"],
+            ["demon slayer uniform","black jacket","blue skirt","white jacket","white skirt","pants under skirt","short over long sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7461,9 +7461,9 @@ const characterData = [{
         category: "Highschool of the Dead",
         mainTags: "busujima saeko, purple eyes, purple hair, long hair, highschool of the dead",
         enhancers: [
-            ["fujimi high school uniform", "green skirt", "white shirt", "green sailor collar", "black bow", "kneehighs"],
-            ["white apron", "ponytail", "long apron", "nearly naked apron", "black thong", "side-tie panties"],
-            ["fujimi high school uniform", "white shirt", "green sailor collar", "black bow", "purple thighhighs", "black skirt", "single side slit", "side-tie panties", "armored boots"]
+            ["fujimi high school uniform","green skirt","white shirt","green sailor collar","black bow","kneehighs"],
+            ["white apron","ponytail","long apron","nearly naked apron","black thong","side-tie panties"],
+            ["fujimi high school uniform","white shirt","green sailor collar","black bow","purple thighhighs","black skirt","single side slit","side-tie panties","armored boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7474,9 +7474,9 @@ const characterData = [{
         category: "Highschool of the Dead",
         mainTags: "miyamoto rei, brown eyes, orange hair, long hair, highschool of the dead",
         enhancers: [
-            ["fujimi high school uniform", "green skirt", "white shirt", "green sailor collar", "black bow", "black thighhighs"],
-            ["pink camisole", "plain white panties"],
-            ["plaid green skirt", "white shirt", "green sailor collar", "black bow", "knee pads"]
+            ["fujimi high school uniform","green skirt","white shirt","green sailor collar","black bow","black thighhighs"],
+            ["pink camisole","plain white panties"],
+            ["plaid green skirt","white shirt","green sailor collar","black bow","knee pads"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7487,8 +7487,8 @@ const characterData = [{
         category: "Highschool of the Dead",
         mainTags: "takagi saya, glasses,brown eyes, pink hair, long hair, twin tails, highschool of the dead",
         enhancers: [
-            ["fujimi high school uniform", "green skirt", "white shirt", "green sailor collar", "black bow", "white knee socks"],
-            ["black short shorts", "blue tank top"]
+            ["fujimi high school uniform","green skirt","white shirt","green sailor collar","black bow","white knee socks"],
+            ["black short shorts","blue tank top"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7500,9 +7500,9 @@ const characterData = [{
         category: "Highschool of the Dead",
         mainTags: "marikawa shizuka, brown eyes, blonde hair, long hair, highschool of the dead",
         enhancers: [
-            ["brown pencil skirt", "torn skirt", "single side slit", "white collared shirt", "red ribbon"],
-            ["long white shirt", "no panties"],
-            ["blue turtleneck sweater", "white pants", "capri pants"]
+            ["brown pencil skirt","torn skirt","single side slit","white collared shirt","red ribbon"],
+            ["long white shirt","no panties"],
+            ["blue turtleneck sweater","white pants","capri pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7513,7 +7513,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "hestia (danmachi), blue eyes, black hair, very long hair, twintails, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["white microdress", "blue ribbon", "rei no himo", "white gloves", "hair ribbon"]
+            ["white microdress","blue ribbon","rei no himo","white gloves","hair ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7524,7 +7524,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "bell cranel, red eyes, white hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["brown coat", "chestplate", "black pants", "black shirt", "belt pouch", "brown gloves"]
+            ["brown coat","chestplate","black pants","black shirt","belt pouch","brown gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7535,7 +7535,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "ryu lion, blue eyes, blonde hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["green dress", "maid", "maid headdress", "maid apron", "black leggings", "wide sleeves"]
+            ["green dress","maid","maid headdress","maid apron","black leggings","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7546,7 +7546,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "aiz wallenstein, blue eyes, blonde hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["armor", "boobplate", "arm guards", "gauntlets", "black sleeves", "white dress", "blue thigh boots", "knee pads", "headdress"]
+            ["armor","boobplate","arm guards","gauntlets","black sleeves","white dress","blue thigh boots","knee pads","headdress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7557,7 +7557,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "liliruca arde, brown eyes, brown hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["torn clothes", "two-tone shirt", "red shirt", "red hood", "black gloves", "red skirt", "unbuttoned skirt", "belt", "unbuckled belt", "black thighhighs"]
+            ["torn clothes","two-tone shirt","red shirt","red hood","black gloves","red skirt","unbuttoned skirt","belt","unbuckled belt","black thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7568,7 +7568,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "freya (danmachi), purple eyes, silver hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["black dress", "black elbow gloves", "plunging neckline", "red trim", "detached collar", "hair ornament"]
+            ["black dress","black elbow gloves","plunging neckline","red trim","detached collar","hair ornament"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7579,7 +7579,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "tiona hyryute, dark skin, dark-skinned female, green eyes, black hair, short hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["white tube top", "bracers", "sarong", "pelvic curtain", "hair tubes", "necklace"]
+            ["white tube top","bracers","sarong","pelvic curtain","hair tubes","necklace"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7590,7 +7590,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "sanjouno haruhime, green eyes, blonde hair, long hair, fox girl, fox ears, fox tail, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["red kimono", "furisode", "black obi"]
+            ["red kimono","furisode","black obi"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7601,7 +7601,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "eina tulle, green eyes, glasses, brown hair, medium hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["black pant suit", "suit pants", "black vest", "white shirt", "grey bowtie", "black gloves"]
+            ["black pant suit","suit pants","black vest","white shirt","grey bowtie","black gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7612,7 +7612,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "yamato mikoto, black eyes, black hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["side ponytail", "purple kimono", "short kimono", "red thigh boots", "red sash", "red shoulder armor", "zettai ryouiki"]
+            ["side ponytail","purple kimono","short kimono","red thigh boots","red sash","red shoulder armor","zettai ryouiki"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7623,7 +7623,7 @@ const characterData = [{
         category: "Is it Wrong to Try to Pick Up Girls in a Dungeon",
         mainTags: "lefiya viridis, blue eyes, yellow hair, long hair, dungeon ni deai wo motomeru no wa machigatteiru darou ka",
         enhancers: [
-            ["pink suspender skirt", "high waist skirt", "white shirt", "long sleeves", "blue ascot", "hair tie"]
+            ["pink suspender skirt","high waist skirt","white shirt","long sleeves","blue ascot","hair tie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7634,8 +7634,8 @@ const characterData = [{
         category: "Overlord",
         mainTags: "albedo (overlord), yellow eyes, black hair, horns, very long hair, overlord (maruyama)",
         enhancers: [
-            ["white dress", "frilled dress", "hip vent", "black wings", "low wings", "detached collar", "white elbow gloves"],
-            ["black armor", "full armor", "boobplate", "greaves", "clawed gauntlets", "leg armor"]
+            ["white dress","frilled dress","hip vent","black wings","low wings","detached collar","white elbow gloves"],
+            ["black armor","full armor","boobplate","greaves","clawed gauntlets","leg armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7646,7 +7646,7 @@ const characterData = [{
         category: "Overlord",
         mainTags: "shalltear bloodfallen, red eyes, silver hair, short hair, overlord (maruyama)",
         enhancers: [
-            ["ponytail", "black bow", "black dress", "gothic lolita", "neck ribbon", "bonnet", "bubble skirt"]
+            ["ponytail","black bow","black dress","gothic lolita","neck ribbon","bonnet","bubble skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7657,7 +7657,7 @@ const characterData = [{
         category: "Overlord",
         mainTags: "lupusregina beta, dark skin, dark-skinned female, yellow eyes, red hair, long hair, twin braids, overlord (maruyama)",
         enhancers: [
-            ["animal ear headwear", "black bridal guantlets", "black choker", "black dress", "black hat", "wrist cuffs", "criss-cross strings", "maid", "single side slit", "white thighhighs"]
+            ["animal ear headwear","black bridal guantlets","black choker","black dress","black hat","wrist cuffs","criss-cross strings","maid","single side slit","white thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7668,7 +7668,7 @@ const characterData = [{
         category: "Overlord",
         mainTags: "clementine (overlord), red eyes, blonde hair, short hair, overlord (maruyama)",
         enhancers: [
-            ["armor", "bikini armor", "gauntlets", "shoulder pads", "asymmetrical footwear", "halterneck", "black thighhighs", "garter straps", "o-ring legwear garter", "black miniskirt"]
+            ["armor","bikini armor","gauntlets","shoulder pads","asymmetrical footwear","halterneck","black thighhighs","garter straps","o-ring legwear garter","black miniskirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7679,7 +7679,7 @@ const characterData = [{
         category: "Overlord",
         mainTags: "entoma vasilissa zeta, anthropod girl, red eyes, purple hair, short hair, overlord (maruyama)",
         enhancers: [
-            ["black kimono", "brown pantyhose", "long sleeves", "wide sleeves", "maid", "maid headdress", "ofuda on clothes"]
+            ["black kimono","brown pantyhose","long sleeves","wide sleeves","maid","maid headdress","ofuda on clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7690,7 +7690,7 @@ const characterData = [{
         category: "Overlord",
         mainTags: "solution epsilon, blue eyes, blonde hair, long hair, twin drills, overlord (maruyama)",
         enhancers: [
-            ["black dress", "puffy short sleeves", "black fingerless gloves", "black choker", "black thighhighs", "armored boots", "maid", "maid headdress", "ribbon trimmed skirt"]
+            ["black dress","puffy short sleeves","black fingerless gloves","black choker","black thighhighs","armored boots","maid","maid headdress","ribbon trimmed skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7701,7 +7701,7 @@ const characterData = [{
         category: "Overlord",
         mainTags: "yuri alpha, glasses, black eyes, black hair, short hair, overlord (maruyama)",
         enhancers: [
-            ["black dress", "maid", "maid headdress", "green arm guards", "spiked arm guards", "armored dress", "single shoulder pad", "blue ribbon", "blue choker", "hip armor"]
+            ["black dress","maid","maid headdress","green arm guards","spiked arm guards","armored dress","single shoulder pad","blue ribbon","blue choker","hip armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7712,7 +7712,7 @@ const characterData = [{
         category: "Cowboy Bebop",
         mainTags: "faye valentine, green eyes, purple hair, short hair, cowboy bebop",
         enhancers: [
-            ["orange headband", "yellow shorts", "yellow shirt", "high collar", "red jacket", "light colored pantyhose"]
+            ["orange headband","yellow shorts","yellow shirt","high collar","red jacket","light colored pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7723,7 +7723,7 @@ const characterData = [{
         category: "Cowboy Bebop",
         mainTags: "edward wong hau pepelu tivrusky iv, dark skin, dark skinned-female, brown eyes, red hair, blush stickers, short hair, cowboy bebop",
         enhancers: [
-            ["sleeveless white shirt", "midriff", "black shorts", "goggles on head"]
+            ["sleeveless white shirt","midriff","black shorts","goggles on head"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7734,7 +7734,7 @@ const characterData = [{
         category: "Cowboy Bebop",
         mainTags: "julia (cowboy bebop), blue eyes, blonde hair, long hair, cowboy bebop",
         enhancers: [
-            ["black trench coat", "red turtleneck", "black pants", "o-ring belt"]
+            ["black trench coat","red turtleneck","black pants","o-ring belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7745,8 +7745,8 @@ const characterData = [{
         category: "SPY X FAMILY",
         mainTags: "yor briar, red eyes, black hair, long hair, spy x family",
         enhancers: [
-            ["white headband", "red sweater dress", "off shoulder", "black pantyhose", "gold earrings"],
-            ["gold headband", "gold rose", "hair flower", "black halter dress", "black choker", "off shoulder", "fingerless gloves", "two-sided fabric", "thigh boots"]
+            ["white headband","red sweater dress","off shoulder","black pantyhose","gold earrings"],
+            ["gold headband","gold rose","hair flower","black halter dress","black choker","off shoulder","fingerless gloves","two-sided fabric","thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7757,8 +7757,8 @@ const characterData = [{
         category: "SPY X FAMILY",
         mainTags: "anya (spy x family), green eyes, pink hair, short hair, hair pods, spy x family",
         enhancers: [
-            ["eden academy school uniform", "black dress", "white thighhighs"],
-            ["red dress", "white collar", "yellow jacket"]
+            ["eden academy school uniform","black dress","white thighhighs"],
+            ["red dress","white collar","yellow jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7769,10 +7769,10 @@ const characterData = [{
         category: "Kim Possible",
         mainTags: "kim possible, green eyes, red hair, long hair, kim possible (series)",
         enhancers: [
-            ["green crop top", "blue capri pants"],
-            ["black turtleneck", "crop top", "black gloves", "green cargo pants", "utility belt"],
-            ["purple turtleneck", "short sleeves", "grey gloves", "black pants", "thigh holster"],
-            ["cheerleader", "purple sleeveless shirt", "crop top", "purple skirt"]
+            ["green crop top","blue capri pants"],
+            ["black turtleneck","crop top","black gloves","green cargo pants","utility belt"],
+            ["purple turtleneck","short sleeves","grey gloves","black pants","thigh holster"],
+            ["cheerleader","purple sleeveless shirt","crop top","purple skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7783,7 +7783,7 @@ const characterData = [{
         category: "Kim Possible",
         mainTags: "ann possible, blue eyes, red hair, short hair, kim possible (series)",
         enhancers: [
-            ["purple dress", "lab coat"]
+            ["purple dress","lab coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7794,7 +7794,7 @@ const characterData = [{
         category: "Kim Possible",
         mainTags: "shego, colored skin, green skin, green eyes, black hair, very long hair, black lips, kim possible (series)",
         enhancers: [
-            ["black bodysuit", "green bodysuit", "multicolored bodysuit", "black gloves", "green gloves"]
+            ["black bodysuit","green bodysuit","multicolored bodysuit","black gloves","green gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7805,7 +7805,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "scarlet witch, wanda maximoff, green eyes, brown hair, long hair, avengers (series),marvel",
         enhancers: [
-            ["superhero costume", "red highleg leotard", "headdress", "red cape", "pink pantyhose"]
+            ["superhero costume","red highleg leotard","headdress","red cape","pink pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7816,7 +7816,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "she-hulk, colored skin, green skin, muscular female, green eyes, green hair, long hair, marvel",
         enhancers: [
-            ["purple highleg leotard", "white leotard", "two-tone leotard", "fingerless purple gloves"]
+            ["purple highleg leotard","white leotard","two-tone leotard","fingerless purple gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7827,8 +7827,8 @@ const characterData = [{
         category: "Marvel",
         mainTags: "spider-gwen, gwen stacy, spider-man (series), marvel",
         enhancers: [
-            ["blue eyes", "blonde hair", "medium hair", "superhero costume", "black bodysuit", "multicolored bodysuit", "hood down", "black hairband"],
-            ["superhero costume", "white mask", "black bodysuit", "multicolored bodysuit"]
+            ["blue eyes","blonde hair","medium hair","superhero costume","black bodysuit","multicolored bodysuit","hood down","black hairband"],
+            ["superhero costume","white mask","black bodysuit","multicolored bodysuit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7839,8 +7839,8 @@ const characterData = [{
         category: "Marvel",
         mainTags: "spider-woman, jessica drew, black hair, long hair, spider-man (series), marvel",
         enhancers: [
-            ["superhero costume", "red bodysuit", "yellow gloves", "yellow knee boots", "red mask"],
-            ["green eyes", "no mask", "superhero costume", "red bodysuit", "yellow gloves", "yellow knee boots"]
+            ["superhero costume","red bodysuit","yellow gloves","yellow knee boots","red mask"],
+            ["green eyes","no mask","superhero costume","red bodysuit","yellow gloves","yellow knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7851,7 +7851,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "loki (marvel), blue eyes, black hair, medium hair, marvel cinematic universe, marvel",
         enhancers: [
-            ["black coat", "horned helmet", "fur-trimmed coat", "green shirt", "black pants", "multiple belts", "fingerless gloves"]
+            ["black coat","horned helmet","fur-trimmed coat","green shirt","black pants","multiple belts","fingerless gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7862,7 +7862,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "thor (marvel), blue eyes, blonde hair, long hair, marvel cinematic universe, marvel",
         enhancers: [
-            ["armor", "black breastplate", "red cape", "multiple belts", "sleeveless shirt", "wrist guards", "black pants"]
+            ["armor","black breastplate","red cape","multiple belts","sleeveless shirt","wrist guards","black pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7873,8 +7873,8 @@ const characterData = [{
         category: "Marvel",
         mainTags: "iron man, avengers (series), marvel",
         enhancers: [
-            ["superhero costume", "red armor", "power armor", "blue eyes", "glasses", "brown hair", "short hair", "no helmet"],
-            ["superhero costume", "red armor", "power armor"]
+            ["superhero costume","red armor","power armor","blue eyes","glasses","brown hair","short hair","no helmet"],
+            ["superhero costume","red armor","power armor"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7885,7 +7885,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "sue storm, blue eyes, blonde hair, long hair, fantastic four, marvel",
         enhancers: [
-            ["superhero costume", "skin tight", "blue bodysuit"]
+            ["superhero costume","skin tight","blue bodysuit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7896,7 +7896,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "cyclops (x-men), visor, brown hair, short hair, x-men (anime), marvel",
         enhancers: [
-            ["superhero costume", "blue bodysuit", "yellow shorts", "yellow gloves", "yellow harness", "thigh straps"]
+            ["superhero costume","blue bodysuit","yellow shorts","yellow gloves","yellow harness","thigh straps"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7907,8 +7907,8 @@ const characterData = [{
         category: "Marvel",
         mainTags: "emma frost, blue eyes, blue lips, blonde hair, long hair, x-men (anime), marvel",
         enhancers: [
-            ["superhero costume", "white corset", "cross-laced top", "white panties", "white cape", "white thigh boots", "fur-trimmed cape", "white elbow gloves"],
-            ["superhero costume", "white off-shoulder shirt", "crop top", "white pants", "white cape", "white elbow gloves"]
+            ["superhero costume","white corset","cross-laced top","white panties","white cape","white thigh boots","fur-trimmed cape","white elbow gloves"],
+            ["superhero costume","white off-shoulder shirt","crop top","white pants","white cape","white elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7919,7 +7919,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "gambit, red eyes, brown hair, short hair, x-men (anime), marvel",
         enhancers: [
-            ["black headband", "brown trenchcoat", "pink vest", "blue shirt", "black pants", "blue knee boots"]
+            ["black headband","brown trenchcoat","pink vest","blue shirt","black pants","blue knee boots"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7930,9 +7930,9 @@ const characterData = [{
         category: "Marvel",
         mainTags: "jean grey, green eyes, red hair, long hair,  x-men (anime), marvel",
         enhancers: [
-            ["phoenix (x-men)", "superhero costume", "green bodysuit", "yellow elbow gloves", "headband", "shoulder pads"],
-            ["superhero costume", "black headband", "black bodysuit", "yellow bodysuit", "two-tone bodysuit", "black shoulder pads", "fingerless elbow gloves", "black gloves"],
-            ["superhero costume", "yellow bodysuit", "blue highleg leotard", "bodysuit under clothes", "blue bracers", "blue headdress", "red forehead jewel", "blue belt"]
+            ["phoenix (x-men)","superhero costume","green bodysuit","yellow elbow gloves","headband","shoulder pads"],
+            ["superhero costume","black headband","black bodysuit","yellow bodysuit","two-tone bodysuit","black shoulder pads","fingerless elbow gloves","black gloves"],
+            ["superhero costume","yellow bodysuit","blue highleg leotard","bodysuit under clothes","blue bracers","blue headdress","red forehead jewel","blue belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7943,8 +7943,8 @@ const characterData = [{
         category: "Marvel",
         mainTags: "jubilee, brown eyes, black hair, short hair, x-men, marvel",
         enhancers: [
-            ["superhero costume", "yellow coat", "black shirt", "pink shirt", "two-tone shirt", "eyewear on head", "black fingerless gloves", "denim shorts", "black belt", "black thighhighs", "knee boots"],
-            ["superhero costume", "black bodysuit", "skintight", "pink choker", "pink belt", "yellow coat", "eyewear on head"]
+            ["superhero costume","yellow coat","black shirt","pink shirt","two-tone shirt","eyewear on head","black fingerless gloves","denim shorts","black belt","black thighhighs","knee boots"],
+            ["superhero costume","black bodysuit","skintight","pink choker","pink belt","yellow coat","eyewear on head"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7955,7 +7955,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "magik (x-men), blue eyes, blonde hair, long hair, x-men, marvel",
         enhancers: [
-            ["superhero costume", "hair decoration", "shoulder pads", "single spiked vambrace", "black crop top", "black short shorts", "leg armor", "knee pads", "single detached sleeve", "black gloves"]
+            ["superhero costume","hair decoration","shoulder pads","single spiked vambrace","black crop top","black short shorts","leg armor","knee pads","single detached sleeve","black gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7966,7 +7966,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "psylocke, purple eyes, black hair, streaked hair, purple hair, long hair, facial mark, x-men (anime), marvel",
         enhancers: [
-            ["superhero costume", "dark purple leotard", "highleg leotard", "detached sleeves", "fingerless gloves", "purple gloves", "red sash"]
+            ["superhero costume","dark purple leotard","highleg leotard","detached sleeves","fingerless gloves","purple gloves","red sash"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7977,7 +7977,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "rogue (x-men), green eyes, brown hair, white hair, two-tone hair, long hair, x-men (anime), marvel",
         enhancers: [
-            ["superhero costume", "green bodysuit", "yellow bodysuit", "two-tone bodysuit", "yellow gloves", "red belt", "brown cropped jacket"]
+            ["superhero costume","green bodysuit","yellow bodysuit","two-tone bodysuit","yellow gloves","red belt","brown cropped jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -7988,7 +7988,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "wolverine(x-men), blue eyes, black hair, short hair, x-men (anime), x-men, marvel",
         enhancers: [
-            ["superhero costume", "sleeveless bodysuit", "yellow bodysuit", "blue gloves", "claws", "blue knee boots", "yellow helmet", "fake blue horns"]
+            ["superhero costume","sleeveless bodysuit","yellow bodysuit","blue gloves","claws","blue knee boots","yellow helmet","fake blue horns"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -7999,7 +7999,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "black cat (marvel), felicia hardy, blue eyes, white hair, long hair, spider-man (series), marvel",
         enhancers: [
-            ["superhero costume", "black bodysuit", "domino mask", "fur trim", "white gloves"]
+            ["superhero costume","black bodysuit","domino mask","fur trim","white gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8010,7 +8010,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "doctor strange, gray eyes, black hair, streaked hair, short hair, doctor strange (series), marvel",
         enhancers: [
-            ["superhero costume", "blue shirt", "blue pants", "belt", "red cloak", "two-sided cloak", "eye of agamotto"]
+            ["superhero costume","blue shirt","blue pants","belt","red cloak","two-sided cloak","eye of agamotto"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8021,7 +8021,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "deadpool, deadpool (series), marvel",
         enhancers: [
-            ["superhero costume", "red bodysuit", "utility belt", "black gloves"]
+            ["superhero costume","red bodysuit","utility belt","black gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8032,7 +8032,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "gwenpool, blue eyes, blonde hair, gradient hair, short hair, deadpool (series), marvel",
         enhancers: [
-            ["superhero costume", "pink leotard", "multicolored leotard", "harness", "utility belt"]
+            ["superhero costume","pink leotard","multicolored leotard","harness","utility belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8054,7 +8054,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "doctor octopus, brown eyes, brown hair, short hair, mechanical tentacles, marvel",
         enhancers: [
-            ["superhero costume", "sunglasses", "brown trench coat", "black shirt", "black pants", "black gloves"]
+            ["superhero costume","sunglasses","brown trench coat","black shirt","black pants","black gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8065,7 +8065,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "magneto, blue eyes, white hair, short hair, x-men (anime), marvel",
         enhancers: [
-            ["superhero costume", "red bodysuit", "purple cape", "red helmet", "purple underwear", "purple gauntlets"]
+            ["superhero costume","red bodysuit","purple cape","red helmet","purple underwear","purple gauntlets"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8076,7 +8076,7 @@ const characterData = [{
         category: "Marvel",
         mainTags: "mystique, yellow eyes, red hair, medium hair, colored skin, blue skin, x-men, marvel",
         enhancers: [
-            ["superhero costume", "white dress", "pelvic curtain", "white elbow gloves", "white thigh boots"]
+            ["superhero costume","white dress","pelvic curtain","white elbow gloves","white thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8098,7 +8098,7 @@ const characterData = [{
         category: "DC",
         mainTags: " superman, blue eyes, black hair, short hair, superman (series), dc comics",
         enhancers: [
-            ["superhero costume", "blue bodysuit", "red male underwear", "red cape", "superman logo"]
+            ["superhero costume","blue bodysuit","red male underwear","red cape","superman logo"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8109,8 +8109,8 @@ const characterData = [{
         category: "DC",
         mainTags: "supergirl, blue eyes, blonde hair, long hair, superman (series), dc comics",
         enhancers: [
-            ["superhero costume", "blue shirt", "red skirt", "red cape", "superman logo"],
-            ["superhero costume", "blue crop top", "blue miniskirt", "red cape", "superman logo", "long sleeves", "red knee boots"]
+            ["superhero costume","blue shirt","red skirt","red cape","superman logo"],
+            ["superhero costume","blue crop top","blue miniskirt","red cape","superman logo","long sleeves","red knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8121,7 +8121,7 @@ const characterData = [{
         category: "DC",
         mainTags: "power girl, blue eyes, blonde hair, short hair, superman (series), dc comics",
         enhancers: [
-            ["superhero costume", "white leotard", "cleavage cutout", "blue elbow gloves", "red cape", "blue knee boots", "high collar", "red belt"]
+            ["superhero costume","white leotard","cleavage cutout","blue elbow gloves","red cape","blue knee boots","high collar","red belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8132,7 +8132,7 @@ const characterData = [{
         category: "DC",
         mainTags: "batman, blue eyes, black hair, short hair, batman (series), dc comics",
         enhancers: [
-            ["superhero costume", "black bodysuit", "black male underwear", "utility belt", "black gloves", "black cape", "batman symbol", "black mask"]
+            ["superhero costume","black bodysuit","black male underwear","utility belt","black gloves","black cape","batman symbol","black mask"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8143,8 +8143,8 @@ const characterData = [{
         category: "DC",
         mainTags: "batgirl, blue eyes, red hair, long hair, grey bodysuit, batman (series), dc comics",
         enhancers: [
-            ["superhero costume", "black bodysuit", "yellow gloves", "blue capelet", "yellow capelet", "two-sided capelet", "yellow belt", "black mask", "batman symbol"],
-            ["superhero costume", "grey bodysuit", "blue gloves", "blue capelet", "black capelet", "two-sided capelet", "yellow belt", "blue mask", "batman symbol"]
+            ["superhero costume","black bodysuit","yellow gloves","blue capelet","yellow capelet","two-sided capelet","yellow belt","black mask","batman symbol"],
+            ["superhero costume","grey bodysuit","blue gloves","blue capelet","black capelet","two-sided capelet","yellow belt","blue mask","batman symbol"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8155,8 +8155,8 @@ const characterData = [{
         category: "DC",
         mainTags: "wonder woman, blue eyes, black hair, long hair, wonder woman (series), dc comics",
         enhancers: [
-            ["superhero costume", "blue highleg leotard", "strapless leotard", "star print", "bracers", "gold headband"],
-            ["superhero costume", "red highleg leotard", "strapless leotard", "star print", "blue skirt", "bracers", "gold headband"]
+            ["superhero costume","blue highleg leotard","strapless leotard","star print","bracers","gold headband"],
+            ["superhero costume","red highleg leotard","strapless leotard","star print","blue skirt","bracers","gold headband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8167,7 +8167,7 @@ const characterData = [{
         category: "DC",
         mainTags: "green lantern, brown eyes, black hair, short hair, green lantern (series), dc comics",
         enhancers: [
-            ["superhero costume", "black bodysuit", "green domino mask", "white gloves"]
+            ["superhero costume","black bodysuit","green domino mask","white gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8178,7 +8178,7 @@ const characterData = [{
         category: "DC",
         mainTags: "the flash, blue eyes, brown hair, short hair, justice league, dc comics",
         enhancers: [
-            ["superhero costume", "red bodysuit", "hair ornament", "red helmet", "lightning bolt symbol"]
+            ["superhero costume","red bodysuit","hair ornament","red helmet","lightning bolt symbol"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8189,7 +8189,7 @@ const characterData = [{
         category: "DC",
         mainTags: "zatanna zatara, blue eyes, black hair, long hair, dc comics",
         enhancers: [
-            ["superhero costume", "fishnet pantyhose", "two-tone leotard", "black leotard", "white leotard", "thigh boots", "top hat", "black jacket"]
+            ["superhero costume","fishnet pantyhose","two-tone leotard","black leotard","white leotard","thigh boots","top hat","black jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8200,8 +8200,8 @@ const characterData = [{
         category: "DC",
         mainTags: "robin (dc), green eyes, black hair, short hair, spiked hair, batman (series), dc comics",
         enhancers: [
-            ["superhero costume", "black domino mask", "green bodysuit", "red shirt", "utility belt", "green gloves"],
-            ["superhero costume", "black domino mask", "red bodysuit", "red pants", "black male underwear", "underwear over clothes", "utility belt", "black gloves"]
+            ["superhero costume","black domino mask","green bodysuit","red shirt","utility belt","green gloves"],
+            ["superhero costume","black domino mask","red bodysuit","red pants","black male underwear","underwear over clothes","utility belt","black gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8212,7 +8212,7 @@ const characterData = [{
         category: "DC",
         mainTags: "nightwing, dick grayson,blue eyes, black hair, short hair, bodysuit, domino mask, batman (series), dc comics",
         enhancers: [
-            ["superhero costume", "black bodysuit", "blue batman symbol", "domino mask"]
+            ["superhero costume","black bodysuit","blue batman symbol","domino mask"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8223,7 +8223,7 @@ const characterData = [{
         category: "DC",
         mainTags: "beast boy (dc), green eyes, green hair, short hair, colored skin, green skin, two-tone super hero costume, teen titans, dc comics",
         enhancers: [
-            ["superhero costume", "black bodysuit", "purple bodysuit", "two-tone bodysuit", "grey gloves", "belt"]
+            ["superhero costume","black bodysuit","purple bodysuit","two-tone bodysuit","grey gloves","belt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8234,7 +8234,7 @@ const characterData = [{
         category: "DC",
         mainTags: "raven (dc), purple eyes, purple hair, short hair, colored skin, grey skin, forehead jewel, belt, black leotard, teen titans, dc comics",
         enhancers: [
-            ["superhero costume", "black highleg leotard", "purple hooded cloak", "hood up", "fingerless gloves", "belt"]
+            ["superhero costume","black highleg leotard","purple hooded cloak","hood up","fingerless gloves","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8245,8 +8245,8 @@ const characterData = [{
         category: "DC",
         mainTags: "starfire, green eyes, orange hair, long hair, tan skin, green scelera, purple crop top, purple shorts, tamaranean, teen titans, dc comics",
         enhancers: [
-            ["superhero costume", "purple crop top", "silver collar", "silver bracers", "purple skirt", "silver belt", "purple knee boots"],
-            ["superhero costume", "starfire (1980 costume)", "impossible clothes", "clothing cutouts", "plunging neckline", "purple slingshot swimsuit", "revealing clothes", "purple collar"]
+            ["superhero costume","purple crop top","silver collar","silver bracers","purple skirt","silver belt","purple knee boots"],
+            ["superhero costume","starfire (1980 costume)","impossible clothes","clothing cutouts","plunging neckline","purple slingshot swimsuit","revealing clothes","purple collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8257,7 +8257,7 @@ const characterData = [{
         category: "DC",
         mainTags: "terra (dc), blue eyes, blonde hair, long hair, teen titans, dc comics",
         enhancers: [
-            ["superhero costume", "black shirt", "yellow shorts", "midriff", "utility belt"]
+            ["superhero costume","black shirt","yellow shorts","midriff","utility belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8268,8 +8268,8 @@ const characterData = [{
         category: "DC",
         mainTags: "joker (dc), green eyes, green hair, short hair, facepaint, red lips, batman (series), dc comics",
         enhancers: [
-            ["superhero costume", "purple suit", "pinstripe suit pants", "green vest", "orange shirt", "green ascot", "white gloves"],
-            ["superhero costume", "purple suit", "yellow shirt", "blue ascot", "white gloves"]
+            ["superhero costume","purple suit","pinstripe suit pants","green vest","orange shirt","green ascot","white gloves"],
+            ["superhero costume","purple suit","yellow shirt","blue ascot","white gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8280,9 +8280,9 @@ const characterData = [{
         category: "DC",
         mainTags: "harley quinn, blue eyes, batman (series), dc comics",
         enhancers: [
-            ["harley quinn (classic)", "black bodysuit", "red bodysuit", "two-tone bodysuit", "frilled collar", "jester cap", "mask"],
-            ["harley quinn (suicide squad)", "blonde hair", "long hair", "twintails", "gradient hair", "multicolored hair", "fishnet pantyhose", "white crop top", "mutlicolored short shorts", "single fingerless glove"],
-            ["harley quinn (2021 outfit)", "blonde hair", "long hair", "twintails", "gradient hair", "multicolored hair", "green hair", "pink hair", "black pants", "red pants", "two-tone pants", "black camisole", "red camisole", "two-two camisole", "red gloves", "red choker"]
+            ["harley quinn (classic)","black bodysuit","red bodysuit","two-tone bodysuit","frilled collar","jester cap","mask"],
+            ["harley quinn (suicide squad)","blonde hair","long hair","twintails","gradient hair","multicolored hair","fishnet pantyhose","white crop top","mutlicolored short shorts","single fingerless glove"],
+            ["harley quinn (2021 outfit)","blonde hair","long hair","twintails","gradient hair","multicolored hair","green hair","pink hair","black pants","red pants","two-tone pants","black camisole","red camisole","two-two camisole","red gloves","red choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8293,8 +8293,8 @@ const characterData = [{
         category: "DC",
         mainTags: "catwoman, green eyes, black hair, short hair, batman (series), dc comics",
         enhancers: [
-            ["superhero costume", "grey bodysuit", "black elbow gloves", "mask", "fake animal ears", "yellow belt"],
-            ["superhero costume", "black latex bodysuit", "fake animal ears", "goggles on head", "black elbow gloves"]
+            ["superhero costume","grey bodysuit","black elbow gloves","mask","fake animal ears","yellow belt"],
+            ["superhero costume","black latex bodysuit","fake animal ears","goggles on head","black elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8305,9 +8305,9 @@ const characterData = [{
         category: "DC",
         mainTags: "poison ivy, green eyes, red hair, long hair, colored skin, green skin, tattoo, green lips, monster girl, batman (series), dc comics",
         enhancers: [
-            ["superhero costume", "colored skin", "green skin", "tattoo", "green lips", "monster girl", "red collared shirt", "revealing clothes", "green panties"],
-            ["superhero costume", "strapless leotard", "sleeveless leotard", "leaf highleg leotard", "leaf hair ornament"],
-            ["superhero costume", "strapless leotard", "sleeveless leotard", "green leotard", "green pantyhose", "green elbow gloves"]
+            ["superhero costume","colored skin","green skin","tattoo","green lips","monster girl","red collared shirt","revealing clothes","green panties"],
+            ["superhero costume","strapless leotard","sleeveless leotard","leaf highleg leotard","leaf hair ornament"],
+            ["superhero costume","strapless leotard","sleeveless leotard","green leotard","green pantyhose","green elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8318,7 +8318,7 @@ const characterData = [{
         category: "DC",
         mainTags: "jinx (dc), colored skin, grey skin, purple eyes, pink hair, long hair, hair horns, teen titans, dc comics",
         enhancers: [
-            ["superhero costume", "purple dress", "wide sleeves", "striped pantyhose", "purple pantyhose", "black pantyhose", "high collar"]
+            ["superhero costume","purple dress","wide sleeves","striped pantyhose","purple pantyhose","black pantyhose","high collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8329,7 +8329,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "ariel (disney), blue eyes, red hair, long hair, the little mermaid, disney",
         enhancers: [
-            ["monster girl", "fish tail", "shell bikini", "mermaid"]
+            ["monster girl","fish tail","shell bikini","mermaid"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8340,8 +8340,8 @@ const characterData = [{
         category: "Disney",
         mainTags: "belle (disney), brown eyes, brown hair, long hair, beauty and the beast, disney",
         enhancers: [
-            ["ponytail", "blue hair bow", "white shirt", "blue pinaforedress", "white waist apron"],
-            ["high ponytail", "yellow sleeveless dress", "off shoulder", "yellow elbow gloves"]
+            ["ponytail","blue hair bow","white shirt","blue pinaforedress","white waist apron"],
+            ["high ponytail","yellow sleeveless dress","off shoulder","yellow elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8375,7 +8375,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "jasmine (disney),  dark skin, dark-skinned female, brown eyes, black hair, long hair, multi-tied hair, aladdin (disney), disney",
         enhancers: [
-            ["see-through pants", "see-through clothes", "blue bandeau", "harem pants"]
+            ["see-through pants","see-through clothes","blue bandeau","harem pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8386,7 +8386,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "rapunzel (disney), green eyes, blonde hair, absurdely long hair, single braid, tangled, disney",
         enhancers: [
-            ["hair flower", "off-shoulder dress"]
+            ["hair flower","off-shoulder dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8397,7 +8397,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "snow white (disney), brown eyes, black hair, short hair, snow white and the seven dwarfs, disney",
         enhancers: [
-            ["yellow skirt", "two-tone dress", "puffy short sleeves"]
+            ["yellow skirt","two-tone dress","puffy short sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8408,8 +8408,8 @@ const characterData = [{
         category: "Disney",
         mainTags: "elsa (frozen), blue eyes, blonde hair, long hair, single braid, frozen (disney), disney",
         enhancers: [
-            ["off shoulder", "aqua dress", "blue cape"],
-            ["black shirt", "strapless blue dress", "purple cape", "pleated skirt", "long dress"]
+            ["off shoulder","aqua dress","blue cape"],
+            ["black shirt","strapless blue dress","purple cape","pleated skirt","long dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8420,8 +8420,8 @@ const characterData = [{
         category: "Disney",
         mainTags: "anna (frozen), brown hair, green eyes, long hair, frozen, disney",
         enhancers: [
-            ["braided bun", "frilled green dress", "pleated skirt", "black corset", "necklace"],
-            ["twin braids", "pink cape", "teal shirt", "blue skirt", "black corset", "knee boots"]
+            ["braided bun","frilled green dress","pleated skirt","black corset","necklace"],
+            ["twin braids","pink cape","teal shirt","blue skirt","black corset","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8432,8 +8432,8 @@ const characterData = [{
         category: "Disney",
         mainTags: "cinderella (disney), blue eyes, blonde hair, long hair, hair bun, makeup, detached sleeves, corset, elbow gloves, cinderella, disney",
         enhancers: [
-            ["blue dress", "hair bun", "makeup", "detached sleeves", "corset", "white elbow gloves"],
-            ["white bandanna", "long brown dress", "teal shirt", "long sleeves", "black vest", "white waist apron"]
+            ["blue dress","hair bun","makeup","detached sleeves","corset","white elbow gloves"],
+            ["white bandanna","long brown dress","teal shirt","long sleeves","black vest","white waist apron"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8444,7 +8444,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "tinker bell (disney), green eyes, blonde hair, short hair, hair bun, peter pan (disney), disney",
         enhancers: [
-            ["fairy", "fairy wings", "green dress"]
+            ["fairy","fairy wings","green dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8455,7 +8455,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "megara (disney), brown eyes, brown hair, long hair, ponytail, hercules (1997 film), disney",
         enhancers: [
-            ["roman", "greco-roman clothes", "sleeveless pink dress"]
+            ["roman","greco-roman clothes","sleeveless pink dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8466,7 +8466,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "hades (disney), yellow eyes, blue hair, short hair, fiery hair, colored skin, blue skin, hercules (1997 film), disney",
         enhancers: [
-            ["greco-roman clothes", "off-shoulder dress"]
+            ["greco-roman clothes","off-shoulder dress"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8477,7 +8477,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "esmeralda (disney), very dark skin, dark-skinned female, green eyes, black hair, long hair, the hunchback of notre dame, disney",
         enhancers: [
-            ["bracer", "white shirt", "puffy sleeves", "hoop earrings", "purple skirt"]
+            ["bracer","white shirt","puffy sleeves","hoop earrings","purple skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8488,7 +8488,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "pocahontas (disney), dark skin, dark-skinned female, brown eyes, black hair, long hair, pocahontas, disney",
         enhancers: [
-            ["dress", "single-shoulder dress", "tattoo", "feather earring"]
+            ["dress","single-shoulder dress","tattoo","feather earring"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8499,7 +8499,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "maid marian (disney), brown eyes, brown hair, long hair, animal nose, fox girl, fox tail, robin hood (disney), disney",
         enhancers: [
-            ["pinafore dress", "pink dress"]
+            ["pinafore dress","pink dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8510,7 +8510,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "hiro hamada, brown eyes, black hair, short hair, big hero 6, disney",
         enhancers: [
-            ["blue hoodie", "red shirt"]
+            ["blue hoodie","red shirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8521,7 +8521,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "gogo tomago, brown eyes, black hair, short hair, big hero 6, disney",
         enhancers: [
-            ["bike shorts", "open jacket"]
+            ["bike shorts","open jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8532,7 +8532,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "honey lemon, green eyes, blonde hair, long hair, glasses, big hero 6, disney",
         enhancers: [
-            ["yellow knit sweater", "sweater dress"]
+            ["yellow knit sweater","sweater dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8543,7 +8543,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "cass hamada, brown eyes, brown hair, short hair, big hero 6, disney",
         enhancers: [
-            ["green shirt", "yoga pants"]
+            ["green shirt","yoga pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8565,7 +8565,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "violet parr, blue eyes, black hair, long hair, the incredibles, disney",
         enhancers: [
-            ["eye mask", "yellow hair band", "red bodysuit"]
+            ["eye mask","yellow hair band","red bodysuit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8576,7 +8576,7 @@ const characterData = [{
         category: "Other",
         mainTags: "amane misa, yellow eyes, blonde hair, long hair, twintails, death note",
         enhancers: [
-            ["sleeveless black dress", "detached lace sleeves", "lace thighhighs", "garter straps", "cross-laced clothes"]
+            ["sleeveless black dress","detached lace sleeves","lace thighhighs","garter straps","cross-laced clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8587,8 +8587,8 @@ const characterData = [{
         category: "Other",
         mainTags: "holo, wolf girl, wolf ears, wolf tail, red eyes, brown hair, long hair, spice and wolf",
         enhancers: [
-            ["purple shirt", "black pants", "wide sleeves", "red sash"],
-            ["black skirt", "blue shirt", "black fest", "fur trim", "red sash"]
+            ["purple shirt","black pants","wide sleeves","red sash"],
+            ["black skirt","blue shirt","black fest","fur trim","red sash"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8599,7 +8599,7 @@ const characterData = [{
         category: "Other",
         mainTags: "violet evergarden, blue eyes, blonde hair, long hair, violet evergarden (series)",
         enhancers: [
-            ["blue jacket", "juliet sleeves", "pink dress", "green brooch", "brown gloves", "red ribbon"]
+            ["blue jacket","juliet sleeves","pink dress","green brooch","brown gloves","red ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8610,7 +8610,7 @@ const characterData = [{
         category: "Other",
         mainTags: "queen of hearts (alice in wonderland), black eyes, black hair, short hair, alice in wonderland",
         enhancers: [
-            ["crown", "red dress", "juliet sleeves", "wide sleeves", "frills"]
+            ["crown","red dress","juliet sleeves","wide sleeves","frills"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8632,7 +8632,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "amano maya, brown eyes, black hair, short hair, persona 2, persona",
         enhancers: [
-            ["kasugayama high school uniform", "brown jacket", "brown skirt", "blue necktie"]
+            ["kasugayama high school uniform","brown jacket","brown skirt","blue necktie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8643,7 +8643,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "lisa silverman, blue eyes, blonde hair, long hair, persona 2, persona",
         enhancers: [
-            ["kasugayama high school uniform", "black jacket", "black skirt"]
+            ["kasugayama high school uniform","black jacket","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8654,7 +8654,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "fushimi chihiro, brown eyes, brown hair, long hair, persona 2, persona",
         enhancers: [
-            ["kasugayama high school uniform", "black jacket", "black skirt"]
+            ["kasugayama high school uniform","black jacket","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8665,7 +8665,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "mishina eikichi, brown eyes, blue hair, short hair, persona 2, persona",
         enhancers: [
-            ["kasugayama high school uniform", "blue jacket", "blue pants"]
+            ["kasugayama high school uniform","blue jacket","blue pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8676,7 +8676,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "shiomi kotone, brown eyes, brown hair, long hair, ponytail, persona 3, persona",
         enhancers: [
-            ["gekkoukan high school uniform", "black jacket", "black skirt"]
+            ["gekkoukan high school uniform","black jacket","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8687,7 +8687,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "takeba yukari, brown eyes, brown hair, medium hair, persona 3, persona",
         enhancers: [
-            ["gekkoukan high school uniform", "black jacket", "black skirt"]
+            ["gekkoukan high school uniform","black jacket","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8698,7 +8698,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "kirijou mitsuru, brown eyes, red hair, long hair, persona 3, persona",
         enhancers: [
-            ["gekkoukan high school uniform", "black jacket", "black skirt"]
+            ["gekkoukan high school uniform","black jacket","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8709,7 +8709,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "yoshino chidori, brown eyes, red hair, long hair, persona 3, persona",
         enhancers: [
-            ["white cableknit sweater", "white pleated skirt", "white pantyhose", "black necktie", "white hairband"]
+            ["white cableknit sweater","white pleated skirt","white pantyhose","black necktie","white hairband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8720,7 +8720,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "metis (persona), red eyes, black hair, short hair, persona 3, persona",
         enhancers: [
-            ["armored dress", "robot joints"]
+            ["armored dress","robot joints"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8731,7 +8731,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "elizabeth (persona), yellow eyes, blonde hair, short hair, persona 3, persona",
         enhancers: [
-            ["blue dress", "blue hat", "black pantyhose"]
+            ["blue dress","blue hat","black pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8742,7 +8742,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "yamagishi fuuka, green eyes, teal hair, short hair, persona 3, persona",
         enhancers: [
-            ["gekkoukan high school uniform", "black jacket", "black skirt"]
+            ["gekkoukan high school uniform","black jacket","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8753,7 +8753,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "aigis (persona), blue eyes, blonde hair, short hair, persona 3, persona",
         enhancers: [
-            ["gekkoukan high school uniform", "black jacket", "black skirt"]
+            ["gekkoukan high school uniform","black jacket","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8764,7 +8764,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "shirogane naoto, blue eyes, blue hair, short hair, blue coat, plaid pants, persona 4, persona",
         enhancers: [
-            ["yasogami school uniform", "black jacket", "blue cabbie hat"]
+            ["yasogami school uniform","black jacket","blue cabbie hat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8775,7 +8775,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "satonaka chie, brown eyes, brown hair, short hair, persona 4, persona",
         enhancers: [
-            ["yasogami school uniform", "green coat", "fur trim", "skirt"]
+            ["yasogami school uniform","green coat","fur trim","skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8786,7 +8786,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "margaret (persona), yellow eyes, blonde hair, long hair, persona 4, persona",
         enhancers: [
-            ["blue dress", "blue hairband", "black pantyhose", "pelvic curtain"]
+            ["blue dress","blue hairband","black pantyhose","pelvic curtain"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8797,7 +8797,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "kujikawa rise, brown eyes, brown hair, long hair, twintails, black coat, black skirt, persona 4, persona",
         enhancers: [
-            ["yasogami school uniform", "black skirt", "black jacket"]
+            ["yasogami school uniform","black skirt","black jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8808,7 +8808,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "himiko (persona 4), yellow eyes, blonde hair, long hair, persona 4, persona",
         enhancers: [
-            ["yasogami school uniform", "black skirt"]
+            ["yasogami school uniform","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8819,7 +8819,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "amagi yukiko, brown eyes, black hair, long hair, persona 4, persona",
         enhancers: [
-            ["yasogami school uniform", "red shirt", "yellow neckerchief", "red skirt"]
+            ["yasogami school uniform","red shirt","yellow neckerchief","red skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8830,7 +8830,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "marie (persona 4), green eyes, black hair, short hair, persona 4, persona",
         enhancers: [
-            ["sleeveless white shirt", "collar", "red choker", "red pleated skirt", "plaid skirt", "striped fingerless gloves", "black necktie", "blue cabbie hat"]
+            ["sleeveless white shirt","collar","red choker","red pleated skirt","plaid skirt","striped fingerless gloves","black necktie","blue cabbie hat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8841,7 +8841,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "doujima nanako, brown eyes, brown hair, short hair, twintails, short twintails, persona 4, persona",
         enhancers: [
-            ["three-tone dress", "white turtleneck sweater"]
+            ["three-tone dress","white turtleneck sweater"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8852,8 +8852,8 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "takamaki anne, blue eyes, blonde hair, long hair, twintails, persona 5, persona",
         enhancers: [
-            ["shuujin academy school uniform", "striped skirt", "pleated skirt", "blue jacket", "white shirt"],
-            ["panther (persona 5)", "red bodysuit"]
+            ["shuujin academy school uniform","striped skirt","pleated skirt","blue jacket","white shirt"],
+            ["panther (persona 5)","red bodysuit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8864,8 +8864,8 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "sakura futaba, green eyes, orange hair, long hair, persona 5, persona",
         enhancers: [
-            ["black shorts", "white shirt", "green jacket", "fur-trimmed jacket", "headphones"],
-            ["oracle (persona 5)", "black bodysuit"]
+            ["black shorts","white shirt","green jacket","fur-trimmed jacket","headphones"],
+            ["oracle (persona 5)","black bodysuit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8876,8 +8876,8 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "niijima makoto, brown eyes, brown hair, short hair, persona 5, persona",
         enhancers: [
-            ["shuujin academy school uniform", "black vest", "plaid skirt"],
-            ["queen (persona 5)", "bike suit"]
+            ["shuujin academy school uniform","black vest","plaid skirt"],
+            ["queen (persona 5)","bike suit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8888,8 +8888,8 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "okumura haru, brown eyes, brown hair, short hair, persona 5, persona",
         enhancers: [
-            ["pink turtleneck sweater", "plaid skirt", "white pantyhose"],
-            ["noir (persona 5)", "eye mask", "hat", "white ascot", "pink shirt"]
+            ["pink turtleneck sweater","plaid skirt","white pantyhose"],
+            ["noir (persona 5)","eye mask","hat","white ascot","pink shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8900,8 +8900,8 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "yoshizawa kasumi, brown eyes, red hair, long hair, ponytail, persona 5, persona",
         enhancers: [
-            ["shuujin academy school uniform", "black jacket", "plaid skirt"],
-            ["violet (persona 5)", "black leotard", "leather jacket"]
+            ["shuujin academy school uniform","black jacket","plaid skirt"],
+            ["violet (persona 5)","black leotard","leather jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8912,8 +8912,8 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "amamiya ren, gray eyes, black hair, short hair, black jacket, plaid skirt, persona 5, persona",
         enhancers: [
-            ["shuujin academy school uniform", "black jacket", "plaid pants"],
-            ["joker (persona 5)", "long black coat", "eye mask"]
+            ["shuujin academy school uniform","black jacket","plaid pants"],
+            ["joker (persona 5)","long black coat","eye mask"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8924,7 +8924,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "kawakami sadayo, brown eyes, brown hair, short hair, persona 5, persona",
         enhancers: [
-            ["striped shirt", "denim skirt"]
+            ["striped shirt","denim skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8935,8 +8935,8 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "sakamoto ryuuji, brown eyes, blonde hair, short hair,persona 5, persona",
         enhancers: [
-            ["shuujin academy school uniform", "black jacket", "plaid pants"],
-            ["skull (persona 5)", "leather jacket"]
+            ["shuujin academy school uniform","black jacket","plaid pants"],
+            ["skull (persona 5)","leather jacket"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8947,7 +8947,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "kitagawa yuusuke, blue eyes, blue hair, short hair, persona 5, persona",
         enhancers: [
-            ["white shirt", "black pants"]
+            ["white shirt","black pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -8958,7 +8958,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "takemi tae, brown eyes, black hair, short hair, persona 5, persona",
         enhancers: [
-            ["black dress", "red belt", "black choker", "white lab coat"]
+            ["black dress","red belt","black choker","white lab coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8969,7 +8969,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "yoshizawa sumire, brown eyes, red hair, long hair, ponytail,persona 5, persona",
         enhancers: [
-            ["shuujin academy school uniform", "black jacket", "plaid skirt"],
+            ["shuujin academy school uniform","black jacket","plaid skirt"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8980,7 +8980,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "niijima sae, gray eyes, silver hair, long hair, persona 5, persona",
         enhancers: [
-            ["black pant suit", "black jacket", "black pants", "necklace", "wide sleeves"]
+            ["black pant suit","black jacket","black pants","necklace","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -8991,7 +8991,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "tougou hifumi, brown eyes, black hair, long hair, persona 5, persona",
         enhancers: [
-            ["kosei high school uniform", "black skirt", "blue jacket", "striped bowtie"]
+            ["kosei high school uniform","black skirt","blue jacket","striped bowtie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9002,7 +9002,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "caroline (persona 5), yellow eyes, blonde hair, short hair, persona 5, persona",
         enhancers: [
-            ["military uniform", "eyepatch", "military hat", "blue shirt", "arm band", "black shorts", "knee socks", "black necktie"]
+            ["military uniform","eyepatch","military hat","blue shirt","arm band","black shorts","knee socks","black necktie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9013,7 +9013,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "justine (persona 5), yellow eyes, blonde hair, short hair, persona 5, persona",
         enhancers: [
-            ["military uniform", "eyepatch", "military hat", "blue shirt", "arm band", "black shorts", "knee socks", "black necktie"]
+            ["military uniform","eyepatch","military hat","blue shirt","arm band","black shorts","knee socks","black necktie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9024,7 +9024,7 @@ const characterData = [{
         category: "Persona (Series)",
         mainTags: "lavenza (persona 5), yellow eyes, blonde hair, very long hair, twintails, persona 5, persona",
         enhancers: [
-            ["blue dress", "black bloomers", "black turtleneck", "black elbow gloves", "blue maid headdress", "hair ornament"]
+            ["blue dress","black bloomers","black turtleneck","black elbow gloves","blue maid headdress","hair ornament"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9035,7 +9035,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "maam, blue eyes, pink hair, long hair, dragon quest dai no daibouken, dragon quest",
         enhancers: [
-            ["pink china dress", "fingerless gloves", "bracers", "blue sash", "black pantyhose", "single shoulder pad"]
+            ["pink china dress","fingerless gloves","bracers","blue sash","black pantyhose","single shoulder pad"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9046,7 +9046,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "daisy (dq), brown eyes, blonde hair, long hair, dragon quest dai no daibouken, dragon quest",
         enhancers: [
-            ["armored dress", "bare shoulders", "boobplate", "hip armor", "belt", "brown gloves", "blue thighhighs", "pelvic curtain"]
+            ["armored dress","bare shoulders","boobplate","hip armor","belt","brown gloves","blue thighhighs","pelvic curtain"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9057,7 +9057,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "princess laura, blue eyes, blonde hair, long hair, dragon quest i, dragon quest",
         enhancers: [
-            ["yellow dress", "crown", "purple back bow", "white elbow gloves"]
+            ["yellow dress","crown","purple back bow","white elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9068,7 +9068,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "princess of moonbrook, red eyes, blonde hair, long hair, dragon quest ii, dragon quest",
         enhancers: [
-            ["white dress", "wide sleeves", "purple capelet", "hooded capelet"]
+            ["white dress","wide sleeves","purple capelet","hooded capelet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9079,7 +9079,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "warrior (dq3), brown eyes, purple hair, long hair, purple hair, dragon quest iii, dragon quest",
         enhancers: [
-            ["red armor", "bikini armor", "pelvic curtain", "detached sleeves", "red gauntlets", "thigh straps"]
+            ["red armor","bikini armor","pelvic curtain","detached sleeves","red gauntlets","thigh straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9090,7 +9090,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "sage (dq3), red eyes, blue hair, long hair, dragon quest iii, dragon quest",
         enhancers: [
-            ["sleeveless white dress", "teal cape", "circlet", "yellow elbow gloves", "belt"]
+            ["sleeveless white dress","teal cape","circlet","yellow elbow gloves","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9101,7 +9101,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "priest (dq3), red eyes, blue hair, long hair, dragon quest iii, dragon quest",
         enhancers: [
-            ["orange bodysuit", "blue tabard", "blue mitre", "yellow glove"]
+            ["orange bodysuit","blue tabard","blue mitre","yellow glove"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9112,7 +9112,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "mage (dq3), green eyes, purple hair, long hair, dragon quest iii, dragon quest",
         enhancers: [
-            ["green dress", "single side slit", "brown cloak", "high collar", "brown over-kneehighs", "purple sash", "witch hat", "black detached sleeves", "brown gloves"]
+            ["green dress","single side slit","brown cloak","high collar","brown over-kneehighs","purple sash","witch hat","black detached sleeves","brown gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9123,7 +9123,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "thief (dq3), dark skin, dark-skinned female, brown eyes, white hair, short hair, dragon quest iii, dragon quest",
         enhancers: [
-            ["black bodysuit", "yellow cropped vest", "belt", "pearl necklace", "pink gloves"]
+            ["black bodysuit","yellow cropped vest","belt","pearl necklace","pink gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9134,7 +9134,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "gadabout (dq3), blue eyes, blonde hair, long hair, blonde hair, dragon quest iii, dragon quest",
         enhancers: [
-            ["fake animal ears", "rabbit ears", "blue highleg leotard", "rabbit tail", "black pantyhose", "detached collar", "blue bow", "nontraditional playboy bunny"]
+            ["fake animal ears","rabbit ears","blue highleg leotard","rabbit tail","black pantyhose","detached collar","blue bow","nontraditional playboy bunny"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9145,7 +9145,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "merchant (dq3), brown eyes, brown hair, short hair, dragon quest iii, dragon quest",
         enhancers: [
-            ["high ponytail", "white pants", "blue vest", "arabian clothes", "white shirt", "red sash", "wrist cuffs"]
+            ["high ponytail","white pants","blue vest","arabian clothes","white shirt","red sash","wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9156,7 +9156,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "manya (dq4), dark skin, dark-skinned female, blue eyes, purple hair, long hair, dragon quest iv, dragon quest",
         enhancers: [
-            ["bikini armor", "orange pelvic curtain", "forehead jewel", "green gemstones", "thigh strap"]
+            ["bikini armor","orange pelvic curtain","forehead jewel","green gemstones","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9167,7 +9167,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "minea (dq4), brown eyes, silver hair, long hair, dark skin, dark-skinned female, dragon quest iv, dragon quest",
         enhancers: [
-            ["orange dress", "single bare shoulder", "single sleeve", "wide sleeves", "yellow skirt", "metal belt", "forehead jewel", "green gemstones"]
+            ["orange dress","single bare shoulder","single sleeve","wide sleeves","yellow skirt","metal belt","forehead jewel","green gemstones"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9178,7 +9178,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "alena (dq4), blue eyes, red hair, short hair, dragon quest iv, dragon quest",
         enhancers: [
-            ["yellow dress", "blue cape", "blue hat", "brown gloves", "black pantyhose", "belt"]
+            ["yellow dress","blue cape","blue hat","brown gloves","black pantyhose","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9189,7 +9189,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "bianca (dq5), blue eyes, blonde hair, long hair, single braid, dragon quest v, dragon quest",
         enhancers: [
-            ["green dress", "orange cape", "green knee socks", "bracers", "arm band"]
+            ["green dress","orange cape","green knee socks","bracers","arm band"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9200,7 +9200,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "hero's daughter (dq5), blue eyes, blonde hair, long hair, dragon quest v, dragon quest",
         enhancers: [
-            ["white dress", "green hair bows", "purple cape", "white gloves", "belt", "belt pouch"]
+            ["white dress","green hair bows","purple cape","white gloves","belt","belt pouch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9211,7 +9211,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "flora (dq5), blue eyes, blue hair, long hair, dragon quest v, dragon quest",
         enhancers: [
-            ["white single-shoulder dress", "purple bow", "purple corset", "silver bracers", "choker"]
+            ["white single-shoulder dress","purple bow","purple corset","silver bracers","choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9222,7 +9222,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "deborah (dq5), purple eyes, black hair, long hair, dragon quest v, dragon quest",
         enhancers: [
-            ["short pink dress", "long fur scarf", "hair flower", "red frills", "belt", "bracers"]
+            ["short pink dress","long fur scarf","hair flower","red frills","belt","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9233,7 +9233,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "barbara (dq6), purple eyes, orange hair, long hair, high ponytail, dragon quest vi, dragon quest",
         enhancers: [
-            ["blue tunic", "belt", "black detached sleeves", "yellow gloves", "red cape"]
+            ["blue tunic","belt","black detached sleeves","yellow gloves","red cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9244,7 +9244,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "mireyu, blue eyes, blonde hair, long hair, dragon quest vi, dragon quest",
         enhancers: [
-            ["blue coat", "white shirt", "white pants", "orange sash", "metal underbust", "bracers", "circlet"]
+            ["blue coat","white shirt","white pants","orange sash","metal underbust","bracers","circlet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9255,7 +9255,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "maribel (dq7), green eyes, orange hair, long hair, dragon quest vii, dragon quest",
         enhancers: [
-            ["long multicolored dress", "red dress", "green dress", "orange dress", "orange hat", "orange ribbon"]
+            ["long multicolored dress","red dress","green dress","orange dress","orange hat","orange ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9266,7 +9266,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "jessica albert, brown eyes, orange hair, long hair, twin tails, dragon quest viii, dragon quest",
         enhancers: [
-            ["purple off-shoulder shirt", "yellow corset", "red skirt", "belt pouch"]
+            ["purple off-shoulder shirt","yellow corset","red skirt","belt pouch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9277,7 +9277,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "martina (dq11), brown eyes, purple hair, long hair, high ponytail, dragon quest xi, dragon quest",
         enhancers: [
-            ["green halter top", "o-ring top", "black shorts", "green belt", "green bracers", "black fingerless gloves"]
+            ["green halter top","o-ring top","black shorts","green belt","green bracers","black fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9288,7 +9288,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "veronica (dq11), blue eyes, blonde hair, long hair, twin braids, dragon quest xi, dragon quest",
         enhancers: [
-            ["red hat", "white dress", "cross-laced clothes", "two-tone dress", "puffy short sleeves"]
+            ["red hat","white dress","cross-laced clothes","two-tone dress","puffy short sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9299,7 +9299,7 @@ const characterData = [{
         category: "Dragon Quest (Series)",
         mainTags: "senya (dq11), blue eyes, blonde hair, long hair, dragon quest xi, dragon quest",
         enhancers: [
-            ["green dress", "green headband", "white dress", "juliet sleeves", "orange sash", "blue pearl necklace"]
+            ["green dress","green headband","white dress","juliet sleeves","orange sash","blue pearl necklace"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9310,8 +9310,8 @@ const characterData = [{
         category: "Other",
         mainTags: "aya brea, blue eyes, blonde hair, short hair, black vest, ripped jeans, parasite eve i, parasite eve (series)",
         enhancers: [
-            ["black vest", "cross-laced top", "ripped jeans", "black belt", "knee boots"],
-            ["black dress", "single side slit"]
+            ["black vest","cross-laced top","ripped jeans","black belt","knee boots"],
+            ["black dress","single side slit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9322,7 +9322,7 @@ const characterData = [{
         category: "Other",
         mainTags: "regina (dino crisis), green eyes, red hair, short hair, dino crisis",
         enhancers: [
-            ["black bodysuit", "black leotard", "detached sleeves", "black fingerless gloves", "thigh holster"]
+            ["black bodysuit","black leotard","detached sleeves","black fingerless gloves","thigh holster"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9333,7 +9333,7 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "ayane (doa), purple eyes, purple hair, short hair, dead or alive",
         enhancers: [
-            ["short purple kimono", "detached sleeves", "red obi", "purple thighhighs"]
+            ["short purple kimono","detached sleeves","red obi","purple thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9344,8 +9344,8 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "marie rose, blue eyes, blonde hair, long hair, twintails, dead or alive 5, dead or alive",
         enhancers: [
-            ["black dress", "gothic lolita", "black choker", "red back bow"],
-            ["marie rose (devilish servant against the splashing waves)", "blue one-piece swimsuit", "highleg one-piece swimsuit", "see-through clothes", "blue thighhighs", "detached sleeves", "black gloves"]
+            ["black dress","gothic lolita","black choker","red back bow"],
+            ["marie rose (devilish servant against the splashing waves)","blue one-piece swimsuit","highleg one-piece swimsuit","see-through clothes","blue thighhighs","detached sleeves","black gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9356,7 +9356,7 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "kasumi (doa), brown eyes, brown hair, long hair, ponytail, dead or alive 6, dead or alive",
         enhancers: [
-            ["japanese clothes", "pelvic curtain", "white thighhighs", "arm guards"]
+            ["japanese clothes","pelvic curtain","white thighhighs","arm guards"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9367,8 +9367,8 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "honoka (doa), brown eyes, pink hair, long hair, dead or alive 6, dead or alive",
         enhancers: [
-            ["blue jacket", "plaid skirt", "thigh socks", "red necktie", "single blue glove"],
-            ["honoka (summer angel on the shore) (doa) bikini", "official alternate costume"]
+            ["blue jacket","plaid skirt","thigh socks","red necktie","single blue glove"],
+            ["honoka (summer angel on the shore) (doa) bikini","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9379,7 +9379,7 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "nyotengu, purple eyes, black hair, long hair, hair cones, wings, dead or alive 6, dead or alive",
         enhancers: [
-            ["black kimono", "yellow obi", "hair ornament", "torkin hat", "thighlets"]
+            ["black kimono","yellow obi","hair ornament","torkin hat","thighlets"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9390,7 +9390,7 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "hitomi (doa), blue eyes, brown hair, short hair, dead or alive 6, dead or alive",
         enhancers: [
-            ["karate gi", "white pants"]
+            ["karate gi","white pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9401,7 +9401,7 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "tina armstrong, blue eyes, blonde hair, long hair, dead or alive 6, dead or alive",
         enhancers: [
-            ["leather coat", "red bikini top", "two-tone leather pants"]
+            ["leather coat","red bikini top","two-tone leather pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9412,7 +9412,7 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "christie (doa), gray eyes, silver hair, short hair, dead or alive 6, dead or alive",
         enhancers: [
-            ["black sleeveless sweater", "leather pants", "black belt", "black fingerless gloves"]
+            ["black sleeveless sweater","leather pants","black belt","black fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9423,7 +9423,7 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "kokoro (doa), brown eyes, black hair, long hair, dead or alive 6, dead or alive",
         enhancers: [
-            ["chinese clothes", "sleeveless pink shirt", "detached collar", "puffy white pants", "frilled cuffs", "pink wrist ribbons"]
+            ["chinese clothes","sleeveless pink shirt","detached collar","puffy white pants","frilled cuffs","pink wrist ribbons"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9434,7 +9434,7 @@ const characterData = [{
         category: "Dead or Alive",
         mainTags: "mila (doa), brown eyes, red hair, short hair, dead or alive 6, dead or alive",
         enhancers: [
-            ["boxer", "red sports bra", "black boxing shorts", "midriff"]
+            ["boxer","red sports bra","black boxing shorts","midriff"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9467,7 +9467,7 @@ const characterData = [{
         category: "Splatoon",
         mainTags: "callie (splatoon), yellow eyes, black hair, tentacle hair, splatoon (series)",
         enhancers: [
-            ["callie (squid sister outfit) (splatoon)", "black dress", "detached collar"],
+            ["callie (squid sister outfit) (splatoon)","black dress","detached collar"],
             "callie (octo idol outfit) (splatoon)"
         ],
         defaultGender: "girl",
@@ -9479,8 +9479,8 @@ const characterData = [{
         category: "Splatoon",
         mainTags: "marie (splatoon), yellow eyes, green hair, tentacle hair, splatoon (series)",
         enhancers: [
-            ["marie (squid sister outfit) (splatoon)", "black dress", "detached collar"],
-            ["marie (octo idol outfit) (splatoon)", "marie (kimono) (splatoon)"]
+            ["marie (squid sister outfit) (splatoon)","black dress","detached collar"],
+            ["marie (octo idol outfit) (splatoon)","marie (kimono) (splatoon)"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9623,7 +9623,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "roll (mega man), blue eyes, blonde hair, long hair, mega man (series)",
         enhancers: [
-            ["red dress", "black shirt", "black sleeves", "wrist cuffs", "knee boots"]
+            ["red dress","black shirt","black sleeves","wrist cuffs","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9634,7 +9634,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "roll caskett (mega man), green eyes, blonde hair, long hair, mega man legends (series), mega man (series)",
         enhancers: [
-            ["red shorts", "black bodysuit", "red shirt", "white collar", "short sleeves", "midriff", "red hat"]
+            ["red shorts","black bodysuit","red shirt","white collar","short sleeves","midriff","red hat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9645,7 +9645,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "roll.exe (mega man), green eyes, blonde hair, long hair, mega man battle network (series), mega man (series)",
         enhancers: [
-            ["black bodysuit", "pink shirt", "helmet", "red elbow gloves", "red panties", "panties over clothes", "red thighhighs", "knee boots"]
+            ["black bodysuit","pink shirt","helmet","red elbow gloves","red panties","panties over clothes","red thighhighs","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9656,7 +9656,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "zero (mega man), blue eyes, blonde hair, long hair, ponytail, mega man (series)",
         enhancers: [
-            ["armor", "full armor", "chestplate", "helmet", "shoulder pads", "gauntlets"]
+            ["armor","full armor","chestplate","helmet","shoulder pads","gauntlets"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -9667,7 +9667,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "mega man (character), blue eyes, black hair, short hair, mega man (series)",
         enhancers: [
-            ["armor", "blue bodysuit", "helmet"]
+            ["armor","blue bodysuit","helmet"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -9678,7 +9678,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "aile (mega man zx), green eyes, brown hair, short hair, mega man zx, mega man (series)",
         enhancers: [
-            ["black bodysuit", "blue cropped jacket", "white shorts", "wrist cuffs", "fingerless gloves"]
+            ["black bodysuit","blue cropped jacket","white shorts","wrist cuffs","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9689,7 +9689,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "x (mega man), blue eyes, brown hair, short hair, mega man x, mega man (series)",
         enhancers: [
-            ["armor", "blue bodysuit", "helmet", "forehead jewel"]
+            ["armor","blue bodysuit","helmet","forehead jewel"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -9700,7 +9700,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "tron bonne (mega man), blue eyes, brown hair, medium hair, mega man legends (series), mega man (series)",
         enhancers: [
-            ["pink dress", "blue cropped jacket", "pink gloves", "wrist cuffs", "black pantyhose"]
+            ["pink dress","blue cropped jacket","pink gloves","wrist cuffs","black pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9711,7 +9711,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "zero(z) (mega man), blue eyes, blonde hair, long hair, ponytail, mega man zero (series), mega man (series)",
         enhancers: [
-            ["black bodysuit", "helmet", "red gloves", "chestplate", "forehead jewel"]
+            ["black bodysuit","helmet","red gloves","chestplate","forehead jewel"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -9722,7 +9722,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "fairy leviathan (mega man), blue eyes, blue hair, long hair, mega man zero (series), mega man (series)",
         enhancers: [
-            ["white bodysuit", "blue cropped jacket", "detached sleeves", "blue thighboots"]
+            ["white bodysuit","blue cropped jacket","detached sleeves","blue thighboots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9733,7 +9733,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "megaman.exe, blue eyes, black hair, short hair, mega man battle network (series), mega man (series)",
         enhancers: [
-            ["multicolored bodysuit", "blue glove", "blue helmet"]
+            ["multicolored bodysuit","blue glove","blue helmet"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -9744,7 +9744,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "ciel (mega man), blue eyes, blonde hair, long hair, mega man battle zero (series), mega man (series)",
         enhancers: [
-            ["black bodysuit", "sleeveless pink dress", "white gloves", "helmet"]
+            ["black bodysuit","sleeveless pink dress","white gloves","helmet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9755,7 +9755,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "iris (mega man), brown eyes, brown hair, long hair, mega man x (series), mega man (series)",
         enhancers: [
-            ["armored dress", "multicolored dress", "red dress", "blue dress", "multi-tied hair", "white pantyhose"]
+            ["armored dress","multicolored dress","red dress","blue dress","multi-tied hair","white pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9766,7 +9766,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "luna platz (mega man), blue eyes, blonde hair, long hair, twin drills, mega man star force (series), mega man (series)",
         enhancers: [
-            ["blue dress", "red ascot", "striped pantyhose", "blue pantyhose", "wide sleeves"]
+            ["blue dress","red ascot","striped pantyhose","blue pantyhose","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9777,7 +9777,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "proto man, brown eyes, brown hair, short hair, mega man (classic), mega man (series)",
         enhancers: [
-            ["grey bodysuit", "yellow scarf", "red armor", "red helmet", "red gauntlets"]
+            ["grey bodysuit","yellow scarf","red armor","red helmet","red gauntlets"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -9788,8 +9788,8 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "sonia strumm (mega man), green eyes, brown hair, short hair, mega man star force (series), mega man (series)",
         enhancers: [
-            ["pink hoodie", "striped fingerless gloves", "green shorts"],
-            ["harp note (mega man)", "black bodysuit", "pink dress", "heart", "helmet", "striped sleeves", "pink gloves", "pink knee boots", "wrist cuffs"]
+            ["pink hoodie","striped fingerless gloves","green shorts"],
+            ["harp note (mega man)","black bodysuit","pink dress","heart","helmet","striped sleeves","pink gloves","pink knee boots","wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9800,7 +9800,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "mayl sakurai (mega man), brown eyes, red hair, short hair, mega man battle network (series), mega man (series)",
         enhancers: [
-            ["green shirt", "blue vest", "pink skirt", "wide sleeves", "black thighhighs"]
+            ["green shirt","blue vest","pink skirt","wide sleeves","black thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9811,7 +9811,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "pandora (mega man), red eyes, green hair, long hair, mega man zx, mega man (series)",
         enhancers: [
-            ["black bodysuit", "white boobplate", "helmet", "white elbow gloves", "wrist cuffs", "leg armor", "robot joints"]
+            ["black bodysuit","white boobplate","helmet","white elbow gloves","wrist cuffs","leg armor","robot joints"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9822,7 +9822,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "alia (mega man), blue eyes, blonde hair, medium hair, mega man x, mega man (series)",
         enhancers: [
-            ["black bodysuit", "boobplate", "white gloves", "shoulderpads", "headset"]
+            ["black bodysuit","boobplate","white gloves","shoulderpads","headset"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9833,7 +9833,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "ashe (mega man), blue eyes, gray hair, long hair, mega man zx, mega man (series)",
         enhancers: [
-            ["black bodysuit", "orange cropped jacket", "belt", "fingerless gloves", "red headband"]
+            ["black bodysuit","orange cropped jacket","belt","fingerless gloves","red headband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9844,7 +9844,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "rico (mega man), blue eyes, blue hair, short hair, side ponytail, mega man x (series), mega man (series)",
         enhancers: [
-            ["armor", "blue bodysuit", "white boobplate", "white shorts", "white skirt", "white knee boots"]
+            ["armor","blue bodysuit","white boobplate","white shorts","white skirt","white knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9855,7 +9855,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "layer (mega man), purple eyes, purple hair, long hair, mega man x (series), mega man (series)",
         enhancers: [
-            ["robot joints", "orange bodysuit", "black pantyhose", "breast curtains", "armor", "wide sleeves"]
+            ["robot joints","orange bodysuit","black pantyhose","breast curtains","armor","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9866,7 +9866,7 @@ const characterData = [{
         category: "Mega Man",
         mainTags: "sage harpuia (mega man), green eyes, green hair, long hair, mega man zero (series), mega man (series)",
         enhancers: [
-            ["robot joints", "white bodysuit", "green armor", "green boobplate", "mechanical wings", "bikini armor", "wrist cuffs", "green thigh boots"]
+            ["robot joints","white bodysuit","green armor","green boobplate","mechanical wings","bikini armor","wrist cuffs","green thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9877,7 +9877,7 @@ const characterData = [{
         category: "Metal Gear (Series)",
         mainTags: "solid snake, blue eyes, brown hair, short hair, metal gear solid, metal gear (series)",
         enhancers: [
-            ["black headband", "grey bodysuit", "harness", "arm bands", "utility belt", "thigh holster", "thigh straps", "knee pads"]
+            ["black headband","grey bodysuit","harness","arm bands","utility belt","thigh holster","thigh straps","knee pads"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -9888,7 +9888,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "shiranui mai, brown eyes, brown hair, long hair, ponytail, the king of fighters",
         enhancers: [
-            ["japanese clothes", "obi", "sash", "pelvic curtain"]
+            ["japanese clothes","obi","sash","pelvic curtain"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9899,7 +9899,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "angel (kof), blue eyes, silver hair, short hair, the king of fighters",
         enhancers: [
-            ["cropped leather jacket", "denim chaps", "black panties", "fingerless gloves"]
+            ["cropped leather jacket","denim chaps","black panties","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9910,7 +9910,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "leona heidern, blue eyes, blue hair, long hair, ponytail, the king of fighters",
         enhancers: [
-            ["military uniform", "green cropped jacket", "green shorts", "black gloves"]
+            ["military uniform","green cropped jacket","green shorts","black gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9921,7 +9921,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "kula diamond, blue eyes, blue hair, long hair, the king of fighters",
         enhancers: [
-            ["black bodysuit", "white leotard", "red jacket", "gold gloves", "red pants"]
+            ["black bodysuit","white leotard","red jacket","gold gloves","red pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9932,7 +9932,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "yuri sakazaki, brown eyes, brown hair, long hair, single braid, the king of fighters",
         enhancers: [
-            ["karate gi", "red bandanna", "purple pantyhose", "yellow martial arts belt", "blue fingerless gloves"]
+            ["karate gi","red bandanna","purple pantyhose","yellow martial arts belt","blue fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9943,7 +9943,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "asamiya athena, purple eyes, purple hair, long hair, the king of fighters",
         enhancers: [
-            ["short red dress", "red fingerless gloves", "red hairband", "puffy short sleeves"]
+            ["short red dress","red fingerless gloves","red hairband","puffy short sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9954,7 +9954,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "shermie (kof), brown eyes, brown hair, long hair, the king of fighters",
         enhancers: [
-            ["purple collared leotard", "pink skirt", "cross-laced skirt", "pink cropped jacket", "cleavage cutout"]
+            ["purple collared leotard","pink skirt","cross-laced skirt","pink cropped jacket","cleavage cutout"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9965,7 +9965,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "terry bogard, muscular male, blue eyes, blonde hair, long hair, ponytail, the king of fighters",
         enhancers: [
-            ["red hat", "red vest", "white sleeveless shirt", "jeans", "black fingerless gloves"]
+            ["red hat","red vest","white sleeveless shirt","jeans","black fingerless gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -9976,7 +9976,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "yagami iori, red eyes, red hair, short hair, the king of fighters",
         enhancers: [
-            ["black coat", "two-sided coat", "fold-over collar", "red vest", "black shirt", "red pants", "belt", "high collar"]
+            ["black coat","two-sided coat","fold-over collar","red vest","black shirt","red pants","belt","high collar"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -9987,7 +9987,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "blue mary, blue eyes, blonde hair, short hair, the king of fighters",
         enhancers: [
-            ["red crop top", "halterneck", "blue fingerless gloves", "bracelets", "blue pants", "brown belt"]
+            ["red crop top","halterneck","blue fingerless gloves","bracelets","blue pants","brown belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -9998,7 +9998,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "whip (kof), brown eyes, brown hair, long hair, ponytail, the king of fighters",
         enhancers: [
-            ["military uniform", "brown pants", "brown jacket", "brown gloves"]
+            ["military uniform","brown pants","brown jacket","brown gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10009,7 +10009,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "king (snk), blue eyes, blonde hair, short hair, the king of fighters",
         enhancers: [
-            ["purple pants", "white shirt", "black bowtie", "black fingerless gloves", "purple vest", "yellow belt"]
+            ["purple pants","white shirt","black bowtie","black fingerless gloves","purple vest","yellow belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10020,7 +10020,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "vanessa (kof), brown eyes, red hair, short hair, the king of fighters",
         enhancers: [
-            ["pinstripe pants", "cropped white shirt", "sleeveless shirt", "red necktie", "suspenders"]
+            ["pinstripe pants","cropped white shirt","sleeveless shirt","red necktie","suspenders"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10031,7 +10031,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "ryou sakazaki, brown eyes, blonde hair, short hair, the king of fighters",
         enhancers: [
-            ["orange karate gi", "black shirt", "wrist cuffs", "black belt"]
+            ["orange karate gi","black shirt","wrist cuffs","black belt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10042,7 +10042,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "ash crimson, green eyes, blonde hair, long hair, updo, the king of fighters",
         enhancers: [
-            ["red coat", "fur-trimmed coat", "wide sleeves", "red pants", "red hairband"]
+            ["red coat","fur-trimmed coat","wide sleeves","red pants","red hairband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10053,7 +10053,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "vice (kof), brown eyes, brown hair, long hair, the king of fighters",
         enhancers: [
-            ["red vest", "black shirt", "wide sleeves", "see-through clothes", "black skirt", "black shorts", "pantyhose"]
+            ["red vest","black shirt","wide sleeves","see-through clothes","black skirt","black shorts","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10064,7 +10064,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "mature (kof), blue eyes, blonde hair, long hair, updo, the king of fighters",
         enhancers: [
-            ["black dress", "white vest", "pantyhose", "wide sleeves", "see-through clothes"]
+            ["black dress","white vest","pantyhose","wide sleeves","see-through clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10075,7 +10075,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "jenet behrn, blue eyes, blonde hair, long hair, snk, fatal fury",
         enhancers: [
-            ["purple dress", "single side-slit", "red belt", "choker", "red fingerless gloves", "bracelets", "thigh strap"]
+            ["purple dress","single side-slit","red belt","choker","red fingerless gloves","bracelets","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10086,7 +10086,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "billy kane, blue eyes, blonde hair, short hair, the king of fighters",
         enhancers: [
-            ["striped bandana", "blue jacket", "blue pants", "belt"]
+            ["striped bandana","blue jacket","blue pants","belt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10097,7 +10097,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "elisabeth blanctorche, blue eyes, black hair, short hair, the king of fighters",
         enhancers: [
-            ["purple pants", "white shirt", "cleavage cutout", "purple ascot", "purple wrist cuffs", "white knee boots"]
+            ["purple pants","white shirt","cleavage cutout","purple ascot","purple wrist cuffs","white knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10108,7 +10108,7 @@ const characterData = [{
         category: "King of Fighters / SNK",
         mainTags: "ralf jones, muscular man, brown eyes, brown hair, short hair, the king of fighters",
         enhancers: [
-            ["bandana", "white shirt", "black vest", "bandolier", "jeans"]
+            ["bandana","white shirt","black vest","bandolier","jeans"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10119,8 +10119,8 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "neptune (neptunia), purple eyes, purple hair, short hair, twintails, neptune (series)",
         enhancers: [
-            ["white hoodie", "striped thighhighs", "wide sleeves", "hair ornament"],
-            ["adult neptune", "black hoodie", "thigh strap", "black choker"]
+            ["white hoodie","striped thighhighs","wide sleeves","hair ornament"],
+            ["adult neptune","black hoodie","thigh strap","black choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10131,7 +10131,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "noire (neptunia), red eyes, black hair, long hair, hair bows, neptune (series)",
         enhancers: [
-            ["white dress", "black vest", "off-shoulder dress", "black thighhighs", "blue garter straps"]
+            ["white dress","black vest","off-shoulder dress","black thighhighs","blue garter straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10142,8 +10142,8 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "purple heart (neptunia), purple eyes, purple hair, long hair, hair ornaments, neptune (series)",
         enhancers: [
-            ["black leotard", "black thighhighs", "wrist cuffs", "cleavage cutout", "long sleeves", "black gloves"],
-            ["purple heart (goddesses' promise)", "black dress", "single side slit", "halterneck", "black elbow gloves", "plunging neckline"]
+            ["black leotard","black thighhighs","wrist cuffs","cleavage cutout","long sleeves","black gloves"],
+            ["purple heart (goddesses' promise)","black dress","single side slit","halterneck","black elbow gloves","plunging neckline"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10154,7 +10154,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "blanc (neptunia), blue eyes, brown hair, short hair, neptune (series)",
         enhancers: [
-            ["white dress", "spaghetti strap", "blue neck ribbon", "white hat", "fur-trimmed coat", "white coat", "sleeves past wrists", "wide sleeves"]
+            ["white dress","spaghetti strap","blue neck ribbon","white hat","fur-trimmed coat","white coat","sleeves past wrists","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10165,7 +10165,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "nepgear, purple eyes, purple hair, long hair, hair ornament, neptune (series)",
         enhancers: [
-            ["white dress", "yellow ribbon", "striped thighhighs", "thigh strap"]
+            ["white dress","yellow ribbon","striped thighhighs","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10176,7 +10176,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "vert (neptunia), blue eyes, blonde hair, long hair, neptune (series)",
         enhancers: [
-            ["green dress", "white dress", "multicolored dress", "pelvic curtain", "halterneck", "detached sleeves", "wrist cuffs", "frilled gloves"]
+            ["green dress","white dress","multicolored dress","pelvic curtain","halterneck","detached sleeves","wrist cuffs","frilled gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10187,7 +10187,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "black heart (neptunia), blue eyes, silver hair, long hair, neptune (series)",
         enhancers: [
-            ["black leotard", "detached sleeves", "thigh boots", "black gloves", "halterneck"]
+            ["black leotard","detached sleeves","thigh boots","black gloves","halterneck"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10198,7 +10198,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "uni (neptunia), red eyes, black hair, long hair, hair bows, neptune (series)",
         enhancers: [
-            ["black dress", "detached sleeves", "detached collar", "knee socks"]
+            ["black dress","detached sleeves","detached collar","knee socks"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10209,7 +10209,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "tennouboshi uzume, orange eyes, red hair, long hair, twintails, neptune (series)",
         enhancers: [
-            ["grey pleated skirt", "white shirt", "black suspenders", "orange necktie", "single sleeve", "fingerless gloves", "asymmetrical legwear"]
+            ["grey pleated skirt","white shirt","black suspenders","orange necktie","single sleeve","fingerless gloves","asymmetrical legwear"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10220,7 +10220,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "white heart (neptunia), red eyes, white hair, short hair, neptune (series)",
         enhancers: [
-            ["white leotard", "detached white sleeves", "clawed gauntlets", "white thighhighs"]
+            ["white leotard","detached white sleeves","clawed gauntlets","white thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10231,7 +10231,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "iris heart (neptunia), red eyes, purple hair, very long hair, neptune (series)",
         enhancers: [
-            ["black crop top", "halterneck", "black panties", "suspenders", "black detached sleeves", "wrist cuffs", "black gloves", "black chaps"]
+            ["black crop top","halterneck","black panties","suspenders","black detached sleeves","wrist cuffs","black gloves","black chaps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10242,8 +10242,8 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "rom (neptunia), blue eyes, white hair, short hair, neptune (series)",
         enhancers: [
-            ["blue hat", "blue dress", "pink bows", "fur-trimmed dress", "wide sleeves", "white pantyhose", "fur-trimmed boots", "blue knee boots"],
-            ["--white hair", "white sister rom", "blue hair", "white leotard", "pink trim", "white elbow gloves", "halterneck", "knee boots"]
+            ["blue hat","blue dress","pink bows","fur-trimmed dress","wide sleeves","white pantyhose","fur-trimmed boots","blue knee boots"],
+            ["--white hair","white sister rom","blue hair","white leotard","pink trim","white elbow gloves","halterneck","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10254,8 +10254,8 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "ram (neptunia), blue eyes, brown hair, short hair, neptune (series)",
         enhancers: [
-            ["pink hat", "pink dress", "blue bows", "fur-trimmed dress", "fur-trimmed boots", "pink boots", "white pantyhose"],
-            ["--brown hair", "white system ram", "white leotard", "pink trim", "white elbow gloves", "halterneck", "knee boots"]
+            ["pink hat","pink dress","blue bows","fur-trimmed dress","fur-trimmed boots","pink boots","white pantyhose"],
+            ["--brown hair","white system ram","white leotard","pink trim","white elbow gloves","halterneck","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10266,7 +10266,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "green heart (neptunia), green eyes, green hair, very long hair, neptune (series)",
         enhancers: [
-            ["white bikini armor", "underboob", "elbow gloves", "gauntlets", "white thigh boots"]
+            ["white bikini armor","underboob","elbow gloves","gauntlets","white thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10277,7 +10277,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "if (neptunia), green eyes, brown hair, long hair, neptune (series)",
         enhancers: [
-            ["black shirt", "black shorts", "blue coat", "wide sleeves", "sleeves past wrists", "fur-trimmed coat", "high collar", "choker", "black knee socks"]
+            ["black shirt","black shorts","blue coat","wide sleeves","sleeves past wrists","fur-trimmed coat","high collar","choker","black knee socks"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10288,7 +10288,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "purple sister, purple eyes, purple hair, long hair, neptune (series)",
         enhancers: [
-            ["black bikini armor", "harness", "black elbow gloves", "black thigh boots"]
+            ["black bikini armor","harness","black elbow gloves","black thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10299,7 +10299,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "pururut, red eyes, purple hair, long hair, single braid, neptune (series)",
         enhancers: [
-            ["multicolored dress", "off-shoulder dress", "wide sleeves", "pink boys", "striped thighhighs"]
+            ["multicolored dress","off-shoulder dress","wide sleeves","pink boys","striped thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10310,7 +10310,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "histoire, green eyes, blonde hair, very long hair, hair bows, neptune (series)",
         enhancers: [
-            ["purple dress", "blue ribbons", "white pantyhose", "headdress"]
+            ["purple dress","blue ribbons","white pantyhose","headdress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10321,7 +10321,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "orange heart (neptunia), orange eyes, orange hair, long hair, neptune (series)",
         enhancers: [
-            ["hat", "sleeveless white dress", "halterneck", "see-through cleavage", "white elbow gloves", "orange panties", "knee boots"]
+            ["hat","sleeveless white dress","halterneck","see-through cleavage","white elbow gloves","orange panties","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10332,7 +10332,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "black sister, red eyes, white hair, long hair, twin drills,  neptune (series)",
         enhancers: [
-            ["black sleeveless leotard", "black elbow gloves", "black thighhighs"]
+            ["black sleeveless leotard","black elbow gloves","black thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10343,7 +10343,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "compa, brown eyes, orange hair, long hair, neptune (series)",
         enhancers: [
-            ["black headband", "white sweater", "detached sleeves", "red plaid skirt", "lace trim thighhighs", "zettai ryouiki", "belt"]
+            ["black headband","white sweater","detached sleeves","red plaid skirt","lace trim thighhighs","zettai ryouiki","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10354,7 +10354,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "pish, purple eyes, blonde hair, short hair, hair bobbles, neptune (series)",
         enhancers: [
-            ["multicolored jacket", "animal hands", "black shorts", "two-tone jacket"]
+            ["multicolored jacket","animal hands","black shorts","two-tone jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10365,7 +10365,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "ankokuboshi kurome, blue eyes, black hair, medium hair, neptune (series)",
         enhancers: [
-            ["black bodysuit", "black jacket", "black shorts", "blue necktie", "asymmetrical legwear"]
+            ["black bodysuit","black jacket","black shorts","blue necktie","asymmetrical legwear"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10376,7 +10376,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "next purple, purple eyes, purple hair, long hair, neptune (series)",
         enhancers: [
-            ["purple bodysuit", "impossible bodysuit", "see-through clothes", "black gloves"]
+            ["purple bodysuit","impossible bodysuit","see-through clothes","black gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10387,7 +10387,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "yellow heart (neptunia), blue eyes, blonde hair, medium hair, neptune (series)",
         enhancers: [
-            ["white leotard", "detached sleeves", "white thigh boots", "white gloves"]
+            ["white leotard","detached sleeves","white thigh boots","white gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10398,8 +10398,8 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "kiseijou rei, blue eyes, blue hair, long hair, neptune (series)",
         enhancers: [
-            ["black jacket", "white shirt", "black necktie", "gauntlets", "skull belt", "black pantyhose", "white knee boots"],
-            ["kiseijou rei (goddess form)", "armored dress", "black leotard", "cleavage cutout", "black sleeves", "black gloves", "arm guards", "black leggings", "thigh cutouts", "shoulder pads"]
+            ["black jacket","white shirt","black necktie","gauntlets","skull belt","black pantyhose","white knee boots"],
+            ["kiseijou rei (goddess form)","armored dress","black leotard","cleavage cutout","black sleeves","black gloves","arm guards","black leggings","thigh cutouts","shoulder pads"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10410,7 +10410,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "nippon ichi (neptunia), purple eyes, blue hair, long hair, neptune (series)",
         enhancers: [
-            ["red scarf", "black bodysuit", "black shorts", "wrist cuffs", "black gloves", "knee boots", "headband"]
+            ["red scarf","black bodysuit","black shorts","wrist cuffs","black gloves","knee boots","headband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10421,7 +10421,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "cyberconnect2, green eyes, orange hair, short hair, neptune (series)",
         enhancers: [
-            ["animal ears", "fox ears", "fox tail", "white crop top", "white shorts", "detached sleeves", "white gloves", "goggles on head"]
+            ["animal ears","fox ears","fox tail","white crop top","white shorts","detached sleeves","white gloves","goggles on head"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10432,7 +10432,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "c-sha, brown eyes, blonde hair, long hair, neptune (series)",
         enhancers: [
-            ["blue hat", "blue sleeveless vest", "high collar", "black fingerless gloves", "white shirt", "white panties", "pantyhose", "black thigh straps", "clothing cutout"]
+            ["blue hat","blue sleeveless vest","high collar","black fingerless gloves","white shirt","white panties","pantyhose","black thigh straps","clothing cutout"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10443,7 +10443,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "5pb (neptunia), purple eyes, blue hair, long hair, neptune (series)",
         enhancers: [
-            ["black hairband", "black crop top", "frilled arm bands", "black skirt", "pink belt", "black thighhighs"]
+            ["black hairband","black crop top","frilled arm bands","black skirt","pink belt","black thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10454,7 +10454,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "red (neptunia), red eyes, red hair, short hair, neptune (series)",
         enhancers: [
-            ["red dress", "black vest", "detached sleeves", "cross-laced top", "wide sleeves", "sleeves past wrists", "gold belt"]
+            ["red dress","black vest","detached sleeves","cross-laced top","wide sleeves","sleeves past wrists","gold belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10465,7 +10465,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "k-sha, brown eyes, blonde hair, long hair, neptune (series)",
         enhancers: [
-            ["black dress", "red dress", "yellow bow", "puffy short sleeves", "knee socks", "belt", "red headband"]
+            ["black dress","red dress","yellow bow","puffy short sleeves","knee socks","belt","red headband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10476,7 +10476,7 @@ const characterData = [{
         category: "Neptune (series)",
         mainTags: "cave (neptunia), red eyes, brown hair, long hair, twintails, neptune (series)",
         enhancers: [
-            ["headdress", "white dress", "black leotard", "thighhighs", "red trim", "cross-laced clothes", "red bow"]
+            ["headdress","white dress","black leotard","thighhighs","red trim","cross-laced clothes","red bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10487,7 +10487,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "pyra (xenoblade), red eyes, red hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["core crystal (xenoblade)", "red leotard", "black fingerless gloves", "shoulder pads", "tiara"],
+            ["core crystal (xenoblade)","red leotard","black fingerless gloves","shoulder pads","tiara"],
             "pyra (pro swimmer) (xenoblade)"
         ],
         defaultGender: "girl",
@@ -10499,7 +10499,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "mythra (xenoblade), green eyes, blonde hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["mythra (massive melee) (xenoblade)", "core crystal (xenoblade)", "white dress", "detached sleeves", "halterneck", "thigh strap", "white elbow gloves"],
+            ["mythra (massive melee) (xenoblade)","core crystal (xenoblade)","white dress","detached sleeves","halterneck","thigh strap","white elbow gloves"],
             "mythra (radiant beach) (xenoblade)"
         ],
         defaultGender: "girl",
@@ -10511,8 +10511,8 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "nia (xenoblade), yellow eyes, silver hair, short hair, cat girl, cat ears, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["yellow jumpsuit", "belt", "wide sleeves", "white cloak"],
-            ["nia (blade) (xenoblade)", "white leotard", "detached sleeves", "detached collar", "white thigh boots", "sleeves past wrists"],
+            ["yellow jumpsuit","belt","wide sleeves","white cloak"],
+            ["nia (blade) (xenoblade)","white leotard","detached sleeves","detached collar","white thigh boots","sleeves past wrists"],
             ["nia (fancy sundress) (xenoblade)"]
         ],
         defaultGender: "girl",
@@ -10524,7 +10524,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "rex (xenoblade), brown eyes, brown hair, short hair, spiked hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["core crystal (xenoblade)", "blue bodysuit", "sleeveless blue vest", "gauntlets", "multiple belts"]
+            ["core crystal (xenoblade)","blue bodysuit","sleeveless blue vest","gauntlets","multiple belts"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10535,7 +10535,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "mio (xenoblade), yellow eyes, brown hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["core crystal (xenoblade)", "white shirt", "white skirt", "pantyhose", "white jacket", "white knee boots"]
+            ["core crystal (xenoblade)","white shirt","white skirt","pantyhose","white jacket","white knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10546,8 +10546,8 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "eunie (xenoblade), green eyes, brown hair, short hair, head wings, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["black bodysuit", "black choker", "black jacket", "green trim", "multiple belts"],
-            ["bikini", "blue bikini", "green bikini", "two-tone bikini", "multi-strapped bikini bottom", "sarong", "thigh strap"]
+            ["black bodysuit","black choker","black jacket","green trim","multiple belts"],
+            ["bikini","blue bikini","green bikini","two-tone bikini","multi-strapped bikini bottom","sarong","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10558,7 +10558,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "pneuma (xenoblade), green eyes, green hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["core crystal (xenoblade)", "black leotard", "pantyhose", "white armor", "cleavage cutout", "arm guards", "gauntlets", "hip armor"]
+            ["core crystal (xenoblade)","black leotard","pantyhose","white armor","cleavage cutout","arm guards","gauntlets","hip armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10569,7 +10569,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "melia antiqua, purple eyes, silver hair, twintails, curly hair, head wings, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["blue dress", "pink dress", "multicolored dress", "headdress", "capelet", "black thighhighs"]
+            ["blue dress","pink dress","multicolored dress","headdress","capelet","black thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10580,8 +10580,8 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "morag ladair (xenoblade), blue eyes, black hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["military uniform", "military jacket", "hat", "single shlouder pad", "white gloves", "hip armor", "black pants", "cape", "armored knee boots"],
-            ["black one-piece swimsuit", "see-through clothing", "official alternate costume"]
+            ["military uniform","military jacket","hat","single shlouder pad","white gloves","hip armor","black pants","cape","armored knee boots"],
+            ["black one-piece swimsuit","see-through clothing","official alternate costume"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10592,8 +10592,8 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "poppi (xenoblade), orange eyes, blue hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["poppi qtpi (xenoblade)", "robot joints", "black leotard", "detached sleeves", "black gloves", "red garter straps", "thighhighs", "thigh straps"],
-            ["poppi alpha (xenoblade)", "puffy shorts", "armor", "mechnical arms"]
+            ["poppi qtpi (xenoblade)","robot joints","black leotard","detached sleeves","black gloves","red garter straps","thighhighs","thigh straps"],
+            ["poppi alpha (xenoblade)","puffy shorts","armor","mechnical arms"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10604,9 +10604,9 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "fiora (xenoblade), green eyes, blonde hair, long hair, xenoblade chronicles 1, xenoblade chronicles (series)",
         enhancers: [
-            ["white tube top", "detached sleeves", "detached collar", "brown skirt", "multiple belts"],
-            ["mecha-fiora", "cyborg", "white armor", "robot joints", "white bodysuit", "mechanical wings"],
-            ["mecha-fiora (speed cowling)", "cyborg", "blue armor", "robot joints", "revealing clothes"]
+            ["white tube top","detached sleeves","detached collar","brown skirt","multiple belts"],
+            ["mecha-fiora","cyborg","white armor","robot joints","white bodysuit","mechanical wings"],
+            ["mecha-fiora (speed cowling)","cyborg","blue armor","robot joints","revealing clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10617,8 +10617,8 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "brighid (xenoblade), purple eyes, blue hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["see-through clothes", "purple dress", "detached sleeves", "blue gloves", "fire gloves", "thigh boots", "fire boots"],
-            ["brighid (water lily) (xenoblade)", "teal one-piece swimsuit", "cleavage cutout", "halterneck", "fire gloves", "floral print"]
+            ["see-through clothes","purple dress","detached sleeves","blue gloves","fire gloves","thigh boots","fire boots"],
+            ["brighid (water lily) (xenoblade)","teal one-piece swimsuit","cleavage cutout","halterneck","fire gloves","floral print"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10629,7 +10629,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "sena (xenoblade), blue eyes, black hair, gradient hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["blue vest", "black crop top", "blue shorts", "open vest", "black fingerless elbow gloves", "bracers", "belt", "belt pouch"]
+            ["blue vest","black crop top","blue shorts","open vest","black fingerless elbow gloves","bracers","belt","belt pouch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10640,7 +10640,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "noah (xenoblade), blue eyes, black hair, long hair, ponytail, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["red jacket", "black shirt", "black pants", "multiple belts", "knee pads"]
+            ["red jacket","black shirt","black pants","multiple belts","knee pads"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10651,8 +10651,8 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "pandoria (xenoblade), green eyes, green hair, short hair, round eyewear, pointy ears, tail, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["black shorts", "black sleeveless shirt", "robot joints", "steampunk", "high collar", "frilled gloves", "black knee boots"],
-            ["pandoria (beach date) (xenoblade)", "steampunk", "robot joints", "teal bikini", "bikini skirt", "frilled bikini", "side-tie bikini bottom"]
+            ["black shorts","black sleeveless shirt","robot joints","steampunk","high collar","frilled gloves","black knee boots"],
+            ["pandoria (beach date) (xenoblade)","steampunk","robot joints","teal bikini","bikini skirt","frilled bikini","side-tie bikini bottom"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10663,7 +10663,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "lora (xenoblade), yellow eyes, red hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["samurai armor", "red dress", "black shoulder pads", "black gauntlets", "red thighhighs", "black greaves"]
+            ["samurai armor","red dress","black shoulder pads","black gauntlets","red thighhighs","black greaves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10674,7 +10674,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "fan la norne, yellow eyes, brown hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["chest jewel", "hakama", "hakama skirt", "hagoromo", "tiara", "white coat"]
+            ["chest jewel","hakama","hakama skirt","hagoromo","tiara","white coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10685,7 +10685,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "glimmer (xenoblade), brown eyes, red hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["core crystal (xenoblade)", "white skirt", "detached sleeves", "wide sleeves", "halterneck", "black fingerless gloves", "thigh pouch"]
+            ["core crystal (xenoblade)","white skirt","detached sleeves","wide sleeves","halterneck","black fingerless gloves","thigh pouch"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10696,7 +10696,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "taion (xenoblade),  dark skin, dark-skinned male, green eyes, black hair, short hair, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["white jacket", "black pants", "bracers", "orange scarf"]
+            ["white jacket","black pants","bracers","orange scarf"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10707,7 +10707,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "ethel (xenoblade), blue eyes, silver hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["black bodysuit", "white coat", "armor", "shoulder pads", "gauntlets", "greaves", "multiple belts", "hip armor"]
+            ["black bodysuit","white coat","armor","shoulder pads","gauntlets","greaves","multiple belts","hip armor"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10718,7 +10718,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "a (xenoblade), blue eyes, white hair, long hair, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["black bodysuit", "blue armor", "blue cape", "high collar", "gauntlets", "thighhighs"]
+            ["black bodysuit","blue armor","blue cape","high collar","gauntlets","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10729,7 +10729,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "lanz (xenoblade), colored skin, grey skin, red eyes, silver hair, short hair, muscular male, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["fur-trimmed jacket", "grey shirt", "grey pants", "sleeveless jacket", "gauntlets"]
+            ["fur-trimmed jacket","grey shirt","grey pants","sleeveless jacket","gauntlets"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10740,7 +10740,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "elma (xenoblade x), dark skin, dark-skinned female, blue eyes, white hair, medium hair, xenoblade chronicles x, xenoblade chronicles (series)",
         enhancers: [
-            ["black bodysuit", "red shirt", "multiple belts", "gauntlets", "thihh boots", "high collar"]
+            ["black bodysuit","red shirt","multiple belts","gauntlets","thihh boots","high collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10751,7 +10751,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "na'el (xenoblade), green eyes, white hair, short hair, cat girl, cat ears, xenoblade chronicles 3, xenoblade chronicles (series)",
         enhancers: [
-            ["core crystal (xenoblade)", "black shirts", "white shirt", "halterneck", "grey coat", "two-sided fabric", "black thighhighs", "gradient thighhighs", "fingerless gloves"]
+            ["core crystal (xenoblade)","black shirts","white shirt","halterneck","grey coat","two-sided fabric","black thighhighs","gradient thighhighs","fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10762,7 +10762,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "sharla (xenoblade), dark skin, dark-skinned female, brown eyes, black hair, long hair, xenoblade chronicles 1, xenoblade chronicles (series)",
         enhancers: [
-            ["blue crop top", "red vest", "goggles around neck", "white short shorts", "brown gloves"]
+            ["blue crop top","red vest","goggles around neck","white short shorts","brown gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10773,7 +10773,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "praxis (xenoblade), dark skin, dark-skinned female, purple eyes, blue hair, short hair,  eyepatch, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["white jacket", "white thighhighs", "revealing clothes"]
+            ["white jacket","white thighhighs","revealing clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10784,7 +10784,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "theory (xenoblade), blue eyes, blue hair, hair bun, eyepatch, horns,xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["core crystal (xenoblade)", "black bodysuit", "impossible clothes", "armor", "shoulder pads", "hip armor", "knee boots"]
+            ["core crystal (xenoblade)","black bodysuit","impossible clothes","armor","shoulder pads","hip armor","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10795,7 +10795,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "dunban (xenoblade), brown eyes, brown hair, long hair, ahoge, xenoblade chronicles 1, xenoblade chronicles (series)",
         enhancers: [
-            ["red vest", "white shirt", "black pants", "black cloak"]
+            ["red vest","white shirt","black pants","black cloak"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10806,7 +10806,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "shulk (xenoblade), blue eyes, blonde hair, short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
         enhancers: [
-            ["black shirt", "black shorts", "red vest", "knee pads"]
+            ["black shirt","black shorts","red vest","knee pads"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10817,7 +10817,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "reyn (xenoblade), brown eyes, brown hair, short hair, xenoblade chronicles 1, xenoblade chronicles (series)",
         enhancers: [
-            ["orange crop top", "orange shorts", "leg armor", "fingerless gloves", "arm guards", "cross-laced clothes"]
+            ["orange crop top","orange shorts","leg armor","fingerless gloves","arm guards","cross-laced clothes"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10828,7 +10828,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "kassandra (xenoblade), blue eyes, purple hair, long hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["horns", "white dress", "cross-laced clothes", "detached sleeves", "fingerless gloves", "bandages", "blue garter straps"]
+            ["horns","white dress","cross-laced clothes","detached sleeves","fingerless gloves","bandages","blue garter straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10839,7 +10839,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "lin lee koo, brown eyes, black hair, short hair, xenoblade chronicles x, xenoblade chronicles (series)",
         enhancers: [
-            ["black shirt", "white vest", "brown shorts", "blue thighhighs", "black fingerless gloves", "knee boots"]
+            ["black shirt","white vest","brown shorts","blue thighhighs","black fingerless gloves","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10850,7 +10850,7 @@ const characterData = [{
         category: "Xenoblade",
         mainTags: "crossette (xenoblade), green eyes, white hair, streaked hair, short hair, xenoblade chronicles 2, xenoblade chronicles (series)",
         enhancers: [
-            ["white shirt", "white skirt", "gauntlets", "white thighhighs", "striped thighhighs", "blue garter straps"]
+            ["white shirt","white skirt","gauntlets","white thighhighs","striped thighhighs","blue garter straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10872,7 +10872,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "lucifer (helltaker), red eyes, white hair, long hair, demon girl, demon horns, demon tail, helltaker",
         enhancers: [
-            ["headdress", "pant suit", "black jacket", "black pants", "red shirt", "black necktie", "white gloves"]
+            ["headdress","pant suit","black jacket","black pants","red shirt","black necktie","white gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10883,7 +10883,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "modeus (helltaker), demon girl, small horns, demon tail, red eyes, white hair, medium hair, helltaker",
         enhancers: [
-            ["black jacket", "black skirt", "red turtleneck sweater", "red pantyhose", "knee boots"]
+            ["black jacket","black skirt","red turtleneck sweater","red pantyhose","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10894,7 +10894,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "justice (helltaker), demon girl, small horns, demon tail, red eyes, white hair, short hair, helltaker",
         enhancers: [
-            ["red headband", "black jacket", "red shirt", "short sleeves", "jacket on shoulders", "black necktie", "fingerless red gloves", "black pants", "sunglasses"]
+            ["red headband","black jacket","red shirt","short sleeves","jacket on shoulders","black necktie","fingerless red gloves","black pants","sunglasses"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10905,7 +10905,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "helltaker (character), muscular male, brown eyes, brown hair, short hair, helltaker",
         enhancers: [
-            ["white suit jacket", "red shirt", "white pants", "sunglasses"]
+            ["white suit jacket","red shirt","white pants","sunglasses"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -10916,7 +10916,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "malina (helltaker), demon girl, small horns, demon tail, red eyes, white hair, short hair, helltaker",
         enhancers: [
-            ["red shirt", "black vest", "black skirt", "pantyhose", "black knee boots"]
+            ["red shirt","black vest","black skirt","pantyhose","black knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10927,7 +10927,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "judgement (helltaker), dark skin-dark-skinned female, demon girl, horns, demon tail, white eyes, white hair, long hair, ponytail, helltaker",
         enhancers: [
-            ["black jacket", "open jacket", "gauntlets", "belt", "black panties", "black thighhighs", "thigh straps", "red armband"]
+            ["black jacket","open jacket","gauntlets","belt","black panties","black thighhighs","thigh straps","red armband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10938,7 +10938,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "azazel (helltaker), blue eyes, black hair, short hair, halo, helltaker",
         enhancers: [
-            ["white hair ribbon", "white shirt", "white pants", "gradient pants", "white gloves", "short sleeves", "cross necklace"]
+            ["white hair ribbon","white shirt","white pants","gradient pants","white gloves","short sleeves","cross necklace"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10949,7 +10949,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "zdrada (helltaker), demon girl, horns, demon tail, red eyes, white hair, short hair, helltaker",
         enhancers: [
-            ["red shirt", "black pants", "cross necklace", "black knee boots", "wrist cuffs"]
+            ["red shirt","black pants","cross necklace","black knee boots","wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10960,7 +10960,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "pandemonica (helltaker), demon girl, horns, demon tail, red eyes, glasses, white hair, short hair, helltaker",
         enhancers: [
-            ["black suit", "black skirt", "black jacket", "red shirt", "lanyard", "black gloves", "black knee boots"]
+            ["black suit","black skirt","black jacket","red shirt","lanyard","black gloves","black knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10971,7 +10971,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: " beelzebub (helltaker), demon girl, horns, demon tail, red eyes, white hair, short hair, spikes, helltaker",
         enhancers: [
-            ["red suit", "red jacket", "two-sided jacket", "red pants", "black shirt", "red vest", "red ascot", "red gloves", "red knee boots"]
+            ["red suit","red jacket","two-sided jacket","red pants","black shirt","red vest","red ascot","red gloves","red knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10982,7 +10982,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "loremaster (helltaker), demon girl, horns, demon tail, red eyes, white hair, long hair, red-tinted eyewear, helltaker",
         enhancers: [
-            ["red-tinted eyewear", "black pants", "black vest", "black necktie", "red shirt", "lab coat", "mechanical hands"]
+            ["red-tinted eyewear","black pants","black vest","black necktie","red shirt","lab coat","mechanical hands"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -10993,7 +10993,7 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "baphomet (grizz), goat girl, goat horns, goat ears, red eyes, white hair, long hair, helltaker",
         enhancers: [
-            ["black high-waist pants", "pinstripe pants", "red shirt", "sleeve cuffs", "black suspenders"]
+            ["black high-waist pants","pinstripe pants","red shirt","sleeve cuffs","black suspenders"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11004,8 +11004,8 @@ const characterData = [{
         category: "Helltaker",
         mainTags: "subject 67 (helltaker), muscular male, colored skin, red skin, demon, black eyes, skull, demon tail, neck bolts, barcode tattoo, forehead tattoo, helltaker",
         enhancers: [
-            ["black suit", "black jacket", "black vest", "red shirt", "black necktie", "black pants", "white gloves"],
-            ["white fingerless gloves", "bandaged hands", "shirtless male", "white pants"]
+            ["black suit","black jacket","black vest","red shirt","black necktie","black pants","white gloves"],
+            ["white fingerless gloves","bandaged hands","shirtless male","white pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -11016,7 +11016,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "amiya (arknights), blue eyes, brown hair, long hair, arknights",
         enhancers: [
-            ["black jacket", "white sweater", "blue skirt", "pantyhose"],
+            ["black jacket","white sweater","blue skirt","pantyhose"],
             ["amiya (newsgirl) (arknights)"],
             ["amiya (fresh fastener) (arknights)"]
         ],
@@ -11029,8 +11029,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "texas (arknights), brown eyes, black hair, short hair, arknights",
         enhancers: [
-            ["white jacket", "black capelet", "black shorts", "multiple belts", "pantyhose", "thigh strap"],
-            "texas (willpower) (arknights)", "texas (winter messenger) (arknights)", "texas (ambience synesthesia) (arknights)", "texas the omertosa (arknights)"
+            ["white jacket","black capelet","black shorts","multiple belts","pantyhose","thigh strap"],
+            "texas (willpower) (arknights)","texas (winter messenger) (arknights)","texas (ambience synesthesia) (arknights)","texas the omertosa (arknights)"
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11041,7 +11041,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "lappland (arknights), grey eyes, white hair, short hair, arknights",
         enhancers: [
-            ["black jacket", "high collar", "wide sleeves", "black shorts"],
+            ["black jacket","high collar","wide sleeves","black shorts"],
             ["lappland (refined horrormare) (arknights)"],
             ["lappland (ambience synesthesia) (arknights)"]
         ],
@@ -11054,9 +11054,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "skadi (arknights), red eyes, white hair, long hair, arknights",
         enhancers: [
-            ["witch hat", "black capelet", "white shirt", "black pants", "cutouts"],
+            ["witch hat","black capelet","white shirt","black pants","cutouts"],
             ["skadi (elite ii) (arknights)"],
-            ["skadi the corrupting heart (arknights)", "red dress", "aqua gloves", "brown ascot"],
+            ["skadi the corrupting heart (arknights)","red dress","aqua gloves","brown ascot"],
             ["skadi (waverider) (arknights)"],
             ["skadi (the next afternoon tea) (arknights)"],
             ["skadi the corrupting heart (sublimation) (arknights)"]
@@ -11070,11 +11070,11 @@ const characterData = [{
         category: "Arknights",
         mainTags: "suzuran (arknights), brown eyes, blonde hair, multiple braids, long hair, arknights",
         enhancers: [
-            ["white sleeveless shirt", "purple skirt", "white pantyhose", "thigh strap", "white cape", "two-sided cape"],
+            ["white sleeveless shirt","purple skirt","white pantyhose","thigh strap","white cape","two-sided cape"],
             ["suzuran (spring praise) (arknights)"],
             ["suzuran (yukibare) (arknights)"],
             ["suzuran (lostlands flowering) (arknights)"],
-            ["suzuran (let's carnival!) (arknights)", "orange dress"],
+            ["suzuran (let's carnival!) (arknights)","orange dress"],
             ["suzuran (pajamas) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11086,7 +11086,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "kal'tsit (arknights), green eyes, white hair, medium hair, arknights",
         enhancers: [
-            ["green dress", "off-shoulder dress", "white cape", "choker"],
+            ["green dress","off-shoulder dress","white cape","choker"],
             ["kal'tsit (remnants) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11098,8 +11098,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "exusiai (arknights), red eyes, red hair, short hair, halo, detached wings, arknights",
         enhancers: [
-            ["black shirt", "white vest", "high collar", "black skirt", "pantyhose", "fingerless gloves"],
-            ["exusiai (city rider) (arknights)", "white jacket"],
+            ["black shirt","white vest","high collar","black skirt","pantyhose","fingerless gloves"],
+            ["exusiai (city rider) (arknights)","white jacket"],
             ["exusiai (wild operation) (arknights)"],
             ["exusiai (midnight delivery) (arknights)"]
         ],
@@ -11112,7 +11112,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "ch'en (arknights), blue eyes, blue hair, long hair, arknights",
         enhancers: [
-            ["black jacket", "fingerless gloves", "white shirt", "cross-laced clothes", "black shorts", "navel", "knee boots", "orange necktie"],
+            ["black jacket","fingerless gloves","white shirt","cross-laced clothes","black shorts","navel","knee boots","orange necktie"],
             ["ch'en (ageless afterglow) (arknights)"],
             ["ch'en (after storm) (arknights)"]
         ],
@@ -11125,9 +11125,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "mudrock (arknights), red eyes, white hair, long hair, arknights",
         enhancers: [
-            ["--red eyes", "--white hair", "--long hair", "white armor", "full armor", "pelvic curtain", "helmet", "shoulder pads", "bracers", "gauntlets", "leg armor", "shin guards"],
-            ["mudrock (elite ii) (arknights)", "white armor", "off shoulder", "black crop top", "bracers", "gauntlets", "leg armor", "shin guards"],
-            ["mudrock (silent night) (arknights)", "black bikini", "hair flower", "black sash"],
+            ["--red eyes","--white hair","--long hair","white armor","full armor","pelvic curtain","helmet","shoulder pads","bracers","gauntlets","leg armor","shin guards"],
+            ["mudrock (elite ii) (arknights)","white armor","off shoulder","black crop top","bracers","gauntlets","leg armor","shin guards"],
+            ["mudrock (silent night) (arknights)","black bikini","hair flower","black sash"],
             ["mudrock (obsidian) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11139,10 +11139,10 @@ const characterData = [{
         category: "Arknights",
         mainTags: "w (arknights), red eyes, white hair, short hair, arknights",
         enhancers: [
-            ["black jacket", "white shirt", "turtleneck", "black shorts", "fishnet pantyhose", "fingerless gloves", "black skirt", "two-sided skirt"],
+            ["black jacket","white shirt","turtleneck","black shorts","fishnet pantyhose","fingerless gloves","black skirt","two-sided skirt"],
             ["w (wanted) (arknights)"],
-            ["w (fugue) (arknights)", "black cargo pants"],
-            ["w (cannot wait for) (arknights)", "yellow jacket"]
+            ["w (fugue) (arknights)","black cargo pants"],
+            ["w (cannot wait for) (arknights)","yellow jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11153,7 +11153,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "mostima (arknights), blue eyes, blue hair,  halo, detached wings, long hair, arknights",
         enhancers: [
-            ["black jacket", "fur-trimmed jacket", "white gloves", "white shirt", "black shorts"],
+            ["black jacket","fur-trimmed jacket","white gloves","white shirt","black shorts"],
             ["mostima (spellbreaker) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11165,7 +11165,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "saria (arknights), orange eyes, white hair, long hair, arknights",
         enhancers: [
-            ["white jacket", "black high-waist skirt", "straps"],
+            ["white jacket","black high-waist skirt","straps"],
             ["saria (the law) (arknights)"],
             ["saria (stronghold) (arknights)"]
         ],
@@ -11178,8 +11178,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "specter (arknights), red eyes, white hair, long hair, arknights",
         enhancers: [
-            ["nun", "habit", "black dress", "side slits", "pelvic curtain", "black thighhighs", "garter straps", "black jacket", "wide sleeves"],
-            ["specter the unchained (arknights)", "pirate hat", "black dress", "straps", "black pantyhose", "cutouts"],
+            ["nun","habit","black dress","side slits","pelvic curtain","black thighhighs","garter straps","black jacket","wide sleeves"],
+            ["specter the unchained (arknights)","pirate hat","black dress","straps","black pantyhose","cutouts"],
             ["specter (undercurrent) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11191,7 +11191,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "dusk (arknights), red eyes, black hair, gradient hair, long hair, arknights",
         enhancers: [
-            ["sleeveless white dress", "red necktie", "black jacket"],
+            ["sleeveless white dress","red necktie","black jacket"],
             ["dusk (everything is a miracle) (arknights)"],
             ["dusk (ambience synesthesia) (arknights)"]
         ],
@@ -11204,7 +11204,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "nian (arknights), purple eyes, white hair, long hair, arknights",
         enhancers: [
-            ["red tube top", "white shorts", "belt", "white jacket", "red gloves"],
+            ["red tube top","white shorts","belt","white jacket","red gloves"],
             ["nian (unfettered freedom) (arknights)"],
             ["nian (thunderbolt director) (arknights)"]
         ],
@@ -11217,7 +11217,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "angelina (arknights), brown eyes, orange hair, long hair, arknights",
         enhancers: [
-            ["black shirt", "black shorts", "white coat", "knee socks", "black gloves"],
+            ["black shirt","black shorts","white coat","knee socks","black gloves"],
             ["angelina (summer flower) (arknights)"],
             ["angelina (distinguished visitor) (arknights)"],
             ["angelina (sports) (arknights)"],
@@ -11232,7 +11232,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "shu (arknights), green eyes, multicolored hair, long hair, arknights",
         enhancers: [
-            ["white shirt", "white high-waist pants", "yellow gloves", "necklace"]
+            ["white shirt","white high-waist pants","yellow gloves","necklace"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11243,8 +11243,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "goldenglow (arknights), yellow eyes, pink hair, short hair, arknights",
         enhancers: [
-            ["white shirt", "black skirt", "pink coat", "lanyard", "white thighhighs", "garter straps"],
-            "goldenglow (maiden for the bright night) (arknights)", "goldenglow (summer flowers) (arknights)", "goldenglow (party in the garden) (arknights)"
+            ["white shirt","black skirt","pink coat","lanyard","white thighhighs","garter straps"],
+            "goldenglow (maiden for the bright night) (arknights)","goldenglow (summer flowers) (arknights)","goldenglow (party in the garden) (arknights)"
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11255,7 +11255,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "irene (arknights), blue eyes, white hair, long hair, arknights",
         enhancers: [
-            ["black dress", "two-tone skirt", "white capelet", "black gloves", "wide sleeves"],
+            ["black dress","two-tone skirt","white capelet","black gloves","wide sleeves"],
             ["irene (voyage of feathers) (arknights)"],
             ["irene (the adjudicatrix and her resolve) (arknights)"]
         ],
@@ -11268,7 +11268,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "blue poison (arknights), blue eyes, blue hair, medium hair, arknights",
         enhancers: [
-            ["twintails", "blue hoodie", "black leggings", "black shorts", "white shirt", "black vest"],
+            ["twintails","blue hoodie","black leggings","black shorts","white shirt","black vest"],
             ["blue poison (shoal beat) (arknights)"],
             ["blue poison (elite ii) (arknights)"]
         ],
@@ -11281,7 +11281,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "schwarz (arknights), yellow eyes, white hair, gradient hair, long hair, arknights",
         enhancers: [
-            ["black scarf", "black crop top", "black shorts", "white jacket", "see-through jacket", "straps", "thigh pouch"],
+            ["black scarf","black crop top","black shorts","white jacket","see-through jacket","straps","thigh pouch"],
             ["schwarz (skyline) (arknights)"],
             ["schwarz (presents) (arknights)"]
         ],
@@ -11294,7 +11294,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "eyjafjalla (arknights), pink eyes, brown hair, gradient hair, long hair, arknights",
         enhancers: [
-            ["black dress", "white cloak", "wide sleeves", "red ribbons", "black thighhighs", "red garter straps"],
+            ["black dress","white cloak","wide sleeves","red ribbons","black thighhighs","red garter straps"],
             ["eyjafjalla (summer flower) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11306,9 +11306,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "sussurro (arknights), brown eyes, brown hair, short hair, arknights",
         enhancers: [
-            ["blue shirt", "black skirt", "pantyhose", "white coat", "wide sleeves", "white gloves"],
+            ["blue shirt","black skirt","pantyhose","white coat","wide sleeves","white gloves"],
             ["sussurro (summer flower) (arknights)"],
-            ["sussurro (travel freely) (arknights)", "red coat"]
+            ["sussurro (travel freely) (arknights)","red coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11319,7 +11319,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "hoshiguma (arknights), green eyes, black hair, long hair, arknights",
         enhancers: [
-            ["black jacket around waist", "black shirt", "black capri pants", "black armband", "high collar", "black gloves"],
+            ["black jacket around waist","black shirt","black capri pants","black armband","high collar","black gloves"],
             ["hoshiguma (ronin huntress) (arknights)"],
             ["hoshiguma (seeker) (arknights)"]
         ],
@@ -11332,7 +11332,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "fur dataset, mountain (arknights), purple eyes, white hair, short hair, furry male, muscular male, arknights",
         enhancers: [
-            ["white shirt", "white pants", "black vest", "white jacket", "jacket on shoulders", "fingerless gloves"],
+            ["white shirt","white pants","black vest","white jacket","jacket on shoulders","fingerless gloves"],
             ["mountain (book reader) (arknights)"],
             ["mountain (dark cloud) (arknights)"]
         ],
@@ -11345,7 +11345,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "siege (arknights), orange eyes, brown hair, medium hair, updo, arknights",
         enhancers: [
-            ["white tank top", "red shorts", "black leather jacket", "fur-trimmed jacket", "choker"],
+            ["white tank top","red shorts","black leather jacket","fur-trimmed jacket","choker"],
             ["siege (city destroyer) (arknights)"],
             ["siege (legacy) (arknights)"],
             ["siege (ambience synesthesia) (arknights)"]
@@ -11359,9 +11359,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "silence (arknights), yellow eyes, brown hair, short hair, arknights",
         enhancers: [
-            ["glasses", "white dress", "white coat", "high collar", "wide sleeves", "asymmetrical legwear", "single thighhigh", "thigh strap"],
-            ["silence (frosted breath) (arknights)", "white coat", "white scarf", "black pantyhose", "wide sleeves", "feather trim", "big feathers"],
-            ["silence (lacquer) (arknights)", "yellow coat", "teal gloves", "black shorts", "see-through pants", "transparent pants", "knee pads"]
+            ["glasses","white dress","white coat","high collar","wide sleeves","asymmetrical legwear","single thighhigh","thigh strap"],
+            ["silence (frosted breath) (arknights)","white coat","white scarf","black pantyhose","wide sleeves","feather trim","big feathers"],
+            ["silence (lacquer) (arknights)","yellow coat","teal gloves","black shorts","see-through pants","transparent pants","knee pads"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11372,8 +11372,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "ifrit (arknights), yellow eyes, blonde hair, short hair, arknights",
         enhancers: [
-            ["twintails", "white dress", "wide sleeves", "single kneehigh", "thigh straps", "black shirt"],
-            ["ifrit (sunburn) (arknights)", "waist apron", "see-through clothes", "transparent apron"]
+            ["twintails","white dress","wide sleeves","single kneehigh","thigh straps","black shirt"],
+            ["ifrit (sunburn) (arknights)","waist apron","see-through clothes","transparent apron"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11384,7 +11384,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "blaze (arknights), blue eyes, blue hair, long hair, arknights",
         enhancers: [
-            ["white tank top", "white coat", "black skirt", "single white thighhigh", "thigh strap", "multiple belts", "fingerless gloves"],
+            ["white tank top","white coat","black skirt","single white thighhigh","thigh strap","multiple belts","fingerless gloves"],
             ["blaze (burst feline) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11396,7 +11396,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "chongyue (arknights), brown eyes, brown hair, streaked hair, short hair, arknights",
         enhancers: [
-            ["black coat", "white pants", "white shirt", "black gloves"],
+            ["black coat","white pants","white shirt","black gloves"],
             ["chongyue (alighting) (arknights)"]
         ],
         defaultGender: "boy",
@@ -11408,7 +11408,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "virtuosa (arknights), brown eyes, black hair, very long hair, two-tone hair, halo, detached wings,arknights",
         enhancers: [
-            ["black dress", "white jacket", "black thighhighs", "garter straps", "black gloves"],
+            ["black dress","white jacket","black thighhighs","garter straps","black gloves"],
             ["virtuosa (diversity oneness) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11420,9 +11420,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "nearl (arknights), orange eyes, blonde hair, long hair, ponytail, arknights",
         enhancers: [
-            ["armored dress", "black dress", "white boobplate", "white shoulder pads", "white gauntlets", "black knee boots"],
-            ["nearl the radiant knight (arknights)", "cape"],
-            ["nearl (shimmering dew) (arknights)", "one-piece swimsuit", "eyewear on head", "see-through clothes", "swimsuit under clothes"]
+            ["armored dress","black dress","white boobplate","white shoulder pads","white gauntlets","black knee boots"],
+            ["nearl the radiant knight (arknights)","cape"],
+            ["nearl (shimmering dew) (arknights)","one-piece swimsuit","eyewear on head","see-through clothes","swimsuit under clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11433,7 +11433,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "ho'olheyak (arknights), blue eyes, grey hair, medium hair, arknights",
         enhancers: [
-            ["white dress", "hooded white coat", "wide sleeves", "pantyhose"],
+            ["white dress","hooded white coat","wide sleeves","pantyhose"],
             ["ho'olheyak (carriage of the winds of time) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11445,7 +11445,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "swire (arknights), brown eyes, brown hair, long hair, arknights",
         enhancers: [
-            ["black skirt", "black vest", "white shirt", "black coat", "two-sided coat", "sheer thighhighs", "thigh strap", "thigh pouch", "black hat"],
+            ["black skirt","black vest","white shirt","black coat","two-sided coat","sheer thighhighs","thigh strap","thigh pouch","black hat"],
             ["swire the elegant wit (arknights)"],
             ["swire (honor and splendor) (arknights)"]
         ],
@@ -11458,7 +11458,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "muelsyse (arknights), blue eyes, white hair, long hair, arknights",
         enhancers: [
-            ["grey shirt", "black high-waist skirt", "white coat", "choker", "hair ornament"]
+            ["grey shirt","black high-waist skirt","white coat","choker","hair ornament"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11469,7 +11469,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "ceobe (arknights), orange eyes, brown hair, long hair, arknights",
         enhancers: [
-            ["black shirt", "black skirt", "multiple belts", "thighhighs", "cross-laced legwear", "white jacket", "wide sleeves"],
+            ["black shirt","black skirt","multiple belts","thighhighs","cross-laced legwear","white jacket","wide sleeves"],
             ["ceobe (unfettered) (arknights)"],
             ["ceobe (summer flowers) (arknights)"]
         ],
@@ -11482,7 +11482,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "fiammetta (arknights), red eyes, red hair, short hair, arknights",
         enhancers: [
-            ["white shirt", "black jacket", "black skirt", "thigh straps", "red necktie"]
+            ["white shirt","black jacket","black skirt","thigh straps","red necktie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11493,9 +11493,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "utage (arknights), pink eyes, brown hair, short hair, arknights",
         enhancers: [
-            ["black shirt", "black skirt", "white coat", "black thighhighs"],
-            ["utage (summer flowers) (arknights)", "sun hat", "eyewear on head", "pink-tinted eyewear"],
-            ["black shirt", "black jacket", "black plaid skirt", "yellow pantyhose"]
+            ["black shirt","black skirt","white coat","black thighhighs"],
+            ["utage (summer flowers) (arknights)","sun hat","eyewear on head","pink-tinted eyewear"],
+            ["black shirt","black jacket","black plaid skirt","yellow pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11506,9 +11506,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "jessica (arknights), green eyes, black hair, gradient hair, medium hair, streaked hair, high ponytail, arknights",
         enhancers: [
-            ["black shirt", "black shorts", "black jacket", "black gloves", "single knee pad"],
-            ["jessica (iron block) (arknights)", "gas mask"],
-            ["jessica the liberated (arknights)", "tube top"]
+            ["black shirt","black shorts","black jacket","black gloves","single knee pad"],
+            ["jessica (iron block) (arknights)","gas mask"],
+            ["jessica the liberated (arknights)","tube top"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11519,9 +11519,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "penance (arknights), brown eyes, brown hair, long hair, arknights",
         enhancers: [
-            ["black dress", "white ascot", "black coat", "thighhighs", "single gauntlet", "single arm guard"],
+            ["black dress","white ascot","black coat","thighhighs","single gauntlet","single arm guard"],
             ["penance (occasionally flushed) (arknights)"],
-            ["penance (ambience synesthesia) (arknights)", "leather jacket", "black cropped jacket", "fingerless gloves", "black mini skirt", "single side slit", "cross-laced clothes", "pantyhose", "torn pantyhose"]
+            ["penance (ambience synesthesia) (arknights)","leather jacket","black cropped jacket","fingerless gloves","black mini skirt","single side slit","cross-laced clothes","pantyhose","torn pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11532,7 +11532,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "blemishine (arknights), yellow eyes, blonde hair, long hair, arknights",
         enhancers: [
-            ["full armor", "boobplate", "shoulder pads", "fur-trimmed cloak", "gauntlets", "hip armor", "multiple belts", "greaves"],
+            ["full armor","boobplate","shoulder pads","fur-trimmed cloak","gauntlets","hip armor","multiple belts","greaves"],
             ["blemishine (moon catastrborn) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11544,7 +11544,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "pramanix (arknights), blue eyes, white hair, long hair, arknights",
         enhancers: [
-            ["white cableknit turtleneck", "white dress", "pelvic curtain", "side slit", "white thighhighs", "wide sleeves", "black cloak"],
+            ["white cableknit turtleneck","white dress","pelvic curtain","side slit","white thighhighs","wide sleeves","black cloak"],
             ["pramanix (caster's frost) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11556,7 +11556,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "rosmontis (arknights), blue eyes, white hair, short hair, arknights",
         enhancers: [
-            ["black cape", "two-sided cape", "fingerless gloves", "white dress", "see-through clothes", "thigh straps"],
+            ["black cape","two-sided cape","fingerless gloves","white dress","see-through clothes","thigh straps"],
             ["rosmontis (become anew) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11568,7 +11568,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "platinum (arknights), yellow eyes, white hair, long hair, arknights",
         enhancers: [
-            ["white shorts", "white coat", "wide sleeves", "black thighhighs", "garter straps"],
+            ["white shorts","white coat","wide sleeves","black thighhighs","garter straps"],
             ["platinum (shimmering dew) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11580,7 +11580,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "ptilopsis (arknights), orange eyes, white hair, medium hair, arknights",
         enhancers: [
-            ["white dress", "black coat", "two-sided coat", "two-tone gloves", "orange armband"],
+            ["white dress","black coat","two-sided coat","two-tone gloves","orange armband"],
             ["ptilopsis (elite ii) (arknights)"],
             ["ptilopsis (serenity) (arknights)"],
             ["ptilopsis (amongst the clouds) (arknights)"]
@@ -11594,7 +11594,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "la pluma (arknights), brown eyes, black hair, short hair, arknights",
         enhancers: [
-            ["fur-trimmed coat", "black coat", "black shorts", "thigh straps", "fingerless gloves"],
+            ["fur-trimmed coat","black coat","black shorts","thigh straps","fingerless gloves"],
             ["la pluma (summer flowers) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11606,7 +11606,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "tequila (arknights), blue eyes, blonde hair, short hair, arknights",
         enhancers: [
-            ["white shorts", "hooded white jacket", "blue shirt", "wristband"],
+            ["white shorts","hooded white jacket","blue shirt","wristband"],
             ["tequila (cardwinner) (arknights)"]
         ],
         defaultGender: "boy",
@@ -11618,8 +11618,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "ling (arknights), blue eyes, blue hair, long hair, arknights",
         enhancers: [
-            ["white shirt", "black shorts", "long white coat", "yellow necktie", "black elbow gloves"],
-            ["ling (it does wash the strings) (arknights)", "two-tone dress"],
+            ["white shirt","black shorts","long white coat","yellow necktie","black elbow gloves"],
+            ["ling (it does wash the strings) (arknights)","two-tone dress"],
             ["ling (towering is cliff of nostalgia) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11631,7 +11631,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "frostnova (arknights), blue eyes, white hair, long hair, arknights",
         enhancers: [
-            ["black shirt", "black skirt", "thighhighs", "thighhighs under boots", "white coat", "gradient coat"]
+            ["black shirt","black skirt","thighhighs","thighhighs under boots","white coat","gradient coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11642,7 +11642,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "saga (arknights), orange eyes, brown hair, long hair, arknights",
         enhancers: [
-            ["black kimono", "knee pads", "purple pants"],
+            ["black kimono","knee pads","purple pants"],
             ["saga (there they be) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11654,7 +11654,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "projekt red (arknights), red eyes, grey hair, short hair, arknights",
         enhancers: [
-            ["two-tone dress", "black pants", "hooded red coat", "fur-trimmed coat"],
+            ["two-tone dress","black pants","hooded red coat","fur-trimmed coat"],
             ["projekt red (light breeze) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11677,7 +11677,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "mizuki (arknights), pink eyes, blue hair, medium hair, arknights",
         enhancers: [
-            ["black shirt", "black shorts", "blue jacket", "blue hat", "black leggings"]
+            ["black shirt","black shorts","blue jacket","blue hat","black leggings"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -11688,10 +11688,10 @@ const characterData = [{
         category: "Arknights",
         mainTags: "bagpipe (arknights), blue eyes, orange hair, long hair, arknights",
         enhancers: [
-            ["green jacket", "black jacket", "black belt", "black skirt", "red skirt", "plaid skirt", "belt pouch", "thighhighs"],
+            ["green jacket","black jacket","black belt","black skirt","red skirt","plaid skirt","belt pouch","thighhighs"],
             ["bagpipe (queen no. 1) (arknights)"],
-            ["single braid", "blue overall skirt", "white skirt", "white collared shirt", "black belt"],
-            ["bagpipe (royal guardswoman) (arknights)", "black hat", "black gloves", "pantyhose", "thigh straps"]
+            ["single braid","blue overall skirt","white skirt","white collared shirt","black belt"],
+            ["bagpipe (royal guardswoman) (arknights)","black hat","black gloves","pantyhose","thigh straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11702,9 +11702,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "astesia (arknights), purple eyes, black hair, long hair, arknights",
         enhancers: [
-            ["white shirt", "blue dress", "sleeve cuffs", "multiple belts"],
+            ["white shirt","blue dress","sleeve cuffs","multiple belts"],
             ["astesia (starseeker) (arknights)"],
-            ["astesia (frlibe on the palace) (arknights)", "high-waist dress", "detached sleeves", "thigh strap"]
+            ["astesia (frlibe on the palace) (arknights)","high-waist dress","detached sleeves","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11715,7 +11715,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "whislash (arknights), blue eyes, blonde hair, long hair, arknights",
         enhancers: [
-            ["white cloak", "black shirt", "boobplate", "black shorts", "thighhighs", "pelvic curtain", "black hat"],
+            ["white cloak","black shirt","boobplate","black shorts","thighhighs","pelvic curtain","black hat"],
             ["whislash (glory purple) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11727,9 +11727,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "magallan (arknights), yellow eyes, brown hair, streaked hair, short hair, arknights",
         enhancers: [
-            ["black coat", "white gloves", "pantyhose"],
-            ["magallan (elite ii) (arknights)", "brown ribbed sweater", "white coat around waist", "pantyhose", "single white glove"],
-            ["magallan (shaved-ice memories) (arknights)", "coat around waist", "blue pants"]
+            ["black coat","white gloves","pantyhose"],
+            ["magallan (elite ii) (arknights)","brown ribbed sweater","white coat around waist","pantyhose","single white glove"],
+            ["magallan (shaved-ice memories) (arknights)","coat around waist","blue pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11740,7 +11740,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "theresa (arknights), orange eyes, white hair, long hair, arknights",
         enhancers: [
-            ["white dress", "black shirt", "thigh boots"]
+            ["white dress","black shirt","thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11751,8 +11751,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "gravel (arknights), orange eyes, pink hair, long hair, arknights",
         enhancers: [
-            ["white leotard", "boobplate", "black dress", "sheer thighhighs", "torn thighhighs", "thigh pouch"],
-            ["gravel (modeling night) (arknights)", "black hat", "black gloves", "white cloak"]
+            ["white leotard","boobplate","black dress","sheer thighhighs","torn thighhighs","thigh pouch"],
+            ["gravel (modeling night) (arknights)","black hat","black gloves","white cloak"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11763,7 +11763,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "myrtle (arknights), green eyes, red hair, long hair, arknights",
         enhancers: [
-            ["grey high-waist skirt", "white tank top", "white coat", "wide sleeves", "multiple belts"],
+            ["grey high-waist skirt","white tank top","white coat","wide sleeves","multiple belts"],
             ["myrtle (summer flowers) (arknights)"],
             ["myrtle (light gold celebration) (arknights)"]
         ],
@@ -11776,9 +11776,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "feater (arknights), orange eyes, white hair, streaked hair, short hair, arknights",
         enhancers: [
-            ["white coat", "black sleeves", "wide sleeves", "black china dress", "patterned clothing", "thigh strap"],
-            ["feater (dojo star) (arknights)", "black crop top", "black pants", "yellow jacket", "jacket around waist"],
-            ["feater (gourmet) (arknights)", "white pants", "white crop top", "red cropped jacket", "red-tinted eyewear"]
+            ["white coat","black sleeves","wide sleeves","black china dress","patterned clothing","thigh strap"],
+            ["feater (dojo star) (arknights)","black crop top","black pants","yellow jacket","jacket around waist"],
+            ["feater (gourmet) (arknights)","white pants","white crop top","red cropped jacket","red-tinted eyewear"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11789,9 +11789,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "gavial (arknights), green eyes, green hair, short hair, crocodilian tail, arknights",
         enhancers: [
-            ["sleeveless black dress", "high collar dress", "detached sleeves", "black gloves"],
-            ["gavial the invincible (arknights)", "dreadlocks", "green crop top", "green shorts", "kneehighs", "detached sleeves", "torn clothes"],
-            ["gavial the invincible (holiday) (arknights)", "blue bikini", "white shorts", "white jacket", "blue sleeves", "open fly", "white hat"],
+            ["sleeveless black dress","high collar dress","detached sleeves","black gloves"],
+            ["gavial the invincible (arknights)","dreadlocks","green crop top","green shorts","kneehighs","detached sleeves","torn clothes"],
+            ["gavial the invincible (holiday) (arknights)","blue bikini","white shorts","white jacket","blue sleeves","open fly","white hat"],
             ["gavial (combat medic) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11803,9 +11803,9 @@ const characterData = [{
         category: "Arknights",
         mainTags: "aurora (arknights), blue eyes, white hair, long hair, arknights",
         enhancers: [
-            ["black hairband", "black crop top", "white cropped coat", "hooded coat", "breast curtains", "grey shorts", "blue pants", "thigh cutouts", "belt pouch"],
-            ["aurora (elite ii) (arknights)", "black tank top", "white cropped jacket", "hooded jacket", "grey shorts", "belt pouch", "knee pads", "black gloves"],
-            ["aurora (polar catcher) (arknights)", "orange shirt", "orange shorts", "black pants", "pantyhose", "black coat", "black knee pads"]
+            ["black hairband","black crop top","white cropped coat","hooded coat","breast curtains","grey shorts","blue pants","thigh cutouts","belt pouch"],
+            ["aurora (elite ii) (arknights)","black tank top","white cropped jacket","hooded jacket","grey shorts","belt pouch","knee pads","black gloves"],
+            ["aurora (polar catcher) (arknights)","orange shirt","orange shorts","black pants","pantyhose","black coat","black knee pads"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11816,8 +11816,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "liskarm (arknights), red eyes, white hair, short hair, arknights",
         enhancers: [
-            ["black shirt", "black skirt", "thighhighs", "blue coat"],
-            ["liskarm (overload) (arknights)", "black pantyhose", "black shirt", "black skirt", "bulletproof vest"]
+            ["black shirt","black skirt","thighhighs","blue coat"],
+            ["liskarm (overload) (arknights)","black pantyhose","black shirt","black skirt","bulletproof vest"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11828,11 +11828,11 @@ const characterData = [{
         category: "Arknights",
         mainTags: "reed (arknights), blue eyes, white hair, long hair, arknights",
         enhancers: [
-            ["black dress", "thighhighs", "criss-cross garter straps", "white coat", "red armband", "two-sided coat"],
-            ["reed the flame shadow (arknights)", "white dress", "long cape", "floral print pantyhose", "see-through sleeves", "transparent sleeves", "thigh straps"],
-            ["reed the flame shadow (arknights)", "reed the flame shadow (curator) (arknights)", "witch hat", "white dress", "pantyhose", "horns through headwear", "black necktie", "black jacket"],
-            ["reed the flame shadow (arknights)", "reed the flame shadow (summer flowers) (arknights)", "mismatched bikini", "black multi-strapped bikini bottom", "blue bikini top", "swimsuit cover-up", "see-through shirt", "thigh straps"],
-            ["reed (emerald holiday) (arknights)", "white dress", "green strap", "thigh straps", "yellow shirt", "black cape", "two-sided cape"]
+            ["black dress","thighhighs","criss-cross garter straps","white coat","red armband","two-sided coat"],
+            ["reed the flame shadow (arknights)","white dress","long cape","floral print pantyhose","see-through sleeves","transparent sleeves","thigh straps"],
+            ["reed the flame shadow (arknights)","reed the flame shadow (curator) (arknights)","witch hat","white dress","pantyhose","horns through headwear","black necktie","black jacket"],
+            ["reed the flame shadow (arknights)","reed the flame shadow (summer flowers) (arknights)","mismatched bikini","black multi-strapped bikini bottom","blue bikini top","swimsuit cover-up","see-through shirt","thigh straps"],
+            ["reed (emerald holiday) (arknights)","white dress","green strap","thigh straps","yellow shirt","black cape","two-sided cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11843,7 +11843,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "gladiia (arknights), red eyes, white hair, long hair, arknights",
         enhancers: [
-            ["white bodysuit", "black shirt", "white ascot", "black coat", "black thigh boots", "black hat"],
+            ["white bodysuit","black shirt","white ascot","black coat","black thigh boots","black hat"],
             ["gladiia (return) (arknights)"],
             ["gladiia (i am the tides) (arknights)"]
         ],
@@ -11856,8 +11856,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "sora (arknights), red eyes, blonde hair, short hair, twintails, arknights",
         enhancers: [
-            ["black dress", "frilled dress", "white shirt", "wide sleeves", "black gloves", "white thighhighs"],
-            ["sora (summer flowers) (arknights)", "white bikini", "white skirt", "black belt", "white cropped jacket", "red bow"],
+            ["black dress","frilled dress","white shirt","wide sleeves","black gloves","white thighhighs"],
+            ["sora (summer flowers) (arknights)","white bikini","white skirt","black belt","white cropped jacket","red bow"],
             ["sora (melodiosa) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11869,8 +11869,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "gummy (arknights), red eyes, blonde hair, short hair, arknights",
         enhancers: [
-            ["blue sailor dress", "black jacket", "wide sleeves", "sleeves past wrists", "red pantyhose"],
-            ["gummy (summer flowers) (arknights)", "white dress", "see-through dress", "blue bikini skirt", "blue hat"]
+            ["blue sailor dress","black jacket","wide sleeves","sleeves past wrists","red pantyhose"],
+            ["gummy (summer flowers) (arknights)","white dress","see-through dress","blue bikini skirt","blue hat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11881,7 +11881,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "tomimi (arknights), yellow eyes, white hair, short hair, crocodilian tail, arknights",
         enhancers: [
-            ["black dress", "black hooded jacket", "goggles around neck", "flower", "grey partially fingerless gloves", "pelvic curtain", "black thighhighs", "torn clothes", "black boots"],
+            ["black dress","black hooded jacket","goggles around neck","flower","grey partially fingerless gloves","pelvic curtain","black thighhighs","torn clothes","black boots"],
             ["tomimi (silent night) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11893,8 +11893,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "frostleaf (arknights), red eyes, silver hair, gradient hair, medium hair, arknights",
         enhancers: [
-            ["red coat", "black shirt", "red skirt", "pantyhose", "kneepads", "detached collar", "headphones"],
-            ["frostleaf (breaking the ice) (arknights)", "purple pants", "purple scarf", "cropped black jacket", "ears through headwear"]
+            ["red coat","black shirt","red skirt","pantyhose","kneepads","detached collar","headphones"],
+            ["frostleaf (breaking the ice) (arknights)","purple pants","purple scarf","cropped black jacket","ears through headwear"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11905,7 +11905,7 @@ const characterData = [{
         category: "Arknights",
         mainTags: "eunectes (arknights), yellow eyes, brown hair, short hair, snake tail, arknights",
         enhancers: [
-            ["yellow dress", "black tube top", "single-shoulder dress", "thigh pouch", "black gloves", "eyewear on head"],
+            ["yellow dress","black tube top","single-shoulder dress","thigh pouch","black gloves","eyewear on head"],
             ["eunectes (forgemaster) (arknights)"]
         ],
         defaultGender: "girl",
@@ -11917,8 +11917,8 @@ const characterData = [{
         category: "Arknights",
         mainTags: "talulah (arknights), green eyes, white hair, short hair, arknights",
         enhancers: [
-            ["black dress", "orange armband", "pantyhose", "thigh straps", "wide sleeves"],
-            ["talulah the fighter (arknights)", "single knee pad", "thigh strap"]
+            ["black dress","orange armband","pantyhose","thigh straps","wide sleeves"],
+            ["talulah the fighter (arknights)","single knee pad","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11929,7 +11929,7 @@ const characterData = [{
         category: "Ninja Gaiden",
         mainTags: "momiji (ninja gaiden), brown eyes, black hair, long hair, ninja gaiden",
         enhancers: [
-            ["high ponytail", "ninja", "japanese clothes", "red pants", "thigh cutout", "white tank top", "red obi", "detached sleeves"]
+            ["high ponytail","ninja","japanese clothes","red pants","thigh cutout","white tank top","red obi","detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11940,7 +11940,7 @@ const characterData = [{
         category: "Ninja Gaiden",
         mainTags: "ryu hayabusa, green eyes, brown hair, short hair, ninja gaiden",
         enhancers: [
-            ["--brown hair", "--short hair", "ninja", "claw weapon", "mask", "helmet", "black sleeveless bodysuit", "black fingerless gloves", "elbow gloves", "armor", "black scarf"]
+            ["--brown hair","--short hair","ninja","claw weapon","mask","helmet","black sleeveless bodysuit","black fingerless gloves","elbow gloves","armor","black scarf"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -11951,7 +11951,7 @@ const characterData = [{
         category: "Ninja Gaiden",
         mainTags: "rachel (ninja gaiden), blue eyes, blonde hair, long hair, ninja gaiden",
         enhancers: [
-            ["black leotard", "clothing cutout", "black thigh boots", "arm bands", "black gloves", "single detached sleeve", "thigh straps", "single garter strap"]
+            ["black leotard","clothing cutout","black thigh boots","arm bands","black gloves","single detached sleeve","thigh straps","single garter strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11962,7 +11962,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "frieren, green eyes, white hair, long hair, twintails, sousou no frieren",
         enhancers: [
-            ["white skirt", "striped shirt", "black pantyhose", "white capelet", "collar"]
+            ["white skirt","striped shirt","black pantyhose","white capelet","collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11973,7 +11973,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "fern (sousou no frieren), purple eyes, purple hair, long hair, sousou no frieren",
         enhancers: [
-            ["white dress", "black cloak", "center frills"]
+            ["white dress","black cloak","center frills"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -11984,7 +11984,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "stark (sousou no frieren), red eyes, red hair, short hair, sousou no frieren",
         enhancers: [
-            ["black shirt", "black pants", "red coat", "bandaged arms", "single fingerless glove", "white sash"]
+            ["black shirt","black pants","red coat","bandaged arms","single fingerless glove","white sash"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -11995,7 +11995,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "ubel (sousou no frieren), black eyes, green hair, medium hair, side ponytail, sousou no frieren",
         enhancers: [
-            ["black dress", "spaghetti strap", "choker", "belt", "thigh bands", "single elbow glove"]
+            ["black dress","spaghetti strap","choker","belt","thigh bands","single elbow glove"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12006,7 +12006,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "himmel (sousou no frieren), blue eyes, blue hair, short hair, sousou no frieren",
         enhancers: [
-            ["blue tunic", "white pants", "white cloak"]
+            ["blue tunic","white pants","white cloak"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12017,7 +12017,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "aura (sousou no frieren), purple eyes, pink hair, long hair, horns, sousou no frieren",
         enhancers: [
-            ["black dress", "white skirt", "black thigh boots", "black elbow gloves", "red bow", "red cape"]
+            ["black dress","white skirt","black thigh boots","black elbow gloves","red bow","red cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12028,7 +12028,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "serie (sousou no frieren), yellow eyes, blonde hair, long hair, sousou no frieren",
         enhancers: [
-            ["white shirt", "white shorts", "brooch", "sleeves past wrists", "wide sleeves"]
+            ["white shirt","white shorts","brooch","sleeves past wrists","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12039,7 +12039,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "land (sousou no frieren), green eyes, blonde hair, short hair, sousou no frieren",
         enhancers: [
-            ["glasses", "white shirt", "mandarin collar", "shoulder cape", "black trim", "black pants"]
+            ["glasses","white shirt","mandarin collar","shoulder cape","black trim","black pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12050,7 +12050,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "eisen (sousou no frieren), brown eyes, grey hair, short hair, dwarf, sousou no frieren",
         enhancers: [
-            ["long beard", "horned helmet", "shoulder pads", "red cloak", "brown tunic", "black pants"]
+            ["long beard","horned helmet","shoulder pads","red cloak","brown tunic","black pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12061,7 +12061,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "heiter, green eyes, blonde hair, short hair, sousou no frieren",
         enhancers: [
-            ["glasses", "black robe", "gold trim", "wide sleeves", "black pants", "white shirt"]
+            ["glasses","black robe","gold trim","wide sleeves","black pants","white shirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12072,7 +12072,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "lawine (sousou no frieren), blue eyes, grey hair, long hair, sousou no frieren",
         enhancers: [
-            ["blue dress", "cross-laced clothes", "white shirt", "blue capelet", "wide sleeves", "white knee boots", "white belt"]
+            ["blue dress","cross-laced clothes","white shirt","blue capelet","wide sleeves","white knee boots","white belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12083,7 +12083,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "kanne (sousou no frieren), blue eyes, blonde hair, short hair, sousou no frieren",
         enhancers: [
-            ["white crop top", "sleeves past elbows", "shoulder cutout", "green shorts", "white belt", "white thigh boots"]
+            ["white crop top","sleeves past elbows","shoulder cutout","green shorts","white belt","white thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12094,7 +12094,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "laufen (sousou no frieren), brown eyes, orange hair, double bun, sousou no frieren",
         enhancers: [
-            ["blue halterneck dress", "sleeveless dress", "blue elbow gloves", "pelvic curtain", "blue knee boots"]
+            ["blue halterneck dress","sleeveless dress","blue elbow gloves","pelvic curtain","blue knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12105,7 +12105,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "sense (sousou no frieren), brown eyes, blonde hair, long hair, sousou no frieren",
         enhancers: [
-            ["white dress", "frilled collar", "blue capelet"]
+            ["white dress","frilled collar","blue capelet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12116,7 +12116,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "linie (sousou no frieren), purple eyes, pink hair, medium hair, horns, sousou no frieren",
         enhancers: [
-            ["white shirt", "wide sleeves", "brown ribbons", "brown corset", "cross-laced top", "white skirt", "brown dress", "brown pantyhose"]
+            ["white shirt","wide sleeves","brown ribbons","brown corset","cross-laced top","white skirt","brown dress","brown pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12127,7 +12127,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "methode (sousou no frieren), brown eyes, blonde hair, long hair, sousou no frieren",
         enhancers: [
-            ["white shirt", "black shorts", "criss-cross halter", "black corset", "red pantyhose", "black knee boots", "white cape"]
+            ["white shirt","black shorts","criss-cross halter","black corset","red pantyhose","black knee boots","white cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12138,7 +12138,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "flamme (sousou no frieren), green eyes, red hair, long hair, sousou no frieren",
         enhancers: [
-            ["white dress", "black armband", "cross-laced sandals"]
+            ["white dress","black armband","cross-laced sandals"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12149,7 +12149,7 @@ const characterData = [{
         category: "Frieren: Beyond Journey's End",
         mainTags: "wirbel (sousou no frieren), green eyes, brown hair, short hair, sousou no frieren",
         enhancers: [
-            ["fur-trimmed coat", "white coat", "white shirt", "straps", "blue pants", "thigh belts"]
+            ["fur-trimmed coat","white coat","white shirt","straps","blue pants","thigh belts"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12160,7 +12160,7 @@ const characterData = [{
         category: "Black Lagoon",
         mainTags: "okajima rokuro, brown eyes, black hair, short hair, black lagoon",
         enhancers: [
-            ["white shirt", "green necktie", "blue pants", "belt"]
+            ["white shirt","green necktie","blue pants","belt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12171,8 +12171,8 @@ const characterData = [{
         category: "Black Lagoon",
         mainTags: "eda (black lagoon), blue eyes, blonde hair, long hair, black lagoon",
         enhancers: [
-            ["nun", "habit", "pink-tinted eyewear", "black dress"],
-            ["green miniskirt", "pink tank top", "crop top", "white belt", "pink-tinted eyewear"]
+            ["nun","habit","pink-tinted eyewear","black dress"],
+            ["green miniskirt","pink tank top","crop top","white belt","pink-tinted eyewear"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12183,7 +12183,7 @@ const characterData = [{
         category: "Black Lagoon",
         mainTags: "fabiola iglesias, green eyes, green hair, long hair, black lagoon",
         enhancers: [
-            ["maid", "maid headdress", "black dress", "oversized clothes", "waist apron"]
+            ["maid","maid headdress","black dress","oversized clothes","waist apron"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12194,7 +12194,7 @@ const characterData = [{
         category: "Ranma 1/2",
         mainTags: "ranma-chan, blue eyes, red hair, long hair, single braid, ranma 1/2",
         enhancers: [
-            ["chinese clothes", "red shirt", "blue pants", "blue sash"]
+            ["chinese clothes","red shirt","blue pants","blue sash"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12205,7 +12205,7 @@ const characterData = [{
         category: "Ranma 1/2",
         mainTags: "shampoo (ranma 1/2), purple eyes, purple hair, long hair, ranma 1/2",
         enhancers: [
-            ["red china dress", "yellow sash", "single side slit"]
+            ["red china dress","yellow sash","single side slit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12216,7 +12216,7 @@ const characterData = [{
         category: "Ranma 1/2",
         mainTags: "tendou akane, brown eyes, black hair, short hair, ranma 1/2",
         enhancers: [
-            ["fuurinkan high school uniform", "blue pinafore dress", "white shirt"]
+            ["fuurinkan high school uniform","blue pinafore dress","white shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12227,7 +12227,7 @@ const characterData = [{
         category: "Ranma 1/2",
         mainTags: "saotome ranma, blue eyes, black hair, short hair, single braid, ranma 1/2",
         enhancers: [
-            ["chinese clothes", "red skirt", "blue pants", "blue sash"]
+            ["chinese clothes","red skirt","blue pants","blue sash"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12238,7 +12238,7 @@ const characterData = [{
         category: "Ranma 1/2",
         mainTags: "hibiki ryouga, brown eyes, black hair, short hair, ranma 1/2",
         enhancers: [
-            ["yellow headband", "chinese clothes", "yellow shirt", "black pants", "black sash"]
+            ["yellow headband","chinese clothes","yellow shirt","black pants","black sash"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12249,7 +12249,7 @@ const characterData = [{
         category: "Ranma 1/2",
         mainTags: "tendou nabiki, brown eyes, brown hair, short hair, ranma 1/2",
         enhancers: [
-            ["green tank top", "high-waist shorts", "white shorts"]
+            ["green tank top","high-waist shorts","white shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12260,7 +12260,7 @@ const characterData = [{
         category: "Ranma 1/2",
         mainTags: "kuonji ukyou, brown eyes, brown hair, long hair, ranma 1/2",
         enhancers: [
-            ["white bow", "blue kimono", "black leggings"]
+            ["white bow","blue kimono","black leggings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12271,7 +12271,7 @@ const characterData = [{
         category: "Ranma 1/2",
         mainTags: "mousse (ranma 1/2), brown eyes, black hair, long hair, ranma 1/2",
         enhancers: [
-            ["white robe", "diamond (symbol)", "wide sleeves", "black pants"]
+            ["white robe","diamond (symbol)","wide sleeves","black pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12293,7 +12293,7 @@ const characterData = [{
         category: "Ranma 1/2",
         mainTags: "tendou kasumi, brown eyes, brown hair, long hair, ranma 1/2",
         enhancers: [
-            ["yellow dress", "white apron", "hair bow"]
+            ["yellow dress","white apron","hair bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12304,7 +12304,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "mikasa ackerman, red eyes, black hair, long hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12315,7 +12315,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "eren yeager, green eyes, brown hair, short hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12326,7 +12326,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "levi (shingeki no kyojin), grey eyes, black hair, short hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12337,7 +12337,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "krista lenz, blue eyes, blonde hair, long hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12348,7 +12348,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "ymir (shingeki no kyojin), brown eyes, brown hair, short hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12359,7 +12359,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "armin arlert, blue eyes, blonde hair, short hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12370,7 +12370,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "annie leonhart, blue eyes, blonde hair, short hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12381,7 +12381,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "hange zoe, brown eyes, brown hair, long hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12392,7 +12392,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "sasha blouse, brown eyes, brown hair, long hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12403,7 +12403,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "erwin smith, blue eyes, blonde hair, short hair, shingeki no kyojin",
         enhancers: [
-            ["paradis military uniform", "brown jacket"]
+            ["paradis military uniform","brown jacket"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12414,7 +12414,7 @@ const characterData = [{
         category: "Attack on Titan",
         mainTags: "pieck finger, brown eyes, black hair, long hair, shingeki no kyojin",
         enhancers: [
-            ["marley military uniform", "jacket", "long pleated skirt"]
+            ["marley military uniform","jacket","long pleated skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12436,7 +12436,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "moana waialiki, dark skin, dark-skinned female, brown eyes, brown hair, very long hair, moana (movie), disney",
         enhancers: [
-            ["red tube top", "white skirt", "necklace", "red sash"]
+            ["red tube top","white skirt","necklace","red sash"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12447,7 +12447,7 @@ const characterData = [{
         category: "Disney",
         mainTags: "vanellope von schweetz, brown eyes, black hair, long hair, ponytail, wreck-it-ralph, disney",
         enhancers: [
-            ["green hoodie", "brown skirt", "striped pantyhose"]
+            ["green hoodie","brown skirt","striped pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12458,7 +12458,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "dark magician girl, green eyes, blonde hair, long hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["blue off-shoulder dress", "blue hat", "pink skirt"]
+            ["blue off-shoulder dress","blue hat","pink skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12469,7 +12469,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "dark magician, green eyes, purple hair, short hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["purple armor", "purple helmet", "purple shoulder pads", "purple arm guards", "purple greaves"]
+            ["purple armor","purple helmet","purple shoulder pads","purple arm guards","purple greaves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12480,7 +12480,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "gagaga girl, brown eyes, blonde hair, short hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["black hat", "sleeveless black dress", "detached sleeves"]
+            ["black hat","sleeveless black dress","detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12491,7 +12491,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "silent magician, blue eyes, white hair, long hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["white hat", "blue dress", "thigh cutout", "white gloves", "shoulder pads", "white cape"]
+            ["white hat","blue dress","thigh cutout","white gloves","shoulder pads","white cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12502,7 +12502,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "dogmatika ecclesia the virtuous, blue eyes, blonde hair, long hair, horns, duel monster, yu-gi-oh!",
         enhancers: [
-            ["armor", "full armor", "boobplate", "shoulder pads", "gauntlets", "greaves", "white cape"]
+            ["armor","full armor","boobplate","shoulder pads","gauntlets","greaves","white cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12513,7 +12513,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "blazing cartesia the virtuous, red eyes, red hair, long hair, horns, duel monster, yu-gi-oh!",
         enhancers: [
-            ["red dress", "see-through cleavage", "long black veil", "black gloves"]
+            ["red dress","see-through cleavage","long black veil","black gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12524,7 +12524,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "lovely labrynth of the silver castle, red eyes, white hair, long hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["white dress", "detached sleeves", "silver corset", "white pantyhose"]
+            ["white dress","detached sleeves","silver corset","white pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12535,7 +12535,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "arianna the labrynth servant, green eyes, green hair, long hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["face mark", "maid", "maid headdress", "black dress", "two-tone pantyhose", "black pantyhose", "green pantyhose", "green wings", "horns", "sleeves past wrists", "wide sleeves"]
+            ["face mark","maid","maid headdress","black dress","two-tone pantyhose","black pantyhose","green pantyhose","green wings","horns","sleeves past wrists","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12546,7 +12546,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "laundry dragonmaid, blue eyes, blue hair, medium hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["eastern dragon horns", "japanese clothes", "kimono", "wa maid", "fingerless gloves", "purple sleeves", "wide sleeves"]
+            ["eastern dragon horns","japanese clothes","kimono","wa maid","fingerless gloves","purple sleeves","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12557,7 +12557,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "kitchen dragonmaid, red eyes, red hair, medium hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["brown dress", "waist apron", "juliet sleeves", "chef", "frilled apron", "brown ribbon"]
+            ["brown dress","waist apron","juliet sleeves","chef","frilled apron","brown ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12577,7 +12577,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "chamber dragonmaid, yellow eyes, black hair, short hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["maid", "black dress", "maid headdress", "yellow belt", "wrist cuffs"]
+            ["maid","black dress","maid headdress","yellow belt","wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12588,7 +12588,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "house dragonmaid, blue eyes, grey hair, short hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["maid", "maid headdress", "black dress", "red ascot", "white apron", "gauntlets"]
+            ["maid","maid headdress","black dress","red ascot","white apron","gauntlets"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12599,7 +12599,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "nurse dragonmaid, green eyes, pink hair, short hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["nurse", "nurse cap", "pink dress", "white nurse apron"]
+            ["nurse","nurse cap","pink dress","white nurse apron"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12619,7 +12619,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "diabellstar the black witch, yellow eyes, black hair, long hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["half mask", "black hooded cloak", "two-sided cloak", "sleeveless black dress", "red skirt", "black thigh boots", "garter straps"]
+            ["half mask","black hooded cloak","two-sided cloak","sleeveless black dress","red skirt","black thigh boots","garter straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12630,7 +12630,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "sky striker ace - raye, brown eyes, red hair, short hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["white dress", "double-breasted", "two-tone jacket", "black necktie", "thighhighs"]
+            ["white dress","double-breasted","two-tone jacket","black necktie","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12641,7 +12641,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "tearlaments kitkallos, blue eyes, blue hair, long hair, monster girl, fish girl, head fins, duel monster, yu-gi-oh!",
         enhancers: [
-            ["blue dress", "detached sleeves", "halterneck"]
+            ["blue dress","detached sleeves","halterneck"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12652,7 +12652,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "wynn the wind charmer, green eyes, green hair, long hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["updo", "brown robe", "tied robe", "white shirt", "black skirt", "knee boots"]
+            ["updo","brown robe","tied robe","white shirt","black skirt","knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12663,7 +12663,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "hiita (yu-gi-oh!), brown eyes, red hair, short hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["hiita the fire charmer", "black miniskirt", "white shirt", "brown robe", "black tank top", "belt"]
+            ["hiita the fire charmer","black miniskirt","white shirt","brown robe","black tank top","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12674,7 +12674,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "i:p masquerena, purple eyes, black hair, long hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["twintails", "purple crop top", "purple pants", "roller skates", "purple gloves", "cat mask", "mask on head"]
+            ["twintails","purple crop top","purple pants","roller skates","purple gloves","cat mask","mask on head"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12685,7 +12685,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "diabellze the original sinkeeper, heterochromia, red eye, blue eye, blonde hair, long hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["witch hat", "white dress", "straps", "white hooded jacket", "two-sided jacket", "asymmetrical clothes", "single white glove", "single black glove", "wide sleeves"]
+            ["witch hat","white dress","straps","white hooded jacket","two-sided jacket","asymmetrical clothes","single white glove","single black glove","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12696,7 +12696,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "s-force rappa chiyomaru, green eyes, black hair, short hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["ninja", "black headband", "sleeveless yellow shirt", "detached sleeves", "fingerless gloves", "black scarf", "black sash", "pelvic curtain", "metal thigh boots"]
+            ["ninja","black headband","sleeveless yellow shirt","detached sleeves","fingerless gloves","black scarf","black sash","pelvic curtain","metal thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12707,7 +12707,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "harpie lady, green eyes, red hair, long hair, monster girl, harpy, feathered wings, talons, duel monster, yu-gi-oh!",
         enhancers: [
-            ["colored skin", "blue skin", "harpie lady (normal monster)", "blue slingshot swimsuit", "pink leggings"]
+            ["colored skin","blue skin","harpie lady (normal monster)","blue slingshot swimsuit","pink leggings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12718,7 +12718,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "harpie girl (yu-gi-oh!), monster girl, harpy, feathered wings, talons, blue eyes, blonde hair, long hair, duel monster, yu-gi-oh!",
         enhancers: [
-            ["black leotard", "cleavage cutout", "stomach cutout", "single leg pantyhose", "pink pantyhose"]
+            ["black leotard","cleavage cutout","stomach cutout","single leg pantyhose","pink pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12729,7 +12729,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "kitt (yu-gi-oh!), yellow eyes, pink hair, short hair, fox ears, duel monster, yu-gi-oh!",
         enhancers: [
-            ["tri-brigade kitt", "orange tube top", "goggles on head", "jumpsuit around waist"]
+            ["tri-brigade kitt","orange tube top","goggles on head","jumpsuit around waist"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12740,7 +12740,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "yuki judai, brown eyes, brown hair, short hair, yu-gi-oh! gx, yu-gi-oh!",
         enhancers: [
-            ["black shirt", "white pants", "red jacket", "high collar"]
+            ["black shirt","white pants","red jacket","high collar"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12751,7 +12751,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "tenjouin asuka, blue eyes, blonde hair, long hair, yu-gi-oh! gx, yu-gi-oh!",
         enhancers: [
-            ["sleeveless black shirt", "open vest", "white cropped vest", "blue skirt", "blue fingerless gloves"]
+            ["sleeveless black shirt","open vest","white cropped vest","blue skirt","blue fingerless gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12762,7 +12762,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "manjoume jun, grey eyes, black hair, short hair, yu-gi-oh! gx, yu-gi-oh!",
         enhancers: [
-            ["black coat", "black skirt", "belt"]
+            ["black coat","black skirt","belt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12791,7 +12791,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "fudo yusei, black hair, short hair, streaked hair, spiked hair, yu-gi-oh! 5d's, yu-gi-oh!",
         enhancers: [
-            ["blue jacket", "black shirt", "jeans", "knee pads", "brown gloves"]
+            ["blue jacket","black shirt","jeans","knee pads","brown gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12802,7 +12802,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "izayoi aki, brown eyes, red hair, medium hair, yu-gi-oh! 5d's, yu-gi-oh!",
         enhancers: [
-            ["black dress", "white sleeves", "black fingerless gloves", "elbow gloves"]
+            ["black dress","white sleeves","black fingerless gloves","elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12813,7 +12813,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "jack atlas, purple eyes, blonde hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
         enhancers: [
-            ["white coat", "blue pants", "white shirt", "two-sided coat"]
+            ["white coat","blue pants","white shirt","two-sided coat"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12824,7 +12824,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "bruno (yu-gi-oh!), blue eyes, blue hair, medium hair, yu-gi-oh! 5d's, yu-gi-oh!",
         enhancers: [
-            ["multicolored jacket", "two-tone shirt", "jeans"]
+            ["multicolored jacket","two-tone shirt","jeans"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12835,8 +12835,8 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "carly nagisa, blue eyes, black hair, long hair, yu-gi-oh! 5d's, yu-gi-oh!",
         enhancers: [
-            ["glasses", "orange vest", "jeans", "horizontal-striped shirt", "two-tone shirt"],
-            ["black crop top", "black skirt", "black sclera", "white belt", "black elbow gloves"]
+            ["glasses","orange vest","jeans","horizontal-striped shirt","two-tone shirt"],
+            ["black crop top","black skirt","black sclera","white belt","black elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12847,7 +12847,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "luca (yu-gi-oh!), brown eyes, green hair, short hair, yu-gi-oh! 5d's, yu-gi-oh!",
         enhancers: [
-            ["red skirt", "cropped pink jacket", "white shorts"]
+            ["red skirt","cropped pink jacket","white shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12858,7 +12858,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "kaiba seto, green eyes, brown hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
         enhancers: [
-            ["black shirt", "black pants", "white coat", "high collar", "bracers"]
+            ["black shirt","black pants","white coat","high collar","bracers"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12869,7 +12869,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "muto yugi, purple eyes, black hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
         enhancers: [
-            ["domino high school uniform", "blue suit jacket", "blue pants", "white shirt", "millennium puzzle"]
+            ["domino high school uniform","blue suit jacket","blue pants","white shirt","millennium puzzle"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12880,7 +12880,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "yami yugi, purple eyes, black hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
         enhancers: [
-            ["spiked hair", "open blue jacket", "millennium puzzle"]
+            ["spiked hair","open blue jacket","millennium puzzle"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12891,8 +12891,8 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "mazaki anzu, brown eyes, brown hair, medium hair, yu-gi-oh! duel monsters, yu-gi-oh!",
         enhancers: [
-            ["domino high school uniform", "pink jacket", "blue bowtie", "blue skirt", "black thighhighs"],
-            ["sleeveless teal shirt", "blue shorts", "white belt", "multiple bracelets", "white thighhighs"]
+            ["domino high school uniform","pink jacket","blue bowtie","blue skirt","black thighhighs"],
+            ["sleeveless teal shirt","blue shorts","white belt","multiple bracelets","white thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12903,8 +12903,8 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "jonouchi katsuya, brown eyes, blonde hair, short hair, yu-gi-oh! duel monsters, yu-gi-oh!",
         enhancers: [
-            ["domino high school uniform", "blue jacket", "blue pants"],
-            ["green jacket", "high collar", "two-tone shirt", "single fingerless glove", "jeans"]
+            ["domino high school uniform","blue jacket","blue pants"],
+            ["green jacket","high collar","two-tone shirt","single fingerless glove","jeans"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12915,7 +12915,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "ishizu ishtar, dark skin, dark-skinned female, pink eyes, black hair, long hair, yu-gi-oh!",
         enhancers: [
-            ["ancient egyptian", "white dress", "o-ring", "millennium necklace", "veil"]
+            ["ancient egyptian","white dress","o-ring","millennium necklace","veil"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12926,7 +12926,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "kujaku mai, purple eyes, blonde hair, long hair, yu-gi-oh! duel monsters, yu-gi-oh!",
         enhancers: [
-            ["purple skirt", "purple jacket", "white crop top", "white detached sleeves"]
+            ["purple skirt","purple jacket","white crop top","white detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12937,7 +12937,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "yami bakura, brown eyes, white hair, long hair, yu-gi-oh! duel monsters, yu-gi-oh!",
         enhancers: [
-            ["blue jacket", "millennium ring", "striped shirt"]
+            ["blue jacket","millennium ring","striped shirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12948,7 +12948,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "hiiragi yuzu, blue eyes, pink hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
         enhancers: [
-            ["school uniform", "pink necktie", "two-tone sleeveless shirt", "red skirt", "black thighhighs"]
+            ["school uniform","pink necktie","two-tone sleeveless shirt","red skirt","black thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12959,7 +12959,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "sakaki yuya, red eyes, red hair, green hair, multicolored hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
         enhancers: [
-            ["red shirt", "green cargo pants", "wrist cuffs", "white cape", "goggles on head"]
+            ["red shirt","green cargo pants","wrist cuffs","white cape","goggles on head"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -12970,7 +12970,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "serena (yu-gi-oh!), green eyes, purple hair, medium hair, updo, yu-gi-oh! arc-v, yu-gi-oh!",
         enhancers: [
-            ["red cropped jacket", "black vest", "white turtleneck", "white skirt", "brown belt"]
+            ["red cropped jacket","black vest","white turtleneck","white skirt","brown belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12981,7 +12981,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "kurosaki ruri, red eyes, black hair, streaked hair, long hair, yu-gi-oh! arc-v, yu-gi-oh!",
         enhancers: [
-            ["white shirt", "purple skirt", "pants under skirt", "multiple belts"]
+            ["white shirt","purple skirt","pants under skirt","multiple belts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -12992,7 +12992,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "rin (yu-gi-oh!), red eyes, green hair, short hair, yu-gi-oh! arc-v, yu-gi-oh!",
         enhancers: [
-            ["pink shorts", "white thigh boots", "multicolored jacket", "choker"]
+            ["pink shorts","white thigh boots","multicolored jacket","choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13003,7 +13003,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "mizuki kotori (yu-gi-oh!), brown eyes, green hair, medium hair, yu-gi-oh! zexal, yu-gi-oh!",
         enhancers: [
-            ["sleeveless shirt", "pink skirt", "brown belt", "kneehighs"]
+            ["sleeveless shirt","pink skirt","brown belt","kneehighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13014,7 +13014,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "tsukumo yuma, red eyes, black hair, streaked hair, short hair, yu-gi-oh! zexal, yu-gi-oh!",
         enhancers: [
-            ["red vest", "white pants", "two-tone shirt", "belt"]
+            ["red vest","white pants","two-tone shirt","belt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13025,7 +13025,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "kamishiro rio, purple eyes, blue hair, gradient hair, long hair, yu-gi-oh! zexal, yu-gi-oh!",
         enhancers: [
-            ["white dress", "pink dress", "red ascot", "black thighhighs"]
+            ["white dress","pink dress","red ascot","black thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13036,9 +13036,9 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "kirishima romin, blue eyes, purple hair, long hair, yu-gi-oh! sevens, yu-gi-oh!",
         enhancers: [
-            ["black tank top", "red skirt", "blue pants", "multiple belts", "belt pouch"],
-            ["aqua dress", "white cropped jacket", "black pantyhose", "white knee boots", "cross-laced footwear"],
-            ["orange sweater", "blue pleated skirt", "off-shoulder", "black leotard", "yellow pantyhose"]
+            ["black tank top","red skirt","blue pants","multiple belts","belt pouch"],
+            ["aqua dress","white cropped jacket","black pantyhose","white knee boots","cross-laced footwear"],
+            ["orange sweater","blue pleated skirt","off-shoulder","black leotard","yellow pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13049,7 +13049,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "zaizen aoi, brown eyes, brown hair, short hair, yu-gi-oh! vrains, yu-gi-oh!",
         enhancers: [
-            ["black jacket", "blue necktie", "black pleated skirt", "white sweater", "white shirt"]
+            ["black jacket","blue necktie","black pleated skirt","white sweater","white shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13060,7 +13060,7 @@ const characterData = [{
         category: "Yu-Gi-Oh",
         mainTags: "blue angel (yu-gi-oh!), blue eyes, blue hair, long hair, yu-gi-oh! vrains, yu-gi-oh!",
         enhancers: [
-            ["white shirt", "white wings", "hearts", "blue necktie", "blue wrist cuffs", "blue skirt"]
+            ["white shirt","white wings","hearts","blue necktie","blue wrist cuffs","blue skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13071,7 +13071,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "rem (re:zero), blue eyes, blue hair, short hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["black dress", "wide sleeves", "maid headdress", "detached collar", "detached sleeves", "white thighhighs", "garter straps"]
+            ["black dress","wide sleeves","maid headdress","detached collar","detached sleeves","white thighhighs","garter straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13082,7 +13082,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "ram (re:zero), red eyes, pink hair, short hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["black dress", "wide sleeves", "maid headdress", "detached collar", "detached sleeves", "white thighhighs", "garter straps"]
+            ["black dress","wide sleeves","maid headdress","detached collar","detached sleeves","white thighhighs","garter straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13093,7 +13093,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "emilia (re:zero), purple eyes, silver hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["white dress", "wide sleeves", "detached collar", "white thighhighs"]
+            ["white dress","wide sleeves","detached collar","white thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13115,7 +13115,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "beatrice (re:zero), blue eyes, blonde hair, long hair, twin drills, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["red dress", "red capelet", "fur-trimmed capelet", "striped pantyhose"]
+            ["red dress","red capelet","fur-trimmed capelet","striped pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13126,7 +13126,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "echidna (re:zero), black eyes, white hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["butterfly hair ornament", "black dress", "black capelet"]
+            ["butterfly hair ornament","black dress","black capelet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13137,7 +13137,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "felix argyle, yellow eyes, brown hair, short hair, cat boy, cat tail, animal ear fluff, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["white dress", "black pantyhose", "blue striped thighhighs", "blue ribbon"]
+            ["white dress","black pantyhose","blue striped thighhighs","blue ribbon"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13148,7 +13148,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "felt (re:zero), red eyes, blonde hair, short hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["black tube top", "brown vest", "fur-trimmed vest", "asymmetric legwear", "brown belt", "brown gloves", "scarf"]
+            ["black tube top","brown vest","fur-trimmed vest","asymmetric legwear","brown belt","brown gloves","scarf"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13159,7 +13159,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "petra leyte, blue eyes, orange hair, short hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["maid", "black dress", "detached collar", "detached sleeves", "white pantyhose"]
+            ["maid","black dress","detached collar","detached sleeves","white pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13170,7 +13170,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "frederica baumann, green eyes, blonde hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["maid", "black dress", "detached collar", "waist apron"]
+            ["maid","black dress","detached collar","waist apron"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13181,7 +13181,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "elsa granhilte, purple eyes, black hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["black dress", "plunging neckline", "brown pantyhose", "black cloak", "two-sided cloak", "pelvic curtain", "fingerless elbow gloves"]
+            ["black dress","plunging neckline","brown pantyhose","black cloak","two-sided cloak","pelvic curtain","fingerless elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13192,7 +13192,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "crusch karsten, red eyes, green hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["military uniform", "blue pants", "blue jacket", "blue hat", "white gloves"]
+            ["military uniform","blue pants","blue jacket","blue hat","white gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13203,7 +13203,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "priscilla barielle, red eyes, orange hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["aristocractic clothes", "off-shoulder dress", "red dress", "black fingerless gloves", "elbow gloves"]
+            ["aristocractic clothes","off-shoulder dress","red dress","black fingerless gloves","elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13214,7 +13214,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "reinhard van astrea, blue eyes, red hair, short hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["white coat", "white pants", "black gloves", "high collar"]
+            ["white coat","white pants","black gloves","high collar"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13225,7 +13225,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "shaula (re:zero), green eyes, black hair, very long hair, multi-tied hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["black bikini top", "black short shorts", "belt", "black hooded cloak", "two-sided cloak", "hood down"]
+            ["black bikini top","black short shorts","belt","black hooded cloak","two-sided cloak","hood down"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13236,7 +13236,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "otto suewen, grey eyes, grey hair, short hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["green shirt", "black pants", "green cloak", "green hat", "belt pouch"]
+            ["green shirt","black pants","green cloak","green hat","belt pouch"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13247,7 +13247,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "meili portroute, green eyes, blue hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["black dress", "black cloak", "two-sided cloak", "striped pantyhose"]
+            ["black dress","black cloak","two-sided cloak","striped pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13258,7 +13258,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "minerva (re:zero), blue eyes, blonde hair, medium hair, high side ponytail, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["purple dress", "pantyhose", "white thigh boots", "white coat", "detached sleeves"]
+            ["purple dress","pantyhose","white thigh boots","white coat","detached sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13269,7 +13269,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "pandora (re:zero), blue eyes, blonde hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["white dress", "single off shoulder"]
+            ["white dress","single off shoulder"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13280,7 +13280,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "petelgeuse romaneeconti, colored skin, green skin, bulging eyes, green hair, short hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["black pants", "black cape", "high collar"]
+            ["black pants","black cape","high collar"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13291,7 +13291,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "anastasia hoshin, blue eyes, purple hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["white hat", "white cape", "white dress", "fur trim"]
+            ["white hat","white cape","white dress","fur trim"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13302,7 +13302,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "satella (re:zero), purple eyes, white hair, long hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["long dress", "black dress", "black veil", "off-shoulder dress", "halterneck"]
+            ["long dress","black dress","black veil","off-shoulder dress","halterneck"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13313,7 +13313,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "garfiel tinsel, green eyes, blonde hair, short hair, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["black vest", "purple coat", "coat around waist", "black pants", "fingerless gloves"]
+            ["black vest","purple coat","coat around waist","black pants","fingerless gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13324,7 +13324,7 @@ const characterData = [{
         category: "Re: Zero",
         mainTags: "mimi pearlbaton, green eyes, orange hair, short hair, cat girl, cat ears, cat tail, re:zero kara hajimeru isekai seikatsu",
         enhancers: [
-            ["white coat", "white capelet", "white dress", "wide sleeves", "orange mittens"]
+            ["white coat","white capelet","white dress","wide sleeves","orange mittens"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13335,7 +13335,7 @@ const characterData = [{
         category: "Scooby-Doo (Series)",
         mainTags: "velma dinkley, brown eyes, glasses, brown hair, short hair, scooby-doo",
         enhancers: [
-            ["orange turtleneck sweater", "red pleated skirt", "orange knee socks"]
+            ["orange turtleneck sweater","red pleated skirt","orange knee socks"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13346,7 +13346,7 @@ const characterData = [{
         category: "Scooby-Doo (Series)",
         mainTags: "daphne blake, purple eyes, orange hair, long hair, scooby-doo",
         enhancers: [
-            ["purple dress", "pink pantyhose", "purple headband", "green scarf"]
+            ["purple dress","pink pantyhose","purple headband","green scarf"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13357,7 +13357,7 @@ const characterData = [{
         category: "Scooby-Doo (Series)",
         mainTags: "shaggy rogers, brown eyes, brown hair, short hair, scooby-doo",
         enhancers: [
-            ["green t-shirt", "white shirt", "white long sleeves", "shirt under shirt", "brown pants"]
+            ["green t-shirt","white shirt","white long sleeves","shirt under shirt","brown pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13368,7 +13368,7 @@ const characterData = [{
         category: "Scooby-Doo (Series)",
         mainTags: "fred jones, muscular male, blue eyes, blonde hair, short hair, scooby-doo",
         enhancers: [
-            ["white shirt", "blue collar", "orange ascot", "blue pants"]
+            ["white shirt","blue collar","orange ascot","blue pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13379,7 +13379,7 @@ const characterData = [{
         category: "Berserk",
         mainTags: "guts (berserk), muscular male, brown eyes, black hair, short hair, one eye closed, berserk",
         enhancers: [
-            ["armor", "shoulder pads", "chestplate", "gauntlets", "greaves", "cloak"]
+            ["armor","shoulder pads","chestplate","gauntlets","greaves","cloak"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13390,7 +13390,7 @@ const characterData = [{
         category: "Berserk",
         mainTags: "griffith (berserk), blue eyes, white hair, long hair, berserk",
         enhancers: [
-            ["full armor", "silver armor", "chestplate", "gauntlets", "leg guards", "white cape", "two-sided cape"]
+            ["full armor","silver armor","chestplate","gauntlets","leg guards","white cape","two-sided cape"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13401,7 +13401,7 @@ const characterData = [{
         category: "Berserk",
         mainTags: "casca (berserk), dark skin, dark-skinned female, brown eyes, brown, hair, short hair, berserk",
         enhancers: [
-            ["red cropped cape", "brown shirt", "boobplate", "brown gloves", "brown pants"]
+            ["red cropped cape","brown shirt","boobplate","brown gloves","brown pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13412,7 +13412,7 @@ const characterData = [{
         category: "Berserk",
         mainTags: "schierke (berserk), green eyes, brown hair, long hair, berserk",
         enhancers: [
-            ["purple witch hat", "purple robe", "high collar"]
+            ["purple witch hat","purple robe","high collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13423,7 +13423,7 @@ const characterData = [{
         category: "Berserk",
         mainTags: "slan (berserk), purple eyes, black hair, long hair, aqua hair, tentacle hair, demon girl, demon wings, berserk",
         enhancers: [
-            ["topless female", "nude", "black corset", "choker", "convenient censoring"]
+            ["topless female","nude","black corset","choker","convenient censoring"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13434,7 +13434,7 @@ const characterData = [{
         category: "Claymore",
         mainTags: "clare (claymore), silver eyes, blonde hair, short hair, claymore (series)",
         enhancers: [
-            ["armor", "shoulderpads", "white bodysuit", "armored skirt", "wrist cuffs", "white gloves"]
+            ["armor","shoulderpads","white bodysuit","armored skirt","wrist cuffs","white gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13445,7 +13445,7 @@ const characterData = [{
         category: "Claymore",
         mainTags: "teresa (claymore), silver eyes, blonde hair, long hair, claymore (series)",
         enhancers: [
-            ["armor", "white bodysuit", "black cape", "shoulder pads", "metal skirt"]
+            ["armor","white bodysuit","black cape","shoulder pads","metal skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13456,7 +13456,7 @@ const characterData = [{
         category: "Claymore",
         mainTags: "miria (claymore), silver eyes, brown hair, short hair, claymore (series)",
         enhancers: [
-            ["scar on face", "white bodysuit", "shoulder pads", "vambraces", "metal skirt"]
+            ["scar on face","white bodysuit","shoulder pads","vambraces","metal skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13467,7 +13467,7 @@ const characterData = [{
         category: "Claymore",
         mainTags: "galatea (claymore), silver eyes, blonde hair, long hair, claymore (series)",
         enhancers: [
-            ["armor", "white bodysuit", "shoulder pads", "black cape", "vambraces"]
+            ["armor","white bodysuit","shoulder pads","black cape","vambraces"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13478,7 +13478,7 @@ const characterData = [{
         category: "Claymore",
         mainTags: "helen (claymore), silver eyes, brown hair, short hair, claymore (series)",
         enhancers: [
-            ["armor", "white bodysuit", "shoulder pads", "black cape", "vambraces"]
+            ["armor","white bodysuit","shoulder pads","black cape","vambraces"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13489,7 +13489,7 @@ const characterData = [{
         category: "The Slayers",
         mainTags: "lina inverse, red eyes, red hair, long hair, slayers",
         enhancers: [
-            ["black headband", "red pants", "red shirt", "yellow tube top", "black cape", "white elbow gloves"]
+            ["black headband","red pants","red shirt","yellow tube top","black cape","white elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13500,7 +13500,7 @@ const characterData = [{
         category: "The Slayers",
         mainTags: "naga the serpent, purple eyes, purple hair, very long hair, slayers",
         enhancers: [
-            ["black bikini", "multi-strapped bikini bottom", "black gloves", "detached collar", "pauldrons", "circlet", "skull necklace", "multicolored cape"]
+            ["black bikini","multi-strapped bikini bottom","black gloves","detached collar","pauldrons","circlet","skull necklace","multicolored cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13511,7 +13511,7 @@ const characterData = [{
         category: "The Slayers",
         mainTags: "amelia wil tesla seyruun, blue eyes, purple hair, short hair, slayers",
         enhancers: [
-            ["yellow shirt", "yellow pants", "pink trim", "yellow cloak", "two-sided cloak"]
+            ["yellow shirt","yellow pants","pink trim","yellow cloak","two-sided cloak"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13522,7 +13522,7 @@ const characterData = [{
         category: "The Slayers",
         mainTags: "xelloss, purple eyes, purple hair, medium hair, slayers",
         enhancers: [
-            ["yellow shirt", "blue gloves", "green cloak", "black pants"]
+            ["yellow shirt","blue gloves","green cloak","black pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13533,7 +13533,7 @@ const characterData = [{
         category: "The Slayers",
         mainTags: "zelgadiss graywords, grey eyes, purple hair, short hair, colored skin, blue skin, slayers",
         enhancers: [
-            ["yellow pants", "yellow shirt", "yellow cape", "two-sided cape", "multiple belts"]
+            ["yellow pants","yellow shirt","yellow cape","two-sided cape","multiple belts"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13544,7 +13544,7 @@ const characterData = [{
         category: "The Slayers",
         mainTags: "filia ul copt, blue eyes, blonde hair, long hair, slayers",
         enhancers: [
-            ["pink dress", "white cloak", "two-sided cloak", "blue cloak", "white gloves", "white hat"]
+            ["pink dress","white cloak","two-sided cloak","blue cloak","white gloves","white hat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13555,7 +13555,7 @@ const characterData = [{
         category: "The Slayers",
         mainTags: "sylphiel nels lahda, blue eyes, black hair, long hair, slayers",
         enhancers: [
-            ["purple shirt", "blue pantyhose", "purple elbow gloves", "pauldrons", "black cape", "two-sided cape"]
+            ["purple shirt","blue pantyhose","purple elbow gloves","pauldrons","black cape","two-sided cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13566,8 +13566,8 @@ const characterData = [{
         category: "Puella Magi Madoka Magica",
         mainTags: "kaname madoka, pink eyes, pink hair, long hair, twintails, mahou shoujo madoka magica (anime)",
         enhancers: [
-            ["kaname madoka (magical girl)", "frilled dress", "magical girl"],
-            ["mitakihara school uniform", "plaid skirt", "white shirt", "long sleeves", "white thighhighs"],
+            ["kaname madoka (magical girl)","frilled dress","magical girl"],
+            ["mitakihara school uniform","plaid skirt","white shirt","long sleeves","white thighhighs"],
             ["ultimate madoka"]
         ],
         defaultGender: "girl",
@@ -13579,9 +13579,9 @@ const characterData = [{
         category: "Puella Magi Madoka Magica",
         mainTags: "akemi homura, purple eyes, black hair, long hair, mahou shoujo madoka magica (anime)",
         enhancers: [
-            ["akemi homura (magical girl)", "collared capelet", "magical girl"],
-            ["mitakihara school uniform", "plaid skirt", "white shirt", "long sleeves", "white thighhighs"],
-            ["akuma homura", "feathered wings", "black dress", "elbow gloves"]
+            ["akemi homura (magical girl)","collared capelet","magical girl"],
+            ["mitakihara school uniform","plaid skirt","white shirt","long sleeves","white thighhighs"],
+            ["akuma homura","feathered wings","black dress","elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13592,8 +13592,8 @@ const characterData = [{
         category: "Puella Magi Madoka Magica",
         mainTags: "miki sayaka, blue eyes, blue hair, short hair, mahou shoujo madoka magica (anime)",
         enhancers: [
-            ["miki sayaka (magical girl)", "cape", "armored dress"],
-            ["mitakihara school uniform", "plaid skirt", "white shirt", "long sleeves", "black knee socks"]
+            ["miki sayaka (magical girl)","cape","armored dress"],
+            ["mitakihara school uniform","plaid skirt","white shirt","long sleeves","black knee socks"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13604,8 +13604,8 @@ const characterData = [{
         category: "Puella Magi Madoka Magica",
         mainTags: "tomoe mami, brown eyes, blonde hair, long hair, twin drills, mahou shoujo madoka magica (anime)",
         enhancers: [
-            ["tomoe mami (magical girl)", "puffy short sleeves", "detached sleeves", "corset"],
-            ["mitakihara school uniform", "plaid skirt", "white shirt", "long sleeves", "red ribbon", "pantyhose"]
+            ["tomoe mami (magical girl)","puffy short sleeves","detached sleeves","corset"],
+            ["mitakihara school uniform","plaid skirt","white shirt","long sleeves","red ribbon","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13616,8 +13616,8 @@ const characterData = [{
         category: "Puella Magi Madoka Magica",
         mainTags: "sakura kyoko, red eyes, red hair, long hair, ponytail, mahou shoujo madoka magica (anime)",
         enhancers: [
-            ["sakura kyoko (magical girl)", "detached sleeves", "magical girl", "red dress"],
-            ["green jacket", "denim shorts", "fur-trimmed shorts"]
+            ["sakura kyoko (magical girl)","detached sleeves","magical girl","red dress"],
+            ["green jacket","denim shorts","fur-trimmed shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13628,8 +13628,8 @@ const characterData = [{
         category: "Puella Magi Madoka Magica",
         mainTags: "akuma homura, purple eyes, black hair, long hair",
         enhancers: [
-            ["mitakihara school uniform", "plaid skirt", "black pantyhose", "white shirt"],
-            ["black dress", "feather-trimmed dress", "wings", "patterned thighhighs"]
+            ["mitakihara school uniform","plaid skirt","black pantyhose","white shirt"],
+            ["black dress","feather-trimmed dress","wings","patterned thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13640,7 +13640,7 @@ const characterData = [{
         category: "Puella Magi Madoka Magica",
         mainTags: "shizuki hitomi, green eyes, green hair, long hair, mahou shoujo madoka magica (anime)",
         enhancers: [
-            ["mitakihara school uniform", "plaid skirt", "white shirt", "long sleeves", "black knee socks"]
+            ["mitakihara school uniform","plaid skirt","white shirt","long sleeves","black knee socks"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13651,10 +13651,10 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "tsukino usagi, blue eyes, blonde hair, long hair, twintails, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor moon", "circlet", "sailor senshi uniform"],
-            ["princess serenity", "white dress"],
-            ["super sailor moon", "magical girl", "rainbow"],
-            ["neo queen serenity", "white hair", "wings", "white dress"]
+            ["sailor moon","circlet","sailor senshi uniform"],
+            ["princess serenity","white dress"],
+            ["super sailor moon","magical girl","rainbow"],
+            ["neo queen serenity","white hair","wings","white dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13665,9 +13665,9 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "aino minako, blue eyes, blonde hair, long hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor venus", "circlet", "sailor senshi uniform"],
-            ["super sailor venus", "circlet"],
-            ["sailor v", "glasses", "sailor senshi uniform"]
+            ["sailor venus","circlet","sailor senshi uniform"],
+            ["super sailor venus","circlet"],
+            ["sailor v","glasses","sailor senshi uniform"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13678,8 +13678,8 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "mizuno ami, blue eyes, blue hair, short hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor mercury", "circlet", "sailor senshi uniform"],
-            ["super sailor mercury", "circlet"]
+            ["sailor mercury","circlet","sailor senshi uniform"],
+            ["super sailor mercury","circlet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13690,8 +13690,8 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "kino makoto, green eyes, brown hair, long hair, ponytail, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor jupiter", "circlet", "sailor senshi uniform"],
-            ["sailor jupiter", "circlet"]
+            ["sailor jupiter","circlet","sailor senshi uniform"],
+            ["sailor jupiter","circlet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13703,7 +13703,7 @@ const characterData = [{
         mainTags: "chibi usa, pink eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon",
         enhancers: [
             ["small lady serenity"],
-            ["sailor chibi moon", "circlet", "sailor senshi uniform"]
+            ["sailor chibi moon","circlet","sailor senshi uniform"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13714,9 +13714,9 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "tomoe hotaru, purple eyes, black hair, short hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor saturn", "circlet"],
-            ["super sailor saturn", "circlet", "sailor senshi uniform"],
-            ["mistress 9", "black dress"]
+            ["sailor saturn","circlet"],
+            ["super sailor saturn","circlet","sailor senshi uniform"],
+            ["mistress 9","black dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13727,8 +13727,8 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "ten'ou haruka, blue eyes, blonde hair, short hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor uranus", "circlet", "sailor senshi uniform"],
-            ["super sailor uranus", "circlet"]
+            ["sailor uranus","circlet","sailor senshi uniform"],
+            ["super sailor uranus","circlet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13739,8 +13739,8 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "kaiou michiru, green eyes, aqua hair, long hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor neptune", "circlet", "sailor senshi uniform"],
-            ["super sailor neptune", "circlet"]
+            ["sailor neptune","circlet","sailor senshi uniform"],
+            ["super sailor neptune","circlet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13751,7 +13751,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "luna (sailor moon) (human), purple eyes, black hair, long hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["cat girl", "cat ears", "cat tail"]
+            ["cat girl","cat ears","cat tail"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13762,7 +13762,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "meiou setsuna, red eyes, green hair, very long hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor pluto", "circlet", "sailor senshi uniform"]
+            ["sailor pluto","circlet","sailor senshi uniform"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13773,7 +13773,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "seiya kou, blue eyes, black hair, long hair, ponytail, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor star fighter", "circlet", "sailor senshi uniform"]
+            ["sailor star fighter","circlet","sailor senshi uniform"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13784,7 +13784,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "black lady (sailor moon), red eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon",
         enhancers: [
-            ["black dress", "choker", "wrist cuffs", "red shirt", "see-through shirt"]
+            ["black dress","choker","wrist cuffs","red shirt","see-through shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13795,7 +13795,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "helios (sailor moon), blue eyes, white hair, short hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["single horn", "white tunic", "white pants", "wide sleeves", "green belt"]
+            ["single horn","white tunic","white pants","wide sleeves","green belt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13806,7 +13806,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "chibi chibi, blue eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor chibi chibi", "circlet", "sailor senshi uniform"]
+            ["sailor chibi chibi","circlet","sailor senshi uniform"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13817,7 +13817,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "sailor cosmos, blue eyes, white hair, long hair, twintails, bishoujo senshi sailor moon",
         enhancers: [
-            ["magical girl", "sailor senshi uniform"]
+            ["magical girl","sailor senshi uniform"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13828,7 +13828,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "yaten kou, green eyes, silver hair, short hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor star healer", "circlet", "sailor senshi uniform"]
+            ["sailor star healer","circlet","sailor senshi uniform"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13839,7 +13839,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "taiki kou, brown eyes, brown hair, very long hair, ponytail, bishoujo senshi sailor moon",
         enhancers: [
-            ["sailor star maker", "circlet", "black shorts", "black elbow gloves", "black bikini top", "black knee boots"]
+            ["sailor star maker","circlet","black shorts","black elbow gloves","black bikini top","black knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: "true",
@@ -13849,7 +13849,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "zoisite (sailor moon), green eyes, blonde hair, long hair, ponytail, bishoujo senshi sailor moon",
         enhancers: [
-            ["military uniform", "black jacket"]
+            ["military uniform","black jacket"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -13860,7 +13860,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "cerecere (sailor moon), pink eyes, pink hair, long hair, twintails, bishoujo senshi sailor moon",
         enhancers: [
-            ["bikini top only", "yellow skirt"]
+            ["bikini top only","yellow skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13871,7 +13871,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "vesves (sailor moon), red eyes, red hair, long hair, multi-tied hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["bikini", "bikini skirt", "shoulder pads", "bracers"]
+            ["bikini","bikini skirt","shoulder pads","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13882,7 +13882,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "junjun (sailor moon), green eyes, green hair, long hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["arabian clothes", "white harem pants", "thigh cutout", "brown bandeau", "bracers"]
+            ["arabian clothes","white harem pants","thigh cutout","brown bandeau","bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13893,7 +13893,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "pallapalla (sailor moon), blue eyes, blue hair, short hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["sleeveless leotard", "blue leotard", "orange skirt", "detached collar"]
+            ["sleeveless leotard","blue leotard","orange skirt","detached collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13904,7 +13904,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "fish eye (sailor moon), blue eyes, blue hair, long hair, ponytail, bishoujo senshi sailor moon",
         enhancers: [
-            ["blue bodysuit", "green claws"]
+            ["blue bodysuit","green claws"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13915,7 +13915,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "beruche (sailor moon), blue eyes, white hair, long hair, single braid, bishoujo senshi sailor moon",
         enhancers: [
-            ["blue choker", "blue leotard", "blue thigh boots", "blue elbow gloves"]
+            ["blue choker","blue leotard","blue thigh boots","blue elbow gloves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13926,7 +13926,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "sailor galaxia, red eyes, orange hair, long hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["gold armored dress", "gold hat", "gold knee boots"]
+            ["gold armored dress","gold hat","gold knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13937,7 +13937,7 @@ const characterData = [{
         category: "Sailor Moon",
         mainTags: "nehelenia (sailor moon), grey eyes, black hair, very long hair, absurdly long hair, gradient hair, bishoujo senshi sailor moon",
         enhancers: [
-            ["black dress", "off-shoulder dress", "white dress"]
+            ["black dress","off-shoulder dress","white dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13948,9 +13948,9 @@ const characterData = [{
         category: "Tokyo Mew Mew",
         mainTags: "momomiya ichigo, red eyes, pink hair, short hair, tokyo mew mew",
         enhancers: [
-            ["cafe mew mew uniform", "maid", "frilled red dress", "apron", "maid headdress", "pink ribbon"],
-            ["mew ichigo", "cat girl", "animal ear fluff", "cat ears", "cat tail", "pink dress", "puffy detached sleeves"],
-            ["school uniform", "neck bell", "grey skirt", "grey jacket", "red ribbon", "black sailor collar"]
+            ["cafe mew mew uniform","maid","frilled red dress","apron","maid headdress","pink ribbon"],
+            ["mew ichigo","cat girl","animal ear fluff","cat ears","cat tail","pink dress","puffy detached sleeves"],
+            ["school uniform","neck bell","grey skirt","grey jacket","red ribbon","black sailor collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13961,8 +13961,8 @@ const characterData = [{
         category: "Tokyo Mew Mew",
         mainTags: "aizawa mint, blue eyes, blue hair, short hair, tokyo mew mew",
         enhancers: [
-            ["cafe mew mew uniform", "double bun", "maid", "frilled blue dress", "apron", "maid headdress", "blue ribbon", "blue socks", "bare hands"],
-            ["mew mint", "bird girl", "blue wings", "blue parrot tail", "puffy detached sleeves", "dress"]
+            ["cafe mew mew uniform","double bun","maid","frilled blue dress","apron","maid headdress","blue ribbon","blue socks","bare hands"],
+            ["mew mint","bird girl","blue wings","blue parrot tail","puffy detached sleeves","dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13973,8 +13973,8 @@ const characterData = [{
         category: "Tokyo Mew Mew",
         mainTags: "fujiwara zakuro, purple eyes, purple hair, long hair, tokyo mew mew",
         enhancers: [
-            ["cafe mew mew uniform", "maid", "frilled purple dress", "apron", "maid headdress", "pink ribbon", "pink socks", "bare hands"],
-            ["mew zakuro", "wolf girl", "wolf ears", "wolf tail", "purple crop top", "puffy detached sleeves", "purple thigh boots", "purple shorts"]
+            ["cafe mew mew uniform","maid","frilled purple dress","apron","maid headdress","pink ribbon","pink socks","bare hands"],
+            ["mew zakuro","wolf girl","wolf ears","wolf tail","purple crop top","puffy detached sleeves","purple thigh boots","purple shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13985,8 +13985,8 @@ const characterData = [{
         category: "Tokyo Mew Mew",
         mainTags: "midorikawa lettuce, green eyes, green hair, long hair, tokyo mew mew",
         enhancers: [
-            ["cafe mew mew uniform", "round eyewear", "maid", "frilled green dress", "apron", "maid headdress", "green ribbon", "green socks", "bare hands"],
-            ["mew lettuce", "antennae", "green leotard", "choker", "single hair tube"]
+            ["cafe mew mew uniform","round eyewear","maid","frilled green dress","apron","maid headdress","green ribbon","green socks","bare hands"],
+            ["mew lettuce","antennae","green leotard","choker","single hair tube"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -13997,8 +13997,8 @@ const characterData = [{
         category: "Tokyo Mew Mew",
         mainTags: "fong pudding, brown eyes, blonde hair, long hair, twintails, multiple braids, tokyo mew mew",
         enhancers: [
-            ["cafe mew mew uniform", "maid", "frilled orange dress", "apron", "maid headdress", "yellow ribbon", "yellow socks", "bare hands"],
-            ["mew pudding", "monkey girl", "monkey tail", "monkey ears", "detached puffy sleeves", "yellow jumper"]
+            ["cafe mew mew uniform","maid","frilled orange dress","apron","maid headdress","yellow ribbon","yellow socks","bare hands"],
+            ["mew pudding","monkey girl","monkey tail","monkey ears","detached puffy sleeves","yellow jumper"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14009,21 +14009,21 @@ const characterData = [{
         category: "Cardcaptor Sakura",
         mainTags: "kinomoto sakura, green eyes, brown hair, short hair, cardcaptor sakura",
         enhancers: [
-            ["tomoeda elementary school uniform", "white pleated skirt", "black shirt"],
-            ["kinomoto sakura (magic dream costume)", "magical girl", "red pinafore dress"],
-            ["kinomoto sakura (platinum star dress)", "magical girl", "wings"],
-            ["kinomoto sakura (crystal feather dress)", "magical girl"],
-            ["kinomoto sakura (winged egg crown costume)", "magical girl", "wings"],
-            ["kinomoto sakura (pink kitty costume)", "magical girl", "cat ears", "cat tail"],
-            ["kinomoto sakura (princess costume)", "magical girl", "wings", "pink dress"],
-            ["kinomoto sakura (pink ribbon dress)", "magical girl", "pink dress", "pink hat"],
-            ["kinomoto sakura (red hearts costume)", "magical girl", "red dress", "capelet"],
-            ["kinomoto sakura (pink star angel costume)", "magical girl", "pink dress", "pink hat"],
-            ["kinomoto sakura (alice in wonderland costume)", "magical girl", "pink bow"],
-            ["kinomoto sakura (blue jester costume)", "magical girl", "jester cap", "white coattails"],
-            ["kinomoto sakura (red cape costume)", "magical girl", "red hat", "red cape"],
-            ["kinomoto sakura (final judgment costume)", "magical girl", "pink cape", "blue thighhighs"],
-            ["kinomoto sakura (remembrance dress)", "white dress", "white hat", "red skirt"]
+            ["tomoeda elementary school uniform","white pleated skirt","black shirt"],
+            ["kinomoto sakura (magic dream costume)","magical girl","red pinafore dress"],
+            ["kinomoto sakura (platinum star dress)","magical girl","wings"],
+            ["kinomoto sakura (crystal feather dress)","magical girl"],
+            ["kinomoto sakura (winged egg crown costume)","magical girl","wings"],
+            ["kinomoto sakura (pink kitty costume)","magical girl","cat ears","cat tail"],
+            ["kinomoto sakura (princess costume)","magical girl","wings","pink dress"],
+            ["kinomoto sakura (pink ribbon dress)","magical girl","pink dress","pink hat"],
+            ["kinomoto sakura (red hearts costume)","magical girl","red dress","capelet"],
+            ["kinomoto sakura (pink star angel costume)","magical girl","pink dress","pink hat"],
+            ["kinomoto sakura (alice in wonderland costume)","magical girl","pink bow"],
+            ["kinomoto sakura (blue jester costume)","magical girl","jester cap","white coattails"],
+            ["kinomoto sakura (red cape costume)","magical girl","red hat","red cape"],
+            ["kinomoto sakura (final judgment costume)","magical girl","pink cape","blue thighhighs"],
+            ["kinomoto sakura (remembrance dress)","white dress","white hat","red skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14034,7 +14034,7 @@ const characterData = [{
         category: "Cardcaptor Sakura",
         mainTags: "daidouji tomoyo, purple eyes, black hair, long hair, cardcaptor sakura",
         enhancers: [
-            ["tomoeda elementary school uniform", "white hat", "white pleated skirt", "black shirt"],
+            ["tomoeda elementary school uniform","white hat","white pleated skirt","black shirt"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14045,8 +14045,8 @@ const characterData = [{
         category: "Cardcaptor Sakura",
         mainTags: "li syaoran, brown eyes, brown hair, short hair, cardcaptor sakura",
         enhancers: [
-            ["tomoeda elementary school uniform", "black pants", "black shirt", "sweater around neck"],
-            ["green hat", "chinese clothes", "magical boy"]
+            ["tomoeda elementary school uniform","black pants","black shirt","sweater around neck"],
+            ["green hat","chinese clothes","magical boy"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14057,7 +14057,7 @@ const characterData = [{
         category: "Cardcaptor Sakura",
         mainTags: "li meiling, red eyes, black hair, long hair, twintails, cardcaptor sakura",
         enhancers: [
-            ["chinese clothes", "wide sleeves", "red dress"]
+            ["chinese clothes","wide sleeves","red dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14068,7 +14068,7 @@ const characterData = [{
         category: "Cardcaptor Sakura",
         mainTags: "kinomoto touya, brown eyes, brown hair, short hair, cardcaptor sakura",
         enhancers: [
-            ["tomoeda high school uniform", "blue jacket", "white shirt", "black necktie", "blue pants"]
+            ["tomoeda high school uniform","blue jacket","white shirt","black necktie","blue pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14079,7 +14079,7 @@ const characterData = [{
         category: "Cardcaptor Sakura",
         mainTags: "sasaki rika, brown eyes, brown hair, short hair, cardcaptor sakura",
         enhancers: [
-            ["tomoeda elementary school uniform", "white pleated skirt", "black shirt"]
+            ["tomoeda elementary school uniform","white pleated skirt","black shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14090,7 +14090,7 @@ const characterData = [{
         category: "Cardcaptor Sakura",
         mainTags: "yanagisawa naoko, brown eyes, brown hair, long hair, glasses, cardcaptor sakura",
         enhancers: [
-            ["tomoeda elementary school uniform", "white pleated skirt", "black shirt"]
+            ["tomoeda elementary school uniform","white pleated skirt","black shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14101,7 +14101,7 @@ const characterData = [{
         category: "Cardcaptor Sakura",
         mainTags: "mihara chiharu, brown eyes, brown hair, long hair, twintails, cardcaptor sakura",
         enhancers: [
-            ["tomoeda elementary school uniform", "white pleated skirt", "black shirt"]
+            ["tomoeda elementary school uniform","white pleated skirt","black shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14112,8 +14112,8 @@ const characterData = [{
         category: "That Time I Got Reincarnated as a Slime",
         mainTags: "rimuru tempest, blue eyes, blue hair, long hair, tensei shitara slime datta ken",
         enhancers: [
-            ["blue coat", "fur-trimmed coat", "black pants", "fur-trimmed boots"],
-            ["black shirt", "black pants", "black vest", "black jacket"]
+            ["blue coat","fur-trimmed coat","black pants","fur-trimmed boots"],
+            ["black shirt","black pants","black vest","black jacket"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14124,7 +14124,7 @@ const characterData = [{
         category: "That Time I Got Reincarnated as a Slime",
         mainTags: "milim nava, pink eyes, pink hair, long hair, twintails, fang out, tensei shitara slime datta ken",
         enhancers: [
-            ["two-tone crop top", "black bikini", "bikini bottom only", "long sleeves", "single thighhigh", "striped thighhigh", "thigh strap"]
+            ["two-tone crop top","black bikini","bikini bottom only","long sleeves","single thighhigh","striped thighhigh","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14135,7 +14135,7 @@ const characterData = [{
         category: "That Time I Got Reincarnated as a Slime",
         mainTags: "shion (tensura), purple eyes, purple hair, long hair, oni, single horn,tensei shitara slime datta ken",
         enhancers: [
-            ["purple suit", "purple pants", "purple suit jacket", "green collared shirt", "cleavage"]
+            ["purple suit","purple pants","purple suit jacket","green collared shirt","cleavage"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14146,7 +14146,7 @@ const characterData = [{
         category: "That Time I Got Reincarnated as a Slime",
         mainTags: "shuna (tensura), pink eyes, pink hair, long hair, oni, horns, tensei shitara slime datta ken",
         enhancers: [
-            ["red hakama skirt", "white kimono", "miko"]
+            ["red hakama skirt","white kimono","miko"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14157,7 +14157,7 @@ const characterData = [{
         category: "Rising of the Shield Hero",
         mainTags: "raphtalia, pink eyes, brown hair, long hair, raccoon girl, raccoon ears, tate no yuusha no nariagari",
         enhancers: [
-            ["layered dress", "black dress", "pleated dress", "white dress", "red dress", "brown elbow gloves", "boobplate", "metal wrist cuffs", "single pauldron", "red ribbon", "thigh boots", "zettai ryouiki"]
+            ["layered dress","black dress","pleated dress","white dress","red dress","brown elbow gloves","boobplate","metal wrist cuffs","single pauldron","red ribbon","thigh boots","zettai ryouiki"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14168,7 +14168,7 @@ const characterData = [{
         category: "Rising of the Shield Hero",
         mainTags: "iwatani naofumi, green eyes, black hair, short hair, tate no yuusha no nariagari",
         enhancers: [
-            ["armor", "chestplate", "green cape", "fur trim", "fingerless gloves", "green pants", "multiple belts", "hip armor", "knee boots"]
+            ["armor","chestplate","green cape","fur trim","fingerless gloves","green pants","multiple belts","hip armor","knee boots"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14179,7 +14179,7 @@ const characterData = [{
         category: "Rising of the Shield Hero",
         mainTags: "filo (tate no yuusha no nariagari), blue eyes, blonde hair, long hair, tate no yuusha no nariagari",
         enhancers: [
-            ["angel wings", "blue dress", "blue bow", "wide sleeves"]
+            ["angel wings","blue dress","blue bow","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14190,7 +14190,7 @@ const characterData = [{
         category: "Rising of the Shield Hero",
         mainTags: "melty q melromarc, purple eyes, blue hair, long hair, tate no yuusha no nariagari",
         enhancers: [
-            ["white dress", "layered dress", "blue dress", "frilled dress", "blue ribbon", "white pantyhose"]
+            ["white dress","layered dress","blue dress","frilled dress","blue ribbon","white pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14201,7 +14201,7 @@ const characterData = [{
         category: "Rising of the Shield Hero",
         mainTags: "malty s melromarc, green eyes, red hair, long hair, tate no yuusha no nariagari",
         enhancers: [
-            ["armor", "boobplate", "purple dress", "detached collar", "black thighhighs", "detached sleeves", "black sleeves", "wrist guards", "black belt"]
+            ["armor","boobplate","purple dress","detached collar","black thighhighs","detached sleeves","black sleeves","wrist guards","black belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14212,7 +14212,7 @@ const characterData = [{
         category: "GATE",
         mainTags: "rory mercury, red eyes, black hair, long hair, gate - jieitai ka no chi nite kaku tatakaeri",
         enhancers: [
-            ["black dress", "gothic lolita", "red necktie", "puffy short sleeves", "black thighhighs", "garter straps"]
+            ["black dress","gothic lolita","red necktie","puffy short sleeves","black thighhighs","garter straps"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14223,7 +14223,7 @@ const characterData = [{
         category: "GATE",
         mainTags: "lelei la lalena, blue eyes, blue hair, short hair, gate - jieitai ka no chi nite kaku tatakaeri",
         enhancers: [
-            ["green dress", "two-tone tabard", "yellow cape", "blue ribbon", "wide sleeves"]
+            ["green dress","two-tone tabard","yellow cape","blue ribbon","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14234,8 +14234,8 @@ const characterData = [{
         category: "GATE",
         mainTags: "tuka luna marceau, blue eyes, blonde hair, long hair, pointy ears, elf, gate - jieitai ka no chi nite kaku tatakaeri",
         enhancers: [
-            ["jeans", "capri pants", "white crop top", "red neckerchief", "brown gloves", "brown belt"],
-            ["green dress", "red neckerchief", "brown arm bands", "detached sleeves", "wide sleeves", "green thighhighs"]
+            ["jeans","capri pants","white crop top","red neckerchief","brown gloves","brown belt"],
+            ["green dress","red neckerchief","brown arm bands","detached sleeves","wide sleeves","green thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14246,7 +14246,7 @@ const characterData = [{
         category: "GATE",
         mainTags: "itami youji, brown eyes, black hair, short hair, spiked hair, gate - jieitai ka no chi nite kaku tatakaeri",
         enhancers: [
-            ["military combat uniform", "camouflage"]
+            ["military combat uniform","camouflage"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14257,11 +14257,11 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "souryuu asuka langley, blue eyes, brown hair, long hair, neon genesis evangelion",
         enhancers: ["yellow dress",
-            ["tokyo-3 middle school uniform", "blue dress", "white shirt", "red ribbon"],
-            ["white shirt", "denim shorts"],
-            ["red bodysuit", "mecha pilot suit"],
-            ["red bodysuit", "mecha pilot suit", "eyepatch"],
-            ["white bodysuit", "mecha pilot suit", "eyepatch"],
+            ["tokyo-3 middle school uniform","blue dress","white shirt","red ribbon"],
+            ["white shirt","denim shorts"],
+            ["red bodysuit","mecha pilot suit"],
+            ["red bodysuit","mecha pilot suit","eyepatch"],
+            ["white bodysuit","mecha pilot suit","eyepatch"],
             ["striped bikini"]
         ],
         defaultGender: "girl",
@@ -14273,9 +14273,9 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "ayanami rei, red eyes, blue hair, short hair, neon genesis evangelion",
         enhancers: [
-            ["tokyo-3 middle school uniform", "blue dress", "white shirt", "red ribbon"],
-            ["white bodysuit", "mecha pilot suit"],
-            ["white bodysuit", "mecha pilot suit", "very long hair"],
+            ["tokyo-3 middle school uniform","blue dress","white shirt","red ribbon"],
+            ["white bodysuit","mecha pilot suit"],
+            ["white bodysuit","mecha pilot suit","very long hair"],
             ["black bodysuit"]
         ],
         defaultGender: "girl",
@@ -14287,8 +14287,8 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "ikari shinji, blue eyes, brown hair, short hair, neon genesis evangelion",
         enhancers: [
-            ["tokyo-3 middle school uniform", "black pants", "white shirt", "wristwatch"],
-            ["mecha pilot suit", "blue bodysuit", "chestplate"]
+            ["tokyo-3 middle school uniform","black pants","white shirt","wristwatch"],
+            ["mecha pilot suit","blue bodysuit","chestplate"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14299,8 +14299,8 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "nagisa kaworu, red eyes, grey hair, short hair, neon genesis evangelion",
         enhancers: [
-            ["tokyo-3 middle school uniform", "black pants", "white shirt"],
-            ["mech pilot suit", "black bodysuit"]
+            ["tokyo-3 middle school uniform","black pants","white shirt"],
+            ["mech pilot suit","black bodysuit"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14311,9 +14311,9 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "makinami mari illustrious, green eyes, brown hair, long hair, twintails, glasses, neon genesis evangelion",
         enhancers: [
-            ["plaid skirt", "white shirt", "green necktie"],
-            ["mecha pilot suit", "pink bodysuit", "chest jewel"],
-            ["mecha pilot suit", "white bodysuit"]
+            ["plaid skirt","white shirt","green necktie"],
+            ["mecha pilot suit","pink bodysuit","chest jewel"],
+            ["mecha pilot suit","white bodysuit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14324,8 +14324,8 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "katsuragi misato, brown eyes, purple hair, long hair, neon genesis evangelion",
         enhancers: [
-            ["red jacket", "black dress"],
-            ["black military dress uniform", "female service cap", "lanyard"]
+            ["red jacket","black dress"],
+            ["black military dress uniform","female service cap","lanyard"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14336,7 +14336,7 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "ikari gendou, brown eyes, brown hair, short hair, orange-tinted glasses, neon genesis evangelion",
         enhancers: [
-            ["black jacket", "black pants", "white gloves", "red turtleneck"]
+            ["black jacket","black pants","white gloves","red turtleneck"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14347,8 +14347,8 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "akagi ritsuko, brown eyes, blonde hair, short hair, neon genesis evangelion",
         enhancers: [
-            ["sleeveless blue shirt", "front zipper", "black skirt", "red pantyhose", "white lab coat"],
-            ["sleeveless blue shirt", "front zipper", "black skirt", "pantyhose"]
+            ["sleeveless blue shirt","front zipper","black skirt","red pantyhose","white lab coat"],
+            ["sleeveless blue shirt","front zipper","black skirt","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14359,7 +14359,7 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "ibuki maya, brown eyes, brown hair, short hair, neon genesis evangelion",
         enhancers: [
-            ["tan jacket", "whigh collar", "white pants", "black belt"],
+            ["tan jacket","whigh collar","white pants","black belt"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14370,7 +14370,7 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "horaki hikari, brown eyes, brown hair, long hair, twintails, neon genesis evangelion",
         enhancers: [
-            ["tokyo-3 middle school uniform", "blue dress", "white shirt", "red ribbon"],
+            ["tokyo-3 middle school uniform","blue dress","white shirt","red ribbon"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14381,7 +14381,7 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "tabris-xx, red eyes, grey hair, short hair, twintails, neon genesis evangelion",
         enhancers: [
-            ["long white shirt", "angel (evangelion)", "angel wings", "multiple wings", "{{six wings}}"]
+            ["long white shirt","angel (evangelion)","angel wings","multiple wings","{{six wings}}"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14392,7 +14392,7 @@ const characterData = [{
         category: "Neon Genesis Evangelion",
         mainTags: "ikari yui, brown eyes, brown hair, short hair, neon genesis evangelion",
         enhancers: [
-            ["pink shirt", "blue high-waist skirt", "long skirt", "white lab coat"]
+            ["pink shirt","blue high-waist skirt","long skirt","white lab coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14403,7 +14403,7 @@ const characterData = [{
         category: "Star Wars",
         mainTags: "ahsoka tano, blue eyes, orange skin, dark skin, dark-skinned female, star wars: ahsoka, star wars",
         enhancers: [
-            ["sleeveless red dress", "detached sleeves", "fingerless elbow gloves", "black leggings", "leg cutout", "multiple belts"],
+            ["sleeveless red dress","detached sleeves","fingerless elbow gloves","black leggings","leg cutout","multiple belts"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14414,7 +14414,7 @@ const characterData = [{
         category: "Star Wars",
         mainTags: "darth vader, black hair, short hair, star wars",
         enhancers: [
-            ["--black hair", "--short hair", "faceless", "black cape", "helmet"]
+            ["--black hair","--short hair","faceless","black cape","helmet"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14425,7 +14425,7 @@ const characterData = [{
         category: "Star Wars",
         mainTags: "obi-wan kenobi, blue eyes, brown hair, short hair, star wars",
         enhancers: [
-            ["brown cloak", "jedi"]
+            ["brown cloak","jedi"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14436,9 +14436,9 @@ const characterData = [{
         category: "Star Wars",
         mainTags: "princess leia, brown eyes, brown hair, long hair, twintails, star wars",
         enhancers: [
-            ["white bodysuit", "brown vest", "brown gloves"],
-            ["white pants", "white padded jacket"],
-            ["white crop top", "long sleeves", "pelvic curtain", "white belt"],
+            ["white bodysuit","brown vest","brown gloves"],
+            ["white pants","white padded jacket"],
+            ["white crop top","long sleeves","pelvic curtain","white belt"],
             ["huttslayer leia"]
         ],
         defaultGender: "girl",
@@ -14450,7 +14450,7 @@ const characterData = [{
         category: "Star Wars",
         mainTags: "rey (star wars), brown eyes, brown hair, long hair, star wars",
         enhancers: [
-            ["jedi", "brown robe"]
+            ["jedi","brown robe"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14461,7 +14461,7 @@ const characterData = [{
         category: "Star Wars",
         mainTags: "han solo, blue eyes, brown hair, short hair, star wars",
         enhancers: [
-            ["black vest", "white shirt", "denim skirt"]
+            ["black vest","white shirt","denim skirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14472,8 +14472,8 @@ const characterData = [{
         category: "Star Wars",
         mainTags: "luke skywalker, blue eyes, blonde hair, short hair, star wars",
         enhancers: [
-            ["jedi", "robe", "utility belt"],
-            ["jedi", "robe", "utility belt", "cape"]
+            ["jedi","robe","utility belt"],
+            ["jedi","robe","utility belt","cape"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14484,9 +14484,9 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "yoko littner, red eyes, red hair, long hair, ponytail, tengen toppa gurren lagann",
         enhancers: [
-            ["bikini top only", "pink collar", "black short shorts", "pink thighhighs", "white boots"],
-            ["space yoko", "white cape", "black bikini", "star (symbol)", "white thigh boots"],
-            ["yomako", "long brown skirt", "single side slit", "pink shirt", "white cropped jacket", "green necktie", "glasses"]
+            ["bikini top only","pink collar","black short shorts","pink thighhighs","white boots"],
+            ["space yoko","white cape","black bikini","star (symbol)","white thigh boots"],
+            ["yomako","long brown skirt","single side slit","pink shirt","white cropped jacket","green necktie","glasses"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14497,8 +14497,8 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "nia teppelin, blue eyes, blonde hair, gradient hair, long hair, tengen toppa gurren lagann",
         enhancers: [
-            ["pink dress", "red necktie", "gold belt", "gold armbands"],
-            ["antispiral nia", "black bodysuit", "neon trim"]
+            ["pink dress","red necktie","gold belt","gold armbands"],
+            ["antispiral nia","black bodysuit","neon trim"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14509,7 +14509,7 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "simon (ttgl), blue eyes, blue hair, short hair, tengen toppa gurren lagann",
         enhancers: [
-            ["blue jacket", "sarashi", "brown shorts", "red armband", "goggles on head"]
+            ["blue jacket","sarashi","brown shorts","red armband","goggles on head"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14520,7 +14520,7 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "kamina (ttgl), blue eyes, blue hair, short hair, tengen toppa gurren lagann",
         enhancers: [
-            ["sarashi", "red cape", "brown pants", "red-tinted eyewear", "triangular eyewear"]
+            ["sarashi","red cape","brown pants","red-tinted eyewear","triangular eyewear"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14531,8 +14531,8 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "viral (ttgl), yellow eyes, blonde hair, long hair, fangs, tengen toppa gurren lagann",
         enhancers: [
-            ["blue shirt", "red scarf", "multiple belts", "wide sleeves"],
-            ["red sleeveless shirt", "red scarf", "multiple belts", "cape"]
+            ["blue shirt","red scarf","multiple belts","wide sleeves"],
+            ["red sleeveless shirt","red scarf","multiple belts","cape"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14543,7 +14543,7 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "darry adai, brown eyes, orange hair, short hair, tengen toppa gurren lagann",
         enhancers: ["red bodysuit",
-            ["pink dress", "red hair ribbon"]
+            ["pink dress","red hair ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14554,7 +14554,7 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "rossiu adai, brown eyes, brown hair, long hair, ponytail, tengen toppa gurren lagann",
         enhancers: [
-            ["white robe", "high collar", "white pants", "green armband"]
+            ["white robe","high collar","white pants","green armband"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14565,7 +14565,7 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "kiyal bachika, brown eyes, brown hair, long hair, tengen toppa gurren lagann",
         enhancers: [
-            ["black bike shorts", "black tanktop", "yellow gloves", "black armband"]
+            ["black bike shorts","black tanktop","yellow gloves","black armband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14576,8 +14576,8 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "kinon bachika, brown eyes, brown hair, short hair, glasses, tengen toppa gurren lagann",
         enhancers: [
-            ["military uniform", "military hat", "pantyhose", "single orange armband"],
-            ["sleeveless black bodysuit", "black shorts", "multiple white belts", "gloves", "black armbands"]
+            ["military uniform","military hat","pantyhose","single orange armband"],
+            ["sleeveless black bodysuit","black shorts","multiple white belts","gloves","black armbands"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14588,7 +14588,7 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "adiane, red eyes, black hair, long hair, scorpion tail, tengen toppa gurren lagann",
         enhancers: [
-            ["eyepatch", "off-shoulder dress", "red dress", "wide sleeves", "thigh strap", "knee strap"]
+            ["eyepatch","off-shoulder dress","red dress","wide sleeves","thigh strap","knee strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14599,7 +14599,7 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "kiyoh bachika, blue eyes, blonde hair, long hair, tengen toppa gurren lagann",
         enhancers: [
-            ["black skirt", "black crop top", "yellow gloves", "white belt", "black knee boots", "black armbands"]
+            ["black skirt","black crop top","yellow gloves","white belt","black knee boots","black armbands"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14610,7 +14610,7 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "gimmy adai, brown eyes, orange hair, short hair, spiked hair, tengen toppa gurren lagann",
         enhancers: [
-            ["high collar", "blue bodysuit", "white bodysuit", "wide sleeves"]
+            ["high collar","blue bodysuit","white bodysuit","wide sleeves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14621,7 +14621,7 @@ const characterData = [{
         category: "Gurren Lagann",
         mainTags: "leeron littner, green eyes, teal hair, short hair, tengen toppa gurren lagann",
         enhancers: [
-            ["blue bodysuit", "pink padded vest"]
+            ["blue bodysuit","pink padded vest"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14632,7 +14632,7 @@ const characterData = [{
         category: "Dr. Stone",
         mainTags: "kohaku (dr. stone), blue eyes, blonde hair, long hair, dr. stone",
         enhancers: [
-            ["blue dress", "rope belt"]
+            ["blue dress","rope belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14643,7 +14643,7 @@ const characterData = [{
         category: "Dr. Stone",
         mainTags: "ishigami senkuu, red eyes, green hair, gradient hair, long hair, spiked hair, dr. stone",
         enhancers: [
-            ["grey tunic", "high collar", "belt bag"]
+            ["grey tunic","high collar","belt bag"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14654,7 +14654,7 @@ const characterData = [{
         category: "Dr. Stone",
         mainTags: "asagiri gen, purple eyes, black hair, white hair, split-color hair, medium hair, dr. stone",
         enhancers: [
-            ["layered clothes", "high collar", "purple robe"]
+            ["layered clothes","high collar","purple robe"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14674,7 +14674,7 @@ const characterData = [{
         category: "Dr. Stone",
         mainTags: "suika (dr.stone), brown eyes, blonde hair, short hair, ahoge, dr. stone",
         enhancers: [
-            ["blue dress", "rope necklace"]
+            ["blue dress","rope necklace"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14685,7 +14685,7 @@ const characterData = [{
         category: "Dr. Stone",
         mainTags: "hanada nikki, muscular female, blue eyes, blonde hair, long hair, twin braids, dr. stone",
         enhancers: [
-            ["green dress", "purple bows", "rope belt"]
+            ["green dress","purple bows","rope belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14696,7 +14696,7 @@ const characterData = [{
         category: "Space Dandy",
         mainTags: "dandy (space dandy), brown eyes, black hair, short hair, pompadour, space dandy",
         enhancers: [
-            ["two-tone jacket", "red shirt", "black pants", "lanyard"]
+            ["two-tone jacket","red shirt","black pants","lanyard"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14707,7 +14707,7 @@ const characterData = [{
         category: "Space Dandy",
         mainTags: "meow (space dandy), green eyes, brown hair, short hair, personification, cat tail, whiskers, cat ears, space dandy",
         enhancers: [
-            ["red hat", "green overalls"]
+            ["red hat","green overalls"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14718,7 +14718,7 @@ const characterData = [{
         category: "Space Dandy",
         mainTags: "honey (space dandy), blue eyes, blonde hair, long hair, space dandy",
         enhancers: [
-            [" boobies uniform", "choker", "hairband", "pink bikini", "wrist cuffs"]
+            [" boobies uniform","choker","hairband","pink bikini","wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14729,7 +14729,7 @@ const characterData = [{
         category: "Space Dandy",
         mainTags: "adelie (space dandy), green eyes, blonde hair, short hair, space dandy",
         enhancers: [
-            ["black sleeveless leotard", "black leggings", "blue shirt"]
+            ["black sleeveless leotard","black leggings","blue shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14740,7 +14740,7 @@ const characterData = [{
         category: "Dirty Pair",
         mainTags: "yuri (dirty pair), blue eyes, blue hair, long hair, dirty pair",
         enhancers: [
-            ["yellow crop top", "yellow shorts", "single yellow elbow glove"]
+            ["yellow crop top","yellow shorts","single yellow elbow glove"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14751,7 +14751,7 @@ const characterData = [{
         category: "Dirty Pair",
         mainTags: "kei (dirty pair), dark skin, dark-skinned female, brown eyes, red hair, medium hair,  dirty pair",
         enhancers: [
-            ["green headband", "green crop top", "green shorts", "single green elbow glove"]
+            ["green headband","green crop top","green shorts","single green elbow glove"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14762,7 +14762,7 @@ const characterData = [{
         category: "Dirty Pair",
         mainTags: "yuri (dirty pair flash), blue eyes, brown hair, long hair, dirty pair",
         enhancers: [
-            ["blue highleg leotard", "white croped vest", "white skirt", "hip vent", "white thigh boots", "single fingerless glove", "red glove", "impossible clothes"]
+            ["blue highleg leotard","white croped vest","white skirt","hip vent","white thigh boots","single fingerless glove","red glove","impossible clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14773,7 +14773,7 @@ const characterData = [{
         category: "Dirty Pair",
         mainTags: "kei (dirty pair flash), green eyes, red hair, two-tone hair, medium hair, dirty pair",
         enhancers: [
-            ["white highleg leotard", "red cropped vest", "red shorts", "impossible clothes"]
+            ["white highleg leotard","red cropped vest","red shorts","impossible clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14784,7 +14784,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "snow white (mahoiku), brown eyes, pink hair, short hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "blue dress", "pleated skirt", "sailor collar", "red armband"]
+            ["magical girl","blue dress","pleated skirt","sailor collar","red armband"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14795,7 +14795,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "la pucelle (mahoiku), yellow eyes, blonde hair, short hair, antennae, tail, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "black knee boots", "purple leotard", "white dress", "cleavage cutout", "arm guards"]
+            ["magical girl","black knee boots","purple leotard","white dress","cleavage cutout","arm guards"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14806,7 +14806,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "swim swim, blue eyes, brown hair, long hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "white one-piece swimsuit", "demon wings", "headband", "goggles around neck", "black fingerless gloves", "frilled thigh strap"]
+            ["magical girl","white one-piece swimsuit","demon wings","headband","goggles around neck","black fingerless gloves","frilled thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14817,7 +14817,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "nemurin, brown eyes, blonde hair, long hair, hair between eyes, half-closed eyes, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "yellow print nightgown", "rabbit print"]
+            ["magical girl","yellow print nightgown","rabbit print"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14828,7 +14828,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "ruler (mahoiku), purple eyes, purple hair, short hair, double bun, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["black cape", "puffy sleeves", "white shirt"]
+            ["black cape","puffy sleeves","white shirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14839,7 +14839,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "hardgore alice, brown eyes, black hair, long hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "lolita hairband", "frilled choker", "striped leggings", "black dress"]
+            ["magical girl","lolita hairband","frilled choker","striped leggings","black dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14850,7 +14850,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "ripple (mahoiku), brown eyes, black hair, long hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "red scarf", "puffy sleeves", "miniskirt", "thighhighs"]
+            ["magical girl","red scarf","puffy sleeves","miniskirt","thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14861,7 +14861,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "cranberry (mahoiku), red eyes, blonde hair, medium hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "frilled white dress", "center frills", "green pantyhose", "belt"]
+            ["magical girl","frilled white dress","center frills","green pantyhose","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14872,7 +14872,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "shadowgale, yellow eyes, blonde hair, short hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "frilled dress", "black gloves", "thigh strap"]
+            ["magical girl","frilled dress","black gloves","thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14883,7 +14883,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "pfle, red eyes, blonde hair, very long hair, eyepatch, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["frilled dress", "pink dress", "purple dress", "multicolored dress", "detached sleeves", "sleeves past wrists", "dress bow"]
+            ["frilled dress","pink dress","purple dress","multicolored dress","detached sleeves","sleeves past wrists","dress bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14894,7 +14894,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "top speed, blue eyes, brown hair, long hair, twin braids, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["witch hat", "black dress", "black cape"]
+            ["witch hat","black dress","black cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14905,7 +14905,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "lapis lazuline, red eyes, brown hair, short hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["blue dress", "detached sleeves", "tail", "cape"]
+            ["blue dress","detached sleeves","tail","cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14916,7 +14916,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "sister nana, blue eyes, blonde hair, very long hair, drill hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["nun", "elbow gloves", "habit"]
+            ["nun","elbow gloves","habit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14927,7 +14927,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "tama (mahoiku), brown eyes, brown hair, short hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["spiked collar", "paw gloves", "animal ear hood"]
+            ["spiked collar","paw gloves","animal ear hood"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14938,7 +14938,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "calamity mary, yellow eyes, blonde hair, long hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "bikini top only", "orange skirt", "black belt", "hat", "cape"]
+            ["magical girl","bikini top only","orange skirt","black belt","hat","cape"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14949,7 +14949,7 @@ const characterData = [{
         category: "Magical Girl Raising Project",
         mainTags: "pechika (mahoiku), blue eyes, blonde hair, short hair, gradient hair, mahou shoujo ikusei keikaku",
         enhancers: [
-            ["magical girl", "white dress", "white thighhighs", "white hat", "frilled dress", "frilled thighhighs", "rooster tail"]
+            ["magical girl","white dress","white thighhighs","white hat","frilled dress","frilled thighhighs","rooster tail"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14960,8 +14960,8 @@ const characterData = [{
         category: "The Future Diary",
         mainTags: "gasai yuno, red eyes, pink hair, long hair, mirai nikki",
         enhancers: ["strappy black dress",
-            ["blue shirt", "blue skirt", "red bow"],
-            ["white collar", "yellow shirt", "green sweater", "teal skirt"]
+            ["blue shirt","blue skirt","red bow"],
+            ["white collar","yellow shirt","green sweater","teal skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14972,8 +14972,8 @@ const characterData = [{
         category: "The Future Diary",
         mainTags: "uryuu minene, purple eyes, purple hair, short hair, eyerpatch,mirai nikki",
         enhancers: [
-            ["green jacket", "green pants", "black shirt", "midriff", "belt", "shoulder holster"],
-            ["crop top", "high collar", "cleavage cutout", "belt", "black pants"]
+            ["green jacket","green pants","black shirt","midriff","belt","shoulder holster"],
+            ["crop top","high collar","cleavage cutout","belt","black pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -14984,8 +14984,8 @@ const characterData = [{
         category: "The Future Diary",
         mainTags: "amano yukiteru, blue eyes, brown hair, short hair, mirai nikki",
         enhancers: [
-            ["orange hat", "green cropped jacket", "white shirt", "shirt under shirt", "orange shorts"],
-            ["brown hat", "brown jacket", "black shirt", "shoulder bag"]
+            ["orange hat","green cropped jacket","white shirt","shirt under shirt","orange shorts"],
+            ["brown hat","brown jacket","black shirt","shoulder bag"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -14996,7 +14996,7 @@ const characterData = [{
         category: "The Future Diary",
         mainTags: "akise aru, red eyes, white hair, short hair, mirai nikki",
         enhancers: [
-            ["blue shirt", "necktie", "black pants"]
+            ["blue shirt","necktie","black pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15007,7 +15007,7 @@ const characterData = [{
         category: "The Future Diary",
         mainTags: "kasugano tsubaki, red eyes, black hair, long hair, mirai nikki",
         enhancers: [
-            ["red hair bow", "red kimono", "white bow"]
+            ["red hair bow","red kimono","white bow"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15018,7 +15018,7 @@ const characterData = [{
         category: "The Future Diary",
         mainTags: "murmur (mirai nikki), dark skin, dark-skinned female, purple eyes, silver hair, long hair, mirai nikki",
         enhancers: [
-            ["pink vest", "front zipper", "white bikini bottom", "white thigh boots", "head ornament"]
+            ["pink vest","front zipper","white bikini bottom","white thigh boots","head ornament"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15029,9 +15029,9 @@ const characterData = [{
         category: "Elfen Lied",
         mainTags: "lucy (elfen lied), red eyes, pink hair, long hair, elfen lied",
         enhancers: [
-            ["pink shirt", "black dress", "black and grey striped thighhighs"],
+            ["pink shirt","black dress","black and grey striped thighhighs"],
             ["naked bandage"],
-            ["nyuu", "oversized shirt", "white tank top"]
+            ["nyuu","oversized shirt","white tank top"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15042,7 +15042,7 @@ const characterData = [{
         category: "Elfen Lied",
         mainTags: "nana (elfen lied), purple eyes, pink hair, long hair, elfen lied",
         enhancers: [
-            ["black dress", "collar", "cuffs"]
+            ["black dress","collar","cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15053,7 +15053,7 @@ const characterData = [{
         category: "Elfen Lied",
         mainTags: "mariko (elfen lied), purple eyes, pink hair, short hair, elfen lied",
         enhancers: [
-            ["blue bows", "blue ribbon", "center frills", "frilled yellow shirt", "plaid skirt", "wheelchair"]
+            ["blue bows","blue ribbon","center frills","frilled yellow shirt","plaid skirt","wheelchair"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15064,8 +15064,8 @@ const characterData = [{
         category: "Gushing Over Magical Girls",
         mainTags: "hiiragi utena, green eyes, purple hair, short hair, mahou shoujo ni akogarete",
         enhancers: [
-            ["school uniform", "green pleated skirt", "white shirt", "green sailor collar", "yellow ribbon"],
-            ["magical girl", "magia baiser", "white dress", "revealing clothes", "purple pants", "bat wings", "low wings", "yellow horns"]
+            ["school uniform","green pleated skirt","white shirt","green sailor collar","yellow ribbon"],
+            ["magical girl","magia baiser","white dress","revealing clothes","purple pants","bat wings","low wings","yellow horns"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15076,8 +15076,8 @@ const characterData = [{
         category: "Gushing Over Magical Girls",
         mainTags: "araga kiwi, red eyes, green hair, medium hair, mahou shoujo ni akogarete",
         enhancers: [
-            ["school uniform", "green pleated skirt", "white shirt", "green sailor collar", "yellow ribbon", "oversized yellow jacket", "sleeves past wrists"],
-            ["magical girl", "leoparde (mahou shoujo ni akogarete)", "military jacket", "military hat", "black panties", "green gloves", "thigh boots", "garter belt"]
+            ["school uniform","green pleated skirt","white shirt","green sailor collar","yellow ribbon","oversized yellow jacket","sleeves past wrists"],
+            ["magical girl","leoparde (mahou shoujo ni akogarete)","military jacket","military hat","black panties","green gloves","thigh boots","garter belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15088,9 +15088,9 @@ const characterData = [{
         category: "Gushing Over Magical Girls",
         mainTags: "minakami sayo, red eyes, aqua hair, long hair, mahou shoujo ni akogarete",
         enhancers: [
-            ["school uniform", "green pleated skirt", "white shirt", "green sailor collar", "yellow ribbon"],
-            ["magical girl", "magia azure", "frilled blue dress", "white shirt", "center frill", "blue elbow gloves", "blue thigh boots"],
-            ["magical girl", "magia azure (la verita)", "blue skirt", "hakama", "hakama skirt"]
+            ["school uniform","green pleated skirt","white shirt","green sailor collar","yellow ribbon"],
+            ["magical girl","magia azure","frilled blue dress","white shirt","center frill","blue elbow gloves","blue thigh boots"],
+            ["magical girl","magia azure (la verita)","blue skirt","hakama","hakama skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15101,8 +15101,8 @@ const characterData = [{
         category: "Gushing Over Magical Girls",
         mainTags: "hanabishi haruka, blue eyes, pink hair, long hair, twin drills, mahou shoujo ni akogarete",
         enhancers: [
-            ["school uniform", "green pleated skirt", "white shirt", "green sailor collar", "yellow ribbon"],
-            ["magical girl", "magia magenta", "frilled pink dress", "white shirt", "center frill", "pink elbow gloves", "pink thigh boots"]
+            ["school uniform","green pleated skirt","white shirt","green sailor collar","yellow ribbon"],
+            ["magical girl","magia magenta","frilled pink dress","white shirt","center frill","pink elbow gloves","pink thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15113,8 +15113,8 @@ const characterData = [{
         category: "Gushing Over Magical Girls",
         mainTags: "morino korisu, pink eyes, blonde hair, long hair, mahou shoujo ni akogarete",
         enhancers: [
-            ["blue dress", "white shirt", "white hat", "belt"],
-            ["magical girl", "nero alice", "blue dress", "apron", "forehead mark", "black hair bow", "large hair bow", "pink ribbon"]
+            ["blue dress","white shirt","white hat","belt"],
+            ["magical girl","nero alice","blue dress","apron","forehead mark","black hair bow","large hair bow","pink ribbon"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15125,8 +15125,8 @@ const characterData = [{
         category: "Gushing Over Magical Girls",
         mainTags: "akoya matama, blue eyes, brown hair, streaked hair, medium hair, mahou shoujo ni akogarete",
         enhancers: [
-            ["school uniform", "blue jacket", "grey skirt", "thighhighs", "red ribbon", "white shirt"],
-            ["magical girl", "loco musica", "white hat", "white coat", "aqua dress", "black bikini top only", "sailor collar", "black thighhighs", "aqua knee boots"]
+            ["school uniform","blue jacket","grey skirt","thighhighs","red ribbon","white shirt"],
+            ["magical girl","loco musica","white hat","white coat","aqua dress","black bikini top only","sailor collar","black thighhighs","aqua knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15137,8 +15137,8 @@ const characterData = [{
         category: "Gushing Over Magical Girls",
         mainTags: "tenkawa kaoruko, blue eyes, blonde hair, long hair, yellow hair bow, mahou shoujo ni akogarete",
         enhancers: [
-            ["school uniform", "green pleated skirt", "white shirt", "green sailor collar", "yellow ribbon"],
-            ["magical girl", "magia sulfur", "frilled yellow dress", "white shirt", "center frill", "yellow elbow gloves", "yellow thigh boots"]
+            ["school uniform","green pleated skirt","white shirt","green sailor collar","yellow ribbon"],
+            ["magical girl","magia sulfur","frilled yellow dress","white shirt","center frill","yellow elbow gloves","yellow thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15149,8 +15149,8 @@ const characterData = [{
         category: "Gushing Over Magical Girls",
         mainTags: "anemo nemo, purple eyes, green hair, short hair, mahou shoujo ni akogarete",
         enhancers: [
-            ["open blue cardigan", "oversized cardigan", "white shirt", "grey skirt"],
-            ["magical girl", "leberblume", "gradient hair", "aqua dress", "pelvic curtain", "side slits", "aqua elbow gloves", "high collar", "aqua thigh boots", "hood up"]
+            ["open blue cardigan","oversized cardigan","white shirt","grey skirt"],
+            ["magical girl","leberblume","gradient hair","aqua dress","pelvic curtain","side slits","aqua elbow gloves","high collar","aqua thigh boots","hood up"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15161,7 +15161,7 @@ const characterData = [{
         category: "Gushing Over Magical Girls",
         mainTags: "sister gigant, blue eyes, pink hair, very long hair, mahou shoujo ni akogarete",
         enhancers: [
-            ["nun", "coif", "habit", "navel", "revealing clothes", "black dress", "star on a lanyard"]
+            ["nun","coif","habit","navel","revealing clothes","black dress","star on a lanyard"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15172,7 +15172,7 @@ const characterData = [{
         category: "Strike Witches",
         mainTags: "eila ilmatar juutilainen, blue eyes, white hair, long hair, strike witches",
         enhancers: [
-            ["military uniform", "blue jacket", "white pantyhose"]
+            ["military uniform","blue jacket","white pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15183,7 +15183,7 @@ const characterData = [{
         category: "Strike Witches",
         mainTags: "sanya v. litvyak, green eyes, silver hair, short hair, strike witches",
         enhancers: [
-            ["military uniform", "white shirt", "pantyhose"]
+            ["military uniform","white shirt","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15194,7 +15194,7 @@ const characterData = [{
         category: "Strike Witches",
         mainTags: "miyafuji yoshika, brown eyes, brown hair, short hair, strike witches",
         enhancers: [
-            ["blue one-piece swimsuit", "swimsuit under clothes", "sailor shirt", "sailor collar"]
+            ["blue one-piece swimsuit","swimsuit under clothes","sailor shirt","sailor collar"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15205,7 +15205,7 @@ const characterData = [{
         category: "Strike Witches",
         mainTags: "erica hartmann, blue eyes, blonde hair, short hair, strike witches",
         enhancers: [
-            ["military uniform", "brown jacket", "white skirt"]
+            ["military uniform","brown jacket","white skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15216,7 +15216,7 @@ const characterData = [{
         category: "Strike Witches",
         mainTags: "gertrud barkhorn, brown eyes, brown hair, long hair, twintails, strike witches",
         enhancers: [
-            ["military outfit", "white shorts"]
+            ["military outfit","white shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15227,7 +15227,7 @@ const characterData = [{
         category: "Strike Witches",
         mainTags: "perrine h. clostermann, yellow eyes, blonde hair, long hair, glasses, strike witches",
         enhancers: [
-            ["military uniform", "pantyhose"]
+            ["military uniform","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15238,7 +15238,7 @@ const characterData = [{
         category: "Strike Witches",
         mainTags: "lynette bishop, blue eyes, blonde hair, long hair, braid, strike witches",
         enhancers: [
-            ["collared shirt", "blazer", "sweater", "striped thighhighs"]
+            ["collared shirt","blazer","sweater","striped thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15249,7 +15249,7 @@ const characterData = [{
         category: "Strike Witches",
         mainTags: "charlotte e. yeager, blue eyes, red hair, long hair, strike witches",
         enhancers: [
-            ["red jacket", "lapel pin", "white shirt", "no pants"]
+            ["red jacket","lapel pin","white shirt","no pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15260,7 +15260,7 @@ const characterData = [{
         category: "Strike Witches",
         mainTags: "sakamoto mio, brown eyes, black hair, short hair, eyepatch, strike witches",
         enhancers: [
-            ["military uniform", "white jacket", "white one-piece swimsuit"]
+            ["military uniform","white jacket","white one-piece swimsuit"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15271,9 +15271,9 @@ const characterData = [{
         category: "Seven Mortal Sins",
         mainTags: "elizabeth liones, blue eyes, white hair, long hair, nanatsu no taizai",
         enhancers: [
-            ["pink sleeveless shirt", "frilled shirt", "black bow", "black skirt", "single thighhigh"],
-            ["purple halter shirt", "pink bow", "single detached sleeve", "white skirt", "single thighhigh"],
-            ["leotard", "detached sleeves", "thigh boots"]
+            ["pink sleeveless shirt","frilled shirt","black bow","black skirt","single thighhigh"],
+            ["purple halter shirt","pink bow","single detached sleeve","white skirt","single thighhigh"],
+            ["leotard","detached sleeves","thigh boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15284,7 +15284,7 @@ const characterData = [{
         category: "Seven Mortal Sins",
         mainTags: "diane (nanatsu no taizai), brown eyes, brown hair, medium hair, twintails, nanatsu no taizai",
         enhancers: [
-            ["orange leotard", "cleavage cutout", "high collar", "gloves", "thigh tattoo"]
+            ["orange leotard","cleavage cutout","high collar","gloves","thigh tattoo"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15295,9 +15295,9 @@ const characterData = [{
         category: "Seven Mortal Sins",
         mainTags: "meliodas, green eyes, blonde hair, short hair, nanatsu no taizai",
         enhancers: [
-            ["white shirt", "red necktie", "blue vest", "capri pants"],
-            ["fur-trimmed coat", "white shirt", "green pants"],
-            ["green cropped jacket", "arm band", "green pants", "belt chain"]
+            ["white shirt","red necktie","blue vest","capri pants"],
+            ["fur-trimmed coat","white shirt","green pants"],
+            ["green cropped jacket","arm band","green pants","belt chain"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15308,7 +15308,7 @@ const characterData = [{
         category: "Seven Mortal Sins",
         mainTags: "king (nanatsu no taizai), yellow eyes, orange hair, short hair, nanatsu no taizai",
         enhancers: [
-            ["multicolored coat", "blue pants"]
+            ["multicolored coat","blue pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15319,8 +15319,8 @@ const characterData = [{
         category: "Seven Mortal Sins",
         mainTags: "gowther, yellow eyes, pink hair, short hair, glasses, nanatsu no taizai",
         enhancers: [
-            ["white shirt", "purple sleeves", "shirt under shirt", "black pants"],
-            ["detached collar", "black dress", "white pants", "white knee boots"]
+            ["white shirt","purple sleeves","shirt under shirt","black pants"],
+            ["detached collar","black dress","white pants","white knee boots"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15331,8 +15331,8 @@ const characterData = [{
         category: "Seven Mortal Sins",
         mainTags: "elaine, yellow eyes, blonde hair, short hair, nanatsu no taizai",
         enhancers: [
-            ["off-shoulder white dress", "large bow"],
-            ["fairy wings", "pink dress"]
+            ["off-shoulder white dress","large bow"],
+            ["fairy wings","pink dress"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15343,7 +15343,7 @@ const characterData = [{
         category: "Seven Mortal Sins",
         mainTags: "merlin (nanatsu no taizai), yellow eyes, black hair, short hair, nanatsu no taizai",
         enhancers: [
-            ["purple fur-trimmed coat", "revealing clothes", "no bra", "purple thigh boots", "purple short shorts"]
+            ["purple fur-trimmed coat","revealing clothes","no bra","purple thigh boots","purple short shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15354,7 +15354,7 @@ const characterData = [{
         category: "How Not to Summon a Demon Lord",
         mainTags: "shera l. greenwood, green eyes, blonde hair, long hair, isekai maou to shoukan shoujo no dorei majutsu",
         enhancers: [
-            ["green dress", "metal collar", "white elbow gloves", "white thigh boots", "belt"]
+            ["green dress","metal collar","white elbow gloves","white thigh boots","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15365,7 +15365,7 @@ const characterData = [{
         category: "How Not to Summon a Demon Lord",
         mainTags: "rem galeu, cat girl, cat ears, cat tail,green eyes, black hair, long hair, isekai maou to shoukan shoujo no dorei majutsu",
         enhancers: [
-            ["purple skirt", "black shorts", "metal collar", "purple sleeves", "wrist cuffs", "greaves"]
+            ["purple skirt","black shorts","metal collar","purple sleeves","wrist cuffs","greaves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15376,7 +15376,7 @@ const characterData = [{
         category: "How Not to Summon a Demon Lord",
         mainTags: "alicia crystella, red eyes, red hair, long hair, glasses, isekai maou to shoukan shoujo no dorei majutsu",
         enhancers: [
-            ["armor", "boobplate", "blue skirt", "white shirt", "see-through clothes", "greaves", "arm guards"]
+            ["armor","boobplate","blue skirt","white shirt","see-through clothes","greaves","arm guards"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15387,8 +15387,8 @@ const characterData = [{
         category: "Vexations of a Shut-In Vampire Princess",
         mainTags: "terakomari gandezblood, red eyes, blonde hair, long hair, cone hair bun, hikikomari kyuuketsuki no monmon",
         enhancers: [
-            ["white skirt", "white thighhighs", "blue bowtie", "garter straps", "red jacket"],
-            ["red bikini", "frilled bikini"]
+            ["white skirt","white thighhighs","blue bowtie","garter straps","red jacket"],
+            ["red bikini","frilled bikini"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15399,8 +15399,8 @@ const characterData = [{
         category: "Vexations of a Shut-In Vampire Princess",
         mainTags: "villhaze, yellow eyes, blue hair, short hair, hikikomari kyuuketsuki no monmon",
         enhancers: [
-            ["maid", "black dress", "center frills", "detached sleeves", "wrist cuffs", "brown knee boots"],
-            ["black bikini", "eyewear on head"]
+            ["maid","black dress","center frills","detached sleeves","wrist cuffs","brown knee boots"],
+            ["black bikini","eyewear on head"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15411,8 +15411,8 @@ const characterData = [{
         category: "Vexations of a Shut-In Vampire Princess",
         mainTags: "sakuna memoire, blue eyes, white hair, long hair, hikikomari kyuuketsuki no monmon",
         enhancers: [
-            ["blue shirt", "blue ascot", "black skirt", "wide sleeves"],
-            ["white two-tone bikini", "frilled bikini bottoms"]
+            ["blue shirt","blue ascot","black skirt","wide sleeves"],
+            ["white two-tone bikini","frilled bikini bottoms"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15423,7 +15423,7 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "tachibana kanade, yellow eyes, silver hair, long hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "brown jacket", "black skirt"]
+            ["shinda sekai sensen uniform","brown jacket","black skirt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15434,8 +15434,8 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "nakamura yuri, green eyes, purple hair, long hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "thighhighs"],
-            ["pink hoodie", "denim pants"]
+            ["shinda sekai sensen uniform","thighhighs"],
+            ["pink hoodie","denim pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15446,7 +15446,7 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "yui (angel beats!), pink eyes, pink hair, long hair, twintails, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "thigh belts"]
+            ["shinda sekai sensen uniform","thigh belts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15457,7 +15457,7 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "hinata hideki, purple eyes, blue hair, short hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "red shirt", "shirt under shirt"]
+            ["shinda sekai sensen uniform","red shirt","shirt under shirt"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15468,7 +15468,7 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "hotonashi yuzuru, red eyes, red hair, short hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "blue necktie"]
+            ["shinda sekai sensen uniform","blue necktie"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15479,7 +15479,7 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "naoi ayato, green eyes, green hair, short hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "hat"]
+            ["shinda sekai sensen uniform","hat"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15501,7 +15501,7 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "yusa (angel beats!), brown eyes, blonde hair, long hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "pantyhose"]
+            ["shinda sekai sensen uniform","pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15512,8 +15512,8 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "shiina (angel beats!), red eyes, black hair, long hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "knee boots"],
-            ["shinda sekai sensen uniform", "knee boots", "black scarf", "covering mouth"]
+            ["shinda sekai sensen uniform","knee boots"],
+            ["shinda sekai sensen uniform","knee boots","black scarf","covering mouth"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15524,8 +15524,8 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "hisako (angel beats!), brown eyes, brown hair, short hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "thigh strap"],
-            ["green jacket", "white tank top", "black yoga pants"]
+            ["shinda sekai sensen uniform","thigh strap"],
+            ["green jacket","white tank top","black yoga pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15536,8 +15536,8 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "sekine shiori, blue eyes, blonde hair, long hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "white thighhighs", "single thigh belt"],
-            ["black jacket", "yellow turtleneck", "fur-trimmed shorts"]
+            ["shinda sekai sensen uniform","white thighhighs","single thigh belt"],
+            ["black jacket","yellow turtleneck","fur-trimmed shorts"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15548,7 +15548,7 @@ const characterData = [{
         category: "Angel Beats",
         mainTags: "irie miyuki, purple eyes, purple hair, long hair, angel beats!",
         enhancers: [
-            ["shinda sekai sensen uniform", "white knee socks", "single thigh strap"]
+            ["shinda sekai sensen uniform","white knee socks","single thigh strap"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15559,8 +15559,8 @@ const characterData = [{
         category: "Scott Pilgrim",
         mainTags: "ramona flowers, black eyes, blue hair, short hair, scott pilgrim (series)",
         enhancers: [
-            ["black hoodie", "grey jacket", "pink pantyhose", "blue skirt", "shoulder bag"],
-            ["black hoodie", "hood up", "grey jacket", "fishnets", "pink short shorts", "shoulder bag"]
+            ["black hoodie","grey jacket","pink pantyhose","blue skirt","shoulder bag"],
+            ["black hoodie","hood up","grey jacket","fishnets","pink short shorts","shoulder bag"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15571,8 +15571,8 @@ const characterData = [{
         category: "Scott Pilgrim",
         mainTags: "kim pine, black eyes, red hair, short hair, scott pilgrim (series)",
         enhancers: [
-            ["green striped jacket", "brown skirt", "pantyhose"],
-            ["black and white striped jacket", "blue pleated skirt", "knee socks"]
+            ["green striped jacket","brown skirt","pantyhose"],
+            ["black and white striped jacket","blue pleated skirt","knee socks"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15583,9 +15583,9 @@ const characterData = [{
         category: "Scott Pilgrim",
         mainTags: "knives chau, black eyes, black hair, short hair, hair between eyes, scott pilgrim (series)",
         enhancers: [
-            ["leggings", "grey off-shoulder sweater", "boots"],
-            ["ninja", "white and grey striped scarf", "red hair streak", "hair ornament"],
-            ["ninja", "black bodysuit", "grey and white striped scarf", "red hair streak"]
+            ["leggings","grey off-shoulder sweater","boots"],
+            ["ninja","white and grey striped scarf","red hair streak","hair ornament"],
+            ["ninja","black bodysuit","grey and white striped scarf","red hair streak"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15596,8 +15596,8 @@ const characterData = [{
         category: "Scott Pilgrim",
         mainTags: "roxie richter, black eyes, blonde hair, short hair, scott pilgrim (series)",
         enhancers: [
-            ["white hoodie", "cleavage cutout", "white shorts", "multiple belts", "grey belt", "red belt", "single wrist cuff", "spiked cuff"],
-            ["sleeveless black hoodie", "black shorts", "spiked cuff", "single wrist cuff", "red cloth belt"]
+            ["white hoodie","cleavage cutout","white shorts","multiple belts","grey belt","red belt","single wrist cuff","spiked cuff"],
+            ["sleeveless black hoodie","black shorts","spiked cuff","single wrist cuff","red cloth belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15608,8 +15608,8 @@ const characterData = [{
         category: "Scott Pilgrim",
         mainTags: "envy adams, black eyes, red hair, long hair, scott pilgrim (series)",
         enhancers: [
-            ["short black dress", "clothing cutouts", "short sleeves", "single gold bangle"],
-            ["striped shirt", "short sleeves", "denim pants", "belt"]
+            ["short black dress","clothing cutouts","short sleeves","single gold bangle"],
+            ["striped shirt","short sleeves","denim pants","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15620,8 +15620,8 @@ const characterData = [{
         category: "Scott Pilgrim",
         mainTags: "julie powers, black eyes, brown hair, short hair, round glasses, scott pilgrim (series)",
         enhancers: [
-            ["green cargo jacket", "necklace", "black shirt", "jeans"],
-            ["two-stone shirt", "brown waist apron", "brown pants"]
+            ["green cargo jacket","necklace","black shirt","jeans"],
+            ["two-stone shirt","brown waist apron","brown pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15632,7 +15632,7 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "blossom (ppg), pink eyes, red hair, long hair, ponytail, powerpuff girls",
         enhancers: [
-            ["halterneck", "red hair bow", "pink dress", "black corset", "white thighhighs"]
+            ["halterneck","red hair bow","pink dress","black corset","white thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15643,7 +15643,7 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "bubbles (ppg), blue eyes, blonde hair, short hair, twintails, powerpuff girls",
         enhancers: [
-            ["halterneck", "blue dress", "black corset", "white thighhighs"]
+            ["halterneck","blue dress","black corset","white thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15654,7 +15654,7 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "buttercup (ppg), green eyes, black hair, very short hair, scruffy hair, powerpuff girls",
         enhancers: [
-            ["halterneck", "green dress", "black corset", "white thighhighs"]
+            ["halterneck","green dress","black corset","white thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15665,8 +15665,8 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "akazutsumi momoko, pink eyes, orange hair, long hair, ponytail, powerpuff girls z",
         enhancers: [
-            ["white shirt", " red hair bow", "striped sleeves", "blue pleated skirt", "belt"],
-            ["red dress", "red hair bow", "choker", "black fingerless gloves", "cropped pink vest", "white belt"]
+            ["white shirt"," red hair bow","striped sleeves","blue pleated skirt","belt"],
+            ["red dress","red hair bow","choker","black fingerless gloves","cropped pink vest","white belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15677,8 +15677,8 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "goutokuji miyako, blue eyes, blonde hair, short hair, twintails, , powerpuff girls z",
         enhancers: [
-            ["blue shirt", "hairclip", "blue necktie", "plaid skirt", "white belt"],
-            ["blue dress", "choker", "cropped blue vest", "black fingerless gloves", "white belt"]
+            ["blue shirt","hairclip","blue necktie","plaid skirt","white belt"],
+            ["blue dress","choker","cropped blue vest","black fingerless gloves","white belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15689,8 +15689,8 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "matsubara kaoru, green eyes, black hair, short hair, spiked hair, powerpuff girls z",
         enhancers: [
-            ["green hat", "yellow turtleneck", "short sleeves", "green shorts", "orange wristband"],
-            ["green dress", "cropped yellow vest", "black fingerless gloves", "choker"]
+            ["green hat","yellow turtleneck","short sleeves","green shorts","orange wristband"],
+            ["green dress","cropped yellow vest","black fingerless gloves","choker"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15701,7 +15701,7 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "mandy (grim adventures), black eyes, blonde hair, short hair, hair horns, the grim adventures of billy & mandy",
         enhancers: [
-            ["black hairband", "sleeveless dress", "pink collared dress", "flower print"]
+            ["black hairband","sleeveless dress","pink collared dress","flower print"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15712,8 +15712,8 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "frankie foster, green eyes, red hair, long hair, foster's home for imaginary friends",
         enhancers: [
-            ["green jacket", "black skirt", "white crop top"],
-            ["updo", "black tube dress", "gold hoop earrings", "black choker", "multiple bracelets"]
+            ["green jacket","black skirt","white crop top"],
+            ["updo","black tube dress","gold hoop earrings","black choker","multiple bracelets"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15724,7 +15724,7 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "vicky (fairly oddparents), pink eyes, red hair, long hair, lipstick, the fairly oddparents",
         enhancers: [
-            ["green crop top", "black pants"]
+            ["green crop top","black pants"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15735,7 +15735,7 @@ const characterData = [{
         category: "Nick Toons",
         mainTags: "trixie tang, blue eyes, black hair, long hair, the fairly oddparents",
         enhancers: [
-            ["pink hairband", "pink turtleneck sweater", "ribbed sweater", "short sleeves", "white skirt", "white knee boots"]
+            ["pink hairband","pink turtleneck sweater","ribbed sweater","short sleeves","white skirt","white knee boots"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15746,7 +15746,7 @@ const characterData = [{
         category: "Killing Slimes for 300 Years",
         mainTags: "aizawa azusa, blue eyes, blonde hair, long hair, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
         enhancers: [
-            ["witch hat", "yellow ascot", "black robe"]
+            ["witch hat","yellow ascot","black robe"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15757,7 +15757,7 @@ const characterData = [{
         category: "Killing Slimes for 300 Years",
         mainTags: "laika (slime taoshite 300 nen), horns, red eyes, red hair, short hair, slime taoshite 300 nen shiranai uchi ni level max ni nattemashita",
         enhancers: [
-            ["black pantyhose", "red dress", "wide sleeves"]
+            ["black pantyhose","red dress","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15768,7 +15768,7 @@ const characterData = [{
         category: "Other",
         mainTags: "orphen, brown eyes, brown hair, short hair, spiked hair, majutsushi orphen",
         enhancers: [
-            ["blue vest", "headband", "necklace", "fingerless gloves"]
+            ["blue vest","headband","necklace","fingerless gloves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15788,9 +15788,9 @@ const characterData = [{
         category: "Other",
         mainTags: "kusanagi motoko, red eyes, purple hair, short hair, ghost in the shell",
         enhancers: [
-            ["leather jacket", "fingerless gloves", "leotard", "thighhighs"],
-            ["orange jacket", "grey pants", "gloves"],
-            ["bodysuit", "belt", "gloves", "long coat"]
+            ["leather jacket","fingerless gloves","leotard","thighhighs"],
+            ["orange jacket","grey pants","gloves"],
+            ["bodysuit","belt","gloves","long coat"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15801,7 +15801,7 @@ const characterData = [{
         category: "Other",
         mainTags: "batou (gits), brown eyes, white hair, very short hair, glasses, ghost in the shell",
         enhancers: [
-            ["brown coat", "white shirt", "gloves", "cargo pants"]
+            ["brown coat","white shirt","gloves","cargo pants"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15812,9 +15812,9 @@ const characterData = [{
         category: "Other",
         mainTags: "priscilla asagiri, red eyes, brown hair, long hair, bubblegum crisis",
         enhancers: [
-            ["red leather jacket", "cleavage cutout", "black pants", "knee boots"],
+            ["red leather jacket","cleavage cutout","black pants","knee boots"],
             ["hardsuit"],
-            ["blue skirt", "red tube top", "sleeveless shirt", "red elbow gloves", "gold bangles", "armlet", "brown pantyhose"]
+            ["blue skirt","red tube top","sleeveless shirt","red elbow gloves","gold bangles","armlet","brown pantyhose"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15825,8 +15825,8 @@ const characterData = [{
         category: "Other",
         mainTags: "yamamura sadako, black eyes, black hair, very long hair, wide-eyed, scar on face, scar on mouth, loose hair strand, wet",
         enhancers: [
-            ["oversized clothes", "white shirt"],
-            ["maid headdress", "maid bikini"]
+            ["oversized clothes","white shirt"],
+            ["maid headdress","maid bikini"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15837,7 +15837,7 @@ const characterData = [{
         category: "Other",
         mainTags: "atom eve, blue eyes, red hair, long hair, invincible (series)",
         enhancers: [
-            ["cape", "pink boots", "pink leotard"]
+            ["cape","pink boots","pink leotard"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15848,7 +15848,7 @@ const characterData = [{
         category: "Dandadan",
         mainTags: "ayase momo, brown eyes, brown hair, short hair, dandadan",
         enhancers: [
-            ["school uniform", "pink sweater", "red bow", "white shirt", "white leg warmers", "blue pleated skirt", "aqua earrings"]
+            ["school uniform","pink sweater","red bow","white shirt","white leg warmers","blue pleated skirt","aqua earrings"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15859,8 +15859,8 @@ const characterData = [{
         category: "Dandadan",
         mainTags: "takakura ken (dandadan), brown eyes, black hair, short hair, glasses, dandadan",
         enhancers: [
-            ["school uniform", "black jacket", "black pants"],
-            ["--black hair", "--short hair", "takakura ken (transformed) (dandadan)", "mouth mask", "white hair", "red hair", "streaked hair", "long hair"]
+            ["school uniform","black jacket","black pants"],
+            ["--black hair","--short hair","takakura ken (transformed) (dandadan)","mouth mask","white hair","red hair","streaked hair","long hair"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15871,7 +15871,7 @@ const characterData = [{
         category: "Dandadan",
         mainTags: "ayase seiko, brown eyes, semi-rimless eyewear, white hair, tall hair, dandadan",
         enhancers: [
-            ["short yellow dress", "blue jacket", "white sleeves", "puffy long sleeves", "black cape", "two-sided cape", "red cape"],
+            ["short yellow dress","blue jacket","white sleeves","puffy long sleeves","black cape","two-sided cape","red cape"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15882,7 +15882,7 @@ const characterData = [{
         category: "Dandadan",
         mainTags: "shiratori aira (dandadan), pink eyes, pink hair, short hair, dandadan",
         enhancers: [
-            ["school uniform", "blue jacket", "red bow", "grey pleated skirt", "miniskirt"],
+            ["school uniform","blue jacket","red bow","grey pleated skirt","miniskirt"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15893,7 +15893,7 @@ const characterData = [{
         category: "Dandadan",
         mainTags: "tenjoji jin, brown eyes, red hair, short hair, dandadan",
         enhancers: [
-            ["school uniform", "blue jacket", "black necktie", "grey pants", "white shirt"],
+            ["school uniform","blue jacket","black necktie","grey pants","white shirt"],
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15904,9 +15904,9 @@ const characterData = [{
         category: "Stellar Blade",
         mainTags: "eve (stellar blade), black hair, long hair, ponytail, stellar blade",
         enhancers: [
-            ["skin suit (stellar blade)", "skin tight", "impossible bodysuit"],
-            ["planet diving suit (7th) (stellar blade)", "skin tight", "impossible bodysuit", "multicolored bodysuit", "white fingerless gloves"]
-            ["--brown eyes", "--brown hair", "--long hair", "--ponytail", "[eve (stellar blade)", "2b (nier:automata) (cosplay)", "black blindfold", "white hair", "short hair", "black dress", "official alternate costume]"]
+            ["skin suit (stellar blade)","skin tight","impossible bodysuit"],
+            ["planet diving suit (7th) (stellar blade)","skin tight","impossible bodysuit","multicolored bodysuit","white fingerless gloves"]
+            ["--brown eyes","--brown hair","--long hair","--ponytail","[eve (stellar blade)","2b (nier:automata) (cosplay)","black blindfold","white hair","short hair","black dress","official alternate costume]"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15917,7 +15917,7 @@ const characterData = [{
         category: "Wizarding World",
         mainTags: "hermione granger, brown eyes, brown hair, long hair, wavy hair, harry potter (series), wizarding world",
         enhancers: [
-            ["hogwarts school uniform", "black cape", "grey pleated skirt", "grey sweater", "white shirt", "striped necktie"]
+            ["hogwarts school uniform","black cape","grey pleated skirt","grey sweater","white shirt","striped necktie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15928,7 +15928,7 @@ const characterData = [{
         category: "Wizarding World",
         mainTags: "harry potter, green eyes, brown hair, short hair, glasses, scar on forehead, harry potter (series), wizarding world",
         enhancers: [
-            ["hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"]
+            ["hogwarts school uniform","black cape","grey pants","grey sweater","white shirt","striped necktie"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15939,7 +15939,7 @@ const characterData = [{
         category: "Wizarding World",
         mainTags: "draco malfoy, blue eyes, white hair, short hair, harry potter (series), wizarding world",
         enhancers: [
-            ["hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"]
+            ["hogwarts school uniform","black cape","grey pants","grey sweater","white shirt","striped necktie"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15950,7 +15950,7 @@ const characterData = [{
         category: "Wizarding World",
         mainTags: "ron weasley, blue eyes, red hair, short hair, harry potter (series), wizarding world",
         enhancers: [
-            ["hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"]
+            ["hogwarts school uniform","black cape","grey pants","grey sweater","white shirt","striped necktie"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -15961,7 +15961,7 @@ const characterData = [{
         category: "Wizarding World",
         mainTags: "luna lovegood, blue eyes, blonde hair, long hair, harry potter (series), wizarding world",
         enhancers: [
-            ["hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"]
+            ["hogwarts school uniform","black cape","grey pants","grey sweater","white shirt","striped necktie"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15972,8 +15972,8 @@ const characterData = [{
         category: "Wizarding World",
         mainTags: "severus snape, brown eyes, black hair, medium hair, harry potter (series), wizarding world",
         enhancers: [
-            ["aged down", "hogwarts school uniform", "black cape", "grey pants", "grey sweater", "white shirt", "striped necktie"],
-            ["black robe", "black waistcoat", "buttons", "black pants", "high collar", "wide sleeves"]
+            ["aged down","hogwarts school uniform","black cape","grey pants","grey sweater","white shirt","striped necktie"],
+            ["black robe","black waistcoat","buttons","black pants","high collar","wide sleeves"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15984,7 +15984,7 @@ const characterData = [{
         category: "Other",
         mainTags: "juliet starling, blue eyes, blonde hair, medium hair, twintails, lollipop chainsaw, ",
         enhancers: [
-            ["cheerleader", "red scrunchie", "multicolor skirt", "multicolor crop top", "single black wristband", "pink wristwatch", "white thighhighs"]
+            ["cheerleader","red scrunchie","multicolor skirt","multicolor crop top","single black wristband","pink wristwatch","white thighhighs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -15995,7 +15995,7 @@ const characterData = [{
         category: "Avatar Legends",
         mainTags: "korra, dark skin, dark-skinned female, blue eyes, brown hair, short hair, the legend of korra, avatar legends",
         enhancers: [
-            ["sleeveless blue shirt", "detached sleeves", "high collar", "brown skirt", "fur-trimmed skirt", "overskirt", "blue pants", "belt"]
+            ["sleeveless blue shirt","detached sleeves","high collar","brown skirt","fur-trimmed skirt","overskirt","blue pants","belt"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -16006,7 +16006,7 @@ const characterData = [{
         category: "Avatar Legends",
         mainTags: "asami sato, green eyes, black hair, long hair, the legend of korra, avatar legends",
         enhancers: [
-            ["hair bun", "red shirt", "high collar", "long black pencil skirt", "black pantyhose", "black capelet"]
+            ["hair bun","red shirt","high collar","long black pencil skirt","black pantyhose","black capelet"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -16017,7 +16017,7 @@ const characterData = [{
         category: "Avatar Legends",
         mainTags: "toph beifong, blind, white eyes, brown hair, short hair, avatar: the last airbender, avatar legends",
         enhancers: [
-            ["green headband", "green shirt", "green pants", "ankle cuffs", "belt", "wrist cuffs"]
+            ["green headband","green shirt","green pants","ankle cuffs","belt","wrist cuffs"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -16028,8 +16028,8 @@ const characterData = [{
         category: "Avatar Legends",
         mainTags: "azula, yellow eyes, black hair, long hair, avatar: the last airbender, avatar legends",
         enhancers: [
-            ["armor", "red shirt", "red pants", "layered clothes", "red capelet", "high collar", "red knee boots"],
-            ["chinese clothes", "red shirt", "red pants", "layered clothes"]
+            ["armor","red shirt","red pants","layered clothes","red capelet","high collar","red knee boots"],
+            ["chinese clothes","red shirt","red pants","layered clothes"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -16040,7 +16040,7 @@ const characterData = [{
         category: "Avatar Legends",
         mainTags: "katara, dark skin, dark-skinned female, blue eyes, brown hair, braided ponytail, avatar: the last airbender, avatar legends",
         enhancers: [
-            ["blue kimono", "blue pants", "long sleeves", "wide sleeves", "blue bracers"]
+            ["blue kimono","blue pants","long sleeves","wide sleeves","blue bracers"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
@@ -16051,7 +16051,7 @@ const characterData = [{
         category: "Avatar Legends",
         mainTags: "aang, grey eyes, bald, head tattoo, avatar: the last airbender, avatar legends, ",
         enhancers: [
-            ["yellow shirt", "high collar", "yellow pants", "orange capelet", "orange sash"]
+            ["yellow shirt","high collar","yellow pants","orange capelet","orange sash"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -16062,7 +16062,7 @@ const characterData = [{
         category: "Avatar Legends",
         mainTags: "zuko, brown eyes, black hair, short hair, scar across eye, scar on face, avatar: the last airbender, avatar legends, ",
         enhancers: [
-            ["red coat", "red shirt", "red pants", "yellow belt", "wide sleeves"]
+            ["red coat","red shirt","red pants","yellow belt","wide sleeves"]
         ],
         defaultGender: "boy",
         genderswapAvailable: true,
@@ -16073,7 +16073,7 @@ const characterData = [{
         category: "Avatar Legends",
         mainTags: "ty lee, brown eyes, brown hair, long hair, high braided ponytail, avatar: the last airbender, avatar legends",
         enhancers: [
-            ["pink crop top", "red capri pants", "red overskirt", "red capelet", "red wristbands"]
+            ["pink crop top","red capri pants","red overskirt","red capelet","red wristbands"]
         ],
         defaultGender: "girl",
         genderswapAvailable: true,
