@@ -1,0 +1,10 @@
+/* utilities.css */
+/* Utility classes for common styling needs */
+
+/* =========================================================
+   2. UTILITY CLASSES
+   ========================================================= */
+
+.hide {
+    display: none !important;
+} 

@@ -1,0 +1,61 @@
+/* search.css */
+/* Styles for search inputs, filters, and suggestion lists */
+
+/* =========================================================
+   8. SEARCH & FILTERING
+   ========================================================= */
+
+#character-search-container {
+    position: relative;
+    margin-bottom: var(--space-lg);
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Search Input */
+#character-search {
+    width: 100%;
+    padding: var(--space-sm) var(--space-xl);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-input);
+    background: var(--color-bg-input);
+    color: var(--text-on-surface);
+    font-size: var(--text-base);
+    box-sizing: border-box;
+}
+
+/* Suggestions List Container */
+.suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: var(--height-dropdown);
+    overflow-y: auto;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    z-index: var(--z-dropdown);
+    margin-top: var(--space-xxs);
+    box-shadow: var(--shadow-md);
+}
+
+/* Each suggestion item */
+.suggestions-list .suggestion-item {
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    transition: background-color var(--transition-default),
+        color var(--transition-default);
+}
+
+/* Hover effect */
+.suggestions-list .suggestion-item:hover {
+    background-color: var(--color-primary);
+    color: var(--text-on-primary);
+    cursor: pointer;
+} 

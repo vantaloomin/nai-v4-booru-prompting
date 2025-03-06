@@ -1,0 +1,47 @@
+/* modals.css */
+/* Styles for modal dialogs and overlays */
+
+/* =========================================================
+   9. MODALS & OVERLAYS
+   ========================================================= */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-overlay);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: var(--z-modal);
+}
+
+.modal-container {
+    width: 600px;
+    max-width: 90%;
+    border-radius: var(--radius-card);
+    padding: var(--space-lg);
+    background-color: var(--color-bg-surface);
+    color: var(--text-on-surface);
+    box-shadow: var(--shadow-lg);
+    position: relative;
+}
+
+.modal-container h3 {
+    margin-top: 0;
+    margin-bottom: 0.75em;
+    font-size: var(--text-lg);
+    font-weight: var(--font-bold);
+}
+
+.modal-close {
+    position: absolute;
+    top: var(--space-xs);
+    right: var(--space-xs);
+    cursor: pointer;
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    line-height: var(--leading-none);
+} 

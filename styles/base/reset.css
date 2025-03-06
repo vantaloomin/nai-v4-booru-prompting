@@ -1,0 +1,22 @@
+/* reset.css */
+/* Basic reset and base element styles */
+
+/* =========================================================
+   1. CSS RESET & BASE STYLES
+   ========================================================= */
+
+body {
+    background: var(--color-bg-void);
+    color: var(--text-on-surface);
+    font-family: var(--font-primary);
+    margin: 0;
+    padding: 0;
+    line-height: var(--leading-normal);
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: var(--space-xl) 0;
+} 

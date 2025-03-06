@@ -1,0 +1,57 @@
+/* actions.css */
+/* Styles for actions and highlighting */
+
+/* =========================================================
+   10. HIGHLIGHTING
+   ========================================================= */
+
+/* Highlighting styles for different elements */
+.highlight-default {
+    color: var(--highlight-default);
+    font-weight: var(--font-bold);
+}
+
+.highlight-artist {
+    color: var(--highlight-artist);
+    font-weight: var(--font-bold);
+}
+
+.highlight-consistent {
+    color: var(--highlight-consistent);
+    font-style: italic;
+}
+
+.highlight-subject {
+    color: var(--highlight-subject);
+    font-weight: var(--font-bold);
+}
+
+.highlight-scene {
+    color: var(--highlight-scene);
+}
+
+.highlight-quality {
+    color: var(--highlight-quality);
+    font-weight: var(--font-bold);
+}
+
+.highlight-other {
+    color: var(--highlight-other);
+}
+
+/* Character Info Colors */
+.highlight-character-1 {
+    color: var(--highlight-char-1);
+}
+
+.highlight-character-2 {
+    color: var(--highlight-char-2);
+}
+
+.highlight-character-3 {
+    color: var(--highlight-char-3);
+}
+
+.highlight-character-4 {
+    color: var(--highlight-char-4);
+} 

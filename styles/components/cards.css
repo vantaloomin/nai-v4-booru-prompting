@@ -1,0 +1,50 @@
+/* cards.css */
+/* Styles for cards, blocks, and other container components */
+
+/* =========================================================
+   7. COMPONENT STYLES
+   ========================================================= */
+
+/* 7.1 Character Blocks
+   ========================================================= */
+
+.character-block {
+    position: relative;
+    flex: 0 0 calc(50% - var(--gap-default));
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    box-shadow: var(--shadow-md);
+    animation: fadeIn var(--transition-default) var(--ease-default);
+    box-sizing: border-box;
+}
+
+/* Block Content */
+.block-content {
+    flex: 1 1 auto;
+}
+
+/* Remove Button Container */
+.remove-btn-container {
+    margin-top: auto;
+}
+
+.drag-handle {
+    cursor: move;
+    font-size: var(--text-lg);
+    margin-right: var(--space-xs);
+    user-select: none;
+    color: var(--color-primary);
+    z-index: var(--z-base);
+    pointer-events: auto;
+    transition: transform var(--transition-default);
+}
+
+.drag-handle:hover {
+    transform: rotate(180deg);
+    color: var(--color-secondary);
+} 

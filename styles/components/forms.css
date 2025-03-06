@@ -1,0 +1,60 @@
+/* forms.css */
+/* Styles for form elements including inputs, textareas, and labels */
+
+/* =========================================================
+   5. FORM ELEMENTS
+   ========================================================= */
+
+/* 5.1 Inputs & Text Areas
+   ========================================================= */
+
+/* Labels */
+label {
+    display: block;
+    font-weight: var(--font-semibold);
+    color: var(--text-on-surface);
+    margin-bottom: var(--space-xs);
+}
+
+/* Text Inputs */
+input[type="text"] {
+    width: var(--width-input);
+    padding: var(--input-padding);
+    transition: all var(--transition-default);
+    border: 2px solid transparent;
+    background:
+        linear-gradient(var(--color-bg-input), var(--color-bg-input)) padding-box,
+        linear-gradient(to right, var(--color-primary-variant), transparent) border-box;
+    border-radius: var(--radius-input);
+    color: var(--text-on-surface);
+    font-size: var(--text-base);
+    font-family: var(--font-primary);
+}
+
+input[type="text"]:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(156, 39, 176, 0.15);
+    outline: none;
+}
+
+/* Textareas */
+textarea {
+    width: var(--width-input);
+    padding: var(--input-padding);
+    transition: all var(--transition-default);
+    border: 2px solid transparent;
+    background:
+        linear-gradient(var(--color-bg-input), var(--color-bg-input)) padding-box,
+        linear-gradient(to right, var(--color-primary-variant), transparent) border-box;
+    border-radius: var(--radius-input);
+    color: var(--text-on-surface);
+    font-size: var(--text-base);
+    font-family: var(--font-primary);
+    resize: vertical;
+}
+
+textarea:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(156, 39, 176, 0.15);
+    outline: none;
+} 

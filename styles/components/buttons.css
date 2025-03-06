@@ -1,0 +1,97 @@
+/* buttons.css */
+/* Styles for buttons and button variants */
+
+/* =========================================================
+   6. BUTTONS
+   ========================================================= */
+
+/* Default Button */
+button {
+    position: relative;
+    overflow: hidden;
+    background: var(--color-primary);
+    color: var(--text-on-primary);
+    border: none;
+    border-radius: var(--radius-button);
+    padding: var(--space-sm) var(--space-lg);
+    font-size: var(--text-base);
+    font-family: var(--font-primary);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    transition: all var(--transition-default);
+    margin-top: var(--space-xs);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(156, 39, 176, 0.3);
+}
+
+button:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), transparent);
+    pointer-events: none;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Action Buttons */
+.action-btn {
+    background-color: var(--color-primary);
+    color: var(--text-on-primary);
+    border: none;
+    border-radius: var(--radius-button);
+    padding: var(--space-xs) var(--space-sm);
+    margin: var(--space-xxs);
+    cursor: pointer;
+    font-size: var(--text-sm);
+    transition: transform var(--transition-default);
+}
+
+.action-btn:hover {
+    transform: scale(1.05);
+}
+
+.action-btn:active {
+    transform: scale(0.95);
+}
+
+/* Toggle Expand/Collapse Button */
+#toggle-expand {
+    display: block;
+    margin-top: var(--space-xs);
+    background: var(--color-primary);
+    color: var(--text-on-primary);
+    border: none;
+    border-radius: var(--radius-button);
+    padding: var(--space-xs) var(--space-sm);
+    cursor: pointer;
+    transition: background var(--transition-default),
+        transform var(--transition-default);
+}
+
+#toggle-expand:hover {
+    background: var(--color-primary-variant);
+    transform: scale(1.03);
+}
+
+#toggle-expand:active {
+    transform: scale(0.97);
+}
+
+/* Reset Button Styling */
+#reset-btn {
+    background: linear-gradient(135deg, var(--color-danger), #D32F2F);
+    border-color: var(--color-danger);
+}
+
+#reset-btn:hover {
+    box-shadow: 0 0 12px rgba(244, 67, 54, 0.5);
+} 

@@ -1,0 +1,59 @@
+/* layout.css */
+/* Layout, containers, and structural styling */
+
+/* =========================================================
+   3. LAYOUT & CONTAINERS
+   ========================================================= */
+
+/* Main Container */
+.container {
+    max-width: var(--width-container);
+    margin: var(--space-xxl) auto;
+    padding: var(--container-padding);
+    background:
+        linear-gradient(var(--color-bg-surface), var(--color-bg-surface)),
+        repeating-linear-gradient(45deg,
+            rgba(156, 39, 176, 0.05) 0px,
+            rgba(156, 39, 176, 0.05) 1px,
+            transparent 1px,
+            transparent 10px);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Form Elements Spacing */
+.container div {
+    margin-bottom: var(--space-lg);
+}
+
+/* Characters Container */
+#characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-default);
+    width: 100%;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+/* Artist Scene Container */
+#artist-scene-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-default);
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* Floating Buttons Container */
+#floating-buttons {
+    position: fixed;
+    bottom: var(--space-lg);
+    right: var(--space-lg);
+    z-index: var(--z-sticky);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    transition: opacity var(--transition-default) var(--ease-default),
+        transform var(--transition-default) var(--ease-default);
+} 

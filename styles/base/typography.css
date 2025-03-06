@@ -1,0 +1,21 @@
+/* typography.css */
+/* Typography styles for headings, paragraphs, and other text elements */
+
+/* =========================================================
+   4. TYPOGRAPHY
+   ========================================================= */
+
+/* Headings */
+h1,
+h2 {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-variant));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(156, 39, 176, 0.3);
+    margin-bottom: var(--space-lg);
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    line-height: var(--leading-tight);
+    letter-spacing: var(--tracking-tight);
+} 

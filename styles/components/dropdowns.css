@@ -1,0 +1,75 @@
+/* dropdowns.css */
+/* Styles for select elements and custom dropdowns */
+
+/* 5.2 Dropdowns & Selects
+   ========================================================= */
+
+/* Dropdown Select Styling */
+select {
+    appearance: none;
+    background-color: var(--color-bg-input);
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%226%22%20viewBox%3D%220%200%2010%206%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200l5%206%205-6z%22%20fill%3D%22%23ff77ff%22/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right var(--space-sm) center;
+    background-size: 12px 7px;
+    width: var(--width-input);
+    padding: var(--input-padding);
+    color: var(--text-on-surface);
+    border: 2px solid transparent;
+    border-radius: var(--radius-input);
+    font-size: var(--text-base);
+    font-family: var(--font-primary);
+    cursor: pointer;
+    transition: all var(--transition-default);
+}
+
+/* Dropdown Options Styling */
+select option {
+    background-color: var(--color-bg-surface);
+    color: var(--text-on-surface);
+    padding: var(--space-sm);
+}
+
+select option:hover,
+select option:focus,
+select option:active,
+select option:checked {
+    background: var(--color-bg-surface);
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+/* Selected background color */
+select option:checked {
+    background-color: var(--color-bg-surface);
+}
+
+/* For Firefox specifically */
+select {
+    scrollbar-color: var(--color-primary) var(--color-bg-surface);
+    scrollbar-width: thin;
+}
+
+/* For Webkit browsers */
+select::-webkit-scrollbar {
+    width: 8px;
+}
+
+select::-webkit-scrollbar-track {
+    background: var(--color-bg-surface);
+}
+
+select::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: var(--radius-sm);
+}
+
+/* Make the dropdown list background match */
+select:focus option {
+    background-color: var(--color-bg-surface) !important;
+}
+
+select option:hover {
+    background-color: var(--color-bg-surface) !important;
+    color: var(--color-primary) !important;
+} 

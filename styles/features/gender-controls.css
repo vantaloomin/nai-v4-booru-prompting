@@ -1,0 +1,55 @@
+/* gender-controls.css */
+/* Styles for gender selection controls and related UI elements */
+
+/* Gender Selection Controls */
+.gender-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    margin-bottom: 6px;
+    display: block;
+}
+
+.gender-selection-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background-color: var(--color-bg-input);
+    transition: all 0.3s ease;
+}
+
+.gender-labels-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.gender-label {
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    flex: 1;
+}
+
+.gender-label.active {
+    font-weight: bold;
+}
+
+.boy-label.active {
+    color: #6c8bd3; /* Blue for boy */
+}
+
+.girl-label.active {
+    color: #d36c9e; /* Pink for girl */
+}
+
+.other-label.active {
+    color: #6cd39e; /* Green for other */
+} 
