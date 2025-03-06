@@ -63,6 +63,7 @@ export function addCustomCharacterBlock() {
     actionDragHandle.setAttribute("draggable", "true");
     actionDragHandle.addEventListener('dragstart', function (e) {
         e.dataTransfer.setData("text/plain", blockId.toString());
+        e.dataTransfer.setData("action-drag", "true");
         e.dataTransfer.effectAllowed = "move";
         e.stopPropagation();
     });
@@ -147,6 +148,13 @@ export function addCustomCharacterBlock() {
     blockDiv.addEventListener('drop', function (e) {
         e.preventDefault();
         e.stopPropagation();
+        
+        // Only show action popup if this is an action drag (not reordering)
+        const isActionDrag = e.dataTransfer.getData("action-drag") === "true";
+        if (!isActionDrag) {
+            return; // Exit early if this is not an action drag
+        }
+        
         const sourceId = e.dataTransfer.getData("text/plain");
         const targetId = blockId.toString();
         if (sourceId && sourceId !== targetId) {

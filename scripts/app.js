@@ -513,7 +513,10 @@ document.addEventListener("DOMContentLoaded", function () {
   if (characterContainer) {
     Sortable.create(characterContainer, {
       animation: 150,
-      handle: '.drag-handle'
+      handle: '.drag-handle',
+      onEnd: function(evt) {
+        evt.originalEvent && evt.originalEvent.stopPropagation();
+      }
     });
   }
 
