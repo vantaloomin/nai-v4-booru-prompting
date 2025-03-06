@@ -59,4 +59,18 @@
     z-index: 10;
     display: none;
     margin-top: 4px;
+}
+
+/* Remove Button styling */
+.remove-button {
+    color: #ff3366;
+    font-size: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.remove-button:hover {
+    opacity: 1;
 } 

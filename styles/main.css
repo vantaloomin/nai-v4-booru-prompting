@@ -17,6 +17,7 @@
 @import 'components/modals.css';
 @import 'components/cards.css';
 @import 'components/search.css';
+@import 'components/character-search.css';
 
 /* Import feature-specific styles */
 @import 'features/characters.css';

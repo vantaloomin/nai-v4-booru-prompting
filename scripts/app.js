@@ -14,8 +14,13 @@ import {
   updateEnhancerDropdown,
   updateTitleOptions,
   updateCharacterDropdown,
-  populateDefaultTagPills
+  populateDefaultTagPills,
+  closeAllDropdowns
 } from './character/ui/dropdowns.js';
+// Import character block functions
+import { addCharacterBlock, addRandomCharacterBlock } from './character/blocks/characterBlocks.js';
+// Import custom character block function
+import { addCustomCharacterBlock } from './customCharacter/customCharacterManager.js';
 // Import name formatting utility
 import { cleanDisplayName } from './character/utils/nameFormatter.js';
 

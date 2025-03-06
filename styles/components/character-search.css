@@ -1,0 +1,451 @@
+/* character-search.css */
+/* Styles for the new character search and filter UI components */
+
+/* Character Search Container */
+.character-search-container {
+    position: relative;
+    margin-bottom: var(--space-md);
+    width: 100%;
+}
+
+.character-search-container label {
+    display: block;
+    margin-bottom: var(--space-xs);
+    color: var(--text-on-surface);
+    font-weight: var(--font-medium);
+}
+
+/* Search Input Wrapper */
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Search Input */
+.character-search-input {
+    width: 100%;
+    padding: var(--space-sm) var(--space-xl);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-input);
+    background: var(--color-bg-input);
+    color: var(--text-on-surface);
+    font-size: var(--text-base);
+    box-sizing: border-box;
+    transition: border-color var(--transition-default), box-shadow var(--transition-default);
+}
+
+/* When focused */
+.character-search-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 1px rgba(var(--color-primary-rgb, 255, 100, 255), 0.3);
+}
+
+/* When active/clicked */
+.character-search-input.active {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 1px rgba(var(--color-primary-rgb, 255, 100, 255), 0.3);
+}
+
+/* When filters are active */
+.character-search-input.has-filters {
+    background-color: rgba(var(--color-primary-rgb, 255, 100, 255), 0.05);
+    border-color: var(--color-primary);
+    padding-right: var(--space-xl) * 1.5; /* Extra space for dropdown indicator */
+}
+
+/* Dropdown indicator for filter state */
+.dropdown-indicator {
+    position: absolute;
+    right: var(--space-xs);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    pointer-events: none;
+    transition: transform 0.2s ease;
+    z-index: 2;
+}
+
+/* Rotate when the dropdown is open */
+.character-search-input.active + .dropdown-indicator {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/* Filter results heading */
+.filter-results-heading {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.9em;
+    color: var(--color-primary);
+    background-color: rgba(var(--color-primary-rgb, 255, 100, 255), 0.1);
+    border-bottom: 1px solid var(--color-border);
+    text-align: center;
+    font-weight: var(--font-medium);
+}
+
+/* More results indicator */
+.more-results {
+    padding: var(--space-xs) var(--space-sm);
+    text-align: center;
+    font-style: italic;
+    color: var(--text-emphasis-medium);
+    border-top: 1px solid var(--color-border);
+    background-color: rgba(var(--color-primary-rgb, 255, 100, 255), 0.05);
+}
+
+/* Search Icons */
+.search-icon {
+    position: absolute;
+    left: var(--space-xs);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-on-surface);
+    font-size: var(--text-base);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.clear-icon {
+    position: absolute;
+    right: var(--space-xs);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-on-surface);
+    font-size: var(--text-base);
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.clear-icon:hover {
+    color: var(--color-primary);
+}
+
+/* Suggestions List Container */
+.suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: var(--height-dropdown, 300px);
+    overflow-y: auto;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    z-index: var(--z-dropdown);
+    margin-top: var(--space-xxs);
+    box-shadow: var(--shadow-md);
+}
+
+/* Each suggestion item */
+.suggestions-list .suggestion-item {
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    transition: background-color var(--transition-default),
+        color var(--transition-default);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hover effect */
+.suggestions-list .suggestion-item:hover {
+    background-color: var(--color-border);
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+/* Character name in suggestion */
+.suggestions-list .character-name {
+    font-weight: var(--font-medium);
+}
+
+/* Media source pill in suggestion */
+.suggestions-list .media-source {
+    font-size: 0.85em;
+    opacity: 0.8;
+    color: var(--text-emphasis-medium);
+    padding: 2px 6px;
+    white-space: nowrap;
+    max-width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Media type badge in suggestion */
+.suggestions-list .media-type {
+    font-size: 0.85em;
+    opacity: 0.8;
+    background-color: var(--color-border);
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+}
+
+/* No results message */
+.suggestions-list .no-results {
+    text-align: center;
+    padding: var(--space-sm);
+    color: var(--text-emphasis-medium);
+}
+
+/* Filter Container */
+.character-filter-container {
+    margin: var(--space-sm) 0;
+    position: relative;
+}
+
+/* Filter toggle button */
+.filter-toggle-btn {
+    background-color: var(--color-bg-input);
+    color: var(--text-on-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-button);
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--text-sm);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    transition: all var(--transition-default);
+}
+
+.filter-toggle-btn:hover {
+    border-color: var(--color-primary);
+}
+
+/* When filter panel is open */
+.filter-toggle-btn.active {
+    background-color: var(--color-primary);
+    color: var(--text-on-primary);
+    border-color: var(--color-primary);
+}
+
+/* When filters are active/applied */
+.filter-toggle-btn.has-active-filters {
+    background-color: rgba(var(--color-primary-rgb, 255, 100, 255), 0.15);
+    border-color: var(--color-primary);
+    position: relative;
+}
+
+/* Visual indicator dot for active filters */
+.filter-toggle-btn.has-active-filters::after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+/* Pulse animation for the indicator dot */
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(var(--color-primary-rgb, 255, 100, 255), 0.7);
+    }
+    
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 4px rgba(var(--color-primary-rgb, 255, 100, 255), 0);
+    }
+    
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(var(--color-primary-rgb, 255, 100, 255), 0);
+    }
+}
+
+.filter-icon {
+    font-size: 1.1em;
+}
+
+/* Filter Panel */
+.filter-panel {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 450px; /* Limit height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox - initially transparent */
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    z-index: var(--z-dropdown);
+    margin-top: var(--space-xs);
+    padding: var(--space-sm);
+    box-shadow: var(--shadow-md);
+}
+
+/* Show scrollbar on hover (Firefox) */
+.filter-panel:hover {
+    scrollbar-color: var(--color-primary) transparent;
+}
+
+/* Scrollbar styling for the filter panel - make subtle by default */
+.filter-panel::-webkit-scrollbar {
+    width: 6px; /* Thinner scrollbar */
+}
+
+.filter-panel::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filter-panel::-webkit-scrollbar-thumb {
+    background: transparent; /* Initially transparent */
+    border-radius: var(--radius-sm);
+    transition: background 0.3s ease;
+}
+
+/* Show scrollbar on hover (Webkit) */
+.filter-panel:hover::-webkit-scrollbar-thumb {
+    background: rgba(var(--color-primary-rgb, 255, 100, 255), 0.5); /* Semi-transparent */
+}
+
+.filter-panel:hover::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
+
+/* Filter Section */
+.filter-section {
+    margin-bottom: var(--space-md);
+}
+
+.filter-section:last-child {
+    margin-bottom: 0;
+}
+
+.filter-section-heading {
+    margin: 0 0 var(--space-xs);
+    font-weight: var(--font-medium);
+    font-size: var(--text-base);
+    color: var(--text-on-surface);
+}
+
+/* Filter Options Container - Also make scrollbar less visible */
+.filter-options-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    max-height: 200px; /* Limit height for media sources */
+    overflow-y: auto; /* Add scrolling for very long lists */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    padding-right: var(--space-xs); /* Space for scrollbar */
+}
+
+/* Show scrollbar on hover (Firefox) */
+.filter-options-container:hover {
+    scrollbar-color: var(--color-primary) transparent;
+}
+
+/* Scrollbar for filter options container */
+.filter-options-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.filter-options-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filter-options-container::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: var(--radius-sm);
+}
+
+/* Show scrollbar on hover (Webkit) */
+.filter-options-container:hover::-webkit-scrollbar-thumb {
+    background: rgba(var(--color-primary-rgb, 255, 100, 255), 0.4);
+}
+
+.filter-options-container:hover::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
+
+/* Make filter options more compact */
+.filter-option {
+    background-color: var(--color-bg-input);
+    color: var(--text-on-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 4px 8px; /* Smaller padding */
+    font-size: 0.85rem; /* Smaller text */
+    cursor: pointer;
+    transition: all var(--transition-default);
+    margin-bottom: 4px;
+}
+
+.filter-option:hover {
+    border-color: var(--color-primary);
+}
+
+.filter-option.active {
+    background-color: var(--color-primary);
+    color: var(--text-on-primary);
+    border-color: var(--color-primary);
+}
+
+/* Search field for filter options */
+.filter-search {
+    width: 100%;
+    padding: 6px 8px;
+    margin-bottom: var(--space-xs);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-bg-input);
+    font-size: 0.9em;
+}
+
+/* Clear Filters Button */
+.filter-clear-container {
+    margin-top: var(--space-md);
+    text-align: center;
+}
+
+.filter-clear-btn {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-button);
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--text-sm);
+    cursor: pointer;
+    transition: all var(--transition-default);
+}
+
+.filter-clear-btn:hover {
+    background-color: var(--color-primary);
+    color: var(--text-on-primary);
+}
+
+/* Clear Filters Button in No Results */
+.clear-filters-btn {
+    background-color: var(--color-primary);
+    color: var(--text-on-primary);
+    border: none;
+    border-radius: var(--radius-sm);
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--text-sm);
+    margin-top: var(--space-xs);
+    cursor: pointer;
+    transition: all var(--transition-default);
+}
+
+.clear-filters-btn:hover {
+    background-color: var(--color-primary-variant);
+}
+
+/* No filter results message */
+.no-filter-results {
+    text-align: center;
+    padding: var(--space-xs);
+    color: var(--text-emphasis-medium);
+    font-style: italic;
+    width: 100%;
+} 

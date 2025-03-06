@@ -22,6 +22,8 @@ import {
     getMaxCharacters 
 } from '../state/characterState.js';
 import { initCustomTagAutocomplete } from '../../customCharacter/ui/autocomplete.js';
+import { createSearchBar } from '../search/searchBarComponent.js';
+import { createFilterPanel } from '../search/filterPanelComponent.js';
 
 /**
  * Creates and adds a new character block to the UI
@@ -97,6 +99,28 @@ export function addCharacterBlock() {
     toggleIcon.textContent = "▼";
     headerDiv.appendChild(toggleIcon);
 
+    // Remove button
+    const removeButton = document.createElement('span');
+    removeButton.className = 'remove-button';
+    removeButton.textContent = "✖";
+    removeButton.title = "Remove Character";
+    removeButton.addEventListener('click', function (e) {
+        e.stopPropagation();
+        // Remove this character block
+        div.remove();
+        
+        // Update action assignments
+        if (typeof window.updateAllActionAssignments === "function") {
+            setTimeout(window.updateAllActionAssignments, 100);
+        }
+        
+        // Refresh action character options
+        if (typeof window.refreshActionCharacterOptions === "function") {
+            setTimeout(window.refreshActionCharacterOptions, 100);
+        }
+    });
+    headerDiv.appendChild(removeButton);
+
     // Action Drag Handle
     const actionDragHandle = document.createElement('span');
     actionDragHandle.className = 'action-drag-handle';
@@ -114,81 +138,14 @@ export function addCharacterBlock() {
     const contentDiv = document.createElement('div');
     contentDiv.className = 'block-content';
 
-    // Media Type Dropdown
-    const mediaTypeLabel = document.createElement('label');
-    mediaTypeLabel.textContent = 'Select Media Type:';
-    contentDiv.appendChild(mediaTypeLabel);
+    // Replace the three dropdowns with our unified search and filter
+    // 1. Create and add the search container
+    const searchContainer = createSearchBar(blockId);
+    contentDiv.appendChild(searchContainer);
 
-    const mediaTypeContainer = document.createElement('div');
-    mediaTypeContainer.className = 'custom-dropdown';
-
-    const mediaTypeDisplay = document.createElement('div');
-    mediaTypeDisplay.className = 'selected-display';
-    mediaTypeDisplay.textContent = "-- Select Media Type --";
-
-    const mediaTypeList = document.createElement('div');
-    mediaTypeList.className = 'dropdown-list suggestions-list';
-
-    const mediaTypes = [...new Set(characterData.map(item => item.mediaType))];
-    mediaTypes.forEach(media => {
-        const item = document.createElement('div');
-        item.className = 'suggestion-item';
-        item.textContent = media;
-        item.dataset.value = media;
-        item.addEventListener('click', () => {
-            mediaTypeDisplay.textContent = media;
-            updateTitleOptions(blockId, media);
-            resetCharacterDropdown(blockId);
-            enhancerDiv.innerHTML = "";
-            genderDiv.innerHTML = "";
-            mediaTypeList.style.display = 'none';
-        });
-        mediaTypeList.appendChild(item);
-    });
-
-    mediaTypeContainer.appendChild(mediaTypeDisplay);
-    mediaTypeContainer.appendChild(mediaTypeList);
-    contentDiv.appendChild(mediaTypeContainer);
-
-    // Title Dropdown
-    const titleLabel = document.createElement('label');
-    titleLabel.textContent = 'Select Title:';
-    contentDiv.appendChild(titleLabel);
-
-    const titleContainer = document.createElement('div');
-    titleContainer.className = 'custom-dropdown';
-    titleContainer.id = 'title-div-' + blockId;
-
-    const titleDisplay = document.createElement('div');
-    titleDisplay.className = 'selected-display';
-    titleDisplay.textContent = "-- Select Media Type First --";
-
-    const titleList = document.createElement('div');
-    titleList.className = 'dropdown-list suggestions-list';
-    titleList.id = 'title-list-' + blockId;
-    titleContainer.appendChild(titleDisplay);
-    titleContainer.appendChild(titleList);
-    contentDiv.appendChild(titleContainer);
-
-    // Character Dropdown
-    const charLabel = document.createElement('label');
-    charLabel.textContent = 'Select Character:';
-    contentDiv.appendChild(charLabel);
-
-    const charContainer = document.createElement('div');
-    charContainer.className = 'custom-dropdown';
-    charContainer.id = 'character-div-' + blockId;
-
-    const charDisplay = document.createElement('div');
-    charDisplay.className = 'selected-display';
-    charDisplay.textContent = "-- Select Character --";
-
-    const charList = document.createElement('div');
-    charList.className = 'dropdown-list suggestions-list character-selector';
-    charList.id = 'char-list-' + blockId;
-    charContainer.appendChild(charDisplay);
-    charContainer.appendChild(charList);
-    contentDiv.appendChild(charContainer);
+    // 2. Create and add the filter container
+    const filterContainer = createFilterPanel(blockId);
+    contentDiv.appendChild(filterContainer);
 
     // Gender Dropdown for genderswap
     const genderDiv = document.createElement('div');
@@ -277,24 +234,8 @@ export function addCharacterBlock() {
         }
     });
 
-    // Toggle dropdown lists
-    mediaTypeDisplay.addEventListener('click', (e) => {
-        e.stopPropagation();
-        closeAllDropdowns();
-        mediaTypeList.style.display = mediaTypeList.style.display === 'block' ? 'none' : 'block';
-    });
-
-    titleDisplay.addEventListener('click', (e) => {
-        e.stopPropagation();
-        closeAllDropdowns();
-        titleList.style.display = titleList.style.display === 'block' ? 'none' : 'block';
-    });
-
-    charDisplay.addEventListener('click', (e) => {
-        e.stopPropagation();
-        closeAllDropdowns();
-        charList.style.display = charList.style.display === 'block' ? 'none' : 'block';
-    });
+    // No need for toggle dropdown listeners here since search and filter 
+    // components handle their own events
 
     // Close dropdowns when clicking outside
     document.addEventListener('click', (e) => {
@@ -341,74 +282,39 @@ export function addRandomCharacterBlock(type) {
     const characterBlock = document.getElementById(`character-${blockId}`);
     if (!characterBlock) return null;
 
-    // Find the correct dropdowns (more specific selectors)
-    const mediaTypeContainer = characterBlock.querySelector('.custom-dropdown');
-    const titleContainer = characterBlock.querySelectorAll('.custom-dropdown')[1];
-    const charContainer = characterBlock.querySelectorAll('.custom-dropdown')[2];
-
-    const mediaTypeDisplay = mediaTypeContainer?.querySelector('.selected-display');
-    const titleDisplay = titleContainer?.querySelector('.selected-display');
-    const charDisplay = charContainer?.querySelector('.selected-display');
-
-    // Set Media Type and trigger updates
-    if (mediaTypeDisplay) {
-        mediaTypeDisplay.textContent = randomCharacter.mediaType;
-        // Trigger title update
-        updateTitleOptions(blockId, randomCharacter.mediaType);
-    }
-
-    // Set Title after a short delay to ensure title options are populated
-    setTimeout(() => {
-        if (titleDisplay) {
-            titleDisplay.textContent = cleanDisplayName(randomCharacter.category);
-            // Trigger character update
-            updateCharacterDropdown(blockId, randomCharacter.mediaType, randomCharacter.category);
-        }
-
-        // Set Character after another short delay
-        setTimeout(() => {
-            if (charDisplay) {
-                charDisplay.textContent = cleanDisplayName(randomCharacter.name);
-                // Update gender and enhancer options
+    // Find the search input
+    const searchInput = characterBlock.querySelector('.character-search-input');
+    if (searchInput) {
+        // Set search input value with character name and media
+        const displayName = cleanDisplayName(randomCharacter.name);
+        const mediaSource = cleanDisplayName(randomCharacter.category);
+        searchInput.value = `${displayName} (${mediaSource})`;
+        
+        // Directly select the character
+        // This will trigger all necessary updates
+        import('../search/searchBarComponent.js').then(module => {
+            if (module.default && typeof module.default.selectCharacter === 'function') {
+                module.default.selectCharacter(blockId, randomCharacter);
+            } else {
+                // Fallback: Update components directly
                 updateGenderToggle(blockId, randomCharacter.name);
                 updateAgeUpToggle(blockId, randomCharacter.name);
                 updateEnhancerDropdown(blockId, randomCharacter.name);
                 
-                // Explicitly populate default tag pills
-                populateDefaultTagPills(blockId, randomCharacter);
-
                 // Update the character block title
                 const blockTitle = characterBlock.querySelector('.block-title');
                 if (blockTitle) {
-                    blockTitle.textContent = `${cleanDisplayName(randomCharacter.name)} (${cleanDisplayName(randomCharacter.category)})`;
+                    blockTitle.textContent = `${displayName} (${mediaSource})`;
                 }
-
-                // Randomly toggle gender swap if available
-                if (randomCharacter.genderswapAvailable) {
-                    // Get the default gender
-                    const defaultGender = randomCharacter.defaultGender || "girl";
-                    
-                    // Select a random gender from the three options
-                    const genderOptions = ["boy", "girl", "other"];
-                    const randomGender = genderOptions[Math.floor(Math.random() * genderOptions.length)];
-                    
-                    // Select the corresponding radio button
-                    const selectedRadio = document.getElementById(`gender-${randomGender}-${blockId}`);
-                    if (selectedRadio) {
-                        selectedRadio.checked = true;
-                        
-                        // Trigger the change event to update the slider position and labels
-                        selectedRadio.dispatchEvent(new Event('change'));
-                    }
-                }
-
-                // Trigger any necessary updates
-                if (typeof window.updateAllActionAssignments === "function") {
-                    window.updateAllActionAssignments();
-                }
+                
+                // Populate default tag pills for this character
+                populateDefaultTagPills(blockId, randomCharacter);
             }
-        }, 100);
-    }, 100);
+        });
+    }
 
     return blockId;
-} 
+}
+
+// Note: resetCharacterDropdown is now imported from ../ui/dropdowns.js
+// instead of being defined here 

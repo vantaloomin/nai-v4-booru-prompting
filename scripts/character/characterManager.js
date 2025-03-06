@@ -21,14 +21,60 @@ import {
 } from './state/characterState.js';
 import { processGenderedTags } from './utils/tagProcessor.js';
 
+// Import from new search modules
+import { 
+    searchCharacters,
+    fuseSearch,
+    getSearchCandidates,
+    getCharacterByName
+} from './search/characterSearch.js';
+import {
+    getAvailableFilters,
+    getActiveFilters,
+    setFilter,
+    updateFilters,
+    applyFilters,
+    clearFilters,
+    hasActiveFilters
+} from './search/characterFilters.js';
+import { createSearchBar } from './search/searchBarComponent.js';
+import { createFilterPanel, updateFilterPanel } from './search/filterPanelComponent.js';
+
 // Re-export all functions
 export {
+    // Character block management
     addCharacterBlock,
     addRandomCharacterBlock,
+    
+    // Character data access
     getCharacterSubjects,
+    
+    // Character state management
     getCurrentCharacterCount,
     getMaxCharacters,
     incrementCharacterCount,
     setCharacterCount,
-    processGenderedTags
+    
+    // Tag processing
+    processGenderedTags,
+    
+    // New search functionality
+    searchCharacters,
+    fuseSearch,
+    getSearchCandidates,
+    getCharacterByName,
+    
+    // Filter functionality
+    getAvailableFilters,
+    getActiveFilters,
+    setFilter,
+    updateFilters,
+    applyFilters,
+    clearFilters,
+    hasActiveFilters,
+    
+    // UI Components
+    createSearchBar,
+    createFilterPanel,
+    updateFilterPanel
 }; 
