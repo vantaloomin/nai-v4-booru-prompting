@@ -758,6 +758,13 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
                 hugeInput.checked = true;
             }
             updateBreastSizeLabels();
+            
+            // Refresh the tag pills to show the updated breast size
+            const characterItem = characterData.find(item => item.name === selectedCharacterName);
+            if (characterItem) {
+                populateDefaultTagPills(id, characterItem);
+            }
+            
             return size;
         }
         
@@ -766,6 +773,12 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             if (this.checked) {
                 sliderHandle.className = 'breast-size-handle position-small';
                 updateBreastSizeLabels();
+                
+                // Refresh tag pills
+                const characterItem = characterData.find(item => item.name === selectedCharacterName);
+                if (characterItem) {
+                    populateDefaultTagPills(id, characterItem);
+                }
             }
         });
         
@@ -773,6 +786,12 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             if (this.checked) {
                 sliderHandle.className = 'breast-size-handle position-medium';
                 updateBreastSizeLabels();
+                
+                // Refresh tag pills
+                const characterItem = characterData.find(item => item.name === selectedCharacterName);
+                if (characterItem) {
+                    populateDefaultTagPills(id, characterItem);
+                }
             }
         });
         
@@ -780,6 +799,12 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             if (this.checked) {
                 sliderHandle.className = 'breast-size-handle position-large';
                 updateBreastSizeLabels();
+                
+                // Refresh tag pills
+                const characterItem = characterData.find(item => item.name === selectedCharacterName);
+                if (characterItem) {
+                    populateDefaultTagPills(id, characterItem);
+                }
             }
         });
         
@@ -787,6 +812,12 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             if (this.checked) {
                 sliderHandle.className = 'breast-size-handle position-huge';
                 updateBreastSizeLabels();
+                
+                // Refresh tag pills
+                const characterItem = characterData.find(item => item.name === selectedCharacterName);
+                if (characterItem) {
+                    populateDefaultTagPills(id, characterItem);
+                }
             }
         });
         
@@ -981,6 +1012,30 @@ export function populateDefaultTagPills(id, characterData) {
     mainTags.forEach(tag => {
         createTagPill(tag, pillContainer, null, true);
     });
+    
+    // Check if Age Up is enabled and add appropriate tag
+    const ageUpInput = document.getElementById(`age-up-input-${id}`);
+    if (ageUpInput && ageUpInput.checked) {
+        // Always add the generic "aged up" tag first
+        createTagPill('aged up', pillContainer, null, true);
+        
+        // Then add the gender-specific tag
+        if (selectedGender === 'girl') {
+            createTagPill('mature female', pillContainer, null, true);
+        } else if (selectedGender === 'boy') {
+            createTagPill('mature male', pillContainer, null, true);
+        }
+        
+        // If gender is girl and Age Up is enabled, check for breast size
+        if (selectedGender === 'girl') {
+            // Get the actively checked breast size radio button
+            const selectedBreastSize = document.querySelector(`input[name="breast-size-${id}"]:checked`);
+            if (selectedBreastSize) {
+                // Use the value directly from the checked radio button
+                createTagPill(selectedBreastSize.value, pillContainer, null, true);
+            }
+        }
+    }
     
     // Check for enhancer tags
     const enhancerDisplay = document.querySelector(`#enhancer-div-${id} .selected-display`);
