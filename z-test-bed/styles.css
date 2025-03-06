@@ -1,0 +1,427 @@
+/* Test-bed Specific Styles */
+
+/* Container styling */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Search and filter styling */
+.character-search-container {
+  margin-bottom: 30px;
+  background-color: var(--color-bg-card);
+  padding: 20px;
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.search-wrapper {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-secondary);
+}
+
+.clear-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.clear-icon:hover {
+  opacity: 1;
+}
+
+#character-search {
+  width: 100%;
+  padding: 12px 35px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-input);
+  background-color: var(--color-bg-input);
+  color: var(--color-text-primary);
+  font-size: 16px;
+}
+
+/* Filter dropdown styling */
+.filter-container {
+  margin-bottom: 15px;
+}
+
+.filter-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-btn {
+  padding: 10px 15px;
+  background-color: var(--color-bg-input);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-button);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.filter-btn:hover {
+  background-color: var(--color-bg-hover);
+}
+
+.filter-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--color-bg-dropdown);
+  min-width: 200px;
+  border-radius: var(--radius-dropdown);
+  box-shadow: var(--shadow-dropdown);
+  z-index: 10;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.filter-dropdown-content.show {
+  display: block;
+}
+
+.filter-option {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color: var(--color-text-primary);
+}
+
+.filter-option:hover {
+  background-color: var(--color-bg-hover);
+}
+
+/* Search results styling */
+.search-results-container {
+  background-color: var(--color-bg-dropdown);
+  border-radius: var(--radius-dropdown);
+  box-shadow: var(--shadow-dropdown);
+  max-height: 300px;
+  overflow-y: auto;
+  display: none;
+  margin-top: 5px;
+}
+
+.search-results-container.show {
+  display: block;
+}
+
+.search-result-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-result-item:hover {
+  background-color: var(--color-bg-hover);
+}
+
+.result-name {
+  font-weight: 500;
+}
+
+.result-category {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  padding: 3px 6px;
+  background-color: var(--color-bg-badge);
+  border-radius: var(--radius-badge);
+}
+
+/* Character card styling */
+.character-card {
+  background-color: var(--color-bg-card);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.character-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-info h3 {
+  margin: 0 0 5px 0;
+  color: var(--color-text-primary);
+}
+
+.media-badge {
+  font-size: 12px;
+  background-color: var(--color-primary);
+  color: var(--text-on-primary);
+  padding: 3px 8px;
+  border-radius: var(--radius-badge);
+  display: inline-block;
+}
+
+.remove-character-btn {
+  padding: 8px 15px;
+  background-color: var(--color-danger);
+  border: none;
+  border-radius: var(--radius-button);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.remove-character-btn:hover {
+  background-color: var(--color-danger-hover);
+}
+
+/* Card sections */
+.card-section {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.card-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.card-section h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--color-text-primary);
+}
+
+/* Gender slider */
+.gender-slider-container {
+  width: 100%;
+}
+
+.gender-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.default-label {
+  color: var(--color-primary);
+}
+
+.gender-slider {
+  width: 100%;
+  -webkit-appearance: none;
+  height: 5px;
+  border-radius: 5px;
+  background: linear-gradient(to right, 
+    var(--color-boy) 0%, 
+    var(--color-other) 50%, 
+    var(--color-girl) 100%);
+  outline: none;
+}
+
+.gender-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  cursor: pointer;
+}
+
+.gender-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  cursor: pointer;
+}
+
+/* Age up toggle */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-bg-toggle);
+  transition: .4s;
+  border-radius: 24px;
+}
+
+.toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+  background-color: var(--color-primary);
+}
+
+input:checked + .toggle-slider:before {
+  transform: translateX(26px);
+}
+
+/* Breast size slider */
+.size-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.breast-size-slider {
+  width: 100%;
+  -webkit-appearance: none;
+  height: 5px;
+  border-radius: 5px;
+  background: linear-gradient(to right, 
+    var(--color-small) 0%, 
+    var(--color-medium) 33%, 
+    var(--color-large) 66%, 
+    var(--color-huge) 100%);
+  outline: none;
+}
+
+.breast-size-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  cursor: pointer;
+}
+
+.breast-size-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  cursor: pointer;
+}
+
+/* Enhancer dropdown */
+.enhancer-selector {
+  width: 100%;
+}
+
+.enhancer-dropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-input);
+  background-color: var(--color-bg-input);
+  color: var(--color-text-primary);
+}
+
+/* Tag input and pills */
+.tag-input-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.tag-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-input);
+  background-color: var(--color-bg-input);
+  color: var(--color-text-primary);
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag-pill {
+  background-color: var(--color-bg-tag);
+  color: var(--color-text-primary);
+  padding: 5px 10px;
+  border-radius: var(--radius-tag);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* Custom CSS Variables for the testbed */
+:root {
+  --color-boy: #4a90e2;
+  --color-other: #9b59b6;
+  --color-girl: #e74c3c;
+  --color-small: #3498db;
+  --color-medium: #2ecc71;
+  --color-large: #e67e22;
+  --color-huge: #e74c3c;
+  --color-danger: #e74c3c;
+  --color-danger-hover: #c0392b;
+  --color-bg-badge: rgba(0, 0, 0, 0.1);
+  --color-bg-tag: rgba(0, 0, 0, 0.1);
+  --color-bg-toggle: #ccc;
+  --radius-badge: 4px;
+  --radius-tag: 4px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .remove-character-btn {
+    margin-top: 10px;
+  }
+  
+  .filter-container {
+    width: 100%;
+  }
+  
+  .filter-btn {
+    width: 100%;
+    text-align: left;
+  }
+} 
