@@ -19,20 +19,12 @@ import { showMaxCharacterWarning } from '../utils/modal.js';
 import { initCustomTagAutocomplete, addAutocompleteStyling } from '../customCharacter/ui/autocomplete.js';
 import { searchTags, createTagPill, formatTag, loadAllTags } from '../customCharacter/utils/tagUtils.js';
 
-// Try to import getActionAssignments from action.js, with a fallback to the global version
-let getActionAssignments;
-try {
-    // Using dynamic import to avoid blocking module loading if this fails
-    import('../action.js').then(module => {
-        getActionAssignments = module.getActionAssignments;
-    }).catch(() => {
-        // Fallback to global version if import fails
-        getActionAssignments = window.getActionAssignments || (() => ({}));
-    });
-} catch (e) {
-    // Final fallback - empty function that returns an empty object
-    getActionAssignments = window.getActionAssignments || (() => ({}));
-}
+// Initialize action functions with fallbacks to the window object
+// This is a simpler approach than using dynamic imports, which can cause module loading issues
+let getActionAssignments = () => ({});
+let showActionSelectionPopup = (sourceId, targetId) => {
+    console.log("Action popup requested but functions not ready. Source:", sourceId, "Target:", targetId);
+};
 
 // Character state
 let characterCount = 0;
@@ -47,6 +39,15 @@ document.addEventListener('DOMContentLoaded', () => {
     loadAllTags().then(() => {
         console.log('Tags loaded for standard character cards');
     });
+    
+    // Set up action function references from window object (filled by action.js)
+    if (typeof window.getActionAssignments === 'function') {
+        getActionAssignments = window.getActionAssignments;
+    }
+    
+    if (typeof window.showActionSelectionPopup === 'function') {
+        showActionSelectionPopup = window.showActionSelectionPopup;
+    }
 });
 
 /**
