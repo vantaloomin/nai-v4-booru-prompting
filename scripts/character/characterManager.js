@@ -12,7 +12,8 @@ import {
     updateGenderToggle,
     updateAgeUpToggle,
     updateEnhancerDropdown,
-    resetCharacterDropdown
+    resetCharacterDropdown,
+    populateDefaultTagPills
 } from './ui/dropdowns.js';
 import { showMaxCharacterWarning } from '../utils/modal.js';
 import { initCustomTagAutocomplete, addAutocompleteStyling } from '../customCharacter/ui/autocomplete.js';
@@ -473,6 +474,9 @@ export function addRandomCharacterBlock(type) {
                 updateGenderToggle(blockId, randomCharacter.name);
                 updateAgeUpToggle(blockId, randomCharacter.name);
                 updateEnhancerDropdown(blockId, randomCharacter.name);
+                
+                // Explicitly populate default tag pills
+                populateDefaultTagPills(blockId, randomCharacter);
 
                 // Update the character block title
                 const blockTitle = characterBlock.querySelector('.block-title');

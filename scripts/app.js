@@ -12,7 +12,8 @@ import {
   updateGenderToggle, 
   updateEnhancerDropdown,
   updateTitleOptions,
-  updateCharacterDropdown
+  updateCharacterDropdown,
+  populateDefaultTagPills
 } from './character/ui/dropdowns.js';
 // Import name formatting utility
 import { cleanDisplayName } from './character/utils/nameFormatter.js';
@@ -636,6 +637,9 @@ document.addEventListener("DOMContentLoaded", function () {
               // Trigger gender and enhancer updates
               updateGenderToggle(blockId, name);
               updateEnhancerDropdown(blockId, name);
+              
+              // Explicitly populate default tag pills
+              populateDefaultTagPills(blockId, result.raw);
               
               // Update the character block title
               const blockTitle = document.querySelector(`#character-${blockId} .block-title`);

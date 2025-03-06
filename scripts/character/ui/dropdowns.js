@@ -883,7 +883,7 @@ export function resetCharacterDropdown(id) {
  * @param {number} id - The character block ID
  * @param {Object} characterData - The character data object
  */
-function populateDefaultTagPills(id, characterData) {
+export function populateDefaultTagPills(id, characterData) {
     // Get the pill container
     const pillContainer = document.querySelector(`#custom-tag-div-${id} .custom-pill-container`);
     if (!pillContainer) return;
@@ -898,8 +898,7 @@ function populateDefaultTagPills(id, characterData) {
     const genderTag = `1${selectedGender}`;
     createTagPill(genderTag, pillContainer, null, true);
     
-    // Add the character name as a tag
-    createTagPill(characterData.name, pillContainer, null, true);
+    // No longer adding character name as a tag to avoid duplication
     
     // Add each comma-separated term in mainTags
     const mainTags = characterData.mainTags.split(',').map(tag => tag.trim()).filter(tag => tag);
@@ -919,4 +918,16 @@ function populateDefaultTagPills(id, characterData) {
             createTagPill(tag, pillContainer, null, true);
         });
     }
+    
+    // Verify we've actually added content before attempting layout update
+    if (pillContainer.children.length === 0) return;
+    
+    // Force a DOM update to ensure tags are immediately visible
+    // This fixes the bug where tags are not visible until a custom tag is added
+    const originalDisplay = window.getComputedStyle(pillContainer).display;
+    pillContainer.style.display = 'none';
+    setTimeout(() => {
+        // Restore original display or use flex as fallback (default for .custom-pill-container)
+        pillContainer.style.display = originalDisplay || 'flex';
+    }, 0);
 } 
