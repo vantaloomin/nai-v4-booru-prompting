@@ -32,6 +32,10 @@
     /* Soft White Glow - Primary text */
     --color-text-secondary: #BDBDBD;
     /* Medium Gray Grid Lines - Secondary text */
+    --text-on-surface: var(--color-text-primary);
+    /* Main text on surface - Using primary text color */
+    --text-on-primary: white;
+    /* Text color on primary background elements */
 
     /*******************************
      * FUNCTIONAL COLOR ASSIGNMENTS
@@ -273,7 +277,6 @@
     /* Text Colors Based on Background */
     --text-on-primary: var(--color-text-primary);
     --text-on-secondary: var(--color-text-primary);
-    --text-on-surface: var(--color-text-secondary);
     --text-on-error: var(--color-text-primary);
 
     /* Text Emphasis */

@@ -55,7 +55,56 @@
 
 /* Hover effect */
 .suggestions-list .suggestion-item:hover {
-    background-color: var(--color-primary);
-    color: var(--text-on-primary);
+    background-color: var(--color-border);
+    color: var(--color-primary);
     cursor: pointer;
+}
+
+/* Search Icon (🔍) on the Left */
+.search-icon {
+    position: absolute;
+    left: var(--space-xs);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-on-surface);
+    font-size: var(--text-base);
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Clear Icon (✖) on the Right */
+.clear-icon {
+    position: absolute;
+    right: var(--space-xs);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-on-surface);
+    font-size: var(--text-base);
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.clear-icon:hover {
+    color: var(--color-primary);
+}
+
+/* Action Search and Buttons */
+.action-search {
+    width: 100%;
+    padding: var(--space-xs);
+    margin-bottom: var(--space-xs);
+    border-radius: var(--radius-input);
+    border: 1px solid var(--color-border);
+    background-color: var(--color-bg-input);
+    color: var(--text-on-surface);
+    box-sizing: border-box;
+}
+
+/* No actions found placeholder */
+.no-actions-found {
+    text-align: center;
+    padding: var(--space-xs);
+    opacity: var(--text-emphasis-low);
+    width: 100%;
 } 

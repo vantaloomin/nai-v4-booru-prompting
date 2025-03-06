@@ -100,4 +100,71 @@
 
 .switch input:checked+.slider:before {
     transform: translateX(26px);
+}
+
+/* Toggle Section Containers */
+#color-toggle-container {
+    margin-right: var(--space-md);
+    cursor: pointer;
+}
+
+#mode-toggle-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Toggle container shared styles */
+#color-toggle-container, #mode-toggle-container {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: var(--space-md);
+}
+
+/* Switch styling for toggles */
+.switch {
+    margin-right: var(--space-xs);
+    position: relative;
+    display: inline-block;
+}
+
+/* Toggle section styles */
+.toggle-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: var(--space-lg);
+    padding: var(--space-sm);
+    background-color: var(--color-bg-input);
+    border-radius: var(--radius-md);
+}
+
+/* Toggle label styling */
+#mode-toggle-label, #color-toggle-label {
+    margin-right: var(--space-xs);
+}
+
+/* Mode toggle colors */
+#mode-toggle-container .slider {
+    background-color: var(--color-primary); /* NovelAI mode (default/unchecked) */
+}
+
+#mode-toggle-container input:checked + .slider {
+    background-color: var(--color-bg-input); /* Stable Diffusion mode (checked) */
+}
+
+/* Color toggle colors */
+#color-toggle-container .slider {
+    background-color: var(--color-primary); /* Bright mode (default/unchecked) */
+}
+
+#color-toggle-container input:checked + .slider {
+    background-color: var(--color-secondary); /* Pastel mode (checked) */
+}
+
+/* Toggle label general styling */
+.toggle-label {
+    font-size: var(--text-sm);
+    color: var(--text-on-surface);
+    user-select: none;
 } 

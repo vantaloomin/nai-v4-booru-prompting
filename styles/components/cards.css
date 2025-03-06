@@ -47,4 +47,231 @@
 .drag-handle:hover {
     transform: rotate(180deg);
     color: var(--color-secondary);
+}
+
+.action-drag-handle {
+    cursor: grab;
+    font-size: var(--text-lg);
+    margin-left: var(--space-xs);
+    user-select: none;
+    z-index: var(--z-base);
+    pointer-events: auto;
+    animation: pulse 2s infinite;
+}
+
+.action-drag-handle:active {
+    cursor: grabbing;
+}
+
+/* 7.2 Custom Character Blocks
+   ========================================================= */
+
+/* custom-character-block: main container styling - matching regular character blocks */
+.custom-character-block {
+    position: relative;
+    flex: 0 0 calc(50% - var(--gap-default));
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    box-shadow: var(--shadow-md);
+    animation: fadeIn var(--transition-default) var(--ease-default);
+    box-sizing: border-box;
+}
+
+/* Header styling */
+.custom-block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: var(--space-sm);
+}
+
+.custom-drag-handle {
+    font-size: var(--text-lg);
+    color: var(--color-primary);
+    cursor: move;
+    user-select: none;
+    margin-right: var(--space-xs);
+}
+
+.custom-block-title {
+    font-weight: var(--font-semibold);
+    font-size: var(--text-base);
+    color: var(--color-text-primary);
+}
+
+.custom-toggle-icon {
+    color: var(--color-primary);
+    font-size: var(--text-lg);
+}
+
+/* Content container */
+.custom-block-content {
+    display: block;
+    position: relative; /* Ensure proper stacking context */
+    z-index: var(--z-base); /* Use base z-index */
+}
+
+/* Custom search wrapper for the input + icons */
+.custom-search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: var(--space-xs);
+    margin-bottom: var(--space-xs);
+    z-index: var(--z-base); /* Ensure this has a lower z-index than dropdowns */
+}
+
+.custom-search-icon {
+    position: absolute;
+    left: var(--space-xs);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: var(--text-base);
+    color: var(--color-primary);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.custom-tag-input {
+    width: 100%;
+    padding: var(--space-sm) var(--space-xl);
+    padding-left: calc(var(--space-xl) + 12px); /* extra left to accommodate icon */
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-input);
+    background: var(--color-bg-input);
+    color: var(--color-text-primary);
+    font-size: var(--text-base);
+    box-sizing: border-box;
+}
+
+/* Custom styles for scene and artist inputs */
+.custom-scene-input, .custom-artist-input {
+    padding-left: var(--space-sm); /* Reset left padding since we don't have a search icon */
+}
+
+.custom-clear-icon {
+    position: absolute;
+    right: var(--space-xs);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: var(--text-base);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* Suggestions list container */
+.custom-suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    z-index: var(--z-dropdown); /* Use standard dropdown z-index */
+    margin-top: var(--space-xxs);
+    box-shadow: var(--shadow-md);
+}
+
+/* Individual suggestion item */
+.custom-suggestion-item {
+    padding: var(--space-xs) var(--space-sm);
+    cursor: pointer;
+    transition: background-color var(--transition-default), color var(--transition-default);
+}
+
+.custom-suggestion-item:hover {
+    background-color: var(--color-border);
+    color: var(--color-primary);
+}
+
+/* Pill container + pills */
+.custom-pill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-top: var(--space-xs);
+    margin-bottom: var(--space-sm);
+}
+
+.custom-tag-pill {
+    background-color: var(--highlight-cyan);
+    color: #000000; /* Use black text for better contrast */
+    padding: var(--space-xxs) var(--space-sm);
+    border-radius: 2px; /* Less rounded corners */
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium); /* Slightly bolder text */
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3); /* Subtle text shadow for better readability */
+}
+
+/* Default tags (non-removable) are styled differently */
+.custom-tag-pill.default-tag {
+    background-color: var(--highlight-other);
+    opacity: 0.9;
+    border: 1px solid var(--color-border);
+    color: #000000; /* Use black text for better contrast */
+}
+
+.custom-tag-remove {
+    margin-left: var(--space-xxs);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.custom-pill-remove {
+    margin-left: var(--space-xxs);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Custom remove button container */
+.custom-remove-btn-container {
+    margin-top: auto;
+}
+
+/* 7.3 Selection Cards
+   ========================================================= */
+
+.selection-card {
+    flex: 0 0 calc(33.333% - var(--gap-large));
+    box-sizing: border-box;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    padding: var(--space-xs);
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all var(--transition-default);
+}
+
+.selection-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(156, 39, 176, 0.2);
+}
+
+/* Card header and content styling */
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: var(--space-xs);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.card-content {
+    padding: var(--space-sm);
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
 } 
