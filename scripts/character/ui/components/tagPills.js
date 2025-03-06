@@ -47,6 +47,28 @@ export function populateDefaultTagPills(id, characterData) {
     const genderTag = `1${selectedGender}`;
     createTagPill(genderTag, pillContainer, null, true);
     
+    // Add genderswap tags if the selected gender is different from default
+    const defaultGender = characterData.defaultGender || 'girl';
+    if (selectedGender !== defaultGender) {
+        // Add generic genderswap tag
+        createTagPill('genderswap', pillContainer, null, true);
+        
+        // Add specific directional genderswap tag
+        if (defaultGender === 'boy' && selectedGender === 'girl') {
+            createTagPill('genderswap mtf', pillContainer, null, true);
+        } else if (defaultGender === 'girl' && selectedGender === 'boy') {
+            createTagPill('genderswap ftm', pillContainer, null, true);
+        } else if (defaultGender === 'boy' && selectedGender === 'other') {
+            createTagPill('genderswap mto', pillContainer, null, true);
+        } else if (defaultGender === 'girl' && selectedGender === 'other') {
+            createTagPill('genderswap fto', pillContainer, null, true);
+        } else if (defaultGender === 'other' && selectedGender === 'boy') {
+            createTagPill('genderswap otm', pillContainer, null, true);
+        } else if (defaultGender === 'other' && selectedGender === 'girl') {
+            createTagPill('genderswap otf', pillContainer, null, true);
+        }
+    }
+    
     // Add each comma-separated term in mainTags
     const mainTags = characterData.mainTags ? characterData.mainTags.split(',').map(tag => tag.trim()).filter(tag => tag) : [];
     mainTags.forEach(tag => {
