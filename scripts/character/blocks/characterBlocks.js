@@ -19,7 +19,8 @@ import {
 import { 
     incrementCharacterCount, 
     getCurrentCharacterCount, 
-    getMaxCharacters 
+    getMaxCharacters,
+    decrementCharacterCount
 } from '../state/characterState.js';
 import { initCustomTagAutocomplete } from '../../customCharacter/ui/autocomplete.js';
 import { createSearchBar } from '../search/searchBarComponent.js';
@@ -108,6 +109,9 @@ export function addCharacterBlock() {
         e.stopPropagation();
         // Remove this character block
         div.remove();
+        
+        // Decrement the character count
+        decrementCharacterCount();
         
         // Update action assignments
         if (typeof window.updateAllActionAssignments === "function") {

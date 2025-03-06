@@ -17,6 +17,7 @@ import {
     getCurrentCharacterCount, 
     getMaxCharacters, 
     incrementCharacterCount, 
+    decrementCharacterCount,
     setCharacterCount 
 } from './state/characterState.js';
 import { processGenderedTags } from './utils/tagProcessor.js';
@@ -53,6 +54,7 @@ export {
     getCurrentCharacterCount,
     getMaxCharacters,
     incrementCharacterCount,
+    decrementCharacterCount,
     setCharacterCount,
     
     // Tag processing

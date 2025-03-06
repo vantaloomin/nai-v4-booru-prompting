@@ -36,6 +36,18 @@ export function incrementCharacterCount() {
 }
 
 /**
+ * Decrements the character count
+ * 
+ * @return {number} - The updated character count
+ */
+export function decrementCharacterCount() {
+    if (characterCount > 0) {
+        return --characterCount;
+    }
+    return characterCount;
+}
+
+/**
  * Sets the character count to a specific value
  * 
  * @param {number} count - The new character count
