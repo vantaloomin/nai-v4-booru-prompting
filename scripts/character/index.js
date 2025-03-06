@@ -13,7 +13,7 @@ import {
     getMaxCharacters
 } from './characterManager.js';
 import { cleanDisplayName } from './utils/nameFormatter.js';
-import { closeAllDropdowns } from './ui/dropdowns.js';
+import { closeAllDropdowns, updateAgeUpToggle } from './ui/dropdowns.js';
 
 // Export variables to the global scope for backward compatibility
 window.characterCount = 0; // This will be managed internally by the module
@@ -25,6 +25,7 @@ window.addRandomCharacterBlock = addRandomCharacterBlock;
 window.getCharacterSubjects = getCharacterSubjects;
 window.cleanDisplayName = cleanDisplayName;
 window.closeAllDropdowns = closeAllDropdowns;
+window.updateAgeUpToggle = updateAgeUpToggle;
 
 // Export the module functions directly for ES module imports
 export {
@@ -32,5 +33,6 @@ export {
     addRandomCharacterBlock,
     getCharacterSubjects,
     cleanDisplayName,
-    closeAllDropdowns
+    closeAllDropdowns,
+    updateAgeUpToggle
 }; 

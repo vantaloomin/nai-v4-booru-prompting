@@ -59,6 +59,13 @@ function updateGenderToggle(id, selectedCharacterName) {
     }
 }
 
+function updateAgeUpToggle(id, selectedCharacterName) {
+    // Forward to the modular implementation if it exists
+    if (window.updateAgeUpToggle) {
+        window.updateAgeUpToggle(id, selectedCharacterName);
+    }
+}
+
 function updateEnhancerDropdown(id, selectedCharacterName) {
     // Forward to the modular implementation if it exists
     if (window.updateEnhancerDropdown) {

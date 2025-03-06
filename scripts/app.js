@@ -10,6 +10,7 @@ import { showClipboardSuccessModal, showClipboardErrorModal } from './utils/moda
 // Import character UI functions
 import { 
   updateGenderToggle, 
+  updateAgeUpToggle,
   updateEnhancerDropdown,
   updateTitleOptions,
   updateCharacterDropdown,
@@ -636,6 +637,7 @@ document.addEventListener("DOMContentLoaded", function () {
               
               // Trigger gender and enhancer updates
               updateGenderToggle(blockId, name);
+              updateAgeUpToggle(blockId, name);
               updateEnhancerDropdown(blockId, name);
               
               // Explicitly populate default tag pills

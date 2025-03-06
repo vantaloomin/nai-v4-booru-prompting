@@ -113,20 +113,20 @@ export function updateGenderToggle(id, selectedCharacterName) {
     if (selectedData && selectedData.genderswapAvailable) {
         // Add the gender selection title outside the container
         const genderTitle = document.createElement('label');
-        genderTitle.textContent = 'Character Gender:';
         genderTitle.className = 'gender-title';
+        genderTitle.textContent = 'Character Gender:';
         genderDiv.appendChild(genderTitle);
         
-        // Create container for the gender selection
-        const genderSelectionContainer = document.createElement('div');
-        genderSelectionContainer.className = 'gender-selection-container';
-        
-        // Create the gender trio container
+        // Create container for all gender selection elements
         const genderContainer = document.createElement('div');
         genderContainer.className = 'gender-trio-container';
+        genderDiv.appendChild(genderContainer);
         
         // Determine the default gender
-        const defaultGender = selectedData.defaultGender || "girl";
+        let defaultGender = 'girl'; // Default if not specified
+        if (selectedData.hasOwnProperty('defaultGender')) {
+            defaultGender = selectedData.defaultGender.toLowerCase();
+        }
         
         // Create the gender radio inputs in order: boy, other, girl
         const genders = ['boy', 'other', 'girl'];
@@ -147,6 +147,12 @@ export function updateGenderToggle(id, selectedCharacterName) {
                 // Find the selected character data again
                 const characterItem = characterData.find(item => item.name === selectedCharacterName);
                 if (characterItem) {
+                    // Get the selected gender
+                    const selectedGender = this.value;
+                    
+                    // Check if breast size visibility should be updated
+                    updateBreastSizeVisibility(id, selectedGender);
+                    
                     // Refresh default tags with updated gender
                     populateDefaultTagPills(id, characterItem);
                 }
@@ -154,6 +160,13 @@ export function updateGenderToggle(id, selectedCharacterName) {
             
             genderContainer.appendChild(input);
         });
+        
+        // Verify that all radio buttons were created before proceeding
+        const radioCheck = genderContainer.querySelectorAll('.gender-radio');
+        if (radioCheck.length < 3) {
+            console.error(`Failed to create all gender radio buttons for ID ${id}. Found: ${radioCheck.length}`);
+            return; // Exit early to prevent errors in slider setup
+        }
         
         // Create the slider component
         const sliderContainer = document.createElement('div');
@@ -207,8 +220,15 @@ export function updateGenderToggle(id, selectedCharacterName) {
         
         // Helper function to set gender based on slider position
         function setGenderByPosition(position) {
-            const radios = genderDiv.querySelectorAll('.gender-radio');
-            const labels = genderDiv.querySelectorAll('.gender-label');
+            // Query from genderContainer directly instead of genderDiv
+            const radios = genderContainer.querySelectorAll('.gender-radio');
+            const labels = genderContainer.querySelectorAll('.gender-label');
+            
+            // Check if all radio buttons exist before proceeding
+            if (radios.length < 3) {
+                console.error(`Expected 3 gender radio buttons but found ${radios.length} for ID ${id}`);
+                return; // Exit function to prevent error
+            }
             
             // Remove all position classes
             sliderHandle.classList.remove('position-boy', 'position-girl', 'position-other');
@@ -219,8 +239,10 @@ export function updateGenderToggle(id, selectedCharacterName) {
                 radios[0].checked = true;
                 
                 // Update labels
-                labels.forEach(l => l.classList.remove('active'));
-                labels[0].classList.add('active');
+                if (labels.length > 0) {
+                    labels.forEach(l => l.classList.remove('active'));
+                    labels[0].classList.add('active');
+                }
                 
                 // Trigger change event
                 radios[0].dispatchEvent(new Event('change'));
@@ -229,8 +251,10 @@ export function updateGenderToggle(id, selectedCharacterName) {
                 radios[1].checked = true;
                 
                 // Update labels
-                labels.forEach(l => l.classList.remove('active'));
-                labels[1].classList.add('active');
+                if (labels.length > 1) {
+                    labels.forEach(l => l.classList.remove('active'));
+                    labels[1].classList.add('active');
+                }
                 
                 // Trigger change event
                 radios[1].dispatchEvent(new Event('change'));
@@ -239,8 +263,10 @@ export function updateGenderToggle(id, selectedCharacterName) {
                 radios[2].checked = true;
                 
                 // Update labels
-                labels.forEach(l => l.classList.remove('active'));
-                labels[2].classList.add('active');
+                if (labels.length > 2) {
+                    labels.forEach(l => l.classList.remove('active'));
+                    labels[2].classList.add('active');
+                }
                 
                 // Trigger change event
                 radios[2].dispatchEvent(new Event('change'));
@@ -318,7 +344,7 @@ export function updateGenderToggle(id, selectedCharacterName) {
         const labels = labelsContainer.querySelectorAll('.gender-label');
         labels.forEach((label, index) => {
             label.addEventListener('click', () => {
-                const radios = genderDiv.querySelectorAll('.gender-radio');
+                const radios = genderContainer.querySelectorAll('.gender-radio');
                 
                 // Update slider position based on the clicked label
                 if (index === 0) {
@@ -348,9 +374,9 @@ export function updateGenderToggle(id, selectedCharacterName) {
         });
         
         // Append the slider container and labels
-        genderSelectionContainer.appendChild(sliderContainer);
-        genderSelectionContainer.appendChild(labelsContainer);
-        genderDiv.appendChild(genderSelectionContainer);
+        genderContainer.appendChild(sliderContainer);
+        genderContainer.appendChild(labelsContainer);
+        genderDiv.appendChild(genderContainer);
     }
 
     // Add event listeners to radio inputs for gender selection
@@ -382,11 +408,25 @@ function updateBreastSizeVisibility(id, gender) {
     const breastSizeContainer = document.getElementById(`breast-size-container-${id}`);
     
     if (ageUpInput && breastSizeContainer) {
+        console.log(`Updating breast size visibility for ID ${id}. Gender: ${gender}, Age Up checked: ${ageUpInput.checked}`);
         if (gender === 'girl' && ageUpInput.checked) {
             breastSizeContainer.style.display = 'block';
+            
+            // Ensure a breast size is selected if none is currently selected
+            const selectedBreastSize = document.querySelector(`input[name="breast-size-${id}"]:checked`);
+            if (!selectedBreastSize) {
+                // If no size is selected, default to small
+                const smallInput = document.getElementById(`breast-size-small-${id}`);
+                if (smallInput) {
+                    smallInput.checked = true;
+                    smallInput.dispatchEvent(new Event('change'));
+                }
+            }
         } else {
             breastSizeContainer.style.display = 'none';
         }
+    } else {
+        console.warn(`Missing elements for breast size visibility update. ID: ${id}, ageUpInput: ${!!ageUpInput}, breastSizeContainer: ${!!breastSizeContainer}`);
     }
 }
 
@@ -568,6 +608,15 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             ageUpInput.checked = !ageUpInput.checked;
             // Trigger the change event manually
             ageUpInput.dispatchEvent(new Event('change'));
+            
+            // Log toggle action for debugging
+            console.log(`Age Up toggle clicked for ID ${id}. New state: ${ageUpInput.checked}`);
+            
+            // Get the current gender and update breast size visibility directly
+            const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
+            if (selectedGender) {
+                updateBreastSizeVisibility(id, selectedGender);
+            }
         });
         
         // Add toggle switch to container
@@ -809,6 +858,9 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
         ageUpInput.addEventListener('change', function() {
             // Get the current gender
             const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
+            console.log(`Age Up change event for ID ${id}. Checked: ${this.checked}, Gender: ${selectedGender}`);
+            
+            // Always update breast size visibility when the toggle changes
             updateBreastSizeVisibility(id, selectedGender);
             
             // If this is being enabled and gender is girl, ensure the breast size inputs are initialized
@@ -848,7 +900,31 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
         // Check initial gender and update breast size visibility
         const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
         if (selectedGender) {
-            updateBreastSizeVisibility(id, selectedGender);
+            // Ensure the initial state of the breast size container is correct
+            console.log(`Initial check for ID ${id}. Gender: ${selectedGender}, Age Up Input: ${!!ageUpInput}`);
+            
+            // Force update of breast size visibility based on current toggle state
+            if (ageUpInput) {
+                updateBreastSizeVisibility(id, selectedGender);
+                
+                // If this is a girl character and Age Up is already checked, ensure breast size is visible
+                if (selectedGender === 'girl' && ageUpInput.checked) {
+                    const breastSizeContainer = document.getElementById(`breast-size-container-${id}`);
+                    if (breastSizeContainer) {
+                        breastSizeContainer.style.display = 'block';
+                        
+                        // Ensure a breast size is selected
+                        const selectedBreastSize = document.querySelector(`input[name="breast-size-${id}"]:checked`);
+                        if (!selectedBreastSize) {
+                            const smallInput = document.getElementById(`breast-size-small-${id}`);
+                            if (smallInput) {
+                                smallInput.checked = true;
+                                smallInput.dispatchEvent(new Event('change'));
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
