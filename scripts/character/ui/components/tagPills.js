@@ -15,22 +15,40 @@ import { createTagPill } from '../../../customCharacter/utils/tagUtils.js';
 export function populateDefaultTagPills(id, characterData) {
     // Get the pill container
     const pillContainer = document.querySelector(`#custom-tag-div-${id} .custom-pill-container`);
-    if (!pillContainer) return;
+    if (!pillContainer) {
+        console.error(`Could not find pill container for ID ${id}`);
+        return;
+    }
     
-    // Clear any existing pills
+    // Save custom (user-added) tags before clearing
+    const customTags = [];
+    const customPills = pillContainer.querySelectorAll('.custom-tag-pill:not(.default-tag)');
+    customPills.forEach(pill => {
+        if (pill.dataset.originalTag) {
+            customTags.push(pill.dataset.originalTag);
+        }
+    });
+    
+    // Clear all existing pills
     pillContainer.innerHTML = '';
     
     // Get the currently selected gender
-    const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value || characterData.defaultGender || 'girl';
+    const genderRadios = document.querySelectorAll(`input[name="gender-${id}"]`);
+    let selectedGender = characterData.defaultGender || 'girl';
+    genderRadios.forEach(radio => {
+        if (radio.checked) {
+            selectedGender = radio.value;
+        }
+    });
+    
+    console.log(`Populating tags for ID ${id}, character ${characterData.name}, gender ${selectedGender}`);
     
     // Add the gender count tag (1girl, 1boy, 1other)
     const genderTag = `1${selectedGender}`;
     createTagPill(genderTag, pillContainer, null, true);
     
-    // No longer adding character name as a tag to avoid duplication
-    
     // Add each comma-separated term in mainTags
-    const mainTags = characterData.mainTags.split(',').map(tag => tag.trim()).filter(tag => tag);
+    const mainTags = characterData.mainTags ? characterData.mainTags.split(',').map(tag => tag.trim()).filter(tag => tag) : [];
     mainTags.forEach(tag => {
         createTagPill(tag, pillContainer, null, true);
     });
@@ -72,15 +90,27 @@ export function populateDefaultTagPills(id, characterData) {
         });
     }
     
+    // Collect all default tags that were just added
+    const defaultTagsAdded = Array.from(pillContainer.querySelectorAll('.custom-tag-pill.default-tag'))
+        .map(pill => pill.dataset.originalTag);
+    
+    // Re-add custom (user-added) tags, avoiding duplicates with default tags
+    customTags.forEach(tagText => {
+        if (!defaultTagsAdded.includes(tagText)) {
+            createTagPill(tagText, pillContainer, null, false);
+        }
+    });
+    
     // Verify we've actually added content before attempting layout update
-    if (pillContainer.children.length === 0) return;
+    if (pillContainer.children.length === 0) {
+        console.warn(`No pills were added for character ${characterData.name} (ID: ${id})`);
+        return;
+    }
     
     // Force a DOM update to ensure tags are immediately visible
     // This fixes the bug where tags are not visible until a custom tag is added
-    const originalDisplay = window.getComputedStyle(pillContainer).display;
     pillContainer.style.display = 'none';
-    setTimeout(() => {
-        // Restore original display or use flex as fallback (default for .custom-pill-container)
-        pillContainer.style.display = originalDisplay || 'flex';
-    }, 0);
+    requestAnimationFrame(() => {
+        pillContainer.style.display = 'flex';
+    });
 } 
