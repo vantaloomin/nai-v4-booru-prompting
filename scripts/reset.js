@@ -67,8 +67,20 @@ document.addEventListener("DOMContentLoaded", function () {
     confirmButton.textContent = 'Reset';
     confirmButton.style.backgroundColor = 'var(--color-danger)';
     confirmButton.addEventListener('click', function () {
-      resetPage();
-      document.body.removeChild(modalOverlay);
+      try {
+        // First remove the reset confirmation modal safely
+        if (document.body.contains(modalOverlay)) {
+          document.body.removeChild(modalOverlay);
+        }
+        
+        // Give a short delay before resetting the page to ensure the modal is fully removed
+        setTimeout(() => {
+          // Then reset the page
+          resetPage();
+        }, 50);
+      } catch (err) {
+        console.error("Error during reset process:", err);
+      }
     });
 
     // Add buttons to container

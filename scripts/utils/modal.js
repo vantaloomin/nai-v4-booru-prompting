@@ -33,6 +33,27 @@ export function showModal(options = {}) {
     // Merge defaults with provided options
     const settings = { ...defaults, ...options };
     
+    // Close any existing modals of the same type to prevent stacking
+    // But preserve custom modals that are managed separately
+    for (let i = activeModals.length - 1; i >= 0; i--) {
+        const modal = activeModals[i];
+        // Skip closing non-utility modals like the action selection popup
+        if (modal && modal.id && (
+            modal.id === 'action-modal-overlay' ||
+            modal.id === 'reset-modal-overlay'
+        )) {
+            continue;
+        }
+        
+        if (modal && modal.querySelector && modal.querySelector(`.modal-${settings.type}`)) {
+            try {
+                closeModal(modal);
+            } catch (err) {
+                console.warn('Error closing existing modal:', err);
+            }
+        }
+    }
+    
     // Create modal container
     const modalOverlay = document.createElement('div');
     modalOverlay.className = 'modal-overlay';
@@ -168,17 +189,26 @@ export function showClipboardErrorModal(error) {
 }
 
 /**
- * Show a success modal for reset operation
+ * Show a success modal after page reset
  * 
  * @returns {HTMLElement} The modal element
  */
 export function showResetSuccessModal() {
-    return showModal({
-        title: 'Reset Complete',
-        message: 'Page has been reset successfully!',
-        type: 'success',
-        autoCloseDelay: 2000
-    });
+    try {
+        return showModal({
+            title: 'Reset Complete',
+            message: 'Page has been reset successfully!',
+            type: 'success',
+            autoCloseDelay: 2000,
+            onClose: () => {
+                // Add any additional cleanup needed after reset success modal closes
+                console.log('Reset success modal closed');
+            }
+        });
+    } catch (err) {
+        console.error('Error showing reset success modal:', err);
+        return null;
+    }
 }
 
 /**
@@ -214,10 +244,33 @@ export function showMaxSceneWarning() {
  * @param {Function} onClose - Callback function to execute after closing
  */
 function closeModal(modalElement, onClose = null) {
-    // Remove from DOM
-    document.body.removeChild(modalElement);
+    // If it's a null or undefined element, just skip
+    if (!modalElement) {
+        return;
+    }
     
-    // Remove from tracking array
+    // Check if this is a custom modal (e.g., action popup) with its own handling
+    const isCustomModal = modalElement.id && (
+        modalElement.id === 'action-modal-overlay' || 
+        modalElement.id === 'reset-modal-overlay'
+    );
+    
+    // For custom modals, just let them handle their own DOM removal
+    if (isCustomModal) {
+        activeModals = activeModals.filter(modal => modal !== modalElement);
+        if (typeof onClose === 'function') {
+            onClose();
+        }
+        return;
+    }
+    
+    // Check if the element is still in the DOM before removing it
+    if (modalElement && document.body.contains(modalElement)) {
+        // Remove from DOM
+        document.body.removeChild(modalElement);
+    }
+    
+    // Remove from tracking array regardless of whether it was in the DOM
     activeModals = activeModals.filter(modal => modal !== modalElement);
     
     // Execute callback if provided

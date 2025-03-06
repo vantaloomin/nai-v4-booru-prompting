@@ -7,11 +7,13 @@
 
 import { 
     addCharacterBlock,
-    addRandomCharacterBlock,
-    getCharacterSubjects,
+    addRandomCharacterBlock
+} from './blocks/characterBlocks.js';
+import { getCharacterSubjects } from './data/characterSubjects.js';
+import { 
     getCurrentCharacterCount,
     getMaxCharacters
-} from './characterManager.js';
+} from './state/characterState.js';
 import { cleanDisplayName } from './utils/nameFormatter.js';
 import { closeAllDropdowns, updateAgeUpToggle } from './ui/dropdowns.js';
 
@@ -26,12 +28,16 @@ window.getCharacterSubjects = getCharacterSubjects;
 window.cleanDisplayName = cleanDisplayName;
 window.closeAllDropdowns = closeAllDropdowns;
 window.updateAgeUpToggle = updateAgeUpToggle;
+window.getCurrentCharacterCount = getCurrentCharacterCount;
+window.getMaxCharacters = getMaxCharacters;
 
 // Export the module functions directly for ES module imports
 export {
     addCharacterBlock,
     addRandomCharacterBlock,
     getCharacterSubjects,
+    getCurrentCharacterCount,
+    getMaxCharacters,
     cleanDisplayName,
     closeAllDropdowns,
     updateAgeUpToggle
