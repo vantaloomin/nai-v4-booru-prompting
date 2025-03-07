@@ -1,8 +1,8 @@
 # NovelAI V4 Booru Prompt Builder
 
-A modern web application for creating rich, detailed Stable Diffusion prompts using characters from various media. Specifically designed for NovelAI v4 (Curated) with support for IP characters.
+A modern web application for creating rich, detailed Stable Diffusion prompts using characters from various media. Specifically designed for NovelAI v4 (Curated) with comprehensive support for IP characters.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.5.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 🎨 Overview
@@ -11,28 +11,44 @@ The Booru Prompt Builder is a sleek, modern web application that streamlines the
 
 ## ✨ Features
 
-### Character-Centric Interface
-- **Add & Manage Characters**: Effortlessly set up to four different characters with gender toggles, optional enhancers, and the ability to import from a pre-built database of popular figures from games, anime, and other media.
-- **Fuzzy Search & Auto-Fill**: Integrated Fuse.js fuzzy search helps you find and auto-fill characters by name or series with minimal typing.
+### Advanced Character Management
+- **Multiple Characters**: Add up to four characters with detailed customization options
+- **Search & Filter**: Powerful search with filters to quickly find characters by name, media type, or other attributes
+- **Gender Toggles**: Easily switch character gender with dedicated toggle controls
+- **Age-Up Option**: Option to create mature versions of characters with appropriate body modifications
+- **Enhancer Dropdowns**: Apply special visual enhancers to characters to improve image quality
+- **Custom Tags**: Add your own custom tags with auto-complete support from a comprehensive tag database
+- **Drag & Drop Reordering**: Intuitively arrange characters with simple drag handles
 
-### Dynamic Action Assignments
-- **Source/Target/Mutual Actions**: Assign actions between characters (e.g., "hugging," "fighting") to bring your scene to life. Pick a "source" character performing an action on a "target," or set both characters into a mutual action.
+### Character Randomization
+- **Random Character Generation**: Quickly add random characters with filtering options:
+  - Random from all available characters
+  - Random from video game characters only
+  - Random from anime/media characters only
+- **Customizable Random Count**: Select the number of random characters to generate at once
 
-### Artist Repository & Scene Selection
-- **Artist Cards**: Add up to four artists (or define your own custom artist style) to shape the aesthetics of your generated piece.
-- **Scene Cards**: Pick a setting from the curated list or define a completely custom environment.
+### Artist & Scene Selection
+- **Artist Cards**: Add artist styles to influence the aesthetic of your generated image
+- **Scene Cards**: Add detailed environments with rich tag support
+- **Custom Scenes**: Create completely custom environments with tag auto-complete
+- **Drag & Drop Controls**: Easily reorder artists and scenes
 
-### Robust Randomization
-- **Random Characters**: Instantly generate one or more random characters from the existing database.
-- **Full Random Prompt**: Build an entire prompt with a single click—randomizing characters, scenes, artists, and interactions.
+### Prompt Generation & Export
+- **Syntax Highlighting**: Color-coded prompt output for easier reading and editing
+- **Mode Switching**: Toggle between NovelAI and Stable Diffusion syntax formats
+- **One-Click Copy**: Instantly copy the generated prompt to your clipboard
+- **Editable Output**: Directly edit the final prompt before copying
+- **Full Reset**: Clear all selections and start fresh with a single click
 
-### Unified Prompt Output
-- **Preview & Copy**: The tool compiles everything into a well-structured prompt with color-coded or plain text form.
-- **Collapsible & Editable**: Expand or collapse the preview area, and edit the output text directly before copying.
+### Full Random Prompt Generation
+- **Complete Randomization**: Generate an entire prompt with random characters, artists and scenes
+- **Customizable Options**: Control the number of random characters and optionally exclude artists or scenes
 
-### Sleek, Modern UI
-- **Draggable Cards**: Use intuitive drag handles to re-order character blocks and artist/scene cards.
-- **Responsive & Clear**: Crisp, navigable interface with an appealing dark mode-inspired aesthetic.
+### Modern User Interface
+- **Collapsible Sections**: Expand or collapse character cards for better workspace management
+- **Responsive Design**: Well-organized layout that adapts to different screen sizes
+- **Visual Feedback**: Clear visual cues for selections and interactions
+- **Floating Controls**: Quick access to key functions with persistent floating action buttons
 
 ## 🚀 Getting Started
 
@@ -50,21 +66,37 @@ The Booru Prompt Builder is a sleek, modern web application that streamlines the
 
 ### Using the Application
 
-1. **Add Characters**: Use the search box to find characters or add custom ones.
-2. **Configure Interactions**: Set up actions between characters to define their relationship in the scene.
-3. **Select Artists and Scene**: Add artistic styles and environment settings to enhance your prompt.
-4. **Generate & Copy**: Once satisfied, copy the generated prompt to use with NovelAI or Stable Diffusion.
+1. **Add Characters**: 
+   - Click "Add Character" to add a new character block
+   - Use the search function to find characters by name or series
+   - Filter results by type (game, anime, etc.)
+   - Customize with gender toggles and enhancers
+
+2. **Customize with Tags**:
+   - Add custom tags to characters with auto-complete support
+   - Use tag pills for quick management of custom additions
+
+3. **Add Artists and Scenes**:
+   - Click "Add Artist" to include artistic styles
+   - Click "Add Scene" to add environment settings
+   - Create custom scenes with tag auto-complete support
+
+4. **Generate & Copy**:
+   - Click "Generate Prompt" to compile everything
+   - Use "Copy Prompt" to copy to clipboard
+   - Toggle coloring for syntax highlighting
+   - Switch between NovelAI and Stable Diffusion modes
 
 ## 🔮 Upcoming Features
 
-### Custom Character Creator
-Build your own custom characters right on the site—specifying unique traits, outfits, poses, or lore.
+### Character Relationship Templates
+Pre-defined character interactions for common scenarios like fighting, romance, etc.
 
-### Expanded Artist Repository
-Integration of a large, ever-growing library of artists—both classical and contemporary, from multiple art scenes.
+### Expanded Tag Database
+Growing library of tags for more precise image generation.
 
-### Advanced Scene & Environment System
-Deeper scene customization including weather conditions, time of day, and fantasy vs. realistic toggles.
+### Advanced Scene Builder
+More detailed scene customization with layered environments.
 
 ## 🛠️ Technologies Used
 
