@@ -82,7 +82,8 @@ export function addCharacterBlock() {
     // Drag handle
     const dragHandle = document.createElement('span');
     dragHandle.className = 'drag-handle';
-    dragHandle.textContent = "≡";
+    dragHandle.innerHTML = '<i class="bx bx-grid-vertical"></i>';
+    dragHandle.title = "Re-position";
     dragHandle.addEventListener('click', function (e) {
         e.stopPropagation();
     });
@@ -94,16 +95,17 @@ export function addCharacterBlock() {
     headerTitle.textContent = `Character ${blockId}`;
     headerDiv.appendChild(headerTitle);
 
-    // Toggle icon (▼ / ▲)
+    // Toggle icon
     const toggleIcon = document.createElement('span');
     toggleIcon.className = 'toggle-icon';
-    toggleIcon.textContent = "▼";
+    toggleIcon.innerHTML = '<i class="bx bx-chevron-down"></i>';
+    toggleIcon.title = "Collapse Card";
     headerDiv.appendChild(toggleIcon);
 
     // Remove button
     const removeButton = document.createElement('span');
     removeButton.className = 'remove-button';
-    removeButton.textContent = "✖";
+    removeButton.innerHTML = '<i class="bx bx-x"></i>';
     removeButton.title = "Remove Character";
     removeButton.addEventListener('click', function (e) {
         e.stopPropagation();
@@ -128,7 +130,8 @@ export function addCharacterBlock() {
     // Action Drag Handle
     const actionDragHandle = document.createElement('span');
     actionDragHandle.className = 'action-drag-handle';
-    actionDragHandle.textContent = "🡆";
+    actionDragHandle.innerHTML = '<i class="bx bx-right-arrow-alt"></i>';
+    actionDragHandle.title = "Action Linking";
     actionDragHandle.setAttribute("draggable", "true");
     actionDragHandle.addEventListener('dragstart', function (e) {
         e.dataTransfer.setData("text/plain", blockId.toString());
@@ -233,14 +236,21 @@ export function addCharacterBlock() {
     div.appendChild(headerDiv);
     div.appendChild(contentDiv);
 
-    // Toggle content when clicking the header
-    headerDiv.addEventListener('click', () => {
-        if (contentDiv.style.display === 'none') {
-            contentDiv.style.display = 'block';
-            toggleIcon.textContent = "▼";
+    // Add header click handlers for collapsibility after adding to DOM
+    headerDiv.addEventListener('click', function() {
+        const content = div.querySelector('.block-content');
+        const isVisible = content.style.display !== 'none';
+        
+        if (isVisible) {
+            // Collapse the content
+            content.style.display = 'none';
+            toggleIcon.innerHTML = '<i class="bx bx-chevron-up"></i>';
+            toggleIcon.title = "Expand Card"; // Update tooltip for collapsed state
         } else {
-            contentDiv.style.display = 'none';
-            toggleIcon.textContent = "▲";
+            // Expand the content
+            content.style.display = 'block';
+            toggleIcon.innerHTML = '<i class="bx bx-chevron-down"></i>';
+            toggleIcon.title = "Collapse Card"; // Update tooltip for expanded state
         }
     });
 

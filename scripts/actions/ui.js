@@ -116,9 +116,12 @@ export function showActionSelectionPopup(sourceBlockId, targetBlockId) {
     const modalOverlay = document.createElement('div');
     modalOverlay.id = 'action-modal-overlay';
     modalOverlay.classList.add('modal-overlay');
+    
     const modalContainer = document.createElement('div');
     modalContainer.id = 'action-modal-container';
     modalContainer.classList.add('modal-container');
+    
+    // Add close button
     const closeButton = document.createElement('span');
     closeButton.textContent = '×';
     closeButton.classList.add('modal-close');
@@ -126,40 +129,56 @@ export function showActionSelectionPopup(sourceBlockId, targetBlockId) {
         document.body.removeChild(modalOverlay);
     });
     modalContainer.appendChild(closeButton);
+    
+    // Add title
     const title = document.createElement('h3');
     title.textContent = 'Select Action';
     modalContainer.appendChild(title);
+    
+    // Add mode toggle container
     const modeToggleContainer = document.createElement('div');
     modeToggleContainer.classList.add('mode-toggle-container');
+    
     const toggleSwitch = document.createElement('label');
     toggleSwitch.classList.add('toggle-switch');
+    
     const toggleInput = document.createElement('input');
     toggleInput.type = 'checkbox';
     toggleInput.id = 'mode-toggle';
     toggleInput.checked = true;
+    
     const slider = document.createElement('span');
     slider.classList.add('slider');
+    
     toggleSwitch.appendChild(toggleInput);
     toggleSwitch.appendChild(slider);
     modeToggleContainer.appendChild(toggleSwitch);
+    
     const toggleLabel = document.createElement('span');
     toggleLabel.classList.add('toggle-label');
     toggleLabel.textContent = 'Source→Target';
     modeToggleContainer.appendChild(toggleLabel);
+    
     toggleInput.addEventListener('change', function () {
         toggleLabel.textContent = this.checked ? 'Source→Target' : 'Mutual';
     });
+    
     modalContainer.appendChild(modeToggleContainer);
+    
+    // Add search input
     const searchInput = document.createElement('input');
     searchInput.type = 'text';
     searchInput.placeholder = 'Search actions...';
     searchInput.classList.add('action-search');
     modalContainer.appendChild(searchInput);
+    
+    // Add actions container (scrollable)
     const actionsContainer = document.createElement('div');
     actionsContainer.id = 'actions-container-modal';
     actionsContainer.classList.add('actions-container-modal');
     modalContainer.appendChild(actionsContainer);
     
+    // Function to render action buttons based on filter
     function renderActionButtons(filterText) {
         actionsContainer.innerHTML = '';
         const filtered = actionTags.filter(act => act.toLowerCase().includes(filterText.toLowerCase())).sort((a, b) => a.localeCompare(b));
@@ -185,16 +204,24 @@ export function showActionSelectionPopup(sourceBlockId, targetBlockId) {
         });
     }
     
+    // Initial render of all action buttons
     renderActionButtons('');
+    
+    // Add filter functionality
     searchInput.addEventListener('input', function () {
         renderActionButtons(this.value);
     });
+    
+    // Add modal to page
     modalOverlay.appendChild(modalContainer);
+    
+    // Close when clicking outside
     modalOverlay.addEventListener('click', function (e) {
         if (e.target === modalOverlay) {
             document.body.removeChild(modalOverlay);
         }
     });
+    
     document.body.appendChild(modalOverlay);
 }
 

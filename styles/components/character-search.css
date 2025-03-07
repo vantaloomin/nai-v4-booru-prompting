@@ -255,7 +255,6 @@
 
 /* Filter Icon */
 .filter-icon {
-    font-size: 1.2em;
     margin: 0;
     padding: 0;
     display: flex;
@@ -265,12 +264,14 @@
     height: 100%;
 }
 
-/* Modify the funnel icon appearance for better display */
-.filter-icon::before {
-    content: "⏂"; /* Funnel icon */
-    font-size: 1.2em;
-    display: inline-block;
-    line-height: 1;
+/* Adjust spacing for Boxicons - let the global size rule handle the sizing */
+.filter-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* Font-size is now controlled by the global rule in typography.css */
 }
 
 /* Filter Panel */
@@ -480,7 +481,6 @@
 
 /* Filter Icon */
 .filter-icon {
-    font-size: 1.2em;
     margin: 0;
     padding: 0;
     display: flex;

@@ -33,8 +33,8 @@ export function createFilterPanel(blockId) {
     const filterToggle = document.createElement('button');
     filterToggle.className = 'filter-toggle-btn';
     filterToggle.id = `filter-toggle-${blockId}`;
-    filterToggle.innerHTML = '<span class="filter-icon"></span>'; // Using CSS for funnel icon
-    filterToggle.title = "Filter characters"; // Adding title attribute for tooltip
+    filterToggle.innerHTML = '<span class="filter-icon"><i class="bx bx-filter"></i></span>';
+    filterToggle.title = "Search filter"; // Update tooltip text
     filterContainer.appendChild(filterToggle);
 
     // Create filter panel (initially hidden)
@@ -73,6 +73,18 @@ function initFilterEvents(blockId, filterToggle, filterPanel, filterContainer) {
         
         // Update button appearance
         this.classList.toggle('active', !isVisible);
+        
+        // Update icon to show filled version when active
+        const iconElement = this.querySelector('.bx-filter, .bxs-filter');
+        if (iconElement) {
+            if (isVisible) {
+                iconElement.classList.remove('bxs-filter');
+                iconElement.classList.add('bx-filter');
+            } else {
+                iconElement.classList.remove('bx-filter');
+                iconElement.classList.add('bxs-filter');
+            }
+        }
     });
 
     // Close panel when clicking outside
@@ -193,7 +205,7 @@ function populateFilterPanel(filterPanel, blockId) {
     
     const clearButton = document.createElement('button');
     clearButton.className = 'filter-clear-btn';
-    clearButton.textContent = 'Clear All Filters';
+    clearButton.innerHTML = '<i class="bx bx-broom"></i> Clear All Filters';
     clearButton.addEventListener('click', function() {
         clearAllFilters(blockId, filterPanel);
     });
@@ -566,9 +578,21 @@ function updateFilterToggleState(blockId) {
     if (hasFilters) {
         filterToggle.classList.add('has-active-filters');
         filterToggle.title = "Active filters applied"; // Update tooltip
+        
+        // Update the icon to a funnel with dots to indicate active filters
+        const iconElement = filterToggle.querySelector('.filter-icon');
+        if (iconElement) {
+            iconElement.innerHTML = '<i class="bx bx-filter-circle-xmark"></i>';
+        }
     } else {
         filterToggle.classList.remove('has-active-filters');
-        filterToggle.title = "Filter characters"; // Reset tooltip
+        filterToggle.title = "Search filter"; // Reset tooltip
+        
+        // Reset to regular filter icon
+        const iconElement = filterToggle.querySelector('.filter-icon');
+        if (iconElement) {
+            iconElement.innerHTML = '<i class="bx bx-filter"></i>';
+        }
     }
     
     // Also set the background color of the button for better visibility

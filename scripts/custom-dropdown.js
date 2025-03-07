@@ -12,7 +12,10 @@ function createCustomDropdown() {
         // Create selected display
         const selectedDisplay = document.createElement('div');
         selectedDisplay.className = 'selected-display';
-        selectedDisplay.textContent = select.options[select.selectedIndex]?.text || select.placeholder || "-- Select --";
+        selectedDisplay.innerHTML = `
+            <span>${select.options[select.selectedIndex]?.text || select.placeholder || "-- Select --"}</span>
+            <i class="bx bx-chevron-down dropdown-arrow"></i>
+        `;
         
         // Create dropdown list
         const dropdownList = document.createElement('div');
@@ -27,7 +30,7 @@ function createCustomDropdown() {
             
             item.addEventListener('click', () => {
                 select.value = option.value;
-                selectedDisplay.textContent = option.text;
+                selectedDisplay.querySelector('span').textContent = option.text;
                 dropdownList.style.display = 'none';
                 // Trigger change event on original select
                 select.dispatchEvent(new Event('change'));
@@ -41,7 +44,18 @@ function createCustomDropdown() {
             e.stopPropagation();
             const isOpen = dropdownList.style.display === 'block';
             closeAllDropdowns();
-            dropdownList.style.display = isOpen ? 'none' : 'block';
+            
+            // Toggle dropdown arrow direction
+            const arrow = selectedDisplay.querySelector('.dropdown-arrow');
+            if (isOpen) {
+                dropdownList.style.display = 'none';
+                arrow.classList.remove('bx-chevron-up');
+                arrow.classList.add('bx-chevron-down');
+            } else {
+                dropdownList.style.display = 'block';
+                arrow.classList.remove('bx-chevron-down');
+                arrow.classList.add('bx-chevron-up');
+            }
         });
         
         // Add elements to container
@@ -60,6 +74,12 @@ function createCustomDropdown() {
 function closeAllDropdowns() {
     document.querySelectorAll('.dropdown-list').forEach(list => {
         list.style.display = 'none';
+    });
+    
+    // Reset all dropdown arrows
+    document.querySelectorAll('.dropdown-arrow').forEach(arrow => {
+        arrow.classList.remove('bx-chevron-up');
+        arrow.classList.add('bx-chevron-down');
     });
 }
 

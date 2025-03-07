@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="page-title">NovelAI V4 Prompt Builder</title>
+  <!-- Boxicons Script -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- Boxicons CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <!-- Link to the CSS files -->
   <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -18,19 +22,21 @@
     <div id="character-search-container" style="display: none;">
       <label for="character-search">Search:</label>
       <div class="search-wrapper">
-        <span class="search-icon">🔍</span>
+        <span class="search-icon"><i class='bx bx-search'></i></span>
         <input type="text" id="character-search" placeholder="Start typing..." autocomplete="off">
-        <span class="clear-icon" id="clear-search">✖</span>
+        <span class="clear-icon" id="clear-search"><i class='bx bx-x'></i></span>
       </div>
       <div id="search-suggestions" class="suggestions-list"></div>
     </div>
     <!-- Character CTA Buttons -->
     <div id="character-ctas">
-      <button id="add-character-btn">Add Character</button>
-      <button id="add-custom-character-btn">Add Custom Character</button>
+      <button id="add-character-btn"><i class='bx bx-user-plus'></i> Add Character</button>
+      <button id="add-custom-character-btn"><i class='bx bx-user-pin'></i> Add Custom Character</button>
       <!-- Random Character dropdown -->
       <div class="custom-dropdown" id="random-char-dropdown">
-        <button id="random-char-btn" class="selected-display">Random Character</button>
+        <button id="random-char-btn" class="selected-display">
+          Random Character <i class='bx bx-chevron-down dropdown-arrow'></i>
+        </button>
         <div class="dropdown-list suggestions-list" id="random-char-options">
           <div class="suggestion-item" id="add-rand-char-btn">Random Character</div>
           <div class="suggestion-item" id="add-rand-vg-btn">Random Game</div>
@@ -45,8 +51,8 @@
     <h2>Artist & Scene Selection</h2>
     <div id="artist-scene-section">
       <div id="artist-scene-controls" style="display: flex; gap: 10px; margin-top: 10px;">
-        <button id="add-artist-btn" type="button">Add Artist</button>
-        <button id="add-scene-btn" type="button">Add Scene</button>
+        <button id="add-artist-btn" type="button"><i class='bx bx-plus'></i> Add Artist</button>
+        <button id="add-scene-btn" type="button"><i class='bx bx-image'></i> Add Scene</button>
       </div>
       <!-- Container for selection cards; cards will appear inline (each ~33% width) -->
       <div id="artist-scene-container" style="display: flex; flex-wrap: wrap; gap: 10px;">
@@ -71,17 +77,17 @@
       <span id="random-char-count">2</span>
     </div>
     <div>
-      <label><input type="checkbox" id="ignore-artist-checkbox"> Ignore Artist</label>
-      <label><input type="checkbox" id="ignore-scene-checkbox"> Ignore Scene</label>
+      <label><input type="checkbox" id="ignore-artist-checkbox"> <i class='bx bx-block'></i> Ignore Artist</label>
+      <label><input type="checkbox" id="ignore-scene-checkbox"> <i class='bx bx-block'></i> Ignore Scene</label>
     </div>
-    <button id="full-random-btn" type="button">Full Random Prompt</button>
+    <button id="full-random-btn" type="button"><i class='bx bx-dice-5'></i> Full Random Prompt</button>
     <hr>
     <!-- Generated Prompt Section -->
     <h2>Generated Prompt</h2>
     <div id="output-container">
       <div id="output-preview" contenteditable="true"></div>
     </div>
-    <button id="toggle-expand" style="display: none;">Expand</button>
+    <button id="toggle-expand" style="display: none;"><i class='bx bx-expand'></i> Expand</button>
 
     <!-- Toggle Switches Section -->
     <div class="toggle-section">
@@ -91,7 +97,7 @@
           <input type="checkbox" id="color-toggle" checked>
           <span class="slider round"></span>
         </label>
-        <span id="color-toggle-label">Coloring Enabled</span>
+        <span id="color-toggle-label"><i class='bx bx-palette'></i> Coloring Enabled</span>
       </div>
       
       <!-- Toggle Mode Slider (NovelAI/Stable Diffusion) -->
@@ -100,7 +106,7 @@
           <input type="checkbox" id="mode-toggle">
           <span class="slider round"></span>
         </label>
-        <span id="mode-toggle-label">NovelAI Mode</span>
+        <span id="mode-toggle-label"><i class='bx bx-bot'></i> NovelAI Mode</span>
       </div>
     </div>
     
@@ -125,9 +131,9 @@
   </div>
   <!-- Floating Buttons for Prompting -->
   <div id="floating-buttons">
-    <button id="generate-btn">Generate Prompt</button>
-    <button id="copy-prompt-btn" type="button">Copy Prompt</button>
-    <button id="reset-btn" type="button">Reset Page</button>
+    <button id="generate-btn"><i class='bx bx-wand'></i> Generate Prompt</button>
+    <button id="copy-prompt-btn" type="button"><i class='bx bx-copy'></i> Copy Prompt</button>
+    <button id="reset-btn" type="button"><i class='bx bx-reset'></i> Reset Page</button>
   </div>
 </body>
 

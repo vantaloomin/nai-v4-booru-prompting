@@ -53,10 +53,16 @@ export function createSearchBar(blockId) {
     searchInput.autocomplete = 'off';
     searchWrapper.appendChild(searchInput);
 
-    // Create clear button
+    // Create search icon (magnifying glass)
+    const searchIcon = document.createElement('span');
+    searchIcon.className = 'search-icon';
+    searchIcon.innerHTML = '<i class="bx bx-search"></i>'; // Boxicons icon
+    searchWrapper.appendChild(searchIcon);
+
+    // Create clear button (X)
     const clearButton = document.createElement('span');
     clearButton.className = 'clear-icon';
-    clearButton.textContent = '✖';
+    clearButton.innerHTML = '<i class="bx bx-x"></i>'; // Boxicons icon
     clearButton.id = `clear-search-${blockId}`;
     searchWrapper.appendChild(clearButton);
 

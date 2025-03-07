@@ -23,6 +23,10 @@ import { addCharacterBlock, addRandomCharacterBlock } from './character/blocks/c
 import { addCustomCharacterBlock } from './customCharacter/customCharacterManager.js';
 // Import name formatting utility
 import { cleanDisplayName } from './character/utils/nameFormatter.js';
+// Import action-related functions
+import { showActionSelectionPopup, showSDModeActionWarning } from './actions/ui.js';
+import { showMinCharacterWarning } from './utils/modal.js';
+import { refreshActionCharacterOptions } from './actions/index.js';
 
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize current state
@@ -105,7 +109,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Action blocks (from action.js)
   document.getElementById('add-action-btn').addEventListener('click', function () {
-    addActionBlock();
+    // If there are fewer than 2 character blocks, show a warning
+    const charactersContainer = document.getElementById('characters-container');
+    const characterBlocks = charactersContainer.querySelectorAll('.character-block, .custom-character-block');
+    
+    if (characterBlocks.length < 2) {
+      showMinCharacterWarning();
+      return;
+    }
+    
+    // If it's not in NovelAI mode, show a warning
+    if (isStableDiffusionMode) {
+      showSDModeActionWarning();
+      return;
+    }
+    
+    // Otherwise show the action selection popup
+    // Using the first two character blocks as source and target by default
+    const sourceId = characterBlocks[0].id.replace('character-', '').replace('custom-character-', '');
+    const targetId = characterBlocks[1].id.replace('character-', '').replace('custom-character-', '');
+    
+    // Show the action selection popup
+    showActionSelectionPopup(sourceId, targetId);
   });
 
   /***********************************

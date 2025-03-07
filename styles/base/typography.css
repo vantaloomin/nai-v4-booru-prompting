@@ -19,3 +19,71 @@ h2 {
     line-height: var(--leading-tight);
     letter-spacing: var(--tracking-tight);
 } 
+
+/* =========================================================
+   ICON SIZING - Boxicons
+   ========================================================= */
+
+/* Increase all Boxicons by 33% */
+i.bx {
+    font-size: 1.33em;
+}
+
+/* When using the web component instead of the font */
+box-icon {
+    width: 1.33em;
+    height: 1.33em;
+    vertical-align: middle;
+    position: relative;
+    top: -0.05em;
+}
+
+/* Ensure proper vertical alignment with text */
+button i.bx, 
+label i.bx, 
+.card-header i.bx {
+    vertical-align: middle;
+    line-height: 1;
+    position: relative;
+    top: -0.05em; /* Fine-tune vertical alignment */
+}
+
+/* Add consistent spacing between icons and text */
+button i.bx, 
+label i.bx {
+    margin-right: 0.4em; /* Space between icon and text */
+}
+
+/* Right-aligned icons (like dropdown arrows) */
+i.bx.dropdown-arrow,
+button i.bx:last-child:not(:first-child) {
+    margin-right: 0;
+    margin-left: 0.4em;
+}
+
+/* Special sizing for icon-only buttons and controls */
+.filter-icon i.bx,
+.search-icon i.bx,
+.clear-icon i.bx,
+.toggle-icon i.bx,
+.remove-button i.bx,
+.action-drag-handle i.bx,
+.drag-handle i.bx {
+    font-size: 1.45em; /* Slightly larger for better visibility in controls */
+}
+
+/* Icon sizing for form controls and sliders */
+.slider-handle i.bx,
+input[type="range"] + i.bx,
+.form-control i.bx {
+    font-size: 1.25em; /* Slightly smaller than buttons but still larger than default */
+}
+
+/* Ensure no margins on standalone icon controls */
+.icon-control i.bx,
+.action-icon i.bx {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 

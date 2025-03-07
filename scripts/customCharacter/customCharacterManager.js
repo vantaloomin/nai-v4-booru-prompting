@@ -40,6 +40,7 @@ export function addCustomCharacterBlock() {
     const dragHandle = document.createElement('span');
     dragHandle.className = 'custom-drag-handle';
     dragHandle.textContent = '≡';
+    dragHandle.title = 'Re-position';
     // Prevent toggle if user drags
     dragHandle.addEventListener('click', (e) => e.stopPropagation());
     headerDiv.appendChild(dragHandle);
@@ -54,12 +55,14 @@ export function addCustomCharacterBlock() {
     const toggleIcon = document.createElement('span');
     toggleIcon.className = 'custom-toggle-icon';
     toggleIcon.textContent = '▼';
+    toggleIcon.title = 'Collapse Card';
     headerDiv.appendChild(toggleIcon);
 
     // Action Drag Handle
     const actionDragHandle = document.createElement('span');
     actionDragHandle.className = 'action-drag-handle';
     actionDragHandle.textContent = "🡆";
+    actionDragHandle.title = 'Action Linking';
     actionDragHandle.setAttribute("draggable", "true");
     actionDragHandle.addEventListener('dragstart', function (e) {
         e.dataTransfer.setData("text/plain", blockId.toString());
@@ -162,14 +165,21 @@ export function addCustomCharacterBlock() {
         }
     });
 
-    // Collapsible logic
-    headerDiv.addEventListener('click', () => {
-        if (contentDiv.style.display === 'none') {
-            contentDiv.style.display = '';
-            toggleIcon.textContent = '▼';
-        } else {
-            contentDiv.style.display = 'none';
+    // Toggle visibility when clicking the header
+    headerDiv.addEventListener('click', function() {
+        const content = blockDiv.querySelector('.custom-block-content');
+        const isVisible = content.style.display !== 'none';
+        
+        if (isVisible) {
+            // Collapse the content
+            content.style.display = 'none';
             toggleIcon.textContent = '▲';
+            toggleIcon.title = "Expand Card"; // Update tooltip for collapsed state
+        } else {
+            // Expand the content
+            content.style.display = 'block';
+            toggleIcon.textContent = '▼';
+            toggleIcon.title = "Collapse Card"; // Update tooltip for expanded state
         }
     });
 

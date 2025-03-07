@@ -51,7 +51,7 @@ export function createArtistCard() {
     header.className = "card-header";
     const dragHandle = document.createElement("span");
     dragHandle.className = "drag-handle";
-    dragHandle.textContent = "≡";
+    dragHandle.innerHTML = '<i class="bx bx-grid-vertical"></i>';
     header.appendChild(dragHandle);
     const title = document.createElement("span");
     title.textContent = "Artist";
@@ -102,7 +102,7 @@ export function createArtistCard() {
     // Add clear icon
     const clearIcon = document.createElement("span");
     clearIcon.className = "custom-clear-icon";
-    clearIcon.textContent = "✖";
+    clearIcon.innerHTML = '<i class="bx bx-x"></i>';
     clearIcon.addEventListener("click", function() {
         customInput.value = "";
     });

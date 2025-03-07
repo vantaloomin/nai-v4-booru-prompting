@@ -1,0 +1,65 @@
+/* action-modal.css */
+/* Styles for the action selection modal */
+
+/* 
+ * This file contains styles for the action selection popup,
+ * making it a scrollable modal window
+ */
+
+/* Action selection modal container */
+.actions-container-modal {
+    max-height: 60vh; /* Limit height to percentage of viewport */
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-bottom: var(--space-xs);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* Add gap between action buttons */
+    padding-right: 5px; /* Add some padding for the scrollbar */
+}
+
+/* Style for the modal when it contains many actions */
+#action-modal-container {
+    width: 80%;
+    max-width: 600px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for the search input in the action modal */
+.action-search {
+    margin-bottom: var(--space-sm);
+    padding: var(--space-xs) var(--space-sm);
+    width: 100%;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-input);
+    background-color: var(--color-bg-input);
+    color: var(--color-text);
+}
+
+/* Message for when no actions are found */
+.no-actions-found {
+    width: 100%;
+    text-align: center;
+    padding: var(--space-md);
+    color: var(--color-text-muted);
+}
+
+/* Custom scrollbar for the action container */
+.actions-container-modal::-webkit-scrollbar {
+    width: 8px;
+}
+
+.actions-container-modal::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.actions-container-modal::-webkit-scrollbar-thumb {
+    background: rgba(171, 71, 188, 0.5);
+    border-radius: 4px;
+}
+
+.actions-container-modal::-webkit-scrollbar-thumb:hover {
+    background: rgba(171, 71, 188, 0.8);
+} 
