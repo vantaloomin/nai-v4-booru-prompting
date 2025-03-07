@@ -240,33 +240,52 @@ document.addEventListener("DOMContentLoaded", function () {
         const finalHTML = parts.join(", ");
         document.getElementById("output-preview").innerHTML = finalHTML;
       } else {
-        // NovelAI format - using existing code with the pipe separator
-        // Build header HTML: join header parts with a comma and space.
-        const headerHTML = promptData.header
-          // Use regular text for NovelAI mode, not sdText
-          .filter(part => part.text && part.text.trim() !== "")
-          .map(part => `<span class="${getCssClass(part.type)}">${part.text}</span>`)
-          .join(", ");
+        // NovelAI format - NEW format with character and background sections
+        // Get subject count
+        const subjectCount = promptData.header.find(part => part.type === "subjectCount");
+        const subjectCountText = subjectCount ? subjectCount.text : "";
         
-        // Build character blocks.
+        // Get consistent tags
+        const consistentTags = promptData.header.find(part => part.type === "consistent");
+        const consistentTagsText = consistentTags ? consistentTags.text.replace(/{{{|}}}/g, '') : "";
+        
+        // Get quality tags
+        const qualityTags = promptData.header.find(part => part.type === "quality");
+        const qualityTagsText = qualityTags ? qualityTags.text : "";
+        
+        // Get artist
+        const artist = promptData.header.find(part => part.type === "artist");
+        const artistText = artist && artist.text ? 
+          artist.text.split(",").map(a => `{artist:${a.trim()}}`).join(", ") : "";
+        
+        // Get scene tags
+        const scene = promptData.header.find(part => part.type === "scene");
+        const sceneText = scene ? scene.text : "";
+        
+        // Get default text (the quality tags 2)
+        const defaultPart = promptData.header.find(part => part.type === "default");
+        const defaultText = defaultPart ? defaultPart.text : "";
+        
+        // Build characters part with HTML coloring
         const charactersHTML = promptData.characters
           .map((characterParts, index) => {
             let infoText = "";
             if (characterParts.length >= 2) {
-              infoText = characterParts[0].text.trim() + ", " + characterParts[1].text.trim();
+              infoText = characterParts[0].text + ", " + characterParts[1].text;
               if (characterParts.length > 2) {
                 infoText += ", " + characterParts.slice(2)
                   .filter(p => p.type !== "action")
-                  .map(p => p.text.trim())
+                  .map(p => p.text)
                   .join(", ");
               }
             } else {
-              infoText = characterParts.map(p => p.text.trim()).join(", ");
+              infoText = characterParts.map(p => p.text).join(", ");
             }
             const actionText = characterParts
               .filter(p => p.type === "action")
-              .map(p => p.text.trim())
+              .map(p => p.text)
               .join(", ");
+            
             const infoHTML = `<span class="highlight-character-${((index % 4) + 1)}">${infoText}</span>`;
             let actionHTML = "";
             if (actionText) {
@@ -276,8 +295,54 @@ document.addEventListener("DOMContentLoaded", function () {
           })
           .join(" | ");
         
+        // Format the prompt according to the new template with HTML coloring
+        // character:[CHARACTER COUNT(S)], [QUALITY TAGS 1], [LINE BREAK]
+        // [ARTIST TAGS],
+        // background:[SCENE TAGS],
+        // [QUALITY TAGS 2] [LINE BREAK]
+        // | [CHARACTER PROMPT AS IS]
+        
+        let parts = [];
+        
+        // Part 1: Character section with subject count and quality tags
+        let characterSection = "<span class='highlight-subject'>character:";
+        if (subjectCountText) {
+          characterSection += subjectCountText;
+        }
+        characterSection += "</span>";
+        
+        if (consistentTagsText || qualityTagsText) {
+          if (subjectCountText) characterSection += ", ";
+          if (consistentTagsText) {
+            characterSection += `<span class="${getCssClass('consistent')}">${consistentTagsText}</span>`;
+          }
+          if (consistentTagsText && qualityTagsText) characterSection += ", ";
+          if (qualityTagsText) {
+            characterSection += `<span class="${getCssClass('quality')}">${qualityTagsText}</span>`;
+          }
+        }
+        parts.push(characterSection);
+        
+        // Part 2: Artist tags
+        if (artistText) {
+          parts.push(`<span class="${getCssClass('artist')}">${artistText}</span>`);
+        }
+        
+        // Part 3: Background section
+        if (sceneText) {
+          parts.push(`<span class="${getCssClass('scene')}">background: ${sceneText}</span>`);
+        }
+        
+        // Part 4: Quality tags 2 (default text)
+        if (defaultText) {
+          parts.push(`<span class="${getCssClass('default')}">${defaultText}</span>`);
+        }
+        
+        // Join with line breaks
+        const headerHTML = parts.join("<br>");
+        
         // NovelAI format with pipe separator
-        const separator = " | ";
+        const separator = "<br>| ";
         const finalHTML = headerHTML + separator + charactersHTML.replace(/(\| girl)(?=[^,])/g, "$1,");
         
         document.getElementById("output-preview").innerHTML = finalHTML;
@@ -377,14 +442,33 @@ document.addEventListener("DOMContentLoaded", function () {
         const finalText = parts.join(", ");
         document.getElementById("output-preview").innerText = finalText;
       } else {
-        // NovelAI format - using existing code with pipe separator
-        // Build plain text prompt.
-        const headerText = promptData.header
-          // Use regular text for NovelAI mode, not sdText
-          .filter(part => part.text && part.text.trim() !== "")
-          .map(part => part.text)
-          .join(", ");
+        // NovelAI format - NEW format with character and background sections
+        // Get subject count
+        const subjectCount = promptData.header.find(part => part.type === "subjectCount");
+        const subjectCountText = subjectCount ? subjectCount.text : "";
         
+        // Get consistent tags
+        const consistentTags = promptData.header.find(part => part.type === "consistent");
+        const consistentTagsText = consistentTags ? consistentTags.text.replace(/{{{|}}}/g, '') : "";
+        
+        // Get quality tags
+        const qualityTags = promptData.header.find(part => part.type === "quality");
+        const qualityTagsText = qualityTags ? qualityTags.text : "";
+        
+        // Get artist
+        const artist = promptData.header.find(part => part.type === "artist");
+        const artistText = artist && artist.text ? 
+          artist.text.split(",").map(a => `{artist:${a.trim()}}`).join(", ") : "";
+        
+        // Get scene tags
+        const scene = promptData.header.find(part => part.type === "scene");
+        const sceneText = scene ? scene.text : "";
+        
+        // Get default text (the quality tags 2)
+        const defaultPart = promptData.header.find(part => part.type === "default");
+        const defaultText = defaultPart ? defaultPart.text : "";
+        
+        // Build characters part
         const charactersText = promptData.characters
           .map(characterParts => {
             let infoText = "";
@@ -407,8 +491,48 @@ document.addEventListener("DOMContentLoaded", function () {
           })
           .join(" | ");
         
+        // Format the prompt according to the new template
+        // character:[CHARACTER COUNT(S)], [QUALITY TAGS 1], [LINE BREAK]
+        // [ARTIST TAGS],
+        // background:[SCENE TAGS],
+        // [QUALITY TAGS 2] [LINE BREAK]
+        // | [CHARACTER PROMPT AS IS]
+        
+        let parts = [];
+        
+        // Part 1: Character section with subject count and quality tags
+        let characterSection = "character:";
+        if (subjectCountText) {
+          characterSection += subjectCountText;
+        }
+        if (consistentTagsText || qualityTagsText) {
+          if (subjectCountText) characterSection += ", ";
+          characterSection += consistentTagsText;
+          if (consistentTagsText && qualityTagsText) characterSection += ", ";
+          characterSection += qualityTagsText;
+        }
+        parts.push(characterSection);
+        
+        // Part 2: Artist tags
+        if (artistText) {
+          parts.push(artistText);
+        }
+        
+        // Part 3: Background section
+        if (sceneText) {
+          parts.push("background: " + sceneText);
+        }
+        
+        // Part 4: Quality tags 2 (default text)
+        if (defaultText) {
+          parts.push(defaultText);
+        }
+        
+        // Join with line breaks
+        const headerText = parts.join("\n");
+        
         // NovelAI format with pipe separator
-        const separator = " | ";
+        const separator = "\n| ";
         const finalText = headerText + separator + charactersText.replace(/(\| girl)(?=[^,])/g, "$1,");
         
         document.getElementById("output-preview").innerText = finalText;

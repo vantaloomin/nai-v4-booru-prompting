@@ -31,15 +31,17 @@ export function createSearchBar(blockId) {
     searchLabel.textContent = 'Search for character or media:';
     searchContainer.appendChild(searchLabel);
 
+    // Create a flex container for search and filter
+    const searchFilterContainer = document.createElement('div');
+    searchFilterContainer.className = 'search-filter-container';
+    searchContainer.appendChild(searchFilterContainer);
+
+    // Note: We'll now create the elements in reverse order (filter first, then search)
+    // But will append them later once both are created, to maintain the proper filter-search order
+
     // Create search wrapper for positioning icons
     const searchWrapper = document.createElement('div');
     searchWrapper.className = 'search-wrapper';
-
-    // Create search icon
-    const searchIcon = document.createElement('span');
-    searchIcon.className = 'search-icon';
-    searchIcon.textContent = '🔍';
-    searchWrapper.appendChild(searchIcon);
 
     // Create search input
     const searchInput = document.createElement('input');
@@ -64,14 +66,16 @@ export function createSearchBar(blockId) {
     dropdownIndicator.style.display = 'none'; // Hidden by default
     searchWrapper.appendChild(dropdownIndicator);
 
-    searchContainer.appendChild(searchWrapper);
-
     // Create suggestions container
     const suggestionsContainer = document.createElement('div');
     suggestionsContainer.className = 'suggestions-list';
     suggestionsContainer.id = `search-suggestions-${blockId}`;
     suggestionsContainer.style.display = 'none';
-    searchContainer.appendChild(suggestionsContainer);
+    searchWrapper.appendChild(suggestionsContainer);
+
+    // Now add the elements to the searchFilterContainer in the desired order:
+    // First filter (will be added in characterBlocks.js), then search
+    searchFilterContainer.appendChild(searchWrapper);
 
     // Set up event listeners
     initSearchEvents(blockId, searchInput, clearButton, suggestionsContainer, dropdownIndicator);

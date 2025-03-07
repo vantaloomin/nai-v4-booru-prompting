@@ -20,7 +20,7 @@
     display: flex;
     width: 100%;
     gap: var(--space-xs);
-    align-items: stretch !important; /* Change from center to stretch */
+    align-items: center !important; /* Force center alignment */
     margin-bottom: var(--space-sm); /* Add margin to the bottom */
     min-height: 40px; /* Ensure minimum height */
 }
@@ -39,10 +39,10 @@
     position: relative;
     margin: 0;
     display: flex; /* Ensure the button can fill the container */
-    height: auto !important; /* Change from 40px to auto */
-    min-height: 0 !important; /* Remove forced min-height */
-    max-height: none !important; /* Remove forced max-height */
-    align-self: auto; /* Remove forced vertical centering */
+    height: 40px !important; /* Force height to be the same */
+    min-height: 40px !important; /* Force min-height to be the same */
+    max-height: 40px !important; /* Force max-height to be the same */
+    align-self: center; /* Ensure vertical centering */
 }
 
 /* Filter toggle button */
@@ -251,6 +251,11 @@
     text-align: center;
     padding: var(--space-sm);
     color: var(--text-emphasis-medium);
+}
+
+.character-filter-container {
+    margin: var(--space-sm) 0;
+    position: relative;
 }
 
 /* Filter Icon */
@@ -489,3 +494,4 @@
     width: 100%;
     height: 100%;
 } 
+

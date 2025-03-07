@@ -9,13 +9,14 @@
     background: var(--color-bg-input);
     color: var(--text-on-surface);
     padding: var(--space-sm);
-    max-height: 150px;
+    height: 250px;
     overflow-y: auto;
-    transition: max-height var(--transition-default) var(--ease-default);
+    transition: height var(--transition-default) var(--ease-default);
 }
 
 /* Expanded state */
 #output-container.expanded {
+    height: auto;
     max-height: none;
 }
 

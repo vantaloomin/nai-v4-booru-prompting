@@ -29,11 +29,12 @@ export function createFilterPanel(blockId) {
     filterContainer.className = 'character-filter-container';
     filterContainer.id = `filter-container-${blockId}`;
 
-    // Create filter toggle button
+    // Create filter toggle button with funnel icon instead of gear
     const filterToggle = document.createElement('button');
     filterToggle.className = 'filter-toggle-btn';
     filterToggle.id = `filter-toggle-${blockId}`;
-    filterToggle.innerHTML = '<span class="filter-icon">⚙️</span> Filters';
+    filterToggle.innerHTML = '<span class="filter-icon"></span>'; // Using CSS for funnel icon
+    filterToggle.title = "Filter characters"; // Adding title attribute for tooltip
     filterContainer.appendChild(filterToggle);
 
     // Create filter panel (initially hidden)
@@ -564,9 +565,15 @@ function updateFilterToggleState(blockId) {
     // Update toggle button appearance
     if (hasFilters) {
         filterToggle.classList.add('has-active-filters');
+        filterToggle.title = "Active filters applied"; // Update tooltip
     } else {
         filterToggle.classList.remove('has-active-filters');
+        filterToggle.title = "Filter characters"; // Reset tooltip
     }
+    
+    // Also set the background color of the button for better visibility
+    filterToggle.style.backgroundColor = hasFilters ? 
+        'var(--color-primary-light)' : 'var(--color-bg-input)';
 }
 
 /**

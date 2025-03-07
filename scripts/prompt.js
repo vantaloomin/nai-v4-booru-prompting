@@ -19,7 +19,7 @@ function generatePromptData() {
     const sdArtistTag = originalArtistTag ? `by_${originalArtistTag}` : "";
   
     // Different content based on mode
-    const defaultText = "The image is a highly finished digital illustration, with expert shading.";
+    const defaultText = "The character is the central focus of this image. This image is a highly finished digital illustration in anime style with smooth shading.";
     
     // Different consistent tags based on mode
     const naiConsistentTags = "{{{best quality, amazing quality, very aesthetic}}}";

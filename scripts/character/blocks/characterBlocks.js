@@ -142,14 +142,20 @@ export function addCharacterBlock() {
     const contentDiv = document.createElement('div');
     contentDiv.className = 'block-content';
 
-    // Replace the three dropdowns with our unified search and filter
-    // 1. Create and add the search container
+    // Create and add the search container with integrated filter
     const searchContainer = createSearchBar(blockId);
-    contentDiv.appendChild(searchContainer);
-
-    // 2. Create and add the filter container
+    
+    // Create the filter container
     const filterContainer = createFilterPanel(blockId);
-    contentDiv.appendChild(filterContainer);
+    
+    // Get the search-filter-container to add the filter inline
+    const searchFilterContainer = searchContainer.querySelector('.search-filter-container');
+    if (searchFilterContainer) {
+        // Add the filter container to the beginning of searchFilterContainer (left side)
+        searchFilterContainer.insertBefore(filterContainer, searchFilterContainer.firstChild);
+    }
+    
+    contentDiv.appendChild(searchContainer);
 
     // Gender Dropdown for genderswap
     const genderDiv = document.createElement('div');
