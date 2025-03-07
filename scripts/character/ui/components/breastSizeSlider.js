@@ -35,11 +35,11 @@ export function updateBreastSizeVisibility(id, gender) {
         if (isVisible) {
             const selectedBreastSize = document.querySelector(`input[name="breast-size-${id}"]:checked`);
             if (!selectedBreastSize) {
-                // If no size is selected, default to small
-                const smallInput = document.getElementById(`breast-size-small-${id}`);
-                if (smallInput) {
-                    smallInput.checked = true;
-                    smallInput.dispatchEvent(new Event('change'));
+                // If no size is selected, default to OFF
+                const offInput = document.getElementById(`breast-size-off-${id}`);
+                if (offInput) {
+                    offInput.checked = true;
+                    offInput.dispatchEvent(new Event('change'));
                 }
             }
         }
@@ -62,8 +62,8 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
     breastSizeLabel.textContent = 'Breast Size:';
     breastSizeContainer.appendChild(breastSizeLabel);
     
-    // Create size labels
-    const sizes = ['small', 'medium', 'large', 'huge'];
+    // Create size labels with Off option
+    const sizes = ['off', 'small', 'medium', 'large', 'huge'];
     const sizeLabels = {};
     
     // Create labels container
@@ -73,8 +73,8 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
     // Create each size label
     sizes.forEach(size => {
         const label = document.createElement('span');
-        label.className = `breast-size-label ${size}-label ${size === 'small' ? 'active' : ''}`;
-        label.textContent = size.charAt(0).toUpperCase() + size.slice(1);
+        label.className = `breast-size-label ${size}-label ${size === 'off' ? 'active' : ''}`;
+        label.textContent = size === 'off' ? 'Off' : size.charAt(0).toUpperCase() + size.slice(1);
         breastSizeLabelContainer.appendChild(label);
         sizeLabels[size] = label;
     });
@@ -85,11 +85,31 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
     const sliderContainer = document.createElement('div');
     sliderContainer.className = 'breast-size-slider-container';
     
+    // Create the track element that will contain the sections
     const sliderTrack = document.createElement('div');
     sliderTrack.className = 'breast-size-track';
     
+    // Create a track wrapper to avoid overflow issues
+    const trackWrapper = document.createElement('div');
+    trackWrapper.className = 'breast-size-track-wrapper';
+    
+    // Add the "off" section to the slider with a distinct border
+    const offSection = document.createElement('div');
+    offSection.className = 'breast-size-off-section';
+    
+    // Add gradient section for the sizes
+    const gradientSection = document.createElement('div');
+    gradientSection.className = 'breast-size-gradient-section';
+    
+    // Add sections to track wrapper
+    trackWrapper.appendChild(offSection);
+    trackWrapper.appendChild(gradientSection);
+    
+    // Add track wrapper to track
+    sliderTrack.appendChild(trackWrapper);
+    
     const sliderHandle = document.createElement('div');
-    sliderHandle.className = 'breast-size-handle position-small';
+    sliderHandle.className = 'breast-size-handle position-off';
     
     // Create hidden radio inputs for the size options
     const sizeInputs = {};
@@ -98,9 +118,9 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
         input.type = 'radio';
         input.name = `breast-size-${id}`;
         input.id = `breast-size-${size}-${id}`;
-        input.value = `${size} breasts`;
+        input.value = size === 'off' ? 'no breasts' : `${size} breasts`;
         input.className = 'breast-size-radio';
-        input.checked = (size === 'small'); // Default to small
+        input.checked = (size === 'off'); // Default to OFF instead of small
         
         // Add event listeners to refresh default tags when size changes
         input.addEventListener('change', function() {
@@ -129,16 +149,26 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
     sliderContainer.appendChild(sliderTrack);
     breastSizeContainer.appendChild(sliderContainer);
     
+    // Create a wider clickable area around the slider
+    const sliderHitArea = document.createElement('div');
+    sliderHitArea.className = 'breast-size-hit-area';
+    sliderContainer.appendChild(sliderHitArea);
+    
     // Function to set breast size based on position
     function setBreastSizeByPosition(position) {
         let size;
-        if (position <= 25) {
+        // Adjusted boundaries to match the new handle positions:
+        // off: 0-15%, small: 15-40%, medium: 40-65%, large: 65-85%, huge: 85-100%
+        if (position <= 15) {
+            size = 'off';
+            sizeInputs.off.checked = true;
+        } else if (position <= 40) {
             size = 'small';
             sizeInputs.small.checked = true;
-        } else if (position <= 50) {
+        } else if (position <= 65) {
             size = 'medium';
             sizeInputs.medium.checked = true;
-        } else if (position <= 75) {
+        } else if (position <= 85) {
             size = 'large';
             sizeInputs.large.checked = true;
         } else {
@@ -156,12 +186,98 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
         // Trigger change event
         sizeInputs[size].dispatchEvent(new Event('change'));
         
-        return `${size} breasts`;
+        return size === 'off' ? 'no breasts' : `${size} breasts`;
     }
     
-    // Set up slider events
-    setupSliderEvents(sliderTrack, sliderHandle, setBreastSizeByPosition);
+    // Set up enhanced slider drag functionality
+    // We're implementing custom drag handlers for better control and reliability
+    let isDragging = false;
     
+    // Handle direct clicks on the track and hit area
+    sliderTrack.addEventListener('mousedown', handleTrackClick);
+    sliderHitArea.addEventListener('mousedown', handleTrackClick);
+    
+    function handleTrackClick(e) {
+        const rect = sliderTrack.getBoundingClientRect();
+        const position = ((e.clientX - rect.left) / rect.width) * 100;
+        setBreastSizeByPosition(position);
+        
+        // Initiate dragging immediately on track click
+        isDragging = true;
+        document.addEventListener('mousemove', handleDrag);
+        document.addEventListener('mouseup', stopDrag);
+    }
+    
+    // Handle drag start on the handle
+    sliderHandle.addEventListener('mousedown', function(e) {
+        e.preventDefault(); // Prevent text selection during drag
+        isDragging = true;
+        
+        // Add global mouse events
+        document.addEventListener('mousemove', handleDrag);
+        document.addEventListener('mouseup', stopDrag);
+    });
+    
+    // Handle mouse drag
+    function handleDrag(e) {
+        if (isDragging) {
+            e.preventDefault(); // Prevent selection and default behaviors
+            const rect = sliderTrack.getBoundingClientRect();
+            let position = ((e.clientX - rect.left) / rect.width) * 100;
+            
+            // Constrain to track bounds
+            position = Math.max(0, Math.min(100, position));
+            
+            setBreastSizeByPosition(position);
+        }
+    }
+    
+    // Handle drag end
+    function stopDrag() {
+        isDragging = false;
+        document.removeEventListener('mousemove', handleDrag);
+        document.removeEventListener('mouseup', stopDrag);
+    }
+    
+    // Add touch support
+    sliderTrack.addEventListener('touchstart', handleTouchStart);
+    sliderHitArea.addEventListener('touchstart', handleTouchStart);
+    sliderHandle.addEventListener('touchstart', handleTouchStart);
+    
+    function handleTouchStart(e) {
+        e.preventDefault(); // Prevent scrolling during touch
+        
+        const touch = e.touches[0];
+        const rect = sliderTrack.getBoundingClientRect();
+        const position = ((touch.clientX - rect.left) / rect.width) * 100;
+        
+        setBreastSizeByPosition(position);
+        
+        isDragging = true;
+        document.addEventListener('touchmove', handleTouchDrag);
+        document.addEventListener('touchend', stopTouchDrag);
+    }
+    
+    function handleTouchDrag(e) {
+        if (isDragging) {
+            e.preventDefault();
+            const touch = e.touches[0];
+            const rect = sliderTrack.getBoundingClientRect();
+            let position = ((touch.clientX - rect.left) / rect.width) * 100;
+            
+            // Constrain to track bounds
+            position = Math.max(0, Math.min(100, position));
+            
+            setBreastSizeByPosition(position);
+        }
+    }
+    
+    function stopTouchDrag() {
+        isDragging = false;
+        document.removeEventListener('touchmove', handleTouchDrag);
+        document.removeEventListener('touchend', stopTouchDrag);
+    }
+
     // Add click events to labels
     Object.entries(sizeLabels).forEach(([size, label]) => {
         label.addEventListener('click', () => {
@@ -170,6 +286,7 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
         });
     });
     
+    // Return the slider component interface
     return {
         container: breastSizeContainer,
         handle: sliderHandle,
@@ -222,4 +339,4 @@ export function initializeBreastSizeSlider(id, selectedCharacterName) {
         // Hide the breast size div if no character data is found
         updateElementVisibility(breastSizeDiv, false);
     }
-} 
+}

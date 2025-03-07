@@ -69,13 +69,7 @@ export function populateDefaultTagPills(id, characterData) {
         }
     }
     
-    // Add each comma-separated term in mainTags
-    const mainTags = characterData.mainTags ? characterData.mainTags.split(',').map(tag => tag.trim()).filter(tag => tag) : [];
-    mainTags.forEach(tag => {
-        createTagPill(tag, pillContainer, null, true);
-    });
-    
-    // Check if Age Up is enabled and add appropriate tag
+    // Check if Age Up is enabled and add appropriate tag - MOVED UP before mainTags
     const ageUpInput = document.getElementById(`age-up-input-${id}`);
     if (ageUpInput && ageUpInput.checked) {
         // Always add the generic "aged up" tag first
@@ -87,17 +81,23 @@ export function populateDefaultTagPills(id, characterData) {
         } else if (selectedGender === 'boy') {
             createTagPill('mature male', pillContainer, null, true);
         }
-        
-        // If gender is girl and Age Up is enabled, check for breast size
-        if (selectedGender === 'girl') {
-            // Get the actively checked breast size radio button
-            const selectedBreastSize = document.querySelector(`input[name="breast-size-${id}"]:checked`);
-            if (selectedBreastSize) {
-                // Use the value directly from the checked radio button
-                createTagPill(selectedBreastSize.value, pillContainer, null, true);
-            }
+    }
+    
+    // Always add breast size tag for female characters, regardless of Age Up setting
+    if (selectedGender === 'girl') {
+        // Get the actively checked breast size radio button
+        const selectedBreastSize = document.querySelector(`input[name="breast-size-${id}"]:checked`);
+        if (selectedBreastSize && selectedBreastSize.value !== 'no breasts') {
+            // Only add the breast size tag if it's not "OFF" (no breasts)
+            createTagPill(selectedBreastSize.value, pillContainer, null, true);
         }
     }
+    
+    // Add each comma-separated term in mainTags AFTER Age Up and Breast Size
+    const mainTags = characterData.mainTags ? characterData.mainTags.split(',').map(tag => tag.trim()).filter(tag => tag) : [];
+    mainTags.forEach(tag => {
+        createTagPill(tag, pillContainer, null, true);
+    });
     
     // Check for enhancer tags
     const enhancerDisplay = document.querySelector(`#enhancer-div-${id} .selected-display`);

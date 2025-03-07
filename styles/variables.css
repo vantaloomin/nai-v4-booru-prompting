@@ -292,4 +292,29 @@
     --text-shadow-sm: 0 1px 2px var(--color-shadow);
     --text-shadow-md: 0 2px 4px var(--color-shadow);
     --text-shadow-lg: 0 4px 8px var(--color-shadow);
+
+    /*******************************
+     * BREAST SIZE SLIDER COLORS
+     *******************************/
+     
+    /* Breast Size Background Colors */
+    --breast-size-off-color: #000000;       /* Black for OFF section */
+    --breast-size-small-color: #00FFFF;     /* Cyan for Small */
+    --breast-size-medium-color: #00FFAA;    /* Teal/Green for Medium */
+    --breast-size-large-color: #FF69B4;     /* Pink for Large */
+    --breast-size-huge-color: #FF1493;      /* Hot Pink/Magenta for Huge */
+    
+    /* Breast Size Label Colors (Active State) */
+    --breast-size-off-label: rgba(255, 255, 255, 0.85);   /* White (slightly transparent) */
+    --breast-size-small-label: var(--breast-size-small-color);
+    --breast-size-medium-label: var(--breast-size-medium-color);
+    --breast-size-large-label: var(--breast-size-large-color);
+    --breast-size-huge-label: var(--breast-size-huge-color);
+    
+    /* Breast Size Handle Colors */
+    --breast-size-off-handle: var(--breast-size-off-label);
+    --breast-size-small-handle: var(--breast-size-small-color);
+    --breast-size-medium-handle: var(--breast-size-medium-color);
+    --breast-size-large-handle: var(--breast-size-large-color);
+    --breast-size-huge-handle: var(--breast-size-huge-color);
 }
