@@ -163,18 +163,18 @@ export function addCharacterBlock() {
     genderDiv.style.marginTop = '10px';
     contentDiv.appendChild(genderDiv);
 
+    // Breast Size Slider (only visible for female characters)
+    const breastSizeDiv = document.createElement('div');
+    breastSizeDiv.id = 'breast-size-div-' + blockId;
+    breastSizeDiv.style.marginTop = '10px';
+    // Initially not hidden - visibility will be controlled by the breast size module
+    contentDiv.appendChild(breastSizeDiv);
+
     // Age Up Toggle
     const ageUpDiv = document.createElement('div');
     ageUpDiv.id = 'age-up-div-' + blockId;
     ageUpDiv.style.marginTop = '10px';
     contentDiv.appendChild(ageUpDiv);
-
-    // Breast Size Slider (only visible for female characters with age up)
-    const breastSizeDiv = document.createElement('div');
-    breastSizeDiv.id = 'breast-size-div-' + blockId;
-    breastSizeDiv.style.marginTop = '10px';
-    breastSizeDiv.style.display = 'none'; // Hidden by default
-    contentDiv.appendChild(breastSizeDiv);
 
     // Enhancer Dropdown
     const enhancerLabel = document.createElement('label');
@@ -309,6 +309,11 @@ export function addRandomCharacterBlock(type) {
                 // Fallback: Update components directly
                 updateGenderToggle(blockId, randomCharacter.name);
                 updateAgeUpToggle(blockId, randomCharacter.name);
+                import('../ui/components/breastSizeSlider.js').then(breastSizeModule => {
+                    if (breastSizeModule && typeof breastSizeModule.initializeBreastSizeSlider === 'function') {
+                        breastSizeModule.initializeBreastSizeSlider(blockId, randomCharacter.name);
+                    }
+                });
                 updateEnhancerDropdown(blockId, randomCharacter.name);
                 
                 // Update the character block title

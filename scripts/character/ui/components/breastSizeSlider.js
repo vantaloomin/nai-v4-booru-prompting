@@ -9,18 +9,26 @@ import { updateElementVisibility } from '../utils/domUtils.js';
 import { populateDefaultTagPills } from './tagPills.js';
 
 /**
- * Updates the visibility of the breast size container based on gender and age up settings
+ * Updates the visibility of the breast size container based on gender
  * 
  * @param {number} id - Character block ID
  * @param {string} gender - Selected gender ('girl', 'boy', 'other')
  */
 export function updateBreastSizeVisibility(id, gender) {
-    const ageUpInput = document.getElementById(`age-up-input-${id}`);
+    // First, make the parent div visible
+    const breastSizeDiv = document.getElementById(`breast-size-div-${id}`);
     const breastSizeContainer = document.getElementById(`breast-size-container-${id}`);
     
-    if (ageUpInput && breastSizeContainer) {
-        console.log(`Updating breast size visibility for ID ${id}. Gender: ${gender}, Age Up checked: ${ageUpInput.checked}`);
-        const isVisible = (gender === 'girl' && ageUpInput.checked);
+    const isVisible = (gender === 'girl');
+    
+    // Update the visibility of both the parent div and the container
+    if (breastSizeDiv) {
+        console.log(`Updating breast size div visibility for ID ${id}. Gender: ${gender}, Visible: ${isVisible}`);
+        updateElementVisibility(breastSizeDiv, isVisible);
+    }
+    
+    if (breastSizeContainer) {
+        console.log(`Updating breast size container visibility for ID ${id}. Gender: ${gender}, Visible: ${isVisible}`);
         updateElementVisibility(breastSizeContainer, isVisible);
         
         // Ensure a breast size is selected if none is currently selected
@@ -35,8 +43,8 @@ export function updateBreastSizeVisibility(id, gender) {
                 }
             }
         }
-    } else {
-        console.warn(`Missing elements for breast size visibility update. ID: ${id}, ageUpInput: ${!!ageUpInput}, breastSizeContainer: ${!!breastSizeContainer}`);
+    } else if (isVisible) {
+        console.warn(`Missing breast size container for visibility update. ID: ${id}, breastSizeContainer: ${!!breastSizeContainer}`);
     }
 }
 
@@ -169,4 +177,49 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
         labels: sizeLabels,
         setBreastSizeByPosition
     };
+}
+
+/**
+ * Initializes the breast size slider for a character block
+ *
+ * @param {number} id - Character block ID
+ * @param {string} selectedCharacterName - Name of the selected character
+ */
+export function initializeBreastSizeSlider(id, selectedCharacterName) {
+    const breastSizeDiv = document.getElementById('breast-size-div-' + id);
+    if (!breastSizeDiv) {
+        console.warn(`Breast size div not found for ID ${id}`);
+        return;
+    }
+    
+    breastSizeDiv.innerHTML = "";
+    
+    const selectedData = characterData.find(item => item.name === selectedCharacterName);
+    if (selectedData) {
+        // Create main container for the breast size slider
+        const breastSizeContainer = document.createElement('div');
+        breastSizeContainer.className = 'breast-size-container';
+        breastSizeContainer.id = 'breast-size-container-' + id;
+        breastSizeDiv.appendChild(breastSizeContainer);
+        
+        // Create the breast size slider component
+        createBreastSizeSlider(breastSizeContainer, id, selectedCharacterName);
+        
+        // Check initial gender and update visibility
+        const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
+        if (selectedGender) {
+            console.log(`Initializing breast size slider for ID ${id} with gender ${selectedGender}`);
+            // Update the breast size visibility based on gender
+            updateBreastSizeVisibility(id, selectedGender);
+        } else {
+            console.warn(`No gender selected for ID ${id}`);
+            // Default hide since no gender is selected
+            updateElementVisibility(breastSizeDiv, false);
+            updateElementVisibility(breastSizeContainer, false);
+        }
+    } else {
+        console.warn(`Character data not found for ${selectedCharacterName}`);
+        // Hide the breast size div if no character data is found
+        updateElementVisibility(breastSizeDiv, false);
+    }
 } 

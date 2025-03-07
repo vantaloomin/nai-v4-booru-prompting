@@ -664,7 +664,11 @@ document.addEventListener("DOMContentLoaded", function () {
    ***********************************/
   // Utility function to get candidate objects from characterData.
   function getSearchCandidates() {
-    return characterData.map(item => {
+    if (!window.characterData) {
+      console.warn('Character data not loaded yet');
+      return [];
+    }
+    return window.characterData.map(item => {
       return {
         name: item.name,
         title: item.category,
@@ -675,7 +679,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Initialize Fuse.js with candidate data.
-  let fuse = createFuse(getSearchCandidates());
+  let fuse = null;
+  
+  // Initialize fuse only after constants are loaded
+  function initializeSearch() {
+    fuse = createFuse(getSearchCandidates());
+  }
+
+  // Wait for constants to be loaded before initializing search
+  if (window.characterData) {
+    initializeSearch();
+  } else {
+    window.addEventListener('constantsLoaded', initializeSearch);
+  }
 
   const searchInput = document.getElementById("character-search");
   const suggestionsContainer = document.getElementById("search-suggestions");
@@ -699,6 +715,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const query = this.value.trim();
     suggestionsContainer.innerHTML = "";
     if (!query) return;
+
+    // Make sure fuse is initialized
+    if (!fuse) {
+      initializeSearch();
+    }
 
     // Update the Fuse collection in case characterData has changed.
     fuse.setCollection(getSearchCandidates());

@@ -1,11 +1,10 @@
 /**
  * Age Up Toggle Module
  * 
- * Manages the age up toggle functionality and its associated breast size controls.
+ * Manages the age up toggle functionality.
  */
 
 import { createElement, updateElementVisibility } from '../utils/domUtils.js';
-import { createBreastSizeSlider, updateBreastSizeVisibility } from './breastSizeSlider.js';
 import { populateDefaultTagPills } from './tagPills.js';
 
 /**
@@ -51,63 +50,18 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             
             // Log toggle action for debugging
             console.log(`Age Up toggle clicked for ID ${id}. New state: ${ageUpInput.checked}`);
-            
-            // Get the current gender and update breast size visibility directly
-            const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
-            if (selectedGender) {
-                updateBreastSizeVisibility(id, selectedGender);
-            }
         });
-        
-        // Create breast size container (initially hidden)
-        const breastSizeContainer = createElement('div', {
-            className: 'breast-size-container',
-            id: 'breast-size-container-' + id,
-            style: 'display: none;'
-        }, '', ageUpContainer);
-        
-        // Create the breast size slider component
-        createBreastSizeSlider(breastSizeContainer, id, selectedCharacterName);
         
         // Add event listener to the Age Up toggle to refresh default tags
         ageUpInput.addEventListener('change', function() {
             // Find the selected character data
             const charData = characterData.find(item => item.name === selectedCharacterName);
             if (charData) {
-                // Get the current gender
-                const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
-                console.log(`Age Up change event for ID ${id}. Checked: ${this.checked}, Gender: ${selectedGender}`);
-                
-                // Always update breast size visibility when the toggle changes
-                updateBreastSizeVisibility(id, selectedGender);
+                console.log(`Age Up change event for ID ${id}. Checked: ${this.checked}`);
                 
                 // Refresh default tags with the new age up setting
                 populateDefaultTagPills(id, charData);
-                
-                // If this is being enabled and gender is girl, ensure the breast size inputs are initialized
-                if (this.checked && selectedGender === 'girl') {
-                    // Get the current selected breast size, or default to small
-                    const selectedBreastSize = document.querySelector(`input[name="breast-size-${id}"]:checked`);
-                    if (!selectedBreastSize) {
-                        // If no size is selected, default to small
-                        const smallInput = document.getElementById(`breast-size-small-${id}`);
-                        if (smallInput) {
-                            smallInput.checked = true;
-                            smallInput.dispatchEvent(new Event('change'));
-                        }
-                    }
-                }
             }
         });
-        
-        // Check initial gender and update breast size visibility
-        const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
-        if (selectedGender) {
-            // Ensure the initial state of the breast size container is correct
-            console.log(`Initial check for ID ${id}. Gender: ${selectedGender}, Age Up Input: ${!!ageUpInput}`);
-            
-            // Force update of breast size visibility based on current toggle state
-            updateBreastSizeVisibility(id, selectedGender);
-        }
     }
 } 

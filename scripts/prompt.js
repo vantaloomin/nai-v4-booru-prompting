@@ -111,10 +111,13 @@ function generatePromptData() {
           let nextPartIndex = 1;
           
           // Add the name token
+          let characterName = "";
           if (nameOnly) {
+            characterName = nameOnly;
             tokens.push({ type: "name", text: nameOnly });
           } else if (parts.length > 1) {
             // If name wasn't in first part, use the second part
+            characterName = parts[1];
             tokens.push({ type: "name", text: parts[1] });
             nextPartIndex = 2;
           }
@@ -141,6 +144,9 @@ function generatePromptData() {
             }
           }
           
+          // Store the character name normalized for comparison
+          const normalizedCharName = characterName.toLowerCase();
+          
           // Any subsequent tokens:
           for (let i = nextPartIndex; i < parts.length; i++) {
             // If the token contains a '#' character, consider it an action.
@@ -156,8 +162,11 @@ function generatePromptData() {
                 normalTag.toLowerCase() === baseTag.toLowerCase()
               );
               
-              // Only add if there's no matching enhancer
-              if (!shouldExclude) {
+              // Check if this tag is a duplicate of the character name
+              const isDuplicateOfName = normalizedCharName && normalTag.toLowerCase() === normalizedCharName;
+              
+              // Only add if there's no matching enhancer and it's not a duplicate of the name
+              if (!shouldExclude && !isDuplicateOfName) {
                 tokens.push({ type: "tag", text: parts[i] });
               }
             }

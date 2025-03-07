@@ -11,6 +11,7 @@ import { updateGenderToggle } from '../ui/components/genderToggle.js';
 import { updateAgeUpToggle } from '../ui/components/ageUpToggle.js';
 import { updateEnhancerDropdown } from '../ui/components/enhancerDropdown.js';
 import { populateDefaultTagPills } from '../ui/components/tagPills.js';
+import { initializeBreastSizeSlider } from '../ui/components/breastSizeSlider.js';
 import { cleanDisplayName } from '../utils/nameFormatter.js';
 import { closeAllDropdowns } from '../ui/components/dropdownCore.js';
 
@@ -404,6 +405,7 @@ export function selectCharacter(blockId, character) {
     // Update related components
     updateGenderToggle(blockId, character.name);
     updateAgeUpToggle(blockId, character.name);
+    initializeBreastSizeSlider(blockId, character.name);
     updateEnhancerDropdown(blockId, character.name);
     
     // Populate default tag pills for this character

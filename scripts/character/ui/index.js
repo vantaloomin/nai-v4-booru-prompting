@@ -14,5 +14,6 @@ export {
 } from './components/characterDropdown.js';
 export { updateGenderToggle } from './components/genderToggle.js';
 export { updateAgeUpToggle } from './components/ageUpToggle.js';
+export { updateBreastSizeVisibility, initializeBreastSizeSlider } from './components/breastSizeSlider.js';
 export { updateEnhancerDropdown } from './components/enhancerDropdown.js';
 export { populateDefaultTagPills } from './components/tagPills.js'; 
