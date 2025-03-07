@@ -7,6 +7,7 @@
 import { isNovelAIMode } from './utils.js';
 import { getCharacterOptions, populateCharacterOptions } from './character.js';
 import { updateAssignedActionsDisplay } from './display.js';
+import { actionTags } from './constants.js';
 
 /**
  * Update (refresh) the character options in all action blocks.
@@ -119,6 +120,16 @@ export function getActionAssignments() {
     });
     
     return assignments;
+}
+
+/**
+ * Export a function to get all available actions.
+ * This ensures all modules use the same action data.
+ * 
+ * @returns {string[]} Array of all available action tags
+ */
+export function getAllAvailableActions() {
+    return actionTags;
 }
 
 /**

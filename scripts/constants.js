@@ -17,7 +17,18 @@
     window.artists = artistModule.artistList;
     window.suggestedArtistCombinations = artistModule.suggestedArtistCombinations;
     window.scenes = sceneModule.sceneList;
-    window.actionTags = actionModule.actionList;
+    
+    // Initialize actionTags to an empty array
+    window.actionTags = [];
+    
+    // Set up event listener for when actions are loaded from CSV
+    window.addEventListener('actionsLoaded', () => {
+      window.actionTags = actionModule.actionList;
+      console.log('Actions loaded from CSV file:', window.actionTags.length);
+      
+      // Dispatch an event for the action-related components to update
+      window.dispatchEvent(new Event('actionsUpdated'));
+    });
 
     console.log('Constants loaded successfully from modular files');
     

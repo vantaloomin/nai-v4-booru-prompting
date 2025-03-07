@@ -10,6 +10,7 @@ import { showSDModeActionWarning } from './ui.js';
 import { showMaxActionWarning, showMinCharacterWarning } from '../utils/modal.js';
 import { actionTags } from './constants.js';
 import { updateAssignedActionsDisplay } from './display.js';
+import { getAllAvailableActions } from './assignments.js';
 
 // Global counter for actions
 let actionCount = 0;
@@ -34,6 +35,21 @@ export function checkMutualAutoAssign(actionId) {
         }
     }
     updateAssignedActionsDisplay();
+}
+
+/**
+ * Function to format action text for display
+ * Replaces underscores with spaces and uses Title Case
+ * 
+ * @param {string} action - The raw action text
+ * @returns {string} Formatted action text for display
+ */
+function formatActionForDisplay(action) {
+    return action
+        .replace(/_/g, ' ')  // Replace underscores with spaces
+        .split(' ')  // Split into words
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
+        .join(' ');  // Join back with spaces
 }
 
 /**
@@ -67,6 +83,7 @@ export function addActionBlock(bypassCheck) {
 
     // Action dropdown.
     const actionLabel = document.createElement("label");
+    actionLabel.className = "action-label";
     actionLabel.textContent = "Select Action:";
     div.appendChild(actionLabel);
     const actionSelect = document.createElement("select");
@@ -79,7 +96,7 @@ export function addActionBlock(bypassCheck) {
     sortedActions.forEach(act => {
         const option = document.createElement("option");
         option.value = act;
-        option.textContent = act.charAt(0).toUpperCase() + act.slice(1);
+        option.textContent = formatActionForDisplay(act);
         actionSelect.appendChild(option);
     });
     div.appendChild(actionSelect);
@@ -161,4 +178,45 @@ export function getActionCount() {
  */
 export function setActionCount(count) {
     actionCount = count;
-} 
+}
+
+/**
+ * Refreshes select options with new action data
+ */
+function refreshActionSelects() {
+    const actionSelects = document.querySelectorAll('.action-select');
+    
+    actionSelects.forEach(select => {
+        // Remember the current value
+        const currentValue = select.value;
+        
+        // Clear all options except the first default one
+        while (select.options.length > 1) {
+            select.remove(1);
+        }
+        
+        // Add the updated action options
+        const availableActions = getAllAvailableActions();
+        const sortedActions = availableActions.slice().sort((a, b) => a.localeCompare(b));
+        
+        sortedActions.forEach(act => {
+            const option = document.createElement("option");
+            option.value = act;
+            option.textContent = formatActionForDisplay(act);
+            select.appendChild(option);
+        });
+        
+        // Restore the previous selection if it still exists
+        if (currentValue) {
+            const optionExists = Array.from(select.options).some(option => option.value === currentValue);
+            if (optionExists) {
+                select.value = currentValue;
+            }
+        }
+    });
+}
+
+// Listen for action updates
+window.addEventListener('actionsUpdated', () => {
+    refreshActionSelects();
+}); 

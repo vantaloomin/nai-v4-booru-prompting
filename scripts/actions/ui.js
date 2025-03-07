@@ -4,100 +4,90 @@
  * Handles UI-related functionality for actions
  */
 
-import { isNovelAIMode } from './utils.js';
+import { addActionBlock, getActionCount, setActionCount } from './blocks.js';
 import { getCharacterOptions } from './character.js';
-import { actionTags } from './constants.js';
+import { isNovelAIMode } from './utils.js';
 import { showMaxActionWarning, showMinCharacterWarning } from '../utils/modal.js';
-import { addActionBlock } from './blocks.js';
+import { actionTags } from './constants.js';
 import { updateAssignedActionsDisplay } from './display.js';
+
+// Add import for loadActionsFromCSV function
+import { loadActionsFromCSV } from '../data/actionList.js';
 
 /**
  * Helper function to show a styled modal warning when attempting to add actions in Stable Diffusion mode
- * 
- * @returns {boolean} Always returns false
  */
 export function showSDModeActionWarning() {
     // Create modal overlay
     const modalOverlay = document.createElement('div');
-    modalOverlay.className = 'modal-overlay';
-    modalOverlay.style.position = 'fixed';
-    modalOverlay.style.top = '0';
-    modalOverlay.style.left = '0';
-    modalOverlay.style.width = '100%';
-    modalOverlay.style.height = '100%';
-    modalOverlay.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
-    modalOverlay.style.display = 'flex';
-    modalOverlay.style.justifyContent = 'center';
-    modalOverlay.style.alignItems = 'center';
-    modalOverlay.style.zIndex = '1000';
+    modalOverlay.classList.add('modal-overlay');
     
-    // Create modal container - using darker gray like the reset modal
+    // Create modal container
     const modalContainer = document.createElement('div');
-    modalContainer.className = 'modal-container';
-    modalContainer.style.backgroundColor = '#333';
-    modalContainer.style.borderRadius = '8px';
-    modalContainer.style.padding = '20px';
-    modalContainer.style.maxWidth = '400px';
-    modalContainer.style.width = '90%';
-    modalContainer.style.position = 'relative';
+    modalContainer.classList.add('modal-container', 'warning-modal');
     
-    // Create close button
+    // Add close button
     const closeButton = document.createElement('span');
     closeButton.textContent = '×';
-    closeButton.style.position = 'absolute';
-    closeButton.style.top = '10px';
-    closeButton.style.right = '15px';
-    closeButton.style.fontSize = '24px';
-    closeButton.style.cursor = 'pointer';
-    closeButton.style.color = 'white';
-    closeButton.onclick = function() {
+    closeButton.classList.add('modal-close');
+    closeButton.addEventListener('click', function() {
         document.body.removeChild(modalOverlay);
-    };
-    
-    // Create modal title
-    const modalTitle = document.createElement('h3');
-    modalTitle.textContent = 'Feature Not Available';
-    modalTitle.style.margin = '0 0 15px 0';
-    modalTitle.style.color = 'white';
-    
-    // Create modal message
-    const modalMessage = document.createElement('p');
-    modalMessage.textContent = 'Actions are only available in NovelAI mode. Please switch to NovelAI mode to add actions.';
-    modalMessage.style.color = 'white';
-    modalMessage.style.marginBottom = '20px';
-    
-    // Create action button
-    const actionButton = document.createElement('button');
-    actionButton.textContent = 'OK';
-    actionButton.style.backgroundColor = '#aa55ee';
-    actionButton.style.color = 'white';
-    actionButton.style.border = 'none';
-    actionButton.style.borderRadius = '4px';
-    actionButton.style.padding = '8px 20px';
-    actionButton.style.cursor = 'pointer';
-    actionButton.onclick = function() {
-        document.body.removeChild(modalOverlay);
-    };
-    
-    // Add everything to the modal
-    modalContainer.appendChild(closeButton);
-    modalContainer.appendChild(modalTitle);
-    modalContainer.appendChild(modalMessage);
-    modalContainer.appendChild(actionButton);
-    
-    // Add the modal to the overlay
-    modalOverlay.appendChild(modalContainer);
-    
-    // Add click event to close when clicking outside the modal
-    modalOverlay.addEventListener('click', function(event) {
-        if (event.target === modalOverlay) {
-            document.body.removeChild(modalOverlay);
-        }
     });
+    modalContainer.appendChild(closeButton);
     
-    // Add to body
+    // Add warning icon
+    const warningIcon = document.createElement('div');
+    warningIcon.classList.add('warning-icon');
+    warningIcon.innerHTML = '⚠️';
+    modalContainer.appendChild(warningIcon);
+    
+    // Add warning title
+    const modalTitle = document.createElement('h3');
+    modalTitle.classList.add('modal-title');
+    modalTitle.textContent = 'Mode Warning';
+    modalContainer.appendChild(modalTitle);
+    
+    // Add warning message
+    const modalMessage = document.createElement('p');
+    modalMessage.classList.add('modal-message');
+    modalMessage.textContent = 'Actions are only available in NovelAI mode. Please switch to NovelAI mode to add actions.';
+    modalContainer.appendChild(modalMessage);
+    
+    // Add button container
+    const buttonContainer = document.createElement('div');
+    buttonContainer.classList.add('modal-button-container');
+    
+    // Add OK button
+    const okButton = document.createElement('button');
+    okButton.textContent = 'OK';
+    okButton.classList.add('primary-button');
+    okButton.addEventListener('click', function() {
+        document.body.removeChild(modalOverlay);
+    });
+    buttonContainer.appendChild(okButton);
+    
+    modalContainer.appendChild(buttonContainer);
+    
+    // Add modal to body
+    modalOverlay.appendChild(modalContainer);
     document.body.appendChild(modalOverlay);
+    
+    // Focus the OK button
+    okButton.focus();
+    
     return false;
+}
+
+/**
+ * Function to reload actions from CSV
+ */
+function reloadActionsFromCSV() {
+    console.log("Manual reload of actions from CSV initiated");
+    loadActionsFromCSV().then(() => {
+        console.log("Actions reload completed");
+    }).catch(error => {
+        console.error("Error during manual actions reload:", error);
+    });
 }
 
 /**
@@ -120,6 +110,10 @@ export function showActionSelectionPopup(sourceBlockId, targetBlockId) {
     const modalContainer = document.createElement('div');
     modalContainer.id = 'action-modal-container';
     modalContainer.classList.add('modal-container');
+    
+    // Store the source and target IDs as data attributes for later use
+    modalContainer.setAttribute('data-source-id', sourceBlockId);
+    modalContainer.setAttribute('data-target-id', targetBlockId);
     
     // Add close button
     const closeButton = document.createElement('span');
@@ -172,6 +166,24 @@ export function showActionSelectionPopup(sourceBlockId, targetBlockId) {
     searchInput.classList.add('action-search');
     modalContainer.appendChild(searchInput);
     
+    // Add reload button
+    const reloadButton = document.createElement('button');
+    reloadButton.textContent = 'Reload Actions';
+    reloadButton.classList.add('reload-actions-btn');
+    reloadButton.style.marginBottom = '10px';
+    reloadButton.addEventListener('click', function() {
+        // Show loading indicator
+        const loadingText = document.createElement('span');
+        loadingText.textContent = ' Loading...';
+        loadingText.classList.add('loading-text');
+        this.appendChild(loadingText);
+        this.disabled = true;
+        
+        // Attempt to reload actions
+        reloadActionsFromCSV();
+    });
+    modalContainer.appendChild(reloadButton);
+    
     // Add actions container (scrollable)
     const actionsContainer = document.createElement('div');
     actionsContainer.id = 'actions-container-modal';
@@ -193,7 +205,15 @@ export function showActionSelectionPopup(sourceBlockId, targetBlockId) {
         
         filtered.forEach(action => {
             const btn = document.createElement('button');
-            btn.textContent = action.charAt(0).toUpperCase() + action.slice(1);
+            
+            // Format the action text: replace underscores with spaces and use Title Case
+            const formattedAction = action
+                .replace(/_/g, ' ')  // Replace underscores with spaces
+                .split(' ')  // Split into words
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
+                .join(' ');  // Join back with spaces
+                
+            btn.textContent = formattedAction;
             btn.classList.add('action-btn');
             btn.addEventListener('click', function () {
                 const selectedMode = toggleInput.checked ? 'st' : 'mutual';
@@ -225,67 +245,122 @@ export function showActionSelectionPopup(sourceBlockId, targetBlockId) {
     document.body.appendChild(modalOverlay);
 }
 
+// Add listener for when actions are updated from CSV
+window.addEventListener('actionsUpdated', () => {
+    // If an action modal is currently open, refresh its action buttons
+    const existingModal = document.getElementById('action-modal-overlay');
+    if (existingModal) {
+        const searchInput = existingModal.querySelector('.action-search');
+        const filterText = searchInput ? searchInput.value : '';
+        const actionsContainer = existingModal.querySelector('#actions-container-modal');
+        
+        // Reset the reload button if it exists
+        const reloadButton = existingModal.querySelector('.reload-actions-btn');
+        if (reloadButton) {
+            reloadButton.disabled = false;
+            const loadingText = reloadButton.querySelector('.loading-text');
+            if (loadingText) {
+                reloadButton.removeChild(loadingText);
+            }
+        }
+        
+        if (actionsContainer) {
+            // Re-render the action buttons with the current filter
+            actionsContainer.innerHTML = '';
+            const filtered = actionTags.filter(act => act.toLowerCase().includes(filterText.toLowerCase())).sort((a, b) => a.localeCompare(b));
+            
+            if (filtered.length === 0) {
+                const noResult = document.createElement('div');
+                noResult.textContent = 'No actions found.';
+                noResult.classList.add('no-actions-found');
+                actionsContainer.appendChild(noResult);
+            } else {
+                filtered.forEach(action => {
+                    const btn = document.createElement('button');
+                    
+                    // Format the action text: replace underscores with spaces and use Title Case
+                    const formattedAction = action
+                        .replace(/_/g, ' ')  // Replace underscores with spaces
+                        .split(' ')  // Split into words
+                        .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
+                        .join(' ');  // Join back with spaces
+                        
+                    btn.textContent = formattedAction;
+                    btn.classList.add('action-btn');
+                    btn.addEventListener('click', function () {
+                        const toggleInput = existingModal.querySelector('#mode-toggle');
+                        const selectedMode = toggleInput && toggleInput.checked ? 'st' : 'mutual';
+                        
+                        // We need to get the sourceBlockId and targetBlockId from the modal
+                        // As a fallback, use a default behavior
+                        const modalContainer = existingModal.querySelector('#action-modal-container');
+                        const sourceBlockId = modalContainer.getAttribute('data-source-id') || '';
+                        const targetBlockId = modalContainer.getAttribute('data-target-id') || '';
+                        
+                        if (sourceBlockId && targetBlockId) {
+                            chooseActionForDrag(sourceBlockId, targetBlockId, action, selectedMode);
+                        }
+                        
+                        document.body.removeChild(existingModal);
+                    });
+                    actionsContainer.appendChild(btn);
+                });
+            }
+        }
+    }
+});
+
 /**
- * Called after the user selects an action from the pop-up.
- * 
- * @param {string} sourceBlockId - ID of the source character block
- * @param {string} targetBlockId - ID of the target character block
- * @param {string} action - The selected action
- * @param {string} mode - The mode (st or mutual)
+ * This is called after showActionSelectionPopup, which already checks for NovelAI mode
  */
-export function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode) {
-    // This is called after showActionSelectionPopup, which already checks for NovelAI mode
-    console.log(`Creating action: ${sourceBlockId} -> ${targetBlockId} (${action}) mode: ${mode}`);
+export function chooseActionForDrag(sourceBlockId, targetBlockId, action, mode = 'st') {
+    // Check if we have at least 2 characters
+    const characterOptions = getCharacterOptions();
+    if (characterOptions.length < 2) {
+        return showMinCharacterWarning();
+    }
     
-    const newActionId = addActionBlock(true);
-    // If addActionBlock returns false (due to being in SD mode), don't continue
-    if (!newActionId) return;
+    // Get the action block count
+    let actionCount = getActionCount();
     
-    const newActionBlock = document.getElementById("action-block-" + newActionId);
-    if (!newActionBlock) return;
+    // Add the new action block
+    const newActionBlock = addActionBlock(true);
+    if (!newActionBlock) {
+        return false;
+    }
+    
+    // Set the properties of the action block
+    const sourceSelect = newActionBlock.querySelector(".character-select.source");
+    if (sourceSelect) {
+        sourceSelect.value = sourceBlockId;
+    }
+    
+    const targetSelect = newActionBlock.querySelector(".character-select.target");
+    if (targetSelect) {
+        targetSelect.value = targetBlockId;
+    }
     
     const actionSelect = newActionBlock.querySelector(".action-select");
     if (actionSelect) {
         actionSelect.value = action;
     }
     
-    // Get source and target values
-    let sourceVal, targetVal;
-    
-    // Check if source is a regular character or custom character
-    if (document.getElementById(`character-${sourceBlockId}`)) {
-        // Regular character
-        sourceVal = `standard-${sourceBlockId}`;
-    } else if (document.getElementById(`custom-character-${sourceBlockId}`)) {
-        // Custom character
-        sourceVal = `custom-${sourceBlockId}`;
-    }
-    
-    // Check if target is a regular character or custom character
-    if (document.getElementById(`character-${targetBlockId}`)) {
-        // Regular character
-        targetVal = `standard-${targetBlockId}`;
-    } else if (document.getElementById(`custom-character-${targetBlockId}`)) {
-        // Custom character
-        targetVal = `custom-${targetBlockId}`;
-    }
-    
-    console.log(`Resolved to: source=${sourceVal}, target=${targetVal}`);
-    
-    // Set the source and target values
-    const sourceSelect = newActionBlock.querySelector(".action-source");
-    const targetSelect = newActionBlock.querySelector(".action-target");
-    if (sourceSelect && sourceVal) sourceSelect.value = sourceVal;
-    if (targetSelect && targetVal) targetSelect.value = targetVal;
-    
     // Set the mode
-    const radios = newActionBlock.querySelectorAll(`input[name="action-mode-${newActionId}"]`);
-    radios.forEach(radio => {
-        if (radio.value === mode) {
-            radio.checked = true;
-        }
-    });
+    const actionId = newActionBlock.id.split("-")[2];
+    const stRadio = document.getElementById(`st-${actionId}`);
+    const mutualRadio = document.getElementById(`mutual-${actionId}`);
     
-    // Update the display
+    if (mode === 'mutual' && mutualRadio) {
+        mutualRadio.checked = true;
+    } else if (stRadio) {
+        stRadio.checked = true;
+    }
+    
+    // Increment the counter
+    setActionCount(actionCount + 1);
+    
+    // Update the preview
     updateAssignedActionsDisplay();
+    
+    return true;
 } 
