@@ -79,8 +79,6 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
         sizeLabels[size] = label;
     });
     
-    breastSizeContainer.appendChild(breastSizeLabelContainer);
-    
     // Create slider container
     const sliderContainer = document.createElement('div');
     sliderContainer.className = 'breast-size-slider-container';
@@ -147,7 +145,10 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
     // Add track and handle to slider container
     sliderTrack.appendChild(sliderHandle);
     sliderContainer.appendChild(sliderTrack);
+    
+    // First append the slider container, then the labels container
     breastSizeContainer.appendChild(sliderContainer);
+    breastSizeContainer.appendChild(breastSizeLabelContainer);
     
     // Create a wider clickable area around the slider
     const sliderHitArea = document.createElement('div');
