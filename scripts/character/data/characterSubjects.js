@@ -74,6 +74,20 @@ export function getCharacterSubjects() {
         // If no gender tag found, skip this character
         if (!gender) continue;
         
+        // Also collect custom tags (user-added tags that aren't default)
+        const customTags = pillContainer.querySelectorAll('.custom-tag-pill:not(.default-tag)');
+        customTags.forEach(tagElement => {
+            // Get the original tag from data attribute or text content (removing the × if present)
+            const tagText = tagElement.dataset.originalTag || tagElement.textContent.replace('×', '').trim();
+            
+            // For NovelAI mode, convert underscores to spaces
+            // Using replace to convert underscores to spaces for all custom tags
+            const formattedTag = tagText.replace(/_/g, ' ');
+            
+            // Add to our character tags collection
+            characterTags.push(formattedTag);
+        });
+        
         // Create the final subject string
         // IMPORTANT: Gender must be the first token in the string (without a comma after it)
         // The name should follow the gender and then other tags after commas
