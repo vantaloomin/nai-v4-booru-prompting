@@ -27,6 +27,8 @@ import { cleanDisplayName } from './character/utils/nameFormatter.js';
 import { showActionSelectionPopup, showSDModeActionWarning } from './actions/ui.js';
 import { showMinCharacterWarning } from './utils/modal.js';
 import { refreshActionCharacterOptions } from './actions/index.js';
+// Import toggle manager for unified toggle handling
+import { initializeToggles } from './toggle-manager.js';
 
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize current state
@@ -141,14 +143,11 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   /***********************************
-   * 4) Mode Toggle (NovelAI vs Stable Diffusion) *
+   * 4) Listen for Toggle Events from toggle-manager.js *
    ***********************************/
-  document.getElementById('mode-toggle').addEventListener('change', function() {
-    isStableDiffusionMode = this.checked;
-    
-    // Update toggle label
-    document.getElementById('mode-toggle-label').textContent = 
-      isStableDiffusionMode ? 'Stable Diffusion Mode' : 'NovelAI Mode';
+  // Listen for mode toggle changes
+  document.addEventListener('modeToggleChanged', function(e) {
+    isStableDiffusionMode = e.detail.isStableDiffusionMode;
     
     // Update page title and h1
     document.title = isStableDiffusionMode ? 
@@ -159,6 +158,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // Re-render current prompt with new format if it exists
     if (currentPromptData !== null) {
       renderPrompt(document.getElementById("color-toggle").checked, currentPromptData);
+    }
+  });
+
+  // Listen for color toggle changes
+  document.addEventListener('colorToggleChanged', function(e) {
+    const colorEnabled = e.detail.colorEnabled;
+    if (currentPromptData !== null) {
+      renderPrompt(colorEnabled, currentPromptData);
     }
   });
 
@@ -636,17 +643,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("generate-btn").addEventListener("click", function () {
     const colorEnabled = document.getElementById("color-toggle").checked;
-    currentPromptData = generatePromptData();
+    const currentPromptData = generatePromptData();
+    if (!currentPromptData) {
+      return;
+    }
+    
     console.log("Structured Prompt Data:", currentPromptData);
     renderPrompt(colorEnabled, currentPromptData);
-  });
-
-  document.getElementById("color-toggle").addEventListener("change", function () {
-    const colorEnabled = this.checked;
-    document.getElementById("color-toggle-label").textContent = colorEnabled ? "Coloring Enabled" : "Coloring Disabled";
-    if (currentPromptData !== null) {
-      renderPrompt(colorEnabled, currentPromptData);
-    }
   });
 
   document.getElementById("copy-prompt-btn").addEventListener("click", function () {

@@ -3,6 +3,10 @@
 
 // Initial empty array that will be filled when loadActionsFromCSV is called
 export let actionList = [];
+// Store the full action list (including explicit actions)
+export let fullActionList = [];
+// Store action metadata (including explicit flag)
+export let actionMetadata = {};
 
 // Fallback basic actions in case CSV can't be loaded
 const fallbackActions = [
@@ -25,14 +29,14 @@ function getBaseUrl() {
 }
 
 /**
- * Process CSV text into an array of action names
+ * Process CSV text into an array of action names and metadata
  * @param {string} csvText - The CSV content
- * @returns {string[]} Array of action names
+ * @returns {Object} Object with action names array and metadata
  */
 function processCSVText(csvText) {
     if (!csvText || csvText.trim() === '') {
         console.error("CSV text is empty");
-        return [];
+        return { actions: [], metadata: {} };
     }
     
     console.log(`Processing CSV, first 100 chars:`, csvText.substring(0, 100));
@@ -42,27 +46,68 @@ function processCSVText(csvText) {
     
     // Skip header row
     const actionSet = new Set();
+    const allActionSet = new Set();
+    const metadata = {};
     
     for (let i = 1; i < lines.length; i++) {
         const line = lines[i].trim();
         if (!line) continue;
         
         const columns = line.split(',');
-        if (columns.length >= 1) {
+        if (columns.length >= 4) {
             const actionName = columns[0].trim();
+            const isExplicit = columns[3].trim().toLowerCase() === 'true';
+            
             if (actionName) {
-                actionSet.add(actionName);
+                // Add to all actions set
+                allActionSet.add(actionName);
+                
+                // Add to filtered set if not explicit
+                if (!isExplicit) {
+                    actionSet.add(actionName);
+                }
+                
+                // Store metadata
+                metadata[actionName] = {
+                    category: columns[1]?.trim() || '',
+                    type: columns[2]?.trim() || '',
+                    explicit: isExplicit,
+                    count: parseInt(columns[4]?.trim() || '0', 10)
+                };
             }
         }
     }
     
-    if (actionSet.size === 0) {
+    if (allActionSet.size === 0) {
         console.error("No valid actions found in CSV");
-        return [];
+        return { actions: [], fullActions: [], metadata: {} };
     }
     
-    // Convert Set to array and sort alphabetically
-    return Array.from(actionSet).sort();
+    // Convert Sets to arrays and sort alphabetically
+    return { 
+        actions: Array.from(actionSet).sort(),
+        fullActions: Array.from(allActionSet).sort(),
+        metadata
+    };
+}
+
+/**
+ * Updates the action list based on the NSFW mode toggle
+ */
+export function updateActionListBasedOnNSFWMode() {
+    const nsfwModeEnabled = document.getElementById('nsfw-toggle')?.checked || false;
+    
+    if (nsfwModeEnabled) {
+        // If NSFW mode is on, use the full action list
+        actionList = [...fullActionList];
+    } else {
+        // If NSFW mode is off, filter out explicit actions
+        actionList = fullActionList.filter(action => !actionMetadata[action]?.explicit);
+    }
+    
+    // Notify that actions have been updated
+    window.dispatchEvent(new Event('actionsUpdated'));
+    console.log(`Action list updated based on NSFW mode (${nsfwModeEnabled ? 'on' : 'off'}): ${actionList.length} actions`);
 }
 
 /**
@@ -112,11 +157,18 @@ export async function loadActionsFromCSV() {
             }
             
             const csvText = await response.text();
-            const processedActions = processCSVText(csvText);
+            const { actions, fullActions, metadata } = processCSVText(csvText);
             
-            if (processedActions.length > 0) {
-                actionList = processedActions;
-                console.log(`Loaded ${actionList.length} actions from CSV file at ${path}`);
+            if (fullActions.length > 0) {
+                // Store the full actions list and metadata
+                fullActionList = fullActions;
+                actionMetadata = metadata;
+                
+                // Initialize the filtered action list based on NSFW mode
+                const nsfwModeEnabled = document.getElementById('nsfw-toggle')?.checked || false;
+                actionList = nsfwModeEnabled ? fullActions : actions;
+                
+                console.log(`Loaded ${actionList.length}/${fullActionList.length} actions from CSV file at ${path}`);
                 loaded = true;
                 
                 // Notify that actions have been loaded
@@ -154,17 +206,25 @@ hug,action,contact_others,false,124763
 kneeling,action,pose,false,121797
 leaning_forward,action,pose,false,119783`;
         
-        const processedActions = processCSVText(fallbackCSV);
+        const { actions, fullActions, metadata } = processCSVText(fallbackCSV);
         
-        if (processedActions.length > 0) {
-            actionList = processedActions;
-            console.log(`Loaded ${actionList.length} actions from fallback CSV method`);
+        if (fullActions.length > 0) {
+            // Store the full actions list and metadata
+            fullActionList = fullActions;
+            actionMetadata = metadata;
+            
+            // Initialize the filtered action list based on NSFW mode
+            const nsfwModeEnabled = document.getElementById('nsfw-toggle')?.checked || false;
+            actionList = nsfwModeEnabled ? fullActions : actions;
+            
+            console.log(`Loaded ${actionList.length}/${fullActionList.length} actions from fallback CSV method`);
             loaded = true;
             
             // Notify that actions have been loaded
             window.dispatchEvent(new Event('actionsLoaded'));
         } else {
             // Use basic fallback if all else fails
+            fullActionList = [...fallbackActions];
             actionList = [...fallbackActions];
             console.log(`All CSV methods failed. Using ${actionList.length} fallback actions`);
             window.dispatchEvent(new Event('actionsLoaded'));

@@ -30,4 +30,50 @@
 @import 'base/utilities.css';
 
 /* Import animations */
-@import 'base/animations.css'; 
+@import 'base/animations.css';
+
+/* Add styling for the NSFW toggle and toggle section positioning */
+
+/* Override Toggle Section Styling - Position at the top */
+.toggle-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0 0 30px 0;
+  justify-content: center;
+  padding: 12px;
+  background-color: var(--color-bg-input, rgba(0, 0, 0, 0.05));
+  border-radius: var(--radius-md, 10px);
+}
+
+/* NSFW Toggle Styling */
+#nsfw-toggle-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: var(--space-md, 10px);
+}
+
+#nsfw-toggle-label {
+  font-weight: 500;
+  margin-right: var(--space-xs, 5px);
+  font-size: var(--text-sm, 14px);
+  color: var(--text-on-surface, #333);
+  user-select: none;
+}
+
+.nsfw-enabled {
+  color: var(--color-danger, #e74c3c);
+  font-weight: 700;
+}
+
+/* NSFW toggle colors */
+#nsfw-toggle-container .slider {
+  background-color: var(--color-bg-input, #ccc);
+}
+
+#nsfw-toggle-container input:checked + .slider {
+  background-color: var(--color-danger, #e74c3c);
+}
+
+/* The rest of your CSS file will follow */ 

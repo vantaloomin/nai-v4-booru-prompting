@@ -51,13 +51,14 @@
     transform: translateX(21px);
 }
 
-/* Toggle Switch Base */
+/* Modern Vertical Toggle Switch */
 .switch {
     position: relative;
     display: inline-block;
-    width: 50px;
-    height: var(--height-toggle);
-    margin-right: var(--space-xs);
+    width: 28px;
+    height: 56px;
+    margin-right: var(--space-sm);
+    flex-shrink: 0; /* Prevent toggle from shrinking */
 }
 
 .switch input {
@@ -66,7 +67,7 @@
     height: 0;
 }
 
-/* Specific Slider for Switch */
+/* Specific Slider for Vertical Switch */
 .switch .slider {
     position: absolute;
     cursor: pointer;
@@ -75,96 +76,240 @@
     right: 0;
     bottom: 0;
     background-color: var(--color-bg-input);
-    transition: var(--transition-slow);
+    transition: 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    border-radius: 28px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .switch .slider.round {
-    border-radius: var(--radius-round);
+    border-radius: 28px;
 }
 
 .switch .slider:before {
     position: absolute;
     content: "";
-    height: 18px;
-    width: 18px;
-    left: 4px;
-    bottom: 3px;
-    background-color: var(--text-on-primary);
-    transition: var(--transition-slow);
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    top: 3px; /* Position at top instead of bottom */
+    background-color: white;
+    transition: 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
     border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Ensure the knob sits above any background effects */
 }
 
-.switch input:checked+.slider {
+/* Add subtle inner glow to active toggle */
+.switch .slider:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 26px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.2));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 0 0 28px 28px;
+    pointer-events: none;
+}
+
+.switch input:checked + .slider:after {
+    opacity: 1;
+}
+
+/* Standard toggle - general background color when checked */
+.switch input:checked + .slider {
     background-color: var(--color-primary);
 }
 
-.switch input:checked+.slider:before {
-    transform: translateX(26px);
+/* Standard slider behavior - knob moves DOWN when checked */
+.switch input:checked + .slider:before {
+    transform: translateY(26px); /* Move down when checked */
 }
 
-/* Toggle Section Containers */
-#color-toggle-container {
-    margin-right: var(--space-md);
-    cursor: pointer;
+/* Inverse behavior for color toggle - knob moves UP when checked */
+#color-toggle-container .switch input:checked + .slider:before {
+    transform: translateY(0); /* Stay at top when checked (Colored Text) */
 }
 
-#mode-toggle-container {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+#color-toggle-container .switch input:not(:checked) + .slider:before {
+    transform: translateY(26px); /* Move down when unchecked (Plain Text) */
 }
 
-/* Toggle container shared styles */
-#color-toggle-container, #mode-toggle-container {
-    display: inline-flex;
-    align-items: center;
-    margin-bottom: var(--space-md);
+/* Inverse inner glow for color toggle */
+#color-toggle-container .switch .slider:after {
+    top: 0;
+    bottom: auto;
+    background: linear-gradient(to top, rgba(255,255,255,0.1), rgba(255,255,255,0.2));
+    border-radius: 28px 28px 0 0;
 }
 
-/* Switch styling for toggles */
-.switch {
-    margin-right: var(--space-xs);
-    position: relative;
-    display: inline-block;
+#color-toggle-container .switch input:not(:checked) + .slider:after {
+    opacity: 1;
 }
 
-/* Toggle section styles */
-.toggle-section {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: var(--space-lg);
-    padding: var(--space-sm);
-    background-color: var(--color-bg-input);
-    border-radius: var(--radius-md);
+#color-toggle-container .switch input:checked + .slider:after {
+    opacity: 0;
 }
 
-/* Toggle label styling */
-#mode-toggle-label, #color-toggle-label {
-    margin-right: var(--space-xs);
-}
-
-/* Mode toggle colors */
-#mode-toggle-container .slider {
-    background-color: var(--color-primary); /* NovelAI mode (default/unchecked) */
-}
-
-#mode-toggle-container input:checked + .slider {
-    background-color: var(--color-bg-input); /* Stable Diffusion mode (checked) */
-}
-
-/* Color toggle colors */
-#color-toggle-container .slider {
-    background-color: var(--color-primary); /* Bright mode (default/unchecked) */
-}
-
-#color-toggle-container input:checked + .slider {
-    background-color: var(--color-secondary); /* Pastel mode (checked) */
-}
-
-/* Toggle label general styling */
+/* Toggle labels styling with dual state */
 .toggle-label {
     font-size: var(--text-sm);
     color: var(--text-on-surface);
     user-select: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    min-width: 0; /* Allow text to be truncated if needed */
+}
+
+.toggle-state {
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 24px; /* Fixed height for consistent alignment */
+}
+
+.toggle-state i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px; /* Fixed width for consistent icon spacing */
+    margin-right: 6px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.toggle-state.active {
+    opacity: 1;
+    font-weight: 600;
+    transform: translateX(0);
+}
+
+.toggle-state.inactive {
+    opacity: 0.6;
+    transform: translateX(-5px);
+}
+
+/* Toggle Section Containers */
+.toggle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin: 0 0 30px 0;
+    padding: 15px;
+    background-color: var(--color-bg-input);
+    border-radius: var(--radius-md);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+/* Individual toggle containers */
+#nsfw-toggle-container,
+#color-toggle-container,
+#mode-toggle-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: var(--radius-sm);
+    transition: background-color 0.3s ease;
+    max-width: 33%;
+}
+
+#nsfw-toggle-container:hover,
+#color-toggle-container:hover,
+#mode-toggle-container:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* NSFW toggle colors */
+#nsfw-toggle-container .slider {
+    background-color: #9c27b0; /* SFW (default/unchecked) - Purple */
+}
+
+#nsfw-toggle-container input:checked + .slider {
+    background-color: var(--color-danger); /* NSFW (checked) - Red */
+}
+
+/* Color toggle colors */
+#color-toggle-container .slider {
+    background-color: var(--color-primary); /* Colored (default/checked) */
+}
+
+#color-toggle-container input:not(:checked) + .slider {
+    background-color: #8bc34a; /* Plain Text (unchecked) - Light Green */
+}
+
+/* Mode toggle colors */
+#mode-toggle-container .slider {
+    background-color: #9c27b0; /* NovelAI mode (default/unchecked) - Purple */
+}
+
+#mode-toggle-container input:checked + .slider {
+    background-color: #3f51b5; /* Stable Diffusion mode (checked) - Indigo */
+}
+
+/* Add pulse animation to the toggle knob when clicked */
+.switch input:active + .slider:before {
+    animation: togglePulse 0.3s ease-out;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .toggle-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    #nsfw-toggle-container,
+    #color-toggle-container,
+    #mode-toggle-container {
+        max-width: 100%;
+        margin-bottom: 8px;
+    }
+    
+    .switch {
+        width: 24px;
+        height: 48px;
+    }
+    
+    .switch .slider:before {
+        height: 18px;
+        width: 18px;
+    }
+    
+    .switch input:checked + .slider:before {
+        transform: translateY(22px);
+    }
+    
+    #color-toggle-container .switch input:checked + .slider:before {
+        transform: translateY(0);
+    }
+    
+    #color-toggle-container .switch input:not(:checked) + .slider:before {
+        transform: translateY(22px);
+    }
+    
+    .toggle-state i {
+        font-size: 1em;
+    }
+}
+
+@keyframes togglePulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.9); }
+    100% { transform: scale(1); }
 } 

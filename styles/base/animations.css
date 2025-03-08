@@ -29,4 +29,60 @@
     100% {
         transform: scale(1);
     }
+}
+
+/* Toggle Animations */
+@keyframes togglePulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+}
+
+@keyframes toggleKnobUp {
+    0% { transform: translateY(26px); opacity: 0.8; }
+    50% { transform: translateY(10px); opacity: 0.9; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes toggleKnobDown {
+    0% { transform: translateY(0); opacity: 0.8; }
+    50% { transform: translateY(16px); opacity: 0.9; }
+    100% { transform: translateY(26px); opacity: 1; }
+}
+
+@keyframes toggleLabelIn {
+    0% { opacity: 0.6; transform: translateX(-5px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes toggleLabelOut {
+    0% { opacity: 1; transform: translateX(0); }
+    100% { opacity: 0.6; transform: translateX(-5px); }
+}
+
+/* Enhanced slider effect for regular toggles */
+.switch input:checked + .slider:before {
+    animation: toggleKnobDown 0.3s cubic-bezier(0.25, 0.1, 0.25, 1.4) forwards;
+}
+
+.switch input:not(:checked) + .slider:before {
+    animation: toggleKnobUp 0.3s cubic-bezier(0.25, 0.1, 0.25, 1.4) forwards;
+}
+
+/* Inverted slider effect for color toggle */
+#color-toggle-container .switch input:checked + .slider:before {
+    animation: toggleKnobUp 0.3s cubic-bezier(0.25, 0.1, 0.25, 1.4) forwards;
+}
+
+#color-toggle-container .switch input:not(:checked) + .slider:before {
+    animation: toggleKnobDown 0.3s cubic-bezier(0.25, 0.1, 0.25, 1.4) forwards;
+}
+
+/* Toggle state animations */
+.toggle-state.active {
+    animation: toggleLabelIn 0.3s ease forwards;
+}
+
+.toggle-state.inactive {
+    animation: toggleLabelOut 0.3s ease forwards;
 } 
