@@ -22,7 +22,7 @@ import {
     getMaxCharacters,
     decrementCharacterCount
 } from '../state/characterState.js';
-import { initCustomTagAutocomplete } from '../../customCharacter/ui/autocomplete.js';
+import { initCustomTagAutocomplete, getAllCharacterTags } from '../../customCharacter/ui/autocomplete.js';
 import { createSearchBar } from '../search/searchBarComponent.js';
 import { createFilterPanel } from '../search/filterPanelComponent.js';
 
@@ -227,6 +227,12 @@ export function addCharacterBlock() {
             return Array.from(pills).some(pill => 
                 (pill.dataset.originalTag || pill.textContent.replace('×', '').trim()) === tag
             );
+        },
+        // Pass function to get character tags excluding this character block
+        () => {
+            // We don't need to check for tags in other characters
+            // Just return an empty array as we're handling duplicates with the isDuplicateCallback above
+            return [];
         }
     );
 

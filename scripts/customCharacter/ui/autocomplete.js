@@ -14,8 +14,9 @@ import { searchTags, createTagPill, formatTag } from '../utils/tagUtils.js';
  * @param {HTMLElement} pillContainer - The container for tag pills
  * @param {Function} onChangeCallback - Callback function when tags are added/removed
  * @param {Function} isDuplicateCallback - Optional callback to check if a tag is a duplicate
+ * @param {Function} getExternalTagsCallback - Optional callback to get tags from other sources (like base character)
  */
-export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillContainer, onChangeCallback, isDuplicateCallback) {
+export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillContainer, onChangeCallback, isDuplicateCallback, getExternalTagsCallback) {
     // Listen for input events
     inputEl.addEventListener('input', function () {
         const query = inputEl.value.trim();
@@ -28,13 +29,19 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
         const existingTags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
             .map(pill => pill.dataset.originalTag);
 
+        // Get external tags (like base character tags) if callback is provided
+        const externalTags = typeof getExternalTagsCallback === 'function' 
+            ? getExternalTagsCallback() 
+            : [];
+
         // Search using tagUtils
         const results = searchTags(query);
         console.log("Search results:", results);
 
-        // Filter out existing tags from results
+        // Filter out existing tags and external tags from results
         const filteredResults = results.filter(result => 
-            !existingTags.includes(result.item.name));
+            !existingTags.includes(result.item.name) && 
+            !externalTags.includes(result.item.name));
 
         // Clear any previous positioning
         suggestionContainer.style.display = 'block';
@@ -95,8 +102,14 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
             const existingTags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
                 .map(pill => pill.dataset.originalTag);
             
-            // Check if the tag is a duplicate using the callback if provided
+            // Get external tags (like base character tags) if callback is provided
+            const externalTags = typeof getExternalTagsCallback === 'function' 
+                ? getExternalTagsCallback() 
+                : [];
+            
+            // Check if the tag is a duplicate using the callback or if it exists in custom or external tags
             const isDuplicate = existingTags.includes(text) || 
+                externalTags.includes(text) ||
                 (typeof isDuplicateCallback === 'function' && isDuplicateCallback(text));
             
             if (!isDuplicate) {
@@ -174,4 +187,41 @@ export function addAutocompleteStyling() {
         }
     `;
     document.head.appendChild(style);
+}
+
+/**
+ * Utility function to get all tags from character blocks
+ * 
+ * @param {string|number} [characterId] - Optional character ID to get tags only from that character
+ * @return {Array} - Array of tags from character blocks
+ */
+export function getAllCharacterTags(characterId) {
+    const characterTags = [];
+    const maxCharacters = 4; // This should match the value in characterState.js
+    
+    // Process standard character blocks
+    for (let i = 1; i <= maxCharacters; i++) {
+        // Skip if we're looking for a specific character and this isn't it
+        if (characterId !== undefined && i !== parseInt(characterId)) {
+            continue;
+        }
+        
+        const block = document.getElementById('character-' + i);
+        if (!block) continue;
+        
+        // Check for the pill container which holds all the character tags
+        const pillContainer = block.querySelector('.custom-pill-container');
+        if (!pillContainer) continue;
+        
+        // Get all tag pills (both default and custom)
+        const tagPills = pillContainer.querySelectorAll('.custom-tag-pill');
+        
+        Array.from(tagPills).forEach(tagElement => {
+            // Get the original tag from data attribute or text content (removing the × if present)
+            const tagText = tagElement.dataset.originalTag || tagElement.textContent.replace('×', '').trim();
+            characterTags.push(tagText);
+        });
+    }
+    
+    return characterTags;
 } 

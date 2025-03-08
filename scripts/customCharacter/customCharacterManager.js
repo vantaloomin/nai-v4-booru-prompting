@@ -4,7 +4,7 @@
  * Manages custom character blocks, state, and provides the main API for custom character functionality.
  */
 
-import { initCustomTagAutocomplete, addAutocompleteStyling } from './ui/autocomplete.js';
+import { initCustomTagAutocomplete, addAutocompleteStyling, getAllCharacterTags } from './ui/autocomplete.js';
 import { showMaxCharacterWarning } from '../utils/modal.js';
 
 // Custom character state
@@ -121,7 +121,12 @@ export function addCustomCharacterBlock() {
         suggestionContainer, 
         pillContainer, 
         updateActionAssignmentsCallback,
-        null // No duplicate check for custom characters
+        null, // No duplicate check for custom characters
+        () => {
+            // Get the corresponding base character ID based on the custom character ID
+            // For simplicity, custom character 1 corresponds to base character 1, and so on
+            return getAllCharacterTags(blockId);
+        }
     );
 
     blockDiv.appendChild(contentDiv);

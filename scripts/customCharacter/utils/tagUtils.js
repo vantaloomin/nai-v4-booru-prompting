@@ -11,22 +11,76 @@ let allTags = [];
 let customTagFuse = null;
 
 /**
- * Loads all tags from the JSON file
+ * Loads all tags from the CSV files
  * 
  * @return {Promise} - Promise that resolves when tags are loaded
  */
 export function loadAllTags() {
-    return fetch('scripts/allTags.json')
-        .then(response => response.json())
-        .then(data => {
-            allTags = data;
-            console.log("allTags loaded:", allTags.length);
+    const csvFiles = [
+        'scripts/custom/appearance_with_count.csv',
+        'scripts/custom/attire_with_count.csv',
+        'scripts/custom/character_with_count.csv', 
+        'scripts/custom/expression_with_count.csv',
+        'scripts/custom/genre_with_count.csv',
+        'scripts/custom/object_with_count.csv',
+        'scripts/custom/perspective_with_count.csv'
+    ];
+    
+    // Function to parse a CSV file into tag objects
+    const parseCSV = async (url) => {
+        try {
+            const response = await fetch(url);
+            const text = await response.text();
+            
+            // Simple CSV parsing (assumes comma-separated values with no commas in the values)
+            const lines = text.split('\n').filter(line => line.trim());
+            
+            // Skip header if it exists (first line)
+            const dataLines = lines[0].includes('tag,count') ? lines.slice(1) : lines;
+            
+            return dataLines.map(line => {
+                const [name, count] = line.split(',');
+                return { name: name.trim(), count: parseInt(count || '0', 10) };
+            });
+        } catch (error) {
+            console.error(`Error loading CSV file ${url}:`, error);
+            return [];
+        }
+    };
+    
+    // Load all CSV files and merge the results
+    const promises = csvFiles.map(parseCSV);
+    
+    return Promise.all(promises)
+        .then(results => {
+            // Flatten the array of arrays and remove duplicates
+            const allTagsWithDuplicates = results.flat();
+            
+            // Create a Map to deduplicate tags by name
+            const tagMap = new Map();
+            allTagsWithDuplicates.forEach(tag => {
+                // If tag already exists, keep the one with higher count
+                if (tagMap.has(tag.name)) {
+                    const existingTag = tagMap.get(tag.name);
+                    if (tag.count > existingTag.count) {
+                        tagMap.set(tag.name, tag);
+                    }
+                } else {
+                    tagMap.set(tag.name, tag);
+                }
+            });
+            
+            // Convert Map back to array
+            allTags = Array.from(tagMap.values());
+            
+            console.log("Tags loaded from CSV files:", allTags.length);
+            
             // Initialize Fuse after tags are loaded
             initCustomTagFuse();
             return allTags;
         })
         .catch(error => {
-            console.error("Error loading allTags:", error);
+            console.error("Error loading tags from CSV files:", error);
             return [];
         });
 }
