@@ -12,7 +12,9 @@ import {
 import { getCharacterSubjects } from './data/characterSubjects.js';
 import { 
     getCurrentCharacterCount,
-    getMaxCharacters
+    getMaxCharacters,
+    getTotalCharacterCount,
+    wouldExceedMaxCharacters
 } from './state/characterState.js';
 import { cleanDisplayName } from './utils/nameFormatter.js';
 import { closeAllDropdowns, updateAgeUpToggle } from './ui/dropdowns.js';
@@ -30,6 +32,8 @@ window.closeAllDropdowns = closeAllDropdowns;
 window.updateAgeUpToggle = updateAgeUpToggle;
 window.getCurrentCharacterCount = getCurrentCharacterCount;
 window.getMaxCharacters = getMaxCharacters;
+window.getTotalCharacterCount = getTotalCharacterCount;
+window.wouldExceedMaxCharacters = wouldExceedMaxCharacters;
 
 // Export the module functions directly for ES module imports
 export {
@@ -38,6 +42,8 @@ export {
     getCharacterSubjects,
     getCurrentCharacterCount,
     getMaxCharacters,
+    getTotalCharacterCount,
+    wouldExceedMaxCharacters,
     cleanDisplayName,
     closeAllDropdowns,
     updateAgeUpToggle

@@ -6,12 +6,27 @@ function generateFullRandomPrompt() {
     // Clear existing character blocks and reset characterCount.
     const charContainer = document.getElementById('characters-container');
     charContainer.innerHTML = "";
+    
+    // Reset both standard and custom character counts
     characterCount = 0;
+    
+    // Also reset the character count in the state modules if their reset functions are available
+    if (typeof window.setCharacterCount === 'function') {
+        window.setCharacterCount(0);
+    }
+    
+    if (typeof window.setCustomCharacterCount === 'function') {
+        window.setCustomCharacterCount(0);
+    }
 
     // Clear existing actions.
     const actionContainer = document.getElementById('actions-container');
-    actionContainer.innerHTML = "";
-    actionCount = 0;
+    if (actionContainer) {
+        actionContainer.innerHTML = "";
+    }
+    if (typeof actionCount !== 'undefined') {
+        actionCount = 0;
+    }
 
     // Add numCharacters random character blocks.
     for (let i = 0; i < numCharacters; i++) {

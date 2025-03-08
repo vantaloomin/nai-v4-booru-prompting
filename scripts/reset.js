@@ -5,6 +5,10 @@
 
 // Import modal utilities
 import { showResetSuccessModal } from './utils/modal.js';
+// Import character state management function
+import { setCharacterCount } from './character/state/characterState.js';
+// Import custom character state management function
+import { setCustomCharacterCount } from './customCharacter/customCharacterManager.js';
 
 document.addEventListener("DOMContentLoaded", function () {
   // Get the reset button
@@ -143,6 +147,15 @@ document.addEventListener("DOMContentLoaded", function () {
     if (ignoreSceneCheckbox) {
       ignoreSceneCheckbox.checked = false;
     }
+
+    // Reset character count to 0 using the character state module
+    setCharacterCount(0);
+
+    // Reset custom character count to 0
+    setCustomCharacterCount(0);
+
+    // Reset window.characterCount global variable to ensure everything is synced
+    window.characterCount = 0;
 
     // Reset any global variables that might be tracking state
     // This depends on how the app is structured, but we can reset common counters

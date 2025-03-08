@@ -27,6 +27,30 @@ export function getMaxCharacters() {
 }
 
 /**
+ * Returns the total character count including both standard and custom characters
+ * 
+ * @return {number} - Total number of character blocks
+ */
+export function getTotalCharacterCount() {
+    // Get the custom character count from the custom character module if available
+    let customCount = 0;
+    if (typeof window.getCurrentCustomCharacterCount === 'function') {
+        customCount = window.getCurrentCustomCharacterCount();
+    }
+    
+    return characterCount + customCount;
+}
+
+/**
+ * Checks if adding another character would exceed the maximum
+ * 
+ * @return {boolean} - True if adding another character would exceed the maximum
+ */
+export function wouldExceedMaxCharacters() {
+    return getTotalCharacterCount() >= maxCharacters;
+}
+
+/**
  * Increments the character count
  * 
  * @return {number} - The updated character count

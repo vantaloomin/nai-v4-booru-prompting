@@ -32,10 +32,10 @@ import { createFilterPanel } from '../search/filterPanelComponent.js';
  * @return {number|null} - The ID of the new character block or null if max reached
  */
 export function addCharacterBlock() {
-    const characterCount = getCurrentCharacterCount();
     const maxCharacters = getMaxCharacters();
     
-    if (characterCount >= maxCharacters) {
+    // Check if adding another character would exceed the maximum total (including custom characters)
+    if (wouldExceedMaxCharacters()) {
         showMaxCharacterWarning(maxCharacters);
         return null;
     }

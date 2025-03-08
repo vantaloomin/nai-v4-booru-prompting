@@ -17,7 +17,12 @@ const maxCharacters = 4;
  * @return {number|null} - The ID of the new custom character block or null if max reached
  */
 export function addCustomCharacterBlock() {
-    if (characterCount >= maxCharacters) {
+    // Check if adding another character would exceed the maximum total (including standard characters)
+    if (typeof window.wouldExceedMaxCharacters === 'function' && window.wouldExceedMaxCharacters()) {
+        showMaxCharacterWarning(maxCharacters);
+        return null;
+    } else if (characterCount >= maxCharacters) {
+        // Fallback to local count check if the global function is not available
         showMaxCharacterWarning(maxCharacters);
         return null;
     }
@@ -208,18 +213,27 @@ function updateActionAssignmentsCallback() {
 }
 
 /**
- * Get the current count of custom characters
+ * Returns the current custom character count
  * 
- * @returns {number} The current count of custom characters
+ * @return {number} - Current number of custom character blocks
  */
 export function getCurrentCustomCharacterCount() {
     return characterCount;
 }
 
 /**
- * Get the maximum allowed number of custom characters
+ * Sets the custom character count to a specific value
  * 
- * @returns {number} The maximum allowed number of custom characters
+ * @param {number} count - The new custom character count
+ */
+export function setCustomCharacterCount(count) {
+    characterCount = count;
+}
+
+/**
+ * Returns the maximum allowed custom character count
+ * 
+ * @return {number} - Maximum number of allowed custom character blocks
  */
 export function getMaxCustomCharacters() {
     return maxCharacters;

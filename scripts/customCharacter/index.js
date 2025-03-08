@@ -8,7 +8,8 @@
 import { 
     addCustomCharacterBlock,
     getCurrentCustomCharacterCount,
-    getMaxCustomCharacters
+    getMaxCustomCharacters,
+    setCustomCharacterCount
 } from './customCharacterManager.js';
 import { 
     loadAllTags, 
@@ -22,6 +23,7 @@ window.maxCharacters = 4;  // This is now a constant in the module
 
 // Export functions to the global scope for backward compatibility
 window.addCustomCharacterBlock = addCustomCharacterBlock;
+window.setCustomCharacterCount = setCustomCharacterCount;
 
 // Export tag utility functions to global scope
 window.formatTag = formatTag;
@@ -43,5 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
 export {
     addCustomCharacterBlock,
     getCurrentCustomCharacterCount,
-    getMaxCustomCharacters
+    getMaxCustomCharacters,
+    setCustomCharacterCount
 }; 
