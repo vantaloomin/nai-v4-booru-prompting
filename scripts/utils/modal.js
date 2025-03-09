@@ -197,7 +197,7 @@ export function showResetSuccessModal() {
     try {
         return showModal({
             title: 'Reset Complete',
-            message: 'Page has been reset successfully!',
+            message: 'Page has been reset successfully! All characters, artists, scenes, prompts, and toggles have been reset to their default states.',
             type: 'success',
             autoCloseDelay: 2000,
             onClose: () => {

@@ -9,6 +9,8 @@ import { showResetSuccessModal } from './utils/modal.js';
 import { setCharacterCount } from './character/state/characterState.js';
 // Import custom character state management function
 import { setCustomCharacterCount } from './customCharacter/customCharacterManager.js';
+// Import toggle manager to reset toggles
+import { initializeToggles } from './toggle-manager.js';
 
 document.addEventListener("DOMContentLoaded", function () {
   // Get the reset button
@@ -47,9 +49,9 @@ document.addEventListener("DOMContentLoaded", function () {
     title.textContent = 'Reset Confirmation';
     modalContainer.appendChild(title);
 
-    // Create modal content
+    // Create modal content - Update to include toggles
     const content = document.createElement('p');
-    content.textContent = 'Are you sure you want to reset the page? This will clear all characters, artists, scenes, and generated prompts.';
+    content.textContent = 'Are you sure you want to reset the page? This will clear all characters, artists, scenes, generated prompts, and reset all settings to their initial states.';
     content.style.marginBottom = '20px';
     modalContainer.appendChild(content);
 
@@ -148,6 +150,9 @@ document.addEventListener("DOMContentLoaded", function () {
       ignoreSceneCheckbox.checked = false;
     }
 
+    // Reset toggles to their default states
+    resetToggles();
+
     // Reset character count to 0 using the character state module
     setCharacterCount(0);
 
@@ -165,5 +170,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Show confirmation message
     showResetSuccessModal();
+  }
+
+  // Function to reset all toggles to their default states
+  function resetToggles() {
+    // Get all toggle elements
+    const nsfwToggle = document.getElementById('nsfw-toggle');
+    const colorToggle = document.getElementById('color-toggle');
+    const modeToggle = document.getElementById('mode-toggle');
+    
+    // Reset toggles to their default states
+    if (nsfwToggle) {
+      nsfwToggle.checked = false; // SFW Mode
+      // Trigger change event to update the UI
+      nsfwToggle.dispatchEvent(new Event('change'));
+    }
+    
+    if (colorToggle) {
+      colorToggle.checked = true; // Colored Text
+      // Trigger change event to update the UI
+      colorToggle.dispatchEvent(new Event('change'));
+    }
+    
+    if (modeToggle) {
+      modeToggle.checked = false; // NovelAI
+      // Trigger change event to update the UI
+      modeToggle.dispatchEvent(new Event('change'));
+    }
   }
 }); 
