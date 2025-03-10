@@ -48,6 +48,7 @@ function processCSVText(csvText) {
     const actionSet = new Set();
     const allActionSet = new Set();
     const metadata = {};
+    let explicitCount = 0;
     
     for (let i = 1; i < lines.length; i++) {
         const line = lines[i].trim();
@@ -56,7 +57,12 @@ function processCSVText(csvText) {
         const columns = line.split(',');
         if (columns.length >= 4) {
             const actionName = columns[0].trim();
-            const isExplicit = columns[3].trim().toLowerCase() === 'true';
+            // Ensure we properly parse the explicit flag
+            let isExplicit = false;
+            if (columns[3]) {
+                const explicitValue = columns[3].trim().toLowerCase();
+                isExplicit = (explicitValue === 'true' || explicitValue === '1' || explicitValue === 'yes');
+            }
             
             if (actionName) {
                 // Add to all actions set
@@ -65,6 +71,8 @@ function processCSVText(csvText) {
                 // Add to filtered set if not explicit
                 if (!isExplicit) {
                     actionSet.add(actionName);
+                } else {
+                    explicitCount++;
                 }
                 
                 // Store metadata
@@ -77,6 +85,8 @@ function processCSVText(csvText) {
             }
         }
     }
+    
+    console.log(`Found ${explicitCount} explicit actions out of ${allActionSet.size} total actions`);
     
     if (allActionSet.size === 0) {
         console.error("No valid actions found in CSV");
@@ -95,19 +105,26 @@ function processCSVText(csvText) {
  * Updates the action list based on the NSFW mode toggle
  */
 export function updateActionListBasedOnNSFWMode() {
-    const nsfwModeEnabled = document.getElementById('nsfw-toggle')?.checked || false;
+    const nsfwToggle = document.getElementById('nsfw-toggle');
+    const nsfwModeEnabled = nsfwToggle?.checked || false;
+    
+    console.log(`NSFW Mode: ${nsfwModeEnabled ? 'Enabled' : 'Disabled'}`);
     
     if (nsfwModeEnabled) {
         // If NSFW mode is on, use the full action list
         actionList = [...fullActionList];
+        console.log(`Using full action list with ${actionList.length} actions`);
     } else {
         // If NSFW mode is off, filter out explicit actions
-        actionList = fullActionList.filter(action => !actionMetadata[action]?.explicit);
+        const filteredActions = fullActionList.filter(action => {
+            return !actionMetadata[action]?.explicit;
+        });
+        actionList = filteredActions;
+        console.log(`Filtered action list now has ${actionList.length} actions (removed ${fullActionList.length - actionList.length} explicit actions)`);
     }
     
     // Notify that actions have been updated
     window.dispatchEvent(new Event('actionsUpdated'));
-    console.log(`Action list updated based on NSFW mode (${nsfwModeEnabled ? 'on' : 'off'}): ${actionList.length} actions`);
 }
 
 /**
@@ -165,10 +182,22 @@ export async function loadActionsFromCSV() {
                 actionMetadata = metadata;
                 
                 // Initialize the filtered action list based on NSFW mode
-                const nsfwModeEnabled = document.getElementById('nsfw-toggle')?.checked || false;
-                actionList = nsfwModeEnabled ? fullActions : actions;
+                const nsfwToggle = document.getElementById('nsfw-toggle');
+                const nsfwModeEnabled = nsfwToggle?.checked || false;
+                console.log(`Initial NSFW mode when loading actions: ${nsfwModeEnabled ? 'Enabled' : 'Disabled'}`);
+                
+                // Ensure explicit actions are filtered if in SFW mode
+                if (nsfwModeEnabled) {
+                    actionList = [...fullActions];
+                } else {
+                    // Apply strict filtering to ensure explicit tags are removed
+                    actionList = fullActions.filter(action => {
+                        return !actionMetadata[action]?.explicit;
+                    });
+                }
                 
                 console.log(`Loaded ${actionList.length}/${fullActionList.length} actions from CSV file at ${path}`);
+                console.log(`${fullActionList.length - actionList.length} explicit actions filtered out in SFW mode`);
                 loaded = true;
                 
                 // Notify that actions have been loaded
@@ -214,10 +243,22 @@ leaning_forward,action,pose,false,119783`;
             actionMetadata = metadata;
             
             // Initialize the filtered action list based on NSFW mode
-            const nsfwModeEnabled = document.getElementById('nsfw-toggle')?.checked || false;
-            actionList = nsfwModeEnabled ? fullActions : actions;
+            const nsfwToggle = document.getElementById('nsfw-toggle');
+            const nsfwModeEnabled = nsfwToggle?.checked || false;
+            console.log(`Initial NSFW mode when loading fallback actions: ${nsfwModeEnabled ? 'Enabled' : 'Disabled'}`);
+            
+            // Ensure explicit actions are filtered if in SFW mode
+            if (nsfwModeEnabled) {
+                actionList = [...fullActions];
+            } else {
+                // Apply strict filtering to ensure explicit tags are removed
+                actionList = fullActions.filter(action => {
+                    return !actionMetadata[action]?.explicit;
+                });
+            }
             
             console.log(`Loaded ${actionList.length}/${fullActionList.length} actions from fallback CSV method`);
+            console.log(`${fullActionList.length - actionList.length} explicit actions filtered out in SFW mode`);
             loaded = true;
             
             // Notify that actions have been loaded
@@ -232,5 +273,27 @@ leaning_forward,action,pose,false,119783`;
     }
 }
 
-// Load actions immediately when this module is imported
-loadActionsFromCSV();
+// Modify this section to ensure the toggle is initialized before loading actions
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM loaded, waiting for NSFW toggle initialization...');
+    
+    // Listen for the NSFW toggle ready event (if available)
+    window.addEventListener('nsfwToggleReady', () => {
+        console.log('NSFW toggle ready event received, loading actions...');
+        loadActionsFromCSV();
+    }, { once: true });
+    
+    // Fallback: If toggle ready event isn't fired within 500ms, load actions anyway
+    setTimeout(() => {
+        if (actionList.length === 0) {
+            console.log('No NSFW toggle ready event received, loading actions with fallback...');
+            loadActionsFromCSV();
+        }
+    }, 500);
+});
+
+// For direct imports (if DOM is already loaded), handle immediate loading
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    console.log('Document already ready, loading actions after brief delay...');
+    setTimeout(loadActionsFromCSV, 100);
+}

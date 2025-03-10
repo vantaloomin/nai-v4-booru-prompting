@@ -6,6 +6,10 @@
  */
 
 import { updateActionListBasedOnNSFWMode } from './data/actionList.js';
+import { updateTagListBasedOnNSFWMode } from './customCharacter/utils/tagUtils.js';
+
+// Create a global event to inform the system when the toggle is ready
+export const nsfwToggleReadyEvent = new Event('nsfwToggleReady');
 
 /**
  * Initialize the NSFW toggle functionality
@@ -19,14 +23,38 @@ function initNSFWToggle() {
         return;
     }
     
-    // Set initial state
+    console.log('Initializing NSFW toggle');
+    
+    // Set initial state - default to SFW mode (false)
     nsfwToggle.checked = false;
     updateLabel();
     
+    // Force a full update of all lists after toggle initialization
+    setTimeout(() => {
+        console.log('NSFW system initialized (SFW mode active)');
+        updateActionListBasedOnNSFWMode();
+        
+        try {
+            updateTagListBasedOnNSFWMode();
+        } catch (error) {
+            console.warn('Tag list update error:', error.message);
+        }
+        
+        window.dispatchEvent(nsfwToggleReadyEvent);
+    }, 100);
+    
     // Add change event listener
     nsfwToggle.addEventListener('change', function() {
+        const mode = nsfwToggle.checked ? 'NSFW' : 'SFW';
+        console.log(`Content filter mode changed: ${mode}`);
         updateLabel();
         updateActionListBasedOnNSFWMode();
+        
+        try {
+            updateTagListBasedOnNSFWMode();
+        } catch (error) {
+            console.warn('Tag list update error:', error.message);
+        }
     });
     
     // Update the label based on the toggle state
@@ -53,8 +81,13 @@ document.addEventListener('DOMContentLoaded', initNSFWToggle);
 
 // Initialize when actions are loaded
 window.addEventListener('actionsLoaded', function() {
-    // Update action list based on current NSFW toggle state
+    console.log('Actions loaded event received, updating action list based on current NSFW state');
     updateActionListBasedOnNSFWMode();
+});
+
+// Initialize when tags are loaded
+window.addEventListener('tagsUpdated', function() {
+    // No need to log anything here
 });
 
 export { updateActionListBasedOnNSFWMode }; 

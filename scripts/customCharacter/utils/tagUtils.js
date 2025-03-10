@@ -7,8 +7,14 @@
 // Global variable for all tags
 let allTags = [];
 
+// Store all tags including explicit ones
+let allTagsWithExplicit = [];
+
 // Fuse instance for tag search
 let customTagFuse = null;
+
+// Import the NSFW toggle event to coordinate initialization
+import { nsfwToggleReadyEvent } from '../../nsfw-toggle.js';
 
 /**
  * Loads all tags from the CSV files
@@ -32,15 +38,55 @@ export function loadAllTags() {
             const response = await fetch(url);
             const text = await response.text();
             
-            // Simple CSV parsing (assumes comma-separated values with no commas in the values)
+            // More robust CSV parsing
             const lines = text.split('\n').filter(line => line.trim());
             
-            // Skip header if it exists (first line)
-            const dataLines = lines[0].includes('tag,count') ? lines.slice(1) : lines;
+            // Check if we have a header row and determine column positions
+            let nameIndex = 0;
+            let countIndex = 1;
+            let explicitIndex = -1; // -1 means not found
+            
+            // Parse header if it exists
+            if (lines.length > 0 && lines[0].includes('name') || lines[0].includes('tag')) {
+                const header = lines[0].toLowerCase().split(',');
+                
+                // Find the index of each column
+                nameIndex = header.findIndex(col => col.includes('name') || col.includes('tag'));
+                countIndex = header.findIndex(col => col.includes('count'));
+                explicitIndex = header.findIndex(col => col.includes('explicit'));
+                
+                // Default indexes if not found
+                if (nameIndex === -1) nameIndex = 0;
+                if (countIndex === -1) countIndex = 1;
+            }
+            
+            // Skip header if it exists
+            const dataLines = lines[0].includes('name') || lines[0].includes('tag') ? lines.slice(1) : lines;
             
             return dataLines.map(line => {
-                const [name, count] = line.split(',');
-                return { name: name.trim(), count: parseInt(count || '0', 10) };
+                const columns = line.split(',').map(col => col.trim());
+                
+                // Extract values from their detected positions
+                const name = columns[nameIndex] || '';
+                const count = parseInt(columns[countIndex] || '0', 10);
+                
+                // Check for explicit flag if it exists
+                let isExplicit = false;
+                if (explicitIndex !== -1 && columns[explicitIndex]) {
+                    const explicitValue = columns[explicitIndex].toLowerCase();
+                    isExplicit = (explicitValue === 'true' || explicitValue === '1' || explicitValue === 'yes');
+                } else {
+                    // If there's no explicit column, use a heuristic based on common explicit terms
+                    // This is a fallback for CSV files that don't have an explicit flag
+                    const explicitTerms = ['nsfw', 'explicit', 'adult', 'xxx', 'sex', 'nude', 'naked', 'hentai', 'porn'];
+                    isExplicit = explicitTerms.some(term => name.toLowerCase().includes(term));
+                }
+                
+                return { 
+                    name: name.trim(), 
+                    count: count,
+                    explicit: isExplicit 
+                };
             });
         } catch (error) {
             console.error(`Error loading CSV file ${url}:`, error);
@@ -63,17 +109,34 @@ export function loadAllTags() {
                 if (tagMap.has(tag.name)) {
                     const existingTag = tagMap.get(tag.name);
                     if (tag.count > existingTag.count) {
-                        tagMap.set(tag.name, tag);
+                        // Keep explicit status from either tag
+                        const isExplicit = existingTag.explicit || tag.explicit;
+                        tagMap.set(tag.name, {...tag, explicit: isExplicit});
                     }
                 } else {
                     tagMap.set(tag.name, tag);
                 }
             });
             
-            // Convert Map back to array
-            allTags = Array.from(tagMap.values());
+            // Store all tags including explicit ones
+            allTagsWithExplicit = Array.from(tagMap.values());
             
-            console.log("Tags loaded from CSV files:", allTags.length);
+            // Check NSFW toggle state to determine which tags to use
+            const nsfwToggle = document.getElementById('nsfw-toggle');
+            const nsfwModeEnabled = nsfwToggle?.checked || false;
+            
+            // Filter out explicit tags if SFW mode is active
+            if (!nsfwModeEnabled) {
+                // Apply strict filtering to ensure explicit tags are removed
+                allTags = allTagsWithExplicit.filter(tag => !tag.explicit);
+                console.log(`SFW mode active: ${allTagsWithExplicit.length - allTags.length} explicit tags filtered out`);
+            } else {
+                // Use all tags in NSFW mode
+                allTags = [...allTagsWithExplicit];
+                console.log('NSFW mode active: Using all tags');
+            }
+            
+            console.log(`Tags loaded from CSV files: ${allTags.length} tags (${allTagsWithExplicit.length} total)`);
             
             // Initialize Fuse after tags are loaded
             initCustomTagFuse();
@@ -83,6 +146,29 @@ export function loadAllTags() {
             console.error("Error loading tags from CSV files:", error);
             return [];
         });
+}
+
+/**
+ * Updates the tag list based on the NSFW mode toggle
+ */
+export function updateTagListBasedOnNSFWMode() {
+    const nsfwToggle = document.getElementById('nsfw-toggle');
+    const nsfwModeEnabled = nsfwToggle?.checked || false;
+    
+    const originalCount = allTags.length;
+    
+    if (nsfwModeEnabled) {
+        // If NSFW mode is on, use all tags
+        allTags = [...allTagsWithExplicit];
+    } else {
+        // If NSFW mode is off, filter out explicit tags
+        allTags = allTagsWithExplicit.filter(tag => !tag.explicit);
+    }
+    
+    // Reinitialize Fuse with the updated tag list
+    initCustomTagFuse();
+    
+    console.log(`Tag list updated: ${allTags.length} tags visible (${nsfwModeEnabled ? 'NSFW mode' : 'SFW mode - filtered ' + (allTagsWithExplicit.length - allTags.length) + ' explicit tags'})`);
 }
 
 /**
@@ -101,7 +187,7 @@ function initCustomTagFuse() {
 
     // Create Fuse instance once tags are loaded
     customTagFuse = new Fuse(allTags, customFuseOptions);
-    console.log("Custom tag Fuse initialized");
+    console.log("Custom tag search initialized");
 }
 
 /**
@@ -229,4 +315,4 @@ export function detectGenderFromTag(tag) {
     }
     
     return null;
-} 
+}
