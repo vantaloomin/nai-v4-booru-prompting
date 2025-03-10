@@ -391,6 +391,15 @@ function updateSearchStyle(searchInput, indicator) {
  * @param {Object} character - Selected character data
  */
 export function selectCharacter(blockId, character) {
+    // Import logger for character selection logging
+    import('../../utils/logger-init.js').then(module => {
+        const logger = module.default;
+        // Log character selection with complete character data
+        logger.group('Character Selected');
+        logger.info(`Character selected for block ${blockId}`, character);
+        logger.groupEnd();
+    });
+    
     // Update the character block title
     const blockTitle = document.querySelector(`#character-${blockId} .block-title`);
     if (blockTitle) {

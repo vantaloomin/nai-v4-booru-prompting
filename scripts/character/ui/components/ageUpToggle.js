@@ -60,6 +60,15 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             if (charData) {
                 logger.debug(`Age Up change event for ID ${id}. Checked: ${this.checked}`);
                 
+                // Log the age up change
+                logger.batch(
+                    `character-update-${id}`,
+                    logger.LOG_LEVELS.INFO,
+                    'info',
+                    `Character ${selectedCharacterName} updated`,
+                    `ageUp: ${this.checked ? 'enabled' : 'disabled'}`
+                );
+                
                 // Refresh default tags with the new age up setting
                 populateDefaultTagPills(id, charData);
             }

@@ -46,27 +46,27 @@ export function populateDefaultTagPills(id, characterData) {
     
     // Add the gender count tag (1girl, 1boy, 1other)
     const genderTag = `1${selectedGender}`;
-    createTagPill(genderTag, pillContainer, null, true);
+    createTagPill(genderTag, pillContainer, null, true, id);
     
     // Add genderswap tags if the selected gender is different from default
     const defaultGender = characterData.defaultGender || 'girl';
     if (selectedGender !== defaultGender) {
         // Add generic genderswap tag
-        createTagPill('genderswap', pillContainer, null, true);
+        createTagPill('genderswap', pillContainer, null, true, id);
         
         // Add specific directional genderswap tag
         if (defaultGender === 'boy' && selectedGender === 'girl') {
-            createTagPill('genderswap mtf', pillContainer, null, true);
+            createTagPill('genderswap mtf', pillContainer, null, true, id);
         } else if (defaultGender === 'girl' && selectedGender === 'boy') {
-            createTagPill('genderswap ftm', pillContainer, null, true);
+            createTagPill('genderswap ftm', pillContainer, null, true, id);
         } else if (defaultGender === 'boy' && selectedGender === 'other') {
-            createTagPill('genderswap mto', pillContainer, null, true);
+            createTagPill('genderswap mto', pillContainer, null, true, id);
         } else if (defaultGender === 'girl' && selectedGender === 'other') {
-            createTagPill('genderswap fto', pillContainer, null, true);
+            createTagPill('genderswap fto', pillContainer, null, true, id);
         } else if (defaultGender === 'other' && selectedGender === 'boy') {
-            createTagPill('genderswap otm', pillContainer, null, true);
+            createTagPill('genderswap otm', pillContainer, null, true, id);
         } else if (defaultGender === 'other' && selectedGender === 'girl') {
-            createTagPill('genderswap otf', pillContainer, null, true);
+            createTagPill('genderswap otf', pillContainer, null, true, id);
         }
     }
     
@@ -74,13 +74,13 @@ export function populateDefaultTagPills(id, characterData) {
     const ageUpInput = document.getElementById(`age-up-input-${id}`);
     if (ageUpInput && ageUpInput.checked) {
         // Always add the generic "aged up" tag first
-        createTagPill('aged up', pillContainer, null, true);
+        createTagPill('aged up', pillContainer, null, true, id);
         
         // Then add the gender-specific tag
         if (selectedGender === 'girl') {
-            createTagPill('mature female', pillContainer, null, true);
+            createTagPill('mature female', pillContainer, null, true, id);
         } else if (selectedGender === 'boy') {
-            createTagPill('mature male', pillContainer, null, true);
+            createTagPill('mature male', pillContainer, null, true, id);
         }
     }
     
@@ -90,14 +90,14 @@ export function populateDefaultTagPills(id, characterData) {
         const selectedBreastSize = document.querySelector(`input[name="breast-size-${id}"]:checked`);
         if (selectedBreastSize && selectedBreastSize.value !== 'no breasts') {
             // Only add the breast size tag if it's not "OFF" (no breasts)
-            createTagPill(selectedBreastSize.value, pillContainer, null, true);
+            createTagPill(selectedBreastSize.value, pillContainer, null, true, id);
         }
     }
     
     // Add each comma-separated term in mainTags AFTER Age Up and Breast Size
     const mainTags = characterData.mainTags ? characterData.mainTags.split(',').map(tag => tag.trim()).filter(tag => tag) : [];
     mainTags.forEach(tag => {
-        createTagPill(tag, pillContainer, null, true);
+        createTagPill(tag, pillContainer, null, true, id);
     });
     
     // Check for enhancer tags
@@ -109,7 +109,7 @@ export function populateDefaultTagPills(id, characterData) {
         // Parse enhancer text and add non "--term" tags
         const enhancerTags = enhancerText.split(',').map(tag => tag.trim()).filter(tag => tag && !tag.startsWith('--'));
         enhancerTags.forEach(tag => {
-            createTagPill(tag, pillContainer, null, true);
+            createTagPill(tag, pillContainer, null, true, id);
         });
     }
     
@@ -120,7 +120,7 @@ export function populateDefaultTagPills(id, characterData) {
     // Re-add custom (user-added) tags, avoiding duplicates with default tags
     customTags.forEach(tagText => {
         if (!defaultTagsAdded.includes(tagText)) {
-            createTagPill(tagText, pillContainer, null, false);
+            createTagPill(tagText, pillContainer, null, false, id);
         }
     });
     
@@ -136,4 +136,62 @@ export function populateDefaultTagPills(id, characterData) {
     requestAnimationFrame(() => {
         pillContainer.style.display = 'flex';
     });
+}
+
+/**
+ * Add a custom user tag to the specified block
+ * 
+ * @param {number} blockId - Character block ID 
+ * @param {string} tagText - Tag text to add
+ */
+export function addCustomTag(blockId, tagText) {
+    if (!tagText) return;
+    
+    // Normalize tag formatting (trim whitespace, ensure it has some content)
+    const trimmedTag = tagText.trim();
+    if (!trimmedTag) return;
+    
+    // Get pill container for this block
+    const pillContainer = document.getElementById(`custom-tags-${blockId}`);
+    if (!pillContainer) return;
+    
+    // Check if this tag already exists to avoid duplicates
+    const existingTags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
+        .map(pill => pill.dataset.originalTag);
+    
+    if (existingTags.includes(trimmedTag)) {
+        // If tag already exists, highlight it briefly instead
+        const existingPill = Array.from(pillContainer.querySelectorAll('.custom-tag-pill'))
+            .find(pill => pill.dataset.originalTag === trimmedTag);
+        if (existingPill) {
+            existingPill.classList.add('highlight-duplicate');
+            setTimeout(() => existingPill.classList.remove('highlight-duplicate'), 800);
+        }
+        return;
+    }
+    
+    // Create the new pill with blockId for logging
+    createTagPill(trimmedTag, pillContainer, null, false, blockId);
+    
+    // Log tag addition
+    import('../../../utils/logger-init.js').then(module => {
+        const logger = module.default;
+        const characterBlock = document.getElementById(`character-${blockId}`);
+        if (characterBlock && characterBlock.dataset.character) {
+            logger.batch(
+                `character-update-${blockId}`,
+                logger.LOG_LEVELS.INFO,
+                'info',
+                `Character ${characterBlock.dataset.character} updated`,
+                `addedTag: ${trimmedTag}`
+            );
+        }
+    });
+    
+    // Clear the input field if it exists
+    const tagInput = document.getElementById(`tag-input-${blockId}`);
+    if (tagInput) {
+        tagInput.value = '';
+        tagInput.focus();
+    }
 } 

@@ -141,6 +141,17 @@ document.addEventListener("DOMContentLoaded", function () {
    * 3) Full Random Prompt *
    ***********************************/
   document.getElementById('full-random-btn').addEventListener('click', function () {
+    const charCount = parseInt(document.getElementById("random-char-slider").value, 10);
+    const ignoreArtist = document.getElementById("ignore-artist-checkbox").checked;
+    const ignoreScene = document.getElementById("ignore-scene-checkbox").checked;
+    
+    // Log random prompt generation parameters 
+    logger.info("Generating random prompt", {
+        characterCount: charCount,
+        ignoreArtist: ignoreArtist,
+        ignoreScene: ignoreScene
+    });
+    
     generateFullRandomPrompt();
   });
 
@@ -647,12 +658,20 @@ document.addEventListener("DOMContentLoaded", function () {
     const colorEnabled = document.getElementById("color-toggle").checked;
     let currentPromptData = generatePromptData();
     if (!currentPromptData) {
-      return;
+        return;
     }
     
     logger.debug("Structured Prompt Data:", currentPromptData);
     
     renderPrompt(colorEnabled, currentPromptData);
+    
+    // Log successful prompt creation with detailed data
+    logger.success("Prompt created", {
+        header: currentPromptData.header.map(item => ({ type: item.type, text: item.text })),
+        characters: currentPromptData.characters.map(characterParts => 
+            characterParts.map(part => ({ type: part.type, text: part.text }))
+        )
+    });
     
     // Update saved state for re-renders when toggling options
     currentPromptData = JSON.parse(JSON.stringify(currentPromptData));
@@ -661,11 +680,19 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("copy-prompt-btn").addEventListener("click", function () {
     const promptText = document.getElementById("output-preview").innerText;
     if (promptText) {
-      navigator.clipboard.writeText(promptText)
-        .then(() => showClipboardSuccessModal())
-        .catch(err => showClipboardErrorModal(err));
+        navigator.clipboard.writeText(promptText)
+            .then(() => {
+                showClipboardSuccessModal();
+                
+                // Log successful prompt copying
+                logger.debug("Prompt copied to clipboard", {
+                    textLength: promptText.length,
+                    preview: promptText.substring(0, 100) + (promptText.length > 100 ? '...' : '')
+                });
+            })
+            .catch(err => showClipboardErrorModal(err));
     } else {
-      showClipboardErrorModal("No prompt to copy!");
+        showClipboardErrorModal("No prompt to copy!");
     }
   });
 

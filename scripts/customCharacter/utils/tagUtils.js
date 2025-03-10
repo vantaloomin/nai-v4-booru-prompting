@@ -215,9 +215,10 @@ export function searchTags(query, limit = 5) {
  * @param {HTMLElement} pillContainer - The container to add the pill to
  * @param {Function} onRemoveCallback - Callback function when tag is removed
  * @param {boolean} isDefault - Whether this is a default tag (non-removable)
+ * @param {string|null} blockId - The ID of the block associated with the tag
  * @return {HTMLElement} - The created pill element
  */
-export function createTagPill(tagText, pillContainer, onRemoveCallback, isDefault = false) {
+export function createTagPill(tagText, pillContainer, onRemoveCallback, isDefault = false, blockId = null) {
     const pill = document.createElement('span');
     pill.className = 'custom-tag-pill';
     if (isDefault) {
@@ -239,6 +240,20 @@ export function createTagPill(tagText, pillContainer, onRemoveCallback, isDefaul
         removeX.textContent = '×';
         removeX.addEventListener('click', () => {
             pillContainer.removeChild(pill);
+            
+            // Log tag removal if block ID is provided
+            if (blockId) {
+                const characterBlock = document.getElementById(`character-${blockId}`);
+                if (characterBlock && characterBlock.dataset.character) {
+                    logger.batch(
+                        `character-update-${blockId}`,
+                        logger.LOG_LEVELS.INFO,
+                        'info',
+                        `Character ${characterBlock.dataset.character} updated`,
+                        `removedTag: ${tagText}`
+                    );
+                }
+            }
             
             // Call the provided callback when a tag is removed
             if (typeof onRemoveCallback === 'function') {

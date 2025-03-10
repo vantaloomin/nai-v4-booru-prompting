@@ -180,6 +180,15 @@ export function updateGenderToggle(id, selectedCharacterName) {
                 // Get the selected gender
                 const selectedGender = this.value;
                 
+                // Log the gender change
+                logger.batch(
+                    `character-update-${id}`,
+                    logger.LOG_LEVELS.INFO,
+                    'info',
+                    `Character ${selectedCharacterName} updated`,
+                    `gender: ${selectedGender}`
+                );
+                
                 // Check if breast size visibility should be updated
                 updateBreastSizeVisibility(id, selectedGender);
                 

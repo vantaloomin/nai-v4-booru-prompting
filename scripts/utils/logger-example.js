@@ -56,4 +56,121 @@ for (let i = 0; i < 10; i++) {
 console.batch('legacy', 'Processing item', 'item-1');
 console.batch('legacy', 'Processing item', 'item-2');
 
+// EXAMPLES FOR CHARACTER DATA LOGGING
+
+// 1. Character Selection Logging
+// When user selects a character from search results
+function onCharacterSelect(character) {
+  // Log the core character data when selected
+  logger.group('Character Selected');
+  logger.info('Character data', character);
+  logger.groupEnd();
+  
+  // Other application logic...
+  return character;
+}
+
+// Example character data
+const exampleCharacter = {
+  id: 'char-123',
+  name: 'Example Character',
+  gender: 'female',
+  tags: ['fantasy', 'elf', 'archer'],
+  age: 'adult',
+  customProperties: {}
+};
+
+// Simulate character selection
+onCharacterSelect(exampleCharacter);
+
+// 2. Character Updates Logging
+// When character attributes are updated
+function updateCharacterProperty(characterId, property, value) {
+  // Batch logs for character updates
+  logger.batch(
+    `character-update-${characterId}`, 
+    logger.LOG_LEVELS.INFO, 
+    'info',
+    `Character ${characterId} updated`,
+    `${property}: ${JSON.stringify(value)}`
+  );
+  
+  // Other application logic...
+}
+
+// Simulate character updates
+updateCharacterProperty('char-123', 'gender', 'male');
+updateCharacterProperty('char-123', 'age', 'young');
+updateCharacterProperty('char-123', 'customTags', ['warrior', 'human']);
+
+// 3. Random Character Selection
+function generateRandomCharacter() {
+  const randomCharacter = {
+    id: 'rand-456',
+    name: 'Random Character',
+    gender: 'male',
+    tags: ['sci-fi', 'robot', 'android'],
+    age: 'adult',
+    generationParams: {
+      seed: 12345,
+      randomness: 0.7
+    }
+  };
+  
+  logger.info('Random character generated', randomCharacter);
+  
+  // Other application logic...
+  return randomCharacter;
+}
+
+// Simulate random character generation
+generateRandomCharacter();
+
+// EXAMPLES FOR PROMPT CREATION LOGGING
+
+// 1. Prompt Creation
+function createPrompt(promptData) {
+  // Process prompt creation...
+  
+  // Log successful prompt creation with data
+  logger.success('Prompt created', promptData);
+  
+  // Other application logic...
+  return promptData;
+}
+
+// Example prompt data
+const examplePrompt = {
+  id: 'prompt-789',
+  character: 'char-123',
+  positivePrompt: 'masterpiece, best quality, high detail, fantasy setting, forest background',
+  negativePrompt: 'low quality, bad anatomy, worst quality',
+  params: {
+    seed: 98765,
+    steps: 28,
+    cfg: 7.5
+  }
+};
+
+// Simulate prompt creation
+createPrompt(examplePrompt);
+
+// 2. Prompt Editing
+function editPrompt(promptId, changes) {
+  // Log prompt edits
+  logger.batch(
+    `prompt-edit-${promptId}`,
+    logger.LOG_LEVELS.INFO,
+    'info',
+    `Prompt ${promptId} edited`,
+    changes
+  );
+  
+  // Other application logic...
+}
+
+// Simulate prompt editing
+editPrompt('prompt-789', { positivePrompt: 'masterpiece, best quality, high detail, beach setting' });
+editPrompt('prompt-789', { params: { seed: 54321 } });
+
 export default {}; // Empty export for module compatibility

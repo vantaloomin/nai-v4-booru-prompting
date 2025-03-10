@@ -288,6 +288,13 @@ export function addCharacterBlock() {
  */
 export function addRandomCharacterBlock(type) {
     // type: "all", "vg", or "media"
+    
+    // Import logger for random character logging
+    import('../../utils/logger-init.js').then(module => {
+        const logger = module.default;
+        logger.info(`Generating random character of type: ${type}`);
+    });
+
     const blockId = addCharacterBlock();
     if (!blockId) return null;
 
@@ -315,6 +322,12 @@ export function addRandomCharacterBlock(type) {
         const displayName = cleanDisplayName(randomCharacter.name);
         const mediaSource = cleanDisplayName(randomCharacter.category);
         searchInput.value = `${displayName} (${mediaSource})`;
+        
+        // Log the random character that was generated
+        import('../../utils/logger-init.js').then(module => {
+            const logger = module.default;
+            logger.info('Random character generated', randomCharacter);
+        });
         
         // Directly select the character
         // This will trigger all necessary updates

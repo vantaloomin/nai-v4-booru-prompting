@@ -131,6 +131,15 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
                 Object.values(sizeLabels).forEach(label => label.classList.remove('active'));
                 sizeLabels[size].classList.add('active');
                 
+                // Log the breast size change
+                logger.batch(
+                    `character-update-${id}`,
+                    logger.LOG_LEVELS.INFO,
+                    'info',
+                    `Character ${selectedCharacterName} updated`,
+                    `breastSize: ${this.value}`
+                );
+                
                 // Refresh default tags
                 const characterItem = characterData.find(item => item.name === selectedCharacterName);
                 if (characterItem) {
