@@ -33,8 +33,11 @@ export function createFilterPanel(blockId) {
     const filterToggle = document.createElement('button');
     filterToggle.className = 'filter-toggle-btn';
     filterToggle.id = `filter-toggle-${blockId}`;
-    filterToggle.innerHTML = '<span class="filter-icon"><i class="bx bx-filter"></i></span>';
+    filterToggle.innerHTML = '<span class="filter-icon"><i class="bx bx-filter-alt"></i></span>';
     filterToggle.title = "Search filter"; // Update tooltip text
+    // Add default styling to the button
+    filterToggle.style.transition = 'all 0.2s ease-in-out';
+    filterToggle.style.border = '1px solid var(--color-border)';
     filterContainer.appendChild(filterToggle);
 
     // Create filter panel (initially hidden)
@@ -571,33 +574,43 @@ function updateFilterToggleState(blockId) {
     const filterToggle = document.getElementById(`filter-toggle-${blockId}`);
     if (!filterToggle) return;
     
-    // Check if there are active filters
-    const hasFilters = hasActiveFilters();
+    // Get current active filters
+    const activeFilters = getActiveFilters();
     
-    // Update toggle button appearance
+    // Check if any filter is set to a non-default value
+    const hasFilters = activeFilters.mediaSource !== 'all' || 
+                      activeFilters.mediaType !== 'all' || 
+                      activeFilters.quality !== 'all' ||
+                      activeFilters.nsfw !== 'all' || 
+                      activeFilters.animated !== 'all';
+    
     if (hasFilters) {
         filterToggle.classList.add('has-active-filters');
         filterToggle.title = "Active filters applied"; // Update tooltip
         
-        // Update the icon to a funnel with dots to indicate active filters
+        // Update the icon to filter-alt solid for active filters
         const iconElement = filterToggle.querySelector('.filter-icon');
         if (iconElement) {
-            iconElement.innerHTML = '<i class="bx bxs-filter"></i>';
+            iconElement.innerHTML = '<i class="bx bxs-filter-alt"></i>';
         }
+        
+        // Add highlight border when filters are active
+        filterToggle.style.border = '2px solid var(--highlight-blue-3)';
+        filterToggle.style.boxShadow = '0 0 5px var(--highlight-blue-4)';
     } else {
         filterToggle.classList.remove('has-active-filters');
         filterToggle.title = "Search filter"; // Reset tooltip
         
-        // Reset to regular filter icon
+        // Reset to regular filter-alt icon when no filters are applied
         const iconElement = filterToggle.querySelector('.filter-icon');
         if (iconElement) {
-            iconElement.innerHTML = '<i class="bx bx-filter"></i>';
+            iconElement.innerHTML = '<i class="bx bx-filter-alt"></i>';
         }
+        
+        // Remove border highlight when no filters are active
+        filterToggle.style.border = 'none';
+        filterToggle.style.boxShadow = 'none';
     }
-    
-    // Also set the background color of the button for better visibility
-    filterToggle.style.backgroundColor = hasFilters ? 
-        'var(--color-primary-light)' : 'var(--color-bg-input)';
 }
 
 /**
