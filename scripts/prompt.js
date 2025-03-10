@@ -179,6 +179,43 @@ function generatePromptData() {
       return tokens;
     });
   
-    return { header: header, characters: characters };
+    const result = { header: header, characters: characters };
+    
+    // Add direct logging of prompt creation
+    console.log("PROMPT GENERATED", result); // Direct console log as fallback
+
+    // Try to use the logger - multiple approaches for reliability
+    try {
+      // Approach 1: Direct import from global scope
+      if (typeof window.logger !== 'undefined' && window.logger) {
+        window.logger.success("Prompt Generated [Global]", {
+          mode: isStableDiffusion ? 'Stable Diffusion' : 'NovelAI',
+          artists: selectedArtists,
+          characterCount: characters.length
+        });
+      } 
+      // Approach 2: Try to import the logger directly
+      else {
+        // Use absolute path to avoid path resolution issues
+        import('/scripts/utils/logger-init.js')
+          .then(module => {
+            const logger = module.default;
+            if (logger && typeof logger.success === 'function') {
+              logger.success("Prompt Generated [Import]", {
+                mode: isStableDiffusion ? 'Stable Diffusion' : 'NovelAI',
+                artists: selectedArtists,
+                characterCount: characters.length
+              });
+            }
+          })
+          .catch(err => {
+            console.warn("Failed to import logger:", err);
+          });
+      }
+    } catch (err) {
+      console.warn("Error in prompt logging:", err);
+    }
+  
+    return result;
   }
   

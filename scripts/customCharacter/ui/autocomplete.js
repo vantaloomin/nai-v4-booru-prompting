@@ -114,11 +114,54 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
                 (typeof isDuplicateCallback === 'function' && isDuplicateCallback(text));
             
             if (!isDuplicate) {
+                // Create the tag pill directly
                 createTagPill(text, pillContainer, onChangeCallback);
+                
+                // Log the tag addition
+                import('../../utils/logger-init.js').then(module => {
+                    const logger = module.default;
+                    
+                    // Try to find the character block that contains this pill container
+                    const characterBlock = pillContainer.closest('[id^="character-"]');
+                    let characterName = "Unknown";
+                    let blockId = null;
+                    
+                    if (characterBlock) {
+                        blockId = characterBlock.id.replace('character-', '');
+                        characterName = characterBlock.dataset.character || "Unknown";
+                    } else {
+                        // If we can't find the character block, try to extract from the container ID
+                        const containerIdMatch = pillContainer.id ? pillContainer.id.match(/\d+/) : null;
+                        if (containerIdMatch) {
+                            blockId = containerIdMatch[0];
+                            // Try to find the character block using the extracted ID
+                            const possibleBlock = document.getElementById(`character-${blockId}`);
+                            if (possibleBlock) {
+                                characterName = possibleBlock.dataset.character || "Unknown";
+                            }
+                        }
+                    }
+                    
+                    if (blockId) {
+                        // Use batch logging for consistency with other character updates
+                        logger.batch(
+                            `character-update-${blockId}`,
+                            logger.LOG_LEVELS.INFO,
+                            'info',
+                            `Character ${characterName} updated`,
+                            `addedTag: ${text}`
+                        );
+                    } else {
+                        // Fallback to regular logging if we can't determine the block ID
+                        logger.info(`Tag added: ${text}`);
+                    }
+                });
+                
+                // Clear input and suggestions
                 inputEl.value = '';
                 suggestionContainer.innerHTML = '';
                 
-                // Call the callback when tags are added
+                // Call the callback if provided
                 if (typeof onChangeCallback === 'function') {
                     onChangeCallback();
                 }

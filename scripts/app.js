@@ -7,6 +7,8 @@
 
 // Import logger for centralized console management
 import logger from './utils/logger-init.js';
+// Import console patch to ensure all prompt logs are captured
+import './utils/logger-patch.js';
 // Import modal utilities
 import { showClipboardSuccessModal, showClipboardErrorModal } from './utils/modal.js';
 // Import character UI functions
@@ -661,17 +663,8 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
     
-    logger.debug("Structured Prompt Data:", currentPromptData);
-    
+    // Render the prompt
     renderPrompt(colorEnabled, currentPromptData);
-    
-    // Log successful prompt creation with detailed data
-    logger.success("Prompt created", {
-        header: currentPromptData.header.map(item => ({ type: item.type, text: item.text })),
-        characters: currentPromptData.characters.map(characterParts => 
-            characterParts.map(part => ({ type: part.type, text: part.text }))
-        )
-    });
     
     // Update saved state for re-renders when toggling options
     currentPromptData = JSON.parse(JSON.stringify(currentPromptData));

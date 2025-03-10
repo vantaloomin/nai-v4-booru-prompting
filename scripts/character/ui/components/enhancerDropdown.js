@@ -58,6 +58,18 @@ export function updateEnhancerDropdown(id, selectedCharacterName) {
                 updateAllActionAssignments();
             }
             
+            // Add logging for clearing enhancer
+            import('../../../utils/logger-init.js').then(module => {
+                const logger = module.default;
+                logger.batch(
+                    `character-update-${id}`,
+                    logger.LOG_LEVELS.INFO,
+                    'info',
+                    `Character ${selectedCharacterName} updated`,
+                    `enhancer: cleared`
+                );
+            });
+            
             // Find the selected character data
             const charData = characterData.find(item => item.name === selectedCharacterName);
             if (charData) {
@@ -79,6 +91,18 @@ export function updateEnhancerDropdown(id, selectedCharacterName) {
                 // Store original version with -- tags for processing
                 enhancerDisplay.dataset.originalEnhancer = enh.original;
                 enhancerList.style.display = 'none';
+                
+                // Add logging for enhancer selection
+                import('../../../utils/logger-init.js').then(module => {
+                    const logger = module.default;
+                    logger.batch(
+                        `character-update-${id}`,
+                        logger.LOG_LEVELS.INFO,
+                        'info',
+                        `Character ${selectedCharacterName} updated`,
+                        `enhancer: ${enh.display}`
+                    );
+                });
                 
                 if (typeof updateAllActionAssignments === "function") {
                     updateAllActionAssignments();

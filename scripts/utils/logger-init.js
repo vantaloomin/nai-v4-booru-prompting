@@ -198,4 +198,7 @@ const appLogger = initLogger();
 // Add UI controls when the DOM is loaded
 document.addEventListener('DOMContentLoaded', addLoggerControls);
 
+// Make logger globally accessible
+window.logger = appLogger;
+
 export default appLogger;

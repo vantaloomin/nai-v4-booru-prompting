@@ -241,19 +241,8 @@ export function createTagPill(tagText, pillContainer, onRemoveCallback, isDefaul
         removeX.addEventListener('click', () => {
             pillContainer.removeChild(pill);
             
-            // Log tag removal if block ID is provided
-            if (blockId) {
-                const characterBlock = document.getElementById(`character-${blockId}`);
-                if (characterBlock && characterBlock.dataset.character) {
-                    logger.batch(
-                        `character-update-${blockId}`,
-                        logger.LOG_LEVELS.INFO,
-                        'info',
-                        `Character ${characterBlock.dataset.character} updated`,
-                        `removedTag: ${tagText}`
-                    );
-                }
-            }
+            // Log tag removal and all current tags
+            logTagOperation(pillContainer, blockId, tagText, 'removedTag');
             
             // Call the provided callback when a tag is removed
             if (typeof onRemoveCallback === 'function') {
@@ -266,7 +255,85 @@ export function createTagPill(tagText, pillContainer, onRemoveCallback, isDefaul
     
     pillContainer.appendChild(pill);
     
+    // When a tag is added (not during initial population), log it
+    if (!isDefault && blockId === null) {
+        logTagOperation(pillContainer, null, tagText, 'addedTag');
+    } else if (!isDefault && blockId !== null) {
+        logTagOperation(pillContainer, blockId, tagText, 'addedTag');
+    }
+    
     return pill;
+}
+
+/**
+ * Helper function to log tag operations and current tags
+ * 
+ * @param {HTMLElement} pillContainer - The container with tag pills
+ * @param {string|null} blockId - The block ID if known
+ * @param {string} tagText - The tag text being added/removed
+ * @param {string} operation - The operation being performed ('addedTag' or 'removedTag')
+ */
+function logTagOperation(pillContainer, blockId, tagText, operation) {
+    // Try to identify the block this belongs to
+    let extractedId = blockId;
+    let characterName = "Unknown";
+    
+    // If blockId not provided, try to extract it
+    if (!extractedId) {
+        const characterBlock = pillContainer.closest('[id^="character-"]');
+        if (characterBlock) {
+            extractedId = characterBlock.id.replace('character-', '');
+            characterName = characterBlock.dataset.character || "Unknown";
+        }
+    } else {
+        // If blockId was provided, try to get character name
+        const characterBlock = document.getElementById(`character-${blockId}`);
+        if (characterBlock) {
+            characterName = characterBlock.dataset.character || "Unknown";
+        }
+    }
+    
+    // Collect all current tags from the pill container
+    const allDefaultTags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill.default-tag'))
+        .map(pill => pill.dataset.originalTag || pill.textContent.replace('×', '').trim());
+    
+    const allCustomTags = Array.from(pillContainer.querySelectorAll('.custom-tag-pill:not(.default-tag)'))
+        .map(pill => pill.dataset.originalTag || pill.textContent.replace('×', '').trim());
+    
+    // Use dynamic import to ensure logger is available
+    import('/scripts/utils/logger-init.js').then(module => {
+        const logger = module.default;
+        
+        // Log the tag operation
+        if (extractedId) {
+            logger.batch(
+                `character-update-${extractedId}`,
+                logger.LOG_LEVELS.INFO,
+                'info',
+                `Character ${characterName} updated`,
+                `${operation}: ${tagText}`
+            );
+            
+            // Also log the current state of all tags
+            logger.debug(`Character ${characterName} current tags:`, {
+                defaultTags: allDefaultTags,
+                customTags: allCustomTags,
+                totalTagCount: allDefaultTags.length + allCustomTags.length
+            });
+        } else {
+            // Fallback if block ID not found
+            logger.info(`Tag ${operation === 'addedTag' ? 'added' : 'removed'}: ${tagText}`);
+            
+            // Still log the current tags
+            logger.debug(`Current tags after ${operation}:`, {
+                defaultTags: allDefaultTags,
+                customTags: allCustomTags,
+                totalTagCount: allDefaultTags.length + allCustomTags.length
+            });
+        }
+    }).catch(err => {
+        console.warn("Failed to log tag operation:", err);
+    });
 }
 
 /**
