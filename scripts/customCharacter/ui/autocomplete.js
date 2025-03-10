@@ -5,6 +5,7 @@
  */
 
 import { searchTags, createTagPill, formatTag } from '../utils/tagUtils.js';
+import logger from '../../utils/logger-init.js';
 
 /**
  * Initialize autocomplete functionality for a custom tag input
@@ -20,7 +21,7 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
     // Listen for input events
     inputEl.addEventListener('input', function () {
         const query = inputEl.value.trim();
-        console.log("Custom Tag Input:", query);
+        logger.debug("Custom Tag Input:", query);
         suggestionContainer.innerHTML = "";
 
         if (!query) return;
@@ -36,7 +37,7 @@ export function initCustomTagAutocomplete(inputEl, suggestionContainer, pillCont
 
         // Search using tagUtils
         const results = searchTags(query);
-        console.log("Search results:", results);
+        logger.debug("Search results:", results);
 
         // Filter out existing tags and external tags from results
         const filteredResults = results.filter(result => 

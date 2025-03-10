@@ -274,6 +274,9 @@ leaning_forward,action,pose,false,119783`;
             window.dispatchEvent(new Event('actionsLoaded'));
         }
     }
+    
+    // Close the CSV loading attempts group to prevent nesting
+    logger.groupEnd();
 }
 
 // Modify this section to ensure the toggle is initialized before loading actions

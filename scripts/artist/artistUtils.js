@@ -4,6 +4,8 @@
  * Provides utilities for managing artist tags, including loading, searching, and formatting.
  */
 
+import logger from '../utils/logger-init.js';
+
 // Global variable for artist details
 let fullArtistDetails = [];
 
@@ -21,7 +23,7 @@ export function loadArtistDetails() {
         try {
             if (typeof detailedArtistTags !== 'undefined' && detailedArtistTags.length > 0) {
                 fullArtistDetails = detailedArtistTags;
-                console.log("Artist details loaded:", fullArtistDetails.length);
+                logger.info("Artist details loaded:", fullArtistDetails.length);
                 // Initialize Fuse after artist details are loaded
                 initArtistFuse();
                 resolve(fullArtistDetails);
@@ -30,17 +32,17 @@ export function loadArtistDetails() {
                     // Try again after a short delay
                     if (typeof detailedArtistTags !== 'undefined' && detailedArtistTags.length > 0) {
                         fullArtistDetails = detailedArtistTags;
-                        console.log("Artist details loaded:", fullArtistDetails.length);
+                        logger.info("Artist details loaded:", fullArtistDetails.length);
                         initArtistFuse();
                         resolve(fullArtistDetails);
                     } else {
-                        console.error("Unable to load artist details from global variable");
+                        logger.error("Unable to load artist details from global variable");
                         reject("Artist details not found");
                     }
                 }, 500);
             }
         } catch (error) {
-            console.error("Error loading artist details:", error);
+            logger.error("Error loading artist details:", error);
             reject(error);
         }
     });
@@ -63,7 +65,7 @@ function initArtistFuse() {
 
     // Create Fuse instance once artist details are loaded
     artistFuse = new Fuse(fullArtistDetails, artistFuseOptions);
-    console.log("Artist Fuse initialized");
+    logger.debug("Artist Fuse initialized");
 }
 
 /**

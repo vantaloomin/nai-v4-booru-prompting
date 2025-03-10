@@ -6,6 +6,7 @@
  */
 
 // Fuse.js is assumed to be loaded in the global scope
+import logger from '../../utils/logger-init.js';
 
 /**
  * Initialize a Fuse.js instance for character searching
@@ -15,7 +16,7 @@
 function initFuseSearch() {
     // Make sure we have characterData available
     if (typeof characterData === 'undefined' || !characterData.length) {
-        console.error('Character data not available for search initialization');
+        logger.error('Character data not available for search initialization');
         return null;
     }
 

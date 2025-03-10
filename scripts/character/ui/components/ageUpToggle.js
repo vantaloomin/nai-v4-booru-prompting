@@ -6,6 +6,7 @@
 
 import { createElement, updateElementVisibility } from '../utils/domUtils.js';
 import { populateDefaultTagPills } from './tagPills.js';
+import logger from '../../../utils/logger-init.js';
 
 /**
  * Updates the Age Up toggle for a character block based on selected character
@@ -49,7 +50,7 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             ageUpInput.dispatchEvent(new Event('change'));
             
             // Log toggle action for debugging
-            console.log(`Age Up toggle clicked for ID ${id}. New state: ${ageUpInput.checked}`);
+            logger.debug(`Age Up toggle clicked for ID ${id}. New state: ${ageUpInput.checked}`);
         });
         
         // Add event listener to the Age Up toggle to refresh default tags
@@ -57,7 +58,7 @@ export function updateAgeUpToggle(id, selectedCharacterName) {
             // Find the selected character data
             const charData = characterData.find(item => item.name === selectedCharacterName);
             if (charData) {
-                console.log(`Age Up change event for ID ${id}. Checked: ${this.checked}`);
+                logger.debug(`Age Up change event for ID ${id}. Checked: ${this.checked}`);
                 
                 // Refresh default tags with the new age up setting
                 populateDefaultTagPills(id, charData);

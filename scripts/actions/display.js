@@ -7,6 +7,7 @@
 import { getCharacterOptions } from './character.js';
 import { getActionAssignments } from './assignments.js';
 import { cleanDisplayName } from '../character/utils/nameFormatter.js';
+import logger from '../utils/logger-init.js';
 
 /**
  * Function to update each character block with its assigned actions.
@@ -38,7 +39,7 @@ function buildMessageMapping() {
     const allCharOptions = getCharacterOptions();
     
     // Debug: Console log character options to check what we're working with
-    console.log("All character options:", allCharOptions);
+    logger.debug("All character options:", allCharOptions);
     
     // Function to find the real name from character ID
     function getRealName(charId) {
@@ -67,7 +68,7 @@ function buildMessageMapping() {
         const targetName = targetSelect ? targetSelect.value : "";
         
         // Debug log the selections
-        console.log(`Action ${actionId}: ${mode} action:${actionValue} source:${sourceName} target:${targetName}`);
+        logger.debug(`Action ${actionId}: ${mode} action:${actionValue} source:${sourceName} target:${targetName}`);
 
         if (mode === "st") {
             if (sourceName) {
@@ -97,7 +98,7 @@ function buildMessageMapping() {
     });
     
     // Debug log the message mapping
-    console.log("Message mapping:", messageMapping);
+    logger.debug("Message mapping:", messageMapping);
     
     return messageMapping;
 }
@@ -138,13 +139,13 @@ function updateStandardCharacterBlocks(messageMapping) {
         }
         
         // Debug log
-        console.log(`Checking for actions for standard-${blockId}`);
+        logger.debug(`Checking for actions for standard-${blockId}`);
         
         // Update the display with actions for this character
         if (messageMapping[uniqueId] && messageMapping[uniqueId].length > 0) {
             actionsDisplay.textContent = "Actions: " + messageMapping[uniqueId].join(" ; ");
             actionsDisplay.style.display = "";
-            console.log(`Found actions for standard-${blockId}:`, messageMapping[uniqueId]);
+            logger.debug(`Found actions for standard-${blockId}:`, messageMapping[uniqueId]);
         } else {
             actionsDisplay.textContent = "";
             actionsDisplay.style.display = "none";
@@ -187,13 +188,13 @@ function updateCustomCharacterBlocks(messageMapping) {
         }
         
         // Debug log
-        console.log(`Checking for actions for custom-${blockId}`);
+        logger.debug(`Checking for actions for custom-${blockId}`);
         
         // Update the display
         if (customCharId && messageMapping[customCharId] && messageMapping[customCharId].length > 0) {
             actionsDisplay.textContent = "Actions: " + messageMapping[customCharId].join(" ; ");
             actionsDisplay.style.display = "";
-            console.log(`Found actions for custom-${blockId}:`, messageMapping[customCharId]);
+            logger.debug(`Found actions for custom-${blockId}:`, messageMapping[customCharId]);
         } else {
             actionsDisplay.textContent = "";
             actionsDisplay.style.display = "none";

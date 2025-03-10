@@ -6,6 +6,7 @@
 
 import { searchArtists, createArtistPill, formatArtist } from './artistUtils.js';
 import { showMaxArtistWarning } from '../utils/modal.js';
+import logger from '../utils/logger-init.js';
 
 /**
  * Initialize autocomplete functionality for an artist input
@@ -19,14 +20,14 @@ export function initArtistAutocomplete(inputEl, suggestionContainer, pillContain
     // Listen for input events
     inputEl.addEventListener('input', function () {
         const query = inputEl.value.trim();
-        console.log("Artist Input:", query);
+        logger.debug("Artist Input:", query);
         suggestionContainer.innerHTML = "";
 
         if (!query) return;
 
         // Search using artist utilities
         const results = searchArtists(query);
-        console.log("Artist search results:", results);
+        logger.debug("Artist search results:", results);
 
         // Clear any previous positioning
         suggestionContainer.style.display = 'block';

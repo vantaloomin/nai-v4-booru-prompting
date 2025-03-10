@@ -699,7 +699,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Utility function to get candidate objects from characterData.
   function getSearchCandidates() {
     if (!window.characterData) {
-      console.warn('Character data not loaded yet');
+      logger.warn('Character data not loaded yet');
       return [];
     }
     return window.characterData.map(item => {
@@ -783,7 +783,7 @@ document.addEventListener("DOMContentLoaded", function () {
           // First, find the media type dropdown 
           const mediaTypeContainer = document.querySelector(`#character-${blockId} .custom-dropdown:nth-of-type(1)`);
           if (!mediaTypeContainer) {
-            console.error(`Media type dropdown for block ${blockId} not found`);
+            logger.error(`Media type dropdown for block ${blockId} not found`);
             return;
           }
           const mediaTypeDisplay = mediaTypeContainer.querySelector('.selected-display');
@@ -799,7 +799,7 @@ document.addEventListener("DOMContentLoaded", function () {
           setTimeout(() => {
             const titleContainer = document.querySelector(`#character-${blockId} .custom-dropdown:nth-of-type(2)`);
             if (!titleContainer) {
-              console.error(`Title dropdown for block ${blockId} not found`);
+              logger.error(`Title dropdown for block ${blockId} not found`);
               return;
             }
             const titleDisplay = titleContainer.querySelector('.selected-display');
@@ -813,7 +813,7 @@ document.addEventListener("DOMContentLoaded", function () {
             setTimeout(() => {
               const charContainer = document.querySelector(`#character-${blockId} .custom-dropdown:nth-of-type(3)`);
               if (!charContainer) {
-                console.error(`Character dropdown for block ${blockId} not found`);
+                logger.error(`Character dropdown for block ${blockId} not found`);
                 return;
               }
               const charDisplay = charContainer.querySelector('.selected-display');

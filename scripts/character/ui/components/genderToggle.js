@@ -8,6 +8,7 @@ import { setupSliderEvents } from '../utils/sliderUtils.js';
 import { createElement } from '../utils/domUtils.js';
 import { populateDefaultTagPills } from './tagPills.js';
 import { updateBreastSizeVisibility } from './breastSizeSlider.js';
+import logger from '../../../utils/logger-init.js';
 
 /**
  * Updates the gender toggle options based on the selected character
@@ -67,7 +68,7 @@ export function updateGenderToggle(id, selectedCharacterName) {
         // Verify that all radio buttons were created before proceeding
         const radioCheck = genderContainer.querySelectorAll('.gender-radio');
         if (radioCheck.length < 3) {
-            console.error(`Failed to create all gender radio buttons for ID ${id}. Found: ${radioCheck.length}`);
+            logger.error(`Failed to create all gender radio buttons for ID ${id}. Found: ${radioCheck.length}`);
             return; // Exit early to prevent errors in slider setup
         }
         
@@ -127,7 +128,7 @@ export function updateGenderToggle(id, selectedCharacterName) {
             
             // Check if all radio buttons exist before proceeding
             if (radios.length < 3) {
-                console.error(`Expected 3 gender radio buttons but found ${radios.length} for ID ${id}`);
+                logger.error(`Expected 3 gender radio buttons but found ${radios.length} for ID ${id}`);
                 return; // Exit function to prevent error
             }
             

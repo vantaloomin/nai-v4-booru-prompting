@@ -2,6 +2,7 @@
 import { loadArtistDetails, formatArtist } from './artistUtils.js';
 import { initArtistAutocomplete, addArtistAutocompleteStyling } from './autocomplete.js';
 import { showMaxArtistWarning } from '../utils/modal.js';
+import logger from '../utils/logger-init.js';
 
 // Global variable for multi-artist selection
 let artistCount = 0;
@@ -12,7 +13,7 @@ window.maxArtists = maxArtists;
 
 // Function to update callback when artist tags change
 function updateArtistTagsCallback() {
-    console.log("Artist tags updated");
+    logger.info("Artist tags updated");
     // Additional callback functionality can be added here
 }
 
@@ -25,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load artist details
     loadArtistDetails()
         .then(() => {
-            console.log("Artist module initialized");
+            logger.success("Artist module initialized");
         })
         .catch(error => {
-            console.error("Error initializing Artist module:", error);
+            logger.error("Error initializing Artist module:", error);
         });
 });
 

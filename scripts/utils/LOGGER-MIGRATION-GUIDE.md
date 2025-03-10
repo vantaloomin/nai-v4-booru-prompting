@@ -151,3 +151,23 @@ function loadData() {
   }
 }
 ```
+
+## Migration Progress Tracker
+
+The following files need to be updated to use the logger utility:
+
+- [x] scripts/customCharacter/ui/autocomplete.js
+- [x] scripts/artist/index.js
+- [x] scripts/character/ui/components/ageUpToggle.js
+- [x] scripts/character/ui/components/genderToggle.js
+- [x] scripts/character/ui/components/tagPills.js
+- [x] scripts/character/ui/components/breastSizeSlider.js
+- [x] scripts/artist/autocomplete.js
+- [x] scripts/artist/artistUtils.js
+- [x] scripts/character/search/characterSearch.js
+- [x] scripts/app.js
+- [x] scripts/actions/ui.js
+- [x] scripts/actions/display.js
+- [x] scripts/actions/constants.js
+
+All files have now been migrated to use the logger utility.

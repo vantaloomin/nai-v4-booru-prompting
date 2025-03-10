@@ -5,6 +5,7 @@
  */
 
 import { createTagPill } from '../../../customCharacter/utils/tagUtils.js';
+import logger from '../../../utils/logger-init.js';
 
 /**
  * Populates default tag pills for a character
@@ -16,7 +17,7 @@ export function populateDefaultTagPills(id, characterData) {
     // Get the pill container
     const pillContainer = document.querySelector(`#custom-tag-div-${id} .custom-pill-container`);
     if (!pillContainer) {
-        console.error(`Could not find pill container for ID ${id}`);
+        logger.error(`Could not find pill container for ID ${id}`);
         return;
     }
     
@@ -41,7 +42,7 @@ export function populateDefaultTagPills(id, characterData) {
         }
     });
     
-    console.log(`Populating tags for ID ${id}, character ${characterData.name}, gender ${selectedGender}`);
+    logger.debug(`Populating tags for ID ${id}, character ${characterData.name}, gender ${selectedGender}`);
     
     // Add the gender count tag (1girl, 1boy, 1other)
     const genderTag = `1${selectedGender}`;
@@ -125,7 +126,7 @@ export function populateDefaultTagPills(id, characterData) {
     
     // Verify we've actually added content before attempting layout update
     if (pillContainer.children.length === 0) {
-        console.warn(`No pills were added for character ${characterData.name} (ID: ${id})`);
+        logger.warn(`No pills were added for character ${characterData.name} (ID: ${id})`);
         return;
     }
     

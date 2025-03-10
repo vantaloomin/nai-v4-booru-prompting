@@ -13,6 +13,7 @@ import { updateAssignedActionsDisplay } from './display.js';
 
 // Add import for loadActionsFromCSV function
 import { loadActionsFromCSV } from '../data/actionList.js';
+import logger from '../utils/logger-init.js';
 
 /**
  * Helper function to show a styled modal warning when attempting to add actions in Stable Diffusion mode
@@ -82,11 +83,11 @@ export function showSDModeActionWarning() {
  * Function to reload actions from CSV
  */
 function reloadActionsFromCSV() {
-    console.log("Manual reload of actions from CSV initiated");
+    logger.info("Manual reload of actions from CSV initiated");
     loadActionsFromCSV().then(() => {
-        console.log("Actions reload completed");
+        logger.success("Actions reload completed");
     }).catch(error => {
-        console.error("Error during manual actions reload:", error);
+        logger.error("Error during manual actions reload:", error);
     });
 }
 

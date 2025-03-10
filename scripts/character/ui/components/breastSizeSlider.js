@@ -7,6 +7,7 @@
 import { setupSliderEvents } from '../utils/sliderUtils.js';
 import { updateElementVisibility } from '../utils/domUtils.js';
 import { populateDefaultTagPills } from './tagPills.js';
+import logger from '../../../utils/logger-init.js';
 
 /**
  * Updates the visibility of the breast size container based on gender
@@ -23,12 +24,12 @@ export function updateBreastSizeVisibility(id, gender) {
     
     // Update the visibility of both the parent div and the container
     if (breastSizeDiv) {
-        console.log(`Updating breast size div visibility for ID ${id}. Gender: ${gender}, Visible: ${isVisible}`);
+        logger.debug(`Updating breast size div visibility for ID ${id}. Gender: ${gender}, Visible: ${isVisible}`);
         updateElementVisibility(breastSizeDiv, isVisible);
     }
     
     if (breastSizeContainer) {
-        console.log(`Updating breast size container visibility for ID ${id}. Gender: ${gender}, Visible: ${isVisible}`);
+        logger.debug(`Updating breast size container visibility for ID ${id}. Gender: ${gender}, Visible: ${isVisible}`);
         updateElementVisibility(breastSizeContainer, isVisible);
         
         // Ensure a breast size is selected if none is currently selected
@@ -44,7 +45,7 @@ export function updateBreastSizeVisibility(id, gender) {
             }
         }
     } else if (isVisible) {
-        console.warn(`Missing breast size container for visibility update. ID: ${id}, breastSizeContainer: ${!!breastSizeContainer}`);
+        logger.warn(`Missing breast size container for visibility update. ID: ${id}, breastSizeContainer: ${!!breastSizeContainer}`);
     }
 }
 
@@ -306,7 +307,7 @@ export function createBreastSizeSlider(breastSizeContainer, id, selectedCharacte
 export function initializeBreastSizeSlider(id, selectedCharacterName) {
     const breastSizeDiv = document.getElementById('breast-size-div-' + id);
     if (!breastSizeDiv) {
-        console.warn(`Breast size div not found for ID ${id}`);
+        logger.warn(`Breast size div not found for ID ${id}`);
         return;
     }
     
@@ -326,17 +327,17 @@ export function initializeBreastSizeSlider(id, selectedCharacterName) {
         // Check initial gender and update visibility
         const selectedGender = document.querySelector(`input[name="gender-${id}"]:checked`)?.value;
         if (selectedGender) {
-            console.log(`Initializing breast size slider for ID ${id} with gender ${selectedGender}`);
+            logger.debug(`Initializing breast size slider for ID ${id} with gender ${selectedGender}`);
             // Update the breast size visibility based on gender
             updateBreastSizeVisibility(id, selectedGender);
         } else {
-            console.warn(`No gender selected for ID ${id}`);
+            logger.warn(`No gender selected for ID ${id}`);
             // Default hide since no gender is selected
             updateElementVisibility(breastSizeDiv, false);
             updateElementVisibility(breastSizeContainer, false);
         }
     } else {
-        console.warn(`Character data not found for ${selectedCharacterName}`);
+        logger.warn(`Character data not found for ${selectedCharacterName}`);
         // Hide the breast size div if no character data is found
         updateElementVisibility(breastSizeDiv, false);
     }
