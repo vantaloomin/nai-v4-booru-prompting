@@ -29,9 +29,10 @@ import { createFilterPanel } from '../search/filterPanelComponent.js';
 /**
  * Creates and adds a new character block to the UI
  * 
+ * @param {boolean} isCustom - Whether the character block is in custom mode
  * @return {number|null} - The ID of the new character block or null if max reached
  */
-export function addCharacterBlock() {
+export function addCharacterBlock(isCustom = false) {
     const maxCharacters = getMaxCharacters();
     
     // Check if adding another character would exceed the maximum total (including custom characters)
@@ -45,8 +46,8 @@ export function addCharacterBlock() {
 
     // Main card element
     const div = document.createElement('div');
-    div.className = 'character-block';
-    div.id = 'character-' + blockId;
+    div.className = isCustom ? 'character-block custom-mode' : 'character-block';
+    div.id = isCustom ? `custom-character-${blockId}` : `character-${blockId}`;
 
     // Make the character block a drop target for action assignments
     div.addEventListener('dragover', function (e) {
@@ -92,7 +93,7 @@ export function addCharacterBlock() {
     // Header title
     const headerTitle = document.createElement('span');
     headerTitle.className = 'block-title';
-    headerTitle.textContent = `Character ${blockId}`;
+    headerTitle.textContent = isCustom ? `Custom Character ${blockId}` : `Character ${blockId}`;
     headerDiv.appendChild(headerTitle);
 
     // Toggle icon
@@ -145,20 +146,72 @@ export function addCharacterBlock() {
     const contentDiv = document.createElement('div');
     contentDiv.className = 'block-content';
 
-    // Create and add the search container with integrated filter
-    const searchContainer = createSearchBar(blockId);
-    
-    // Create the filter container
-    const filterContainer = createFilterPanel(blockId);
-    
-    // Get the search-filter-container to add the filter inline
-    const searchFilterContainer = searchContainer.querySelector('.search-filter-container');
-    if (searchFilterContainer) {
-        // Add the filter container to the beginning of searchFilterContainer (left side)
-        searchFilterContainer.insertBefore(filterContainer, searchFilterContainer.firstChild);
+    // Conditional search components based on isCustom flag
+    if (!isCustom) {
+        // Create and add the search container with integrated filter
+        const searchContainer = createSearchBar(blockId);
+        
+        // Create the filter container
+        const filterContainer = createFilterPanel(blockId);
+        
+        // Get the search-filter-container to add the filter inline
+        const searchFilterContainer = searchContainer.querySelector('.search-filter-container');
+        if (searchFilterContainer) {
+            // Add the filter container to the beginning of searchFilterContainer (left side)
+            searchFilterContainer.insertBefore(filterContainer, searchFilterContainer.firstChild);
+        }
+        
+        contentDiv.appendChild(searchContainer);
+    } else {
+        // For custom character, add a label and tag input
+        const tagLabel = document.createElement('label');
+        tagLabel.textContent = 'Custom Tags:';
+        contentDiv.appendChild(tagLabel);
+
+        // Search wrapper
+        const searchWrapper = document.createElement('div');
+        searchWrapper.className = 'custom-search-wrapper';
+        contentDiv.appendChild(searchWrapper);
+
+        // Tag input
+        const tagInput = document.createElement('input');
+        tagInput.type = 'text';
+        tagInput.placeholder = 'Type tag here...';
+        tagInput.className = 'custom-tag-input';
+        searchWrapper.appendChild(tagInput);
+
+        // Optional clear icon
+        const clearIcon = document.createElement('span');
+        clearIcon.className = 'custom-clear-icon';
+        clearIcon.textContent = '✖';
+        clearIcon.addEventListener('click', () => {
+            tagInput.value = '';
+            suggestionContainer.innerHTML = '';
+        });
+        searchWrapper.appendChild(clearIcon);
+
+        // Suggestions list container
+        const suggestionContainer = document.createElement('div');
+        suggestionContainer.className = 'custom-suggestions-list';
+        searchWrapper.appendChild(suggestionContainer);
+
+        // Pill container
+        const pillContainer = document.createElement('div');
+        pillContainer.className = 'custom-pill-container';
+        contentDiv.appendChild(pillContainer);
+
+        // Initialize autocomplete with the pill container
+        initCustomTagAutocomplete(
+            tagInput, 
+            suggestionContainer, 
+            pillContainer, 
+            typeof window.updateActionAssignmentsCallback === 'function' ? window.updateActionAssignmentsCallback : () => {},
+            null, // No duplicate check for custom characters
+            () => {
+                return getAllCharacterTags(blockId);
+            }
+        );
     }
-    
-    contentDiv.appendChild(searchContainer);
 
     // Gender Dropdown for genderswap
     const genderDiv = document.createElement('div');

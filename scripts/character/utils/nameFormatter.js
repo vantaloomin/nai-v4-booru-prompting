@@ -19,9 +19,16 @@ export function cleanDisplayName(name) {
     // Handle custom character IDs
     if (name && name.startsWith('custom-')) {
         const customId = name.split('-')[1];
-        const customBlock = document.getElementById(`custom-character-${customId}`);
+        
+        // Try to find the block in both legacy and new unified formats
+        const customBlock = document.getElementById(`custom-character-${customId}`) || 
+                            document.querySelector(`.character-block.custom-mode#character-${customId}`);
+        
         if (customBlock) {
-            const title = customBlock.querySelector('.custom-block-title');
+            // Check for title in either legacy or new unified format
+            const title = customBlock.querySelector('.custom-block-title') || 
+                          customBlock.querySelector('.block-title');
+            
             if (title) {
                 return title.textContent;
             }

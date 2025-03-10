@@ -63,10 +63,15 @@
     cursor: grabbing;
 }
 
-/* 7.2 Custom Character Blocks
+/* 7.2 Custom Character Blocks (Unified Approach)
    ========================================================= */
 
-/* custom-character-block: main container styling - matching regular character blocks */
+/* Custom character styling now applies to character blocks with custom-mode class */
+.character-block.custom-mode {
+    /* Inherit the same styling as regular character blocks */
+}
+
+/* Maintain backward compatibility for existing custom-character-block class */
 .custom-character-block {
     position: relative;
     flex: 0 0 calc(50% - var(--gap-default));
@@ -80,6 +85,16 @@
     box-shadow: var(--shadow-md);
     animation: fadeIn var(--transition-default) var(--ease-default);
     box-sizing: border-box;
+}
+
+/* For backward compatibility, ensure all custom styles work with the unified approach */
+.character-block.custom-mode .custom-search-wrapper,
+.character-block.custom-mode .custom-suggestions-list,
+.character-block.custom-mode .custom-pill-container,
+.character-block.custom-mode .custom-tag-input,
+.character-block.custom-mode .custom-clear-icon,
+.character-block.custom-mode .custom-tag-pill {
+    /* These will inherit the existing styles for these classes */
 }
 
 /* Header styling */

@@ -23,7 +23,7 @@ import {
 } from './character/ui/dropdowns.js';
 // Import character block functions
 import { addCharacterBlock, addRandomCharacterBlock } from './character/blocks/characterBlocks.js';
-// Import custom character block function
+// Import custom character block function (kept for backward compatibility)
 import { addCustomCharacterBlock } from './customCharacter/customCharacterManager.js';
 // Import name formatting utility
 import { cleanDisplayName } from './character/utils/nameFormatter.js';
@@ -109,7 +109,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.getElementById('add-custom-character-btn').addEventListener('click', function() {
-    addCustomCharacterBlock();
+    // Use the unified character block with isCustom=true
+    addCharacterBlock(true);
     refreshActionCharacterOptions(); // Update available action options if necessary.
   });
 
@@ -117,7 +118,8 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById('add-action-btn').addEventListener('click', function () {
     // If there are fewer than 2 character blocks, show a warning
     const charactersContainer = document.getElementById('characters-container');
-    const characterBlocks = charactersContainer.querySelectorAll('.character-block, .custom-character-block');
+    // Target both old custom-character-block class and new character-block.custom-mode class
+    const characterBlocks = charactersContainer.querySelectorAll('.character-block');
     
     if (characterBlocks.length < 2) {
       showMinCharacterWarning();
@@ -696,7 +698,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (characterContainer) {
     Sortable.create(characterContainer, {
       animation: 150,
-      handle: '.drag-handle',
+      handle: '.drag-handle, .custom-drag-handle',
       onEnd: function(evt) {
         evt.originalEvent && evt.originalEvent.stopPropagation();
       }
@@ -937,4 +939,51 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+
+  // Add a migration function to convert legacy custom character blocks to the new unified format
+  function migrateCustomCharacterBlocks() {
+    const legacyBlocks = document.querySelectorAll('.custom-character-block');
+    if (legacyBlocks.length === 0) return;
+    
+    logger.info(`Migrating ${legacyBlocks.length} legacy custom character blocks to new format`);
+    
+    legacyBlocks.forEach(block => {
+      try {
+        // Extract the ID
+        const blockId = block.id.split('-')[2];
+        if (!blockId) return;
+        
+        // Create a new block with the unified approach
+        const newBlockId = addCharacterBlock(true);
+        
+        // Move any existing custom tags/pills from old block to new
+        const oldPills = block.querySelectorAll('.custom-tag-pill');
+        if (oldPills.length > 0) {
+          const newBlock = document.getElementById(`character-${newBlockId}`);
+          if (newBlock) {
+            const newPillContainer = newBlock.querySelector('.custom-pill-container');
+            if (newPillContainer) {
+              oldPills.forEach(pill => {
+                newPillContainer.appendChild(pill.cloneNode(true));
+              });
+            }
+          }
+        }
+        
+        // Remove the old block
+        block.remove();
+        
+      } catch (err) {
+        logger.error(`Error migrating custom character block: ${err.message}`);
+      }
+    });
+  }
+  
+  // Call the migration function when the app initializes
+  document.addEventListener('DOMContentLoaded', () => {
+    // Existing initialization code
+    
+    // Migrate any legacy custom character blocks
+    setTimeout(migrateCustomCharacterBlocks, 500);
+  });
 });

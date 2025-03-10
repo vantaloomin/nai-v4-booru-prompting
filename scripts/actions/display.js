@@ -159,9 +159,20 @@ function updateStandardCharacterBlocks(messageMapping) {
  * @param {Object} messageMapping - Mapping of character IDs to their action messages
  */
 function updateCustomCharacterBlocks(messageMapping) {
-    const customCharBlocks = document.querySelectorAll('.custom-character-block');
+    // Select both legacy and new unified custom character blocks
+    const customCharBlocks = document.querySelectorAll('.custom-character-block, .character-block.custom-mode');
     customCharBlocks.forEach(block => {
-        const blockId = block.id.split("-")[2];
+        let blockId;
+        
+        // Handle both legacy and new unified format
+        if (block.classList.contains('custom-character-block')) {
+            // Legacy format
+            blockId = block.id.split("-")[2];
+        } else {
+            // New unified format
+            blockId = block.id.split("-")[1];
+        }
+        
         const customCharId = `custom-${blockId}`;
         
         // Create or get the actions display element
