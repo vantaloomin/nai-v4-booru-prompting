@@ -232,64 +232,67 @@ export function addCharacterBlock(isCustom = false) {
     ageUpDiv.style.marginTop = '10px';
     contentDiv.appendChild(ageUpDiv);
 
-    // Enhancer Dropdown
-    const enhancerLabel = document.createElement('label');
-    enhancerLabel.textContent = 'Enhancer:';
-    contentDiv.appendChild(enhancerLabel);
+    // Only add enhancer and custom tag sections for regular character blocks
+    if (!isCustom) {
+        // Enhancer Dropdown
+        const enhancerLabel = document.createElement('label');
+        enhancerLabel.textContent = 'Enhancer:';
+        contentDiv.appendChild(enhancerLabel);
 
-    const enhancerDiv = document.createElement('div');
-    enhancerDiv.className = 'custom-dropdown';
-    enhancerDiv.id = 'enhancer-div-' + blockId;
-    contentDiv.appendChild(enhancerDiv);
+        const enhancerDiv = document.createElement('div');
+        enhancerDiv.className = 'custom-dropdown';
+        enhancerDiv.id = 'enhancer-div-' + blockId;
+        contentDiv.appendChild(enhancerDiv);
 
-    // Custom Tag Section
-    const customTagDiv = document.createElement('div');
-    customTagDiv.id = 'custom-tag-div-' + blockId;
-    customTagDiv.className = 'custom-tag-section';
-    customTagDiv.style.marginTop = '15px';
+        // Custom Tag Section
+        const customTagDiv = document.createElement('div');
+        customTagDiv.id = 'custom-tag-div-' + blockId;
+        customTagDiv.className = 'custom-tag-section';
+        customTagDiv.style.marginTop = '15px';
 
-    const customTagLabel = document.createElement('label');
-    customTagLabel.textContent = 'Add Custom Tags:';
-    customTagDiv.appendChild(customTagLabel);
+        const customTagLabel = document.createElement('label');
+        customTagLabel.textContent = 'Add Custom Tags:';
+        customTagDiv.appendChild(customTagLabel);
 
-    const customTagInput = document.createElement('input');
-    customTagInput.type = 'text';
-    customTagInput.className = 'custom-tag-input';
-    customTagInput.placeholder = 'Type to add custom tags...';
-    customTagDiv.appendChild(customTagInput);
+        const customTagInput = document.createElement('input');
+        customTagInput.type = 'text';
+        customTagInput.className = 'custom-tag-input';
+        customTagInput.placeholder = 'Type to add custom tags...';
+        customTagDiv.appendChild(customTagInput);
 
-    const customTagSuggestions = document.createElement('div');
-    customTagSuggestions.className = 'tag-suggestions';
-    customTagDiv.appendChild(customTagSuggestions);
+        const customTagSuggestions = document.createElement('div');
+        customTagSuggestions.className = 'tag-suggestions';
+        customTagDiv.appendChild(customTagSuggestions);
 
-    const pillContainer = document.createElement('div');
-    pillContainer.className = 'custom-pill-container';
-    customTagDiv.appendChild(pillContainer);
+        const pillContainer = document.createElement('div');
+        pillContainer.className = 'custom-pill-container';
+        customTagDiv.appendChild(pillContainer);
 
-    // Initialize tag autocomplete
-    initCustomTagAutocomplete(
-        customTagInput, 
-        customTagSuggestions, 
-        pillContainer, 
-        () => {
-            // Optional callback when tags change
-        },
-        (tag) => {
-            // Check if the tag is already in pillContainer
-            const pills = pillContainer.querySelectorAll('.custom-tag-pill');
-            return Array.from(pills).some(pill => 
-                (pill.dataset.originalTag || pill.textContent.replace('×', '').trim()) === tag
-            );
-        },
-        // Pass function to get character tags excluding this character block
-        () => {
-            // We don't need to check for tags in other characters
-            // Just return an empty array as we're handling duplicates with the isDuplicateCallback above
-            return [];
-        }
-    );
+        // Initialize tag autocomplete
+        initCustomTagAutocomplete(
+            customTagInput, 
+            customTagSuggestions, 
+            pillContainer, 
+            () => {
+                // Optional callback when tags change
+            },
+            (tag) => {
+                // Check if the tag is already in pillContainer
+                const pills = pillContainer.querySelectorAll('.custom-tag-pill');
+                return Array.from(pills).some(pill => 
+                    (pill.dataset.originalTag || pill.textContent.replace('×', '').trim()) === tag
+                );
+            },
+            // Pass function to get character tags excluding this character block
+            () => {
+                // We don't need to check for tags in other characters
+                // Just return an empty array as we're handling duplicates with the isDuplicateCallback above
+                return [];
+            }
+        );
 
-    contentDiv.appendChild(customTagDiv);
+        contentDiv.appendChild(customTagDiv);
+    }
 
     // Add the header and content to the block
     div.appendChild(headerDiv);

@@ -117,9 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Action blocks (from action.js)
   document.getElementById('add-action-btn').addEventListener('click', function () {
     // If there are fewer than 2 character blocks, show a warning
-    const charactersContainer = document.getElementById('characters-container');
-    // Target both old custom-character-block class and new character-block.custom-mode class
-    const characterBlocks = charactersContainer.querySelectorAll('.character-block');
+    const characterBlocks = getAllCharacterBlocks();
     
     if (characterBlocks.length < 2) {
       showMinCharacterWarning();
@@ -964,8 +962,35 @@ document.addEventListener("DOMContentLoaded", function () {
             const newPillContainer = newBlock.querySelector('.custom-pill-container');
             if (newPillContainer) {
               oldPills.forEach(pill => {
-                newPillContainer.appendChild(pill.cloneNode(true));
+                const newPill = pill.cloneNode(true);
+                
+                // Ensure event listeners are reattached
+                const removeBtn = newPill.querySelector('.custom-pill-remove');
+                if (removeBtn) {
+                  const origTag = pill.dataset.originalTag || pill.textContent.replace('×', '').trim();
+                  removeBtn.addEventListener('click', () => {
+                    newPill.remove();
+                    // Trigger any update callbacks
+                    if (typeof window.updateActionAssignmentsCallback === 'function') {
+                      window.updateActionAssignmentsCallback();
+                    }
+                  });
+                }
+                
+                newPillContainer.appendChild(newPill);
               });
+            }
+          }
+        }
+        
+        // Preserve the title if it was customized
+        const oldTitle = block.querySelector('.custom-block-title');
+        if (oldTitle && oldTitle.textContent !== `Custom Character ${blockId}`) {
+          const newBlock = document.getElementById(`character-${newBlockId}`);
+          if (newBlock) {
+            const newTitle = newBlock.querySelector('.block-title');
+            if (newTitle) {
+              newTitle.textContent = oldTitle.textContent;
             }
           }
         }
@@ -986,4 +1011,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Migrate any legacy custom character blocks
     setTimeout(migrateCustomCharacterBlocks, 500);
   });
+
+  // Function to get all character blocks, both regular and custom
+  function getAllCharacterBlocks() {
+    const charactersContainer = document.getElementById('characters-container');
+    if (!charactersContainer) return [];
+    return Array.from(charactersContainer.querySelectorAll('.character-block, .custom-character-block'));
+  }
 });

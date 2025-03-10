@@ -69,6 +69,12 @@
 /* Custom character styling now applies to character blocks with custom-mode class */
 .character-block.custom-mode {
     /* Inherit the same styling as regular character blocks */
+    border-left: 3px solid var(--color-accent-primary); /* Subtle accent border to distinguish custom characters */
+}
+
+/* Add additional spacing for custom mode to compensate for fewer elements */
+.character-block.custom-mode .custom-pill-container {
+    margin-bottom: 15px;
 }
 
 /* Maintain backward compatibility for existing custom-character-block class */
@@ -289,4 +295,14 @@
     padding: var(--space-sm);
     font-size: var(--text-sm);
     color: var(--color-text-secondary);
-} 
+}
+
+/* For actions assigned to characters */
+.assigned-actions {
+    margin-top: 8px;
+    font-style: italic;
+    color: #ff99ff;
+    padding: 5px 0;
+}
+
+/* Maintain backward compatibility for existing custom-character-block class */ 

@@ -10,20 +10,21 @@ import { cleanDisplayName } from '../character/utils/nameFormatter.js';
 import logger from '../utils/logger-init.js';
 
 /**
- * Function to update each character block with its assigned actions.
+ * Updates the assigned actions display for all character blocks
  */
 export function updateAssignedActionsDisplay() {
-    // Build a mapping: for each character (by its raw value), an array of linking messages.
-    const messageMapping = buildMessageMapping();
-    
-    // Update the standard character blocks
-    updateStandardCharacterBlocks(messageMapping);
-    
-    // Update the custom character blocks
-    updateCustomCharacterBlocks(messageMapping);
-    
-    // Force a refresh of the UI
-    forceDisplayRefresh();
+    try {
+        // Build a mapping of character IDs to their action messages
+        const messageMapping = buildMessageMapping();
+        
+        // Update all character blocks with their associated action messages
+        updateAllCharacterBlocks(messageMapping);
+        
+        // Force a refresh of the UI
+        forceDisplayRefresh();
+    } catch (error) {
+        console.error("Error updating action display:", error);
+    }
 }
 
 /**
@@ -104,76 +105,33 @@ function buildMessageMapping() {
 }
 
 /**
- * Update the standard character blocks with action messages
+ * Update all character blocks with action messages
  * 
  * @param {Object} messageMapping - Mapping of character IDs to their action messages
  */
-function updateStandardCharacterBlocks(messageMapping) {
-    const characterBlocks = document.querySelectorAll('.character-block');
-    characterBlocks.forEach(block => {
-        // Get the block ID
-        const blockId = block.id.split("-")[1];
-        const uniqueId = `standard-${blockId}`;
-        
-        // Create or find the actions display element
-        let actionsDisplay = block.querySelector('.assigned-actions');
-        if (!actionsDisplay) {
-            actionsDisplay = document.createElement('div');
-            actionsDisplay.className = 'assigned-actions';
-            actionsDisplay.style.marginTop = "8px";
-            actionsDisplay.style.fontStyle = "italic";
-            actionsDisplay.style.color = "#ff99ff";
-            
-            // Insert after the enhancer div if it exists, otherwise append to content
-            const contentDiv = block.querySelector('.block-content');
-            if (contentDiv) {
-                const enhancerDiv = contentDiv.querySelector('#enhancer-div-' + blockId);
-                if (enhancerDiv) {
-                    enhancerDiv.parentNode.insertBefore(actionsDisplay, enhancerDiv.nextSibling);
-                } else {
-                    contentDiv.appendChild(actionsDisplay);
-                }
-            } else {
-                block.appendChild(actionsDisplay);
-            }
-        }
-        
-        // Debug log
-        logger.debug(`Checking for actions for standard-${blockId}`);
-        
-        // Update the display with actions for this character
-        if (messageMapping[uniqueId] && messageMapping[uniqueId].length > 0) {
-            actionsDisplay.textContent = "Actions: " + messageMapping[uniqueId].join(" ; ");
-            actionsDisplay.style.display = "";
-            logger.debug(`Found actions for standard-${blockId}:`, messageMapping[uniqueId]);
-        } else {
-            actionsDisplay.textContent = "";
-            actionsDisplay.style.display = "none";
-        }
-    });
-}
-
-/**
- * Update the custom character blocks with action messages
- * 
- * @param {Object} messageMapping - Mapping of character IDs to their action messages
- */
-function updateCustomCharacterBlocks(messageMapping) {
-    // Select both legacy and new unified custom character blocks
-    const customCharBlocks = document.querySelectorAll('.custom-character-block, .character-block.custom-mode');
-    customCharBlocks.forEach(block => {
+function updateAllCharacterBlocks(messageMapping) {
+    // Get all character blocks, both standard and custom
+    const allBlocks = document.querySelectorAll('.character-block, .custom-character-block');
+    
+    allBlocks.forEach(block => {
+        // Determine if it's a custom character block
+        const isCustom = block.classList.contains('custom-character-block') || 
+                         block.classList.contains('custom-mode');
+                         
+        // Get the block ID based on the block type
         let blockId;
-        
-        // Handle both legacy and new unified format
         if (block.classList.contains('custom-character-block')) {
-            // Legacy format
-            blockId = block.id.split("-")[2];
+            // Legacy custom character format
+            blockId = block.id.split('-')[2];
         } else {
-            // New unified format
-            blockId = block.id.split("-")[1];
+            // Standard character block format
+            blockId = block.id.split('-')[1];
         }
         
-        const customCharId = `custom-${blockId}`;
+        if (!blockId) return;
+        
+        // Determine the character ID for message mapping lookup
+        const charId = isCustom ? `custom-${blockId}` : blockId;
         
         // Create or get the actions display element
         let actionsDisplay = block.querySelector('.assigned-actions');
@@ -184,31 +142,25 @@ function updateCustomCharacterBlocks(messageMapping) {
             actionsDisplay.style.fontStyle = "italic";
             actionsDisplay.style.color = "#ff99ff";
             
-            // Insert after the pill container
-            const pillContainer = block.querySelector('.custom-pill-container');
-            if (pillContainer && pillContainer.parentNode) {
-                pillContainer.parentNode.insertBefore(actionsDisplay, pillContainer.nextSibling);
+            // Add after the content div
+            const contentDiv = block.querySelector('.block-content') || 
+                              block.querySelector('.custom-block-content');
+            if (contentDiv) {
+                block.insertBefore(actionsDisplay, contentDiv.nextSibling);
             } else {
-                const contentDiv = block.querySelector('.custom-block-content');
-                if (contentDiv) {
-                    contentDiv.appendChild(actionsDisplay);
-                } else {
-                    block.appendChild(actionsDisplay);
-                }
+                block.appendChild(actionsDisplay);
             }
         }
         
-        // Debug log
-        logger.debug(`Checking for actions for custom-${blockId}`);
-        
-        // Update the display
-        if (customCharId && messageMapping[customCharId] && messageMapping[customCharId].length > 0) {
-            actionsDisplay.textContent = "Actions: " + messageMapping[customCharId].join(" ; ");
-            actionsDisplay.style.display = "";
-            logger.debug(`Found actions for custom-${blockId}:`, messageMapping[customCharId]);
+        // Update with action messages
+        const messages = messageMapping[charId] || [];
+        if (messages.length > 0) {
+            actionsDisplay.innerHTML = '';
+            actionsDisplay.textContent = "Actions: " + messages.join(" ; ");
+            actionsDisplay.style.display = 'block';
         } else {
             actionsDisplay.textContent = "";
-            actionsDisplay.style.display = "none";
+            actionsDisplay.style.display = 'none';
         }
     });
 }

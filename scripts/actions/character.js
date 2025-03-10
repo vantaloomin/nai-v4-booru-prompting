@@ -5,27 +5,60 @@
  */
 
 /**
- * Get current character options (only those with a valid selection).
- * @returns {Array} Array of character options objects
+ * Gets all character options for populating action dropdown selectors
+ * 
+ * @return {Array} - Array of character objects with ID, value and display properties
  */
 export function getCharacterOptions() {
     let options = [];
     
-    // Get regular character blocks
-    const charBlocks = document.querySelectorAll(".character-block");
-    charBlocks.forEach(block => {
-        const blockId = block.id.split("-")[1];
+    // Get character blocks (both regular and custom)
+    const allCharBlocks = document.querySelectorAll(".character-block, .custom-character-block");
+    
+    allCharBlocks.forEach(block => {
+        // Determine if this is a custom character block (either old style or new unified style)
+        const isCustom = block.classList.contains('custom-character-block') || 
+                        block.classList.contains('custom-mode');
+        
+        // Extract the block ID correctly based on whether it's a custom character or not
+        let blockId;
+        if (block.classList.contains('custom-character-block')) {
+            // Legacy custom character blocks have different ID format
+            blockId = block.id.split("-")[2];
+        } else {
+            // Both regular and new custom character blocks use the same ID format
+            blockId = block.id.split("-")[1];
+        }
+        
+        if (!blockId) return; // Skip if ID can't be determined
         
         // Try to find the character value via the title or selected character
         let charValue = "";
         let charDisplay = "";
         
-        // First check the block title - it contains the character name and game
-        const blockTitle = block.querySelector(".block-title");
+        // Check the appropriate title element based on block type
+        const blockTitle = isCustom ? 
+            (block.querySelector(".custom-block-title") || block.querySelector(".block-title")) :
+            block.querySelector(".block-title");
+            
         if (blockTitle && blockTitle.textContent) {
             // The title should contain the character name
             charDisplay = blockTitle.textContent.trim();
             
+            if (isCustom) {
+                // For custom characters, use the title directly
+                charValue = `custom-${blockId}`;
+                options.push({ 
+                    value: charValue, 
+                    realValue: charDisplay,
+                    display: charDisplay,
+                    blockId: blockId,
+                    isCustom: true
+                });
+                return; // Skip the rest of the processing for custom characters
+            }
+            
+            // For regular characters, continue with existing logic
             // Extract the character name from the display text (before the parenthesis)
             const nameMatch = charDisplay.match(/^(.*?)\s*\(/);
             if (nameMatch && nameMatch[1]) {
@@ -44,37 +77,6 @@ export function getCharacterOptions() {
                 realValue: charValue, // Store the actual character name
                 display: charDisplay,
                 blockId: blockId
-            });
-        }
-    });
-    
-    // Get custom character blocks (both old style and new unified style)
-    const customCharBlocks = document.querySelectorAll(".custom-character-block, .character-block.custom-mode");
-    customCharBlocks.forEach(block => {
-        let blockId;
-        let titleText;
-        
-        // Handle both legacy and new unified format
-        if (block.classList.contains('custom-character-block')) {
-            // Legacy format: custom-character-{id}
-            blockId = block.id.split("-")[2];
-            const blockTitle = block.querySelector(".custom-block-title");
-            titleText = blockTitle ? blockTitle.textContent.trim() : `Custom Character ${blockId}`;
-        } else {
-            // New unified format: character-{id} with custom-mode class
-            blockId = block.id.split("-")[1];
-            const blockTitle = block.querySelector(".block-title");
-            titleText = blockTitle ? blockTitle.textContent.trim() : `Custom Character ${blockId}`;
-        }
-        
-        if (blockId) {
-            const customCharId = `custom-${blockId}`;
-            options.push({ 
-                value: customCharId, 
-                realValue: titleText,
-                display: titleText,
-                blockId: blockId,
-                isCustom: true
             });
         }
     });
