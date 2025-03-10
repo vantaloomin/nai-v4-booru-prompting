@@ -1,4 +1,4 @@
-name,category,location,explicit,count
+name,category,type,explicit,count
 blue_eyes,appearance,face,FALSE,1818892
 red_eyes,appearance,face,FALSE,1317233
 green_eyes,appearance,face,FALSE,876686
