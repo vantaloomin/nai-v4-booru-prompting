@@ -1,8 +1,6 @@
 // fuzzySearch.js
 // Implementation using Fuse.js for advanced fuzzy searching, including transpositions.
 
-import logger from './utils/logger-init.js';
-
 //
 // 1) createFuse(candidates)
 //
@@ -40,69 +38,21 @@ function createFuse(candidates) {
     return new Fuse(candidates, options);
   }
   
-/**
- * Performs a Fuse search on the given query string.
- *
- * @param {string} query The user's search input.
- * @param {Fuse} fuseInstance A Fuse instance returned by createFuse().
- * @returns {Array} Array of matching candidate objects in best-match order.
- */
-function fuseSearch(query, fuseInstance) {
-  // If there's no query, return nothing.
-  if (!query) return [];
-
-  // Run the search. This returns an array of objects like { item, score }.
-  const results = fuseInstance.search(query);
-
-  // Map them to just the candidate objects in best-match order.
-  return results.map(r => r.item);
-}
-
-/**
- * Get search candidates from the character data
- * @returns {Array} Array of candidate objects for search
- */
-function getSearchCandidates() {
-  if (!window.characterData) {
-    logger.warn('Character data not loaded yet');
-    return [];
+  /**
+   * Performs a Fuse search on the given query string.
+   *
+   * @param {string} query The user’s search input.
+   * @param {Fuse} fuseInstance A Fuse instance returned by createFuse().
+   * @returns {Array} Array of matching candidate objects in best-match order.
+   */
+  function fuseSearch(query, fuseInstance) {
+    // If there's no query, return nothing.
+    if (!query) return [];
+  
+    // Run the search. This returns an array of objects like { item, score }.
+    const results = fuseInstance.search(query);
+  
+    // Map them to just the candidate objects in best-match order.
+    return results.map(r => r.item);
   }
-  return window.characterData.map(item => {
-    return {
-      name: item.name,
-      title: item.category,
-      display: `${item.name} (${item.category})`,
-      raw: item
-    };
-  });
-}
-
-// Global Fuse.js instance
-let fuse = null;
-
-/**
- * Initialize the Fuse.js search
- */
-function initializeSearch() {
-  fuse = createFuse(getSearchCandidates());
-}
-
-// Initialize the search when the app loads
-function initializeSearchOnLoad() {
-  // Wait for constants to be loaded before initializing search
-  if (window.characterData) {
-    initializeSearch();
-  } else {
-    window.addEventListener('constantsLoaded', initializeSearch);
-  }
-}
-
-// Export core Fuse functions
-export {
-  createFuse,
-  fuseSearch,
-  getSearchCandidates,
-  initializeSearch,
-  initializeSearchOnLoad
-};
   
