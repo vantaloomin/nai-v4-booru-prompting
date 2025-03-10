@@ -5,8 +5,8 @@
  * This file now uses toast notifications instead of modals
  */
 
-import logger from '../scripts/utils/logger-init.js';
-import * as Toast from '../scripts/utils/toast.js';
+import logger from './logger-init.js';
+import * as Toast from './toast.js';
 
 // Store active modals for potential management
 let activeModals = [];

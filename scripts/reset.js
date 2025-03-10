@@ -4,7 +4,7 @@
  *******************************************************/
 
 // Import modal utilities
-import { showResetSuccessModal } from '../z-retired/modal.js';
+import { showResetSuccessModal } from './utils/modal.js';
 // Import toast utilities
 import { showToast } from './utils/toast.js';
 // Import character state management function

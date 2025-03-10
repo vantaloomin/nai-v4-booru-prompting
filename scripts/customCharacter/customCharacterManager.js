@@ -15,7 +15,7 @@
  */
 
 import { initCustomTagAutocomplete, addAutocompleteStyling, getAllCharacterTags } from './ui/autocomplete.js';
-import { showMaxCharacterWarning } from '../../z-retired/modal.js';
+import { showMaxCharacterWarning } from '../utils/modal.js';
 import logger from '../utils/logger-init.js';
 import { 
     addCharacterBlock,

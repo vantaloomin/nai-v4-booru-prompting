@@ -4,7 +4,7 @@
  * Provides functions for creating and managing character blocks in the UI.
  */
 
-import { showMaxCharacterWarning } from '../../../z-retired/modal.js';
+import { showMaxCharacterWarning } from '../../utils/modal.js';
 import { cleanDisplayName } from '../utils/nameFormatter.js';
 import { 
     updateTitleOptions, 

@@ -7,7 +7,7 @@
 import { addActionBlock, getActionCount, setActionCount } from './blocks.js';
 import { getCharacterOptions } from './character.js';
 import { isNovelAIMode } from './utils.js';
-import { showMaxActionWarning, showMinCharacterWarning } from '../../z-retired/modal.js';
+import { showMaxActionWarning, showMinCharacterWarning } from '../utils/modal.js';
 import { actionTags } from './constants.js';
 import { updateAssignedActionsDisplay } from './display.js';
 import { showToast } from '../utils/toast.js';
