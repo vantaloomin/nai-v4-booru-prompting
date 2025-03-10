@@ -1,5 +1,8 @@
 // constants.js - Master hub that imports and re-exports all data
 
+// Import the centralized logger
+import logger from './utils/logger-init.js';
+
 // Since this is loaded via script tags directly, we need to handle both ES modules
 // and direct browser loading. We'll use dynamic imports for ES module compatibility
 // and also attach to the window object for direct script tag loading.
@@ -24,17 +27,17 @@
     // Set up event listener for when actions are loaded from CSV
     window.addEventListener('actionsLoaded', () => {
       window.actionTags = actionModule.actionList;
-      console.log('Actions loaded from CSV file:', window.actionTags.length);
+      logger.info('Actions loaded from CSV file:', window.actionTags.length);
       
       // Dispatch an event for the action-related components to update
       window.dispatchEvent(new Event('actionsUpdated'));
     });
 
-    console.log('Constants loaded successfully from modular files');
+    logger.success('Constants loaded successfully from modular files');
     
     // Dispatch an event to signal that constants are loaded
     window.dispatchEvent(new Event('constantsLoaded'));
   } catch (error) {
-    console.error('Error loading modular constants:', error);
+    logger.error('Error loading modular constants:', error);
   }
-})(); 
+})();

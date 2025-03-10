@@ -6,6 +6,7 @@
 
 import { initCustomTagAutocomplete, addAutocompleteStyling, getAllCharacterTags } from './ui/autocomplete.js';
 import { showMaxCharacterWarning } from '../utils/modal.js';
+import logger from '../utils/logger-init.js';
 
 // Custom character state
 let characterCount = 0;
@@ -250,6 +251,6 @@ function showActionSelectionPopup(sourceId, targetId) {
     if (typeof window.showActionSelectionPopup === 'function') {
         window.showActionSelectionPopup(sourceId, targetId);
     } else {
-        console.error("showActionSelectionPopup function not found in global scope");
+        logger.error("showActionSelectionPopup function not found in global scope");
     }
-} 
+}

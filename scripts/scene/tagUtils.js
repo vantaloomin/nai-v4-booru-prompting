@@ -5,6 +5,8 @@
  * This is a modified version of tagUtils.js that only includes context category tags.
  */
 
+import logger from '../utils/logger-init.js';
+
 // Global variable for context tags
 let contextTags = [];
 
@@ -22,13 +24,13 @@ export function loadContextTags() {
         .then(data => {
             // Filter to only include tags with category "context"
             contextTags = data.filter(tag => tag.category === "context");
-            console.log("Context tags loaded:", contextTags.length);
+            logger.info("Context tags loaded:", contextTags.length);
             // Initialize Fuse after tags are loaded
             initSceneTagFuse();
             return contextTags;
         })
         .catch(error => {
-            console.error("Error loading context tags:", error);
+            logger.error("Error loading context tags:", error);
             return [];
         });
 }
@@ -49,7 +51,7 @@ function initSceneTagFuse() {
 
     // Create Fuse instance once tags are loaded
     sceneTagFuse = new Fuse(contextTags, sceneFuseOptions);
-    console.log("Scene tag Fuse initialized");
+    logger.debug("Scene tag Fuse initialized");
 }
 
 /**

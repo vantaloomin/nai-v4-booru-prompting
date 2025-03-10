@@ -4,6 +4,9 @@
  * Provides utilities for managing tags, including loading, searching, and formatting.
  */
 
+// Import the logger utility
+import logger from '../../utils/logger-init.js';
+
 // Global variable for all tags
 let allTags = [];
 
@@ -89,7 +92,7 @@ export function loadAllTags() {
                 };
             });
         } catch (error) {
-            console.error(`Error loading CSV file ${url}:`, error);
+            logger.error(`Error loading CSV file ${url}:`, error);
             return [];
         }
     };
@@ -129,21 +132,21 @@ export function loadAllTags() {
             if (!nsfwModeEnabled) {
                 // Apply strict filtering to ensure explicit tags are removed
                 allTags = allTagsWithExplicit.filter(tag => !tag.explicit);
-                console.log(`SFW mode active: ${allTagsWithExplicit.length - allTags.length} explicit tags filtered out`);
+                logger.info(`SFW mode active: ${allTagsWithExplicit.length - allTags.length} explicit tags filtered out`);
             } else {
                 // Use all tags in NSFW mode
                 allTags = [...allTagsWithExplicit];
-                console.log('NSFW mode active: Using all tags');
+                logger.info('NSFW mode active: Using all tags');
             }
             
-            console.log(`Tags loaded from CSV files: ${allTags.length} tags (${allTagsWithExplicit.length} total)`);
+            logger.info(`Tags loaded from CSV files: ${allTags.length} tags (${allTagsWithExplicit.length} total)`);
             
             // Initialize Fuse after tags are loaded
             initCustomTagFuse();
             return allTags;
         })
         .catch(error => {
-            console.error("Error loading tags from CSV files:", error);
+            logger.error("Error loading tags from CSV files:", error);
             return [];
         });
 }
@@ -168,7 +171,7 @@ export function updateTagListBasedOnNSFWMode() {
     // Reinitialize Fuse with the updated tag list
     initCustomTagFuse();
     
-    console.log(`Tag list updated: ${allTags.length} tags visible (${nsfwModeEnabled ? 'NSFW mode' : 'SFW mode - filtered ' + (allTagsWithExplicit.length - allTags.length) + ' explicit tags'})`);
+    logger.info(`Tag list updated: ${allTags.length} tags visible (${nsfwModeEnabled ? 'NSFW mode' : 'SFW mode - filtered ' + (allTagsWithExplicit.length - allTags.length) + ' explicit tags'})`);
 }
 
 /**
@@ -187,7 +190,7 @@ function initCustomTagFuse() {
 
     // Create Fuse instance once tags are loaded
     customTagFuse = new Fuse(allTags, customFuseOptions);
-    console.log("Custom tag search initialized");
+    logger.debug("Custom tag search initialized");
 }
 
 /**

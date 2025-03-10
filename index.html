@@ -1,160 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">NovelAI V4 Prompt Builder</title>
+    <!-- Link to the CSS files -->
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- Custom styles to swap mode toggle colors -->
+    <style>
+      /* Override for mode toggle to swap colors */
+      #mode-toggle-container .slider {
+        background-color: var(
+          --color-primary
+        ); /* NovelAI mode (default/unchecked) */
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="page-title">NovelAI V4 Prompt Builder</title>
-  <!-- Boxicons Script -->
-  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-  <!-- Boxicons CSS -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <!-- Link to the CSS files -->
-  <link rel="stylesheet" href="styles/main.css">
-</head>
+      #mode-toggle-container input:checked + .slider {
+        background-color: var(
+          --color-bg-input
+        ); /* Stable Diffusion mode (checked) */
+      }
 
-<body>
-  <div class="container">
-    <h1 id="page-heading">NovelAI V4 Prompt Builder</h1>
-    
-    <!-- Toggle Switches Section - Moved from bottom to top -->
-    <div class="toggle-section">
-      <!-- NSFW Mode Toggle -->
-      <div id="nsfw-toggle-container">
-        <label class="switch">
-          <input type="checkbox" id="nsfw-toggle">
-          <span class="slider round"></span>
-        </label>
-        <span id="nsfw-toggle-label" class="toggle-label">
-          <span class="toggle-state active"><i class='bx bx-shield'></i> SFW Mode</span>
-          <span class="toggle-state inactive"><i class='bx bx-shield-x'></i> NSFW Mode</span>
-        </span>
+      /* Character CTAs container styling */
+      #character-ctas {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        align-items: stretch;
+      }
+
+      /* Make all buttons have consistent width and styling */
+      #character-ctas > button,
+      #character-ctas > #random-char-dropdown {
+        flex: 1 1 0;
+        box-sizing: border-box;
+      }
+
+      /* Consistent button styling */
+      #character-ctas > button,
+      #random-char-btn {
+        background-color: var(--color-primary);
+        color: var(--text-on-primary);
+        border: none;
+        border-radius: var(--radius-button);
+        padding: var(--space-sm) var(--space-md);
+        font-size: var(--text-base);
+        cursor: pointer;
+        transition: background var(--transition-default),
+          transform var(--transition-default);
+        height: 40px;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #character-ctas > button:hover,
+      #random-char-btn:hover {
+        background-color: var(--color-primary-variant);
+        transform: translateY(-2px);
+      }
+
+      /* Custom styles for random character dropdown */
+      #random-char-dropdown {
+        position: relative;
+        display: flex;
+      }
+
+      #random-char-btn {
+        width: 100%;
+      }
+
+      #random-char-options {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        display: none;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="page-heading">NovelAI V4 Prompt Builder</h1>
+      <div class="container">
+        <h1 id="page-heading">NovelAI V4 Prompt Builder</h1>
+        
+        <!-- Toggle Switches Section - Moved from bottom to top -->
+        <div class="toggle-section">
+          <!-- NSFW Mode Toggle -->
+          <div id="nsfw-toggle-container">
+            <label class="switch">
+              <input type="checkbox" id="nsfw-toggle">
+              <span class="slider round"></span>
+            </label>
+            <span id="nsfw-toggle-label" class="toggle-label">
+              <span class="toggle-state active"><i class='bx bx-shield'></i> SFW Mode</span>
+              <span class="toggle-state inactive"><i class='bx bx-shield-x'></i> NSFW Mode</span>
+            </span>
+          </div>
+          
+          <!-- Toggle Coloring Slider - Colored Text on TOP -->
+          <div id="color-toggle-container">
+            <label class="switch">
+              <input type="checkbox" id="color-toggle" checked>
+              <span class="slider round"></span>
+            </label>
+            <span id="color-toggle-label" class="toggle-label">
+              <span class="toggle-state active"><i class='bx bx-palette'></i> Colored Text</span>
+              <span class="toggle-state inactive"><i class='bx bx-text'></i> Plain Text</span>
+            </span>
+          </div>
+          
+          <!-- Toggle Mode Slider (NovelAI/Stable Diffusion) -->
+          <div id="mode-toggle-container">
+            <label class="switch">
+              <input type="checkbox" id="mode-toggle">
+              <span class="slider round"></span>
+            </label>
+            <span id="mode-toggle-label" class="toggle-label">
+              <span class="toggle-state active"><i class='bx bx-bot'></i> NovelAI</span>
+              <span class="toggle-state inactive"><i class='bx bx-atom'></i> Stable Diffusion</span>
+            </span>
+          </div>
+        </div>
+      <!-- Characters Section -->
+      <h2>Characters</h2>
+      <!-- Search Box with Icons -->
+      <div id="character-search-container">
+        <label for="character-search">Search:</label>
+        <div class="search-wrapper">
+          <span class="search-icon">🔍</span>
+          <input
+            type="text"
+            id="character-search"
+            placeholder="Start typing..."
+            autocomplete="off"
+          />
+          <span class="clear-icon" id="clear-search">✖</span>
+        </div>
+        <div id="search-suggestions" class="suggestions-list"></div>
       </div>
-      
-      <!-- Toggle Coloring Slider - Colored Text on TOP -->
-      <div id="color-toggle-container">
-        <label class="switch">
-          <input type="checkbox" id="color-toggle" checked>
-          <span class="slider round"></span>
-        </label>
-        <span id="color-toggle-label" class="toggle-label">
-          <span class="toggle-state active"><i class='bx bx-palette'></i> Colored Text</span>
-          <span class="toggle-state inactive"><i class='bx bx-text'></i> Plain Text</span>
-        </span>
-      </div>
-      
-      <!-- Toggle Mode Slider (NovelAI/Stable Diffusion) -->
-      <div id="mode-toggle-container">
-        <label class="switch">
-          <input type="checkbox" id="mode-toggle">
-          <span class="slider round"></span>
-        </label>
-        <span id="mode-toggle-label" class="toggle-label">
-          <span class="toggle-state active"><i class='bx bx-bot'></i> NovelAI</span>
-          <span class="toggle-state inactive"><i class='bx bx-atom'></i> Stable Diffusion</span>
-        </span>
-      </div>
-    </div>
-    
-    <!-- Characters Section -->
-    <h2>Character Selection</h2>
-    <!-- Search Box with Icons -->
-    <div id="character-search-container" style="display: none;">
-      <label for="character-search">Search:</label>
-      <div class="search-wrapper">
-        <span class="search-icon"><i class='bx bx-search'></i></span>
-        <input type="text" id="character-search" placeholder="Start typing..." autocomplete="off">
-        <span class="clear-icon" id="clear-search"><i class='bx bx-x'></i></span>
-      </div>
-      <div id="search-suggestions" class="suggestions-list"></div>
-    </div>
-    <!-- Character CTA Buttons -->
-    <div id="character-ctas">
-      <button id="add-character-btn"><i class='bx bx-user-plus'></i> Add Character</button>
-      <button id="add-custom-character-btn"><i class='bx bx-user-pin'></i> Add Custom Character</button>
-      <!-- Random Character dropdown -->
-      <div class="custom-dropdown" id="random-char-dropdown">
-        <button id="random-char-btn" class="selected-display">
-          Random Character <i class='bx bx-chevron-down dropdown-arrow'></i>
-        </button>
-        <div class="dropdown-list suggestions-list" id="random-char-options">
-          <div class="suggestion-item" id="add-rand-char-btn">Random Character</div>
-          <div class="suggestion-item" id="add-rand-vg-btn">Random Game</div>
-          <div class="suggestion-item" id="add-rand-media-btn">Random Media</div>
+      <!-- Character CTA Buttons -->
+      <div id="character-ctas">
+        <button id="add-character-btn">Add Character</button>
+        <button id="add-custom-character-btn">Add Custom Character</button>
+        <!-- Random Character dropdown -->
+        <div class="custom-dropdown" id="random-char-dropdown">
+          <button id="random-char-btn" class="selected-display">
+            Random Character
+          </button>
+          <div class="dropdown-list suggestions-list" id="random-char-options">
+            <div class="suggestion-item" id="add-rand-char-btn">
+              Random Character
+            </div>
+            <div class="suggestion-item" id="add-rand-vg-btn">Random Game</div>
+            <div class="suggestion-item" id="add-rand-media-btn">
+              Random Media
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Character Cards -->
-    <div id="characters-container"></div>
-    <hr>
-    <!-- Combined Artist/Scene Section -->
-    <h2>Artist & Scene Selection</h2>
-    <div id="artist-scene-section">
-      <div id="artist-scene-controls" style="display: flex; gap: 10px; margin-top: 10px;">
-        <button id="add-artist-btn" type="button"><i class='bx bx-plus'></i> Add Artist</button>
-        <button id="add-scene-btn" type="button"><i class='bx bx-image'></i> Add Scene</button>
+      <!-- Character Cards -->
+      <div id="characters-container"></div>
+      <hr />
+      <!-- Combined Artist/Scene Section -->
+      <div id="artist-scene-section">
+        <div
+          id="artist-scene-controls"
+          style="display: flex; gap: 10px; margin-top: 10px"
+        >
+          <button id="add-artist-btn" type="button">Add Artist</button>
+          <button id="add-scene-btn" type="button">Add Scene</button>
+        </div>
+        <!-- Container for selection cards; cards will appear inline (each ~33% width) -->
+        <div
+          id="artist-scene-container"
+          style="display: flex; flex-wrap: wrap; gap: 10px"
+        >
+          <!-- Dynamically added Artist and Scene cards will be appended here -->
+        </div>
       </div>
-      <!-- Container for selection cards; cards will appear inline (each ~33% width) -->
-      <div id="artist-scene-container" style="display: flex; flex-wrap: wrap; gap: 10px;">
-        <!-- Dynamically added Artist and Scene cards will be appended here -->
+      <!-- Hidden Actions Section (prototype removed from visual display) -->
+      <div id="actions-section" style="display: none">
+        <button id="add-action-btn" type="button">Add Action</button>
+        <button id="add-scene-btn" type="button">Add Scene</button>
+        <div id="actions-container">
+          <!-- Action blocks will be added here internally -->
+        </div>
       </div>
-    </div>
-    <!-- Hidden Actions Section (prototype removed from visual display) -->
-    <div id="actions-section" style="display: none;">
-      <button id="add-action-btn" type="button">Add Action</button>
-      <button id="add-scene-btn" type="button">Add Scene</button>
-      <div id="actions-container">
-        <!-- Action blocks will be added here internally -->
+      <hr />
+      <!-- Random Prompt Section -->
+      <h2>Random Prompt</h2>
+      <div>
+        <label for="random-char-slider">Number of Random Characters:</label>
+        <input
+          type="range"
+          id="random-char-slider"
+          min="1"
+          max="4"
+          value="2"
+          oninput="document.getElementById('random-char-count').textContent = this.value"
+        />
+        <span id="random-char-count">2</span>
       </div>
-    </div>
-    <hr>
-    <!-- Random Prompt Section -->
-    <h2>Random Prompt</h2>
-    <div>
-      <label for="random-char-slider">Number of Random Characters:</label>
-      <input type="range" id="random-char-slider" min="1" max="4" value="2"
-        oninput="document.getElementById('random-char-count').textContent = this.value">
-      <span id="random-char-count">2</span>
-    </div>
-    <div>
-      <label><input type="checkbox" id="ignore-artist-checkbox"> <i class='bx bx-block'></i> Ignore Artist</label>
-      <label><input type="checkbox" id="ignore-scene-checkbox"> <i class='bx bx-block'></i> Ignore Scene</label>
-    </div>
-    <button id="full-random-btn" type="button"><i class='bx bx-dice-5'></i> Full Random Prompt</button>
-    <hr>
-    <!-- Generated Prompt Section -->
-    <h2>Generated Prompt</h2>
-    <div id="output-container">
-      <div id="output-preview" contenteditable="true"></div>
-    </div>
-    <button id="toggle-expand" style="display: none;"><i class='bx bx-expand'></i> Expand</button>
+      <div>
+        <label
+          ><input type="checkbox" id="ignore-artist-checkbox" /> Ignore
+          Artist</label
+        >
+        <label
+          ><input type="checkbox" id="ignore-scene-checkbox" /> Ignore
+          Scene</label
+        >
+      </div>
+      <button id="full-random-btn" type="button">Full Random Prompt</button>
+      <hr />
+      <!-- Generated Prompt Section -->
+      <h2>Generated Prompt</h2>
+      <div id="output-container">
+        <div id="output-preview" contenteditable="true"></div>
+      </div>
+      <button id="toggle-expand" style="display: none">Expand</button>
 
-    <!-- Load external libraries from CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
-    <!-- Include Local JavaScript Files -->
-    <script src="scripts/constants.js" type="module"></script>
-    <script src="scripts/fuzzySearch.js"></script>
-    <script src="scripts/fullArtistDetails.js"></script>
-    <script src="scripts/customCharacter.js" type="module"></script>
-    <script src="scripts/artist.js"></script>
-    <script src="scripts/artist/index.js" type="module"></script>
-    <script src="scripts/scene/index.js" type="module"></script>
-    <script src="scripts/character.js" type="module"></script>
-    <script src="scripts/action.js" type="module"></script>
-    <script src="scripts/prompt.js"></script>
-    <script src="scripts/custom-dropdown.js"></script>
-    <script src="scripts/full-random.js"></script>
-    <script src="scripts/toggle-manager.js" type="module"></script>
-    <script src="scripts/reset.js" type="module"></script>
-    <script src="scripts/app.js" type="module"></script>
-  </div>
-  <!-- Floating Buttons for Prompting -->
-  <div id="floating-buttons">
-    <button id="generate-btn"><i class='bx bx-wand'></i> Generate Prompt</button>
-    <button id="copy-prompt-btn" type="button"><i class='bx bx-copy'></i> Copy Prompt</button>
-    <button id="reset-btn" type="button"><i class='bx bx-reset'></i> Reset Page</button>
-  </div>
-</body>
-
+      <!-- Load external libraries from CDN -->
+      <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+      <!-- Include Local JavaScript Files -->
+      <script src="scripts/constants.js" type="module"></script>
+      <script src="scripts/fuzzySearch.js"></script>
+      <script src="scripts/fullArtistDetails.js"></script>
+      <script src="scripts/customCharacter.js" type="module"></script>
+      <script src="scripts/artist.js"></script>
+      <script src="scripts/artist/index.js" type="module"></script>
+      <script src="scripts/scene/index.js" type="module"></script>
+      <script src="scripts/character.js" type="module"></script>
+      <script src="scripts/action.js" type="module"></script>
+      <script src="scripts/prompt.js"></script>
+      <script src="scripts/custom-dropdown.js"></script>
+      <script src="scripts/full-random.js"></script>
+      <script src="scripts/reset.js" type="module"></script>
+      <script src="scripts/app.js" type="module"></script>
+    </div>
+    <!-- Floating Buttons for Prompting -->
+    <div id="floating-buttons">
+      <button id="generate-btn">Generate Prompt</button>
+      <button id="copy-prompt-btn" type="button">Copy Prompt</button>
+      <button id="reset-btn" type="button">Reset Page</button>
+    </div>
+  </body>
 </html>

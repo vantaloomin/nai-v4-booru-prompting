@@ -16,6 +16,7 @@ import {
     formatTag, 
     detectGenderFromTag 
 } from './utils/tagUtils.js';
+import logger from '../utils/logger-init.js';
 
 // Export variables to the global scope for backward compatibility
 window.characterCount = 0; // This will be managed internally by the module
@@ -34,10 +35,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load tag data
     loadAllTags()
         .then(() => {
-            console.log("Custom Character module initialized");
+            logger.info("Custom Character module initialized");
         })
         .catch(error => {
-            console.error("Error initializing Custom Character module:", error);
+            logger.error("Error initializing Custom Character module:", error);
         });
 });
 
@@ -47,4 +48,4 @@ export {
     getCurrentCustomCharacterCount,
     getMaxCustomCharacters,
     setCustomCharacterCount
-}; 
+};

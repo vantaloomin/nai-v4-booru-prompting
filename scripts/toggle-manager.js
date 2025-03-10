@@ -6,6 +6,7 @@
  */
 
 import { updateActionListBasedOnNSFWMode } from './data/actionList.js';
+import logger from './utils/logger-init.js';
 
 /**
  * Initialize all toggle functionality
@@ -24,7 +25,7 @@ function initNSFWToggle() {
     const nsfwToggleLabel = document.getElementById('nsfw-toggle-label');
     
     if (!nsfwToggle || !nsfwToggleLabel) {
-        console.error('NSFW toggle elements not found');
+        logger.error('NSFW toggle elements not found');
         return;
     }
     
@@ -74,7 +75,7 @@ function initColorToggle() {
     const colorToggleLabel = document.getElementById('color-toggle-label');
     
     if (!colorToggle || !colorToggleLabel) {
-        console.error('Color toggle elements not found');
+        logger.error('Color toggle elements not found');
         return;
     }
     
@@ -117,7 +118,7 @@ function initModeToggle() {
     const modeToggleLabel = document.getElementById('mode-toggle-label');
     
     if (!modeToggle || !modeToggleLabel) {
-        console.error('Mode toggle elements not found');
+        logger.error('Mode toggle elements not found');
         return;
     }
     

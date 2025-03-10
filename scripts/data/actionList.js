@@ -1,6 +1,8 @@
 // actionList.js - Action/pose tags for the application
 // Modified to load actions from CSV file instead of hardcoded list
 
+import logger from '../utils/logger-init.js';
+
 // Initial empty array that will be filled when loadActionsFromCSV is called
 export let actionList = [];
 // Store the full action list (including explicit actions)
@@ -24,7 +26,7 @@ function getBaseUrl() {
     const url = window.location.href;
     // Remove any file name and parameters
     const baseUrl = url.substring(0, url.lastIndexOf('/') + 1);
-    console.log("Base URL:", baseUrl);
+    logger.debug("Base URL:", baseUrl);
     return baseUrl;
 }
 
@@ -35,14 +37,14 @@ function getBaseUrl() {
  */
 function processCSVText(csvText) {
     if (!csvText || csvText.trim() === '') {
-        console.error("CSV text is empty");
+        logger.error("CSV text is empty");
         return { actions: [], metadata: {} };
     }
     
-    console.log(`Processing CSV, first 100 chars:`, csvText.substring(0, 100));
+    logger.debug(`Processing CSV, first 100 chars:`, csvText.substring(0, 100));
     
     const lines = csvText.split('\n');
-    console.log(`CSV has ${lines.length} lines`);
+    logger.info(`CSV has ${lines.length} lines`);
     
     // Skip header row
     const actionSet = new Set();
@@ -86,10 +88,10 @@ function processCSVText(csvText) {
         }
     }
     
-    console.log(`Found ${explicitCount} explicit actions out of ${allActionSet.size} total actions`);
+    logger.info(`Found ${explicitCount} explicit actions out of ${allActionSet.size} total actions`);
     
     if (allActionSet.size === 0) {
-        console.error("No valid actions found in CSV");
+        logger.error("No valid actions found in CSV");
         return { actions: [], fullActions: [], metadata: {} };
     }
     
@@ -108,19 +110,19 @@ export function updateActionListBasedOnNSFWMode() {
     const nsfwToggle = document.getElementById('nsfw-toggle');
     const nsfwModeEnabled = nsfwToggle?.checked || false;
     
-    console.log(`NSFW Mode: ${nsfwModeEnabled ? 'Enabled' : 'Disabled'}`);
+    logger.info(`NSFW Mode: ${nsfwModeEnabled ? 'Enabled' : 'Disabled'}`);
     
     if (nsfwModeEnabled) {
         // If NSFW mode is on, use the full action list
         actionList = [...fullActionList];
-        console.log(`Using full action list with ${actionList.length} actions`);
+        logger.info(`Using full action list with ${actionList.length} actions`);
     } else {
         // If NSFW mode is off, filter out explicit actions
         const filteredActions = fullActionList.filter(action => {
             return !actionMetadata[action]?.explicit;
         });
         actionList = filteredActions;
-        console.log(`Filtered action list now has ${actionList.length} actions (removed ${fullActionList.length - actionList.length} explicit actions)`);
+        logger.info(`Filtered action list now has ${actionList.length} actions (removed ${fullActionList.length - actionList.length} explicit actions)`);
     }
     
     // Notify that actions have been updated
@@ -147,8 +149,9 @@ export async function loadActionsFromCSV() {
         './scripts/custom/action_with_count.csv'
     ];
     
-    console.log("Current location:", window.location.href);
-    console.log("Attempting to load CSV file from multiple possible paths");
+    logger.info("Loading action CSV file");
+    logger.debug("Current location:", window.location.href);
+    logger.group("CSV loading attempts", true);
     
     let loaded = false;
     
@@ -157,7 +160,7 @@ export async function loadActionsFromCSV() {
         if (loaded) break;
         
         try {
-            console.log(`Attempting to load actions from: ${path}`);
+            logger.debug(`Attempting to load actions from: ${path}`);
             const response = await fetch(path, {
                 method: 'GET',
                 headers: {
@@ -166,10 +169,10 @@ export async function loadActionsFromCSV() {
                 }
             });
             
-            console.log(`Response status: ${response.status}, ${response.statusText}`);
+            logger.debug(`Response status: ${response.status}, ${response.statusText}`);
             
             if (!response.ok) {
-                console.error(`Failed to load action CSV from ${path}: ${response.status}`);
+                logger.warn(`Failed to load action CSV from ${path}: ${response.status}`);
                 continue;
             }
             
@@ -184,7 +187,7 @@ export async function loadActionsFromCSV() {
                 // Initialize the filtered action list based on NSFW mode
                 const nsfwToggle = document.getElementById('nsfw-toggle');
                 const nsfwModeEnabled = nsfwToggle?.checked || false;
-                console.log(`Initial NSFW mode when loading actions: ${nsfwModeEnabled ? 'Enabled' : 'Disabled'}`);
+                logger.debug(`Initial NSFW mode when loading actions: ${nsfwModeEnabled ? 'Enabled' : 'Disabled'}`);
                 
                 // Ensure explicit actions are filtered if in SFW mode
                 if (nsfwModeEnabled) {
@@ -196,21 +199,21 @@ export async function loadActionsFromCSV() {
                     });
                 }
                 
-                console.log(`Loaded ${actionList.length}/${fullActionList.length} actions from CSV file at ${path}`);
-                console.log(`${fullActionList.length - actionList.length} explicit actions filtered out in SFW mode`);
+                logger.success(`Loaded ${actionList.length}/${fullActionList.length} actions from CSV file at ${path}`);
+                logger.info(`${fullActionList.length - actionList.length} explicit actions filtered out in SFW mode`);
                 loaded = true;
                 
                 // Notify that actions have been loaded
                 window.dispatchEvent(new Event('actionsLoaded'));
             }
         } catch (error) {
-            console.error(`Error loading actions from ${path}:`, error);
+            logger.error(`Error loading actions from ${path}:`, error);
         }
     }
     
     // If all fetch attempts failed, try with a fallback method
     if (!loaded) {
-        console.log("All fetch attempts failed. Trying direct CSV inclusion method.");
+        logger.info("All fetch attempts failed. Trying direct CSV inclusion method.");
         
         // This loads the first 20 lines of the CSV as a fallback
         // In a real implementation, you might want to include the full file or a subset
@@ -245,7 +248,7 @@ leaning_forward,action,pose,false,119783`;
             // Initialize the filtered action list based on NSFW mode
             const nsfwToggle = document.getElementById('nsfw-toggle');
             const nsfwModeEnabled = nsfwToggle?.checked || false;
-            console.log(`Initial NSFW mode when loading fallback actions: ${nsfwModeEnabled ? 'Enabled' : 'Disabled'}`);
+            logger.debug(`Initial NSFW mode when loading fallback actions: ${nsfwModeEnabled ? 'Enabled' : 'Disabled'}`);
             
             // Ensure explicit actions are filtered if in SFW mode
             if (nsfwModeEnabled) {
@@ -257,8 +260,8 @@ leaning_forward,action,pose,false,119783`;
                 });
             }
             
-            console.log(`Loaded ${actionList.length}/${fullActionList.length} actions from fallback CSV method`);
-            console.log(`${fullActionList.length - actionList.length} explicit actions filtered out in SFW mode`);
+            logger.success(`Loaded ${actionList.length}/${fullActionList.length} actions from fallback CSV method`);
+            logger.info(`${fullActionList.length - actionList.length} explicit actions filtered out in SFW mode`);
             loaded = true;
             
             // Notify that actions have been loaded
@@ -267,7 +270,7 @@ leaning_forward,action,pose,false,119783`;
             // Use basic fallback if all else fails
             fullActionList = [...fallbackActions];
             actionList = [...fallbackActions];
-            console.log(`All CSV methods failed. Using ${actionList.length} fallback actions`);
+            logger.info(`All CSV methods failed. Using ${actionList.length} fallback actions`);
             window.dispatchEvent(new Event('actionsLoaded'));
         }
     }
@@ -275,18 +278,18 @@ leaning_forward,action,pose,false,119783`;
 
 // Modify this section to ensure the toggle is initialized before loading actions
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM loaded, waiting for NSFW toggle initialization...');
+    logger.debug('DOM loaded, waiting for NSFW toggle initialization...');
     
     // Listen for the NSFW toggle ready event (if available)
     window.addEventListener('nsfwToggleReady', () => {
-        console.log('NSFW toggle ready event received, loading actions...');
+        logger.info('NSFW toggle ready event received, loading actions...');
         loadActionsFromCSV();
     }, { once: true });
     
     // Fallback: If toggle ready event isn't fired within 500ms, load actions anyway
     setTimeout(() => {
         if (actionList.length === 0) {
-            console.log('No NSFW toggle ready event received, loading actions with fallback...');
+            logger.info('No NSFW toggle ready event received, loading actions with fallback...');
             loadActionsFromCSV();
         }
     }, 500);
@@ -294,6 +297,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // For direct imports (if DOM is already loaded), handle immediate loading
 if (document.readyState === 'complete' || document.readyState === 'interactive') {
-    console.log('Document already ready, loading actions after brief delay...');
+    logger.info('Document already ready, loading actions after brief delay...');
     setTimeout(loadActionsFromCSV, 100);
 }

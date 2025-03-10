@@ -4,6 +4,8 @@
  * Provides functions for creating and managing modal dialogs
  */
 
+import logger from './logger-init.js';
+
 // Store active modals for potential management
 let activeModals = [];
 
@@ -49,7 +51,7 @@ export function showModal(options = {}) {
             try {
                 closeModal(modal);
             } catch (err) {
-                console.warn('Error closing existing modal:', err);
+                logger.warn('Error closing existing modal:', err);
             }
         }
     }
@@ -199,15 +201,13 @@ export function showResetSuccessModal() {
             title: 'Reset Complete',
             message: 'Page has been reset successfully! All characters, artists, scenes, prompts, and toggles have been reset to their default states.',
             type: 'success',
-            autoCloseDelay: 2000,
+            autoCloseDelay: 3000,
             onClose: () => {
-                // Add any additional cleanup needed after reset success modal closes
-                console.log('Reset success modal closed');
+                logger.info('Reset success modal closed');
             }
         });
     } catch (err) {
-        console.error('Error showing reset success modal:', err);
-        return null;
+        logger.error('Error showing reset success modal:', err);
     }
 }
 
@@ -390,4 +390,4 @@ function addModalStyling() {
         }
     `;
     document.head.appendChild(style);
-} 
+}

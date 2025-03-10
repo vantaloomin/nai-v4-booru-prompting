@@ -11,6 +11,8 @@ import { setCharacterCount } from './character/state/characterState.js';
 import { setCustomCharacterCount } from './customCharacter/customCharacterManager.js';
 // Import toggle manager to reset toggles
 import { initializeToggles } from './toggle-manager.js';
+// Import logger utility
+import logger from './utils/logger-init.js';
 
 document.addEventListener("DOMContentLoaded", function () {
   // Get the reset button
@@ -85,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
           resetPage();
         }, 50);
       } catch (err) {
-        console.error("Error during reset process:", err);
+        logger.error("Error during reset process:", err);
       }
     });
 

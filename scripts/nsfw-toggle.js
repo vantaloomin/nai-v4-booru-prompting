@@ -7,6 +7,7 @@
 
 import { updateActionListBasedOnNSFWMode } from './data/actionList.js';
 import { updateTagListBasedOnNSFWMode } from './customCharacter/utils/tagUtils.js';
+import logger from './utils/logger-init.js';
 
 // Create a global event to inform the system when the toggle is ready
 export const nsfwToggleReadyEvent = new Event('nsfwToggleReady');
@@ -19,11 +20,11 @@ function initNSFWToggle() {
     const nsfwToggleLabel = document.getElementById('nsfw-toggle-label');
     
     if (!nsfwToggle || !nsfwToggleLabel) {
-        console.error('NSFW toggle elements not found');
+        logger.error('NSFW toggle elements not found');
         return;
     }
     
-    console.log('Initializing NSFW toggle');
+    logger.info('Initializing NSFW toggle');
     
     // Set initial state - default to SFW mode (false)
     nsfwToggle.checked = false;
@@ -31,13 +32,13 @@ function initNSFWToggle() {
     
     // Force a full update of all lists after toggle initialization
     setTimeout(() => {
-        console.log('NSFW system initialized (SFW mode active)');
+        logger.success('NSFW system initialized (SFW mode active)');
         updateActionListBasedOnNSFWMode();
         
         try {
             updateTagListBasedOnNSFWMode();
         } catch (error) {
-            console.warn('Tag list update error:', error.message);
+            logger.warn('Tag list update error:', error.message);
         }
         
         window.dispatchEvent(nsfwToggleReadyEvent);
@@ -46,14 +47,14 @@ function initNSFWToggle() {
     // Add change event listener
     nsfwToggle.addEventListener('change', function() {
         const mode = nsfwToggle.checked ? 'NSFW' : 'SFW';
-        console.log(`Content filter mode changed: ${mode}`);
+        logger.info(`Content filter mode changed: ${mode}`);
         updateLabel();
         updateActionListBasedOnNSFWMode();
         
         try {
             updateTagListBasedOnNSFWMode();
         } catch (error) {
-            console.warn('Tag list update error:', error.message);
+            logger.warn('Tag list update error:', error.message);
         }
     });
     
@@ -81,7 +82,7 @@ document.addEventListener('DOMContentLoaded', initNSFWToggle);
 
 // Initialize when actions are loaded
 window.addEventListener('actionsLoaded', function() {
-    console.log('Actions loaded event received, updating action list based on current NSFW state');
+    logger.debug('Actions loaded event received, updating action list based on current NSFW state');
     updateActionListBasedOnNSFWMode();
 });
 
@@ -90,4 +91,4 @@ window.addEventListener('tagsUpdated', function() {
     // No need to log anything here
 });
 
-export { updateActionListBasedOnNSFWMode }; 
+export { updateActionListBasedOnNSFWMode };

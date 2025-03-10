@@ -5,6 +5,8 @@
  * structured data returned by generatePromptData() in prompt.js.
  *******************************************************/
 
+// Import logger for centralized console management
+import logger from './utils/logger-init.js';
 // Import modal utilities
 import { showClipboardSuccessModal, showClipboardErrorModal } from './utils/modal.js';
 // Import character UI functions
@@ -648,8 +650,12 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
     
-    console.log("Structured Prompt Data:", currentPromptData);
+    logger.debug("Structured Prompt Data:", currentPromptData);
+    
     renderPrompt(colorEnabled, currentPromptData);
+    
+    // Update saved state for re-renders when toggling options
+    currentPromptData = JSON.parse(JSON.stringify(currentPromptData));
   });
 
   document.getElementById("copy-prompt-btn").addEventListener("click", function () {

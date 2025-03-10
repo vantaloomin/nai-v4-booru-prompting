@@ -2,6 +2,7 @@
 import { loadContextTags } from './tagUtils.js';
 import { initSceneTagAutocomplete, addSceneAutocompleteStyling } from './autocomplete.js';
 import { showMaxSceneWarning } from '../utils/modal.js';
+import logger from '../utils/logger-init.js';
 
 // Track whether a scene card already exists
 let sceneExists = false;
@@ -15,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Access the scenes array from the global scope
   const scenesArray = window.scenes || [];
-  console.log("Scenes from window:", scenesArray);
+  logger.info("Scenes from window:", scenesArray);
   
   // Initialize the scene dropdown with the available scenes
   initSceneDropdown(scenesArray);
@@ -181,7 +182,7 @@ export function createSceneCard() {
 // Callback function when scene tags are updated
 function updateSceneTagsCallback() {
     // This function can be used to update any UI or state when scene tags change
-    console.log("Scene tags updated");
+    logger.debug("Scene tags updated");
 }
 
 export function getSelectedSceneTags() {
@@ -205,17 +206,17 @@ export function getSelectedSceneTags() {
     }
 
     if (!sceneSelect) return "";
-    const selected = sceneSelect.value;
-    if (selected === "NONE") return "";
-    if (selected === "RANDOM") {
+    const selectedValue = sceneSelect.value;
+    if (selectedValue === "NONE") return "";
+    if (selectedValue === "RANDOM") {
         // Make sure scenes array exists and has items
         if (!scenes || scenes.length === 0) return "";
         const randomIndex = Math.floor(Math.random() * scenes.length);
-        console.log("Random scene chosen:", scenes[randomIndex].theme);
-        return scenes[randomIndex].tags;
+        logger.info("Random scene chosen:", scenes[randomIndex].theme);
+        return scenes[randomIndex].theme;
     }
     // Make sure scenes array exists before trying to find a scene
     if (!scenes || scenes.length === 0) return "";
-    const found = scenes.find(s => s.theme === selected);
+    const found = scenes.find(s => s.theme === selectedValue);
     return found ? found.tags : "";
 } 

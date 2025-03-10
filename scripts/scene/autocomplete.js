@@ -5,6 +5,7 @@
  */
 
 import { searchTags, createTagPill } from './tagUtils.js';
+import logger from '../utils/logger-init.js';
 
 /**
  * Initialize autocomplete functionality for a scene tag input
@@ -18,14 +19,14 @@ export function initSceneTagAutocomplete(inputEl, suggestionContainer, pillConta
     // Listen for input events
     inputEl.addEventListener('input', function () {
         const query = inputEl.value.trim();
-        console.log("Scene Tag Input:", query);
+        logger.debug("Scene Tag Input:", query);
         suggestionContainer.innerHTML = "";
 
         if (!query) return;
 
         // Search using sceneTagUtils
         const results = searchTags(query);
-        console.log("Search results:", results);
+        logger.debug("Search results:", results);
 
         // Clear any previous positioning
         suggestionContainer.style.display = 'block';
