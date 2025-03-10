@@ -116,17 +116,17 @@ function populateFilterPanel(filterPanel, blockId) {
     // Clear existing content
     filterPanel.innerHTML = '';
 
-    // Add Media Type filter section
-    if (filters.mediaType && filters.mediaType.length) {
+    // Add Media Genre filter section
+    if (filters.mediaGenre && filters.mediaGenre.length) {
         addFilterSection(
             filterPanel,
-            'mediaType',
-            'Media Type',
-            filters.mediaType,
-            activeFilters.mediaType,
+            'mediaGenre',
+            'Media Genre',
+            filters.mediaGenre,
+            activeFilters.mediaGenre,
             blockId,
             (value) => {
-                // This callback runs when a media type is selected
+                // This callback runs when a media genre is selected
                 // Update the media sources based on this selection
                 updateMediaSourcesByType(blockId, value);
             }
@@ -460,13 +460,13 @@ function naturalSort(a, b, getValueFn) {
 }
 
 /**
- * Get media sources that match a specific media type
+ * Get media sources (categories) by media genre
  * 
- * @param {string} mediaType - The media type to filter by
+ * @param {string} mediaGenre - The media genre to filter by
  * @return {Array} - Array of matching media sources
  */
-function getMediaSourcesByType(mediaType) {
-    if (!mediaType || mediaType === 'all') {
+function getMediaSourcesByType(mediaGenre) {
+    if (!mediaGenre || mediaGenre === 'all') {
         // Directly access the characterData and extract category values
         return [...new Set(characterData
             .filter(item => item.category)
@@ -474,33 +474,33 @@ function getMediaSourcesByType(mediaType) {
             .sort((a, b) => naturalSort(a, b)); // Use natural sort
     }
     
-    // Filter the character data by media type and extract unique categories
+    // Filter the character data by media genre (mediaSource) and extract unique categories
     return [...new Set(characterData
-        .filter(item => item.mediaType === mediaType)
+        .filter(item => item.mediaSource === mediaGenre)
         .map(item => item.category))]
         .sort((a, b) => naturalSort(a, b)); // Use natural sort
 }
 
 /**
- * Get the media type for a specific media source
+ * Get the media genre for a specific media source
  * 
- * @param {string} mediaSource - The media source to find the type for
- * @return {string|null} - The media type or null if not found
+ * @param {string} mediaSource - The media source to find the genre for
+ * @return {string|null} - The media genre or null if not found
  */
 function getMediaTypeForSource(mediaSource) {
     if (!mediaSource) return null;
     
     const character = characterData.find(item => item.category === mediaSource);
-    return character ? character.mediaType : null;
+    return character ? character.mediaSource : null;
 }
 
 /**
- * Update the media sources shown in the filter based on selected media type
+ * Update the media sources shown in the filter based on selected media genre
  * 
  * @param {number} blockId - Character block ID
- * @param {string} mediaType - The selected media type
+ * @param {string} mediaGenre - The selected media genre
  */
-function updateMediaSourcesByType(blockId, mediaType) {
+function updateMediaSourcesByType(blockId, mediaGenre) {
     const optionsContainer = document.getElementById(`media-source-options-${blockId}`);
     if (!optionsContainer) return;
     
@@ -516,10 +516,10 @@ function updateMediaSourcesByType(blockId, mediaType) {
     }
     
     // Get filtered media sources
-    const mediaSources = getMediaSourcesByType(mediaType);
+    const mediaSources = getMediaSourcesByType(mediaGenre);
     
-    // Check if the current source is still valid with the new media type
-    const isCurrentSourceValid = mediaType === 'all' || 
+    // Check if the current source is still valid with the new media genre
+    const isCurrentSourceValid = mediaGenre === 'all' || 
                                 currentSource === 'all' || 
                                 mediaSources.includes(currentSource);
     
@@ -544,7 +544,7 @@ function updateMediaSourcesByType(blockId, mediaType) {
         
         optionEl.dataset.value = source;
         optionEl.dataset.filter = 'mediaSource';
-        optionEl.dataset.mediaType = getMediaTypeForSource(source) || 'all';
+        optionEl.dataset.mediaGenre = getMediaTypeForSource(source) || 'all';
         optionEl.textContent = cleanDisplayName(source);
         optionEl.addEventListener('click', function() {
             handleFilterOptionClick(this, 'mediaSource', source, blockId);
@@ -675,7 +675,7 @@ function clearAllFilters(blockId, filterPanel) {
                     optionEl.className = 'filter-option';
                     optionEl.dataset.value = source;
                     optionEl.dataset.filter = 'mediaSource';
-                    optionEl.dataset.mediaType = getMediaTypeForSource(source) || 'all';
+                    optionEl.dataset.mediaGenre = getMediaTypeForSource(source) || 'all';
                     optionEl.textContent = cleanDisplayName(source);
                     optionEl.addEventListener('click', function() {
                         handleFilterOptionClick(this, 'mediaSource', source, blockId);

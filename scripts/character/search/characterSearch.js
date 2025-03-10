@@ -139,9 +139,9 @@ function applyFilters(results, filters) {
     return results.filter(result => {
         const char = result.raw;
         
-        // Filter by mediaType
-        if (filters.mediaType && filters.mediaType !== 'all' && 
-            char.mediaType !== filters.mediaType) {
+        // Filter by mediaGenre
+        if (filters.mediaGenre && filters.mediaGenre !== 'all' && 
+            char.mediaSource !== filters.mediaGenre) {
             return false;
         }
         

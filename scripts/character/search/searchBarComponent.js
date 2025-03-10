@@ -272,10 +272,10 @@ function getAllFilteredCharacters(filters, alphabetized = true) {
     
     // Apply filters to the character data
     if (filters && Object.keys(filters).length > 0) {
-        // Filter for mediaType
-        if (filters.mediaType) {
-            const mediaType = filters.mediaType;
-            const filteredData = characterData.filter(char => char.mediaType === mediaType);
+        // Filter for mediaGenre
+        if (filters.mediaGenre) {
+            const mediaGenre = filters.mediaGenre;
+            const filteredData = characterData.filter(char => char.mediaSource === mediaGenre);
             
             // Further filter for mediaSource/category if specified
             if (filters.mediaSource) {

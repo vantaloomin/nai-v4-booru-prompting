@@ -7,9 +7,8 @@
 
 // Current filter state
 let activeFilters = {
-    mediaType: null,
-    mediaSource: null,
-    category: null
+    mediaGenre: null,
+    mediaSource: null
 };
 
 /**
@@ -36,8 +35,8 @@ function getUniqueValues(property) {
  */
 export function getAvailableFilters() {
     return {
-        mediaType: getUniqueValues('mediaType'),
         mediaSource: getUniqueValues('category'),
+        mediaGenre: getUniqueValues('mediaSource'),
         // Optionally add other filters here (e.g., gender, ageUpAvailable)
     };
 }
@@ -100,8 +99,8 @@ export function applyFilters(characters) {
                 continue;
             }
             
-            // Handle mediaType filter
-            if (filterName === 'mediaType' && character.mediaType !== filterValue) {
+            // Handle mediaGenre filter
+            if (filterName === 'mediaGenre' && character.mediaSource !== filterValue) {
                 return false;
             }
             
