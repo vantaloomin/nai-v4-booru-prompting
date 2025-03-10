@@ -645,7 +645,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("generate-btn").addEventListener("click", function () {
     const colorEnabled = document.getElementById("color-toggle").checked;
-    const currentPromptData = generatePromptData();
+    let currentPromptData = generatePromptData();
     if (!currentPromptData) {
       return;
     }
