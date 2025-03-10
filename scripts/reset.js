@@ -4,7 +4,9 @@
  *******************************************************/
 
 // Import modal utilities
-import { showResetSuccessModal } from './utils/modal.js';
+import { showResetSuccessModal } from '../z-retired/modal.js';
+// Import toast utilities
+import { showToast } from './utils/toast.js';
 // Import character state management function
 import { setCharacterCount } from './character/state/characterState.js';
 // Import custom character state management function
@@ -161,6 +163,24 @@ document.addEventListener("DOMContentLoaded", function () {
     // Reset custom character count to 0
     setCustomCharacterCount(0);
 
+    // Reset artist count to 0
+    if (typeof window.resetArtistCount === 'function') {
+      window.resetArtistCount();
+    } else if (typeof window.artistCount !== 'undefined') {
+      window.artistCount = 0;
+    } else if (typeof artistCount !== 'undefined') {
+      artistCount = 0;
+    }
+
+    // Reset scene exists flag
+    if (typeof window.resetSceneExists === 'function') {
+      window.resetSceneExists();
+    } else if (typeof window.sceneExists !== 'undefined') {
+      window.sceneExists = false;
+    } else if (typeof sceneExists !== 'undefined') {
+      sceneExists = false;
+    }
+
     // Reset window.characterCount global variable to ensure everything is synced
     window.characterCount = 0;
 
@@ -170,8 +190,20 @@ document.addEventListener("DOMContentLoaded", function () {
       characterCount = 0;
     }
 
-    // Show confirmation message
-    showResetSuccessModal();
+    // Show confirmation message using toast instead of modal
+    try {
+      showToast({
+        title: 'Reset Complete',
+        message: 'Page has been reset successfully! All characters, artists, scenes, prompts, and toggles have been reset to their default states.',
+        type: 'success',
+        duration: 3000
+      });
+      logger.info('Reset success toast shown');
+    } catch (err) {
+      logger.error('Error showing reset success toast:', err);
+      // Fallback to the modal if toast fails
+      showResetSuccessModal();
+    }
   }
 
   // Function to reset all toggles to their default states

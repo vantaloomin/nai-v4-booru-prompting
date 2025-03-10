@@ -10,7 +10,7 @@ import logger from './utils/logger-init.js';
 // Import console patch to ensure all prompt logs are captured
 import './utils/logger-patch.js';
 // Import modal utilities
-import { showClipboardSuccessModal, showClipboardErrorModal } from './utils/modal.js';
+import { showClipboardSuccessModal, showClipboardErrorModal } from '../z-retired/modal.js';
 // Import character UI functions
 import { 
   updateGenderToggle, 
@@ -29,7 +29,7 @@ import { addCustomCharacterBlock } from './customCharacter/customCharacterManage
 import { cleanDisplayName } from './character/utils/nameFormatter.js';
 // Import action-related functions
 import { showActionSelectionPopup, showSDModeActionWarning } from './actions/ui.js';
-import { showMinCharacterWarning } from './utils/modal.js';
+import { showMinCharacterWarning } from '../z-retired/modal.js';
 import { refreshActionCharacterOptions } from './actions/index.js';
 // Import toggle manager for unified toggle handling
 import { initializeToggles } from './toggle-manager.js';

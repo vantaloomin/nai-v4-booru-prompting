@@ -7,76 +7,25 @@
 import { addActionBlock, getActionCount, setActionCount } from './blocks.js';
 import { getCharacterOptions } from './character.js';
 import { isNovelAIMode } from './utils.js';
-import { showMaxActionWarning, showMinCharacterWarning } from '../utils/modal.js';
+import { showMaxActionWarning, showMinCharacterWarning } from '../../z-retired/modal.js';
 import { actionTags } from './constants.js';
 import { updateAssignedActionsDisplay } from './display.js';
+import { showToast } from '../utils/toast.js';
 
 // Add import for loadActionsFromCSV function
 import { loadActionsFromCSV } from '../data/actionList.js';
 import logger from '../utils/logger-init.js';
 
 /**
- * Helper function to show a styled modal warning when attempting to add actions in Stable Diffusion mode
+ * Helper function to show a styled toast warning when attempting to add actions in Stable Diffusion mode
  */
 export function showSDModeActionWarning() {
-    // Create modal overlay
-    const modalOverlay = document.createElement('div');
-    modalOverlay.classList.add('modal-overlay');
-    
-    // Create modal container
-    const modalContainer = document.createElement('div');
-    modalContainer.classList.add('modal-container', 'warning-modal');
-    
-    // Add close button
-    const closeButton = document.createElement('span');
-    closeButton.textContent = '×';
-    closeButton.classList.add('modal-close');
-    closeButton.addEventListener('click', function() {
-        document.body.removeChild(modalOverlay);
+    return showToast({
+        title: 'Mode Warning',
+        message: 'Actions are primarily designed for NovelAI mode. While you can use them in Stable Diffusion mode, they may not produce optimal results. Consider switching to NovelAI mode for best results with actions.',
+        type: 'warning',
+        duration: 5000 // Show for 5 seconds
     });
-    modalContainer.appendChild(closeButton);
-    
-    // Add warning icon
-    const warningIcon = document.createElement('div');
-    warningIcon.classList.add('warning-icon');
-    warningIcon.innerHTML = '⚠️';
-    modalContainer.appendChild(warningIcon);
-    
-    // Add warning title
-    const modalTitle = document.createElement('h3');
-    modalTitle.classList.add('modal-title');
-    modalTitle.textContent = 'Mode Warning';
-    modalContainer.appendChild(modalTitle);
-    
-    // Add warning message
-    const modalMessage = document.createElement('p');
-    modalMessage.classList.add('modal-message');
-    modalMessage.textContent = 'Actions are only available in NovelAI mode. Please switch to NovelAI mode to add actions.';
-    modalContainer.appendChild(modalMessage);
-    
-    // Add button container
-    const buttonContainer = document.createElement('div');
-    buttonContainer.classList.add('modal-button-container');
-    
-    // Add OK button
-    const okButton = document.createElement('button');
-    okButton.textContent = 'OK';
-    okButton.classList.add('primary-button');
-    okButton.addEventListener('click', function() {
-        document.body.removeChild(modalOverlay);
-    });
-    buttonContainer.appendChild(okButton);
-    
-    modalContainer.appendChild(buttonContainer);
-    
-    // Add modal to body
-    modalOverlay.appendChild(modalContainer);
-    document.body.appendChild(modalOverlay);
-    
-    // Focus the OK button
-    okButton.focus();
-    
-    return false;
 }
 
 /**

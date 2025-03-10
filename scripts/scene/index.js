@@ -80,6 +80,7 @@ function populateSceneDropdown() {
 // Export functions to global scope for backward compatibility
 window.createSceneCard = createSceneCard;
 window.getSelectedSceneTags = getSelectedSceneTags;
+window.resetSceneExists = resetSceneExists;
 
 export function createSceneCard() {
     // Prevent creating more than one scene card.
@@ -219,4 +220,9 @@ export function getSelectedSceneTags() {
     if (!scenes || scenes.length === 0) return "";
     const found = scenes.find(s => s.theme === selectedValue);
     return found ? found.tags : "";
+}
+
+// Function to reset the scene exists flag
+export function resetSceneExists() {
+    sceneExists = false;
 } 

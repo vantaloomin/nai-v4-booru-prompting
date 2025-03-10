@@ -20,6 +20,7 @@ function updateArtistTagsCallback() {
 // Export functions to global scope for backward compatibility
 window.createArtistCard = createArtistCard;
 window.getSelectedArtists = getSelectedArtists;
+window.resetArtistCount = resetArtistCount;
 
 // Initialize artist tag utilities when the document is loaded
 document.addEventListener('DOMContentLoaded', function() {
@@ -259,4 +260,11 @@ function resetCardHeader(card) {
     if (title) {
         title.textContent = 'Artist';
     }
+}
+
+/**
+ * Resets the artist count to zero
+ */
+export function resetArtistCount() {
+    artistCount = 0;
 } 

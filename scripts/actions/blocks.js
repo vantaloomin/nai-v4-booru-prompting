@@ -7,7 +7,7 @@
 import { isNovelAIMode } from './utils.js';
 import { getCharacterOptions, populateCharacterOptions } from './character.js';
 import { showSDModeActionWarning } from './ui.js';
-import { showMaxActionWarning, showMinCharacterWarning } from '../utils/modal.js';
+import { showMaxActionWarning, showMinCharacterWarning } from '../../z-retired/modal.js';
 import { actionTags } from './constants.js';
 import { updateAssignedActionsDisplay } from './display.js';
 import { getAllAvailableActions } from './assignments.js';
