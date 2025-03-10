@@ -79,13 +79,15 @@ function initFilterEvents(blockId, filterToggle, filterPanel, filterContainer) {
         
         // Change the icon state to indicate active filters
         if (this.querySelector('.filter-icon')) {
-            const iconElement = this.querySelector('.bx-filter, .bxs-filter');
-            if (!isVisible) {
-                iconElement.classList.add('bx-filter');
-                iconElement.classList.remove('bxs-filter');
-            } else {
-                iconElement.classList.remove('bx-filter');
-                iconElement.classList.add('bxs-filter');
+            const iconElement = this.querySelector('.filter-icon i');
+            if (iconElement) {
+                if (!isVisible) {
+                    iconElement.classList.remove('bxs-filter-alt');
+                    iconElement.classList.add('bx-filter-alt');
+                } else {
+                    iconElement.classList.remove('bx-filter-alt');
+                    iconElement.classList.add('bxs-filter-alt');
+                }
             }
         }
     });
