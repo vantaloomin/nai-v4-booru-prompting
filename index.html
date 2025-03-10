@@ -7,54 +7,65 @@
     <!-- Link to the CSS files -->
     <link rel="stylesheet" href="styles/variables.css" />
     <link rel="stylesheet" href="styles/main.css" />
-    
   </head>
   <body>
-      <div class="container">
-        <h1 id="page-heading">NovelAI V4 Prompt Builder</h1>
-        
-        <!-- Toggle Switches Section - Moved from bottom to top -->
-        <div class="toggle-section">
-          <!-- NSFW Mode Toggle -->
-          <div id="nsfw-toggle-container">
-            <label class="switch">
-              <input type="checkbox" id="nsfw-toggle">
-              <span class="slider round"></span>
-            </label>
-            <span id="nsfw-toggle-label" class="toggle-label">
-              <span class="toggle-state active"><i class='bx bx-shield'></i> SFW Mode</span>
-              <span class="toggle-state inactive"><i class='bx bx-shield-x'></i> NSFW Mode</span>
-            </span>
-          </div>
-          
-          <!-- Toggle Coloring Slider - Colored Text on TOP -->
-          <div id="color-toggle-container">
-            <label class="switch">
-              <input type="checkbox" id="color-toggle" checked>
-              <span class="slider round"></span>
-            </label>
-            <span id="color-toggle-label" class="toggle-label">
-              <span class="toggle-state active"><i class='bx bx-palette'></i> Colored Text</span>
-              <span class="toggle-state inactive"><i class='bx bx-text'></i> Plain Text</span>
-            </span>
-          </div>
-          
-          <!-- Toggle Mode Slider (NovelAI/Stable Diffusion) -->
-          <div id="mode-toggle-container">
-            <label class="switch">
-              <input type="checkbox" id="mode-toggle">
-              <span class="slider round"></span>
-            </label>
-            <span id="mode-toggle-label" class="toggle-label">
-              <span class="toggle-state active"><i class='bx bx-bot'></i> NovelAI</span>
-              <span class="toggle-state inactive"><i class='bx bx-atom'></i> Stable Diffusion</span>
-            </span>
-          </div>
+    <div class="container">
+      <h1 id="page-heading">NovelAI V4 Prompt Builder</h1>
+
+      <!-- Toggle Switches Section - Moved from bottom to top -->
+      <div class="toggle-section">
+        <!-- NSFW Mode Toggle -->
+        <div id="nsfw-toggle-container">
+          <label class="switch">
+            <input type="checkbox" id="nsfw-toggle" />
+            <span class="slider round"></span>
+          </label>
+          <span id="nsfw-toggle-label" class="toggle-label">
+            <span class="toggle-state active"
+              ><i class="bx bx-shield"></i> SFW Mode</span
+            >
+            <span class="toggle-state inactive"
+              ><i class="bx bx-shield-x"></i> NSFW Mode</span
+            >
+          </span>
         </div>
+
+        <!-- Toggle Coloring Slider - Colored Text on TOP -->
+        <div id="color-toggle-container">
+          <label class="switch">
+            <input type="checkbox" id="color-toggle" checked />
+            <span class="slider round"></span>
+          </label>
+          <span id="color-toggle-label" class="toggle-label">
+            <span class="toggle-state active"
+              ><i class="bx bx-palette"></i> Colored Text</span
+            >
+            <span class="toggle-state inactive"
+              ><i class="bx bx-text"></i> Plain Text</span
+            >
+          </span>
+        </div>
+
+        <!-- Toggle Mode Slider (NovelAI/Stable Diffusion) -->
+        <div id="mode-toggle-container">
+          <label class="switch">
+            <input type="checkbox" id="mode-toggle" />
+            <span class="slider round"></span>
+          </label>
+          <span id="mode-toggle-label" class="toggle-label">
+            <span class="toggle-state active"
+              ><i class="bx bx-bot"></i> NovelAI</span
+            >
+            <span class="toggle-state inactive"
+              ><i class="bx bx-atom"></i> Stable Diffusion</span
+            >
+          </span>
+        </div>
+      </div>
       <!-- Characters Section -->
       <h2>Characters</h2>
       <!-- Search Box with Icons -->
-      <div id="character-search-container" style="display: none;">
+      <div id="character-search-container" style="display: none">
         <label for="character-search">Search:</label>
         <div class="search-wrapper">
           <span class="search-icon">🔍</span>
@@ -153,6 +164,7 @@
       <!-- Load external libraries from CDN -->
       <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
       <!-- Include Local JavaScript Files -->
       <script src="scripts/constants.js" type="module"></script>
       <script src="scripts/fuzzySearch.js"></script>
