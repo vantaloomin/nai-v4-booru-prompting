@@ -237,7 +237,7 @@
 
 /* NSFW toggle colors */
 #nsfw-toggle-container .slider {
-    background-color: #9c27b0; /* SFW (default/unchecked) - Purple */
+    background-color: var(--color-primary); /* SFW (default/unchecked) - Purple */
 }
 
 #nsfw-toggle-container input:checked + .slider {
@@ -255,7 +255,7 @@
 
 /* Mode toggle colors */
 #mode-toggle-container .slider {
-    background-color: #9c27b0; /* NovelAI mode (default/unchecked) - Purple */
+    background-color: var(--color-primary); /* NovelAI mode (default/unchecked) - Purple */
 }
 
 #mode-toggle-container input:checked + .slider {

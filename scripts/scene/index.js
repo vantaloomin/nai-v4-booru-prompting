@@ -102,7 +102,7 @@ export function createSceneCard() {
 
     const dragHandle = document.createElement("span");
     dragHandle.className = "drag-handle";
-    dragHandle.textContent = "≡";
+    dragHandle.innerHTML = '<i class="bx bx-grid-vertical"></i>';
     header.appendChild(dragHandle);
 
     const title = document.createElement("span");
@@ -132,7 +132,7 @@ export function createSceneCard() {
     // Add clear icon
     const clearIcon = document.createElement("span");
     clearIcon.className = "custom-clear-icon";
-    clearIcon.textContent = "✖";
+    clearIcon.innerHTML = '<i class="bx bx-x"></i>';
     clearIcon.addEventListener("click", function() {
         customInput.value = "";
     });
@@ -164,7 +164,7 @@ export function createSceneCard() {
     // Remove Scene button.
     const removeBtn = document.createElement("button");
     removeBtn.type = "button";
-    removeBtn.textContent = "Remove Scene";
+    removeBtn.innerHTML = '<i class="bx bx-trash"></i> Remove Scene';
     removeBtn.className = "remove-scene-btn";
     removeBtn.addEventListener("click", function () {
         container.removeChild(card);

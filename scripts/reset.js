@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Create close button
     const closeButton = document.createElement('span');
     closeButton.classList.add('modal-close');
-    closeButton.innerHTML = '&times;';
+    closeButton.innerHTML = '<i class="bx bx-x"></i>';
     closeButton.addEventListener('click', function () {
       document.body.removeChild(modalOverlay);
     });
@@ -65,14 +65,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Create cancel button
     const cancelButton = document.createElement('button');
-    cancelButton.textContent = 'Cancel';
+    cancelButton.innerHTML = '<i class="bx bx-x-circle"></i> Cancel';
     cancelButton.addEventListener('click', function () {
       document.body.removeChild(modalOverlay);
     });
 
     // Create confirm button
     const confirmButton = document.createElement('button');
-    confirmButton.textContent = 'Reset';
+    confirmButton.innerHTML = '<i class="bx bx-reset"></i> Reset';
     confirmButton.style.backgroundColor = 'var(--color-danger)';
     confirmButton.addEventListener('click', function () {
       try {

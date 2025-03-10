@@ -83,12 +83,12 @@
       </div>
       <!-- Character CTA Buttons -->
       <div id="character-ctas">
-        <button id="add-character-btn">Add Character</button>
-        <button id="add-custom-character-btn">Add Custom Character</button>
+        <button id="add-character-btn"><i class="bx bx-user-plus"></i> Add Character</button>
+        <button id="add-custom-character-btn"><i class="bx bx-user-circle"></i> Add Custom Character</button>
         <!-- Random Character dropdown -->
         <div class="custom-dropdown" id="random-char-dropdown">
           <button id="random-char-btn" class="selected-display">
-            Random Character
+            <i class="bx bx-shuffle"></i> Random Character
           </button>
           <div class="dropdown-list suggestions-list" id="random-char-options">
             <div class="suggestion-item" id="add-rand-char-btn">
@@ -110,8 +110,8 @@
           id="artist-scene-controls"
           style="display: flex; gap: 10px; margin-top: 10px"
         >
-          <button id="add-artist-btn" type="button">Add Artist</button>
-          <button id="add-scene-btn" type="button">Add Scene</button>
+          <button id="add-artist-btn" type="button"><i class="bx bx-paint-brush"></i> Add Artist</button>
+          <button id="add-scene-btn" type="button"><i class="bx bx-landscape"></i> Add Scene</button>
         </div>
         <!-- Container for selection cards; cards will appear inline (each ~33% width) -->
         <div
@@ -123,8 +123,8 @@
       </div>
       <!-- Hidden Actions Section (prototype removed from visual display) -->
       <div id="actions-section" style="display: none">
-        <button id="add-action-btn" type="button">Add Action</button>
-        <button id="add-scene-btn" type="button">Add Scene</button>
+        <button id="add-action-btn" type="button"><i class="bx bx-run"></i> Add Action</button>
+        <button id="add-scene-btn" type="button"><i class="bx bx-landscape"></i> Add Scene</button>
         <div id="actions-container">
           <!-- Action blocks will be added here internally -->
         </div>
@@ -154,14 +154,14 @@
           Scene</label
         >
       </div>
-      <button id="full-random-btn" type="button">Full Random Prompt</button>
+      <button id="full-random-btn" type="button"><i class="bx bx-dice-5"></i> Full Random Prompt</button>
       <hr />
       <!-- Generated Prompt Section -->
       <h2>Generated Prompt</h2>
       <div id="output-container">
         <div id="output-preview" contenteditable="true"></div>
       </div>
-      <button id="toggle-expand" style="display: none">Expand</button>
+      <button id="toggle-expand" style="display: none"><i class="bx bx-expand"></i> Expand</button>
 
       <!-- Load external libraries from CDN -->
       <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
@@ -185,9 +185,9 @@
     </div>
     <!-- Floating Buttons for Prompting -->
     <div id="floating-buttons">
-      <button id="generate-btn">Generate Prompt</button>
-      <button id="copy-prompt-btn" type="button">Copy Prompt</button>
-      <button id="reset-btn" type="button">Reset Page</button>
+      <button id="generate-btn"><i class="bx bx-code-alt"></i> Generate Prompt</button>
+      <button id="copy-prompt-btn" type="button"><i class="bx bx-copy"></i> Copy Prompt</button>
+      <button id="reset-btn" type="button"><i class="bx bx-reset"></i> Reset Page</button>
     </div>
   </body>
 </html>

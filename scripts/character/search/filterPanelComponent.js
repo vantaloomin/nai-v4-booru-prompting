@@ -74,12 +74,12 @@ function initFilterEvents(blockId, filterToggle, filterPanel, filterContainer) {
         // Update button appearance
         this.classList.toggle('active', !isVisible);
         
-        // Update icon to show filled version when active
-        const iconElement = this.querySelector('.bx-filter, .bxs-filter');
-        if (iconElement) {
-            if (isVisible) {
-                iconElement.classList.remove('bxs-filter');
+        // Change the icon state to indicate active filters
+        if (this.querySelector('.filter-icon')) {
+            const iconElement = this.querySelector('.bx-filter, .bxs-filter');
+            if (!isVisible) {
                 iconElement.classList.add('bx-filter');
+                iconElement.classList.remove('bxs-filter');
             } else {
                 iconElement.classList.remove('bx-filter');
                 iconElement.classList.add('bxs-filter');
@@ -205,7 +205,7 @@ function populateFilterPanel(filterPanel, blockId) {
     
     const clearButton = document.createElement('button');
     clearButton.className = 'filter-clear-btn';
-    clearButton.innerHTML = '<i class="bx bx-broom"></i> Clear All Filters';
+    clearButton.innerHTML = '<i class="bx bx-eraser"></i> Clear All Filters';
     clearButton.addEventListener('click', function() {
         clearAllFilters(blockId, filterPanel);
     });
@@ -582,7 +582,7 @@ function updateFilterToggleState(blockId) {
         // Update the icon to a funnel with dots to indicate active filters
         const iconElement = filterToggle.querySelector('.filter-icon');
         if (iconElement) {
-            iconElement.innerHTML = '<i class="bx bx-filter-circle-xmark"></i>';
+            iconElement.innerHTML = '<i class="bx bxs-filter"></i>';
         }
     } else {
         filterToggle.classList.remove('has-active-filters');

@@ -69,7 +69,7 @@
 
 /* NSFW toggle colors */
 #nsfw-toggle-container .slider {
-  background-color: var(--color-bg-input, #ccc);
+  background-color: var(--color-primary);
 }
 
 #nsfw-toggle-container input:checked + .slider {

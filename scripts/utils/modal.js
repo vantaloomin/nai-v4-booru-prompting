@@ -74,7 +74,7 @@ export function showModal(options = {}) {
     if (settings.showCloseButton) {
         const closeButton = document.createElement('button');
         closeButton.className = 'modal-close-btn';
-        closeButton.innerHTML = '&times;';
+        closeButton.innerHTML = '<i class="bx bx-x"></i>';
         closeButton.addEventListener('click', () => closeModal(modalOverlay, settings.onClose));
         modalHeader.appendChild(closeButton);
     }
@@ -93,7 +93,7 @@ export function showModal(options = {}) {
     
     const dismissButton = document.createElement('button');
     dismissButton.className = 'modal-dismiss-btn';
-    dismissButton.textContent = 'Dismiss';
+    dismissButton.innerHTML = '<i class="bx bx-check"></i> Dismiss';
     dismissButton.addEventListener('click', () => closeModal(modalOverlay, settings.onClose));
     modalFooter.appendChild(dismissButton);
     
